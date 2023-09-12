@@ -1,6 +1,6 @@
 # HW0 - Report
 ### Hope Zobinou
-### DATA 440, Spring 2023
+### DATA 440, Fall 2023
 ### 9/12/2023
 
 # Q1
