@@ -9,32 +9,29 @@
 
 ## Answer
 
-The example figure below shows the growth in the number of websites between 1993 and 1996.
+The example figure below shows a picture of Stephen Curry.
 
-![\label{fig:web-growth}](https://raw.githubusercontent.com/anwala/teaching-web-science/main/fall-2022/homework/hw0/growth_early_web.png)
+![rawImage](https://github.com/HopeZobinou/data440/assets/81893993/9e2d6d4a-3775-441f-8c6e-ccee2825d80c)
 
 *If you want to include code in your report, you can insert a screenshot (if it's legible), or you can copy/paste the code into a fenced code block.*
 
 ```python
-#!/usr/local/bin/python3
-# testargs.py
+MyAnimals = ['cat', 'dog', 'rabbit', 'bunny']
 
-import sys
-
-print ("{} is the name of the script." . format(sys.argv[0]))
-print ("There are {} arguments: {}" . format(len(sys.argv), str(sys.argv)))
-
-for ind, arg in enumerate(sys.argv):
-    print ("[{}]: {} {}".format(ind,arg,sys.argv[ind]))
+i = 0 
+for Animal in MyAnimals:
+    print(i, ':', Animal)
+    i += 1
 ```
 
 The table below shows a simple table.  
 
-|Week|Date|Topic|
-|:---|:---|:---|
-|1|Sep 1, 3|Introduction, What's Vis and Why Do It?|
-|2|Sep 8, 10|Data and Data Cleaning|
-|3|Sep 15, 17|Marks and Channels|
+|Week |Lecture Dates|Topic|
+|---|---|---|
+|1|Aug 31 & Sep 5|Introduction to Web Science and Web Architecture
+|2|Sep  7 & 12|Introduction to Python
+|3|Sep 14 & 19|Introduction to Info Vis with R, Python
+|4|Sep 21 & 26|Measuring the Web
 
 The table below shows an example confusion matrix (you'll see this term later) from <https://en.wikipedia.org/wiki/Confusion_matrix>.
 
@@ -64,5 +61,6 @@ The table below shows an example confusion matrix (you'll see this term later) f
 
 *Every report must list the references that you consulted while completing the assignment. If you consulted a webpage, you must include the URL.*
 
-* Insert Reference 1, <https://www.example.com>
-* Insert Reference 2, <https://www.example.com/reallyreallyreally-extra-long-URI/>
+* Youtube: Add images to Github README file, <https://www.youtube.com/watch?v=qIaWozjDyPk>
+* Piazza: Useful Script for hw0, <https://piazza.com/class/lkigmflhvuh1q7/post/8>
+* Piazza: Hw0 doesn't require creation of Twitter Dev. account, <https://piazza.com/class/lkigmflhvuh1q7/post/9>
