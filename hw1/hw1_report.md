@@ -52,6 +52,12 @@ Below is the graph and the categories that the nodes go to.
 
 # Q2
 
+a) First, load this URI https://httpbin.org/user-agent directly in your browser and take a screenshot. The resulting webpage should show the "User-Agent" HTTP request header that your web browser sends to the web server.
+
+b) In a single curl command, issue a HEAD HTTP request for the URI, https://t.co/KSHFYLmmB0. Show the HTTP response headers, follow any redirects, and change the User-Agent HTTP request field to "DATA 440." Show the command you issued and the result of your execution on the command line. (Either take a screenshot of your terminal or copy/paste into a code segment.)
+
+Briefly explain the results you get for each of these steps.
+
 ## Answer
 
 ## Discussion
