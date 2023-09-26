@@ -6,7 +6,7 @@
 # Q1
 
 *Now consider the following links:*
-'''text
+```text
 A --> B
 B --> C
 C --> D
@@ -23,7 +23,7 @@ M --> N
 N --> D
 O --> A
 P --> G 
-'''
+```
 *Draw the resulting directed graph (either sketch on paper or use another tool) showing how the nodes are connected to each other.*
 *For the graph, list the nodes (in alphabetical order) that are each of the following categories:*
 *-SCC:*
