@@ -1,11 +1,39 @@
 # HW1 - Report
 ### Hope Zobinou
 ### DATA 440, Fall 2023
-### //2023
+### 9/26/2023
 
 # Q1
 
 *Now consider the following links:*
+'''text
+A --> B
+B --> C
+C --> D
+C --> A
+C --> G
+E --> F
+G --> C
+G --> H
+I --> H
+I --> K
+L --> D
+M --> A
+M --> N
+N --> D
+O --> A
+P --> G 
+'''
+*Draw the resulting directed graph (either sketch on paper or use another tool) showing how the nodes are connected to each other.*
+*For the graph, list the nodes (in alphabetical order) that are each of the following categories:*
+*-SCC:*
+*-IN:*
+*-OUT:*
+*-Tendrils:*
+    *-indicate if the tendril is reachable from IN or can reach OUT*
+*-Tubes:*
+    *-explain how the nodes serve as tubes*
+*-Disconnected:*
 
 ## Answer
 
