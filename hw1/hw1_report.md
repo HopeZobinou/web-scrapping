@@ -5,7 +5,7 @@
 
 # Q1
 
-*You may copy the question into your report, but make sure that you make it clear where the question ends and your answer begins.*
+*Now consider the following links:*
 
 ## Answer
 
