@@ -72,6 +72,8 @@ Below is a picture of the output after the redirection command.
 
 ![q2bp2](https://github.com/HopeZobinou/data440/assets/81893993/c477ae22-4da1-44c8-afa1-06a8f92cb8b7)
 
+
+
 ## Discussion
 
 # Q3
