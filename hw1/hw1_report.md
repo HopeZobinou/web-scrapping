@@ -3,6 +3,7 @@
 ### DATA 440, Fall 2023
 ### 9/26/2023
 
+
 # Q1
 
 *Now consider the following links:*
