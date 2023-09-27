@@ -64,6 +64,10 @@ Briefly explain the results you get for each of these steps.
 
 ![q2a](https://github.com/HopeZobinou/data440/assets/81893993/f11cead6-4ad3-49f3-acbe-4fd126018b25)
 
+Below I made a head request and changed the user agent field in one line.
+
+![q2bp1](https://github.com/HopeZobinou/data440/assets/81893993/deed661a-cd4a-470b-ae3a-1c277cc0c4e5)
+
 ## Discussion
 
 # Q3
