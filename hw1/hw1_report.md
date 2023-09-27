@@ -97,6 +97,8 @@ Below is the results of the code running with the https://alexandernwala.com/fil
 
 ![q3p1](https://github.com/HopeZobinou/data440/assets/81893993/4c122b83-242a-4a20-8bf9-651cff467e14)
 
+
+
 ## Discussion
 
 # References
