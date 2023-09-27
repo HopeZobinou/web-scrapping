@@ -68,7 +68,9 @@ Below I made a head request and changed the user agent field in one line.
 
 ![q2bp1](https://github.com/HopeZobinou/data440/assets/81893993/deed661a-cd4a-470b-ae3a-1c277cc0c4e5)
 
+Below is a picture of the output after the redirection command.
 
+![q2bp2](https://github.com/HopeZobinou/data440/assets/81893993/c477ae22-4da1-44c8-afa1-06a8f92cb8b7)
 
 ## Discussion
 
