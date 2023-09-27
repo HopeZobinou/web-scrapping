@@ -60,7 +60,7 @@ Briefly explain the results you get for each of these steps.
 
 ## Answer
 
-Below is my browser when I entered the URI.
+*Below is my browser when I entered the URI.*
 
 ![q2a](https://github.com/HopeZobinou/data440/assets/81893993/f11cead6-4ad3-49f3-acbe-4fd126018b25)
 
