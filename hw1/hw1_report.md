@@ -102,6 +102,10 @@ Below is the result of the code running with the https://cristianofanelli.com/te
 ![q3p2](https://github.com/HopeZobinou/data440/assets/81893993/9b54a735-cc12-4b7d-a688-d12beef72bde)
 
 
+Below is the result of the code running with the https://swensonlab.weebly.com/pubs.html link.
+
+![q3p3](https://github.com/HopeZobinou/data440/assets/81893993/8a2a5d47-160b-466e-8917-ecdfe3f38827)
+
 
 ## Discussion
 
