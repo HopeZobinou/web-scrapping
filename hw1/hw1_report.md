@@ -115,7 +115,5 @@ http get request on the user's uri, make a soup object, goes through every link 
 
 # References
 
-*Every report must list the references that you consulted while completing the assignment. If you consulted a webpage, you must include the URL.*
-
 * Reference 1, https://phoenixnap.com/kb/curl-user-agent
 * Reference 2, https://github.com/anwala/teaching-web-science/blob/main/fall-2023/week-3/data_440_02_f23_mod_03_web_scraping_imdb.ipynb
