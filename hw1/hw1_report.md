@@ -93,6 +93,10 @@ Show that the program works on 3 different URIs, one of which must be https://al
   
 ## Answer
 
+Below is the results of the code running with the https://alexandernwala.com/files/teaching/fall-2022/week-2/2018_wsdl_publications.html link.
+
+![q3p1](https://github.com/HopeZobinou/data440/assets/81893993/4c122b83-242a-4a20-8bf9-651cff467e14)
+
 ## Discussion
 
 # References
