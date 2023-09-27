@@ -110,9 +110,12 @@ Below is the result of the code running with the https://swensonlab.weebly.com/p
 
 ## Discussion
 
+When making the program I just had an order in mind and replicated it with the code. Make an 
+http get request on the user's uri, make a soup object, goes through every link in the soup object to find anchor tags, check if the link ends in pdf, get the final uri, get the content length, and print the results. The making soup object and performing its methods come from Professor's ipynb on scraping imdb Reference 2.
+
 # References
 
 *Every report must list the references that you consulted while completing the assignment. If you consulted a webpage, you must include the URL.*
 
-* Insert Reference 1, <https://www.example.com>
-* Insert Reference 2, <https://www.example.com/reallyreallyreally-extra-long-URI/>
+* Reference 1, https://phoenixnap.com/kb/curl-user-agent
+* Reference 2, https://github.com/anwala/teaching-web-science/blob/main/fall-2023/week-3/data_440_02_f23_mod_03_web_scraping_imdb.ipynb
