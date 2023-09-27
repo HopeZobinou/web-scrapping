@@ -76,8 +76,21 @@ Below is a picture of the output after the redirection command.
 
 ## Discussion
 
+*I went to reference 1 to figure out how to change the user agent field. The -I stands for head and the -L stands for following redirections.*
+The page was redirected once. You can tell because there is only one 3xx-level response. 
+
 # Q3
 
+Write a Python program to find links to PDFs in a webpage.
+
+Your program must do the following:
+* take the URI of a webpage as a command-line argument
+* extract all the links from the page
+* for each link, request the URI and use the `Content-Type` HTTP response header to determine if the link references a PDF file 
+* for all links that reference a PDF file, print the original URI (found in the parent HTML page), the final URI (after any redirects), and the number of bytes in the PDF file. (Hint: `Content-Length` HTTP response header)
+
+Show that the program works on 3 different URIs, one of which must be https://alexandernwala.com/files/teaching/fall-2022/week-2/2018_wsdl_publications.html, which contains 8 links to PDFs.
+  
 ## Answer
 
 ## Discussion
