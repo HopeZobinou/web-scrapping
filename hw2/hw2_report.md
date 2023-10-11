@@ -21,19 +21,38 @@ The example figure below shows the 1000 unique Twitter links.
 
 
 
-*If you want to include code in your report, you can insert a screenshot (if it's legible), or you can copy/paste the code into a fenced code block.*
+Below is the code that helped me do it
 
 ```python
-#!/usr/local/bin/python3
-# testargs.py
+import gzip
+import json
+import requests
 
-import sys
+from playwright.sync_api import sync_playwright
+from scrape_twitter import get_auth_twitter_pg
+from scrape_twitter_v2 import stream_tweets
+from util import write_tweets_to_jsonl_file
 
-print ("{} is the name of the script." . format(sys.argv[0]))
-print ("There are {} arguments: {}" . format(len(sys.argv), str(sys.argv)))
+if __name__ == "__main__":
+    final_links = []
+    unique_links = []
 
-for ind, arg in enumerate(sys.argv):
-    print ("[{}]: {} {}".format(ind,arg,sys.argv[ind]))
+    with sync_playwright() as playwright:
+        browser_dets = get_auth_twitter_pg(playwright) #Opens the browser and navigates through twitter
+
+        if( len(browser_dets) != 0 ):
+            tweets = stream_tweets(browser_dets, 'Biden', max_tweets = 100) #Collects tweets w/ URIs from search
+
+        for i in tweets: #Gets the final URI from each link
+            r = requests.get(i)
+            final_links.append(r.url)  
+
+        [unique_links.append(x) for x in final_links if x not in unique_links] #Gets the unique links
+
+        print('unique links:')
+
+        for k in unique_links: #Prints the links
+            print(k)   
 ```
 
 The table below shows a simple table.  
