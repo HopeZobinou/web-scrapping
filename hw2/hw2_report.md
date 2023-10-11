@@ -4,7 +4,7 @@
 ### 10/10/2023
 
 # Q1: Collect URIs from Tweets
-Extract 1000 unique links from tweets in Twitter.
+Extract 1000 unique links from tweets in Twitter. 
 
 Main steps:
 * Create a special Twitter account
