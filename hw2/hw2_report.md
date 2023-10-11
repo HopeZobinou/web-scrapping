@@ -19,7 +19,7 @@ Main steps:
 
 The example figure below shows the 1000 unique Twitter links.
 
-
+![q1_links](https://github.com/HopeZobinou/data440/assets/81893993/c5239f49-88dd-4981-b755-db4b9217024d)
 
 Below is the code that helped me do it
 
