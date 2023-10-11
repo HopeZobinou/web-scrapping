@@ -47,8 +47,10 @@ if __name__ == "__main__":
 ```
 
 ## Discussion
-Getting that many links was time-consuming and hard to understand at first. For my program that collects the links, I based it on Professor Nwala's work from 
-class.
+Getting that many links was time-consuming and hard to understand at first. For my program, I based it on Professor Nwala's work from 
+class. Reference 1 & 2. The functions to get the tweets are from him. For some reason, I couldn't get the write json function to work 
+so I made the program collect the links in a list and print them to the screen. After that, I copied the links that weren't video/audio
+related or links that linked to twitter and pasted them into Notepad++. In Notepad++, I got rid of the duplicate links.
 
 # Q2
 
