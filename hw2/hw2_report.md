@@ -52,38 +52,7 @@ class. Reference 1 & 2. The functions to get the tweets are from him. For some r
 so I made the program collect the links in a list and print them to the screen. After that, I copied the links that weren't video/audio
 related or links that linked to twitter and pasted them into Notepad++. In Notepad++, I got rid of the duplicate links.
 
-# Q2
-
-## Answer
-
-## Discussion
-
-# Q3
-
-## Answer
-
-## Discussion
-
-
-The table below shows a simple table.  
-
-|Week|Date|Topic|
-|:---|:---|:---|
-|1|Sep 1, 3|Introduction, What's Vis and Why Do It?|
-|2|Sep 8, 10|Data and Data Cleaning|
-|3|Sep 15, 17|Marks and Channels|
-
-The table below shows an example confusion matrix (you'll see this term later) from <https://en.wikipedia.org/wiki/Confusion_matrix>.
-
-| | |Actual||
-|---|---|---|---|
-|**Predicted**| |Cat|Dog|
-| |Cat|5 (TP)|3 (FP)|
-| |Dog|2 (FN)|3 (TN)|
-
 # References
 
-*Every report must list the references that you consulted while completing the assignment. If you consulted a webpage, you must include the URL.*
-
-* Insert Reference 1, <https://www.example.com>
-* Insert Reference 2, <https://www.example.com/reallyreallyreally-extra-long-URI/>
+*Reference 1, <https://github.com/anwala/teaching-web-science/tree/main/fall-2023/week-3/twitter-scraper#example-2-extract-tweets-from-search>
+*Reference 2, <https://github.com/anwala/teaching-web-science/blob/main/fall-2023/week-3/twitter-scraper/process_tweets.py>
