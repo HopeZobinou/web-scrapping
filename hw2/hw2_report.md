@@ -6,7 +6,7 @@
 # Q1: Collect URIs from Tweets
 Extract 1000 unique links from tweets in Twitter. 
 
-Main steps:
+Main steps: 
 * Create a special Twitter account
 * Write a Python program that collects English-language tweets that contain links. See [Collecting Tweets](#collecting-tweets).
 * Write a Python program that extracts the links shared in tweets. See [Extracting Links from Tweets](#extracting-links-from-tweets).
