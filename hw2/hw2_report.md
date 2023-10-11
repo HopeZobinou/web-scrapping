@@ -15,7 +15,7 @@ Main steps:
   * if after this step, you don't have 1000 unique URIs, go back and gather more until you are able to get at least 1000 unique URIs
 * Save this collection of 1000 unique links in a file and upload it to your repo in GitHub -- we'll use it again in [HW3](/fall-2022/homework/hw3/README.md)
 
-## Answer
+## Answer 
 
 The example figure below shows the 1000 unique Twitter links.
 
