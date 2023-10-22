@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.cdc.gov/mmwr/volumes/72/wr/mm7242e1.htm?s_cid=mm7242e1_x",
+  "self": "http://localhost:1208/timemap/json/https://www.cdc.gov/mmwr/volumes/72/wr/mm7242e1.htm?s_cid=mm7242e1_x",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T18:37:10Z",
+        "uri": "https://web.archive.org/web/20231012183710/https://www.cdc.gov/mmwr/volumes/72/wr/mm7242e1.htm?s_cid=mm7242e1_x"
+      },
+      {
+        "datetime": "2023-10-17T04:30:30Z",
+        "uri": "https://web.archive.org/web/20231017043030/https://www.cdc.gov/mmwr/volumes/72/wr/mm7242e1.htm?s_cid=mm7242e1_x"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T18:37:10Z",
+      "uri": "https://web.archive.org/web/20231012183710/https://www.cdc.gov/mmwr/volumes/72/wr/mm7242e1.htm?s_cid=mm7242e1_x"
+    },
+    "last": {
+      "datetime": "2023-10-17T04:30:30Z",
+      "uri": "https://web.archive.org/web/20231017043030/https://www.cdc.gov/mmwr/volumes/72/wr/mm7242e1.htm?s_cid=mm7242e1_x"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cdc.gov/mmwr/volumes/72/wr/mm7242e1.htm?s_cid=mm7242e1_x",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cdc.gov/mmwr/volumes/72/wr/mm7242e1.htm?s_cid=mm7242e1_x",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cdc.gov/mmwr/volumes/72/wr/mm7242e1.htm?s_cid=mm7242e1_x"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cdc.gov/mmwr/volumes/72/wr/mm7242e1.htm?s_cid=mm7242e1_x"
+}

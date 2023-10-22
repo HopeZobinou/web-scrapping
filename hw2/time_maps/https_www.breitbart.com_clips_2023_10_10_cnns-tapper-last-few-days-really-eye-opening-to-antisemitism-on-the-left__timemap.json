@@ -1,0 +1,86 @@
+{
+  "original_uri": "https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/",
+  "self": "http://localhost:1208/timemap/json/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T23:33:55Z",
+        "uri": "https://web.archive.org/web/20231010233355/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-10T23:37:49Z",
+        "uri": "http://archive.md/20231010233749/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-11T00:43:46Z",
+        "uri": "https://web.archive.org/web/20231011004346/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-11T01:44:21Z",
+        "uri": "https://web.archive.org/web/20231011014421/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-11T07:05:09Z",
+        "uri": "https://web.archive.org/web/20231011070509/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-11T13:30:45Z",
+        "uri": "https://web.archive.org/web/20231011133045/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-11T18:34:01Z",
+        "uri": "https://web.archive.org/web/20231011183401/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-11T21:21:22Z",
+        "uri": "https://web.archive.org/web/20231011212122/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-12T02:12:42Z",
+        "uri": "https://web.archive.org/web/20231012021242/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-12T06:57:41Z",
+        "uri": "https://web.archive.org/web/20231012065741/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-12T12:25:07Z",
+        "uri": "https://web.archive.org/web/20231012122507/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-12T15:54:26Z",
+        "uri": "https://web.archive.org/web/20231012155426/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-12T18:22:36Z",
+        "uri": "https://web.archive.org/web/20231012182236/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-14T00:42:24Z",
+        "uri": "https://web.archive.org/web/20231014004224/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-14T16:47:10Z",
+        "uri": "https://web.archive.org/web/20231014164710/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      },
+      {
+        "datetime": "2023-10-15T22:09:48Z",
+        "uri": "https://web.archive.org/web/20231015220948/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T23:33:55Z",
+      "uri": "https://web.archive.org/web/20231010233355/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+    },
+    "last": {
+      "datetime": "2023-10-15T22:09:48Z",
+      "uri": "https://web.archive.org/web/20231015220948/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.breitbart.com/clips/2023/10/10/cnns-tapper-last-few-days-really-eye-opening-to-antisemitism-on-the-left/"
+}

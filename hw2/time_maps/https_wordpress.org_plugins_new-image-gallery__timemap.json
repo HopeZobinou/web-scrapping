@@ -1,0 +1,674 @@
+{
+  "original_uri": "https://wordpress.org/plugins/new-image-gallery/",
+  "self": "http://localhost:1208/timemap/json/https://wordpress.org/plugins/new-image-gallery/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-05-29T00:27:35Z",
+        "uri": "https://web.archive.org/web/20180529002735/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-05-29T23:45:54Z",
+        "uri": "https://web.archive.org/web/20180529234554/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-06-01T14:44:37Z",
+        "uri": "https://web.archive.org/web/20180601144437/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-06-10T10:10:13Z",
+        "uri": "https://web.archive.org/web/20180610101013/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-07-27T14:20:44Z",
+        "uri": "https://web.archive.org/web/20180727142044/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-08-02T23:39:07Z",
+        "uri": "https://web.archive.org/web/20180802233907/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-08-05T02:05:34Z",
+        "uri": "https://web.archive.org/web/20180805020534/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-08-08T02:27:20Z",
+        "uri": "https://web.archive.org/web/20180808022720/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-08-13T01:05:50Z",
+        "uri": "https://web.archive.org/web/20180813010550/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-08-19T22:05:43Z",
+        "uri": "https://web.archive.org/web/20180819220543/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-08-29T06:09:11Z",
+        "uri": "https://web.archive.org/web/20180829060911/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-09-10T00:04:48Z",
+        "uri": "https://web.archive.org/web/20180910000448/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-09-11T02:16:27Z",
+        "uri": "https://web.archive.org/web/20180911021627/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-09-12T07:35:07Z",
+        "uri": "https://web.archive.org/web/20180912073507/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-09-15T05:12:56Z",
+        "uri": "https://web.archive.org/web/20180915051256/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-09-22T00:01:49Z",
+        "uri": "https://web.archive.org/web/20180922000149/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-09-24T08:43:29Z",
+        "uri": "https://web.archive.org/web/20180924084329/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-10-04T14:11:27Z",
+        "uri": "https://web.archive.org/web/20181004141127/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-10-15T13:19:56Z",
+        "uri": "https://web.archive.org/web/20181015131956/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-10-17T16:52:23Z",
+        "uri": "https://web.archive.org/web/20181017165223/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-10-22T06:07:10Z",
+        "uri": "https://web.archive.org/web/20181022060710/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-10-24T16:33:42Z",
+        "uri": "https://web.archive.org/web/20181024163342/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-11-01T06:56:19Z",
+        "uri": "https://web.archive.org/web/20181101065619/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-11-05T17:06:32Z",
+        "uri": "https://web.archive.org/web/20181105170632/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-11-09T21:25:36Z",
+        "uri": "https://web.archive.org/web/20181109212536/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-11-10T19:30:45Z",
+        "uri": "https://web.archive.org/web/20181110193045/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-11-12T16:25:06Z",
+        "uri": "https://web.archive.org/web/20181112162506/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-11-14T01:14:07Z",
+        "uri": "https://web.archive.org/web/20181114011407/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-11-14T14:09:40Z",
+        "uri": "https://web.archive.org/web/20181114140940/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-11-19T05:41:36Z",
+        "uri": "https://web.archive.org/web/20181119054136/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-11-25T03:57:26Z",
+        "uri": "https://web.archive.org/web/20181125035726/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-11-26T16:41:28Z",
+        "uri": "https://web.archive.org/web/20181126164128/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-11-27T11:46:09Z",
+        "uri": "https://web.archive.org/web/20181127114609/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-11-28T01:11:18Z",
+        "uri": "https://web.archive.org/web/20181128011118/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-11-29T17:57:55Z",
+        "uri": "https://web.archive.org/web/20181129175755/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-11-30T11:35:37Z",
+        "uri": "https://web.archive.org/web/20181130113537/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-12-03T04:39:21Z",
+        "uri": "https://web.archive.org/web/20181203043921/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-12-06T05:03:03Z",
+        "uri": "https://web.archive.org/web/20181206050303/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-12-09T15:13:32Z",
+        "uri": "https://web.archive.org/web/20181209151332/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-12-14T22:43:16Z",
+        "uri": "https://web.archive.org/web/20181214224316/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2018-12-22T00:04:56Z",
+        "uri": "https://web.archive.org/web/20181222000456/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-01-02T22:10:53Z",
+        "uri": "https://web.archive.org/web/20190102221053/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-01-06T11:00:50Z",
+        "uri": "https://web.archive.org/web/20190106110050/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-01-11T19:02:53Z",
+        "uri": "https://web.archive.org/web/20190111190253/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-02-09T00:19:59Z",
+        "uri": "https://web.archive.org/web/20190209001959/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-02-12T03:17:18Z",
+        "uri": "https://web.archive.org/web/20190212031718/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-05-14T05:34:08Z",
+        "uri": "https://web.archive.org/web/20190514053408/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-06-03T08:14:24Z",
+        "uri": "https://web.archive.org/web/20190603081424/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-06-04T22:37:06Z",
+        "uri": "https://web.archive.org/web/20190604223706/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-06-22T09:33:40Z",
+        "uri": "https://web.archive.org/web/20190622093340/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-07-19T15:10:34Z",
+        "uri": "https://web.archive.org/web/20190719151034/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-07-20T14:41:03Z",
+        "uri": "https://web.archive.org/web/20190720144103/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-10-15T02:06:51Z",
+        "uri": "https://web.archive.org/web/20191015020651/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-10-30T16:10:50Z",
+        "uri": "https://web.archive.org/web/20191030161050/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-11-01T03:25:41Z",
+        "uri": "https://web.archive.org/web/20191101032541/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-11-11T02:03:34Z",
+        "uri": "https://web.archive.org/web/20191111020334/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-11-26T02:23:56Z",
+        "uri": "https://web.archive.org/web/20191126022356/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-12-11T12:41:53Z",
+        "uri": "https://web.archive.org/web/20191211124153/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2019-12-24T10:56:37Z",
+        "uri": "https://web.archive.org/web/20191224105637/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-01-01T11:10:19Z",
+        "uri": "https://web.archive.org/web/20200101111019/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-01-12T17:35:34Z",
+        "uri": "https://wayback.archive-it.org/all/20200112173534/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-01-12T17:35:34Z",
+        "uri": "https://web.archive.org/web/20200112173534/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-01-28T13:25:43Z",
+        "uri": "https://web.archive.org/web/20200128132543/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-02-26T01:27:46Z",
+        "uri": "https://web.archive.org/web/20200226012746/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-02-29T01:53:08Z",
+        "uri": "https://web.archive.org/web/20200229015308/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-03-30T14:11:55Z",
+        "uri": "https://web.archive.org/web/20200330141155/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-05-12T02:52:19Z",
+        "uri": "https://web.archive.org/web/20200512025219/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-05-15T02:51:05Z",
+        "uri": "https://web.archive.org/web/20200515025105/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-05-23T07:49:07Z",
+        "uri": "https://web.archive.org/web/20200523074907/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-06-02T09:58:21Z",
+        "uri": "https://web.archive.org/web/20200602095821/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-06-16T08:39:10Z",
+        "uri": "https://web.archive.org/web/20200616083910/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-06-19T10:31:38Z",
+        "uri": "https://web.archive.org/web/20200619103138/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-06-21T12:05:18Z",
+        "uri": "https://web.archive.org/web/20200621120518/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-06-25T18:55:33Z",
+        "uri": "https://web.archive.org/web/20200625185533/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-07-15T22:51:30Z",
+        "uri": "https://web.archive.org/web/20200715225130/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-07-16T23:20:23Z",
+        "uri": "https://web.archive.org/web/20200716232023/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-07-18T13:00:35Z",
+        "uri": "https://web.archive.org/web/20200718130035/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-07-24T10:41:00Z",
+        "uri": "https://web.archive.org/web/20200724104100/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-08-04T01:51:06Z",
+        "uri": "https://web.archive.org/web/20200804015106/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-10-06T14:22:16Z",
+        "uri": "https://web.archive.org/web/20201006142216/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-10-10T05:28:10Z",
+        "uri": "https://web.archive.org/web/20201010052810/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-10-13T18:50:29Z",
+        "uri": "https://web.archive.org/web/20201013185029/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-11-10T09:33:37Z",
+        "uri": "https://web.archive.org/web/20201110093337/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-11-16T09:25:19Z",
+        "uri": "https://web.archive.org/web/20201116092519/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-11-20T17:12:39Z",
+        "uri": "https://web.archive.org/web/20201120171239/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2020-11-26T16:40:49Z",
+        "uri": "https://web.archive.org/web/20201126164049/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-01-03T00:10:12Z",
+        "uri": "https://web.archive.org/web/20210103001012/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-01-22T01:20:08Z",
+        "uri": "https://web.archive.org/web/20210122012008/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-01-25T06:52:12Z",
+        "uri": "https://web.archive.org/web/20210125065212/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-02-24T12:00:02Z",
+        "uri": "https://wayback.archive-it.org/all/20210224120002/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-02-24T12:00:02Z",
+        "uri": "https://web.archive.org/web/20210224120002/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-02-25T20:53:32Z",
+        "uri": "https://web.archive.org/web/20210225205332/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-03-05T11:45:40Z",
+        "uri": "https://web.archive.org/web/20210305114540/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-03-07T21:15:36Z",
+        "uri": "https://web.archive.org/web/20210307211536/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-04-25T08:31:38Z",
+        "uri": "https://web.archive.org/web/20210425083138/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-05-03T21:40:17Z",
+        "uri": "https://web.archive.org/web/20210503214017/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-05-07T22:04:46Z",
+        "uri": "https://web.archive.org/web/20210507220446/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-05-09T05:11:20Z",
+        "uri": "https://web.archive.org/web/20210509051120/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-05-13T05:27:34Z",
+        "uri": "https://web.archive.org/web/20210513052734/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-05-18T05:59:05Z",
+        "uri": "https://web.archive.org/web/20210518055905/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-06-03T13:25:08Z",
+        "uri": "https://web.archive.org/web/20210603132508/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-06-09T10:52:30Z",
+        "uri": "https://web.archive.org/web/20210609105230/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-06-26T01:28:13Z",
+        "uri": "https://web.archive.org/web/20210626012813/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-06-28T22:54:40Z",
+        "uri": "https://web.archive.org/web/20210628225440/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-07-08T17:45:30Z",
+        "uri": "https://web.archive.org/web/20210708174530/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-07-16T22:52:25Z",
+        "uri": "https://web.archive.org/web/20210716225225/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-08-04T13:15:14Z",
+        "uri": "https://web.archive.org/web/20210804131514/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-08-10T15:00:11Z",
+        "uri": "https://web.archive.org/web/20210810150011/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-08-20T04:55:52Z",
+        "uri": "https://web.archive.org/web/20210820045552/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-08-23T23:45:54Z",
+        "uri": "https://web.archive.org/web/20210823234554/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-08-25T06:49:02Z",
+        "uri": "https://web.archive.org/web/20210825064902/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-09-06T16:01:45Z",
+        "uri": "https://web.archive.org/web/20210906160145/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-09-11T17:42:33Z",
+        "uri": "https://arquivo.pt/wayback/20210911174233mp_/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-10-13T04:04:52Z",
+        "uri": "https://web.archive.org/web/20211013040452/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-10-23T21:44:54Z",
+        "uri": "https://web.archive.org/web/20211023214454/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-10-27T07:52:18Z",
+        "uri": "https://arquivo.pt/wayback/20211027075218mp_/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-11-16T17:38:24Z",
+        "uri": "https://web.archive.org/web/20211116173824/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-11-23T23:05:01Z",
+        "uri": "https://web.archive.org/web/20211123230501/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-11-28T04:07:25Z",
+        "uri": "https://web.archive.org/web/20211128040725/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-12-02T11:22:41Z",
+        "uri": "https://web.archive.org/web/20211202112241/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2021-12-29T00:29:05Z",
+        "uri": "https://web.archive.org/web/20211229002905/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-01-08T21:48:47Z",
+        "uri": "https://web.archive.org/web/20220108214847/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-01-31T06:19:29Z",
+        "uri": "https://web.archive.org/web/20220131061929/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-02-09T11:55:13Z",
+        "uri": "https://arquivo.pt/wayback/20220209115513mp_/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-03-02T22:22:49Z",
+        "uri": "https://web.archive.org/web/20220302222249/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-03-13T02:03:00Z",
+        "uri": "https://web.archive.org/web/20220313020300/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-03-19T14:23:26Z",
+        "uri": "https://web.archive.org/web/20220319142326/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-03-28T21:53:29Z",
+        "uri": "https://web.archive.org/web/20220328215329/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-04-15T11:13:15Z",
+        "uri": "https://web.archive.org/web/20220415111315/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-04-23T06:11:15Z",
+        "uri": "https://arquivo.pt/wayback/20220423061115mp_/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-04-23T14:51:38Z",
+        "uri": "https://web.archive.org/web/20220423145138/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-04-29T18:58:21Z",
+        "uri": "https://web.archive.org/web/20220429185821/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-06-02T12:52:55Z",
+        "uri": "https://web.archive.org/web/20220602125255/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-06-04T13:34:13Z",
+        "uri": "https://web.archive.org/web/20220604133413/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-06-07T16:13:38Z",
+        "uri": "https://web.archive.org/web/20220607161338/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-06-14T07:50:31Z",
+        "uri": "https://web.archive.org/web/20220614075031/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-06-21T09:23:39Z",
+        "uri": "https://web.archive.org/web/20220621092339/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-06-30T09:38:59Z",
+        "uri": "https://web.archive.org/web/20220630093859/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-07-04T11:48:54Z",
+        "uri": "https://web.archive.org/web/20220704114854/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-07-06T22:44:35Z",
+        "uri": "https://web.archive.org/web/20220706224435/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-07-27T02:14:10Z",
+        "uri": "https://web.archive.org/web/20220727021410/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-08-20T04:34:52Z",
+        "uri": "https://web.archive.org/web/20220820043452/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-08-24T21:34:50Z",
+        "uri": "https://arquivo.pt/wayback/20220824213450mp_/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-09-07T06:52:50Z",
+        "uri": "https://web.archive.org/web/20220907065250/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-09-15T11:10:50Z",
+        "uri": "https://web.archive.org/web/20220915111050/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-11-08T03:01:56Z",
+        "uri": "https://web.archive.org/web/20221108030156/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-11-23T10:41:17Z",
+        "uri": "https://web.archive.org/web/20221123104117/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-12-16T23:58:47Z",
+        "uri": "https://web.archive.org/web/20221216235847/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-12-22T00:44:48Z",
+        "uri": "https://web.archive.org/web/20221222004448/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2022-12-29T22:30:54Z",
+        "uri": "https://web.archive.org/web/20221229223054/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2023-01-29T22:00:09Z",
+        "uri": "https://web.archive.org/web/20230129220009/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2023-02-01T04:41:50Z",
+        "uri": "https://web.archive.org/web/20230201044150/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2023-02-15T16:35:55Z",
+        "uri": "https://web.archive.org/web/20230215163555/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2023-02-18T12:35:24Z",
+        "uri": "https://web.archive.org/web/20230218123524/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2023-02-23T17:27:01Z",
+        "uri": "https://web.archive.org/web/20230223172701/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2023-05-19T20:26:24Z",
+        "uri": "https://web.archive.org/web/20230519202624/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2023-05-20T16:00:02Z",
+        "uri": "https://web.archive.org/web/20230520160002/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2023-06-02T17:59:44Z",
+        "uri": "https://web.archive.org/web/20230602175944/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2023-06-25T09:56:54Z",
+        "uri": "https://wayback.archive-it.org/all/20230625095654/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2023-06-25T09:56:54Z",
+        "uri": "https://web.archive.org/web/20230625095654/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2023-08-15T00:32:32Z",
+        "uri": "https://wayback.archive-it.org/all/20230815003232/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2023-08-15T00:32:32Z",
+        "uri": "https://web.archive.org/web/20230815003232/https://wordpress.org/plugins/new-image-gallery/"
+      },
+      {
+        "datetime": "2023-10-07T16:10:42Z",
+        "uri": "https://web.archive.org/web/20231007161042/https://wordpress.org/plugins/new-image-gallery/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-05-29T00:27:35Z",
+      "uri": "https://web.archive.org/web/20180529002735/https://wordpress.org/plugins/new-image-gallery/"
+    },
+    "last": {
+      "datetime": "2023-10-07T16:10:42Z",
+      "uri": "https://web.archive.org/web/20231007161042/https://wordpress.org/plugins/new-image-gallery/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://wordpress.org/plugins/new-image-gallery/",
+    "json_format": "http://localhost:1208/timemap/json/https://wordpress.org/plugins/new-image-gallery/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://wordpress.org/plugins/new-image-gallery/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://wordpress.org/plugins/new-image-gallery/"
+}

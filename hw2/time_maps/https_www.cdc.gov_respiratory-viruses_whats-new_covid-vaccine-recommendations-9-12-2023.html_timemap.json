@@ -1,0 +1,630 @@
+{
+  "original_uri": "https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html",
+  "self": "http://localhost:1208/timemap/json/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-09-13T16:55:54Z",
+        "uri": "https://web.archive.org/web/20230913165554/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-13T21:47:20Z",
+        "uri": "https://web.archive.org/web/20230913214720/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-13T22:10:27Z",
+        "uri": "https://web.archive.org/web/20230913221027/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-14T00:54:13Z",
+        "uri": "https://web.archive.org/web/20230914005413/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-14T16:37:36Z",
+        "uri": "https://wayback.archive-it.org/all/20230914163736/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-15T01:20:03Z",
+        "uri": "https://web.archive.org/web/20230915012003/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-15T04:32:48Z",
+        "uri": "http://archive.md/20230915043248/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-15T16:14:38Z",
+        "uri": "https://web.archive.org/web/20230915161438/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-16T04:34:01Z",
+        "uri": "https://web.archive.org/web/20230916043401/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-16T05:04:23Z",
+        "uri": "https://web.archive.org/web/20230916050423/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-16T07:12:16Z",
+        "uri": "https://web.archive.org/web/20230916071216/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-16T14:33:03Z",
+        "uri": "https://web.archive.org/web/20230916143303/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-17T03:42:04Z",
+        "uri": "https://web.archive.org/web/20230917034204/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-17T05:38:00Z",
+        "uri": "https://web.archive.org/web/20230917053800/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-17T10:44:01Z",
+        "uri": "https://web.archive.org/web/20230917104401/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-18T05:44:13Z",
+        "uri": "https://web.archive.org/web/20230918054413/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-18T09:25:50Z",
+        "uri": "https://web.archive.org/web/20230918092550/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-18T10:59:47Z",
+        "uri": "https://web.archive.org/web/20230918105947/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-19T11:46:54Z",
+        "uri": "https://web.archive.org/web/20230919114654/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-19T14:28:22Z",
+        "uri": "https://web.archive.org/web/20230919142822/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T03:11:00Z",
+        "uri": "https://web.archive.org/web/20230920031100/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T03:20:56Z",
+        "uri": "https://web.archive.org/web/20230920032056/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T03:29:20Z",
+        "uri": "https://web.archive.org/web/20230920032920/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T03:33:15Z",
+        "uri": "https://web.archive.org/web/20230920033315/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T03:33:51Z",
+        "uri": "https://web.archive.org/web/20230920033351/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T03:45:10Z",
+        "uri": "https://web.archive.org/web/20230920034510/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T03:54:29Z",
+        "uri": "https://web.archive.org/web/20230920035429/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T04:05:13Z",
+        "uri": "https://web.archive.org/web/20230920040513/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T04:09:25Z",
+        "uri": "https://web.archive.org/web/20230920040925/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T04:36:03Z",
+        "uri": "https://web.archive.org/web/20230920043603/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T04:48:49Z",
+        "uri": "https://web.archive.org/web/20230920044849/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T04:50:03Z",
+        "uri": "https://web.archive.org/web/20230920045003/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T04:51:03Z",
+        "uri": "https://web.archive.org/web/20230920045103/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T04:53:53Z",
+        "uri": "https://web.archive.org/web/20230920045353/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T04:54:21Z",
+        "uri": "https://web.archive.org/web/20230920045421/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T04:55:29Z",
+        "uri": "https://web.archive.org/web/20230920045529/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T04:55:45Z",
+        "uri": "https://web.archive.org/web/20230920045545/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T05:00:26Z",
+        "uri": "https://web.archive.org/web/20230920050026/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T05:00:45Z",
+        "uri": "https://web.archive.org/web/20230920050045/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T05:04:43Z",
+        "uri": "https://web.archive.org/web/20230920050443/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T05:09:24Z",
+        "uri": "https://web.archive.org/web/20230920050924/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T05:14:21Z",
+        "uri": "https://web.archive.org/web/20230920051421/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T05:17:58Z",
+        "uri": "https://web.archive.org/web/20230920051758/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T05:42:59Z",
+        "uri": "https://web.archive.org/web/20230920054259/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T05:44:17Z",
+        "uri": "https://web.archive.org/web/20230920054417/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T06:28:56Z",
+        "uri": "https://web.archive.org/web/20230920062856/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T08:30:05Z",
+        "uri": "https://web.archive.org/web/20230920083005/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T08:32:04Z",
+        "uri": "https://web.archive.org/web/20230920083204/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T08:33:18Z",
+        "uri": "https://web.archive.org/web/20230920083318/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T09:01:36Z",
+        "uri": "https://web.archive.org/web/20230920090136/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T09:06:54Z",
+        "uri": "https://web.archive.org/web/20230920090654/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T09:36:17Z",
+        "uri": "https://web.archive.org/web/20230920093617/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T09:36:26Z",
+        "uri": "https://web.archive.org/web/20230920093626/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T09:50:58Z",
+        "uri": "https://web.archive.org/web/20230920095058/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T10:25:57Z",
+        "uri": "https://web.archive.org/web/20230920102557/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T10:44:57Z",
+        "uri": "https://web.archive.org/web/20230920104457/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T11:07:22Z",
+        "uri": "https://web.archive.org/web/20230920110722/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T11:12:29Z",
+        "uri": "https://web.archive.org/web/20230920111229/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T12:19:38Z",
+        "uri": "https://web.archive.org/web/20230920121938/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T12:47:30Z",
+        "uri": "https://web.archive.org/web/20230920124730/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T13:06:22Z",
+        "uri": "https://web.archive.org/web/20230920130622/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T13:32:51Z",
+        "uri": "https://web.archive.org/web/20230920133251/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T14:01:25Z",
+        "uri": "https://web.archive.org/web/20230920140125/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T14:35:39Z",
+        "uri": "https://perma.cc/XT69-GXF2"
+      },
+      {
+        "datetime": "2023-09-20T16:33:56Z",
+        "uri": "https://web.archive.org/web/20230920163356/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T16:57:23Z",
+        "uri": "https://web.archive.org/web/20230920165723/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T19:24:34Z",
+        "uri": "https://web.archive.org/web/20230920192434/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T23:29:10Z",
+        "uri": "https://web.archive.org/web/20230920232910/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-20T23:33:00Z",
+        "uri": "https://web.archive.org/web/20230920233300/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-21T05:37:28Z",
+        "uri": "https://web.archive.org/web/20230921053728/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-21T06:14:53Z",
+        "uri": "https://web.archive.org/web/20230921061453/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-21T06:34:35Z",
+        "uri": "https://web.archive.org/web/20230921063435/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-21T06:57:18Z",
+        "uri": "https://web.archive.org/web/20230921065718/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-21T06:58:57Z",
+        "uri": "https://web.archive.org/web/20230921065857/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-21T07:36:43Z",
+        "uri": "https://web.archive.org/web/20230921073643/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-21T12:41:07Z",
+        "uri": "https://web.archive.org/web/20230921124107/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-21T12:49:05Z",
+        "uri": "https://web.archive.org/web/20230921124905/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-21T13:16:50Z",
+        "uri": "https://web.archive.org/web/20230921131650/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-21T14:04:01Z",
+        "uri": "https://web.archive.org/web/20230921140401/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-21T14:23:23Z",
+        "uri": "https://web.archive.org/web/20230921142323/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-21T19:31:00Z",
+        "uri": "https://web.archive.org/web/20230921193100/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-22T00:50:27Z",
+        "uri": "https://web.archive.org/web/20230922005027/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-22T00:56:30Z",
+        "uri": "https://web.archive.org/web/20230922005630/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-22T01:38:11Z",
+        "uri": "https://wayback.archive-it.org/all/20230922013811/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-22T02:33:51Z",
+        "uri": "https://web.archive.org/web/20230922023351/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-22T02:40:13Z",
+        "uri": "https://web.archive.org/web/20230922024013/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-22T16:54:32Z",
+        "uri": "https://web.archive.org/web/20230922165432/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-22T22:56:43Z",
+        "uri": "https://web.archive.org/web/20230922225643/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-23T23:14:47Z",
+        "uri": "https://web.archive.org/web/20230923231447/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-24T23:06:13Z",
+        "uri": "https://web.archive.org/web/20230924230613/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-24T23:52:30Z",
+        "uri": "https://web.archive.org/web/20230924235230/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-25T20:08:38Z",
+        "uri": "https://web.archive.org/web/20230925200838/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-26T10:53:37Z",
+        "uri": "https://web.archive.org/web/20230926105337/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-27T14:43:45Z",
+        "uri": "http://archive.md/20230927144345/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-27T14:43:51Z",
+        "uri": "https://web.archive.org/web/20230927144351/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-29T18:27:11Z",
+        "uri": "https://web.archive.org/web/20230929182711/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-09-30T15:50:59Z",
+        "uri": "https://web.archive.org/web/20230930155059/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-01T23:05:02Z",
+        "uri": "https://web.archive.org/web/20231001230502/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-04T01:34:05Z",
+        "uri": "https://web.archive.org/web/20231004013405/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-04T01:39:13Z",
+        "uri": "https://web.archive.org/web/20231004013913/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-05T13:40:44Z",
+        "uri": "https://web.archive.org/web/20231005134044/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-05T14:21:12Z",
+        "uri": "https://web.archive.org/web/20231005142112/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-05T14:28:00Z",
+        "uri": "https://web.archive.org/web/20231005142800/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-05T16:54:44Z",
+        "uri": "https://web.archive.org/web/20231005165444/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-05T20:39:44Z",
+        "uri": "https://web.archive.org/web/20231005203944/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-06T14:05:48Z",
+        "uri": "https://web.archive.org/web/20231006140548/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-06T14:10:47Z",
+        "uri": "https://web.archive.org/web/20231006141047/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-07T15:59:21Z",
+        "uri": "https://web.archive.org/web/20231007155921/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-08T04:03:05Z",
+        "uri": "https://web.archive.org/web/20231008040305/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-10T22:56:10Z",
+        "uri": "https://web.archive.org/web/20231010225610/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-13T19:52:35Z",
+        "uri": "https://web.archive.org/web/20231013195235/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-14T23:07:42Z",
+        "uri": "https://web.archive.org/web/20231014230742/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-14T23:23:24Z",
+        "uri": "https://web.archive.org/web/20231014232324/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-15T23:27:21Z",
+        "uri": "https://web.archive.org/web/20231015232721/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T16:56:58Z",
+        "uri": "https://web.archive.org/web/20231019165658/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T17:06:04Z",
+        "uri": "https://web.archive.org/web/20231019170604/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T17:21:23Z",
+        "uri": "https://web.archive.org/web/20231019172123/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T17:39:16Z",
+        "uri": "https://web.archive.org/web/20231019173916/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T18:08:24Z",
+        "uri": "https://web.archive.org/web/20231019180824/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T18:26:39Z",
+        "uri": "https://web.archive.org/web/20231019182639/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T18:51:22Z",
+        "uri": "https://web.archive.org/web/20231019185122/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T18:51:43Z",
+        "uri": "https://web.archive.org/web/20231019185143/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T19:08:23Z",
+        "uri": "https://web.archive.org/web/20231019190823/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T19:22:35Z",
+        "uri": "https://web.archive.org/web/20231019192235/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T19:24:11Z",
+        "uri": "https://web.archive.org/web/20231019192411/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T20:04:15Z",
+        "uri": "https://web.archive.org/web/20231019200415/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T20:11:37Z",
+        "uri": "https://web.archive.org/web/20231019201137/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T20:35:55Z",
+        "uri": "https://web.archive.org/web/20231019203555/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T20:51:30Z",
+        "uri": "https://web.archive.org/web/20231019205130/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T20:52:01Z",
+        "uri": "https://web.archive.org/web/20231019205201/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T21:06:57Z",
+        "uri": "https://web.archive.org/web/20231019210657/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T21:08:48Z",
+        "uri": "https://web.archive.org/web/20231019210848/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T21:23:12Z",
+        "uri": "https://web.archive.org/web/20231019212312/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T21:23:45Z",
+        "uri": "https://web.archive.org/web/20231019212345/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T21:39:06Z",
+        "uri": "https://web.archive.org/web/20231019213906/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T21:48:51Z",
+        "uri": "https://web.archive.org/web/20231019214851/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T21:55:32Z",
+        "uri": "https://web.archive.org/web/20231019215532/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T22:05:26Z",
+        "uri": "https://web.archive.org/web/20231019220526/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T22:05:29Z",
+        "uri": "https://web.archive.org/web/20231019220529/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T22:37:33Z",
+        "uri": "https://web.archive.org/web/20231019223733/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T22:51:45Z",
+        "uri": "https://web.archive.org/web/20231019225145/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T22:52:44Z",
+        "uri": "https://web.archive.org/web/20231019225244/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T23:07:55Z",
+        "uri": "https://web.archive.org/web/20231019230755/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T23:22:51Z",
+        "uri": "https://web.archive.org/web/20231019232251/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-19T23:39:35Z",
+        "uri": "https://web.archive.org/web/20231019233935/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-20T00:04:32Z",
+        "uri": "https://web.archive.org/web/20231020000432/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-20T00:09:25Z",
+        "uri": "https://web.archive.org/web/20231020000925/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-20T00:10:17Z",
+        "uri": "https://web.archive.org/web/20231020001017/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-20T00:20:31Z",
+        "uri": "https://web.archive.org/web/20231020002031/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-20T00:50:52Z",
+        "uri": "https://web.archive.org/web/20231020005052/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-20T00:51:45Z",
+        "uri": "https://web.archive.org/web/20231020005145/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      },
+      {
+        "datetime": "2023-10-20T04:22:34Z",
+        "uri": "https://web.archive.org/web/20231020042234/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+      }
+    ],
+    "first": {
+      "datetime": "2023-09-13T16:55:54Z",
+      "uri": "https://web.archive.org/web/20230913165554/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+    },
+    "last": {
+      "datetime": "2023-10-20T04:22:34Z",
+      "uri": "https://web.archive.org/web/20231020042234/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cdc.gov/respiratory-viruses/whats-new/covid-vaccine-recommendations-9-12-2023.html"
+}

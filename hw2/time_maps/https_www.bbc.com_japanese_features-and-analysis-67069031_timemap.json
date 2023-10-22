@@ -1,0 +1,86 @@
+{
+  "original_uri": "https://www.bbc.com/japanese/features-and-analysis-67069031",
+  "self": "http://localhost:1208/timemap/json/https://www.bbc.com/japanese/features-and-analysis-67069031",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T05:53:31Z",
+        "uri": "https://web.archive.org/web/20231011055331/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-11T07:55:08Z",
+        "uri": "http://archive.md/20231011075508/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-11T09:25:37Z",
+        "uri": "https://web.archive.org/web/20231011092537/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-11T17:48:22Z",
+        "uri": "https://web.archive.org/web/20231011174822/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-12T18:01:10Z",
+        "uri": "https://web.archive.org/web/20231012180110/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-13T03:00:45Z",
+        "uri": "https://web.archive.org/web/20231013030045/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-13T18:58:51Z",
+        "uri": "https://web.archive.org/web/20231013185851/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-14T09:50:13Z",
+        "uri": "https://web.archive.org/web/20231014095013/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-14T19:58:29Z",
+        "uri": "https://web.archive.org/web/20231014195829/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-15T10:22:48Z",
+        "uri": "https://web.archive.org/web/20231015102248/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-15T20:28:56Z",
+        "uri": "https://web.archive.org/web/20231015202856/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-16T05:00:47Z",
+        "uri": "https://web.archive.org/web/20231016050047/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-16T18:41:46Z",
+        "uri": "https://web.archive.org/web/20231016184146/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-17T21:11:15Z",
+        "uri": "https://web.archive.org/web/20231017211115/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-18T21:51:18Z",
+        "uri": "https://web.archive.org/web/20231018215118/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      },
+      {
+        "datetime": "2023-10-19T21:04:59Z",
+        "uri": "https://web.archive.org/web/20231019210459/https://www.bbc.com/japanese/features-and-analysis-67069031"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T05:53:31Z",
+      "uri": "https://web.archive.org/web/20231011055331/https://www.bbc.com/japanese/features-and-analysis-67069031"
+    },
+    "last": {
+      "datetime": "2023-10-19T21:04:59Z",
+      "uri": "https://web.archive.org/web/20231019210459/https://www.bbc.com/japanese/features-and-analysis-67069031"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bbc.com/japanese/features-and-analysis-67069031",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bbc.com/japanese/features-and-analysis-67069031",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bbc.com/japanese/features-and-analysis-67069031"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bbc.com/japanese/features-and-analysis-67069031"
+}

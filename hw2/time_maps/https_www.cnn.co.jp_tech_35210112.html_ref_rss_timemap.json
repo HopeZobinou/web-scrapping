@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.cnn.co.jp/tech/35210112.html?ref=rss",
+  "self": "http://localhost:1208/timemap/json/https://www.cnn.co.jp/tech/35210112.html?ref=rss",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T08:53:35Z",
+        "uri": "https://web.archive.org/web/20231012085335/https://www.cnn.co.jp/tech/35210112.html?ref=rss"
+      },
+      {
+        "datetime": "2023-10-13T03:07:23Z",
+        "uri": "https://web.archive.org/web/20231013030723/https://www.cnn.co.jp/tech/35210112.html?ref=rss"
+      },
+      {
+        "datetime": "2023-10-13T05:21:45Z",
+        "uri": "https://web.archive.org/web/20231013052145/https://www.cnn.co.jp/tech/35210112.html?ref=rss"
+      },
+      {
+        "datetime": "2023-10-14T17:55:37Z",
+        "uri": "https://web.archive.org/web/20231014175537/https://www.cnn.co.jp/tech/35210112.html?ref=rss"
+      },
+      {
+        "datetime": "2023-10-15T14:04:31Z",
+        "uri": "https://web.archive.org/web/20231015140431/https://www.cnn.co.jp/tech/35210112.html?ref=rss"
+      },
+      {
+        "datetime": "2023-10-15T14:13:06Z",
+        "uri": "https://web.archive.org/web/20231015141306/https://www.cnn.co.jp/tech/35210112.html?ref=rss"
+      },
+      {
+        "datetime": "2023-10-15T14:22:31Z",
+        "uri": "https://web.archive.org/web/20231015142231/https://www.cnn.co.jp/tech/35210112.html?ref=rss"
+      },
+      {
+        "datetime": "2023-10-16T09:50:49Z",
+        "uri": "https://web.archive.org/web/20231016095049/https://www.cnn.co.jp/tech/35210112.html?ref=rss"
+      },
+      {
+        "datetime": "2023-10-17T19:17:01Z",
+        "uri": "https://web.archive.org/web/20231017191701/https://www.cnn.co.jp/tech/35210112.html?ref=rss"
+      },
+      {
+        "datetime": "2023-10-19T19:55:53Z",
+        "uri": "https://web.archive.org/web/20231019195553/https://www.cnn.co.jp/tech/35210112.html?ref=rss"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T08:53:35Z",
+      "uri": "https://web.archive.org/web/20231012085335/https://www.cnn.co.jp/tech/35210112.html?ref=rss"
+    },
+    "last": {
+      "datetime": "2023-10-19T19:55:53Z",
+      "uri": "https://web.archive.org/web/20231019195553/https://www.cnn.co.jp/tech/35210112.html?ref=rss"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cnn.co.jp/tech/35210112.html?ref=rss",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cnn.co.jp/tech/35210112.html?ref=rss",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cnn.co.jp/tech/35210112.html?ref=rss"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cnn.co.jp/tech/35210112.html?ref=rss"
+}

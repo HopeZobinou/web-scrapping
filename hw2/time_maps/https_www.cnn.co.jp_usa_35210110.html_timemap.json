@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.cnn.co.jp/usa/35210110.html",
+  "self": "http://localhost:1208/timemap/json/https://www.cnn.co.jp/usa/35210110.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T04:26:14Z",
+        "uri": "https://web.archive.org/web/20231011042614/https://www.cnn.co.jp/usa/35210110.html"
+      },
+      {
+        "datetime": "2023-10-13T06:29:40Z",
+        "uri": "https://web.archive.org/web/20231013062940/https://www.cnn.co.jp/usa/35210110.html"
+      },
+      {
+        "datetime": "2023-10-17T15:44:13Z",
+        "uri": "https://web.archive.org/web/20231017154413/https://www.cnn.co.jp/usa/35210110.html"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T04:26:14Z",
+      "uri": "https://web.archive.org/web/20231011042614/https://www.cnn.co.jp/usa/35210110.html"
+    },
+    "last": {
+      "datetime": "2023-10-17T15:44:13Z",
+      "uri": "https://web.archive.org/web/20231017154413/https://www.cnn.co.jp/usa/35210110.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cnn.co.jp/usa/35210110.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cnn.co.jp/usa/35210110.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cnn.co.jp/usa/35210110.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cnn.co.jp/usa/35210110.html"
+}

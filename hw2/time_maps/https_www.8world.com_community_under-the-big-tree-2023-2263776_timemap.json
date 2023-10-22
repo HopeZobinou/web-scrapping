@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.8world.com/community/under-the-big-tree-2023-2263776",
+  "self": "http://localhost:1208/timemap/json/https://www.8world.com/community/under-the-big-tree-2023-2263776",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T16:53:49Z",
+        "uri": "https://web.archive.org/web/20231012165349/https://www.8world.com/community/under-the-big-tree-2023-2263776"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T16:53:49Z",
+      "uri": "https://web.archive.org/web/20231012165349/https://www.8world.com/community/under-the-big-tree-2023-2263776"
+    },
+    "last": {
+      "datetime": "2023-10-12T16:53:49Z",
+      "uri": "https://web.archive.org/web/20231012165349/https://www.8world.com/community/under-the-big-tree-2023-2263776"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.8world.com/community/under-the-big-tree-2023-2263776",
+    "json_format": "http://localhost:1208/timemap/json/https://www.8world.com/community/under-the-big-tree-2023-2263776",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.8world.com/community/under-the-big-tree-2023-2263776"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.8world.com/community/under-the-big-tree-2023-2263776"
+}

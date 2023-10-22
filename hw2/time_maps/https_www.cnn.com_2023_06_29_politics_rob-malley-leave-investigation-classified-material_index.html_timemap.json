@@ -1,0 +1,98 @@
+{
+  "original_uri": "https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html",
+  "self": "http://localhost:1208/timemap/json/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-06-29T21:36:55Z",
+        "uri": "https://web.archive.org/web/20230629213655/http://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-06-29T21:41:00Z",
+        "uri": "https://web.archive.org/web/20230629214100/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-06-29T22:41:45Z",
+        "uri": "https://web.archive.org/web/20230629224145/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-06-30T02:34:59Z",
+        "uri": "https://wayback.archive-it.org/all/20230630023459/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-06-30T03:43:55Z",
+        "uri": "https://web.archive.org/web/20230630034355/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-06-30T03:44:00Z",
+        "uri": "https://web.archive.org/web/20230630034400/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-06-30T09:21:38Z",
+        "uri": "https://web.archive.org/web/20230630092138/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-06-30T09:24:52Z",
+        "uri": "https://web.archive.org/web/20230630092452/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-06-30T09:28:37Z",
+        "uri": "https://web.archive.org/web/20230630092837/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-06-30T21:05:42Z",
+        "uri": "https://web.archive.org/web/20230630210542/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-07-02T18:47:25Z",
+        "uri": "https://web.archive.org/web/20230702184725/http://cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-07-05T19:34:58Z",
+        "uri": "https://web.archive.org/web/20230705193458/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-07-11T01:35:02Z",
+        "uri": "https://web.archive.org/web/20230711013502/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-08-10T19:25:37Z",
+        "uri": "https://web.archive.org/web/20230810192537/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-08-11T01:35:53Z",
+        "uri": "https://web.archive.org/web/20230811013553/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-10-10T20:36:37Z",
+        "uri": "https://wayback.archive-it.org/all/20231010203637/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-10-11T20:18:09Z",
+        "uri": "https://wayback.archive-it.org/all/20231011201809/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-10-13T04:57:52Z",
+        "uri": "https://wayback.archive-it.org/all/20231013045752/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      },
+      {
+        "datetime": "2023-10-17T07:26:38Z",
+        "uri": "https://wayback.archive-it.org/all/20231017072638/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+      }
+    ],
+    "first": {
+      "datetime": "2023-06-29T21:36:55Z",
+      "uri": "https://web.archive.org/web/20230629213655/http://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+    },
+    "last": {
+      "datetime": "2023-10-17T07:26:38Z",
+      "uri": "https://wayback.archive-it.org/all/20231017072638/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cnn.com/2023/06/29/politics/rob-malley-leave-investigation-classified-material/index.html"
+}

@@ -1,0 +1,102 @@
+{
+  "original_uri": "https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html",
+  "self": "http://localhost:1208/timemap/json/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T02:18:48Z",
+        "uri": "https://web.archive.org/web/20231011021848/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-11T11:20:36Z",
+        "uri": "https://web.archive.org/web/20231011112036/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-11T13:20:06Z",
+        "uri": "https://web.archive.org/web/20231011132006/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-12T10:20:56Z",
+        "uri": "https://web.archive.org/web/20231012102056/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-12T20:00:42Z",
+        "uri": "https://web.archive.org/web/20231012200042/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-13T07:59:56Z",
+        "uri": "https://web.archive.org/web/20231013075956/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-13T20:22:12Z",
+        "uri": "https://web.archive.org/web/20231013202212/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-14T07:03:58Z",
+        "uri": "https://web.archive.org/web/20231014070358/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-14T08:45:40Z",
+        "uri": "https://web.archive.org/web/20231014084540/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-14T19:53:07Z",
+        "uri": "https://web.archive.org/web/20231014195307/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-14T21:24:54Z",
+        "uri": "https://web.archive.org/web/20231014212454/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-15T01:28:52Z",
+        "uri": "https://web.archive.org/web/20231015012852/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-15T10:41:41Z",
+        "uri": "https://web.archive.org/web/20231015104141/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-15T22:01:40Z",
+        "uri": "https://web.archive.org/web/20231015220140/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-16T04:32:35Z",
+        "uri": "https://web.archive.org/web/20231016043235/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-16T15:18:02Z",
+        "uri": "https://web.archive.org/web/20231016151802/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-16T21:31:18Z",
+        "uri": "https://web.archive.org/web/20231016213118/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-17T21:58:20Z",
+        "uri": "https://web.archive.org/web/20231017215820/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-18T23:44:18Z",
+        "uri": "https://web.archive.org/web/20231018234418/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      },
+      {
+        "datetime": "2023-10-19T20:34:47Z",
+        "uri": "https://web.archive.org/web/20231019203447/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T02:18:48Z",
+      "uri": "https://web.archive.org/web/20231011021848/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+    },
+    "last": {
+      "datetime": "2023-10-19T20:34:47Z",
+      "uri": "https://web.archive.org/web/20231019203447/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.asahi.com/articles/ASRBB6R2PRBBUHBI01P.html"
+}

@@ -1,0 +1,2006 @@
+{
+  "original_uri": "https://www.bloomberg.com/tosv2.html?vid=&uuid=46101a8e-6839-11ee-829e-029530367070&url=L29waW5pb24vYXJ0aWNsZXMvMjAyMy0wOS0yMC9jaHVjay1zY2h1bWVyLWJ1bGxkb3plcy10dWJlcnZpbGxlLXMtbWlsaXRhcnktYmxvY2thZGUtd2l0aC1ub21pbmF0aW9uLXZvdGVz",
+  "self": "http://localhost:1208/timemap/json/https://www.bloomberg.com/tosv2.html?vid=&uuid=46101a8e-6839-11ee-829e-029530367070&url=L29waW5pb24vYXJ0aWNsZXMvMjAyMy0wOS0yMC9jaHVjay1zY2h1bWVyLWJ1bGxkb3plcy10dWJlcnZpbGxlLXMtbWlsaXRhcnktYmxvY2thZGUtd2l0aC1ub21pbmF0aW9uLXZvdGVz",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-03-30T17:53:44Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20190330175344mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e21da800-530f-11e9-8b32-698e51ec3f4e&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD01NWNkYWU3YS1hOGY4LTQ1YTYtOGU5Ny0xNDA2M2Y4MmVlNjg="
+      },
+      {
+        "datetime": "2019-04-17T11:17:41Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20190417111741mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=6a43fc20-6102-11e9-8631-fd965af38ca5&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD03MzA0OWU0Zi0zMWYzLTRmY2UtYmU0MC1jZjNmMmE3NTFkYTA="
+      },
+      {
+        "datetime": "2019-09-23T19:00:02Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20190923190002mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a97eb620-bdfd-11e9-8f2a-ad863c3a43bb&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD02NmQwZDViOS0zM2Y0LTQ5ZTAtYTNjYy00YWVlNjU2NTMxNTg="
+      },
+      {
+        "datetime": "2019-09-27T10:05:35Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20190927100535mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=58f65080-e10e-11e9-9dcd-0fc730b5e54e&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD00YjBkZGMyNC03YWZiLTRlN2ItOTEwMy1mNzMxYzdlZGM5NTU="
+      },
+      {
+        "datetime": "2019-11-09T15:33:30Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20191109153330mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=47bf7c00-0306-11ea-99c5-11e0fc9843f3&url=L21jX2xpdmUuYXN4"
+      },
+      {
+        "datetime": "2019-11-22T11:13:03Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20191122111303mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0cab0720-0d19-11ea-b1bb-7f63e538130b&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1hNDJkODZkYy05NGYzLTQ3YTItYjM4ZC0yYzNjODY0MTRkNWQ="
+      },
+      {
+        "datetime": "2019-12-01T12:14:10Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20191201121410mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=140358c0-1434-11ea-baf3-b5c3d7a8b72a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD03NjNkNTlmMC0xNWE1LTRiNjEtOWRhZi0zZjdkZTIwM2I4MWU="
+      },
+      {
+        "datetime": "2019-12-10T17:41:16Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20191210174116mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=09801670-1760-11ea-a9d6-590fce1bb46c&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yMzRlZWM4Ny1jOTU3LTQyMTAtYmViNy0xNGNiOThjMzllYTE="
+      },
+      {
+        "datetime": "2019-12-19T14:04:49Z",
+        "uri": "https://swap.stanford.edu/was/20191219140449mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=85163630-2268-11ea-8110-077fef277bec&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMy0wMS9jaGluYS1pcy1zYWlkLXJhaXNpbmctdXAtdG8tMzEtNS1iaWxsaW9uLXRvLWZ1ZWwtY2hpcC12aXNpb24="
+      },
+      {
+        "datetime": "2019-12-29T04:36:02Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20191229043602mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b79b78c0-29f4-11ea-a338-d33f7248563d&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0wZWM4MzYyZS02OGE4LTRlY2QtODZjYi1hNjJlOWY0ZjRlZTg="
+      },
+      {
+        "datetime": "2020-01-26T12:10:34Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20200126121034mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=dacaeaf0-4034-11ea-920e-c7a0fc336dec&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1lMWQ0OGY5My1iNTYzLTRkNmQtYjBlZi04OWNmZmU1NjFlZGY="
+      },
+      {
+        "datetime": "2020-01-26T12:12:12Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20200126121212mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=14c23e20-4035-11ea-9a90-63cdfd4227e0&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD02OGY1YzgzMC1mMTc4LTRmMGQtYjk5Yi1mOTYzNGU3MDY2YmQ="
+      },
+      {
+        "datetime": "2020-05-06T23:20:20Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20200506232020mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=26e2eb30-8ff0-11ea-b335-8f84d738218e&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD01NWNkYWU3YS1hOGY4LTQ1YTYtOGU5Ny0xNDA2M2Y4MmVlNjg="
+      },
+      {
+        "datetime": "2020-08-31T19:18:00Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20200831191800mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=aecb15c0-ebbe-11ea-8fd3-05ed27ff1f27&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD02Zjk1NWIxYi01MzRiLTQzODQtYTgyNy04N2QyZDkzOTNhYTQ="
+      },
+      {
+        "datetime": "2020-12-19T10:48:26Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20201219104826mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b90ab6b0-41e7-11eb-bea2-63ef148ada40&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1mZTI5YjYzNC1hOTIxLTQ3NGEtYjBiZC1kYTg3YWMyZDIwNzA="
+      },
+      {
+        "datetime": "2021-01-26T15:10:41Z",
+        "uri": "https://vefsafn.is/20210126151041mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a73b39e0-5fe8-11eb-a199-5788b3dd538f&url=L0dGbG9hRzFoZldvNGZXdzRkWGx4ZG14OWRuRnFPSDEyZm5kMmUvRQ=="
+      },
+      {
+        "datetime": "2021-02-02T15:19:38Z",
+        "uri": "https://vefsafn.is/20210202151938mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=100ba730-656a-11eb-b274-93a2509cc287&url=L0dFeHdmV3A5T0d0OWZYVnJPR3gzT0hwOU9IazRlM2QyZG4xN2JIRjNkamh4YTJ0dGZUWTRTSFI5ZVd0OU9IVjVjMzA0YTIxcWZUaGhkMjAvYW4wNGQzWjBjWFo5TkRoNWRudzRiSEI5ZGpocWZYNXFmV3R3T0d4d2ZUaG9lWDk5"
+      },
+      {
+        "datetime": "2021-02-02T15:20:38Z",
+        "uri": "https://vefsafn.is/20210202152038mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=33c06e40-656a-11eb-8b32-ff0c834c87e6&url=L05IVjJkM0J4Y25OOGZYNS9lSGw2ZTJSbFptZGdZV0pqYkcxdVZWWlhVRkZTVTF4ZFhsOVlXVnBiUkVWR1IwQkJRa05NVFU0RUJRWUhBQUVDQXd3Tg=="
+      },
+      {
+        "datetime": "2021-02-09T15:45:58Z",
+        "uri": "https://vefsafn.is/20210209154558mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e6acf4a0-6aed-11eb-80cf-61e4c14a51ce&url=L0dFeHdmV3A5T0d0OWZYVnJPR3gzT0hwOU9IazRlM2QyZG4xN2JIRjNkamh4YTJ0dGZUWTRTSFI5ZVd0OU9IVjVjMzA0YTIxcWZUaGhkMjAvYW4wNGQzWjBjWFo5TkRoNWRudzRiSEI5ZGpocWZYNXFmV3R3T0d4d2ZUaG9lWDk5"
+      },
+      {
+        "datetime": "2021-02-09T15:47:00Z",
+        "uri": "https://vefsafn.is/20210209154700mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0bc913e0-6aee-11eb-aae2-cdbafccd8c78&url=L05IVjJkM0J4Y25OOGZYNS9lSGw2ZTJSbFptZGdZV0pqYkcxdVZWWlhVRkZTVTF4ZFhsOVlXVnBiUkVWR1IwQkJRa05NVFU0RUJRWUhBQUVDQXd3Tg=="
+      },
+      {
+        "datetime": "2021-03-11T02:51:42Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20210311025142mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b59c7aa0-8214-11eb-98fc-6dfa08269c0d&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1iYzg1NjkxNS1jY2FkLTRhOGQtYThmZS02MzY2MzQ0YmIwMjM="
+      },
+      {
+        "datetime": "2021-03-12T19:46:29Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20210312194629mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a30698f0-836b-11eb-94e6-03907fa2b801&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1lOTRjZWRhNC1iYTRmLTQ5OTMtOGNjNi0zYWNkN2VjNTUzOTM="
+      },
+      {
+        "datetime": "2021-03-30T19:04:26Z",
+        "uri": "https://vefsafn.is/20210330190426mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=bf0bd470-918a-11eb-a4da-97db7921b12d&url=L05RbC9LQVVlVUZF"
+      },
+      {
+        "datetime": "2021-04-05T18:01:40Z",
+        "uri": "https://arquivo.pt/wayback/20210405180140mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=f69d21c0-9638-11eb-9b60-bb5784896112&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-05T18:02:47Z",
+        "uri": "https://arquivo.pt/wayback/20210405180247mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1ef6dfd0-9639-11eb-a6ff-5f87e2d65653&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-06T16:23:19Z",
+        "uri": "https://vefsafn.is/20210406162319mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=66048150-96f4-11eb-ac9b-c91586666ae6&url=L095OElEaU12SVM0SEJUZ2hMeUUvT1E="
+      },
+      {
+        "datetime": "2021-04-06T16:24:23Z",
+        "uri": "https://vefsafn.is/20210406162423mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=8baadf30-96f4-11eb-996c-0320b50b82bb&url=L05TVWVMalF1TmlrL0RUOHdLU2M3SlFzdQ=="
+      },
+      {
+        "datetime": "2021-04-06T16:24:27Z",
+        "uri": "https://vefsafn.is/20210406162427mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=8dff5680-96f4-11eb-9d39-e1eb1fac5ab7&url=L0d3a3ZEeEFNQ0JJQ0pnQVpCd0VWR3owWkJoNGFEQncwRWc4ckxUa3ZDUzB5SWlZd0lBQW1PeVUvS3prZlB5QThPQ0l5Rm50a2VIeHVmbHA4YlhOa2RYWQ=="
+      },
+      {
+        "datetime": "2021-04-06T16:24:40Z",
+        "uri": "https://vefsafn.is/20210406162440mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=9619c530-96f4-11eb-be34-1db23620c911&url=L055UVpPREEvUHc="
+      },
+      {
+        "datetime": "2021-04-06T16:24:42Z",
+        "uri": "https://vefsafn.is/20210406162442mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=97630e10-96f4-11eb-979d-03a6fe9323fc&url=L0d3a3ZEeEFNQ0JJQ0pnQVpCd0VWR3owWkJoNGFEQncwRWc4ckxUa3ZDUzB5SWlZd0lBQW1PeVUvS3prZlB5QThPQ0l5Rm50a2VIeHVmbHA4YlhN"
+      },
+      {
+        "datetime": "2021-04-06T16:25:00Z",
+        "uri": "https://vefsafn.is/20210406162500mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a20957c0-96f4-11eb-aff9-ada874a1c46c&url=L05TVS9KRGs4S2o0SURTYzVLQzQ1SUE="
+      },
+      {
+        "datetime": "2021-04-06T16:25:02Z",
+        "uri": "https://vefsafn.is/20210406162502mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a2f8c0d0-96f4-11eb-9c59-150f0f1bbf4a&url=L095Z1BQamcvSXpzL0NTOEZPQ29wT0RnaU9DOA=="
+      },
+      {
+        "datetime": "2021-04-06T16:25:03Z",
+        "uri": "https://vefsafn.is/20210406162503mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a3de3ed0-96f4-11eb-ae5a-234b7a7e090c&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-06T16:25:08Z",
+        "uri": "https://vefsafn.is/20210406162508mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a6cfe080-96f4-11eb-9879-5116df6997a5&url=L09TTU5Kemt2SVQwdUtDUTdMeHcvSlJn"
+      },
+      {
+        "datetime": "2021-04-06T16:25:09Z",
+        "uri": "https://vefsafn.is/20210406162509mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a7a3f960-96f4-11eb-a3c4-dffcf6b84457&url=L095Z1lJaU12QmpRL0NUa2pLeU0="
+      },
+      {
+        "datetime": "2021-04-06T16:25:14Z",
+        "uri": "https://vefsafn.is/20210406162514mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=aaa0e5b0-96f4-11eb-b8f3-89c2b4c62389&url=L01pb0lDanNqSWpzL0JTUTdEejBvSkI0"
+      },
+      {
+        "datetime": "2021-04-06T16:25:17Z",
+        "uri": "https://vefsafn.is/20210406162517mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=abf1f6c0-96f4-11eb-9394-fda53bf64ddc&url=L09Db2VBanNwUFQ4bUNTVWhHVDgvTGdn"
+      },
+      {
+        "datetime": "2021-04-06T17:44:50Z",
+        "uri": "https://arquivo.pt/wayback/20210406174450mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=c7639070-96ff-11eb-95e4-759eca4f02f2&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-06T17:46:02Z",
+        "uri": "https://arquivo.pt/wayback/20210406174602mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=f23860a0-96ff-11eb-9e27-85c85e9ce662&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-08T18:01:55Z",
+        "uri": "https://arquivo.pt/wayback/20210408180155mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7f5fd220-9894-11eb-b13d-c166babcd992&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-08T18:02:57Z",
+        "uri": "https://arquivo.pt/wayback/20210408180257mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a41a2250-9894-11eb-92bc-8530a5d0899d&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-09T18:08:18Z",
+        "uri": "https://arquivo.pt/wayback/20210409180818mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=8c3d3850-995e-11eb-9f8f-1529370979ac&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-09T18:09:42Z",
+        "uri": "https://arquivo.pt/wayback/20210409180942mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=bfb38180-995e-11eb-ad83-3b6a7062c9d7&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-10T18:11:44Z",
+        "uri": "https://arquivo.pt/wayback/20210410181144mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=335463b0-9a28-11eb-afcc-41c54ef4a007&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-10T18:12:50Z",
+        "uri": "https://arquivo.pt/wayback/20210410181250mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=597f81f0-9a28-11eb-9e46-03ac523a2db9&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-11T18:14:41Z",
+        "uri": "https://arquivo.pt/wayback/20210411181441mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=c71685f0-9af1-11eb-b09d-e37848ab2d08&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-11T18:15:52Z",
+        "uri": "https://arquivo.pt/wayback/20210411181552mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=f10e8ab0-9af1-11eb-a55c-273c3c41ba8a&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-12T18:08:41Z",
+        "uri": "https://arquivo.pt/wayback/20210412180841mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1b005100-9bba-11eb-a68f-079b633adf9a&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-12T18:09:45Z",
+        "uri": "https://arquivo.pt/wayback/20210412180945mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=40e4a240-9bba-11eb-9133-b15af479ec2d&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-13T19:21:29Z",
+        "uri": "https://vefsafn.is/20210413192129mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=72839580-9c8d-11eb-8635-7d7b2ecb2913&url=L095OElEaU12SVM0SEJUZ2hMeUUvT1E="
+      },
+      {
+        "datetime": "2021-04-13T19:22:34Z",
+        "uri": "https://vefsafn.is/20210413192234mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=99289eb0-9c8d-11eb-a1af-635d38c8cb5e&url=L05TVWVMalF1TmlrL0RUOHdLU2M3SlFzdQ=="
+      },
+      {
+        "datetime": "2021-04-13T19:22:38Z",
+        "uri": "https://vefsafn.is/20210413192238mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=9b5b5d30-9c8d-11eb-a13f-53b22812b745&url=L0d3a3ZEeEFNQ0JJQ0pnQVpCd0VWR3owWkJoNGFEQncwRWc4ckxUa3ZDUzB5SWlZd0lBQW1PeVUvS3prZlB5QThPQ0l5Rm50a2VIeHVmbHA4YlhOa2RYWQ=="
+      },
+      {
+        "datetime": "2021-04-13T19:22:50Z",
+        "uri": "https://vefsafn.is/20210413192250mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a2603d30-9c8d-11eb-945b-97a648ad8fe8&url=L055UVpPREEvUHc="
+      },
+      {
+        "datetime": "2021-04-13T19:22:51Z",
+        "uri": "https://vefsafn.is/20210413192251mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a35d3ad0-9c8d-11eb-9732-f95921392c11&url=L0d3a3ZEeEFNQ0JJQ0pnQVpCd0VWR3owWkJoNGFEQncwRWc4ckxUa3ZDUzB5SWlZd0lBQW1PeVUvS3prZlB5QThPQ0l5Rm50a2VIeHVmbHA4YlhN"
+      },
+      {
+        "datetime": "2021-04-13T19:23:10Z",
+        "uri": "https://vefsafn.is/20210413192310mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ae8844e0-9c8d-11eb-801b-6590e3ed1e83&url=L05TVS9KRGs4S2o0SURTYzVLQzQ1SUE="
+      },
+      {
+        "datetime": "2021-04-13T19:23:12Z",
+        "uri": "https://vefsafn.is/20210413192312mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=afc11300-9c8d-11eb-9f6c-156dd8c54667&url=L095Z1BQamcvSXpzL0NTOEZPQ29wT0RnaU9DOA=="
+      },
+      {
+        "datetime": "2021-04-13T19:23:14Z",
+        "uri": "https://vefsafn.is/20210413192314mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b0c822c0-9c8d-11eb-8246-9f6c1dc735e4&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-13T19:23:17Z",
+        "uri": "https://vefsafn.is/20210413192317mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b28f7540-9c8d-11eb-ab15-c3c7a59a8c20&url=L09TTU5Kemt2SVQwdUtDUTdMeHcvSlJn"
+      },
+      {
+        "datetime": "2021-04-13T19:23:18Z",
+        "uri": "https://vefsafn.is/20210413192318mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b38ac530-9c8d-11eb-9992-e160af075ec8&url=L095Z1lJaU12QmpRL0NUa2pLeU0="
+      },
+      {
+        "datetime": "2021-04-13T19:23:25Z",
+        "uri": "https://vefsafn.is/20210413192325mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b77a9d00-9c8d-11eb-a9f3-cd2f3a196671&url=L01pb0lDanNqSWpzL0JTUTdEejBvSkI0"
+      },
+      {
+        "datetime": "2021-04-13T19:23:27Z",
+        "uri": "https://vefsafn.is/20210413192327mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b873ca10-9c8d-11eb-853a-3b6fb29ba879&url=L09Db2VBanNwUFQ4bUNTVWhHVDgvTGdn"
+      },
+      {
+        "datetime": "2021-04-13T20:38:09Z",
+        "uri": "https://arquivo.pt/wayback/20210413203809mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=261933c0-9c98-11eb-a0f7-1545df1df892&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-13T20:39:20Z",
+        "uri": "https://arquivo.pt/wayback/20210413203920mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=507d67d0-9c98-11eb-8869-d34cee384b41&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-14T18:44:12Z",
+        "uri": "https://arquivo.pt/wayback/20210414184412mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=65d594e0-9d51-11eb-be2d-596080a9f679&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-14T18:45:17Z",
+        "uri": "https://arquivo.pt/wayback/20210414184517mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=8cca92d0-9d51-11eb-859c-df113f443419&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-15T18:10:07Z",
+        "uri": "https://arquivo.pt/wayback/20210415181007mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=cd3b27c0-9e15-11eb-be4b-0330499e37d9&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-15T18:11:07Z",
+        "uri": "https://arquivo.pt/wayback/20210415181107mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=f0b44560-9e15-11eb-8a8f-cb692118be44&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-16T17:51:31Z",
+        "uri": "https://arquivo.pt/wayback/20210416175131mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=5e2e2bd0-9edc-11eb-8917-c59ce1c2bb2a&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-16T17:52:39Z",
+        "uri": "https://arquivo.pt/wayback/20210416175239mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=86b11cc0-9edc-11eb-96b4-61be397686cf&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-17T18:09:00Z",
+        "uri": "https://arquivo.pt/wayback/20210417180900mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=fa46f080-9fa7-11eb-a2e5-b77e8d39aeba&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-17T18:10:01Z",
+        "uri": "https://arquivo.pt/wayback/20210417181001mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1e8aff40-9fa8-11eb-b9ed-ff506f7f7b89&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-18T17:53:35Z",
+        "uri": "https://arquivo.pt/wayback/20210418175335mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=fd745b40-a06e-11eb-a5bc-65f89be368ae&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-18T17:54:50Z",
+        "uri": "https://arquivo.pt/wayback/20210418175450mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=29e83570-a06f-11eb-8de1-2961f5b5675f&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-20T17:59:43Z",
+        "uri": "https://arquivo.pt/wayback/20210420175943mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2dbc6dd0-a202-11eb-961a-c7293be388c5&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-20T18:00:51Z",
+        "uri": "https://arquivo.pt/wayback/20210420180051mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=55ede360-a202-11eb-b2bf-b7d17e724478&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-20T19:55:52Z",
+        "uri": "https://vefsafn.is/20210420195552mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=69278200-a212-11eb-95e1-7d567ab7be97&url=L095OElEaU12SVM0SEJUZ2hMeUUvT1E="
+      },
+      {
+        "datetime": "2021-04-20T19:56:59Z",
+        "uri": "https://vefsafn.is/20210420195659mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=9074d920-a212-11eb-957e-4fb28ef3d2bf&url=L05TVWVMalF1TmlrL0RUOHdLU2M3SlFzdQ=="
+      },
+      {
+        "datetime": "2021-04-20T19:57:02Z",
+        "uri": "https://vefsafn.is/20210420195702mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=926fbec0-a212-11eb-b687-6d571b37d619&url=L0d3a3ZEeEFNQ0JJQ0pnQVpCd0VWR3owWkJoNGFEQncwRWc4ckxUa3ZDUzB5SWlZd0lBQW1PeVUvS3prZlB5QThPQ0l5Rm50a2VIeHVmbHA4YlhOa2RYWQ=="
+      },
+      {
+        "datetime": "2021-04-20T19:57:12Z",
+        "uri": "https://vefsafn.is/20210420195712mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=98cb6670-a212-11eb-a991-6d22ffbd9c01&url=L055UVpPREEvUHc="
+      },
+      {
+        "datetime": "2021-04-20T19:57:14Z",
+        "uri": "https://vefsafn.is/20210420195714mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=99d1d9f0-a212-11eb-a4ff-d9096cb7c619&url=L0d3a3ZEeEFNQ0JJQ0pnQVpCd0VWR3owWkJoNGFEQncwRWc4ckxUa3ZDUzB5SWlZd0lBQW1PeVUvS3prZlB5QThPQ0l5Rm50a2VIeHVmbHA4YlhN"
+      },
+      {
+        "datetime": "2021-04-20T19:57:30Z",
+        "uri": "https://vefsafn.is/20210420195730mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a386e5d0-a212-11eb-bc2d-a302a1c66f70&url=L05TVS9KRGs4S2o0SURTYzVLQzQ1SUE="
+      },
+      {
+        "datetime": "2021-04-20T19:57:32Z",
+        "uri": "https://vefsafn.is/20210420195732mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a45a8980-a212-11eb-96f6-69b335f74041&url=L095Z1BQamcvSXpzL0NTOEZPQ29wT0RnaU9DOA=="
+      },
+      {
+        "datetime": "2021-04-20T19:57:33Z",
+        "uri": "https://vefsafn.is/20210420195733mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a5578720-a212-11eb-9c53-a969d0401c9b&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-20T19:57:38Z",
+        "uri": "https://vefsafn.is/20210420195738mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a829b9f0-a212-11eb-8f0b-5d34960c566c&url=L09TTU5Kemt2SVQwdUtDUTdMeHcvSlJn"
+      },
+      {
+        "datetime": "2021-04-20T19:57:40Z",
+        "uri": "https://vefsafn.is/20210420195740mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a91e0500-a212-11eb-992a-df49c0181ce9&url=L095Z1lJaU12QmpRL0NUa2pLeU0="
+      },
+      {
+        "datetime": "2021-04-20T19:57:45Z",
+        "uri": "https://vefsafn.is/20210420195745mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ac2159f0-a212-11eb-9994-ed708167337d&url=L01pb0lDanNqSWpzL0JTUTdEejBvSkI0"
+      },
+      {
+        "datetime": "2021-04-20T19:57:46Z",
+        "uri": "https://vefsafn.is/20210420195746mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ad006f50-a212-11eb-a6a3-1f3a9926383e&url=L09Db2VBanNwUFQ4bUNTVWhHVDgvTGdn"
+      },
+      {
+        "datetime": "2021-04-21T18:13:35Z",
+        "uri": "https://arquivo.pt/wayback/20210421181335mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=47bce810-a2cd-11eb-a560-a7dc45096ac0&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-21T18:14:38Z",
+        "uri": "https://arquivo.pt/wayback/20210421181438mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=6d95c7a0-a2cd-11eb-a010-1587804c9c21&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-22T18:28:11Z",
+        "uri": "https://arquivo.pt/wayback/20210422182811mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7a80f400-a398-11eb-859f-d3bc8bebfd41&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-22T18:31:03Z",
+        "uri": "https://arquivo.pt/wayback/20210422183103mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d9063030-a398-11eb-b303-ffee5b47a62c&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-23T17:59:37Z",
+        "uri": "https://arquivo.pt/wayback/20210423175937mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a88e6470-a45d-11eb-986c-55dcb70360e2&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-23T18:00:43Z",
+        "uri": "https://arquivo.pt/wayback/20210423180043mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d043a520-a45d-11eb-8b57-c73c1f166a2a&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-26T17:57:39Z",
+        "uri": "https://arquivo.pt/wayback/20210426175739mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e1a45a50-a6b8-11eb-98d2-b58d98255a2c&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-26T17:58:48Z",
+        "uri": "https://arquivo.pt/wayback/20210426175848mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0b4b0ac0-a6b9-11eb-a65d-01ba76428491&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-27T18:06:01Z",
+        "uri": "https://arquivo.pt/wayback/20210427180601mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=37952e10-a783-11eb-8e79-a5f77cb0dfa0&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-27T18:07:12Z",
+        "uri": "https://arquivo.pt/wayback/20210427180712mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=62059720-a783-11eb-9bf3-a3f996f632fb&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-04-27T20:20:53Z",
+        "uri": "https://vefsafn.is/20210427202053mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=106c0620-a796-11eb-aa53-5ddfe7f97bbb&url=L095OElEaU12SVM0SEJUZ2hMeUUvT1E="
+      },
+      {
+        "datetime": "2021-04-27T20:21:54Z",
+        "uri": "https://vefsafn.is/20210427202154mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=350e1360-a796-11eb-a39e-0341d76d7dc7&url=L05TVWVMalF1TmlrL0RUOHdLU2M3SlFzdQ=="
+      },
+      {
+        "datetime": "2021-04-27T20:22:00Z",
+        "uri": "https://vefsafn.is/20210427202200mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=38630ac0-a796-11eb-bd53-f55327a8a8a6&url=L0d3a3ZEeEFNQ0JJQ0pnQVpCd0VWR3owWkJoNGFEQncwRWc4ckxUa3ZDUzB5SWlZd0lBQW1PeVUvS3prZlB5QThPQ0l5Rm50a2VIeHVmbHA4YlhOa2RYWQ=="
+      },
+      {
+        "datetime": "2021-04-27T20:22:14Z",
+        "uri": "https://vefsafn.is/20210427202214mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=40ac2a90-a796-11eb-b28c-f186c282e4fe&url=L055UVpPREEvUHc="
+      },
+      {
+        "datetime": "2021-04-27T20:22:15Z",
+        "uri": "https://vefsafn.is/20210427202215mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4188a7e0-a796-11eb-ba14-eb403fa569c5&url=L0d3a3ZEeEFNQ0JJQ0pnQVpCd0VWR3owWkJoNGFEQncwRWc4ckxUa3ZDUzB5SWlZd0lBQW1PeVUvS3prZlB5QThPQ0l5Rm50a2VIeHVmbHA4YlhN"
+      },
+      {
+        "datetime": "2021-04-27T20:22:33Z",
+        "uri": "https://vefsafn.is/20210427202233mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4c617340-a796-11eb-ada9-c1b8dd271526&url=L05TVS9KRGs4S2o0SURTYzVLQzQ1SUE="
+      },
+      {
+        "datetime": "2021-04-27T20:22:35Z",
+        "uri": "https://vefsafn.is/20210427202235mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4d506720-a796-11eb-ab43-e9a020327853&url=L095Z1BQamcvSXpzL0NTOEZPQ29wT0RnaU9DOA=="
+      },
+      {
+        "datetime": "2021-04-27T20:22:37Z",
+        "uri": "https://vefsafn.is/20210427202237mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4e4cef90-a796-11eb-9eea-7fd8e0978780&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-04-27T20:22:40Z",
+        "uri": "https://vefsafn.is/20210427202240mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=50266a80-a796-11eb-a34d-41d64c7506d0&url=L09TTU5Kemt2SVQwdUtDUTdMeHcvSlJn"
+      },
+      {
+        "datetime": "2021-04-27T20:22:41Z",
+        "uri": "https://vefsafn.is/20210427202241mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=51086610-a796-11eb-8574-0fb15b4a5052&url=L095Z1lJaU12QmpRL0NUa2pLeU0="
+      },
+      {
+        "datetime": "2021-04-27T20:22:49Z",
+        "uri": "https://vefsafn.is/20210427202249mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=55bee940-a796-11eb-8591-a15f0803eba1&url=L01pb0lDanNqSWpzL0JTUTdEejBvSkI0"
+      },
+      {
+        "datetime": "2021-04-27T20:22:51Z",
+        "uri": "https://vefsafn.is/20210427202251mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=56bb98c0-a796-11eb-9058-493202424a2f&url=L09Db2VBanNwUFQ4bUNTVWhHVDgvTGdn"
+      },
+      {
+        "datetime": "2021-04-30T16:24:44Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20210430162444mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4990be50-a9cb-11eb-b39a-c5a5e09bd82f&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1hNDJkODZkYy05NGYzLTQ3YTItYjM4ZC0yYzNjODY0MTRkNWQ="
+      },
+      {
+        "datetime": "2021-05-01T19:09:50Z",
+        "uri": "https://arquivo.pt/wayback/20210501190950mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=cb52f670-aab0-11eb-8812-61075d7e77bc&url=L016Z3RPVHdyQXpzcENTY1VLU3cvT0I4dU1R"
+      },
+      {
+        "datetime": "2021-05-01T19:11:01Z",
+        "uri": "https://arquivo.pt/wayback/20210501191101mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=f5767800-aab0-11eb-8288-b98f501c7c5c&url=L015VUNMaWNlS2lJLw=="
+      },
+      {
+        "datetime": "2021-05-10T19:04:42Z",
+        "uri": "https://arquivo.pt/wayback/20210510190442mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=9187f3f0-b1c2-11eb-8493-e1a3082734fc&url=L016bGhHeE11T1FKckpCSVVaQ0lFSkNNYkh5RS9WaVlrQTFveEpWWXBNeGdOTnpjRWF6VVNXajQ3SENWdlZ5ODBOUVFxSlJKYUt6OVdHeVFGRXlrM0FpNHpMMW9NSnhzcUwxYzVMRE1hSnlRWkhTRnlBaTVoR3hzZ054Zw=="
+      },
+      {
+        "datetime": "2021-05-10T19:04:49Z",
+        "uri": "https://arquivo.pt/wayback/20210510190449mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=95e4e570-b1c2-11eb-87a9-fd9d28ae0026&url=L016aGhCQmtzTng4bE5WY2ZMVHhXR3pNWUdDZzNHMnNzSGc1a0d4NDVKQnBhQmlBWlBESVNDR1FvQTJzbUVoZ2hQRmhyQXg0T01EZFdMYjBmQ0NFOFZoZ29FbG9oT3hockZBY2ROak1TTG1FVER6WXhIbWRoQWhka0FoTTVLQm9mTURjRUUyRS9EeWt6R0dzQ0h4c29QaE1sSmhKYVBpZFdKeUFUSHlv"
+      },
+      {
+        "datetime": "2021-05-11T18:19:36Z",
+        "uri": "https://arquivo.pt/wayback/20210511181936mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=6e5cebb0-b285-11eb-85b7-fd884457e099&url=L016bGhHeE11T1FKckpCSVVaQ0lFSkNNYkh5RS9WaVlrQTFveEpWWXBNeGdOTnpjRWF6VVNXajQ3SENWdlZ5ODBOUVFxSlJKYUt6OVdHeVFGRXlrM0FpNHpMMW9NSnhzcUwxYzVMRE1hSnlRWkhTRnlBaTVoR3hzZ054Zw=="
+      },
+      {
+        "datetime": "2021-05-11T18:19:48Z",
+        "uri": "https://arquivo.pt/wayback/20210511181948mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=74d0d650-b285-11eb-8974-4920096e57d4&url=L016aGhCQmtzTng4bE5WY2ZMVHhXR3pNWUdDZzNHMnNzSGc1a0d4NDVKQnBhQmlBWlBESVNDR1FvQTJzbUVoZ2hQRmhyQXg0T01EZFdMYjBmQ0NFOFZoZ29FbG9oT3hockZBY2ROak1TTG1FVER6WXhIbWRoQWhka0FoTTVLQm9mTURjRUUyRS9EeWt6R0dzQ0h4c29QaE1sSmhKYVBpZFdKeUFUSHlv"
+      },
+      {
+        "datetime": "2021-05-11T20:25:32Z",
+        "uri": "https://vefsafn.is/20210511202532mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=08784e40-b297-11eb-a3c7-f5944a99f254&url=L016bGhHeE11T1FKckpCSVVaQ0lFSkNNYkh5RS9WaVlrQTFvZ04xWTlKQVVZTFR3U0lpOFFXakEzVmpFb0hSUnFjaXdrTXhCYUlETUNhelJYRlNvK0h5VWtWeGdoUEFKckpCbGFNamNFSlNnU0R6TnlBQzR6QVJVb05STWxNbGNlSVhJR0tpWWVGQ1U="
+      },
+      {
+        "datetime": "2021-05-11T20:25:33Z",
+        "uri": "https://vefsafn.is/20210511202533mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=096f7f80-b297-11eb-a0d2-6db4bed6b72a&url=L016bGhHeE11T1FKckpCSVVaQ0lFSkNNYkh5RS9WaVlrQTFveEpWWXBNeGdOTnpjRWF6VVNXajQ3SENWdlZ5ODBOUVFxSlJKYUt6OVdHeVFGRXlrM0FpNHpMMW9NSnhzcUwxYzVMRE1hSnlRWkhTRnlBaTVoR3hzZ054Zw=="
+      },
+      {
+        "datetime": "2021-05-11T20:25:40Z",
+        "uri": "https://vefsafn.is/20210511202540mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0d23d4f0-b297-11eb-a68b-ad26ba4824db&url=L01pNHpWeFlsTmhNNVlRTVRLSElYUDJFQm5EWTNWaTQxVnhVME9Sa3BMUjRVSXlFR09TNFZGaUUvV0dzS0dCUXdJQmtuTFJJSWFISVhQMkVURDJRM0JHc3VHUll0UEJObllSZ2RaRFVUSlM0SEhEWTdCU0JoRXg4Mk54QS9KQVZhTnpzU0xpOA=="
+      },
+      {
+        "datetime": "2021-05-13T19:09:25Z",
+        "uri": "https://arquivo.pt/wayback/20210513190925mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b9a06fd0-b41e-11eb-a742-79c029dcd45c&url=L016bGhHeE11T1FKckpCSVVaQ0lFSkNNYkh5RS9WaVlrQTFveEpWWXBNeGdOTnpjRWF6VVNXajQ3SENWdlZ5ODBOUVFxSlJKYUt6OVdHeVFGRXlrM0FpNHpMMW9NSnhzcUwxYzVMRE1hSnlRWkhTRnlBaTVoR3hzZ054Zw=="
+      },
+      {
+        "datetime": "2021-05-13T19:09:32Z",
+        "uri": "https://arquivo.pt/wayback/20210513190932mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=bdc27b30-b41e-11eb-80c2-0f51d3e3b8f3&url=L016aGhCQmtzTng4bE5WY2ZMVHhXR3pNWUdDZzNHMnNzSGc1a0d4NDVKQnBhQmlBWlBESVNDR1FvQTJzbUVoZ2hQRmhyQXg0T01EZFdMYjBmQ0NFOFZoZ29FbG9oT3hockZBY2ROak1TTG1FVER6WXhIbWRoQWhka0FoTTVLQm9mTURjRUUyRS9EeWt6R0dzQ0h4c29QaE1sSmhKYVBpZFdKeUFUSHlv"
+      },
+      {
+        "datetime": "2021-05-14T18:20:41Z",
+        "uri": "https://arquivo.pt/wayback/20210514182041mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=149ee110-b4e1-11eb-8d27-95a00c85c59a&url=L016bGhHeE11T1FKckpCSVVaQ0lFSkNNYkh5RS9WaVlrQTFveEpWWXBNeGdOTnpjRWF6VVNXajQ3SENWdlZ5ODBOUVFxSlJKYUt6OVdHeVFGRXlrM0FpNHpMMW9NSnhzcUwxYzVMRE1hSnlRWkhTRnlBaTVoR3hzZ054Zw=="
+      },
+      {
+        "datetime": "2021-05-14T18:20:48Z",
+        "uri": "https://arquivo.pt/wayback/20210514182048mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=19377c00-b4e1-11eb-9014-ff8f4a8ffde9&url=L016aGhCQmtzTng4bE5WY2ZMVHhXR3pNWUdDZzNHMnNzSGc1a0d4NDVKQnBhQmlBWlBESVNDR1FvQTJzbUVoZ2hQRmhyQXg0T01EZFdMYjBmQ0NFOFZoZ29FbG9oT3hockZBY2ROak1TTG1FVER6WXhIbWRoQWhka0FoTTVLQm9mTURjRUUyRS9EeWt6R0dzQ0h4c29QaE1sSmhKYVBpZFdKeUFUSHlv"
+      },
+      {
+        "datetime": "2021-05-15T20:03:08Z",
+        "uri": "https://arquivo.pt/wayback/20210515200308mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=8f796680-b5b8-11eb-9592-33b76c094758&url=L016bGhHeE11T1FKckpCSVVaQ0lFSkNNYkh5RS9WaVlrQTFveEpWWXBNeGdOTnpjRWF6VVNXajQ3SENWdlZ5ODBOUVFxSlJKYUt6OVdHeVFGRXlrM0FpNHpMMW9NSnhzcUwxYzVMRE1hSnlRWkhTRnlBaTVoR3hzZ054Zw=="
+      },
+      {
+        "datetime": "2021-05-15T20:03:14Z",
+        "uri": "https://arquivo.pt/wayback/20210515200314mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=93723f00-b5b8-11eb-b101-89be75459d50&url=L016aGhCQmtzTng4bE5WY2ZMVHhXR3pNWUdDZzNHMnNzSGc1a0d4NDVKQnBhQmlBWlBESVNDR1FvQTJzbUVoZ2hQRmhyQXg0T01EZFdMYjBmQ0NFOFZoZ29FbG9oT3hockZBY2ROak1TTG1FVER6WXhIbWRoQWhka0FoTTVLQm9mTURjRUUyRS9EeWt6R0dzQ0h4c29QaE1sSmhKYVBpZFdKeUFUSHlv"
+      },
+      {
+        "datetime": "2021-05-16T19:15:56Z",
+        "uri": "https://arquivo.pt/wayback/20210516191556mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=21cd2fe0-b67b-11eb-8368-272b784c9e9e&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-05-17T19:31:27Z",
+        "uri": "https://arquivo.pt/wayback/20210517193127mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=76f20ba0-b746-11eb-abdc-1d364f946cc1&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-05-18T19:41:28Z",
+        "uri": "https://arquivo.pt/wayback/20210518194128mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=06009b70-b811-11eb-94e5-e36e16c38839&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-05-18T20:56:11Z",
+        "uri": "https://vefsafn.is/20210518205611mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=78f0d910-b81b-11eb-acb0-9905c6e75585&url=L0dnUXRQeWdYVEZoVGFUcy9RVllhQkNGbU5CSVhIQVF1Y1dkS1ZrQWJJV3QyVEFZQVMybHJOUjBVR1VOcFozZFdSbFJiZDNsdVZrWllXbXM3UDFwQ1NCc2hhM2RhQkI4Sk9HTjNWa1pVVzNWN2FVdFBVVkE="
+      },
+      {
+        "datetime": "2021-05-18T20:56:14Z",
+        "uri": "https://vefsafn.is/20210518205614mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7b385810-b81b-11eb-b820-617de0af9f95&url=L093UTNQeUlVQWxVL0lEc2k="
+      },
+      {
+        "datetime": "2021-05-18T20:56:18Z",
+        "uri": "https://vefsafn.is/20210518205618mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7df6b4c0-b81b-11eb-b99d-3113fef56937&url=L09Sc3BQajRmQkZnT0xXc3FHeDhXSHp3bExnaFdIUVUvSkNrWm53"
+      },
+      {
+        "datetime": "2021-05-18T20:56:21Z",
+        "uri": "https://vefsafn.is/20210518205621mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7fa96dd0-b81b-11eb-a9e0-a946cb5f1188&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3p3NUlSVUVIQTRyUDJjZkh4WU9lUWtpQ1FLY0h6QXNNaFFSVmtzYklqTU9FMWdQSzdja0VSTVdTeXdsSTFvZUdRY3RMaWxhSlJFT2VTOHVIMVlzQ2lvL0lsb1VFUmg1TVRJSVZqb09LaitqRGg4ZkhqY3M="
+      },
+      {
+        "datetime": "2021-05-18T20:56:27Z",
+        "uri": "https://vefsafn.is/20210518205627mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=833af900-b81b-11eb-a071-5bc4fea664e9&url=L05oSTJKaTBiVmhVT1BtdXVDVllNQ2lzL05Ccw=="
+      },
+      {
+        "datetime": "2021-05-18T20:56:33Z",
+        "uri": "https://vefsafn.is/20210518205633mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=86a5e960-b81b-11eb-a76c-03b8e5792076&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-05-18T20:56:36Z",
+        "uri": "https://vefsafn.is/20210518205636mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=885ff570-b81b-11eb-ad8f-3fabe521a8dd&url=L01CNDBLaWxhTlJBS05TY2lGQkVkUzdGck5BNFhEQVI1S0NnWEJoUU9MU296RlZoWUtpMC9JaFFTRVE="
+      },
+      {
+        "datetime": "2021-05-18T20:56:39Z",
+        "uri": "https://vefsafn.is/20210518205639mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=89f20720-b81b-11eb-9e22-cbf672d47563&url=L0dnNC9KRFVmQXhZSE5pb2o="
+      },
+      {
+        "datetime": "2021-05-18T20:56:44Z",
+        "uri": "https://vefsafn.is/20210518205644mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=8d399100-b81b-11eb-b632-ed1ce1adc684&url=L0dnNC9KRFVmQmdvQ056OA=="
+      },
+      {
+        "datetime": "2021-05-18T20:56:57Z",
+        "uri": "https://vefsafn.is/20210518205657mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=94ea1a50-b81b-11eb-a88f-77053b0d28bc&url=L055ODFJQWt0TEJBa0hob3pOeUlmSEFNaWQwbzRQeTRoQnhNZFJqYy9PajhLUGl3UkpRNFpLemNjTlJ3VUpoWks="
+      },
+      {
+        "datetime": "2021-05-18T20:57:04Z",
+        "uri": "https://vefsafn.is/20210518205704mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=990dac50-b81b-11eb-82f2-cd967cfa54c6&url=L0d3TTRKeXNmR0I4T0RTNC9Eak1V"
+      },
+      {
+        "datetime": "2021-05-20T20:39:20Z",
+        "uri": "https://arquivo.pt/wayback/20210520203920mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7234ef30-b9ab-11eb-a575-c765c737cb99&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-05-21T20:07:17Z",
+        "uri": "https://arquivo.pt/wayback/20210521200717mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=21dedfd0-ba70-11eb-9fa0-c9b9b3619681&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-05-22T19:53:53Z",
+        "uri": "https://arquivo.pt/wayback/20210522195353mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=6dfc2a90-bb37-11eb-a76e-bd0e00fe3787&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-05-24T21:25:08Z",
+        "uri": "https://arquivo.pt/wayback/20210524212508mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=823a1580-bcd6-11eb-aae1-d3562aef5d06&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-05-25T19:40:47Z",
+        "uri": "https://arquivo.pt/wayback/20210525194047mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=186657c0-bd91-11eb-9c3e-dda7ec56ba9b&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-05-25T20:45:19Z",
+        "uri": "https://vefsafn.is/20210525204519mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1dd53f60-bd9a-11eb-be4a-2b9e0de1d4cc&url=L0dnUXRQeWdYVEZoVGFUcy9RVllhQkNGbU5CSVhIQVF1Y1dkS1ZrQWJJV3QyVEFZQVMybHJOUjBVR1VOcFozZFdSbFJiZDNsdVZrWllXbXM3UDFwQ1NCc2hhM2RhQkI4Sk9HTjNWa1pVVzNWN2FVdFBVVkE="
+      },
+      {
+        "datetime": "2021-05-25T20:45:22Z",
+        "uri": "https://vefsafn.is/20210525204522mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1fea15a0-bd9a-11eb-8ae5-275ebfbf6286&url=L093UTNQeUlVQWxVL0lEc2k="
+      },
+      {
+        "datetime": "2021-05-25T20:45:26Z",
+        "uri": "https://vefsafn.is/20210525204526mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=21f4b2b0-bd9a-11eb-8e57-8328773aeaa9&url=L09Sc3BQajRmQkZnT0xXc3FHeDhXSHp3bExnaFdIUVUvSkNrWm53"
+      },
+      {
+        "datetime": "2021-05-25T20:45:28Z",
+        "uri": "https://vefsafn.is/20210525204528mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=235246e0-bd9a-11eb-92dc-db1d61e0c893&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3p3NUlSVUVIQTRyUDJjZkh4WU9lUWtpQ1FLY0h6QXNNaFFSVmtzYklqTU9FMWdQSzdja0VSTVdTeXdsSTFvZUdRY3RMaWxhSlJFT2VTOHVIMVlzQ2lvL0lsb1VFUmg1TVRJSVZqb09LaitqRGg4ZkhqY3M="
+      },
+      {
+        "datetime": "2021-05-25T20:45:34Z",
+        "uri": "https://vefsafn.is/20210525204534mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=27131f70-bd9a-11eb-90b6-23da145a09e4&url=L05oSTJKaTBiVmhVT1BtdXVDVllNQ2lzL05Ccw=="
+      },
+      {
+        "datetime": "2021-05-25T20:45:40Z",
+        "uri": "https://vefsafn.is/20210525204540mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=29c63180-bd9a-11eb-bd6a-415d67d2bf43&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-05-25T20:45:42Z",
+        "uri": "https://vefsafn.is/20210525204542mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2b39beb0-bd9a-11eb-9d7a-a791e35c03f7&url=L01CNDBLaWxhTlJBS05TY2lGQkVkUzdGck5BNFhEQVI1S0NnWEJoUU9MU296RlZoWUtpMC9JaFFTRVE="
+      },
+      {
+        "datetime": "2021-05-25T20:45:44Z",
+        "uri": "https://vefsafn.is/20210525204544mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2c60d990-bd9a-11eb-a5ac-fd2464d5b7da&url=L0dnNC9KRFVmQXhZSE5pb2o="
+      },
+      {
+        "datetime": "2021-05-25T20:45:49Z",
+        "uri": "https://vefsafn.is/20210525204549mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2f8216c0-bd9a-11eb-903d-81d1772185da&url=L0dnNC9KRFVmQmdvQ056OA=="
+      },
+      {
+        "datetime": "2021-05-25T20:46:04Z",
+        "uri": "https://vefsafn.is/20210525204604mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=388add10-bd9a-11eb-b3f9-7b096415eee1&url=L055ODFJQWt0TEJBa0hob3pOeUlmSEFNaWQwbzRQeTRoQnhNZFJqYy9PajhLUGl3UkpRNFpLemNjTlJ3VUpoWks="
+      },
+      {
+        "datetime": "2021-05-25T20:46:09Z",
+        "uri": "https://vefsafn.is/20210525204609mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=3b8aaf90-bd9a-11eb-9af7-05acfac853b5&url=L0d3TTRKeXNmR0I4T0RTNC9Eak1V"
+      },
+      {
+        "datetime": "2021-05-26T21:42:52Z",
+        "uri": "https://arquivo.pt/wayback/20210526214252mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=50b04700-be6b-11eb-bb7b-9faa71179194&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-05-29T21:02:42Z",
+        "uri": "https://arquivo.pt/wayback/20210529210242mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=337a0d30-c0c1-11eb-a87b-472cd81c7dab&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-05-30T22:42:29Z",
+        "uri": "https://arquivo.pt/wayback/20210530224229mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4e6f2a30-c198-11eb-be43-d5e922f58914&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-05-31T21:23:48Z",
+        "uri": "https://arquivo.pt/wayback/20210531212348mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7b0da580-c256-11eb-8efa-716a450e4195&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-06-01T20:46:34Z",
+        "uri": "https://vefsafn.is/20210601204634mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=736a89a0-c31a-11eb-bebb-35cfe77d6e2c&url=L0dnUXRQeWdYVEZoVGFUcy9RVllhQkNGbU5CSVhIQVF1Y1dkS1ZrQWJJV3QyVEFZQVMybHJOUjBVR1VOcFozZFdSbFJiZDNsdVZrWllXbXM3UDFwQ1NCc2hhM2RhQkI4Sk9HTjNWa1pVVzNWN2FVdFBVVkE="
+      },
+      {
+        "datetime": "2021-06-01T20:46:38Z",
+        "uri": "https://vefsafn.is/20210601204638mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=75bbf3b0-c31a-11eb-87ef-73bfc2d80c3a&url=L093UTNQeUlVQWxVL0lEc2k="
+      },
+      {
+        "datetime": "2021-06-01T20:46:42Z",
+        "uri": "https://vefsafn.is/20210601204642mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7821f730-c31a-11eb-8225-79472431f4bd&url=L09Sc3BQajRmQkZnT0xXc3FHeDhXSHp3bExnaFdIUVUvSkNrWm53"
+      },
+      {
+        "datetime": "2021-06-01T20:46:43Z",
+        "uri": "https://vefsafn.is/20210601204643mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=78fb1920-c31a-11eb-8fc7-49793d4b48c1&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3p3NUlSVUVIQTRyUDJjZkh4WU9lUWtpQ1FLY0h6QXNNaFFSVmtzYklqTU9FMWdQSzdja0VSTVdTeXdsSTFvZUdRY3RMaWxhSlJFT2VTOHVIMVlzQ2lvL0lsb1VFUmg1TVRJSVZqb09LaitqRGg4ZkhqY3M="
+      },
+      {
+        "datetime": "2021-06-01T20:46:49Z",
+        "uri": "https://vefsafn.is/20210601204649mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7c6175a0-c31a-11eb-a58d-8997044a3615&url=L05oSTJKaTBiVmhVT1BtdXVDVllNQ2lzL05Ccw=="
+      },
+      {
+        "datetime": "2021-06-01T20:46:55Z",
+        "uri": "https://vefsafn.is/20210601204655mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7fa18570-c31a-11eb-b13b-0b18cea2fc97&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-06-01T20:46:57Z",
+        "uri": "https://vefsafn.is/20210601204657mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=811e8880-c31a-11eb-bdac-c9b2c7065f2d&url=L01CNDBLaWxhTlJBS05TY2lGQkVkUzdGck5BNFhEQVI1S0NnWEJoUU9MU296RlZoWUtpMC9JaFFTRVE="
+      },
+      {
+        "datetime": "2021-06-01T20:46:59Z",
+        "uri": "https://vefsafn.is/20210601204659mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=822dd5a0-c31a-11eb-9935-112f55341396&url=L0dnNC9KRFVmQXhZSE5pb2o="
+      },
+      {
+        "datetime": "2021-06-01T20:47:07Z",
+        "uri": "https://vefsafn.is/20210601204707mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=861521f0-c31a-11eb-a54b-e19520cb6fc1&url=L0dnNC9KRFVmQmdvQ056OA=="
+      },
+      {
+        "datetime": "2021-06-01T20:47:22Z",
+        "uri": "https://vefsafn.is/20210601204722mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=901a97c0-c31a-11eb-9f27-3919789f23e0&url=L055ODFJQWt0TEJBa0hob3pOeUlmSEFNaWQwbzRQeTRoQnhNZFJqYy9PajhLUGl3UkpRNFpLemNjTlJ3VUpoWks="
+      },
+      {
+        "datetime": "2021-06-01T20:47:28Z",
+        "uri": "https://vefsafn.is/20210601204728mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=93bbda60-c31a-11eb-b71a-5f845f5e927a&url=L0d3TTRKeXNmR0I4T0RTNC9Eak1V"
+      },
+      {
+        "datetime": "2021-06-01T22:40:14Z",
+        "uri": "https://arquivo.pt/wayback/20210601224014mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=52b37ef0-c32a-11eb-b8d3-85685f637750&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-06-02T23:41:17Z",
+        "uri": "https://arquivo.pt/wayback/20210602234117mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=049d6190-c3fc-11eb-a65d-8f266df8686e&url=L01CNDBLaWxhTlJBS05TY2lGQkVkU3lzaUpCSWZIUTg4YXpJVUYxZ2RQRGt1SEI4YkNuZHJFeE1URmdKNU96VWZHdzBmTm1zdUZsWU1DaW8vS0ZvUUVRVTJheVphQUIwWk1DMHVHUmRZQ2k4OUloUUREQW8="
+      },
+      {
+        "datetime": "2021-06-08T17:10:43Z",
+        "uri": "https://web.archive.org.au/awa/20210608171043mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=750bf570-c87c-11eb-aed2-e7899c8450a1&url=L211bHRpbWVkaWEvc2l0ZW1hcC54bWw="
+      },
+      {
+        "datetime": "2021-06-08T21:22:38Z",
+        "uri": "https://vefsafn.is/20210608212238mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a686f5f0-c89f-11eb-b72d-5dc16f577e92&url=L0dDZFRIUjBhV21zNEZod2JFbHdvTHdjSFVoQlFJbTRESEIwV1dTNGpHazRXSFJVb0lSMEFGd2RHSWlFZEMxeFVkRGc5R2cwSEJsUS9KMU1LRzFSUU9EMFdIQmRVV2lVaUdnQVhWRkJyTHhRSkd4dEhKUzlUQWhOVVJTb3BHZ0FU"
+      },
+      {
+        "datetime": "2021-06-08T21:22:40Z",
+        "uri": "https://vefsafn.is/20210608212240mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a75d58c0-c89f-11eb-b86c-19688782a631&url=L0dDZFRobElDVURrbkZRY1JGVUVrYmdZQVVnUkhKQ3dmQ3g4VkZTZ2hIVTRiR0JVL094eE9FQVphUEQwV0hGeFVkQ3dwR2dFQUdsUW5JVk1lRndZVktDOEJCeEVWUnk1dUl3c0FIVmd1T2hZY0tsUjlQaU1TQUZJM1hTb2lId3NjRTFB"
+      },
+      {
+        "datetime": "2021-07-09T18:32:03Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20210709183203mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=f4c52190-e0e3-11eb-9a97-c9b6e8cf78a2&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Mjc4NzczNS03YjhkLTRiMmItYmJiMS1lNDQyOGVkNWYyMWE="
+      },
+      {
+        "datetime": "2021-07-30T10:38:20Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20210730103820mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0e3d1130-f121-11eb-aa20-bb5006d522b2&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0xYWM2MTg3MS03MzBjLTQxNjctYTJiYi02MGQ2Y2JmNjhmY2Y="
+      },
+      {
+        "datetime": "2021-08-22T09:31:47Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20210822093147mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=c4f257ea-032b-11ec-b11d-4a46696c524d&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD01OTY3YmYwNC0xZDVjLTQxYTgtYTYwZS1lZTE3ZGJkNjQwYTI="
+      },
+      {
+        "datetime": "2021-09-09T17:22:43Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20210909172243mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=8aa11d20-1192-11ec-99ae-625466654272&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1lYmQyYWZiNy1lMTA3LTRkYWItYjZhOC1kMjM4ZjgwM2JkNzQ="
+      },
+      {
+        "datetime": "2021-09-15T13:34:48Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20210915133448mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b240a14d-1629-11ec-94ff-414d43464349&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD03NjNkNTlmMC0xNWE1LTRiNjEtOWRhZi0zZjdkZTIwM2I4MWU="
+      },
+      {
+        "datetime": "2021-10-03T14:22:37Z",
+        "uri": "https://web.archive.org.au/awa/20211003142237mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=5b9480bd-2455-11ec-b044-797558716f66&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2021-10-03T15:18:17Z",
+        "uri": "https://web.archive.org.au/awa/20211003151817mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=220b1668-245d-11ec-bffe-596559484c7a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1lZDVjNjcxYy1lNDM1LTQxYjMtYTViNC0yYWU0NGI4NDdkNDQ="
+      },
+      {
+        "datetime": "2021-10-03T15:18:50Z",
+        "uri": "https://web.archive.org.au/awa/20211003151850mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=3628bb40-245d-11ec-8d26-626869694a4e&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1mMWFkYjQ4My01YjQzLTQxMjgtYjM2OC00NWNjNTliYmZlYTQ="
+      },
+      {
+        "datetime": "2021-10-10T14:34:33Z",
+        "uri": "https://web.archive.org.au/awa/20211010143433mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2f62d1d1-29d7-11ec-8517-464445556a63&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2021-10-10T15:33:07Z",
+        "uri": "https://web.archive.org.au/awa/20211010153307mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=5d9e7990-29df-11ec-ab6e-4241654a7958&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1lZDVjNjcxYy1lNDM1LTQxYjMtYTViNC0yYWU0NGI4NDdkNDQ="
+      },
+      {
+        "datetime": "2021-10-10T15:33:45Z",
+        "uri": "https://web.archive.org.au/awa/20211010153345mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=741b51ef-29df-11ec-8789-514c6a525876&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1mMWFkYjQ4My01YjQzLTQxMjgtYjM2OC00NWNjNTliYmZlYTQ="
+      },
+      {
+        "datetime": "2021-10-17T14:09:09Z",
+        "uri": "https://web.archive.org.au/awa/20211017140909mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=cb94d6c5-2f53-11ec-b5eb-4661474f4f64&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMy0xOS91YmVyLWF1dG9ub21vdXMtY2FyLWludm9sdmVkLWluLWZhdGFsLWNyYXNoLWluLWFyaXpvbmE="
+      },
+      {
+        "datetime": "2021-10-17T14:26:15Z",
+        "uri": "https://web.archive.org.au/awa/20211017142615mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2f5ea09f-2f56-11ec-9972-52684371616a&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNy0yMC9jbGltYXRlLWNoYW5nZS1pcy1kaXNydXB0aW5nLXRoZS1wbGFuZXQtcy1zZWFzb25z"
+      },
+      {
+        "datetime": "2021-10-17T14:40:54Z",
+        "uri": "https://web.archive.org.au/awa/20211017144054mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=3af59790-2f58-11ec-a3b3-6a70655a4746&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2021-10-24T14:42:18Z",
+        "uri": "https://web.archive.org.au/awa/20211024144218mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=96220573-34d8-11ec-a092-50674e574561&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2021-10-31T14:45:04Z",
+        "uri": "https://web.archive.org.au/awa/20211031144504mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=21ed437a-3a59-11ec-bab1-686678645553&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2021-11-07T14:46:58Z",
+        "uri": "https://web.archive.org.au/awa/20211107144658mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=8eebac9d-3fd9-11ec-a7cf-5856644b635a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2021-11-14T14:45:09Z",
+        "uri": "https://web.archive.org.au/awa/20211114144509mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=76f79c3c-4559-11ec-9f63-526e4d4f574e&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2021-11-14T15:33:10Z",
+        "uri": "https://web.archive.org.au/awa/20211114153310mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2be5d065-4560-11ec-af4f-4342544e6343&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yMjUzNTY0Yy0xZjIxLTRkNGUtOTAzNi04ZjU4NTEyYWEwNTg="
+      },
+      {
+        "datetime": "2021-11-17T18:26:04Z",
+        "uri": "https://web.archive.org.au/awa/20211117182604mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d25e4a66-47d3-11ec-99b8-71516f414949&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMy0xOS91YmVyLWF1dG9ub21vdXMtY2FyLWludm9sdmVkLWluLWZhdGFsLWNyYXNoLWluLWFyaXpvbmE="
+      },
+      {
+        "datetime": "2021-11-17T19:18:24Z",
+        "uri": "https://web.archive.org.au/awa/20211117191824mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=220e3f03-47db-11ec-a9c2-6f546e6d6975&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNy0yMC9jbGltYXRlLWNoYW5nZS1pcy1kaXNydXB0aW5nLXRoZS1wbGFuZXQtcy1zZWFzb25z"
+      },
+      {
+        "datetime": "2021-11-21T14:40:43Z",
+        "uri": "https://web.archive.org.au/awa/20211121144043mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=00d506e7-4ad9-11ec-b546-505576736a67&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2021-11-21T15:25:32Z",
+        "uri": "https://web.archive.org.au/awa/20211121152532mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4394b168-4adf-11ec-9437-514562786659&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZjEzZDc3NS02ZTc2LTRkYWQtYTg0Yi0wYWM5MDMzMWQ5OGY="
+      },
+      {
+        "datetime": "2021-11-21T15:27:18Z",
+        "uri": "https://web.archive.org.au/awa/20211121152718mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=83002593-4adf-11ec-b59d-796843484156&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yMjUzNTY0Yy0xZjIxLTRkNGUtOTAzNi04ZjU4NTEyYWEwNTg="
+      },
+      {
+        "datetime": "2021-11-25T09:33:08Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20211125093308mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b331f738-4dd2-11ec-93d0-6f4a6a424e76&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD01YmFiMjgwYS1mMmMyLTQ5MjktYmQ5OC0wOWE1NzI1MWUwNzI="
+      },
+      {
+        "datetime": "2021-11-28T13:39:50Z",
+        "uri": "https://web.archive.org.au/awa/20211128133950mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a8a8daa8-5050-11ec-9a34-485071767751&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yNTkzY2RkZi0zOGRkLTQ2YzctYTZjMi05MTExOTIwNGFhY2Q="
+      },
+      {
+        "datetime": "2021-11-28T14:49:27Z",
+        "uri": "https://web.archive.org.au/awa/20211128144927mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=6207fe33-505a-11ec-8840-716c43614e54&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2021-11-28T15:37:29Z",
+        "uri": "https://web.archive.org.au/awa/20211128153729mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=17f72d89-5061-11ec-8840-716c43614e54&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZjEzZDc3NS02ZTc2LTRkYWQtYTg0Yi0wYWM5MDMzMWQ5OGY="
+      },
+      {
+        "datetime": "2021-11-28T15:39:29Z",
+        "uri": "https://web.archive.org.au/awa/20211128153929mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=5f73d55a-5061-11ec-8a1e-574148506377&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yMjUzNTY0Yy0xZjIxLTRkNGUtOTAzNi04ZjU4NTEyYWEwNTg="
+      },
+      {
+        "datetime": "2021-12-05T14:02:00Z",
+        "uri": "https://web.archive.org.au/awa/20211205140200mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ea5d7cfd-55d3-11ec-8e72-5953586b7758&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yNTkzY2RkZi0zOGRkLTQ2YzctYTZjMi05MTExOTIwNGFhY2Q="
+      },
+      {
+        "datetime": "2021-12-05T14:50:21Z",
+        "uri": "https://web.archive.org.au/awa/20211205145021mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ab17e3c9-55da-11ec-b532-666c454f4f78&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2021-12-05T15:41:14Z",
+        "uri": "https://web.archive.org.au/awa/20211205154114mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=c7367caa-55e1-11ec-8db3-746e7778524a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZjEzZDc3NS02ZTc2LTRkYWQtYTg0Yi0wYWM5MDMzMWQ5OGY="
+      },
+      {
+        "datetime": "2021-12-05T15:43:20Z",
+        "uri": "https://web.archive.org.au/awa/20211205154320mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=124ba4b1-55e2-11ec-8813-55586569657a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yMjUzNTY0Yy0xZjIxLTRkNGUtOTAzNi04ZjU4NTEyYWEwNTg="
+      },
+      {
+        "datetime": "2021-12-12T14:01:51Z",
+        "uri": "https://web.archive.org.au/awa/20211212140151mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0df1d529-5b54-11ec-886e-706e71457a61&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yNTkzY2RkZi0zOGRkLTQ2YzctYTZjMi05MTExOTIwNGFhY2Q="
+      },
+      {
+        "datetime": "2021-12-12T15:31:52Z",
+        "uri": "https://web.archive.org.au/awa/20211212153152mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a11309af-5b60-11ec-91eb-6f797448547a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2021-12-12T15:38:06Z",
+        "uri": "https://web.archive.org.au/awa/20211212153806mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=8047554b-5b61-11ec-bb07-6c45716b7959&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZjEzZDc3NS02ZTc2LTRkYWQtYTg0Yi0wYWM5MDMzMWQ5OGY="
+      },
+      {
+        "datetime": "2021-12-12T15:40:43Z",
+        "uri": "https://web.archive.org.au/awa/20211212154043mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=dda58331-5b61-11ec-bb07-6c45716b7959&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yMjUzNTY0Yy0xZjIxLTRkNGUtOTAzNi04ZjU4NTEyYWEwNTg="
+      },
+      {
+        "datetime": "2021-12-17T15:03:57Z",
+        "uri": "https://web.archive.org.au/awa/20211217150357mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=8eab1044-5f4a-11ec-b578-6b4871655445&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNy0yMC9jbGltYXRlLWNoYW5nZS1pcy1kaXNydXB0aW5nLXRoZS1wbGFuZXQtcy1zZWFzb25z"
+      },
+      {
+        "datetime": "2021-12-19T14:08:03Z",
+        "uri": "https://web.archive.org.au/awa/20211219140803mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=149881dc-60d5-11ec-ad8c-63535450636d&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yNTkzY2RkZi0zOGRkLTQ2YzctYTZjMi05MTExOTIwNGFhY2Q="
+      },
+      {
+        "datetime": "2021-12-19T15:33:46Z",
+        "uri": "https://web.archive.org.au/awa/20211219153346mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0e1beef4-60e1-11ec-9505-6b455070785a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2021-12-19T15:38:45Z",
+        "uri": "https://web.archive.org.au/awa/20211219153845mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=c02c2a69-60e1-11ec-9b67-4443666e4b77&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zOGFhMzhjMS1iMGZjLTQzOWYtODU5NC02OTE1NWUzMTVhNmY="
+      },
+      {
+        "datetime": "2021-12-19T15:41:33Z",
+        "uri": "https://web.archive.org.au/awa/20211219154133mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=24836082-60e2-11ec-9907-4b57676f4b4a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZjEzZDc3NS02ZTc2LTRkYWQtYTg0Yi0wYWM5MDMzMWQ5OGY="
+      },
+      {
+        "datetime": "2021-12-19T15:44:09Z",
+        "uri": "https://web.archive.org.au/awa/20211219154409mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=814eed05-60e2-11ec-9505-6b455070785a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yMjUzNTY0Yy0xZjIxLTRkNGUtOTAzNi04ZjU4NTEyYWEwNTg="
+      },
+      {
+        "datetime": "2021-12-26T14:11:55Z",
+        "uri": "https://web.archive.org.au/awa/20211226141155mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=c7a61cf5-6655-11ec-8179-504b6c724e44&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yNTkzY2RkZi0zOGRkLTQ2YzctYTZjMi05MTExOTIwNGFhY2Q="
+      },
+      {
+        "datetime": "2021-12-26T15:36:15Z",
+        "uri": "https://web.archive.org.au/awa/20211226153615mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=8fc745ac-6661-11ec-b9b1-4e5653797261&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2021-12-26T15:41:37Z",
+        "uri": "https://web.archive.org.au/awa/20211226154137mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4f3e70e5-6662-11ec-8cc2-54717178706a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zOGFhMzhjMS1iMGZjLTQzOWYtODU5NC02OTE1NWUzMTVhNmY="
+      },
+      {
+        "datetime": "2021-12-26T15:45:03Z",
+        "uri": "https://web.archive.org.au/awa/20211226154503mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ca6e91ec-6662-11ec-b9b1-4e5653797261&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZjEzZDc3NS02ZTc2LTRkYWQtYTg0Yi0wYWM5MDMzMWQ5OGY="
+      },
+      {
+        "datetime": "2021-12-26T15:47:20Z",
+        "uri": "https://web.archive.org.au/awa/20211226154720mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1c12da0c-6663-11ec-8a66-486f51636e55&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yMjUzNTY0Yy0xZjIxLTRkNGUtOTAzNi04ZjU4NTEyYWEwNTg="
+      },
+      {
+        "datetime": "2022-01-02T14:14:04Z",
+        "uri": "https://web.archive.org.au/awa/20220102141404mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=3d0f2e37-6bd6-11ec-928c-4d6e49506149&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yNTkzY2RkZi0zOGRkLTQ2YzctYTZjMi05MTExOTIwNGFhY2Q="
+      },
+      {
+        "datetime": "2022-01-02T15:39:30Z",
+        "uri": "https://web.archive.org.au/awa/20220102153930mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2ce8bcf5-6be2-11ec-84f9-4f5850534d42&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2022-01-02T15:45:06Z",
+        "uri": "https://web.archive.org.au/awa/20220102154506mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=f4eeaa25-6be2-11ec-ac45-73577573764f&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zOGFhMzhjMS1iMGZjLTQzOWYtODU5NC02OTE1NWUzMTVhNmY="
+      },
+      {
+        "datetime": "2022-01-02T15:48:45Z",
+        "uri": "https://web.archive.org.au/awa/20220102154845mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=77c89fd1-6be3-11ec-afcd-6b6963425059&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZjEzZDc3NS02ZTc2LTRkYWQtYTg0Yi0wYWM5MDMzMWQ5OGY="
+      },
+      {
+        "datetime": "2022-01-02T15:50:45Z",
+        "uri": "https://web.archive.org.au/awa/20220102155045mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=bf199571-6be3-11ec-ac45-73577573764f&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yMjUzNTY0Yy0xZjIxLTRkNGUtOTAzNi04ZjU4NTEyYWEwNTg="
+      },
+      {
+        "datetime": "2022-01-10T14:11:55Z",
+        "uri": "https://web.archive.org.au/awa/20220110141155mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=43ef1c62-721f-11ec-81d9-647070706c41&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yNTkzY2RkZi0zOGRkLTQ2YzctYTZjMi05MTExOTIwNGFhY2Q="
+      },
+      {
+        "datetime": "2022-01-10T15:41:10Z",
+        "uri": "https://web.archive.org.au/awa/20220110154110mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=bba529ec-722b-11ec-81cc-6863447a6a58&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2022-01-10T15:47:23Z",
+        "uri": "https://web.archive.org.au/awa/20220110154723mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=99fd3ab7-722c-11ec-901d-6d6279464a53&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zOGFhMzhjMS1iMGZjLTQzOWYtODU5NC02OTE1NWUzMTVhNmY="
+      },
+      {
+        "datetime": "2022-01-10T15:50:49Z",
+        "uri": "https://web.archive.org.au/awa/20220110155049mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1460a686-722d-11ec-a176-545155656c71&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZjEzZDc3NS02ZTc2LTRkYWQtYTg0Yi0wYWM5MDMzMWQ5OGY="
+      },
+      {
+        "datetime": "2022-01-10T15:53:04Z",
+        "uri": "https://web.archive.org.au/awa/20220110155304mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=6508070a-722d-11ec-a05a-4b6554686343&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yMjUzNTY0Yy0xZjIxLTRkNGUtOTAzNi04ZjU4NTEyYWEwNTg="
+      },
+      {
+        "datetime": "2022-01-11T18:50:17Z",
+        "uri": "https://arquivo.pt/wayback/20220111185017mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4f96d0b6-730f-11ec-ac55-475768745a4a&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-12T18:07:18Z",
+        "uri": "https://arquivo.pt/wayback/20220112180718mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=794b2efa-73d2-11ec-af8b-6c546f646965&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-13T19:38:24Z",
+        "uri": "https://arquivo.pt/wayback/20220113193824mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=5c5ff18a-74a8-11ec-b71a-566b42494f56&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-14T18:59:45Z",
+        "uri": "https://arquivo.pt/wayback/20220114185945mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=209d6232-756c-11ec-a4dd-56456d505277&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-15T19:09:25Z",
+        "uri": "https://arquivo.pt/wayback/20220115190925mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a5aff9e0-7636-11ec-9f01-78484f646c69&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-16T18:50:00Z",
+        "uri": "https://arquivo.pt/wayback/20220116185000mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1a0790a4-76fd-11ec-b960-676d6d736f57&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-17T14:25:20Z",
+        "uri": "https://web.archive.org.au/awa/20220117142520mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4c637f9d-77a1-11ec-b74f-5a4676796f63&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yNTkzY2RkZi0zOGRkLTQ2YzctYTZjMi05MTExOTIwNGFhY2Q="
+      },
+      {
+        "datetime": "2022-01-17T15:53:08Z",
+        "uri": "https://web.archive.org.au/awa/20220117155308mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=902ee01e-77ad-11ec-a582-6e4243436e6f&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2022-01-17T16:00:09Z",
+        "uri": "https://web.archive.org.au/awa/20220117160009mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=8b659578-77ae-11ec-a48b-776762737273&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zOGFhMzhjMS1iMGZjLTQzOWYtODU5NC02OTE1NWUzMTVhNmY="
+      },
+      {
+        "datetime": "2022-01-17T16:03:48Z",
+        "uri": "https://web.archive.org.au/awa/20220117160348mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0deb1d55-77af-11ec-8247-446c72417041&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZjEzZDc3NS02ZTc2LTRkYWQtYTg0Yi0wYWM5MDMzMWQ5OGY="
+      },
+      {
+        "datetime": "2022-01-17T16:05:50Z",
+        "uri": "https://web.archive.org.au/awa/20220117160550mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=56963fe7-77af-11ec-8a2c-45617548544f&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yMjUzNTY0Yy0xZjIxLTRkNGUtOTAzNi04ZjU4NTEyYWEwNTg="
+      },
+      {
+        "datetime": "2022-01-17T17:30:09Z",
+        "uri": "https://web.archive.org.au/awa/20220117173009mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1dce28df-77bb-11ec-aef7-484e6c444c63&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNy0yMC9jbGltYXRlLWNoYW5nZS1pcy1kaXNydXB0aW5nLXRoZS1wbGFuZXQtcy1zZWFzb25z"
+      },
+      {
+        "datetime": "2022-01-17T18:53:22Z",
+        "uri": "https://arquivo.pt/wayback/20220117185322mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=bc6eed6f-77c6-11ec-8281-646e69517262&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-18T10:23:05Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20220118102305mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=9f5a12b4-7848-11ec-98bf-534158596947&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD01YmFiMjgwYS1mMmMyLTQ5MjktYmQ5OC0wOWE1NzI1MWUwNzI="
+      },
+      {
+        "datetime": "2022-01-18T18:48:24Z",
+        "uri": "https://arquivo.pt/wayback/20220118184824mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=35152656-788f-11ec-aa7a-454763724954&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-19T18:55:09Z",
+        "uri": "https://arquivo.pt/wayback/20220119185509mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=51595891-7959-11ec-ba4c-754e445a4f66&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-20T18:54:54Z",
+        "uri": "https://arquivo.pt/wayback/20220120185454mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=72715624-7a22-11ec-90b1-64776a625174&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-21T18:46:53Z",
+        "uri": "https://arquivo.pt/wayback/20220121184653mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7e9aaa83-7aea-11ec-a1ce-4c647548557a&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-22T18:41:52Z",
+        "uri": "https://arquivo.pt/wayback/20220122184152mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=f58ce267-7bb2-11ec-a8df-585865704d4e&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-23T18:47:56Z",
+        "uri": "https://arquivo.pt/wayback/20220123184756mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=f89716aa-7c7c-11ec-b1e7-5972464e6f54&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-24T15:38:42Z",
+        "uri": "https://web.archive.org.au/awa/20220124153842mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b54dd708-7d2b-11ec-96a9-785965674748&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2022-01-24T15:46:54Z",
+        "uri": "https://web.archive.org.au/awa/20220124154654mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=da9407e4-7d2c-11ec-8d4c-4e4f776b7051&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zOGFhMzhjMS1iMGZjLTQzOWYtODU5NC02OTE1NWUzMTVhNmY="
+      },
+      {
+        "datetime": "2022-01-24T15:50:39Z",
+        "uri": "https://web.archive.org.au/awa/20220124155039mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=60b5f359-7d2d-11ec-9104-687a78596d74&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZjEzZDc3NS02ZTc2LTRkYWQtYTg0Yi0wYWM5MDMzMWQ5OGY="
+      },
+      {
+        "datetime": "2022-01-24T18:44:58Z",
+        "uri": "https://arquivo.pt/wayback/20220124184458mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b925dcf2-7d45-11ec-9b3e-6d7273415876&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-25T18:49:10Z",
+        "uri": "https://arquivo.pt/wayback/20220125184910mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=79566d7d-7e0f-11ec-97ee-6d4c79575369&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-26T18:50:47Z",
+        "uri": "https://arquivo.pt/wayback/20220126185047mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=de0b9311-7ed8-11ec-9797-785275636f75&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-27T18:43:57Z",
+        "uri": "https://arquivo.pt/wayback/20220127184357mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=143ca99a-7fa1-11ec-8605-75754775514c&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-28T18:49:49Z",
+        "uri": "https://arquivo.pt/wayback/20220128184949mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0fe5c577-806b-11ec-92e9-6c49734c6978&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-01-31T16:00:01Z",
+        "uri": "https://web.archive.org.au/awa/20220131160001mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d86f7c72-82ae-11ec-828f-6d414563584f&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2022-01-31T16:08:13Z",
+        "uri": "https://web.archive.org.au/awa/20220131160813mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=fdf48dbc-82af-11ec-8fe2-47486750524e&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zOGFhMzhjMS1iMGZjLTQzOWYtODU5NC02OTE1NWUzMTVhNmY="
+      },
+      {
+        "datetime": "2022-01-31T16:11:03Z",
+        "uri": "https://web.archive.org.au/awa/20220131161103mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=63161174-82b0-11ec-89cc-7a4954667244&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZjEzZDc3NS02ZTc2LTRkYWQtYTg0Yi0wYWM5MDMzMWQ5OGY="
+      },
+      {
+        "datetime": "2022-01-31T18:37:28Z",
+        "uri": "https://arquivo.pt/wayback/20220131183728mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d54cac4b-82c4-11ec-a6a2-4245554b524c&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-01T01:03:17Z",
+        "uri": "https://web.archive.org.au/awa/20220201010317mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=bcf7b065-82fa-11ec-9f32-41496b786e67&url=L29waW5pb24vYXJ0aWNsZXMvMjAyMS0xMi0yNC91a3JhaW5lLWNyaXNpcy1wdXRpbi1pcy1vbmx5LXByZXRlbmRpbmctdG8tYmUtY3Jhenk="
+      },
+      {
+        "datetime": "2022-02-01T01:06:44Z",
+        "uri": "https://web.archive.org.au/awa/20220201010644mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=38b3e160-82fb-11ec-b564-6d7264616369&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2022-02-01T01:14:23Z",
+        "uri": "https://web.archive.org.au/awa/20220201011423mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4a1d7738-82fc-11ec-854c-777a42447854&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zOGFhMzhjMS1iMGZjLTQzOWYtODU5NC02OTE1NWUzMTVhNmY="
+      },
+      {
+        "datetime": "2022-02-01T01:17:10Z",
+        "uri": "https://web.archive.org.au/awa/20220201011710mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ada9321d-82fc-11ec-b564-6d7264616369&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZjEzZDc3NS02ZTc2LTRkYWQtYTg0Yi0wYWM5MDMzMWQ5OGY="
+      },
+      {
+        "datetime": "2022-02-01T18:51:09Z",
+        "uri": "https://arquivo.pt/wayback/20220201185109mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e9aa7340-838f-11ec-a696-496b49616851&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-02T18:45:31Z",
+        "uri": "https://arquivo.pt/wayback/20220202184531mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4a5933d2-8458-11ec-9cc0-724a66496857&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-03T18:50:26Z",
+        "uri": "https://arquivo.pt/wayback/20220203185026mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=24a9fbd3-8522-11ec-bdaa-497164784d59&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-04T18:50:14Z",
+        "uri": "https://arquivo.pt/wayback/20220204185014mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4757ceac-85eb-11ec-98db-544d45664174&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-05T18:46:47Z",
+        "uri": "https://arquivo.pt/wayback/20220205184647mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=f6eaa4c8-86b3-11ec-939f-454941584941&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-06T18:43:35Z",
+        "uri": "https://arquivo.pt/wayback/20220206184335mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=af2fc296-877c-11ec-bfb7-744b65476b7a&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-07T15:32:30Z",
+        "uri": "https://web.archive.org.au/awa/20220207153230mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2931731b-882b-11ec-81d5-63576e764d72&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2022-02-07T15:41:32Z",
+        "uri": "https://web.archive.org.au/awa/20220207154132mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=6c9de24a-882c-11ec-84cd-726a44434c59&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zOGFhMzhjMS1iMGZjLTQzOWYtODU5NC02OTE1NWUzMTVhNmY="
+      },
+      {
+        "datetime": "2022-02-07T15:44:15Z",
+        "uri": "https://web.archive.org.au/awa/20220207154415mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=cd558f79-882c-11ec-be87-554465744f75&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZjEzZDc3NS02ZTc2LTRkYWQtYTg0Yi0wYWM5MDMzMWQ5OGY="
+      },
+      {
+        "datetime": "2022-02-10T18:57:40Z",
+        "uri": "https://arquivo.pt/wayback/20220210185740mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=503fcec2-8aa3-11ec-a560-74536554477a&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-11T18:46:07Z",
+        "uri": "https://arquivo.pt/wayback/20220211184607mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=dde8b0f7-8b6a-11ec-942b-754563657943&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-12T18:51:13Z",
+        "uri": "https://arquivo.pt/wayback/20220212185113mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=bdff7a74-8c34-11ec-9b3e-77667a536656&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-13T18:53:48Z",
+        "uri": "https://arquivo.pt/wayback/20220213185348mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=453ae983-8cfe-11ec-9462-764564646778&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-14T15:11:45Z",
+        "uri": "https://web.archive.org.au/awa/20220214151145mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=6c5010cd-8da8-11ec-9623-58594d6d7172&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2022-02-14T15:21:40Z",
+        "uri": "https://web.archive.org.au/awa/20220214152140mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ce9358ca-8da9-11ec-b15f-6c4b4b534474&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zOGFhMzhjMS1iMGZjLTQzOWYtODU5NC02OTE1NWUzMTVhNmY="
+      },
+      {
+        "datetime": "2022-02-14T19:04:12Z",
+        "uri": "https://arquivo.pt/wayback/20220214190412mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e3816c72-8dc8-11ec-9ae5-705358544c73&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-15T18:56:46Z",
+        "uri": "https://arquivo.pt/wayback/20220215185646mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=03ff7b71-8e91-11ec-afef-7257517a684a&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-16T18:56:20Z",
+        "uri": "https://arquivo.pt/wayback/20220216185620mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1f4bcfbc-8f5a-11ec-8d5e-765558456170&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-17T15:14:08Z",
+        "uri": "https://web.archive.org.au/awa/20220217151408mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=40622db7-9004-11ec-b5c6-4d6157614958&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNy0yMC9jbGltYXRlLWNoYW5nZS1pcy1kaXNydXB0aW5nLXRoZS1wbGFuZXQtcy1zZWFzb25z"
+      },
+      {
+        "datetime": "2022-02-17T18:46:36Z",
+        "uri": "https://arquivo.pt/wayback/20220217184636mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ed807d4c-9021-11ec-8711-4e616e777257&url=L013MGFFQTQvSXhrT1BqY1Y="
+      },
+      {
+        "datetime": "2022-02-21T15:13:14Z",
+        "uri": "https://web.archive.org.au/awa/20220221151314mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=c9f877ae-9328-11ec-99be-6c535a544551&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2022-02-21T15:22:53Z",
+        "uri": "https://web.archive.org.au/awa/20220221152253mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2357d36c-932a-11ec-b3d7-6b666f42594d&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zOGFhMzhjMS1iMGZjLTQzOWYtODU5NC02OTE1NWUzMTVhNmY="
+      },
+      {
+        "datetime": "2022-02-21T16:22:54Z",
+        "uri": "https://web.archive.org.au/awa/20220221162254mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=859145eb-9332-11ec-9d78-73596f704f7a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD01ZTdkZTEyOC0xNjAyLTRkNDUtYWQ5ZS0xYmRjYjNmNjY2NjQ="
+      },
+      {
+        "datetime": "2022-02-28T15:22:10Z",
+        "uri": "https://web.archive.org.au/awa/20220228152210mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=32a982c2-98aa-11ec-9e3a-564d70474668&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2022-02-28T16:41:24Z",
+        "uri": "https://web.archive.org.au/awa/20220228164124mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4426d74f-98b5-11ec-8600-4f6b624b7253&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD01ZTdkZTEyOC0xNjAyLTRkNDUtYWQ5ZS0xYmRjYjNmNjY2NjQ="
+      },
+      {
+        "datetime": "2022-02-28T21:39:52Z",
+        "uri": "https://web.archive.org.au/awa/20220228213952mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=f61ff518-98de-11ec-8600-4f6b624b7253&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD04Y2MzYTY5Yy02MTQ1LTQxOTgtYWU1Ny05MWU3MWQwOGE3Mzk="
+      },
+      {
+        "datetime": "2022-02-28T22:53:48Z",
+        "uri": "https://web.archive.org.au/awa/20220228225348mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4a349344-98e9-11ec-b938-4b4875795041&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD01ZTdkZTEyOC0xNjAyLTRkNDUtYWQ5ZS0xYmRjYjNmNjY2NjQ="
+      },
+      {
+        "datetime": "2022-03-08T01:45:41Z",
+        "uri": "https://web.archive.org.au/awa/20220308014541mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=76444ba9-9e81-11ec-8e0c-427657725551&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD01ZTdkZTEyOC0xNjAyLTRkNDUtYWQ5ZS0xYmRjYjNmNjY2NjQ="
+      },
+      {
+        "datetime": "2022-03-10T10:40:57Z",
+        "uri": "https://arquivo.pt/wayback/20220310104057mp_/https://www.bloomberg.com/tosv2.html?vid=8e8a7c76-a05e-11ec-b488-73536a796149&uuid=8dc32830-a05e-11ec-b265-bd7f67f514f8&url=L2phdmVsaW4vYXBpL2NtcF90cmFja2Vy"
+      },
+      {
+        "datetime": "2022-04-14T14:00:55Z",
+        "uri": "https://web.archive.org.au/awa/20220414140055mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4d64653f-bbfb-11ec-b557-5869556a6c73&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zNjc5MTEyZC00ODE0LTQ0ZmMtOWE2Mi1iNjc4OTM3NGNiMzU="
+      },
+      {
+        "datetime": "2022-06-27T16:23:37Z",
+        "uri": "https://web.archive.org.au/awa/20220627162337mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7f780ce1-f635-11ec-89b5-686f41595259&url=L2FwaS9lbWJlZC9pZnJhbWU/aWQ9MGNjMmUxZGEtNDRlYS00MmMyLWFlODgtYzZjN2QxMzE5OGQy"
+      },
+      {
+        "datetime": "2022-09-21T16:15:27Z",
+        "uri": "https://web.archive.org.au/awa/20220921161527mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=9a96f875-39c8-11ed-945a-656872747341&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wNy0yMC90aGUtbm90LWNyYXp5LXBlcnNvbi1zLWd1aWRlLXRvLW9ubGluZS1wcml2YWN5"
+      },
+      {
+        "datetime": "2022-10-04T13:51:41Z",
+        "uri": "https://vefsafn.is/20221004135141mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=aca6d968-43eb-11ed-bc63-744665554e4b&url=L01WWTJVd01KTUZWR0lGTUVCUzVWVWpCVEJvb3dFQk1oQjFBS0xRZFJMUjBVQ1M0R1ZqY0RBZ01nR1ZZcFhWQS91Z2RVWkJVZkhtSVVSMlFYQlV3bkJ4TXJIUndGTEJBZlpCd1hUQzBGVnlVSEZSNWlFVlkyRmhZWUp3Y1ROeG9VQ1N3"
+      },
+      {
+        "datetime": "2022-10-04T13:51:54Z",
+        "uri": "https://vefsafn.is/20221004135154mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b3e0efa1-43eb-11ed-9fe1-795668526773&url=L01Yd0pKeDhISnh0L0xRQUU="
+      },
+      {
+        "datetime": "2022-10-13T13:13:12Z",
+        "uri": "https://web.archive.org.au/awa/20221013131312mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=c9d58061-4af8-11ed-bbb5-416e6d7a4954&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1lODZlMWNmNC1lZWM2LTRkYzYtYjUxMi01Y2U1MThiOTA4NDEmd21vZGU9b3BhcXVl"
+      },
+      {
+        "datetime": "2022-11-08T17:41:06Z",
+        "uri": "https://vefsafn.is/20221108174106mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=857b625b-5f8c-11ed-8e89-4e7a6d526d4b&url=L01CVWFOeGNJVHg1UUJTWWJGZ2haUVJrM1Vsby9GVkFRSVJkWUd3dE1VVE1WR1FZWEYxRS9Gd3NjR0ZJVQ=="
+      },
+      {
+        "datetime": "2022-11-08T17:41:13Z",
+        "uri": "https://vefsafn.is/20221108174113mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=89ddfcb6-5f8c-11ed-9574-567a4e514e45&url=L05rVWROd1FkSFZsUkJISUNDZ0FiV1JRL0Z3cFBGRkFWY2hZZEFSZFFVU0ViSEFwR0ZTSzNVaDRBQzBHWFBsSVhIRmxhSEhJV0hSdEQ="
+      },
+      {
+        "datetime": "2022-11-11T08:33:43Z",
+        "uri": "https://arquivo.pt/wayback/20221111083343mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=8d33270f-619b-11ed-bade-786a626a6c6e&url=L2phdmVsaW4vYXBpL2NtcF90cmFja2Vy"
+      },
+      {
+        "datetime": "2022-11-11T22:52:51Z",
+        "uri": "https://swap.stanford.edu/was/20221111225251mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=86ee6c4c-6213-11ed-b37f-464f66776468&url=L25ld3MvMjAxNC0wMy0wMi9ydXNzaWEtZ2FzLXRocmVhdC1zaG93cy1wdXRpbi11c2luZy1waXBlbGluZXMtdG8tcHJlc3MtdWtyYWluZS5odG1s"
+      },
+      {
+        "datetime": "2022-11-14T04:10:26Z",
+        "uri": "https://swap.stanford.edu/was/20221114041026mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=41c94868-63d2-11ed-89d1-43564765594a&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0xMS0yMi90cnVtcC1vcmdhbml6YXRpb24tYmVpbmctYm91Z2h0LW91dC1vZi10cnVtcC1zb2hvLWhvdGVsLWNvbnRyYWN0"
+      },
+      {
+        "datetime": "2022-11-14T06:33:41Z",
+        "uri": "https://swap.stanford.edu/was/20221114063341mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=45849834-63e6-11ed-9116-6b7552525a44&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0xMS0wMy91cy1taWR0ZXJtLWVsZWN0aW9ucy1tYXktaGF2ZS1iaWctY3J5cHRvLWltcGxpY2F0aW9ucw=="
+      },
+      {
+        "datetime": "2022-11-14T06:36:33Z",
+        "uri": "https://swap.stanford.edu/was/20221114063633mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=46bf6bc2-63e6-11ed-89d1-43564765594a&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wOC0yMi90ZWNoLWFudGl0cnVzdC1iaWxsLWZyb20ta2xvYnVjaGFyLWdyYXNzbGV5LWdldHMtc3R1Y2staW4tZGMtbGltYm8="
+      },
+      {
+        "datetime": "2022-12-09T20:54:26Z",
+        "uri": "https://swap.stanford.edu/was/20221209205426mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a8d5c313-7803-11ed-a927-544f76415049&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wMi0yOS9jaGluYS1leHBlY3RzLTEtOC1taWxsaW9uLWNvYWwtc3RlZWwtbGF5b2Zmcy1vbi1jYXBhY2l0eS1jdXRz"
+      },
+      {
+        "datetime": "2022-12-09T21:45:30Z",
+        "uri": "https://swap.stanford.edu/was/20221209214530mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=fa41811a-7807-11ed-84af-584a65744c55&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMS0xMS9jaGluYS1pcy13aW5uaW5nLWl0cy13YXItb24tYWlyLXBvbGx1dGlvbi1hdC1sZWFzdC1pbi1iZWlqaW5n"
+      },
+      {
+        "datetime": "2022-12-09T23:52:27Z",
+        "uri": "https://swap.stanford.edu/was/20221209235227mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=806d0585-781c-11ed-8601-4e4973784f45&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMy0xNS9mZW1hLXN0cmlwcy1tZW50aW9uLW9mLWNsaW1hdGUtY2hhbmdlLWZyb20taXRzLXN0cmF0ZWdpYy1wbGFuP3NyZWY9VUJyaFoxcm8="
+      },
+      {
+        "datetime": "2022-12-09T23:53:41Z",
+        "uri": "https://swap.stanford.edu/was/20221209235341mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=82a3aaba-781c-11ed-ba56-71454d7a4e69&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0wOC0yOC90cnVtcC1yZW1vdmVkLWZsb29kLXByb3RlY3Rpb24tc3RhbmRhcmQtd2Vla3MtYmVmb3JlLWhhcnZleT9zcmVmPVVCcmhaMXJv"
+      },
+      {
+        "datetime": "2022-12-10T11:48:41Z",
+        "uri": "https://swap.stanford.edu/was/20221210114841mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a6cfe664-787d-11ed-b1a5-546d6768506f&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wOS0xMS93aGl0ZS1ob3VzZS1zLWNvcnBvcmF0ZS10YXgtY3V0LWNsYWltLXF1ZXN0aW9uZWQtYnktZWNvbm9taXN0cw=="
+      },
+      {
+        "datetime": "2022-12-10T15:58:43Z",
+        "uri": "https://swap.stanford.edu/was/20221210155843mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7ba637d7-78a3-11ed-8557-71777a76624b&url=L25ld3MvMjAxMi0wNy0yMy93dG8tdG8taW52ZXN0aWdhdGUtY2hpbmVzZS1jdXJicy1vbi1yYXJlLWVhcnRoLWV4cG9ydHMuaHRtbA=="
+      },
+      {
+        "datetime": "2022-12-10T16:17:09Z",
+        "uri": "https://swap.stanford.edu/was/20221210161709mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=afa44478-78a5-11ed-ab7a-6f57576d527a&url=L25ld3MvMjAxMi0wNC0wOS9yYXJlLWVhcnRocy1zaG9ydGFnZS13b3VsZC1zcHVyLXBlbnRhZ29uLXRvLWFjdGlvbi5odG1s"
+      },
+      {
+        "datetime": "2022-12-10T16:18:23Z",
+        "uri": "https://swap.stanford.edu/was/20221210161823mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=425d036a-78a6-11ed-9290-444d43654e4b&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0wOS0xMy90cnVtcC1ibG9ja3MtY2hpbmEtYmFja2VkLWJpZC1mb3ItY2hpcG1ha2VyLW92ZXItc2VjdXJpdHktcmlzaw=="
+      },
+      {
+        "datetime": "2022-12-11T04:42:15Z",
+        "uri": "https://swap.stanford.edu/was/20221211044215mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2b7a3cf6-790e-11ed-8bf7-616a786d7152&url=L25ld3MvMjAxNC0wNi0wNy9yaW8tYmF5LXdvbi10LWJlLWNsZWFuLWZvci0yMDE2LW9seW1waWMtc2FpbGluZy1tYXlvci1zYXlzLmh0bWw="
+      },
+      {
+        "datetime": "2022-12-13T22:52:40Z",
+        "uri": "https://swap.stanford.edu/was/20221213225240mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d5b5ce80-7b38-11ed-8bdc-586a4e777978&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNi0xOS90cmFuc2NhbmFkYS1rZXlzdG9uZS14bC1tYXktYmUtb25lLXBpcGVsaW5lLXRvby1tYW55LWZvci1jYW5hZGE="
+      },
+      {
+        "datetime": "2022-12-14T02:02:01Z",
+        "uri": "https://swap.stanford.edu/was/20221214020201mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4a13484b-7b53-11ed-8fe5-637877527847&url=L21hcmtldHMvcmF0ZXMtYm9uZHM="
+      },
+      {
+        "datetime": "2022-12-14T06:45:04Z",
+        "uri": "https://swap.stanford.edu/was/20221214064504mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d26143ee-7b7a-11ed-994c-634550685355&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wOC0wMS9nZXJtYW55LXNhaWQtdG8tYmxvY2stY29tcGFueS1wdXJjaGFzZS1ieS1jaGluZXNlLWZvci1maXJzdC10aW1l"
+      },
+      {
+        "datetime": "2022-12-14T09:07:08Z",
+        "uri": "https://swap.stanford.edu/was/20221214090708mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ae0ad25a-7b8e-11ed-b721-5775464d636b&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNC0wMi91LXMtc3VwcmVtZS1jb3VydC13b24tdC1tYWtlLXBsby1wYXktNjU2LW1pbGxpb24tdGVycm9yLWF3YXJk"
+      },
+      {
+        "datetime": "2022-12-14T10:55:28Z",
+        "uri": "https://swap.stanford.edu/was/20221214105528mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=cdeb48c8-7b9d-11ed-a3b4-6343744b516d&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0xMC0wOC9nb29nbGUtZHJvcHMtb3V0LW9mLXBlbnRhZ29uLXMtMTAtYmlsbGlvbi1jbG91ZC1jb21wZXRpdGlvbg=="
+      },
+      {
+        "datetime": "2022-12-14T11:53:55Z",
+        "uri": "https://swap.stanford.edu/was/20221214115355mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e892dd52-7ba5-11ed-b379-4f584e575051&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0xMC0wMi9icmF6aWwtbWFya2V0cy1yYWxseS1hcy1ib2xzb25hcm8tZXh0ZW5kcy1sZWFkLWRheXMtYmVmb3JlLXZvdGU="
+      },
+      {
+        "datetime": "2022-12-14T12:37:50Z",
+        "uri": "https://swap.stanford.edu/was/20221214123750mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1e2440fb-7bac-11ed-8ad2-78515852756c&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNi0yOS9lLWNpZ2FyZXR0ZS1tYWtlci1qdXVsLWxhYnMtaXMtcmFpc2luZy0xLTItYmlsbGlvbg=="
+      },
+      {
+        "datetime": "2022-12-14T12:40:33Z",
+        "uri": "https://swap.stanford.edu/was/20221214124033mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=73cbb317-7bac-11ed-82c0-75504165764d&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wOS0zMC9zYXVkaS1hcmFiaWEtd2lsbC1pbmNyZWFzZS1idWRnZXRhcnktc3BlbmRpbmctdG8tYm9vc3QtZ3Jvd3Ro"
+      },
+      {
+        "datetime": "2022-12-14T12:41:38Z",
+        "uri": "https://swap.stanford.edu/was/20221214124138mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a53a6592-7bac-11ed-9828-664d69676a44&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0xMC0xNS9zYXVkaS1ib25kcy1zaW5rLWFzLXJvdy13aXRoLXUtcy1vdmVyLW1pc3Npbmctd3JpdGVyLWVzY2FsYXRlcw=="
+      },
+      {
+        "datetime": "2022-12-14T14:21:55Z",
+        "uri": "https://swap.stanford.edu/was/20221214142155mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a588e153-7bba-11ed-9550-49464e6b7171&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNy0yNS90cnVtcC1qdW5ja2VyLXJlYWNoLWRlYWwtdG8tZWFzZS10cmFkZS10ZW5zaW9ucy1kb3ctam9uZXMtc2F5cy1qazFqdGZzOA=="
+      },
+      {
+        "datetime": "2022-12-14T14:33:10Z",
+        "uri": "https://swap.stanford.edu/was/20221214143310mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=39252c61-7bbc-11ed-b1b0-56584b584554&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNy0yNS93aHktdGhlLWV1LXdhcy1hbHJlYWR5LWxpa2VseS10by1pbXBvcnQtbW9yZS11LXMtc295YmVhbnM="
+      },
+      {
+        "datetime": "2022-12-14T14:48:12Z",
+        "uri": "https://swap.stanford.edu/was/20221214144812mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=420c9254-7bbe-11ed-97f2-467479466559&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNC0xNS9ydXNzaWEtZ2FtYmxlcy10aGF0LWl0cy1kZWJ0LWlzLXRvby1wb3B1bGFyLWZvci11LXMtdG8tc2FuY3Rpb24="
+      },
+      {
+        "datetime": "2022-12-14T14:49:28Z",
+        "uri": "https://swap.stanford.edu/was/20221214144928mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=745ed29d-7bbe-11ed-8aba-43616d50746f&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMi0wMi90cmVhc3VyeS13YXJucy1vZi13aWRlc3ByZWFkLWVmZmVjdHMtb2YtcnVzc2lhbi1kZWJ0LXNhbmN0aW9ucw=="
+      },
+      {
+        "datetime": "2022-12-14T14:50:53Z",
+        "uri": "https://swap.stanford.edu/was/20221214145053mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ab3e5707-7bbe-11ed-bbf0-4c5a41544c6b&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNi0xOS9ldXJvcGUtc2FpZC10by1zZWVrLXd0by1yZXZhbXAtaW4tZmFjZS1vZi10cnVtcC10cmFkZS1jaGFsbGVuZ2U="
+      },
+      {
+        "datetime": "2022-12-14T16:23:27Z",
+        "uri": "https://swap.stanford.edu/was/20221214162327mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2ab1f5fb-7bcb-11ed-9828-664d69676a44&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0wMi0xNS9mb3JlaWduLWludmVzdG1lbnQtaW4tZXRoaW9waWEtc2x1bXBzLWFmdGVyLWJ1c2luZXNzZXMtYXR0YWNrZWQ="
+      },
+      {
+        "datetime": "2022-12-14T19:23:00Z",
+        "uri": "https://swap.stanford.edu/was/20221214192300mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b84aff8a-7be4-11ed-a88d-4c5a6f66476e&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0xMC0wMi9ob3ctYS1maWdodGVyLWpldC1odXJ0cy1tb2RpLXMtY29ycnVwdGlvbi1jcmVkZW50aWFscy1xdWlja3Rha2U="
+      },
+      {
+        "datetime": "2022-12-14T19:30:43Z",
+        "uri": "https://swap.stanford.edu/was/20221214193043mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=cc8ab910-7be5-11ed-8638-7776435a6f61&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMS0yNS9pbWYtc2Vlcy12ZW5lenVlbGEtaW5mbGF0aW9uLXNvYXJpbmctdG8tMTMtMDAwLXBlcmNlbnQtaW4tMjAxOA=="
+      },
+      {
+        "datetime": "2022-12-14T19:31:27Z",
+        "uri": "https://swap.stanford.edu/was/20221214193127mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e54edebc-7be5-11ed-bf21-75577a755562&url=L25ld3MvYXJ0aWNsZXMvaHR0cHM6L3d3dy53YXNoaW5ndG9ucG9zdC5jb20vbmV3cy9tb25rZXktY2FnZS93cC8yMDE4LzA1LzE1L3RoZS1tYWxheXNpYW4tZWxlY3Rpb24tcmVzdWx0cy13ZXJlLWEtc3VycHJpc2UtaGVyZS1hcmUtNC10aGluZ3MtdG8ta25vdy8/dXRtX3Rlcm09LjM3NDE0MmQyYTZkMDIwMTgtMDUtMTYvZGVjbGFzc2lmaWVkLXJlcG9ydC1vbi1tYWxheXNpYS1zLTFtZGItc2hvd3MtZnVuZGluZy1hbm9tYWxpZXM="
+      },
+      {
+        "datetime": "2022-12-14T19:32:11Z",
+        "uri": "https://swap.stanford.edu/was/20221214193211mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=fcfac699-7be5-11ed-aa9e-7443794d614f&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNC0wOC9tYWhhdGhpci1wbGVkZ2VzLXRvLXJldmlldy1jaGluYS1pbnZlc3RtZW50LWFmdGVyLW1hbGF5c2lhLXZvdGU="
+      },
+      {
+        "datetime": "2022-12-14T19:33:07Z",
+        "uri": "https://swap.stanford.edu/was/20221214193307mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=19b67059-7be6-11ed-9f7f-725a54557a45&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNS0xNi9kZWNsYXNzaWZpZWQtcmVwb3J0LW9uLW1hbGF5c2lhLXMtMW1kYi1zaG93cy1mdW5kaW5nLWFub21hbGllcw=="
+      },
+      {
+        "datetime": "2022-12-14T23:23:40Z",
+        "uri": "https://swap.stanford.edu/was/20221214232340mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=56aafe22-7c06-11ed-8b7b-6362616a7354&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMy0wNS9yZW56aS1xdWl0cy1hcy1kZW1vY3JhdGljLXBhcnR5LWNoaWVmLWFmdGVyLWl0YWx5LXZvdGUtZGVmZWF0"
+      },
+      {
+        "datetime": "2022-12-15T01:51:04Z",
+        "uri": "https://swap.stanford.edu/was/20221215015104mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ed7c04f9-7c1a-11ed-8711-59784b4f504b&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0xMi0wNi9qZXJ1c2FsZW0tZGl2aWRlcy10cnVtcC10ZWFtLWFuZC1jb21wbGljYXRlcy1rdXNobmVyLXBlYWNlLXBsYW4="
+      },
+      {
+        "datetime": "2022-12-15T02:21:03Z",
+        "uri": "https://swap.stanford.edu/was/20221215022103mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ac38589d-7c1e-11ed-9066-566971537554&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0xMS0wNy9tdWdhYmUtcy13aWZlLWdyYWNlLXJpc2VzLXRvLXBpbm5hY2xlLW9mLXBvd2VyLWluLXppbWJhYndl"
+      },
+      {
+        "datetime": "2022-12-15T02:53:42Z",
+        "uri": "https://swap.stanford.edu/was/20221215025342mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ae835a81-7c23-11ed-97bd-644b65554d7a&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0xMS0wNi9tdWdhYmUtc2lnbmFscy1kZWVwZW5pbmctZGl2aWRlLWluLXppbWJhYndlLXMtcnVsaW5nLXBhcnR5"
+      },
+      {
+        "datetime": "2022-12-15T03:26:21Z",
+        "uri": "https://swap.stanford.edu/was/20221215032621mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=3e2834e8-7c28-11ed-be41-724e6d495059&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0wMS0yNS9ldXJvcGUtY2hvbXBzLW1vc3QtaXJhbi1vaWwtaW4teWVhcnMtd2l0aC1odWdlLXNub3ctZHVlLWluLWRheXM="
+      },
+      {
+        "datetime": "2022-12-15T03:36:07Z",
+        "uri": "https://swap.stanford.edu/was/20221215033607mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=9b3d3662-7c29-11ed-8f6f-525547587654&url=L25ld3MvYXJ0aWNsZXMvMjAxMy0xMS0yNy9tZXhpY29zLXN1cnByaXNpbmctZW5naW5lZXJpbmctc3RyZW5ndGg="
+      },
+      {
+        "datetime": "2022-12-15T05:03:39Z",
+        "uri": "https://swap.stanford.edu/was/20221215050339mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d5d52997-7c35-11ed-894e-77567645626d&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0wOS0yMi9hLXN0b3JtLXMtbmV2ZXItZGVzdHJveWVkLWEtZ3JpZC1saWtlLW1hcmlhLXJ1aW5lZC1wdWVydG8tcmljby1z"
+      },
+      {
+        "datetime": "2022-12-15T05:44:52Z",
+        "uri": "https://swap.stanford.edu/was/20221215054452mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=97c22e85-7c3b-11ed-a300-635050685474&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wMS0wNi9nZXJtYW55LXNheXMtYWJvdXQtMS0xLW1pbGxpb24tYXN5bHVtLXNlZWtlcnMtYXJyaXZlZC1pbi0yMDE1"
+      },
+      {
+        "datetime": "2022-12-15T06:04:27Z",
+        "uri": "https://swap.stanford.edu/was/20221215060427mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=5370928b-7c3e-11ed-a88d-66474b494457&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0wOS0xNC9ub3J0aC1rb3JlYS10aHJlYXRlbnMtdG8tdXNlLW51Y2xlYXItd2VhcG9uLXRvLXNpbmstamFwYW4="
+      },
+      {
+        "datetime": "2022-12-15T08:17:45Z",
+        "uri": "https://swap.stanford.edu/was/20221215081745mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=f31dc0a5-7c50-11ed-9098-784f614f7157&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0wNi0wNy9hLWJvbGRlci1jaGluYS1wdXJnZXMtaG9uZy1rb25nLWNyaXRpY3MtMjAteWVhcnMtYWZ0ZXItaGFuZG92ZXI="
+      },
+      {
+        "datetime": "2022-12-15T08:26:25Z",
+        "uri": "https://swap.stanford.edu/was/20221215082625mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=29c6cc64-7c52-11ed-8ae2-574b4851477a&url=L25ld3MvdmlkZW9zLzIwMTctMDctMDYvdHJ1bXAtdS1zLXdhbnRzLXJlY2lwcm9jYWwtdHJhZGUtcmVsYXRpb25zaGlwcy12aWRlbw=="
+      },
+      {
+        "datetime": "2022-12-15T09:07:31Z",
+        "uri": "https://swap.stanford.edu/was/20221215090731mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e5c5f810-7c57-11ed-94a9-69654a704256&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNi0wNS9ldGhpb3BpYS1tb3Zlcy10by1vcGVuLXRlbGVjb21zLWFpcmxpbmUtdG8tZm9yZWlnbi1pbnZlc3RvcnM="
+      },
+      {
+        "datetime": "2022-12-15T11:38:04Z",
+        "uri": "https://swap.stanford.edu/was/20221215113804mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ebfe4fa3-7c6c-11ed-99a3-4a7268424b74&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0wNC0xMC91bml0ZWQtcy1mb3JjaWJsZS1yZW1vdmFsLWZyb20tb3ZlcmJvb2tlZC1mbGlnaHQtdHJpZ2dlcnMtb3V0cmFnZQ=="
+      },
+      {
+        "datetime": "2022-12-15T11:45:53Z",
+        "uri": "https://swap.stanford.edu/was/20221215114553mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=075e197c-7c6e-11ed-99a3-4a7268424b74&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0wMy0zMC90cnVtcC1jbG9zZWx5LXdhdGNoaW5nLXRyb3VibGVkLW51Y2xlYXItcGxhbnRzLXRoYXQtb2JhbWEtZnVuZGVk"
+      },
+      {
+        "datetime": "2022-12-15T11:46:31Z",
+        "uri": "https://swap.stanford.edu/was/20221215114631mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1dcec1f2-7c6e-11ed-8b0f-455a466f6675&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0wMy0zMC93ZXN0aW5naG91c2Utc2V0LXRvLW9idGFpbi04MDAtbWlsbGlvbi1iYW5rcnVwdGN5LWZpbmFuY2luZw=="
+      },
+      {
+        "datetime": "2022-12-15T13:46:12Z",
+        "uri": "https://swap.stanford.edu/was/20221215134612mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d5923047-7c7e-11ed-bdc9-684c7557625a&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0wMS0yNy90cnVtcC1zLTIwLWltcG9ydC10YXgtbWF5LWJlLW5ldy1naWZ0LWZvci1jYW5hZGEtcy1vaWwtcGF0Y2g="
+      },
+      {
+        "datetime": "2022-12-15T16:14:58Z",
+        "uri": "https://swap.stanford.edu/was/20221215161458mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=9e52ff22-7c93-11ed-8add-694a6a53664c&url=L25ld3MvYXJ0aWNsZXMvMjAxNC0wNC0xNC91LXMtb2ZmaWNpYWwtdmlzaXRzLXRhaXdhbi1pbi1oaWdoZXN0LWxldmVsLW1lZXRpbmctaW4tMTQteWVhcnM="
+      },
+      {
+        "datetime": "2022-12-15T16:37:17Z",
+        "uri": "https://swap.stanford.edu/was/20221215163717mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=bbfd38e1-7c96-11ed-8331-57526266576d&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wOS0wOC9naGFuYS1zZWxsaW5nLWJlbmNobWFyay1zaXplLWV1cm9ib25kLWluLWZvdXJ0aC1pc3N1ZS1zaW5jZS0yMDEz"
+      },
+      {
+        "datetime": "2022-12-15T16:59:45Z",
+        "uri": "https://swap.stanford.edu/was/20221215165945mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ddf2e3cb-7c99-11ed-aad7-43796c4e6a68&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wMi0wMi9nYXRlcy1iYWNrZWQtZWRpdGFzLXJhaXNlcy05NC00LW1pbGxpb24taW4tMXN0LXUtcy1pcG8tb2YteWVhcg=="
+      },
+      {
+        "datetime": "2022-12-15T19:35:27Z",
+        "uri": "https://swap.stanford.edu/was/20221215193527mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=94cbc46c-7caf-11ed-ba77-4e6e4e795966&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wMi0xMC9vYmFtYS1zLWNsZWFuLXBvd2VyLXBsYW4tbWF5LWJlLW9uLWhvbGQtY29hbC1zLWZhdGUtaXMtbm90"
+      },
+      {
+        "datetime": "2022-12-15T20:09:47Z",
+        "uri": "https://swap.stanford.edu/was/20221215200947mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=6c01900d-7cb4-11ed-b463-6a7162787061&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wNC0yMi91LXMtc2Vla3MtZGVmYXVsdC1vcmRlci1hZ2FpbnN0LXV6YmVrLXByZXNpZGVudC1zLWRhdWdodGVyLWluYndvbHd4"
+      },
+      {
+        "datetime": "2022-12-15T21:47:31Z",
+        "uri": "https://swap.stanford.edu/was/20221215214731mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1140eaa8-7cc2-11ed-9b25-646a704c6e61&url=L25ld3MvYXJ0aWNsZXMvMjAxNS0wNC0wMS9jaGluYS1lbnRlcnMtc3RvY2stZnJlbnp5LWFzLXJvb2tpZS10cmFkZXJzLW9wZW4tcmVjb3JkLWFjY291bnRz"
+      },
+      {
+        "datetime": "2022-12-15T21:53:16Z",
+        "uri": "https://swap.stanford.edu/was/20221215215316mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e05160d2-7cc2-11ed-917e-4e626d526267&url=L25ld3MvYXJ0aWNsZXMvMjAxNS0wNi0xNS9jaGluYS1zLW5leHQtYmVhci1tYXJrZXQtc2Vlbi1pbi0zNTgtYmlsbGlvbi1vZi1tYXJnaW4tbG9hbnM="
+      },
+      {
+        "datetime": "2022-12-15T22:06:46Z",
+        "uri": "https://swap.stanford.edu/was/20221215220646mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=c21df64b-7cc4-11ed-9cfc-49627a59497a&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wMS0wNy9jaGluYS1zdG9jay1yZWd1bGF0b3Itc2FpZC10by1jYWxsLXVuc2NoZWR1bGVkLW1lZXRpbmctb24tbWFya2V0"
+      },
+      {
+        "datetime": "2022-12-15T23:30:45Z",
+        "uri": "https://swap.stanford.edu/was/20221215233045mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ed9b18ce-7ccf-11ed-a260-75574d6e474c&url=L25ld3MvYXJ0aWNsZXMvMjAxNS0wOC0yNC9zb3V0aC1zdWRhbi1idWRnZXRlZC04NTAtbWlsbGlvbi10by1jcnVzaC1yZWJlbGxpb24tdW4tc2F5cw=="
+      },
+      {
+        "datetime": "2022-12-15T23:41:52Z",
+        "uri": "https://swap.stanford.edu/was/20221215234152mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1b0db3ea-7cd1-11ed-8722-73524a6d494f&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wNi0wMi9pbWYtdXJnZXMtZmlzY2FsLXJlc3RyYWludC1pbi1zb3V0aC1zdWRhbi1hcy1pbmZsYXRpb24tc29hcnM="
+      },
+      {
+        "datetime": "2022-12-16T00:35:23Z",
+        "uri": "https://swap.stanford.edu/was/20221216003523mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=86a2f76a-7cd9-11ed-bdb1-417478726d6c&url=L25ld3MvdmlkZW9zLzIwMTYtMDMtMjMvZ2xvYmFsLXRyYWRlLW9wcG9ydHVuaXRpZXMtZm9yLXUtcy1jb21wYW5pZXM="
+      },
+      {
+        "datetime": "2022-12-16T00:52:31Z",
+        "uri": "https://swap.stanford.edu/was/20221216005231mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=eae5d471-7cdb-11ed-bd6d-44624343506f&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wNS0yNS9pbmRpYS1zYWlkLXRvLXJlcXVpcmUtbG9jYWwtc291cmNpbmctYnktYXBwbGUtdG8tb3Blbi1zdG9yZXM="
+      },
+      {
+        "datetime": "2022-12-16T01:48:13Z",
+        "uri": "https://swap.stanford.edu/was/20221216014813mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b31826aa-7ce3-11ed-9cf4-456e71617457&url=L25ld3MvYXJ0aWNsZXMvMjAxNC0wNi0xMi90by1zcGVlZC11cC1zZWN1cml0eS1saW5lcy1haXJwb3J0cy1zdGFydC10cmFja2luZy15b3VyLXNtYXJ0cGhvbmU="
+      },
+      {
+        "datetime": "2022-12-16T01:55:08Z",
+        "uri": "https://swap.stanford.edu/was/20221216015508mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a9ba5e48-7ce4-11ed-b9c2-654772526b43&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wMS0xNC9ub3J3YXktZ292ZXJubWVudC1ydWxlcy1vdXQtZXh0cmEtc3RpbXVsdXMtYXMtb2lsLXJvdXQtcGVyc2lzdHM="
+      },
+      {
+        "datetime": "2022-12-16T02:21:01Z",
+        "uri": "https://swap.stanford.edu/was/20221216022101mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=484b212a-7ce8-11ed-b5f0-6e6f4f4c544b&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wMy0wOC9maXJzdC1uZWdhdGl2ZS15aWVsZGluZy1jb3ZlcmVkLWJvbmRzLXNvbGQtaW4tZXVyb3MtYnktYmVybGluaHlw"
+      },
+      {
+        "datetime": "2022-12-16T02:22:01Z",
+        "uri": "https://swap.stanford.edu/was/20221216022201mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=67b73a16-7ce8-11ed-8f6f-525547587654&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wMi0xMS95ZWxsZW4tc2F5cy1mZWQtZXZhbHVhdGluZy1wb3NzaWJpbGl0eS1vZi1uZWdhdGl2ZS1yYXRlcy1pbi11LXM="
+      },
+      {
+        "datetime": "2022-12-16T02:34:03Z",
+        "uri": "https://swap.stanford.edu/was/20221216023403mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1ab700de-7cea-11ed-8a26-4e6a4544654a&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wNC0xNC9xYXRhci1zLW9pbC1mcmVlemUtbGV0dGVyLXRvLW5vcndheS1yZXZlYWxzLWxvZ2ljLW9mLWRvaGEtZGVhbA=="
+      },
+      {
+        "datetime": "2022-12-16T02:35:02Z",
+        "uri": "https://swap.stanford.edu/was/20221216023502mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=384eeaf6-7cea-11ed-a8b2-424a6b794546&url=L25ld3MvYXJ0aWNsZXMvMjAxNS0xMC0xMy9zdWRhbi1lbmFjdHMtbmV3LXRyYXZlbC1jdXJicy1hZnRlci03MC1sZWF2ZS1mb3ItaXNsYW1pYy1zdGF0ZQ=="
+      },
+      {
+        "datetime": "2022-12-16T11:56:23Z",
+        "uri": "https://swap.stanford.edu/was/20221216115623mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a9288b9d-7d38-11ed-9c52-666e51477167&url=L25ld3MvYXJ0aWNsZXMvMjAxMy0xMC0wOC90aGUtcmVhbC1sZXNzb25zLWZyb20tdGhlLWZhdGVzLW9mLWJsYWNrYmVycnktYW5kLW5va2lh"
+      },
+      {
+        "datetime": "2022-12-17T15:58:50Z",
+        "uri": "https://swap.stanford.edu/was/20221217155850mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b1396aae-7e23-11ed-8754-465a4247574d&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0xMS0yNy9pbmRleC1wcm92aWRlcnMtcnVsZS10aGUtd29ybGQtZm9yLW5vdy1hdC1sZWFzdA=="
+      },
+      {
+        "datetime": "2022-12-18T11:40:41Z",
+        "uri": "https://swap.stanford.edu/was/20221218114041mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=cbdfdcc9-7ec8-11ed-9870-75616a6c7148&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0wOS0wOS9vaGlvLXMtb3Bpb2lkLXN1aXQtc2hvdWxkLWJlLXRocm93bi1vdXQtcHVyZHVlLXBoYXJtYS1hcmd1ZXM="
+      },
+      {
+        "datetime": "2022-12-18T14:06:47Z",
+        "uri": "https://swap.stanford.edu/was/20221218140647mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0454e326-7edd-11ed-9d3c-6c5269777a52&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMS0yMi9zdGFydHVwcy1hcmUtcmFpc2luZy1iaWxsaW9ucy11c2luZy1pbml0aWFsLWNvaW4tb2ZmZXJpbmdz"
+      },
+      {
+        "datetime": "2022-12-18T14:31:51Z",
+        "uri": "https://swap.stanford.edu/was/20221218143151mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ac415914-7ee0-11ed-acbb-44726a764256&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNS0wOS9zYWx2by1vbi10cnVtcC1mb3JjZXMtZGFtYWdlLWNvbnRyb2wtZnJvbS1rb3JlYS10by1zd2l0emVybGFuZA=="
+      },
+      {
+        "datetime": "2022-12-18T14:32:34Z",
+        "uri": "https://swap.stanford.edu/was/20221218143234mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ce16384d-7ee0-11ed-9d05-614e7170744a&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNC0yNS9vbWItcy1tdWx2YW5leS1kcmF3cy1iaXBhcnRpc2FuLWNyaXRpY2lzbS1vdmVyLWxvYmJ5aXN0LWNvbW1lbnRz"
+      },
+      {
+        "datetime": "2022-12-18T15:17:21Z",
+        "uri": "https://swap.stanford.edu/was/20221218151721mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0f770c27-7ee7-11ed-af5a-79646f64494b&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMS0wNC9mYW5uaWUtZnJlZGRpZS1vdmVyaGF1bC1taWdodC1taW50LWhlZGdlLWZ1bmQtcmljaGVzLW9yLWxvc3Nlcw=="
+      },
+      {
+        "datetime": "2022-12-18T16:33:06Z",
+        "uri": "https://swap.stanford.edu/was/20221218163306mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a4b9b5d8-7ef1-11ed-80e9-5a496a4d6f6c&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wNC0xNC90cnVtcC1zLXVwZGF0ZWQtbWlsaXRhcnktdHJhbnMtYmFuLWlzLXNhbWUtYXMtYmVmb3JlLWp1ZGdlLXNheXM="
+      },
+      {
+        "datetime": "2022-12-19T00:32:13Z",
+        "uri": "https://swap.stanford.edu/was/20221219003213mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=945c86aa-7f34-11ed-aa97-655751637967&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMS0wNC9wb3Qtc3RvY2tzLXBsdW5nZS1vbi1yZXBvcnQtdS1zLXRvLXJlc2NpbmQtZXhwYW5zaW9uLXBvbGljeQ=="
+      },
+      {
+        "datetime": "2022-12-19T01:57:51Z",
+        "uri": "https://swap.stanford.edu/was/20221219015751mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=89f84436-7f40-11ed-a108-626268494f47&url=L25ld3MvYXJ0aWNsZXMvMjAxNy0wOS0xOC9lcXVpZmF4LXN0b2NrLXNhbGVzLXNhaWQtdG8tYmUtZm9jdXMtb2YtdS1zLWNyaW1pbmFsLXByb2Jl"
+      },
+      {
+        "datetime": "2022-12-19T02:23:27Z",
+        "uri": "https://swap.stanford.edu/was/20221219022327mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1e6daa5f-7f44-11ed-acfe-57547152676c&url=L25ld3MvYXJ0aWNsZXMvMjAxNS0xMS0wMy9kZWVyZS10by1idXktcHJlY2lzaW9uLXBsYW50aW5nLWVxdWlwbWVudC11bml0LWZyb20tbW9uc2FudG8="
+      },
+      {
+        "datetime": "2022-12-19T04:47:18Z",
+        "uri": "https://swap.stanford.edu/was/20221219044718mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=266e6bdd-7f58-11ed-81f8-7854765a4979&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wMi0wOC9mZWQtbWF5LWxhY2stbGVnYWwtYXV0aG9yaXR5LWZvci1uZWdhdGl2ZS1yYXRlcy0yMDEwLWZlZC1tZW1v"
+      },
+      {
+        "datetime": "2022-12-19T05:56:16Z",
+        "uri": "https://swap.stanford.edu/was/20221219055616mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d87eb3ee-7f61-11ed-8c9a-65496e4e5573&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wNS0yNi9nb29nbGUtYmVhdHMtb3JhY2xlLWNvcHlyaWdodC1zdWl0LXdpcGluZy1hd2F5LTktYmlsbGlvbi1jbGFpbQ=="
+      },
+      {
+        "datetime": "2022-12-19T06:00:31Z",
+        "uri": "https://swap.stanford.edu/was/20221219060031mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=70354851-7f62-11ed-b475-6c485368514e&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0xMi0xOC93aGVuLXdpbGwtYXBwbGUtYWFwbC1yZWxlYXNlLXRoZS1hcHBsZS1zaWxpY29uLW1hYy1wcm8td2l0aC1tMi11bHRyYS1jaGlwLWxidGhjbzl1"
+      },
+      {
+        "datetime": "2022-12-19T07:38:08Z",
+        "uri": "https://swap.stanford.edu/was/20221219073808mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1470eb97-7f70-11ed-a917-45717242516c&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wMi0xMS9mYmktd2llbGRzLW1vYi1pbnNpZGVyLXRhY3RpY3MtYXMtbmV3LWFnZW50cy1odW50LWZvci1icmliZXJ5"
+      },
+      {
+        "datetime": "2022-12-19T09:23:08Z",
+        "uri": "https://swap.stanford.edu/was/20221219092308mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=bf212529-7f7e-11ed-af5a-79646f64494b&url=L25ld3MvYXJ0aWNsZXMvMjAxMy0wNy0xMS9saWJlcnR5LXMtam9obi1tYWxvbmUtdXJnZXMtZXJnZW4tdG8tbWVyZ2UtZGlzaC13aXRoLWRpcmVjdHY="
+      },
+      {
+        "datetime": "2022-12-19T15:44:21Z",
+        "uri": "https://swap.stanford.edu/was/20221219154421mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e6e817b2-7fb3-11ed-8088-764559747770&url=L25ld3MvMjAxNC0wMi0yMS90cmFkaW5nLXJlYmF0ZXMtc2tldy1tYXJrZXRzLW55c2UtYW5kLWFsbGllcy10ZWxsLXNlYy5odG1s"
+      },
+      {
+        "datetime": "2022-12-19T15:48:48Z",
+        "uri": "https://swap.stanford.edu/was/20221219154848mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=9e4f3a34-7fb4-11ed-b205-53536c557155&url=L25ld3MvMjAxNC0wNy0wMS9nb2xkbWFuLWZpbmVkLTgwMC0wMDAtYnktZmlucmEtb3Zlci1kYXJrLXBvb2wtcHJpY2luZy5odG1s"
+      },
+      {
+        "datetime": "2022-12-19T15:57:25Z",
+        "uri": "https://swap.stanford.edu/was/20221219155725mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d08c12ff-7fb5-11ed-b0ec-6b4344487a51&url=L25ld3MvMjAxMy0wNS0yNC9icmlkZ2UtY29sbGFwc2UtYWNjZW50cy1zdHJ1Y3R1cmFsLWRlY2F5LWFzLWJ1ZGdldHMtc2FnLmh0bWw="
+      },
+      {
+        "datetime": "2022-12-19T17:20:55Z",
+        "uri": "https://swap.stanford.edu/was/20221219172055mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=f7744df2-7fc0-11ed-bcff-616e434d5163&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMi0yMy91LXMtbWlsaXRhcnktYmFja3MtdGFyZ2V0ZWQtdGFyaWZmcy1vbi1zdGVlbC1hbmQtYWx1bWludW0="
+      },
+      {
+        "datetime": "2022-12-19T17:53:32Z",
+        "uri": "https://swap.stanford.edu/was/20221219175332mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0c252296-7fc6-11ed-bcff-616e434d5163&url=L25ld3MvMjAxNC0wMy0zMS9mYmktc2FpZC10by1wcm9iZS1oaWdoLXNwZWVkLXRyYWRlcnMtb3Zlci1hYnVzZS1vZi1pbmZvcm1hdGlvbi5odG1s"
+      },
+      {
+        "datetime": "2022-12-19T17:54:19Z",
+        "uri": "https://swap.stanford.edu/was/20221219175419mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=24b2166e-7fc6-11ed-a739-537467696c4e&url=L25ld3MvMjAxNC0wMy0xMS92aXJ0dS1maWxpbmctc2hpbmVzLWxpZ2h0LW9uLWJ1c2luZXNzLW9mLWhpZ2gtZnJlcXVlbmN5LXRyYWRpbmcuaHRtbA=="
+      },
+      {
+        "datetime": "2022-12-19T17:56:31Z",
+        "uri": "https://swap.stanford.edu/was/20221219175631mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=75ab023c-7fc6-11ed-a00d-547a744a6365&url=L25ld3MvMjAxNC0wNC0yMy8tZmxhc2gtYm95cy1yZXNvbmF0ZXMtYXMtc3VydmV5LWZpbmRzLWhpZ2gtZnJlcXVlbmN5LWNvbmNlcm5zLmh0bWw="
+      },
+      {
+        "datetime": "2022-12-19T17:57:01Z",
+        "uri": "https://swap.stanford.edu/was/20221219175701mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=88419b59-7fc6-11ed-92be-747165767268&url=L25ld3MvMjAxMS0wMi0xOC9zdG9jay1tYXJrZXRzLXJlcXVpcmUtbGltaXQtdXAtbGltaXQtZG93bi1zeXN0ZW0tc2VjLWNmdGMtYWR2aXNlcnMtc2F5Lmh0bWw="
+      },
+      {
+        "datetime": "2022-12-19T17:59:13Z",
+        "uri": "https://swap.stanford.edu/was/20221219175913mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d73f22e9-7fc6-11ed-a7fb-476a51476c55&url=L25ld3MvMjAxMi0wOC0xNC9rbmlnaHQtNDQwLW1pbGxpb24tbG9zcy1zZWFsZWQtYnktbmV3LXJ1bGVzLW9uLWNhbmNlbGluZy10cmFkZXMuaHRtbA=="
+      },
+      {
+        "datetime": "2022-12-19T21:16:33Z",
+        "uri": "https://swap.stanford.edu/was/20221219211633mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=6bc4bdcc-7fe1-11ed-b0ec-6b4344487a51&url=L25ld3MvMjAxMy0wMi0wNS9tZi1nbG9iYWwtY3VzdG9tZXItZnVuZHMtcnVsZXMtZ2V0LWFub3RoZXItY2Z0Yy1oZWFyaW5nLmh0bWw="
+      },
+      {
+        "datetime": "2022-12-19T22:08:55Z",
+        "uri": "https://swap.stanford.edu/was/20221219220855mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b19637bb-7fe2-11ed-a00d-547a744a6365&url=L25ld3MvMjAxMy0wMi0xNS9tZi1nbG9iYWwtY2Z0Yy1wcm9wb3NhbC1zYWlkLXRvLWplb3BhcmRpemUtZnV0dXJlcy1icm9rZXJhZ2VzLmh0bWw="
+      },
+      {
+        "datetime": "2022-12-20T00:06:00Z",
+        "uri": "https://swap.stanford.edu/was/20221220000600mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1529a2b1-7ffa-11ed-b448-496d55414b71&url=L25ld3MvMjAxMi0xMC0wMy9yb21uZXktMTctMDAwLWRlZHVjdGlvbi1jYXAtZmlyc3Qtb2YtdGhyZWUtcGFydC1wcm9wb3NhbC5odG1s"
+      },
+      {
+        "datetime": "2022-12-20T00:06:35Z",
+        "uri": "https://swap.stanford.edu/was/20221220000635mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=29caed6e-7ffa-11ed-95a8-566e7659514c&url=L25ld3MvMjAxMi0wNS0wMS9kcmlsbGVycy1tYXktZnJhY2stZmlyc3QtZGlzY2xvc2UtbGF0ZXItdW5kZXItZHJhZnQtcGxhbi5odG1s"
+      },
+      {
+        "datetime": "2022-12-20T04:51:48Z",
+        "uri": "https://swap.stanford.edu/was/20221220045148mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=02980e97-8022-11ed-b4bb-4e6a444d6744&url=L25ld3MvMjAxMS0wNC0yMC9hdC10LWJlYXRzLWVzdGltYXRlcy1ieS1sdXJpbmctaXBob25lLXVzZXJzLWV2ZW4tYWZ0ZXItbG9zaW5nLWV4Y2x1c2l2aXR5Lmh0bWw="
+      },
+      {
+        "datetime": "2022-12-20T11:45:38Z",
+        "uri": "https://swap.stanford.edu/was/20221220114538mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=c9676e1e-805b-11ed-9f90-746b6a48704b&url=L25ld3MvMjAxMC0wNy0xNi9nb2xkbWFuLXdhaXZlcy10YXgtZGVkdWN0aW9uLW9uLXNlYy1zZXR0bGVtZW50Lmh0bWw="
+      },
+      {
+        "datetime": "2023-03-21T13:49:28Z",
+        "uri": "https://vefsafn.is/20230321134928mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=3288f1f0-c7ef-11ed-8000-4b4e72495569&url=L01CVWFOeGNJVHg1UUJTWWJGZ2haUVJrM1Vsby9GVkFRSVJkWUd3dE1VVE1WR1FZWEYxRS9Gd3NjR0ZJVQ=="
+      },
+      {
+        "datetime": "2023-03-21T13:49:36Z",
+        "uri": "https://vefsafn.is/20230321134936mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=3748e97b-c7ef-11ed-ab5e-585a596c6141&url=L05rVWROd1FkSFZsUkJISUNDZ0FiV1JRL0Z3cFBGRkFWY2hZZEFSZFFVU0ViSEFwR0ZTSzNVaDRBQzBHWFBsSVhIRmxhSEhJV0hSdEQ="
+      },
+      {
+        "datetime": "2023-03-28T17:49:06Z",
+        "uri": "https://vefsafn.is/20230328174906mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d5798e7e-cd90-11ed-924b-506741725155&url=L01TUW5jUUErS2pndkxuNEpOU00vTmpWbkZpdzRKakU4YkI4WkR4TUNBVk1pRUFRYURRaFlLeGNkQVJRWFFUQU9HZ2dmSGc="
+      },
+      {
+        "datetime": "2023-04-02T12:57:50Z",
+        "uri": "https://vefsafn.is/20230402125750mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=f94914ee-d155-11ed-a148-6a49614d774c&url=L01TUW5jUUErS2pndkxuNEpOU00vTmpWbkZpdzRKakU4YkI4WkR4TUNBVk1pRUFRYURRaFlLeGNkQVJRWFFUQU9HZ2dmSGc="
+      },
+      {
+        "datetime": "2023-04-05T19:35:50Z",
+        "uri": "https://swap.stanford.edu/was/20230405193550mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0ffeb03f-d3e9-11ed-854b-7451574f7952&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMy0wMy0xNS9zdXBwbHktY2hhaW4tbGF0ZXN0LXNpZ25zLW9mLXVzLWNoaW5hLWRlY291cGxpbmc="
+      },
+      {
+        "datetime": "2023-04-13T14:11:14Z",
+        "uri": "https://web.archive.org.au/awa/20230413141114mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0c9a9f0c-da05-11ed-b8d8-667341664e54&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1lODZlMWNmNC1lZWM2LTRkYzYtYjUxMi01Y2U1MThiOTA4NDEmd21vZGU9b3BhcXVl"
+      },
+      {
+        "datetime": "2023-05-07T02:11:54Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230507021154mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=72da5d7f-ec7a-11ed-9cf1-614c644d5558&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wMS0wOS9wb2RjYXN0aW5nLWhhc24tdC1wcm9kdWNlZC1hLW5ldy1oaXQtaW4teWVhcnM="
+      },
+      {
+        "datetime": "2023-05-07T02:12:41Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230507021241mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=982db7c9-ec7a-11ed-911b-7a446e6b714f&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0xMC0yNi9pbmZsYXRpb24taGFzLXBhc3NlZC10aGUtcG9pbnQtb2Ytbm8tcmV0dXJu"
+      },
+      {
+        "datetime": "2023-05-07T02:16:25Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230507021625mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1bcdf765-ec7b-11ed-b469-56757552467a&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wNy0xMC9hcHBsZS13YXRjaC1zZXJpZXMtOC1wcm8tcnVnZ2VkLW1ldGFsLWNhc2UtYm9keS10ZW1wZXJhdHVyZS1sYXJnZXItYmF0dGVyeS1sNWZkYjYyMA=="
+      },
+      {
+        "datetime": "2023-05-07T02:18:28Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230507021828mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=704e227c-ec7b-11ed-a5e8-4d5543786e62&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD02NGMzZjUwMC02ZWQ3LTRjMDYtODQxYy0yMGI2NzhiZjUxYWM="
+      },
+      {
+        "datetime": "2023-05-07T02:21:44Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230507022144mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e885d6f9-ec7d-11ed-9b98-617341456f43&url=L21hcmtldHMv"
+      },
+      {
+        "datetime": "2023-05-07T02:28:22Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230507022822mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d56ce485-ec7e-11ed-90df-4e6877734f6f&url=L21hcmtldHMvaW5kZXguaHRtbD9JbnRybz1pbnRybw=="
+      },
+      {
+        "datetime": "2023-05-07T02:28:49Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230507022849mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e60ba5cf-ec7e-11ed-9442-46456b485653&url=L21hcmtldHMvZWNvbm9taWMtY2FsZW5kYXIv"
+      },
+      {
+        "datetime": "2023-05-07T02:29:41Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230507022941mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=04321cb5-ec7f-11ed-8e7b-6f4c4a47586d&url=L21hcmtldHMvZXRmcy9pbmRleC5odG1s"
+      },
+      {
+        "datetime": "2023-05-07T02:33:50Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230507023350mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=995d2ea9-ec7f-11ed-abc7-73475a635461&url=L21hcmtldHMvY3VycmVuY3kvY3VycmNhbGMuY2dpP1Q9ZGFsbGFzX2N1cnIuaHQmVFo9OlVTL0NlbnRyYWw="
+      },
+      {
+        "datetime": "2023-05-07T02:58:44Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230507025844mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=13a7e4c4-ec83-11ed-a553-55504a527761&url=L21lZGlhL3R2L2Nyb3NlLw=="
+      },
+      {
+        "datetime": "2023-05-09T03:56:00Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230509035600mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=688e7b79-ee1d-11ed-b600-6e6b7245794a&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wOC0xNC9hcHBsZS1hYXBsLXNldC10by1leHBhbmQtYWR2ZXJ0aXNpbmctYnJpbmdpbmctYWRzLXRvLW1hcHMtdHYtYW5kLWJvb2tzLWFwcHMtbDZ0ZHFxbWc="
+      },
+      {
+        "datetime": "2023-05-09T15:59:38Z",
+        "uri": "https://web.archive.org.au/awa/20230509155938mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=802f7dfb-ee82-11ed-a371-6a4d51717757&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD00NDMzNzBiNC1jZjM1LTQ2YTktOTA2YS05Y2JlNWUzZTFmNGY="
+      },
+      {
+        "datetime": "2023-05-14T11:30:19Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230514113019mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a4dc901e-f249-11ed-af0c-497662614748&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD02NGMzZjUwMC02ZWQ3LTRjMDYtODQxYy0yMGI2NzhiZjUxYWM="
+      },
+      {
+        "datetime": "2023-05-23T15:51:06Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230523155106mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b7a700a1-f48e-11ed-a9be-636858465442&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD03ZWU2YTUyZi01ZWRjLTRjYjYtYmJjMi05MTE3MzZmNDE4Zjg="
+      },
+      {
+        "datetime": "2023-05-24T14:24:26Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230524142426mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=cb64ff2d-f5b2-11ed-8292-6a697a6c474b&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD02ZmFmZmU4Zi05MmY4LTRhMjItOTQzYi05OGY2OGRjNzAwMmE="
+      },
+      {
+        "datetime": "2023-05-24T18:04:25Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230524180425mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=6ae1f43e-fa5d-11ed-a542-41774679566d&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD05NWUxMGQwYS1jZjNiLTRhYWItOTZkNS0yMmJlYWRmMTk0YzM="
+      },
+      {
+        "datetime": "2023-05-24T18:15:37Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230524181537mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=fb87698d-fa5e-11ed-a6be-686d6e76634a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0xZGNjZDVhZS00YjM4LTQ3YTgtYjdkNS0yMDg4M2JmODAyN2U="
+      },
+      {
+        "datetime": "2023-05-24T18:21:13Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230524182113mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=c38c3be7-fa5f-11ed-be12-72434270696f&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0xYTA5YzkwMy04MTQxLTRmOTctYjU2Mi02ODBhM2Y5MDZlOWY="
+      },
+      {
+        "datetime": "2023-05-24T18:56:11Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230524185611mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b5272d55-f6eb-11ed-8b53-754b674f6d75&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD05ZWE5MzgzMi0xMmJjLTRiN2QtYjFjZi1jMjZjODUxMTE5MGI="
+      },
+      {
+        "datetime": "2023-05-25T03:02:48Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230525030248mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=21f52a9c-f9ce-11ed-94f6-414d786e6467&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1kZmMxNjI5Yi1jYmZlLTQ0YjEtOTE0NC0xYTdjZjI1ZmFhMzM="
+      },
+      {
+        "datetime": "2023-05-25T03:02:51Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230525030251mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=232c2e4e-f9ce-11ed-b219-784e75774679&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yNWVlYzM4OC1hMTI2LTQ1YjktOWViZC0xNjdjMDNjN2E4ODk="
+      },
+      {
+        "datetime": "2023-05-25T03:02:53Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230525030253mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2409329f-f9ce-11ed-90ea-49794977454e&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1kMGU4YWNjNS1iZjZmLTQyZTQtOTNkYS1lMTRjMmZhOTJiMGU="
+      },
+      {
+        "datetime": "2023-05-25T10:52:08Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230525105208mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=307eb27a-faea-11ed-b729-72706f6a4f44&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jNjQ3YmM0Zi1mOWMwLTRiOWEtYWE2Ni02ZDRhMzc1ZGFiYzI="
+      },
+      {
+        "datetime": "2023-05-25T10:52:25Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230525105225mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=3bb7a87f-faea-11ed-8869-6b674c784462&url=L1Jlc2VhcmNoL3N0b2Nrcy9wcml2YXRlL3BlcnNvbi5hc3A/cGVyc29uSWQ9NDY5NTAwMzcmcHJpdmNhcElkPTM3MTg3NDUzJnByZXZpb3VzQ2FwSWQ9MzcxODc0NTMmcHJldmlvdXNUaXRsZT1JbnRlZ3JhQ2xpY2ssJTIwTExD"
+      },
+      {
+        "datetime": "2023-05-25T14:36:19Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230525143619mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=81827c71-fb09-11ed-a64c-4956707a6277&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMC0wMy0yMi9nZXR0aW5nLXVzZWQtdG8td29ya2luZy1mcm9tLWhvbWU="
+      },
+      {
+        "datetime": "2023-05-27T07:58:40Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230527075840mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4a7146ed-fc64-11ed-9bfb-74475a524879&url=L21pZGRsZWVhc3Q="
+      },
+      {
+        "datetime": "2023-05-29T02:06:09Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230529020609mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=606e28dc-fdc5-11ed-9988-694176687775&url=L21hcmtldHM="
+      },
+      {
+        "datetime": "2023-05-31T04:35:44Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230531043544mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=9a2e40ed-ff6c-11ed-bf34-57464a786d78&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wMi0xMS90aGUtbWV0YXZlcnNlLW1ha2VzLW5vLXNlbnNlLWFuZC1oZXJlLXMtd2h5"
+      },
+      {
+        "datetime": "2023-06-01T20:59:54Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230601205954mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=376de2d1-00bf-11ee-b2e1-494f436d5359&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0xMC0yMS9pcy10aGUtZ2FzLWFwcC1mcmVlLW5ldy1zb2NpYWwtbmV0d29yay1pcy1hLWhpdC1pbi1oaWdoLXNjaG9vbHM="
+      },
+      {
+        "datetime": "2023-06-02T05:05:28Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230602050528mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=fd138c26-00f8-11ee-a2c8-7749724d654b&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wNS0wOS9lbG9uLW11c2stcy1taWRlYXN0LWJhY2tlcnM="
+      },
+      {
+        "datetime": "2023-06-02T06:08:33Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230602060833mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=058a919c-00f9-11ee-bb41-70676f646e49&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wNS0xMy90ZWNoLWNvbXBhbmllcy1jb2RkbGVkLXRoZWlyLWVtcGxveWVlcy1ub3ctdGhleS1yZS1maXJpbmctdGhlbT9zcmVmPXh1VmlyZHB2JmNtcGlkPXNvY2lhbGZsb3ctdHdpdHRlci1idXNpbmVzcyZ1dG1fbWVkaXVtPXNvY2lhbCZ1dG1fY2FtcGFpZ249c29jaWFsZmxvdy1vcmdhbmljJnV0bV9jb250ZW50PWJ1c2luZXNzJnV0bV9zb3VyY2U9dHdpdHRlcg=="
+      },
+      {
+        "datetime": "2023-06-02T06:08:42Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230602060842mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=15b5ed70-0103-11ee-a1ea-747a70487947&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wOC0yMS93aGVuLXdpbGwtYXBwbGUtYW5ub3VuY2UtdGhlLWlwaG9uZS0xNC13aGVuLXdpbGwtdGhlLWlwaG9uZS0xNC1nby1vbi1zYWxlLWw3M2R0N2kx"
+      },
+      {
+        "datetime": "2023-06-02T06:08:44Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230602060844mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1657337d-0103-11ee-84eb-714d4d4f6251&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wNy0zMS9hcHBsZS1xMy0yMDIyLXJlc3VsdHMtcmVjYXAtc3Ryb25nLWlwaG9uZS1zYWxlcy13ZWFyYWJsZXMtbWFjLXNlcnZpY2VzLW1pc3MtbDY5ZGtrY2k="
+      },
+      {
+        "datetime": "2023-06-02T10:29:35Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230602102935mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=5db981ba-0130-11ee-8ff1-616c794e4569&url=L21vbmV5LWdhbGxlcnkvMjAxMi0xMC0xNi90aGUtbWFya2V0LXMtaG90dGVzdC1hcnRpc3RzLmh0bWw="
+      },
+      {
+        "datetime": "2023-06-02T20:34:15Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230602203415mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=d6ea6a02-0184-11ee-bdb2-624c49564e77&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wNi0yNi9hcHBsZS1hYXBsLXBsYW5zLWlwaG9uZS0xNC1hcHBsZS13YXRjaC1zZXJpZXMtOC1tMi1tYWNzLWZvci0yMDIyLWFuZC0yMDIzLWw0dmQ1dW54"
+      },
+      {
+        "datetime": "2023-06-04T01:28:54Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230604012854mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=29bac06f-0277-11ee-a920-5877476c7341&url=L21hcmtldHMvZml4ZWQtaW5jb21l"
+      },
+      {
+        "datetime": "2023-06-04T09:46:36Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230604094636mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=b2009c61-02bc-11ee-bc3d-4a6d44434645&url=L21hcmtldHMvZWFybmluZ3MtY2FsZW5kYXIvdXM="
+      },
+      {
+        "datetime": "2023-06-04T15:10:58Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230604151058mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=023ee8eb-02ea-11ee-b09c-6f4575474569&url=L21hcmtldHMvaW5kZXguaHRtbA=="
+      },
+      {
+        "datetime": "2023-06-05T11:01:51Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230605110151mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=5f5e75ac-0390-11ee-a9ef-677955634a4f&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMC0wNy0zMC9zdXBwbHktY2hhaW5zLWxhdGVzdC1icmV4aXQtd29ycmllcy1waWxlLXVwLXdpdGgtbmV3LXRyYWRlLXJ1bGVz"
+      },
+      {
+        "datetime": "2023-06-06T07:18:17Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230606071817mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4e4bbffa-043a-11ee-8ad2-4b445677534a&url=L25ld3MvbGl2ZS1ibG9nLzIwMjMtMDMtMDcvZWxvbi1tdXNrLXNwZWFrcy1hdC1tb3JnYW4tc3RhbmxleS1jb25mZXJlbmNl"
+      },
+      {
+        "datetime": "2023-06-06T09:53:45Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230606095345mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=05fe0e77-0450-11ee-a66b-42425746776c&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wNC0yNS9iaWctdGFrZS1jb2FsLXByaWNlcy1zb2FyLW9uLXVrcmFpbmUtd2Fy"
+      },
+      {
+        "datetime": "2023-06-06T15:02:14Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230606150214mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1e54a401-047b-11ee-b20b-725a5471514f&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0xMC0xNS93aGVuLWlzLWFwcGxlLWxhdW5jaGluZy10aGUtbTItaXBhZC1wcm8tYW5kLW0yLTE0LWluY2gtYW5kLTE2LWluY2gtbWFjYm9vay1wcm8tbDlhNXQ5cmM="
+      },
+      {
+        "datetime": "2023-06-06T19:18:07Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230606191807mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=dd8f6497-049e-11ee-afe3-4653796e4968&url=L25ld3Mv"
+      },
+      {
+        "datetime": "2023-06-06T19:35:55Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230606193555mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=5a79cd51-04a1-11ee-bbf0-59667a4c636b&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMC0xMi0xNy9ob3ctY29udmluY2luZy1pcy1mYWNlYm9vay1zLWNhc2UtYWdhaW5zdC1hcHBsZQ=="
+      },
+      {
+        "datetime": "2023-06-06T21:23:58Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230606212358mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=71f511a8-04b0-11ee-85b7-434c43777a66&url=L25ld3MvbmV3c2xldHRlcnMvMjAyMi0wNi0yMi9zdXBwbHktY2hhaW4tbGF0ZXN0LWFzaWEtcy1zdXBwbHktZGlzcnVwdGlvbnMtYXJlLXN0YXJ0aW5nLXRvLWhlYWw="
+      },
+      {
+        "datetime": "2023-06-06T21:55:58Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230606215558mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=eb25e73e-04b4-11ee-b8bb-545744426970&url=L211bHRpbWVkaWEvc2l0ZW1hcC54bWw="
+      },
+      {
+        "datetime": "2023-06-09T16:44:42Z",
+        "uri": "https://web.archive.org.au/awa/20230609164442mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ee40880c-06e4-11ee-ad7c-56665777574f&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD00NDMzNzBiNC1jZjM1LTQ2YTktOTA2YS05Y2JlNWUzZTFmNGY="
+      },
+      {
+        "datetime": "2023-06-22T06:36:28Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230622063628mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=1493c459-10c7-11ee-a102-687669616c4f&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD02OGY1YzgzMC1mMTc4LTRmMGQtYjk5Yi1mOTYzNGU3MDY2YmQ="
+      },
+      {
+        "datetime": "2023-06-22T06:36:29Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230622063629mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=14f07546-10c7-11ee-bda1-68575754675a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1mOTdmNGNmZi04YTg2LTRkZjUtOWU4NC1lODVmOTJhMWZjZDI="
+      },
+      {
+        "datetime": "2023-06-22T06:36:32Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230622063632mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=188de50f-10c7-11ee-9ed2-6571586a4a54&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zYjc5N2Q1OS0xNTBmLTRjZDAtYjhhYS1iMzc3YTEwNmU1YzI="
+      },
+      {
+        "datetime": "2023-06-24T21:07:54Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230624210754mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2ecbf131-12d3-11ee-85d3-785567514366&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yZjA1ZjIyYi1hYTM1LTRiMDItYWIwYS0xNzkzY2M0MjdmYmE="
+      },
+      {
+        "datetime": "2023-06-28T23:46:55Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230628234655mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0e79a7dc-160e-11ee-a49e-707a55646d47&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1iZTVlMTkyOS02YTliLTRlZDAtOTZjZi1kNzljMjQ0NzJmMGE="
+      },
+      {
+        "datetime": "2023-06-28T23:46:56Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230628234656mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0f529d0a-160e-11ee-ac2c-624e67547a63&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1iOWU0Yjg1ZC00NjFmLTQ5NzktOTlkZi1hMmNiZTg2OTdkODE="
+      },
+      {
+        "datetime": "2023-07-04T18:41:54Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230704184154mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=71f5e1f7-1a9a-11ee-917c-445052456d6b&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zZDIyY2E1Yy1mZTk4LTQ5ODUtOGRhYS1jYmZmOWU5NmI5OGQ="
+      },
+      {
+        "datetime": "2023-07-07T18:22:09Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230707182209mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=9dce380f-1cd5-11ee-a76d-587167707a75&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1lNTBmMjYxYS00OWQ2LTQ3ODEtODE1ZC0xZGRjZDVhZTQ2M2Q="
+      },
+      {
+        "datetime": "2023-07-09T09:58:34Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230709095834mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=2a14f7f9-1e3f-11ee-8670-4e634c795542&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1kMmNhOTA3Yy0wNWFhLTQ0NmMtYWU2Mi05NDJlODQ3YmNlZGU="
+      },
+      {
+        "datetime": "2023-07-09T12:58:06Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230709125806mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=3f38ba55-1e58-11ee-936b-736c78616874&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0xOTM2NjM4OS04YThmLTQ1MDEtOWU4MS0yNzBkZjNkMTQ1ZmYmd21vZGU9b3BhcXVl"
+      },
+      {
+        "datetime": "2023-07-09T15:41:31Z",
+        "uri": "https://web.archive.org.au/awa/20230709154131mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=138f4afb-1e6f-11ee-90ed-6f4c4165444a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD00NDMzNzBiNC1jZjM1LTQ2YTktOTA2YS05Y2JlNWUzZTFmNGY="
+      },
+      {
+        "datetime": "2023-07-31T03:22:01Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230731032201mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=62519709-2f51-11ee-b813-4e5652587550&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD05MDE5YjhkMi1hZmI3LTQyYmEtYmE1NC1lMzNhYmY4OGM3NzU="
+      },
+      {
+        "datetime": "2023-07-31T03:22:03Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230731032203mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=62d9c50c-2f51-11ee-800e-654f5279756d&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1iNDdmNThlMy1iY2Q0LTQ4NjItYmU4Ny1hNjI4OTczYjQ2MzA="
+      },
+      {
+        "datetime": "2023-07-31T03:22:04Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230731032204mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=635cbe92-2f51-11ee-adcd-616d68544f55&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD05Y2NjMGFhMS1lNzNkLTQ0YTEtYTM1MC01NzcyM2NmMzgyNDY="
+      },
+      {
+        "datetime": "2023-07-31T03:22:05Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230731032205mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=63dae1f1-2f51-11ee-a09f-67715a71684e&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yNTM3YWVmNS1iZGRhLTRmZGYtOGQ5NS0xZDJjMGRkNDM4OTk="
+      },
+      {
+        "datetime": "2023-07-31T03:22:07Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230731032207mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=64e220e9-2f51-11ee-b50f-6d6f614b7258&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD01YmFiMjgwYS1mMmMyLTQ5MjktYmQ5OC0wOWE1NzI1MWUwNzI="
+      },
+      {
+        "datetime": "2023-07-31T03:22:21Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230731032221mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7571dbcf-2f51-11ee-95d7-537159455461&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD02MWFmZDg0Ni0yOTZjLTQzZGEtYWJkZi0zYWE0N2Q4ODRiMGY="
+      },
+      {
+        "datetime": "2023-08-01T13:04:34Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230801130434mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=ed447f30-306a-11ee-af93-4952486d634c&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0xYWM2MTg3MS03MzBjLTQxNjctYTJiYi02MGQ2Y2JmNjhmY2Y="
+      },
+      {
+        "datetime": "2023-08-09T15:57:48Z",
+        "uri": "https://web.archive.org.au/awa/20230809155748mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=7cad93b5-36cd-11ee-a4da-7578564f5659&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD00NDMzNzBiNC1jZjM1LTQ2YTktOTA2YS05Y2JlNWUzZTFmNGY="
+      },
+      {
+        "datetime": "2023-08-14T17:00:41Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230814170041mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=191fa75d-3ac4-11ee-baa2-53584d476e74&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD00MWY5NWRlNi0zMWU0LTRlMzAtOTk2Yi1lYTM4N2FiZDkyMTY="
+      },
+      {
+        "datetime": "2023-08-19T03:31:29Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230819033129mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e104a35c-3e40-11ee-8028-4a53486c434f&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jN2Y1ZDZhMC0wZGUyLTRiOGYtODQxNi04OTRkOGU2NGUzNzU="
+      },
+      {
+        "datetime": "2023-08-31T11:15:52Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230831111552mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=bf0b26ff-47ef-11ee-b4d7-424649615054&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1hOWFlMjUwYy0wN2FjLTRhOGEtYmFlMi1kZDkxMjNhZTU5MTA="
+      },
+      {
+        "datetime": "2023-08-31T11:16:55Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230831111655mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e4393cf4-47ef-11ee-b8bc-4b6c57676650&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1lODQ1NzViZS01MzE2LTQ1ZDUtOTEyNC1iNjNjMDM3OGQ1M2Q="
+      },
+      {
+        "datetime": "2023-08-31T11:28:31Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230831112831mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=83542e02-47f1-11ee-bc61-59434a775168&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1lNWY0Mjc1OS04OWM0LTQ2YmUtODFiZS1lZjU3MWM4YWY2MjI="
+      },
+      {
+        "datetime": "2023-09-07T11:48:37Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230907114837mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=a279cbdc-4d72-11ee-9af3-af62651322a7&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1kYTA3YTliMy0xMjA4LTRiODMtODM4Yy05MjU5MmY3NTI4ZmQ="
+      },
+      {
+        "datetime": "2023-09-08T10:23:49Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230908102349mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=cca425ee-4e31-11ee-954f-a51c0450ba2c&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0yZThkNmVlZi1kYzM2LTRkMDItOTgxNi1jY2RhMDlkNzNlMjk="
+      },
+      {
+        "datetime": "2023-09-09T16:05:24Z",
+        "uri": "https://web.archive.org.au/awa/20230909160524mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=af4e6962-4f2a-11ee-86f8-0aeadd33ee78&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD00NDMzNzBiNC1jZjM1LTQ2YTktOTA2YS05Y2JlNWUzZTFmNGY="
+      },
+      {
+        "datetime": "2023-09-21T15:05:00Z",
+        "uri": "https://web.archive.org.au/awa/20230921150500mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=3bb4dddb-5890-11ee-a578-fc9fd67c7805&url=L25ld3MvYXJ0aWNsZXMvMjAxNi0wNy0yMC90aGUtbm90LWNyYXp5LXBlcnNvbi1zLWd1aWRlLXRvLW9ubGluZS1wcml2YWN5"
+      },
+      {
+        "datetime": "2023-09-21T23:30:07Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230921233007mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=dee65ba0-4e31-11ee-b730-3f16beb5ace0&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD05MTI0NWUwNC1lYzdlLTQ0YzAtYmQ4Zi05MDhhNTJmMWYyMjE="
+      },
+      {
+        "datetime": "2023-09-23T22:03:11Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230923220311mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=bd9afab5-5958-11ee-ae4f-f20b8719a6ca&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1iMDAxMjU0OC02ZDJlLTQxMzItOTA0ZC0wMzRhY2FjYzZjNTk="
+      },
+      {
+        "datetime": "2023-09-23T22:03:12Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230923220312mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=be2e8e6b-5958-11ee-b30e-9a8d5d9dea6a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1kMTczMGMyZC1hYzhmLTRiNjAtOTcyOS05Y2E4NGMxOThmNWI="
+      },
+      {
+        "datetime": "2023-09-28T09:42:19Z",
+        "uri": "https://arquivo.pt/wayback/20230928094219mp_/https://www.bloomberg.com/tosv2.html?vid=46613cb6-5de3-11ee-acb8-ee2ba43d271f&uuid=2b701870-5de3-11ee-bb1c-df4908d57fc8&url=L2phdmVsaW4vYXBpL2NtcF90cmFja2Vy"
+      },
+      {
+        "datetime": "2023-09-28T20:46:12Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230928204612mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=0f40085a-5e40-11ee-834e-02e4a474de84&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1lYmQyYWZiNy1lMTA3LTRkYWItYjZhOC1kMjM4ZjgwM2JkNzQ="
+      },
+      {
+        "datetime": "2023-10-06T08:58:45Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231006085845mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=8d9aa7b0-6426-11ee-82f2-08677622980a&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD0zZWQ3NzVlYy03YzRkLTRlMzItOTRmOS1mMzI4NWUxNGEyMzk="
+      },
+      {
+        "datetime": "2023-10-09T15:19:43Z",
+        "uri": "https://web.archive.org.au/awa/20231009151943mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=4583dc1b-66b7-11ee-8b61-c0e0554ff2dd&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD00NDMzNzBiNC1jZjM1LTQ2YTktOTA2YS05Y2JlNWUzZTFmNGY="
+      },
+      {
+        "datetime": "2023-10-13T13:11:22Z",
+        "uri": "https://web.archive.org.au/awa/20231013131122mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=010bdc06-69ca-11ee-acc9-223b523d5e75&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1lODZlMWNmNC1lZWM2LTRkYzYtYjUxMi01Y2U1MThiOTA4NDEmd21vZGU9b3BhcXVl"
+      },
+      {
+        "datetime": "2023-10-18T11:53:21Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231018115321mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=524b211c-6da9-11ee-9074-a31f6f8ff498&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1iZTVlMTkyOS02YTliLTRlZDAtOTZjZi1kNzljMjQ0NzJmMGE="
+      },
+      {
+        "datetime": "2023-10-18T13:08:00Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231018130800mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e7c1cf93-6db4-11ee-a13d-fa96bb8315f6&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZThhNDdhZi00N2RiLTQwNjUtODkwZC0xMDU2ODkzMzk1OTA="
+      }
+    ],
+    "first": {
+      "datetime": "2019-03-30T17:53:44Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20190330175344mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e21da800-530f-11e9-8b32-698e51ec3f4e&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD01NWNkYWU3YS1hOGY4LTQ1YTYtOGU5Ny0xNDA2M2Y4MmVlNjg="
+    },
+    "last": {
+      "datetime": "2023-10-18T13:08:00Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20231018130800mp_/https://www.bloomberg.com/tosv2.html?vid=&uuid=e7c1cf93-6db4-11ee-a13d-fa96bb8315f6&url=L211bHRpbWVkaWEvYXBpL2VtYmVkL2lmcmFtZT9pZD1jZThhNDdhZi00N2RiLTQwNjUtODkwZC0xMDU2ODkzMzk1OTA="
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bloomberg.com/tosv2.html?vid=&uuid=46101a8e-6839-11ee-829e-029530367070&url=L29waW5pb24vYXJ0aWNsZXMvMjAyMy0wOS0yMC9jaHVjay1zY2h1bWVyLWJ1bGxkb3plcy10dWJlcnZpbGxlLXMtbWlsaXRhcnktYmxvY2thZGUtd2l0aC1ub21pbmF0aW9uLXZvdGVz",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bloomberg.com/tosv2.html?vid=&uuid=46101a8e-6839-11ee-829e-029530367070&url=L29waW5pb24vYXJ0aWNsZXMvMjAyMy0wOS0yMC9jaHVjay1zY2h1bWVyLWJ1bGxkb3plcy10dWJlcnZpbGxlLXMtbWlsaXRhcnktYmxvY2thZGUtd2l0aC1ub21pbmF0aW9uLXZvdGVz",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bloomberg.com/tosv2.html?vid=&uuid=46101a8e-6839-11ee-829e-029530367070&url=L29waW5pb24vYXJ0aWNsZXMvMjAyMy0wOS0yMC9jaHVjay1zY2h1bWVyLWJ1bGxkb3plcy10dWJlcnZpbGxlLXMtbWlsaXRhcnktYmxvY2thZGUtd2l0aC1ub21pbmF0aW9uLXZvdGVz"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bloomberg.com/tosv2.html?vid=&uuid=46101a8e-6839-11ee-829e-029530367070&url=L29waW5pb24vYXJ0aWNsZXMvMjAyMy0wOS0yMC9jaHVjay1zY2h1bWVyLWJ1bGxkb3plcy10dWJlcnZpbGxlLXMtbWlsaXRhcnktYmxvY2thZGUtd2l0aC1ub21pbmF0aW9uLXZvdGVz"
+}

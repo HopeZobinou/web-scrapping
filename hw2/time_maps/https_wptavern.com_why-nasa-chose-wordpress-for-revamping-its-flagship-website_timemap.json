@@ -1,0 +1,74 @@
+{
+  "original_uri": "https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website",
+  "self": "http://localhost:1208/timemap/json/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-06T20:20:19Z",
+        "uri": "https://web.archive.org/web/20231006202019/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+      },
+      {
+        "datetime": "2023-10-07T06:53:32Z",
+        "uri": "https://web.archive.org/web/20231007065332/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+      },
+      {
+        "datetime": "2023-10-07T16:20:30Z",
+        "uri": "https://web.archive.org/web/20231007162030/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+      },
+      {
+        "datetime": "2023-10-08T01:43:07Z",
+        "uri": "https://web.archive.org/web/20231008014307/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+      },
+      {
+        "datetime": "2023-10-08T02:51:21Z",
+        "uri": "https://web.archive.org/web/20231008025121/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+      },
+      {
+        "datetime": "2023-10-08T07:03:24Z",
+        "uri": "https://web.archive.org/web/20231008070324/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+      },
+      {
+        "datetime": "2023-10-11T10:47:53Z",
+        "uri": "https://web.archive.org/web/20231011104753/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+      },
+      {
+        "datetime": "2023-10-11T18:40:54Z",
+        "uri": "https://web.archive.org/web/20231011184054/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+      },
+      {
+        "datetime": "2023-10-11T20:14:41Z",
+        "uri": "https://web.archive.org/web/20231011201441/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+      },
+      {
+        "datetime": "2023-10-12T09:24:52Z",
+        "uri": "https://web.archive.org/web/20231012092452/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+      },
+      {
+        "datetime": "2023-10-12T13:11:36Z",
+        "uri": "https://web.archive.org/web/20231012131136/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website/"
+      },
+      {
+        "datetime": "2023-10-13T00:07:32Z",
+        "uri": "https://web.archive.org/web/20231013000732/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+      },
+      {
+        "datetime": "2023-10-20T22:05:49Z",
+        "uri": "https://web.archive.org/web/20231020220549/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-06T20:20:19Z",
+      "uri": "https://web.archive.org/web/20231006202019/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+    },
+    "last": {
+      "datetime": "2023-10-20T22:05:49Z",
+      "uri": "https://web.archive.org/web/20231020220549/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website",
+    "json_format": "http://localhost:1208/timemap/json/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://wptavern.com/why-nasa-chose-wordpress-for-revamping-its-flagship-website"
+}

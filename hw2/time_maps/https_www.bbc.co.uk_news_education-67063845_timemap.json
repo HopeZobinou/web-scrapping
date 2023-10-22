@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.bbc.co.uk/news/education-67063845",
+  "self": "http://localhost:1208/timemap/json/https://www.bbc.co.uk/news/education-67063845",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T01:52:19Z",
+        "uri": "https://web.archive.org/web/20231011015219/https://www.bbc.co.uk/news/education-67063845"
+      },
+      {
+        "datetime": "2023-10-11T01:53:03Z",
+        "uri": "https://web.archive.org/web/20231011015303/https://www.bbc.co.uk/news/education-67063845"
+      },
+      {
+        "datetime": "2023-10-11T20:28:51Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231011202851mp_/https://www.bbc.co.uk/news/education-67063845"
+      },
+      {
+        "datetime": "2023-10-12T01:40:06Z",
+        "uri": "https://web.archive.org/web/20231012014006/https://www.bbc.co.uk/news/education-67063845"
+      },
+      {
+        "datetime": "2023-10-12T02:49:05Z",
+        "uri": "https://web.archive.org/web/20231012024905/https://www.bbc.co.uk/news/education-67063845"
+      },
+      {
+        "datetime": "2023-10-12T15:18:59Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231012151859mp_/https://www.bbc.co.uk/news/education-67063845"
+      },
+      {
+        "datetime": "2023-10-12T19:17:46Z",
+        "uri": "https://web.archive.org/web/20231012191746/https://www.bbc.co.uk/news/education-67063845"
+      },
+      {
+        "datetime": "2023-10-13T02:48:40Z",
+        "uri": "https://web.archive.org/web/20231013024840/https://www.bbc.co.uk/news/education-67063845"
+      },
+      {
+        "datetime": "2023-10-14T00:12:31Z",
+        "uri": "https://web.archive.org/web/20231014001231/https://www.bbc.co.uk/news/education-67063845"
+      },
+      {
+        "datetime": "2023-10-16T10:31:07Z",
+        "uri": "https://web.archive.org/web/20231016103107/https://www.bbc.co.uk/news/education-67063845"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T01:52:19Z",
+      "uri": "https://web.archive.org/web/20231011015219/https://www.bbc.co.uk/news/education-67063845"
+    },
+    "last": {
+      "datetime": "2023-10-16T10:31:07Z",
+      "uri": "https://web.archive.org/web/20231016103107/https://www.bbc.co.uk/news/education-67063845"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bbc.co.uk/news/education-67063845",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bbc.co.uk/news/education-67063845",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bbc.co.uk/news/education-67063845"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bbc.co.uk/news/education-67063845"
+}

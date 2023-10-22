@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.bbc.co.uk/programmes/p0gg31wk",
+  "self": "http://localhost:1208/timemap/json/https://www.bbc.co.uk/programmes/p0gg31wk",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-04T18:58:54Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231004185854mp_/https://www.bbc.co.uk/programmes/p0gg31wk"
+      },
+      {
+        "datetime": "2023-10-11T16:56:12Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231011165612mp_/https://www.bbc.co.uk/programmes/p0gg31wk"
+      },
+      {
+        "datetime": "2023-10-11T18:40:59Z",
+        "uri": "https://web.archive.org/web/20231011184059/https://www.bbc.co.uk/programmes/p0gg31wk"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-04T18:58:54Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20231004185854mp_/https://www.bbc.co.uk/programmes/p0gg31wk"
+    },
+    "last": {
+      "datetime": "2023-10-11T18:40:59Z",
+      "uri": "https://web.archive.org/web/20231011184059/https://www.bbc.co.uk/programmes/p0gg31wk"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bbc.co.uk/programmes/p0gg31wk",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bbc.co.uk/programmes/p0gg31wk",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bbc.co.uk/programmes/p0gg31wk"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bbc.co.uk/programmes/p0gg31wk"
+}

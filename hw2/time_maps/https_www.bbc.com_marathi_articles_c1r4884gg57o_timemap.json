@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.bbc.com/marathi/articles/c1r4884gg57o",
+  "self": "http://localhost:1208/timemap/json/https://www.bbc.com/marathi/articles/c1r4884gg57o",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T17:56:12Z",
+        "uri": "https://web.archive.org/web/20231011175612/https://www.bbc.com/marathi/articles/c1r4884gg57o"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T17:56:12Z",
+      "uri": "https://web.archive.org/web/20231011175612/https://www.bbc.com/marathi/articles/c1r4884gg57o"
+    },
+    "last": {
+      "datetime": "2023-10-11T17:56:12Z",
+      "uri": "https://web.archive.org/web/20231011175612/https://www.bbc.com/marathi/articles/c1r4884gg57o"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bbc.com/marathi/articles/c1r4884gg57o",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bbc.com/marathi/articles/c1r4884gg57o",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bbc.com/marathi/articles/c1r4884gg57o"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bbc.com/marathi/articles/c1r4884gg57o"
+}

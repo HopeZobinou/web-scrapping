@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://wpcorner.co/wordpress-accessibility-guide/",
+  "self": "http://localhost:1208/timemap/json/https://wpcorner.co/wordpress-accessibility-guide/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T11:03:49Z",
+        "uri": "https://web.archive.org/web/20231011110349/https://wpcorner.co/wordpress-accessibility-guide/"
+      },
+      {
+        "datetime": "2023-10-12T09:57:38Z",
+        "uri": "https://web.archive.org/web/20231012095738/https://wpcorner.co/wordpress-accessibility-guide/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T11:03:49Z",
+      "uri": "https://web.archive.org/web/20231011110349/https://wpcorner.co/wordpress-accessibility-guide/"
+    },
+    "last": {
+      "datetime": "2023-10-12T09:57:38Z",
+      "uri": "https://web.archive.org/web/20231012095738/https://wpcorner.co/wordpress-accessibility-guide/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://wpcorner.co/wordpress-accessibility-guide/",
+    "json_format": "http://localhost:1208/timemap/json/https://wpcorner.co/wordpress-accessibility-guide/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://wpcorner.co/wordpress-accessibility-guide/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://wpcorner.co/wordpress-accessibility-guide/"
+}

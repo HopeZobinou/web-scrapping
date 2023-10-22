@@ -1,0 +1,78 @@
+{
+  "original_uri": "https://www.bbc.co.uk/news/world-middle-east-67065341",
+  "self": "http://localhost:1208/timemap/json/https://www.bbc.co.uk/news/world-middle-east-67065341",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T19:45:26Z",
+        "uri": "https://web.archive.org/web/20231010194526/https://www.bbc.co.uk/news/world-middle-east-67065341"
+      },
+      {
+        "datetime": "2023-10-10T19:49:15Z",
+        "uri": "https://web.archive.org/web/20231010194915/https://www.bbc.co.uk/news/world-middle-east-67065341"
+      },
+      {
+        "datetime": "2023-10-10T20:43:43Z",
+        "uri": "https://web.archive.org/web/20231010204343/https://www.bbc.co.uk/news/world-middle-east-67065341"
+      },
+      {
+        "datetime": "2023-10-10T21:05:44Z",
+        "uri": "https://web.archive.org/web/20231010210544/https://www.bbc.co.uk/news/world-middle-east-67065341"
+      },
+      {
+        "datetime": "2023-10-11T00:31:04Z",
+        "uri": "https://web.archive.org/web/20231011003104/https://www.bbc.co.uk/news/world-middle-east-67065341"
+      },
+      {
+        "datetime": "2023-10-11T04:32:21Z",
+        "uri": "https://web.archive.org/web/20231011043221/https://www.bbc.co.uk/news/world-middle-east-67065341"
+      },
+      {
+        "datetime": "2023-10-11T15:22:25Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231011152225mp_/https://www.bbc.co.uk/news/world-middle-east-67065341"
+      },
+      {
+        "datetime": "2023-10-11T21:04:20Z",
+        "uri": "https://web.archive.org/web/20231011210420/https://www.bbc.co.uk/news/world-middle-east-67065341"
+      },
+      {
+        "datetime": "2023-10-13T01:13:07Z",
+        "uri": "https://web.archive.org/web/20231013011307/https://www.bbc.co.uk/news/world-middle-east-67065341"
+      },
+      {
+        "datetime": "2023-10-14T05:14:38Z",
+        "uri": "https://web.archive.org/web/20231014051438/https://www.bbc.co.uk/news/world-middle-east-67065341"
+      },
+      {
+        "datetime": "2023-10-15T19:05:04Z",
+        "uri": "https://web.archive.org/web/20231015190504/https://www.bbc.co.uk/news/world-middle-east-67065341"
+      },
+      {
+        "datetime": "2023-10-18T01:18:11Z",
+        "uri": "https://web.archive.org/web/20231018011811/https://www.bbc.co.uk/news/world-middle-east-67065341"
+      },
+      {
+        "datetime": "2023-10-19T02:37:05Z",
+        "uri": "https://web.archive.org/web/20231019023705/https://www.bbc.co.uk/news/world-middle-east-67065341"
+      },
+      {
+        "datetime": "2023-10-20T02:16:49Z",
+        "uri": "https://web.archive.org/web/20231020021649/https://www.bbc.co.uk/news/world-middle-east-67065341"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T19:45:26Z",
+      "uri": "https://web.archive.org/web/20231010194526/https://www.bbc.co.uk/news/world-middle-east-67065341"
+    },
+    "last": {
+      "datetime": "2023-10-20T02:16:49Z",
+      "uri": "https://web.archive.org/web/20231020021649/https://www.bbc.co.uk/news/world-middle-east-67065341"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bbc.co.uk/news/world-middle-east-67065341",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bbc.co.uk/news/world-middle-east-67065341",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bbc.co.uk/news/world-middle-east-67065341"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bbc.co.uk/news/world-middle-east-67065341"
+}

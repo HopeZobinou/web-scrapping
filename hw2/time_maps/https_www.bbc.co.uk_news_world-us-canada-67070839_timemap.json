@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.bbc.co.uk/news/world-us-canada-67070839",
+  "self": "http://localhost:1208/timemap/json/https://www.bbc.co.uk/news/world-us-canada-67070839",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T17:59:32Z",
+        "uri": "https://web.archive.org/web/20231010175932/https://www.bbc.co.uk/news/world-us-canada-67070839"
+      },
+      {
+        "datetime": "2023-10-11T03:03:27Z",
+        "uri": "https://web.archive.org/web/20231011030327/https://www.bbc.co.uk/news/world-us-canada-67070839"
+      },
+      {
+        "datetime": "2023-10-11T19:35:20Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231011193520mp_/https://www.bbc.co.uk/news/world-us-canada-67070839"
+      },
+      {
+        "datetime": "2023-10-12T08:01:44Z",
+        "uri": "https://web.archive.org/web/20231012080144/https://www.bbc.co.uk/news/world-us-canada-67070839"
+      },
+      {
+        "datetime": "2023-10-12T13:03:15Z",
+        "uri": "https://web.archive.org/web/20231012130315/https://www.bbc.co.uk/news/world-us-canada-67070839"
+      },
+      {
+        "datetime": "2023-10-13T13:29:41Z",
+        "uri": "https://web.archive.org/web/20231013132941/https://www.bbc.co.uk/news/world-us-canada-67070839"
+      },
+      {
+        "datetime": "2023-10-14T15:00:37Z",
+        "uri": "https://web.archive.org/web/20231014150037/https://www.bbc.co.uk/news/world-us-canada-67070839"
+      },
+      {
+        "datetime": "2023-10-15T15:18:15Z",
+        "uri": "https://web.archive.org/web/20231015151815/https://www.bbc.co.uk/news/world-us-canada-67070839"
+      },
+      {
+        "datetime": "2023-10-15T18:56:37Z",
+        "uri": "https://web.archive.org/web/20231015185637/https://www.bbc.co.uk/news/world-us-canada-67070839"
+      },
+      {
+        "datetime": "2023-10-16T15:50:15Z",
+        "uri": "https://web.archive.org/web/20231016155015/https://www.bbc.co.uk/news/world-us-canada-67070839"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T17:59:32Z",
+      "uri": "https://web.archive.org/web/20231010175932/https://www.bbc.co.uk/news/world-us-canada-67070839"
+    },
+    "last": {
+      "datetime": "2023-10-16T15:50:15Z",
+      "uri": "https://web.archive.org/web/20231016155015/https://www.bbc.co.uk/news/world-us-canada-67070839"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bbc.co.uk/news/world-us-canada-67070839",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bbc.co.uk/news/world-us-canada-67070839",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bbc.co.uk/news/world-us-canada-67070839"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bbc.co.uk/news/world-us-canada-67070839"
+}

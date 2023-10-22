@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.blackhistorymonth.org.uk/article/section/latest-events/jamaican-arts-ambassador-theresa-roberts-to-showcase-women-artists-at-london-art-fair/",
+  "self": "http://localhost:1208/timemap/json/https://www.blackhistorymonth.org.uk/article/section/latest-events/jamaican-arts-ambassador-theresa-roberts-to-showcase-women-artists-at-london-art-fair/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-14T11:22:17Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231014112217mp_/https://www.blackhistorymonth.org.uk/article/section/latest-events/jamaican-arts-ambassador-theresa-roberts-to-showcase-women-artists-at-london-art-fair/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-14T11:22:17Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20231014112217mp_/https://www.blackhistorymonth.org.uk/article/section/latest-events/jamaican-arts-ambassador-theresa-roberts-to-showcase-women-artists-at-london-art-fair/"
+    },
+    "last": {
+      "datetime": "2023-10-14T11:22:17Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20231014112217mp_/https://www.blackhistorymonth.org.uk/article/section/latest-events/jamaican-arts-ambassador-theresa-roberts-to-showcase-women-artists-at-london-art-fair/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.blackhistorymonth.org.uk/article/section/latest-events/jamaican-arts-ambassador-theresa-roberts-to-showcase-women-artists-at-london-art-fair/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.blackhistorymonth.org.uk/article/section/latest-events/jamaican-arts-ambassador-theresa-roberts-to-showcase-women-artists-at-london-art-fair/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.blackhistorymonth.org.uk/article/section/latest-events/jamaican-arts-ambassador-theresa-roberts-to-showcase-women-artists-at-london-art-fair/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.blackhistorymonth.org.uk/article/section/latest-events/jamaican-arts-ambassador-theresa-roberts-to-showcase-women-artists-at-london-art-fair/"
+}

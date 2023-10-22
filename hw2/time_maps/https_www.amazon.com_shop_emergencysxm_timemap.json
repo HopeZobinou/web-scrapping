@@ -1,0 +1,254 @@
+{
+  "original_uri": "https://www.amazon.com/shop/emergencysxm",
+  "self": "http://localhost:1208/timemap/json/https://www.amazon.com/shop/emergencysxm",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2021-04-07T12:27:52Z",
+        "uri": "https://web.archive.org/web/20210407122752/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2022-12-20T10:15:44Z",
+        "uri": "https://web.archive.org/web/20221220101544/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-04-19T23:07:53Z",
+        "uri": "https://web.archive.org/web/20230419230753/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-04-21T05:44:26Z",
+        "uri": "https://web.archive.org/web/20230421054426/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-04-23T22:42:06Z",
+        "uri": "https://web.archive.org/web/20230423224206/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-04-24T21:52:06Z",
+        "uri": "https://web.archive.org/web/20230424215206/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-04-24T23:05:33Z",
+        "uri": "https://web.archive.org/web/20230424230533/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-01T23:10:06Z",
+        "uri": "https://web.archive.org/web/20230501231006/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-05T11:43:49Z",
+        "uri": "https://web.archive.org/web/20230505114349/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-05T16:32:59Z",
+        "uri": "https://web.archive.org/web/20230505163259/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-05T20:06:01Z",
+        "uri": "https://web.archive.org/web/20230505200601/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-05T23:15:46Z",
+        "uri": "https://web.archive.org/web/20230505231546/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-07T08:19:29Z",
+        "uri": "https://web.archive.org/web/20230507081929/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-08T05:47:32Z",
+        "uri": "https://web.archive.org/web/20230508054732/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-09T23:50:35Z",
+        "uri": "https://web.archive.org/web/20230509235035/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-11T12:45:29Z",
+        "uri": "https://web.archive.org/web/20230511124529/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-13T06:27:03Z",
+        "uri": "https://web.archive.org/web/20230513062703/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-14T15:17:21Z",
+        "uri": "https://web.archive.org/web/20230514151721/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-14T23:23:13Z",
+        "uri": "https://web.archive.org/web/20230514232313/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-17T06:33:10Z",
+        "uri": "https://web.archive.org/web/20230517063310/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-18T11:59:08Z",
+        "uri": "https://web.archive.org/web/20230518115908/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-19T16:17:23Z",
+        "uri": "https://web.archive.org/web/20230519161723/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-21T12:36:39Z",
+        "uri": "https://web.archive.org/web/20230521123639/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-22T03:25:12Z",
+        "uri": "https://web.archive.org/web/20230522032512/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-22T04:10:51Z",
+        "uri": "https://web.archive.org/web/20230522041051/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-22T05:49:35Z",
+        "uri": "https://web.archive.org/web/20230522054935/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-22T13:25:40Z",
+        "uri": "https://web.archive.org/web/20230522132540/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-24T15:32:01Z",
+        "uri": "https://web.archive.org/web/20230524153201/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-25T07:25:59Z",
+        "uri": "https://web.archive.org/web/20230525072559/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-26T05:44:32Z",
+        "uri": "https://web.archive.org/web/20230526054432/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-27T05:44:23Z",
+        "uri": "https://web.archive.org/web/20230527054423/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-28T06:36:30Z",
+        "uri": "https://web.archive.org/web/20230528063630/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-29T07:49:22Z",
+        "uri": "https://web.archive.org/web/20230529074922/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-31T06:17:36Z",
+        "uri": "https://web.archive.org/web/20230531061736/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-05-31T15:12:34Z",
+        "uri": "https://web.archive.org/web/20230531151234/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-01T06:07:47Z",
+        "uri": "https://web.archive.org/web/20230601060747/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-02T19:19:47Z",
+        "uri": "https://web.archive.org/web/20230602191947/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-03T07:26:04Z",
+        "uri": "https://web.archive.org/web/20230603072604/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-05T05:44:22Z",
+        "uri": "https://web.archive.org/web/20230605054422/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-06T05:47:17Z",
+        "uri": "https://web.archive.org/web/20230606054717/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-07T23:01:02Z",
+        "uri": "https://web.archive.org/web/20230607230102/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-08T05:44:57Z",
+        "uri": "https://web.archive.org/web/20230608054457/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-09T05:46:24Z",
+        "uri": "https://web.archive.org/web/20230609054624/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-10T08:10:05Z",
+        "uri": "https://web.archive.org/web/20230610081005/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-11T06:27:40Z",
+        "uri": "https://web.archive.org/web/20230611062740/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-12T05:44:56Z",
+        "uri": "https://web.archive.org/web/20230612054456/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-13T05:46:42Z",
+        "uri": "https://web.archive.org/web/20230613054642/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-14T07:04:40Z",
+        "uri": "https://web.archive.org/web/20230614070440/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-15T05:56:39Z",
+        "uri": "https://web.archive.org/web/20230615055639/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-24T15:09:48Z",
+        "uri": "https://web.archive.org/web/20230624150948/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-24T19:30:54Z",
+        "uri": "https://web.archive.org/web/20230624193054/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-25T08:56:02Z",
+        "uri": "https://web.archive.org/web/20230625085602/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-26T06:03:52Z",
+        "uri": "https://web.archive.org/web/20230626060352/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-28T05:45:41Z",
+        "uri": "https://web.archive.org/web/20230628054541/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-29T05:46:37Z",
+        "uri": "https://web.archive.org/web/20230629054637/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-30T00:53:05Z",
+        "uri": "https://web.archive.org/web/20230630005305/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-30T05:44:18Z",
+        "uri": "https://web.archive.org/web/20230630054418/https://www.amazon.com/shop/emergencysxm"
+      },
+      {
+        "datetime": "2023-06-30T18:48:28Z",
+        "uri": "https://web.archive.org/web/20230630184828/https://www.amazon.com/shop/emergencysxm"
+      }
+    ],
+    "first": {
+      "datetime": "2021-04-07T12:27:52Z",
+      "uri": "https://web.archive.org/web/20210407122752/https://www.amazon.com/shop/emergencysxm"
+    },
+    "last": {
+      "datetime": "2023-06-30T18:48:28Z",
+      "uri": "https://web.archive.org/web/20230630184828/https://www.amazon.com/shop/emergencysxm"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.amazon.com/shop/emergencysxm",
+    "json_format": "http://localhost:1208/timemap/json/https://www.amazon.com/shop/emergencysxm",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.amazon.com/shop/emergencysxm"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.amazon.com/shop/emergencysxm"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.cbc.ca/news/canada/windsor/windsor-covid-hospital-outbreak-1.6991744",
+  "self": "http://localhost:1208/timemap/json/https://www.cbc.ca/news/canada/windsor/windsor-covid-hospital-outbreak-1.6991744",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-19T20:40:07Z",
+        "uri": "https://web.archive.org/web/20231019204007/https://www.cbc.ca/news/canada/windsor/windsor-covid-hospital-outbreak-1.6991744"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-19T20:40:07Z",
+      "uri": "https://web.archive.org/web/20231019204007/https://www.cbc.ca/news/canada/windsor/windsor-covid-hospital-outbreak-1.6991744"
+    },
+    "last": {
+      "datetime": "2023-10-19T20:40:07Z",
+      "uri": "https://web.archive.org/web/20231019204007/https://www.cbc.ca/news/canada/windsor/windsor-covid-hospital-outbreak-1.6991744"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cbc.ca/news/canada/windsor/windsor-covid-hospital-outbreak-1.6991744",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cbc.ca/news/canada/windsor/windsor-covid-hospital-outbreak-1.6991744",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cbc.ca/news/canada/windsor/windsor-covid-hospital-outbreak-1.6991744"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cbc.ca/news/canada/windsor/windsor-covid-hospital-outbreak-1.6991744"
+}

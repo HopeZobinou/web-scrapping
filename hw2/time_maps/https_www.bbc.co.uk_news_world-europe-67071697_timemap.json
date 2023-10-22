@@ -1,0 +1,86 @@
+{
+  "original_uri": "https://www.bbc.co.uk/news/world-europe-67071697",
+  "self": "http://localhost:1208/timemap/json/https://www.bbc.co.uk/news/world-europe-67071697",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T17:54:15Z",
+        "uri": "https://web.archive.org/web/20231010175415/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-10T18:32:18Z",
+        "uri": "https://web.archive.org/web/20231010183218/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-10T19:19:22Z",
+        "uri": "http://archive.md/20231010191922/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-10T19:19:46Z",
+        "uri": "https://web.archive.org/web/20231010191946/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-11T03:17:26Z",
+        "uri": "https://web.archive.org/web/20231011031726/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-11T19:00:30Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231011190030mp_/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-12T18:26:52Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231012182652mp_/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-13T15:38:36Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231013153836mp_/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-14T04:06:08Z",
+        "uri": "https://web.archive.org/web/20231014040608/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-15T13:28:43Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231015132843mp_/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-15T19:11:55Z",
+        "uri": "https://web.archive.org/web/20231015191155/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-16T16:15:28Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231016161528mp_/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-17T19:03:51Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231017190351mp_/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-18T19:14:32Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231018191432mp_/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-19T16:13:13Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231019161313mp_/https://www.bbc.co.uk/news/world-europe-67071697"
+      },
+      {
+        "datetime": "2023-10-20T15:22:25Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231020152225mp_/https://www.bbc.co.uk/news/world-europe-67071697"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T17:54:15Z",
+      "uri": "https://web.archive.org/web/20231010175415/https://www.bbc.co.uk/news/world-europe-67071697"
+    },
+    "last": {
+      "datetime": "2023-10-20T15:22:25Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20231020152225mp_/https://www.bbc.co.uk/news/world-europe-67071697"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bbc.co.uk/news/world-europe-67071697",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bbc.co.uk/news/world-europe-67071697",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bbc.co.uk/news/world-europe-67071697"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bbc.co.uk/news/world-europe-67071697"
+}

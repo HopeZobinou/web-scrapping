@@ -1,0 +1,106 @@
+{
+  "original_uri": "https://www.bbc.co.uk/news/world-australia-67074992",
+  "self": "http://localhost:1208/timemap/json/https://www.bbc.co.uk/news/world-australia-67074992",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T06:05:31Z",
+        "uri": "https://web.archive.org/web/20231011060531/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-11T06:25:55Z",
+        "uri": "https://web.archive.org/web/20231011062555/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-11T06:32:50Z",
+        "uri": "https://web.archive.org/web/20231011063250/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-11T06:36:14Z",
+        "uri": "https://web.archive.org/web/20231011063614/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-11T06:50:33Z",
+        "uri": "https://web.archive.org/web/20231011065033/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-11T10:57:00Z",
+        "uri": "https://wayback.archive-it.org/all/20231011105700/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-11T12:36:14Z",
+        "uri": "https://web.archive.org/web/20231011123614/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-11T16:10:44Z",
+        "uri": "https://web.archive.org/web/20231011161044/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-11T18:40:25Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231011184025mp_/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-11T22:37:44Z",
+        "uri": "http://archive.md/20231011223744/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-11T22:37:59Z",
+        "uri": "https://web.archive.org/web/20231011223759/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-12T00:09:41Z",
+        "uri": "https://wayback.archive-it.org/all/20231012000941/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-13T01:27:34Z",
+        "uri": "https://web.archive.org/web/20231013012734/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-14T02:14:49Z",
+        "uri": "https://web.archive.org/web/20231014021449/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-14T08:18:14Z",
+        "uri": "https://web.archive.org/web/20231014081814/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-14T09:44:30Z",
+        "uri": "https://web.archive.org/web/20231014094430/http://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-15T02:20:28Z",
+        "uri": "https://web.archive.org/web/20231015022028/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-16T03:26:51Z",
+        "uri": "https://web.archive.org/web/20231016032651/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-16T10:22:25Z",
+        "uri": "https://web.archive.org/web/20231016102225/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-17T02:57:41Z",
+        "uri": "https://web.archive.org/web/20231017025741/https://www.bbc.co.uk/news/world-australia-67074992"
+      },
+      {
+        "datetime": "2023-10-17T19:31:54Z",
+        "uri": "https://web.archive.org/web/20231017193154/https://www.bbc.co.uk/news/world-australia-67074992"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T06:05:31Z",
+      "uri": "https://web.archive.org/web/20231011060531/https://www.bbc.co.uk/news/world-australia-67074992"
+    },
+    "last": {
+      "datetime": "2023-10-17T19:31:54Z",
+      "uri": "https://web.archive.org/web/20231017193154/https://www.bbc.co.uk/news/world-australia-67074992"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bbc.co.uk/news/world-australia-67074992",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bbc.co.uk/news/world-australia-67074992",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bbc.co.uk/news/world-australia-67074992"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bbc.co.uk/news/world-australia-67074992"
+}

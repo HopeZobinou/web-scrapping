@@ -1,0 +1,2134 @@
+{
+  "original_uri": "https://www.bmj.com/content/369/bmj.m1849",
+  "self": "http://localhost:1208/timemap/json/https://www.bmj.com/content/369/bmj.m1849",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2020-05-15T12:50:24Z",
+        "uri": "https://wayback.archive-it.org/all/20200515125024/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-15T12:50:24Z",
+        "uri": "https://web.archive.org/web/20200515125024/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-15T13:50:30Z",
+        "uri": "https://web.archive.org/web/20200515135030/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-15T13:59:56Z",
+        "uri": "https://web.archive.org/web/20200515135956/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-15T15:20:55Z",
+        "uri": "https://web.archive.org/web/20200515152055/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-15T22:35:43Z",
+        "uri": "https://wayback.archive-it.org/all/20200515223543/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-15T22:35:43Z",
+        "uri": "https://web.archive.org/web/20200515223543/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-15T23:22:08Z",
+        "uri": "https://web.archive.org/web/20200515232208/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-16T00:25:36Z",
+        "uri": "https://wayback.archive-it.org/all/20200516002536/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-16T00:25:36Z",
+        "uri": "https://web.archive.org/web/20200516002536/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-16T01:03:02Z",
+        "uri": "https://wayback.archive-it.org/all/20200516010302/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-16T01:03:02Z",
+        "uri": "https://web.archive.org/web/20200516010302/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-16T01:14:39Z",
+        "uri": "https://web.archive.org/web/20200516011439/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-16T09:38:35Z",
+        "uri": "https://wayback.archive-it.org/all/20200516093835/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-16T09:38:35Z",
+        "uri": "https://web.archive.org/web/20200516093835/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-16T09:59:03Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20200516095903mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-16T17:11:45Z",
+        "uri": "https://web.archive.org/web/20200516171145/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-16T18:58:55Z",
+        "uri": "https://web.archive.org/web/20200516185855/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-16T23:21:30Z",
+        "uri": "https://wayback.archive-it.org/all/20200516232130/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-16T23:21:30Z",
+        "uri": "https://web.archive.org/web/20200516232130/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-17T04:20:28Z",
+        "uri": "https://arquivo.pt/wayback/20200517042028mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-17T06:06:18Z",
+        "uri": "https://wayback.archive-it.org/all/20200517060618/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-17T06:06:18Z",
+        "uri": "https://web.archive.org/web/20200517060618/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-17T20:01:05Z",
+        "uri": "https://web.archive.org/web/20200517200105/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-17T23:29:03Z",
+        "uri": "https://wayback.archive-it.org/all/20200517232903/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-17T23:29:03Z",
+        "uri": "https://web.archive.org/web/20200517232903/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-18T01:42:33Z",
+        "uri": "https://web.archive.org/web/20200518014233/http://www.bmj.com:80/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-18T03:34:46Z",
+        "uri": "http://archive.md/20200518033446/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-18T05:39:22Z",
+        "uri": "https://wayback.archive-it.org/all/20200518053922/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-18T05:39:22Z",
+        "uri": "https://web.archive.org/web/20200518053922/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-18T21:05:15Z",
+        "uri": "https://web.archive.org/web/20200518210515/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-18T23:21:20Z",
+        "uri": "https://wayback.archive-it.org/all/20200518232120/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-18T23:21:20Z",
+        "uri": "https://web.archive.org/web/20200518232120/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-19T11:18:55Z",
+        "uri": "https://web.archive.org/web/20200519111855/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-19T22:28:42Z",
+        "uri": "https://web.archive.org/web/20200519222842/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-20T00:41:49Z",
+        "uri": "https://wayback.archive-it.org/all/20200520004149/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-20T00:41:49Z",
+        "uri": "https://web.archive.org/web/20200520004149/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-20T01:00:48Z",
+        "uri": "https://arquivo.pt/wayback/20200520010048mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-20T02:58:04Z",
+        "uri": "https://web.archive.org/web/20200520025804/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-20T04:13:22Z",
+        "uri": "https://web.archive.org/web/20200520041322/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-20T04:27:33Z",
+        "uri": "https://web.archive.org/web/20200520042733/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-20T05:49:06Z",
+        "uri": "https://web.archive.org/web/20200520054906/https://bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-20T05:49:07Z",
+        "uri": "https://web.archive.org/web/20200520054907/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-20T05:52:31Z",
+        "uri": "https://web.archive.org/web/20200520055231/http://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-20T06:59:40Z",
+        "uri": "https://web.archive.org/web/20200520065940/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-20T17:58:08Z",
+        "uri": "https://web.archive.org/web/20200520175808/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-20T21:30:39Z",
+        "uri": "https://web.archive.org/web/20200520213039/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-21T01:20:27Z",
+        "uri": "https://wayback.archive-it.org/all/20200521012027/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-21T01:20:27Z",
+        "uri": "https://web.archive.org/web/20200521012027/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-21T07:08:12Z",
+        "uri": "https://web.archive.org/web/20200521070812/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-21T07:27:30Z",
+        "uri": "https://wayback.archive-it.org/all/20200521072730/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-21T07:27:30Z",
+        "uri": "https://web.archive.org/web/20200521072730/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-21T13:29:13Z",
+        "uri": "https://web.archive.org/web/20200521132913/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-21T13:56:04Z",
+        "uri": "https://web.archive.org/web/20200521135604/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-21T19:30:49Z",
+        "uri": "https://wayback.archive-it.org/all/20200521193049/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-21T19:30:49Z",
+        "uri": "https://web.archive.org/web/20200521193049/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-21T22:33:07Z",
+        "uri": "https://web.archive.org/web/20200521223307/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-22T01:29:56Z",
+        "uri": "https://wayback.archive-it.org/all/20200522012956/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-22T01:29:56Z",
+        "uri": "https://web.archive.org/web/20200522012956/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-22T11:34:00Z",
+        "uri": "https://web.archive.org/web/20200522113400/http://bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-22T13:32:23Z",
+        "uri": "https://web.archive.org/web/20200522133223/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-22T17:26:52Z",
+        "uri": "https://web.archive.org/web/20200522172652/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-22T17:43:46Z",
+        "uri": "https://web.archive.org/web/20200522174346/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-22T19:19:41Z",
+        "uri": "https://web.archive.org/web/20200522191941/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-22T22:30:56Z",
+        "uri": "https://arquivo.pt/wayback/20200522223056mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T01:47:59Z",
+        "uri": "https://web.archive.org/web/20200523014759/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T01:48:04Z",
+        "uri": "https://web.archive.org/web/20200523014804/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T01:54:04Z",
+        "uri": "https://web.archive.org/web/20200523015404/https://bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T01:54:05Z",
+        "uri": "https://web.archive.org/web/20200523015405/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T01:54:06Z",
+        "uri": "https://web.archive.org/web/20200523015406/https://bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T01:54:07Z",
+        "uri": "https://web.archive.org/web/20200523015407/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T01:54:13Z",
+        "uri": "https://web.archive.org/web/20200523015413/http://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T01:54:15Z",
+        "uri": "https://web.archive.org/web/20200523015415/http://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T02:49:05Z",
+        "uri": "https://web.archive.org/web/20200523024905/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T06:14:49Z",
+        "uri": "https://web.archive.org/web/20200523061449/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T06:41:10Z",
+        "uri": "https://web.archive.org/web/20200523064110/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T09:24:31Z",
+        "uri": "https://web.archive.org/web/20200523092431/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T09:39:55Z",
+        "uri": "https://web.archive.org/web/20200523093955/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T09:58:46Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20200523095846mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-23T10:14:08Z",
+        "uri": "https://web.archive.org/web/20200523101408/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-24T01:28:14Z",
+        "uri": "https://web.archive.org/web/20200524012814/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-24T05:05:27Z",
+        "uri": "https://web.archive.org/web/20200524050527/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-25T03:56:08Z",
+        "uri": "https://web.archive.org/web/20200525035608/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-25T05:51:48Z",
+        "uri": "https://web.archive.org/web/20200525055148/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-25T06:39:31Z",
+        "uri": "https://web.archive.org/web/20200525063931/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-25T10:46:26Z",
+        "uri": "https://web.archive.org/web/20200525104626/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-25T13:13:38Z",
+        "uri": "https://web.archive.org/web/20200525131338/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-25T15:41:27Z",
+        "uri": "https://wayback.archive-it.org/all/20200525154127/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-25T15:41:27Z",
+        "uri": "https://web.archive.org/web/20200525154127/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-25T18:58:57Z",
+        "uri": "https://wayback.archive-it.org/all/20200525185857/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-25T18:58:57Z",
+        "uri": "https://web.archive.org/web/20200525185857/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-26T03:07:52Z",
+        "uri": "https://web.archive.org/web/20200526030752/http://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-26T03:53:54Z",
+        "uri": "https://web.archive.org/web/20200526035354/http://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-26T07:21:49Z",
+        "uri": "https://web.archive.org/web/20200526072149/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-26T07:40:08Z",
+        "uri": "https://web.archive.org/web/20200526074008/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-26T14:07:35Z",
+        "uri": "https://web.archive.org/web/20200526140735/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-26T16:49:36Z",
+        "uri": "https://web.archive.org/web/20200526164936/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-26T21:56:43Z",
+        "uri": "https://web.archive.org/web/20200526215643/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-26T22:43:16Z",
+        "uri": "https://web.archive.org/web/20200526224316/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-27T08:50:44Z",
+        "uri": "https://web.archive.org/web/20200527085044/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-27T08:56:49Z",
+        "uri": "https://web.archive.org/web/20200527085649/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-27T09:11:17Z",
+        "uri": "https://wayback.archive-it.org/all/20200527091117/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-27T09:11:17Z",
+        "uri": "https://web.archive.org/web/20200527091117/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-27T10:18:17Z",
+        "uri": "https://web.archive.org/web/20200527101817/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-27T20:55:04Z",
+        "uri": "https://web.archive.org/web/20200527205504/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T02:02:30Z",
+        "uri": "https://web.archive.org/web/20200528020230/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T02:02:35Z",
+        "uri": "https://web.archive.org/web/20200528020235/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T02:35:52Z",
+        "uri": "https://web.archive.org/web/20200528023552/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T05:49:32Z",
+        "uri": "https://wayback.archive-it.org/all/20200528054932/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T05:49:32Z",
+        "uri": "https://web.archive.org/web/20200528054932/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T06:03:12Z",
+        "uri": "https://web.archive.org/web/20200528060312/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T07:31:31Z",
+        "uri": "https://web.archive.org/web/20200528073131/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T07:32:09Z",
+        "uri": "https://web.archive.org/web/20200528073209/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T08:50:15Z",
+        "uri": "https://web.archive.org/web/20200528085015/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T10:17:30Z",
+        "uri": "https://web.archive.org/web/20200528101730/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T11:05:12Z",
+        "uri": "https://web.archive.org/web/20200528110512/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T12:49:10Z",
+        "uri": "https://web.archive.org/web/20200528124910/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T13:37:34Z",
+        "uri": "https://web.archive.org/web/20200528133734/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T13:43:08Z",
+        "uri": "https://web.archive.org/web/20200528134308/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T16:00:08Z",
+        "uri": "https://web.archive.org/web/20200528160008/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T17:57:04Z",
+        "uri": "https://web.archive.org/web/20200528175704/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T19:33:12Z",
+        "uri": "https://web.archive.org/web/20200528193312/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T20:02:36Z",
+        "uri": "https://wayback.archive-it.org/all/20200528200236/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T20:02:36Z",
+        "uri": "https://web.archive.org/web/20200528200236/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T20:51:05Z",
+        "uri": "https://web.archive.org/web/20200528205105/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T21:55:23Z",
+        "uri": "https://web.archive.org/web/20200528215523/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-28T23:19:48Z",
+        "uri": "https://web.archive.org/web/20200528231948/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-29T02:53:20Z",
+        "uri": "https://web.archive.org/web/20200529025320/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-29T04:59:53Z",
+        "uri": "https://web.archive.org/web/20200529045953/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-29T05:00:50Z",
+        "uri": "https://web.archive.org/web/20200529050050/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-29T10:17:38Z",
+        "uri": "https://web.archive.org/web/20200529101738/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-29T11:24:42Z",
+        "uri": "https://web.archive.org/web/20200529112442/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-29T11:37:11Z",
+        "uri": "https://web.archive.org/web/20200529113711/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-29T13:10:33Z",
+        "uri": "https://wayback.archive-it.org/all/20200529131033/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-29T13:10:33Z",
+        "uri": "https://web.archive.org/web/20200529131033/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-30T03:02:23Z",
+        "uri": "https://web.archive.org/web/20200530030223/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-30T08:23:53Z",
+        "uri": "https://web.archive.org/web/20200530082353/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-30T12:39:14Z",
+        "uri": "https://web.archive.org/web/20200530123914/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-30T23:22:19Z",
+        "uri": "https://web.archive.org/web/20200530232219/http://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-31T00:28:57Z",
+        "uri": "https://web.archive.org/web/20200531002857/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-31T01:03:18Z",
+        "uri": "https://web.archive.org/web/20200531010318/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-31T04:08:51Z",
+        "uri": "https://web.archive.org/web/20200531040851/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-31T08:45:07Z",
+        "uri": "https://web.archive.org/web/20200531084507/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-31T12:58:46Z",
+        "uri": "https://web.archive.org/web/20200531125846/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-05-31T13:01:42Z",
+        "uri": "https://web.archive.org/web/20200531130142/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-01T02:14:44Z",
+        "uri": "https://web.archive.org/web/20200601021444/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-01T11:01:14Z",
+        "uri": "https://web.archive.org/web/20200601110114/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-01T15:21:46Z",
+        "uri": "https://web.archive.org/web/20200601152146/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-02T13:30:58Z",
+        "uri": "https://web.archive.org/web/20200602133058/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-02T15:29:48Z",
+        "uri": "https://web.archive.org/web/20200602152948/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-02T23:45:52Z",
+        "uri": "https://web.archive.org/web/20200602234552/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-03T01:26:27Z",
+        "uri": "https://web.archive.org/web/20200603012627/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-03T05:47:35Z",
+        "uri": "https://web.archive.org/web/20200603054735/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-03T10:20:32Z",
+        "uri": "https://web.archive.org/web/20200603102032/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-03T18:00:29Z",
+        "uri": "https://web.archive.org/web/20200603180029/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-03T18:08:25Z",
+        "uri": "https://web.archive.org/web/20200603180825/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-03T19:50:19Z",
+        "uri": "https://web.archive.org/web/20200603195019/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-03T20:06:14Z",
+        "uri": "https://web.archive.org/web/20200603200614/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-03T20:39:48Z",
+        "uri": "https://web.archive.org/web/20200603203948/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-03T21:21:53Z",
+        "uri": "https://web.archive.org/web/20200603212153/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-03T22:04:15Z",
+        "uri": "https://web.archive.org/web/20200603220415/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-04T01:14:30Z",
+        "uri": "https://web.archive.org/web/20200604011430/http://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-04T12:49:16Z",
+        "uri": "https://web.archive.org/web/20200604124916/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-05T07:05:02Z",
+        "uri": "https://web.archive.org/web/20200605070502/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-05T08:56:41Z",
+        "uri": "https://web.archive.org/web/20200605085641/http://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-05T09:56:10Z",
+        "uri": "https://wayback.archive-it.org/all/20200605095610/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-05T09:56:10Z",
+        "uri": "https://web.archive.org/web/20200605095610/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-06T10:10:25Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20200606101025mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-06T10:15:48Z",
+        "uri": "https://web.archive.org/web/20200606101548/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-06T16:39:48Z",
+        "uri": "https://web.archive.org/web/20200606163948/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-06T18:21:22Z",
+        "uri": "https://arquivo.pt/wayback/20200606182122mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-06T21:15:48Z",
+        "uri": "https://web.archive.org/web/20200606211548/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-06T21:54:36Z",
+        "uri": "https://web.archive.org/web/20200606215436/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T01:34:16Z",
+        "uri": "https://web.archive.org/web/20200607013416/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T01:40:58Z",
+        "uri": "https://web.archive.org/web/20200607014058/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T02:45:49Z",
+        "uri": "https://web.archive.org/web/20200607024549/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T03:55:44Z",
+        "uri": "https://web.archive.org/web/20200607035544/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T05:03:16Z",
+        "uri": "https://web.archive.org/web/20200607050316/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T05:04:06Z",
+        "uri": "https://web.archive.org/web/20200607050406/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T06:05:24Z",
+        "uri": "https://web.archive.org/web/20200607060524/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T07:26:55Z",
+        "uri": "https://web.archive.org/web/20200607072655/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T07:52:08Z",
+        "uri": "https://web.archive.org/web/20200607075208/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T09:18:22Z",
+        "uri": "https://web.archive.org/web/20200607091822/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T09:34:08Z",
+        "uri": "https://web.archive.org/web/20200607093408/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T10:20:36Z",
+        "uri": "https://web.archive.org/web/20200607102036/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T10:51:38Z",
+        "uri": "https://web.archive.org/web/20200607105138/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T11:15:06Z",
+        "uri": "https://web.archive.org/web/20200607111506/http://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T12:01:43Z",
+        "uri": "https://web.archive.org/web/20200607120143/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T12:18:26Z",
+        "uri": "https://web.archive.org/web/20200607121826/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T13:04:51Z",
+        "uri": "https://web.archive.org/web/20200607130451/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T14:03:21Z",
+        "uri": "https://web.archive.org/web/20200607140321/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T16:18:40Z",
+        "uri": "https://web.archive.org/web/20200607161840/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-07T18:48:09Z",
+        "uri": "https://web.archive.org/web/20200607184809/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-08T15:29:43Z",
+        "uri": "https://web.archive.org/web/20200608152943/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-08T16:03:13Z",
+        "uri": "https://web.archive.org/web/20200608160313/http://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-08T17:20:00Z",
+        "uri": "https://web.archive.org/web/20200608172000/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-08T23:26:56Z",
+        "uri": "https://web.archive.org/web/20200608232656/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T00:15:58Z",
+        "uri": "https://web.archive.org/web/20200609001558/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T02:41:13Z",
+        "uri": "https://web.archive.org/web/20200609024113/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T04:46:16Z",
+        "uri": "https://web.archive.org/web/20200609044616/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T05:01:49Z",
+        "uri": "https://web.archive.org/web/20200609050149/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T05:02:05Z",
+        "uri": "https://web.archive.org/web/20200609050205/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T05:12:53Z",
+        "uri": "https://web.archive.org/web/20200609051253/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T05:16:55Z",
+        "uri": "https://web.archive.org/web/20200609051655/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T05:26:41Z",
+        "uri": "https://web.archive.org/web/20200609052641/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T06:01:15Z",
+        "uri": "https://web.archive.org/web/20200609060115/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T06:03:09Z",
+        "uri": "https://web.archive.org/web/20200609060309/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T06:27:21Z",
+        "uri": "https://web.archive.org/web/20200609062721/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T07:13:12Z",
+        "uri": "https://web.archive.org/web/20200609071312/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T08:12:02Z",
+        "uri": "https://web.archive.org/web/20200609081202/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T08:33:24Z",
+        "uri": "https://web.archive.org/web/20200609083324/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T08:33:33Z",
+        "uri": "https://web.archive.org/web/20200609083333/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T10:27:49Z",
+        "uri": "https://web.archive.org/web/20200609102749/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T12:33:03Z",
+        "uri": "https://web.archive.org/web/20200609123303/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T13:55:07Z",
+        "uri": "https://web.archive.org/web/20200609135507/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T17:37:17Z",
+        "uri": "https://web.archive.org/web/20200609173717/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T18:11:09Z",
+        "uri": "https://web.archive.org/web/20200609181109/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T19:08:10Z",
+        "uri": "https://web.archive.org/web/20200609190810/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T19:31:17Z",
+        "uri": "https://web.archive.org/web/20200609193117/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-09T21:57:48Z",
+        "uri": "https://web.archive.org/web/20200609215748/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-10T00:46:29Z",
+        "uri": "https://web.archive.org/web/20200610004629/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-10T00:59:59Z",
+        "uri": "https://web.archive.org/web/20200610005959/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-11T04:53:58Z",
+        "uri": "https://wayback.archive-it.org/all/20200611045358/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-11T04:53:58Z",
+        "uri": "https://web.archive.org/web/20200611045358/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-15T00:46:15Z",
+        "uri": "https://web.archive.org/web/20200615004615/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-15T07:39:45Z",
+        "uri": "https://web.archive.org/web/20200615073945/http://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-15T08:18:02Z",
+        "uri": "https://web.archive.org/web/20200615081802/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-15T18:21:12Z",
+        "uri": "https://web.archive.org/web/20200615182112/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-15T22:27:33Z",
+        "uri": "https://web.archive.org/web/20200615222733/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-16T02:34:07Z",
+        "uri": "https://web.archive.org/web/20200616023407/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-16T06:14:48Z",
+        "uri": "https://web.archive.org/web/20200616061448/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-16T18:30:08Z",
+        "uri": "https://arquivo.pt/wayback/20200616183008mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-18T09:45:05Z",
+        "uri": "https://web.archive.org/web/20200618094505/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-18T18:04:19Z",
+        "uri": "https://web.archive.org/web/20200618180419/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-20T04:27:08Z",
+        "uri": "https://web.archive.org/web/20200620042708/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-20T06:50:44Z",
+        "uri": "https://web.archive.org/web/20200620065044/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-21T15:36:12Z",
+        "uri": "https://web.archive.org/web/20200621153612/http://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-25T03:57:55Z",
+        "uri": "https://web.archive.org/web/20200625035755/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-25T13:30:37Z",
+        "uri": "https://wayback.archive-it.org/all/20200625133037/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-25T13:30:37Z",
+        "uri": "https://web.archive.org/web/20200625133037/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-27T04:08:14Z",
+        "uri": "https://web.archive.org/web/20200627040814/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-29T10:01:09Z",
+        "uri": "https://web.archive.org/web/20200629100109/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-30T03:43:44Z",
+        "uri": "https://web.archive.org/web/20200630034344/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-06-30T19:08:52Z",
+        "uri": "https://web.archive.org/web/20200630190852/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-02T11:27:17Z",
+        "uri": "https://wayback.archive-it.org/all/20200702112717/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-02T11:27:17Z",
+        "uri": "https://web.archive.org/web/20200702112717/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-03T00:20:29Z",
+        "uri": "https://web.archive.org/web/20200703002029/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-07T22:35:20Z",
+        "uri": "https://web.archive.org/web/20200707223520/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-09T03:50:37Z",
+        "uri": "https://web.archive.org/web/20200709035037/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-09T04:46:52Z",
+        "uri": "https://wayback.archive-it.org/all/20200709044652/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-09T04:46:52Z",
+        "uri": "https://web.archive.org/web/20200709044652/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-11T07:17:41Z",
+        "uri": "https://web.archive.org/web/20200711071741/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-16T15:21:52Z",
+        "uri": "https://wayback.archive-it.org/all/20200716152152/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-16T15:21:52Z",
+        "uri": "https://web.archive.org/web/20200716152152/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-17T11:09:42Z",
+        "uri": "https://web.archive.org/web/20200717110942/http://www.bmj.com:80/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-17T18:22:23Z",
+        "uri": "https://web.archive.org/web/20200717182223/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-18T18:44:26Z",
+        "uri": "https://web.archive.org/web/20200718184426/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-20T00:53:21Z",
+        "uri": "https://web.archive.org/web/20200720005321/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-20T09:02:34Z",
+        "uri": "https://web.archive.org/web/20200720090234/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-21T23:45:25Z",
+        "uri": "https://web.archive.org/web/20200721234525/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-22T23:26:00Z",
+        "uri": "https://web.archive.org/web/20200722232600/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-23T04:35:31Z",
+        "uri": "https://wayback.archive-it.org/all/20200723043531/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-23T04:35:31Z",
+        "uri": "https://web.archive.org/web/20200723043531/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-23T05:11:09Z",
+        "uri": "https://web.archive.org/web/20200723051109/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-24T11:09:27Z",
+        "uri": "https://web.archive.org/web/20200724110927/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-25T08:59:19Z",
+        "uri": "https://web.archive.org/web/20200725085919/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-26T16:02:34Z",
+        "uri": "https://web.archive.org/web/20200726160234/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-28T08:19:38Z",
+        "uri": "https://web.archive.org/web/20200728081938/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-30T09:44:25Z",
+        "uri": "https://web.archive.org/web/20200730094425/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-07-30T13:45:04Z",
+        "uri": "https://web.archive.org/web/20200730134504/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-03T04:00:57Z",
+        "uri": "https://web.archive.org/web/20200803040057/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-05T22:19:56Z",
+        "uri": "https://web.archive.org/web/20200805221956/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-06T08:21:41Z",
+        "uri": "https://wayback.archive-it.org/all/20200806082141/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-06T08:21:41Z",
+        "uri": "https://web.archive.org/web/20200806082141/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-06T23:25:53Z",
+        "uri": "https://web.archive.org/web/20200806232553/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-12T10:22:55Z",
+        "uri": "https://web.archive.org/web/20200812102255/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-13T04:16:27Z",
+        "uri": "https://wayback.archive-it.org/all/20200813041627/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-13T04:16:27Z",
+        "uri": "https://web.archive.org/web/20200813041627/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-14T08:09:12Z",
+        "uri": "https://web.archive.org/web/20200814080912/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-14T23:38:56Z",
+        "uri": "https://web.archive.org/web/20200814233856/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-17T03:10:56Z",
+        "uri": "https://web.archive.org/web/20200817031056/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-20T06:38:32Z",
+        "uri": "https://wayback.archive-it.org/all/20200820063832/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-20T06:38:32Z",
+        "uri": "https://web.archive.org/web/20200820063832/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-21T05:52:11Z",
+        "uri": "https://web.archive.org/web/20200821055211/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-21T11:28:06Z",
+        "uri": "https://arquivo.pt/wayback/20200821112806mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-21T11:28:13Z",
+        "uri": "https://arquivo.pt/wayback/20200821112813mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-21T13:32:59Z",
+        "uri": "https://web.archive.org/web/20200821133259/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-23T12:11:35Z",
+        "uri": "https://web.archive.org/web/20200823121135/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-25T03:15:48Z",
+        "uri": "https://web.archive.org/web/20200825031548/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-26T01:22:12Z",
+        "uri": "https://wayback.archive-it.org/all/20200826012212/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-26T01:22:12Z",
+        "uri": "https://web.archive.org/web/20200826012212/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-27T04:38:06Z",
+        "uri": "https://wayback.archive-it.org/all/20200827043806/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-27T04:38:06Z",
+        "uri": "https://web.archive.org/web/20200827043806/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-27T18:35:38Z",
+        "uri": "https://arquivo.pt/wayback/20200827183538mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-28T06:59:51Z",
+        "uri": "https://wayback.archive-it.org/all/20200828065951/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-28T06:59:51Z",
+        "uri": "https://web.archive.org/web/20200828065951/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-29T01:01:13Z",
+        "uri": "https://web.archive.org/web/20200829010113/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-29T06:06:48Z",
+        "uri": "https://web.archive.org/web/20200829060648/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-29T21:12:09Z",
+        "uri": "https://wayback.archive-it.org/all/20200829211209/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-08-29T21:12:09Z",
+        "uri": "https://web.archive.org/web/20200829211209/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-03T07:57:55Z",
+        "uri": "https://wayback.archive-it.org/all/20200903075755/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-03T07:57:55Z",
+        "uri": "https://web.archive.org/web/20200903075755/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-03T18:14:28Z",
+        "uri": "https://web.archive.org/web/20200903181428/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-04T17:49:37Z",
+        "uri": "https://web.archive.org/web/20200904174937/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-05T04:48:24Z",
+        "uri": "https://web.archive.org/web/20200905044824/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-05T10:42:02Z",
+        "uri": "https://web.archive.org/web/20200905104202/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-08T05:35:19Z",
+        "uri": "https://web.archive.org/web/20200908053519/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-08T10:05:52Z",
+        "uri": "https://web.archive.org/web/20200908100552/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-08T14:03:41Z",
+        "uri": "https://web.archive.org/web/20200908140341/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-08T20:42:35Z",
+        "uri": "https://web.archive.org/web/20200908204235/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-09T14:43:02Z",
+        "uri": "https://web.archive.org/web/20200909144302/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-10T08:22:27Z",
+        "uri": "https://wayback.archive-it.org/all/20200910082227/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-10T08:22:27Z",
+        "uri": "https://web.archive.org/web/20200910082227/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-17T00:18:25Z",
+        "uri": "https://web.archive.org/web/20200917001825/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-17T05:59:58Z",
+        "uri": "https://wayback.archive-it.org/all/20200917055958/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-17T05:59:58Z",
+        "uri": "https://web.archive.org/web/20200917055958/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-22T07:28:20Z",
+        "uri": "https://web.archive.org/web/20200922072820/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-22T12:22:55Z",
+        "uri": "https://web.archive.org/web/20200922122255/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-24T02:53:31Z",
+        "uri": "https://wayback.archive-it.org/all/20200924025331/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-09-24T02:53:31Z",
+        "uri": "https://web.archive.org/web/20200924025331/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-02T21:35:46Z",
+        "uri": "https://web.archive.org/web/20201002213546/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-03T03:47:00Z",
+        "uri": "https://web.archive.org/web/20201003034700/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-04T09:25:10Z",
+        "uri": "https://web.archive.org/web/20201004092510/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-05T09:32:34Z",
+        "uri": "https://web.archive.org/web/20201005093234/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-07T00:46:56Z",
+        "uri": "https://wayback.archive-it.org/all/20201007004656/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-07T00:46:56Z",
+        "uri": "https://web.archive.org/web/20201007004656/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-07T21:47:43Z",
+        "uri": "https://wayback.archive-it.org/all/20201007214743/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-07T21:47:43Z",
+        "uri": "https://web.archive.org/web/20201007214743/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-08T04:56:26Z",
+        "uri": "https://wayback.archive-it.org/all/20201008045626/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-08T04:56:26Z",
+        "uri": "https://web.archive.org/web/20201008045626/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-08T11:42:35Z",
+        "uri": "https://wayback.archive-it.org/all/20201008114235/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-08T11:42:35Z",
+        "uri": "https://web.archive.org/web/20201008114235/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-09T20:05:13Z",
+        "uri": "https://web.archive.org/web/20201009200513/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-11T11:35:55Z",
+        "uri": "https://wayback.archive-it.org/all/20201011113555/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-11T11:35:55Z",
+        "uri": "https://web.archive.org/web/20201011113555/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-15T05:31:41Z",
+        "uri": "https://wayback.archive-it.org/all/20201015053141/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-15T05:31:41Z",
+        "uri": "https://web.archive.org/web/20201015053141/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-20T00:57:06Z",
+        "uri": "https://wayback.archive-it.org/all/20201020005706/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-20T00:57:06Z",
+        "uri": "https://web.archive.org/web/20201020005706/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-20T10:33:23Z",
+        "uri": "https://web.archive.org/web/20201020103323/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-22T08:48:38Z",
+        "uri": "https://wayback.archive-it.org/all/20201022084838/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-22T08:48:38Z",
+        "uri": "https://web.archive.org/web/20201022084838/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-29T04:25:48Z",
+        "uri": "https://wayback.archive-it.org/all/20201029042548/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-29T04:25:48Z",
+        "uri": "https://web.archive.org/web/20201029042548/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-29T21:14:19Z",
+        "uri": "https://arquivo.pt/wayback/20201029211419mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-10-31T19:55:47Z",
+        "uri": "https://web.archive.org/web/20201031195547/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-01T20:29:31Z",
+        "uri": "https://web.archive.org/web/20201101202931/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-01T20:39:17Z",
+        "uri": "https://web.archive.org/web/20201101203917/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-02T04:12:11Z",
+        "uri": "https://web.archive.org/web/20201102041211/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-03T01:28:37Z",
+        "uri": "https://wayback.archive-it.org/all/20201103012837/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-03T01:28:37Z",
+        "uri": "https://web.archive.org/web/20201103012837/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-05T07:02:15Z",
+        "uri": "https://wayback.archive-it.org/all/20201105070215/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-05T07:02:15Z",
+        "uri": "https://web.archive.org/web/20201105070215/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-06T17:44:28Z",
+        "uri": "https://web.archive.org/web/20201106174428/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-10T08:25:39Z",
+        "uri": "https://web.archive.org/web/20201110082539/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-11T01:29:55Z",
+        "uri": "https://wayback.archive-it.org/all/20201111012955/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-11T01:29:55Z",
+        "uri": "https://web.archive.org/web/20201111012955/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-11T07:32:32Z",
+        "uri": "https://web.archive.org/web/20201111073232/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-12T03:16:47Z",
+        "uri": "https://wayback.archive-it.org/all/20201112031647/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-12T03:16:47Z",
+        "uri": "https://web.archive.org/web/20201112031647/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-12T18:49:41Z",
+        "uri": "https://wayback.archive-it.org/all/20201112184941/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-12T18:49:41Z",
+        "uri": "https://web.archive.org/web/20201112184941/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-13T09:05:02Z",
+        "uri": "https://web.archive.org/web/20201113090502/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-15T18:28:34Z",
+        "uri": "https://web.archive.org/web/20201115182834/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-15T22:09:07Z",
+        "uri": "https://web.archive.org/web/20201115220907/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-17T22:43:29Z",
+        "uri": "https://web.archive.org/web/20201117224329/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-20T20:34:05Z",
+        "uri": "https://web.archive.org/web/20201120203405/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-25T01:29:47Z",
+        "uri": "https://wayback.archive-it.org/all/20201125012947/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-25T01:29:47Z",
+        "uri": "https://web.archive.org/web/20201125012947/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-26T02:22:52Z",
+        "uri": "https://wayback.archive-it.org/all/20201126022252/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-26T02:22:52Z",
+        "uri": "https://web.archive.org/web/20201126022252/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-28T02:29:15Z",
+        "uri": "https://arquivo.pt/wayback/20201128022915mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-30T02:10:40Z",
+        "uri": "https://wayback.archive-it.org/all/20201130021040/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-11-30T02:10:40Z",
+        "uri": "https://web.archive.org/web/20201130021040/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-09T00:44:10Z",
+        "uri": "https://web.archive.org/web/20201209004410/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-10T08:30:44Z",
+        "uri": "https://wayback.archive-it.org/all/20201210083044/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-10T08:30:44Z",
+        "uri": "https://web.archive.org/web/20201210083044/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-11T13:25:07Z",
+        "uri": "https://wayback.archive-it.org/all/20201211132507/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-11T13:25:07Z",
+        "uri": "https://web.archive.org/web/20201211132507/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-14T15:34:53Z",
+        "uri": "https://web.archive.org/web/20201214153453/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-15T18:51:57Z",
+        "uri": "https://web.archive.org/web/20201215185157/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-16T18:26:53Z",
+        "uri": "https://wayback.archive-it.org/all/20201216182653/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-16T18:26:53Z",
+        "uri": "https://web.archive.org/web/20201216182653/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-17T09:13:01Z",
+        "uri": "https://web.archive.org/web/20201217091301/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-19T20:45:51Z",
+        "uri": "https://wayback.archive-it.org/all/20201219204551/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-19T20:45:51Z",
+        "uri": "https://web.archive.org/web/20201219204551/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-20T23:22:11Z",
+        "uri": "https://wayback.archive-it.org/all/20201220232211/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-20T23:22:11Z",
+        "uri": "https://web.archive.org/web/20201220232211/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-27T08:30:56Z",
+        "uri": "https://wayback.archive-it.org/all/20201227083056/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-27T08:30:56Z",
+        "uri": "https://web.archive.org/web/20201227083056/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-31T03:13:14Z",
+        "uri": "https://wayback.archive-it.org/all/20201231031314/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-31T03:13:14Z",
+        "uri": "https://web.archive.org/web/20201231031314/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2020-12-31T22:19:54Z",
+        "uri": "https://web.archive.org/web/20201231221954/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-01-04T06:32:28Z",
+        "uri": "https://web.archive.org/web/20210104063228/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-01-09T15:55:34Z",
+        "uri": "https://web.archive.org/web/20210109155534/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-01-13T11:20:49Z",
+        "uri": "https://web.archive.org/web/20210113112049/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-01-14T04:18:01Z",
+        "uri": "https://wayback.archive-it.org/all/20210114041801/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-01-14T04:18:01Z",
+        "uri": "https://web.archive.org/web/20210114041801/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-01-18T01:03:56Z",
+        "uri": "https://web.archive.org/web/20210118010356/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-01-21T03:57:38Z",
+        "uri": "https://wayback.archive-it.org/all/20210121035738/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-01-21T03:57:38Z",
+        "uri": "https://web.archive.org/web/20210121035738/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-01-30T16:07:21Z",
+        "uri": "https://web.archive.org/web/20210130160721/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-02-27T12:13:57Z",
+        "uri": "https://web.archive.org/web/20210227121357/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-03-08T06:57:48Z",
+        "uri": "https://web.archive.org/web/20210308065748/https://www.bmj.com/content/369/bmj.m1849//"
+      },
+      {
+        "datetime": "2021-03-09T02:09:02Z",
+        "uri": "https://web.archive.org/web/20210309020902/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-03-16T06:07:04Z",
+        "uri": "https://arquivo.pt/wayback/20210316060704mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-04-07T20:57:42Z",
+        "uri": "https://arquivo.pt/wayback/20210407205742mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-04-10T23:20:24Z",
+        "uri": "https://web.archive.org/web/20210410232024/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-04-13T13:49:11Z",
+        "uri": "https://web.archive.org/web/20210413134911/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-04-13T21:04:31Z",
+        "uri": "https://web.archive.org/web/20210413210431/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-04-29T08:44:31Z",
+        "uri": "https://web.archive.org/web/20210429084431/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-05-01T19:36:56Z",
+        "uri": "https://web.archive.org/web/20210501193656/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-05-06T10:48:07Z",
+        "uri": "https://web.archive.org/web/20210506104807/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-05-06T10:49:01Z",
+        "uri": "https://web.archive.org/web/20210506104901/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-05-07T02:28:50Z",
+        "uri": "https://web.archive.org/web/20210507022850/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-05-07T02:28:50Z",
+        "uri": "https://web.archive.org/web/20210507022850/http://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-05-25T01:02:54Z",
+        "uri": "https://web.archive.org/web/20210525010254/http://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-05-25T01:02:55Z",
+        "uri": "https://web.archive.org/web/20210525010255/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-05-26T20:39:41Z",
+        "uri": "https://web.archive.org/web/20210526203941/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-06-05T22:57:59Z",
+        "uri": "https://web.archive.org/web/20210605225759/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-06-07T09:54:41Z",
+        "uri": "https://web.archive.org/web/20210607095441/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-06-13T01:21:36Z",
+        "uri": "https://web.archive.org/web/20210613012136/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-06-14T02:41:34Z",
+        "uri": "https://web.archive.org/web/20210614024134/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-06-28T05:34:11Z",
+        "uri": "https://web.archive.org/web/20210628053411/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-06-30T06:32:36Z",
+        "uri": "https://arquivo.pt/wayback/20210630063236mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-07-05T09:50:59Z",
+        "uri": "https://web.archive.org/web/20210705095059/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-08-04T12:47:33Z",
+        "uri": "https://web.archive.org/web/20210804124733/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-08-08T21:36:12Z",
+        "uri": "https://web.archive.org/web/20210808213612/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-08-09T10:09:32Z",
+        "uri": "https://web.archive.org/web/20210809100932/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-08-12T08:27:58Z",
+        "uri": "https://web.archive.org/web/20210812082758/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-08-12T10:32:28Z",
+        "uri": "https://web.archive.org/web/20210812103228/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-08-30T07:40:13Z",
+        "uri": "https://web.archive.org/web/20210830074013/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-08-30T07:50:32Z",
+        "uri": "https://web.archive.org/web/20210830075032/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-09-04T00:39:20Z",
+        "uri": "https://web.archive.org/web/20210904003920/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-09-07T09:52:09Z",
+        "uri": "https://web.archive.org/web/20210907095209/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-09-12T08:29:59Z",
+        "uri": "https://web.archive.org/web/20210912082959/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-09-13T09:01:37Z",
+        "uri": "https://web.archive.org/web/20210913090137/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-09-13T09:50:33Z",
+        "uri": "https://web.archive.org/web/20210913095033/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-09-22T22:51:24Z",
+        "uri": "https://arquivo.pt/wayback/20210922225124mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-10-04T06:21:13Z",
+        "uri": "https://web.archive.org/web/20211004062113/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-10-06T13:46:29Z",
+        "uri": "https://web.archive.org/web/20211006134629/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-10-08T22:21:09Z",
+        "uri": "https://web.archive.org/web/20211008222109/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-10-17T17:47:57Z",
+        "uri": "https://web.archive.org/web/20211017174757/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-10-22T15:56:20Z",
+        "uri": "https://web.archive.org/web/20211022155620/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-11-03T08:20:07Z",
+        "uri": "https://web.archive.org/web/20211103082007/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-11-13T10:05:24Z",
+        "uri": "https://web.archive.org/web/20211113100524/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-11-24T19:15:35Z",
+        "uri": "https://web.archive.org/web/20211124191535/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-11-28T10:34:04Z",
+        "uri": "https://web.archive.org/web/20211128103404/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-12-14T04:18:32Z",
+        "uri": "https://web.archive.org/web/20211214041832/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-12-14T05:56:35Z",
+        "uri": "https://web.archive.org/web/20211214055635/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-12-21T19:22:29Z",
+        "uri": "https://web.archive.org/web/20211221192229/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-12-28T10:47:01Z",
+        "uri": "https://web.archive.org/web/20211228104701/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2021-12-28T10:47:35Z",
+        "uri": "https://web.archive.org/web/20211228104735/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-01-21T04:47:21Z",
+        "uri": "https://web.archive.org/web/20220121044721/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-01-21T05:14:46Z",
+        "uri": "https://web.archive.org/web/20220121051446/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-01-22T02:38:39Z",
+        "uri": "https://web.archive.org/web/20220122023839/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-01-25T03:26:42Z",
+        "uri": "https://web.archive.org/web/20220125032642/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-01-26T04:38:32Z",
+        "uri": "https://web.archive.org/web/20220126043832/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-01-27T21:19:27Z",
+        "uri": "https://web.archive.org/web/20220127211927/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-01-29T10:32:31Z",
+        "uri": "https://web.archive.org/web/20220129103231/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-01-31T12:32:41Z",
+        "uri": "https://web.archive.org/web/20220131123241/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-02-01T02:20:36Z",
+        "uri": "https://web.archive.org/web/20220201022036/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-02-06T22:35:23Z",
+        "uri": "https://web.archive.org/web/20220206223523/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-02-20T20:50:46Z",
+        "uri": "https://web.archive.org/web/20220220205046/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-02-23T03:29:20Z",
+        "uri": "https://web.archive.org/web/20220223032920/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-03-01T22:16:54Z",
+        "uri": "https://web.archive.org/web/20220301221654/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-03-03T16:09:14Z",
+        "uri": "https://web.archive.org/web/20220303160914/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-03-21T05:14:02Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20220321051402mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-03-26T09:43:58Z",
+        "uri": "https://web.archive.org/web/20220326094358/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-04-01T08:52:27Z",
+        "uri": "https://web.archive.org/web/20220401085227/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-04-09T05:50:37Z",
+        "uri": "https://web.archive.org/web/20220409055037/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-04-09T17:55:49Z",
+        "uri": "https://web.archive.org/web/20220409175549/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-04-10T23:42:00Z",
+        "uri": "https://web.archive.org/web/20220410234200/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-04-11T01:54:33Z",
+        "uri": "https://web.archive.org/web/20220411015433/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-04-11T04:15:52Z",
+        "uri": "https://web.archive.org/web/20220411041552/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-04-18T20:27:20Z",
+        "uri": "https://web.archive.org/web/20220418202720/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-04-18T21:06:55Z",
+        "uri": "https://web.archive.org/web/20220418210655/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-04-27T01:14:00Z",
+        "uri": "https://web.archive.org/web/20220427011400/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-05-13T06:53:15Z",
+        "uri": "https://web.archive.org/web/20220513065315/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-05-15T03:19:00Z",
+        "uri": "https://arquivo.pt/wayback/20220515031900mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-05-21T23:18:55Z",
+        "uri": "https://web.archive.org/web/20220521231855/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-06-09T21:52:19Z",
+        "uri": "https://web.archive.org/web/20220609215219/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-06-21T10:43:09Z",
+        "uri": "https://web.archive.org/web/20220621104309/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-07-16T07:59:50Z",
+        "uri": "https://web.archive.org/web/20220716075950/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-08-14T02:11:14Z",
+        "uri": "https://web.archive.org/web/20220814021114/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-08-31T01:17:42Z",
+        "uri": "https://web.archive.org/web/20220831011742/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-08-31T01:20:13Z",
+        "uri": "https://web.archive.org/web/20220831012013/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-08-31T03:33:45Z",
+        "uri": "https://web.archive.org/web/20220831033345/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-08-31T03:38:59Z",
+        "uri": "https://web.archive.org/web/20220831033859/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-08-31T05:10:09Z",
+        "uri": "https://web.archive.org/web/20220831051009/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-09-01T03:49:02Z",
+        "uri": "https://web.archive.org/web/20220901034902/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-09-01T05:43:47Z",
+        "uri": "https://web.archive.org/web/20220901054347/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-09-02T20:14:29Z",
+        "uri": "https://web.archive.org/web/20220902201429/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-09-04T15:32:03Z",
+        "uri": "https://web.archive.org/web/20220904153203/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-10-03T01:25:43Z",
+        "uri": "https://web.archive.org/web/20221003012543/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-10-15T04:09:34Z",
+        "uri": "https://web.archive.org/web/20221015040934/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-10-31T18:14:39Z",
+        "uri": "https://web.archive.org/web/20221031181439/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2022-11-12T20:49:00Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20221112204900mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-01-29T01:07:58Z",
+        "uri": "https://web.archive.org/web/20230129010758/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-02-13T22:58:20Z",
+        "uri": "https://web.archive.org/web/20230213225820/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-02-13T23:01:49Z",
+        "uri": "https://web.archive.org/web/20230213230149/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-03-04T23:43:21Z",
+        "uri": "https://web.archive.org/web/20230304234321/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-03-10T05:09:38Z",
+        "uri": "https://web.archive.org/web/20230310050938/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-03-29T11:42:05Z",
+        "uri": "https://web.archive.org/web/20230329114205/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-04-16T06:50:10Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230416065010mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-04-27T11:11:07Z",
+        "uri": "https://web.archive.org/web/20230427111107/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-05-07T06:01:48Z",
+        "uri": "https://web.archive.org/web/20230507060148/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-05-11T18:32:47Z",
+        "uri": "https://web.archive.org/web/20230511183247/http://bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-05-11T20:06:08Z",
+        "uri": "https://web.archive.org/web/20230511200608/https://bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-05-19T09:13:44Z",
+        "uri": "https://web.archive.org/web/20230519091344/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-05-21T21:06:29Z",
+        "uri": "https://web.archive.org/web/20230521210629/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-06-16T05:19:03Z",
+        "uri": "https://wayback.archive-it.org/all/20230616051903/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-06-23T11:57:12Z",
+        "uri": "https://wayback.archive-it.org/all/20230623115712/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-06-30T05:21:33Z",
+        "uri": "https://wayback.archive-it.org/all/20230630052133/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-07-06T23:10:01Z",
+        "uri": "https://wayback.archive-it.org/all/20230706231001/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-07-14T06:36:10Z",
+        "uri": "https://wayback.archive-it.org/all/20230714063610/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-07-21T04:25:26Z",
+        "uri": "https://wayback.archive-it.org/all/20230721042526/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-07-23T12:48:54Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230723124854mp_/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-07-28T03:03:38Z",
+        "uri": "https://wayback.archive-it.org/all/20230728030338/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-08-04T08:42:27Z",
+        "uri": "https://wayback.archive-it.org/all/20230804084227/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-08-11T01:51:02Z",
+        "uri": "https://wayback.archive-it.org/all/20230811015102/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-08-18T01:02:20Z",
+        "uri": "https://wayback.archive-it.org/all/20230818010220/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-08-25T12:50:55Z",
+        "uri": "https://wayback.archive-it.org/all/20230825125055/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-09-01T16:55:14Z",
+        "uri": "https://wayback.archive-it.org/all/20230901165514/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-09-08T12:59:27Z",
+        "uri": "https://wayback.archive-it.org/all/20230908125927/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-09-15T11:20:43Z",
+        "uri": "https://wayback.archive-it.org/all/20230915112043/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-10-19T17:32:16Z",
+        "uri": "https://web.archive.org/web/20231019173216/https://www.bmj.com/content/369/bmj.m1849"
+      },
+      {
+        "datetime": "2023-10-19T17:33:12Z",
+        "uri": "https://web.archive.org/web/20231019173312/https://www.bmj.com/content/369/bmj.m1849"
+      }
+    ],
+    "first": {
+      "datetime": "2020-05-15T12:50:24Z",
+      "uri": "https://wayback.archive-it.org/all/20200515125024/https://www.bmj.com/content/369/bmj.m1849"
+    },
+    "last": {
+      "datetime": "2023-10-19T17:33:12Z",
+      "uri": "https://web.archive.org/web/20231019173312/https://www.bmj.com/content/369/bmj.m1849"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bmj.com/content/369/bmj.m1849",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bmj.com/content/369/bmj.m1849",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bmj.com/content/369/bmj.m1849"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bmj.com/content/369/bmj.m1849"
+}

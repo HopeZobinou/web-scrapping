@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://www.bbc.com/mundo/articles/c5180920r1yo.amp",
+  "self": "http://localhost:1208/timemap/json/https://www.bbc.com/mundo/articles/c5180920r1yo.amp",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T18:19:09Z",
+        "uri": "https://web.archive.org/web/20231010181909/https://www.bbc.com/mundo/articles/c5180920r1yo.amp"
+      },
+      {
+        "datetime": "2023-10-10T18:35:09Z",
+        "uri": "https://web.archive.org/web/20231010183509/https://www.bbc.com/mundo/articles/c5180920r1yo.amp"
+      },
+      {
+        "datetime": "2023-10-11T19:22:25Z",
+        "uri": "https://web.archive.org/web/20231011192225/https://www.bbc.com/mundo/articles/c5180920r1yo.amp"
+      },
+      {
+        "datetime": "2023-10-14T18:32:29Z",
+        "uri": "https://web.archive.org/web/20231014183229/https://www.bbc.com/mundo/articles/c5180920r1yo.amp"
+      },
+      {
+        "datetime": "2023-10-16T23:09:36Z",
+        "uri": "https://web.archive.org/web/20231016230936/https://www.bbc.com/mundo/articles/c5180920r1yo.amp"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T18:19:09Z",
+      "uri": "https://web.archive.org/web/20231010181909/https://www.bbc.com/mundo/articles/c5180920r1yo.amp"
+    },
+    "last": {
+      "datetime": "2023-10-16T23:09:36Z",
+      "uri": "https://web.archive.org/web/20231016230936/https://www.bbc.com/mundo/articles/c5180920r1yo.amp"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.bbc.com/mundo/articles/c5180920r1yo.amp",
+    "json_format": "http://localhost:1208/timemap/json/https://www.bbc.com/mundo/articles/c5180920r1yo.amp",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.bbc.com/mundo/articles/c5180920r1yo.amp"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.bbc.com/mundo/articles/c5180920r1yo.amp"
+}
