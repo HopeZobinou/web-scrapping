@@ -83,6 +83,7 @@ def file_to_list(file_path):
     links = []
 
     # Open the file in read mode and read its lines
+    # Puts every line in the file into a list.
     try:
         with open(file_path, 'r') as file:
             links = file.readlines()
@@ -91,7 +92,7 @@ def file_to_list(file_path):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-    links = [item.strip() for item in links]
+    links = [item.strip() for item in links] #Removes the \n
 
     if not file.closed:
         file.close()
