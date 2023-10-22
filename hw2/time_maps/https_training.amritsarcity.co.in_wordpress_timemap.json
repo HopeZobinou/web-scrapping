@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://training.amritsarcity.co.in/wordpress",
+  "self": "http://localhost:1208/timemap/json/https://training.amritsarcity.co.in/wordpress",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2021-08-07T09:14:09Z",
+        "uri": "https://web.archive.org/web/20210807091409/https://training.amritsarcity.co.in/wordpress"
+      }
+    ],
+    "first": {
+      "datetime": "2021-08-07T09:14:09Z",
+      "uri": "https://web.archive.org/web/20210807091409/https://training.amritsarcity.co.in/wordpress"
+    },
+    "last": {
+      "datetime": "2021-08-07T09:14:09Z",
+      "uri": "https://web.archive.org/web/20210807091409/https://training.amritsarcity.co.in/wordpress"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://training.amritsarcity.co.in/wordpress",
+    "json_format": "http://localhost:1208/timemap/json/https://training.amritsarcity.co.in/wordpress",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://training.amritsarcity.co.in/wordpress"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://training.amritsarcity.co.in/wordpress"
+}

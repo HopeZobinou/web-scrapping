@@ -1,0 +1,74 @@
+{
+  "original_uri": "https://woocommerce.com/document/high-performance-order-storage/",
+  "self": "http://localhost:1208/timemap/json/https://woocommerce.com/document/high-performance-order-storage/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2022-11-08T18:36:11Z",
+        "uri": "https://web.archive.org/web/20221108183611/https://woocommerce.com/document/high-performance-order-storage/"
+      },
+      {
+        "datetime": "2022-11-15T04:30:16Z",
+        "uri": "https://web.archive.org/web/20221115043016/https://woocommerce.com/document/high-performance-order-storage/"
+      },
+      {
+        "datetime": "2022-11-22T04:57:40Z",
+        "uri": "https://web.archive.org/web/20221122045740/https://woocommerce.com/document/high-performance-order-storage/"
+      },
+      {
+        "datetime": "2022-11-29T04:44:13Z",
+        "uri": "https://web.archive.org/web/20221129044413/https://woocommerce.com/document/high-performance-order-storage/"
+      },
+      {
+        "datetime": "2022-11-29T05:47:26Z",
+        "uri": "https://web.archive.org/web/20221129054726/https://woocommerce.com/document/high-performance-order-storage/"
+      },
+      {
+        "datetime": "2023-01-21T05:27:47Z",
+        "uri": "https://web.archive.org/web/20230121052747/https://woocommerce.com/document/high-performance-order-storage/"
+      },
+      {
+        "datetime": "2023-01-23T13:11:13Z",
+        "uri": "https://arquivo.pt/wayback/20230123131113mp_/https://woocommerce.com/document/high-performance-order-storage/"
+      },
+      {
+        "datetime": "2023-03-26T09:13:56Z",
+        "uri": "https://web.archive.org/web/20230326091356/https://woocommerce.com/document/high-performance-order-storage/"
+      },
+      {
+        "datetime": "2023-04-05T14:16:55Z",
+        "uri": "https://web.archive.org/web/20230405141655/https://woocommerce.com/document/high-performance-order-storage/"
+      },
+      {
+        "datetime": "2023-04-12T15:06:52Z",
+        "uri": "https://web.archive.org/web/20230412150652/https://woocommerce.com/document/high-performance-order-storage"
+      },
+      {
+        "datetime": "2023-06-29T19:30:46Z",
+        "uri": "https://web.archive.org/web/20230629193046/https://woocommerce.com/document/high-performance-order-storage/"
+      },
+      {
+        "datetime": "2023-08-30T16:35:53Z",
+        "uri": "https://web.archive.org/web/20230830163553/https://woocommerce.com/document/high-performance-order-storage/"
+      },
+      {
+        "datetime": "2023-10-10T09:30:52Z",
+        "uri": "https://web.archive.org/web/20231010093052/https://woocommerce.com/document/high-performance-order-storage/"
+      }
+    ],
+    "first": {
+      "datetime": "2022-11-08T18:36:11Z",
+      "uri": "https://web.archive.org/web/20221108183611/https://woocommerce.com/document/high-performance-order-storage/"
+    },
+    "last": {
+      "datetime": "2023-10-10T09:30:52Z",
+      "uri": "https://web.archive.org/web/20231010093052/https://woocommerce.com/document/high-performance-order-storage/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://woocommerce.com/document/high-performance-order-storage/",
+    "json_format": "http://localhost:1208/timemap/json/https://woocommerce.com/document/high-performance-order-storage/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://woocommerce.com/document/high-performance-order-storage/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://woocommerce.com/document/high-performance-order-storage/"
+}

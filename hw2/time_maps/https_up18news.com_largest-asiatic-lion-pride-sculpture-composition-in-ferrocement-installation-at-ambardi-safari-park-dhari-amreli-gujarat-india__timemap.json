@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://up18news.com/largest-asiatic-lion-pride-sculpture-composition-in-ferrocement-installation-at-ambardi-safari-park-dhari-amreli-gujarat-india/",
+  "self": "http://localhost:1208/timemap/json/https://up18news.com/largest-asiatic-lion-pride-sculpture-composition-in-ferrocement-installation-at-ambardi-safari-park-dhari-amreli-gujarat-india/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T11:53:25Z",
+        "uri": "https://web.archive.org/web/20231010115325/https://up18news.com/largest-asiatic-lion-pride-sculpture-composition-in-ferrocement-installation-at-ambardi-safari-park-dhari-amreli-gujarat-india/"
+      },
+      {
+        "datetime": "2023-10-13T04:00:33Z",
+        "uri": "https://web.archive.org/web/20231013040033/https://up18news.com/largest-asiatic-lion-pride-sculpture-composition-in-ferrocement-installation-at-ambardi-safari-park-dhari-amreli-gujarat-india/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T11:53:25Z",
+      "uri": "https://web.archive.org/web/20231010115325/https://up18news.com/largest-asiatic-lion-pride-sculpture-composition-in-ferrocement-installation-at-ambardi-safari-park-dhari-amreli-gujarat-india/"
+    },
+    "last": {
+      "datetime": "2023-10-13T04:00:33Z",
+      "uri": "https://web.archive.org/web/20231013040033/https://up18news.com/largest-asiatic-lion-pride-sculpture-composition-in-ferrocement-installation-at-ambardi-safari-park-dhari-amreli-gujarat-india/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://up18news.com/largest-asiatic-lion-pride-sculpture-composition-in-ferrocement-installation-at-ambardi-safari-park-dhari-amreli-gujarat-india/",
+    "json_format": "http://localhost:1208/timemap/json/https://up18news.com/largest-asiatic-lion-pride-sculpture-composition-in-ferrocement-installation-at-ambardi-safari-park-dhari-amreli-gujarat-india/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://up18news.com/largest-asiatic-lion-pride-sculpture-composition-in-ferrocement-installation-at-ambardi-safari-park-dhari-amreli-gujarat-india/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://up18news.com/largest-asiatic-lion-pride-sculpture-composition-in-ferrocement-installation-at-ambardi-safari-park-dhari-amreli-gujarat-india/"
+}

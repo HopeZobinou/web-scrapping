@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://webdevstudios.com/2023/10/02/signs-that-you-need-a-headless-wordpress/",
+  "self": "http://localhost:1208/timemap/json/https://webdevstudios.com/2023/10/02/signs-that-you-need-a-headless-wordpress/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-18T03:35:53Z",
+        "uri": "https://web.archive.org/web/20231018033553/https://webdevstudios.com/2023/10/02/signs-that-you-need-a-headless-wordpress/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-18T03:35:53Z",
+      "uri": "https://web.archive.org/web/20231018033553/https://webdevstudios.com/2023/10/02/signs-that-you-need-a-headless-wordpress/"
+    },
+    "last": {
+      "datetime": "2023-10-18T03:35:53Z",
+      "uri": "https://web.archive.org/web/20231018033553/https://webdevstudios.com/2023/10/02/signs-that-you-need-a-headless-wordpress/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://webdevstudios.com/2023/10/02/signs-that-you-need-a-headless-wordpress/",
+    "json_format": "http://localhost:1208/timemap/json/https://webdevstudios.com/2023/10/02/signs-that-you-need-a-headless-wordpress/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://webdevstudios.com/2023/10/02/signs-that-you-need-a-headless-wordpress/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://webdevstudios.com/2023/10/02/signs-that-you-need-a-headless-wordpress/"
+}
