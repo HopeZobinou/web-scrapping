@@ -112,7 +112,7 @@ def to_time_maps(links):
             print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    #Path to the txt file "c:/Users/hopez/Documents/Data440/Homework2/twitter_links.txt"
+    #Path to the txt file "c:/Users/hopez/Documents/Data440/Homework2/twitter_links.txt" 
 
     if len(sys.argv) != 2:
         print("2 arguments are required, the file name and path to the links.")
