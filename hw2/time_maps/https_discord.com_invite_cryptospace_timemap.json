@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://discord.com/invite/cryptospace",
+  "self": "http://localhost:1208/timemap/json/https://discord.com/invite/cryptospace",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2021-05-14T00:38:58Z",
+        "uri": "https://web.archive.org/web/20210514003858/https://discord.com/invite/cryptospace"
+      },
+      {
+        "datetime": "2021-05-14T01:06:28Z",
+        "uri": "https://web.archive.org/web/20210514010628/https://discord.com/invite/cryptospace"
+      },
+      {
+        "datetime": "2021-05-21T13:12:48Z",
+        "uri": "https://web.archive.org/web/20210521131248/https://discord.com/invite/cryptospace"
+      },
+      {
+        "datetime": "2021-07-08T16:14:28Z",
+        "uri": "https://web.archive.org/web/20210708161428/https://discord.com/invite/cryptospace"
+      },
+      {
+        "datetime": "2022-12-05T05:03:14Z",
+        "uri": "https://web.archive.org/web/20221205050314/https://discord.com/invite/cryptospace"
+      },
+      {
+        "datetime": "2022-12-07T11:00:08Z",
+        "uri": "https://web.archive.org/web/20221207110008/https://discord.com/invite/CryptoSpace"
+      }
+    ],
+    "first": {
+      "datetime": "2021-05-14T00:38:58Z",
+      "uri": "https://web.archive.org/web/20210514003858/https://discord.com/invite/cryptospace"
+    },
+    "last": {
+      "datetime": "2022-12-07T11:00:08Z",
+      "uri": "https://web.archive.org/web/20221207110008/https://discord.com/invite/CryptoSpace"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://discord.com/invite/cryptospace",
+    "json_format": "http://localhost:1208/timemap/json/https://discord.com/invite/cryptospace",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://discord.com/invite/cryptospace"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://discord.com/invite/cryptospace"
+}

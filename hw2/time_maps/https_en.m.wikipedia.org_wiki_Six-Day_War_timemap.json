@@ -1,0 +1,430 @@
+{
+  "original_uri": "https://en.m.wikipedia.org/wiki/Six-Day_War",
+  "self": "http://localhost:1208/timemap/json/https://en.m.wikipedia.org/wiki/Six-Day_War",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2012-11-23T21:57:48Z",
+        "uri": "https://web.archive.org/web/20121123215748/http://en.m.wikipedia.org:80/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2013-02-22T07:30:06Z",
+        "uri": "https://web.archive.org/web/20130222073006/http://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2013-05-12T13:56:51Z",
+        "uri": "https://web.archive.org/web/20130512135651/http://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2013-05-14T02:18:30Z",
+        "uri": "https://web.archive.org/web/20130514021830/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2014-04-13T18:43:06Z",
+        "uri": "https://web.archive.org/web/20140413184306/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2014-08-31T00:33:36Z",
+        "uri": "https://web.archive.org/web/20140831003336/http://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2014-09-12T09:52:40Z",
+        "uri": "https://web.archive.org/web/20140912095240/http://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2015-04-06T19:23:18Z",
+        "uri": "https://web.archive.org/web/20150406192318/http://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2015-07-21T18:58:15Z",
+        "uri": "https://web.archive.org/web/20150721185815/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2015-10-01T12:43:46Z",
+        "uri": "https://web.archive.org/web/20151001124346/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2016-03-10T16:36:12Z",
+        "uri": "https://web.archive.org/web/20160310163612/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2016-08-29T19:23:01Z",
+        "uri": "https://web.archive.org/web/20160829192301/http://en.m.wikipedia.org:80/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2017-01-31T04:42:34Z",
+        "uri": "https://web.archive.org/web/20170131044234/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2017-07-13T08:06:30Z",
+        "uri": "https://web.archive.org/web/20170713080630/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2017-09-11T11:44:51Z",
+        "uri": "https://web.archive.org/web/20170911114451/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2018-01-29T21:35:47Z",
+        "uri": "https://web.archive.org/web/20180129213547/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2018-06-12T20:22:48Z",
+        "uri": "https://wayback.archive-it.org/all/20180612202248/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2018-06-12T20:22:48Z",
+        "uri": "https://web.archive.org/web/20180612202248/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2018-10-16T09:38:48Z",
+        "uri": "https://web.archive.org/web/20181016093848/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2019-03-24T11:45:23Z",
+        "uri": "https://web.archive.org/web/20190324114523/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2019-03-30T16:27:48Z",
+        "uri": "https://web.archive.org/web/20190330162748/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2019-04-07T09:43:02Z",
+        "uri": "https://web.archive.org/web/20190407094302/https://en.m.wikipedia.org/wiki/Six-day_war"
+      },
+      {
+        "datetime": "2019-04-21T09:19:31Z",
+        "uri": "https://web.archive.org/web/20190421091931/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2019-07-09T06:16:40Z",
+        "uri": "https://web.archive.org/web/20190709061640/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2019-11-05T10:04:50Z",
+        "uri": "https://arquivo.pt/wayback/20191105100450mp_/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-01-18T21:13:52Z",
+        "uri": "https://web.archive.org/web/20200118211352/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-02-14T16:00:55Z",
+        "uri": "https://web.archive.org/web/20200214160055/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-04-20T03:51:47Z",
+        "uri": "https://web.archive.org/web/20200420035147/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-05-13T21:39:56Z",
+        "uri": "https://web.archive.org/web/20200513213956/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-05-26T15:04:49Z",
+        "uri": "https://web.archive.org/web/20200526150449/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-06-29T22:48:54Z",
+        "uri": "https://web.archive.org/web/20200629224854/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-08-03T21:59:47Z",
+        "uri": "https://web.archive.org/web/20200803215947/https://en.m.wikipedia.org/wiki/Six-day_War"
+      },
+      {
+        "datetime": "2020-08-08T08:04:39Z",
+        "uri": "https://web.archive.org/web/20200808080439/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-08-30T00:08:12Z",
+        "uri": "https://web.archive.org/web/20200830000812/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-09-02T21:48:05Z",
+        "uri": "https://web.archive.org/web/20200902214805/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-09-30T14:04:06Z",
+        "uri": "https://web.archive.org/web/20200930140406/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-10-05T03:46:40Z",
+        "uri": "https://web.archive.org/web/20201005034640/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-10-07T06:41:18Z",
+        "uri": "https://web.archive.org/web/20201007064118/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-10-10T01:15:05Z",
+        "uri": "https://web.archive.org/web/20201010011505/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-10-15T09:21:06Z",
+        "uri": "https://web.archive.org/web/20201015092106/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-10-28T17:14:19Z",
+        "uri": "https://web.archive.org/web/20201028171419/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-11-01T10:27:43Z",
+        "uri": "https://web.archive.org/web/20201101102743/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-11-11T19:06:20Z",
+        "uri": "https://web.archive.org/web/20201111190620/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-11-12T00:28:27Z",
+        "uri": "https://web.archive.org/web/20201112002827/http://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-11-12T00:28:28Z",
+        "uri": "https://web.archive.org/web/20201112002828/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-11-19T16:10:09Z",
+        "uri": "https://web.archive.org/web/20201119161009/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2020-12-25T01:46:09Z",
+        "uri": "https://web.archive.org/web/20201225014609/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-02-26T01:42:30Z",
+        "uri": "https://web.archive.org/web/20210226014230/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-04-15T16:24:47Z",
+        "uri": "https://web.archive.org/web/20210415162447/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-05-11T21:27:40Z",
+        "uri": "https://web.archive.org/web/20210511212740/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-07-06T08:06:29Z",
+        "uri": "https://web.archive.org/web/20210706080629/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-08-01T03:40:00Z",
+        "uri": "https://web.archive.org/web/20210801034000/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-08-07T18:04:13Z",
+        "uri": "https://web.archive.org/web/20210807180413/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-08-27T20:00:40Z",
+        "uri": "https://web.archive.org/web/20210827200040/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-08-31T23:19:34Z",
+        "uri": "https://web.archive.org/web/20210831231934/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-09-24T02:50:21Z",
+        "uri": "https://arquivo.pt/wayback/20210924025021mp_/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-09-24T02:50:21Z",
+        "uri": "https://arquivo.pt/wayback/20210924025021mp_/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-09-27T02:56:06Z",
+        "uri": "https://web.archive.org/web/20210927025606/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-10-01T01:43:15Z",
+        "uri": "https://arquivo.pt/wayback/20211001014315mp_/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-10-11T16:38:09Z",
+        "uri": "https://web.archive.org/web/20211011163809/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-10-21T08:23:30Z",
+        "uri": "https://web.archive.org/web/20211021082330/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-12-04T12:34:25Z",
+        "uri": "https://web.archive.org/web/20211204123425/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2021-12-20T08:59:37Z",
+        "uri": "https://web.archive.org/web/20211220085937/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-01-24T23:25:23Z",
+        "uri": "https://web.archive.org/web/20220124232523/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-03-08T12:25:50Z",
+        "uri": "https://web.archive.org/web/20220308122550/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-03-08T14:13:56Z",
+        "uri": "https://web.archive.org/web/20220308141356/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-03-08T14:49:55Z",
+        "uri": "https://web.archive.org/web/20220308144955/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-03-20T02:43:30Z",
+        "uri": "https://web.archive.org/web/20220320024330/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-03-21T03:18:36Z",
+        "uri": "https://web.archive.org/web/20220321031836/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-03-24T14:09:24Z",
+        "uri": "https://web.archive.org/web/20220324140924/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-04-05T03:58:37Z",
+        "uri": "https://web.archive.org/web/20220405035837/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-04-06T20:41:59Z",
+        "uri": "https://web.archive.org/web/20220406204159/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-05-04T13:55:30Z",
+        "uri": "https://web.archive.org/web/20220504135530/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-05-31T16:35:53Z",
+        "uri": "https://web.archive.org/web/20220531163553/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-06-07T07:45:40Z",
+        "uri": "https://wayback.archive-it.org/all/20220607074540/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-06-07T07:45:40Z",
+        "uri": "https://web.archive.org/web/20220607074540/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-06-07T20:16:15Z",
+        "uri": "https://wayback.archive-it.org/all/20220607201615/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-06-07T20:16:15Z",
+        "uri": "https://web.archive.org/web/20220607201615/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-07-29T20:24:14Z",
+        "uri": "https://web.archive.org/web/20220729202414/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-08-13T13:36:40Z",
+        "uri": "https://web.archive.org/web/20220813133640/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-09-05T23:48:17Z",
+        "uri": "https://web.archive.org/web/20220905234817/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-09-07T23:18:10Z",
+        "uri": "http://archive.md/20220907231810/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-09-07T23:18:18Z",
+        "uri": "https://web.archive.org/web/20220907231818/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-09-25T16:02:35Z",
+        "uri": "https://web.archive.org/web/20220925160235/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-09-29T07:50:51Z",
+        "uri": "https://web.archive.org/web/20220929075051/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-10-25T15:25:02Z",
+        "uri": "https://web.archive.org/web/20221025152502/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-10-28T04:37:29Z",
+        "uri": "https://web.archive.org/web/20221028043729/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2022-12-25T20:17:06Z",
+        "uri": "https://web.archive.org/web/20221225201706/http://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2023-01-25T01:06:19Z",
+        "uri": "https://web.archive.org/web/20230125010619/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2023-02-07T07:31:31Z",
+        "uri": "https://web.archive.org/web/20230207073131/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2023-03-21T00:53:50Z",
+        "uri": "https://web.archive.org/web/20230321005350/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2023-03-26T02:24:15Z",
+        "uri": "https://web.archive.org/web/20230326022415/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2023-04-08T22:21:07Z",
+        "uri": "https://web.archive.org/web/20230408222107/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2023-04-12T13:50:16Z",
+        "uri": "https://web.archive.org/web/20230412135016/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2023-04-14T14:09:49Z",
+        "uri": "https://web.archive.org/web/20230414140949/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2023-05-18T10:13:04Z",
+        "uri": "https://wayback.archive-it.org/all/20230518101304/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2023-05-18T10:13:04Z",
+        "uri": "https://web.archive.org/web/20230518101304/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2023-05-18T23:01:11Z",
+        "uri": "https://wayback.archive-it.org/all/20230518230111/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2023-05-18T23:01:11Z",
+        "uri": "https://web.archive.org/web/20230518230111/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2023-06-25T15:07:59Z",
+        "uri": "https://web.archive.org/web/20230625150759/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2023-08-02T07:19:15Z",
+        "uri": "https://web.archive.org/web/20230802071915/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "datetime": "2023-10-16T08:52:18Z",
+        "uri": "https://web.archive.org/web/20231016085218/https://en.m.wikipedia.org/wiki/Six-Day_War"
+      }
+    ],
+    "first": {
+      "datetime": "2012-11-23T21:57:48Z",
+      "uri": "https://web.archive.org/web/20121123215748/http://en.m.wikipedia.org:80/wiki/Six-Day_War"
+    },
+    "last": {
+      "datetime": "2023-10-16T08:52:18Z",
+      "uri": "https://web.archive.org/web/20231016085218/https://en.m.wikipedia.org/wiki/Six-Day_War"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://en.m.wikipedia.org/wiki/Six-Day_War",
+    "json_format": "http://localhost:1208/timemap/json/https://en.m.wikipedia.org/wiki/Six-Day_War",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://en.m.wikipedia.org/wiki/Six-Day_War"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://en.m.wikipedia.org/wiki/Six-Day_War"
+}

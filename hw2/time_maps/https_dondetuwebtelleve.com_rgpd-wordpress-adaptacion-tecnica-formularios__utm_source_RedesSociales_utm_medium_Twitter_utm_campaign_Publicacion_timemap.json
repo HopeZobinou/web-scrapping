@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://dondetuwebtelleve.com/rgpd-wordpress-adaptacion-tecnica-formularios/?utm_source=RedesSociales&utm_medium=Twitter&utm_campaign=Publicacion",
+  "self": "http://localhost:1208/timemap/json/https://dondetuwebtelleve.com/rgpd-wordpress-adaptacion-tecnica-formularios/?utm_source=RedesSociales&utm_medium=Twitter&utm_campaign=Publicacion",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2020-11-01T00:03:07Z",
+        "uri": "https://web.archive.org/web/20201101000307/https://dondetuwebtelleve.com/rgpd-wordpress-adaptacion-tecnica-formularios/?utm_source=RedesSociales&utm_medium=Twitter&utm_campaign=Publicacion"
+      },
+      {
+        "datetime": "2021-11-01T21:20:30Z",
+        "uri": "https://web.archive.org/web/20211101212030/https://dondetuwebtelleve.com/rgpd-wordpress-adaptacion-tecnica-formularios/?utm_source=RedesSociales&utm_medium=Twitter&utm_campaign=Publicacion"
+      },
+      {
+        "datetime": "2021-11-24T19:40:30Z",
+        "uri": "https://web.archive.org/web/20211124194030/https://dondetuwebtelleve.com/rgpd-wordpress-adaptacion-tecnica-formularios/?utm_source=RedesSociales&utm_medium=Twitter&utm_campaign=Publicacion"
+      },
+      {
+        "datetime": "2021-12-27T19:15:15Z",
+        "uri": "https://web.archive.org/web/20211227191515/https://dondetuwebtelleve.com/rgpd-wordpress-adaptacion-tecnica-formularios/?utm_source=RedesSociales&utm_medium=Twitter&utm_campaign=Publicacion"
+      }
+    ],
+    "first": {
+      "datetime": "2020-11-01T00:03:07Z",
+      "uri": "https://web.archive.org/web/20201101000307/https://dondetuwebtelleve.com/rgpd-wordpress-adaptacion-tecnica-formularios/?utm_source=RedesSociales&utm_medium=Twitter&utm_campaign=Publicacion"
+    },
+    "last": {
+      "datetime": "2021-12-27T19:15:15Z",
+      "uri": "https://web.archive.org/web/20211227191515/https://dondetuwebtelleve.com/rgpd-wordpress-adaptacion-tecnica-formularios/?utm_source=RedesSociales&utm_medium=Twitter&utm_campaign=Publicacion"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://dondetuwebtelleve.com/rgpd-wordpress-adaptacion-tecnica-formularios/?utm_source=RedesSociales&utm_medium=Twitter&utm_campaign=Publicacion",
+    "json_format": "http://localhost:1208/timemap/json/https://dondetuwebtelleve.com/rgpd-wordpress-adaptacion-tecnica-formularios/?utm_source=RedesSociales&utm_medium=Twitter&utm_campaign=Publicacion",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://dondetuwebtelleve.com/rgpd-wordpress-adaptacion-tecnica-formularios/?utm_source=RedesSociales&utm_medium=Twitter&utm_campaign=Publicacion"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://dondetuwebtelleve.com/rgpd-wordpress-adaptacion-tecnica-formularios/?utm_source=RedesSociales&utm_medium=Twitter&utm_campaign=Publicacion"
+}

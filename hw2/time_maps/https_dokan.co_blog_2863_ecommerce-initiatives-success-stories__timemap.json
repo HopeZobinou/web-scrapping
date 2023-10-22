@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://dokan.co/blog/2863/ecommerce-initiatives-success-stories/",
+  "self": "http://localhost:1208/timemap/json/https://dokan.co/blog/2863/ecommerce-initiatives-success-stories/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2022-08-27T10:45:28Z",
+        "uri": "https://web.archive.org/web/20220827104528/https://dokan.co/blog/2863/ecommerce-initiatives-success-stories/"
+      },
+      {
+        "datetime": "2022-09-28T03:36:38Z",
+        "uri": "https://web.archive.org/web/20220928033638/https://dokan.co/blog/2863/ecommerce-initiatives-success-stories/"
+      },
+      {
+        "datetime": "2023-02-05T11:10:57Z",
+        "uri": "https://web.archive.org/web/20230205111057/https://dokan.co/blog/2863/ecommerce-initiatives-success-stories/"
+      },
+      {
+        "datetime": "2023-06-02T15:41:41Z",
+        "uri": "https://web.archive.org/web/20230602154141/https://dokan.co/blog/2863/ecommerce-initiatives-success-stories/"
+      }
+    ],
+    "first": {
+      "datetime": "2022-08-27T10:45:28Z",
+      "uri": "https://web.archive.org/web/20220827104528/https://dokan.co/blog/2863/ecommerce-initiatives-success-stories/"
+    },
+    "last": {
+      "datetime": "2023-06-02T15:41:41Z",
+      "uri": "https://web.archive.org/web/20230602154141/https://dokan.co/blog/2863/ecommerce-initiatives-success-stories/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://dokan.co/blog/2863/ecommerce-initiatives-success-stories/",
+    "json_format": "http://localhost:1208/timemap/json/https://dokan.co/blog/2863/ecommerce-initiatives-success-stories/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://dokan.co/blog/2863/ecommerce-initiatives-success-stories/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://dokan.co/blog/2863/ecommerce-initiatives-success-stories/"
+}

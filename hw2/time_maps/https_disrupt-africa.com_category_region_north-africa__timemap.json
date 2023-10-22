@@ -1,0 +1,922 @@
+{
+  "original_uri": "https://disrupt-africa.com/category/region/north-africa/",
+  "self": "http://localhost:1208/timemap/json/https://disrupt-africa.com/category/region/north-africa/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2014-12-09T23:04:06Z",
+        "uri": "https://web.archive.org/web/20141209230406/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-01-22T08:10:42Z",
+        "uri": "https://web.archive.org/web/20150122081042/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-01-22T08:10:42Z",
+        "uri": "https://web.archive.org/web/20150122081042/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2015-02-06T14:47:28Z",
+        "uri": "https://web.archive.org/web/20150206144728/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-03-15T02:19:47Z",
+        "uri": "https://web.archive.org/web/20150315021947/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-04-09T01:04:48Z",
+        "uri": "https://web.archive.org/web/20150409010448/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-04-10T05:46:22Z",
+        "uri": "https://web.archive.org/web/20150410054622/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-04-17T00:13:09Z",
+        "uri": "https://web.archive.org/web/20150417001309/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-04-17T00:13:09Z",
+        "uri": "https://web.archive.org/web/20150417001309/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2015-04-19T17:58:05Z",
+        "uri": "https://web.archive.org/web/20150419175805/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-05-20T06:49:17Z",
+        "uri": "https://web.archive.org/web/20150520064917/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-05-20T06:49:17Z",
+        "uri": "https://web.archive.org/web/20150520064917/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2015-06-09T23:52:49Z",
+        "uri": "https://web.archive.org/web/20150609235249/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-06-22T18:50:15Z",
+        "uri": "https://web.archive.org/web/20150622185015/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-06-22T18:50:15Z",
+        "uri": "https://web.archive.org/web/20150622185015/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2015-07-06T00:02:28Z",
+        "uri": "https://web.archive.org/web/20150706000228/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-07-29T12:05:07Z",
+        "uri": "https://web.archive.org/web/20150729120507/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-07-29T12:05:07Z",
+        "uri": "https://web.archive.org/web/20150729120507/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2015-08-09T21:53:46Z",
+        "uri": "https://web.archive.org/web/20150809215346/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-08-29T15:10:17Z",
+        "uri": "https://web.archive.org/web/20150829151017/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-08-29T15:10:17Z",
+        "uri": "https://web.archive.org/web/20150829151017/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2015-09-06T19:26:04Z",
+        "uri": "https://web.archive.org/web/20150906192604/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-09-30T06:00:44Z",
+        "uri": "https://web.archive.org/web/20150930060044/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-09-30T06:00:44Z",
+        "uri": "https://web.archive.org/web/20150930060044/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2015-10-09T06:25:14Z",
+        "uri": "https://web.archive.org/web/20151009062514/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-10-31T07:20:22Z",
+        "uri": "https://web.archive.org/web/20151031072022/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-10-31T07:20:22Z",
+        "uri": "https://web.archive.org/web/20151031072022/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2015-12-01T07:17:53Z",
+        "uri": "https://web.archive.org/web/20151201071753/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2015-12-01T07:17:53Z",
+        "uri": "https://web.archive.org/web/20151201071753/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2015-12-08T17:15:38Z",
+        "uri": "https://web.archive.org/web/20151208171538/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-01-01T15:41:50Z",
+        "uri": "https://web.archive.org/web/20160101154150/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-01-01T15:41:50Z",
+        "uri": "https://web.archive.org/web/20160101154150/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2016-02-01T15:28:57Z",
+        "uri": "https://web.archive.org/web/20160201152857/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-02-01T15:28:57Z",
+        "uri": "https://web.archive.org/web/20160201152857/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2016-02-02T04:56:59Z",
+        "uri": "https://web.archive.org/web/20160202045659/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-02-02T04:56:59Z",
+        "uri": "https://web.archive.org/web/20160202045659/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2016-02-07T21:34:11Z",
+        "uri": "https://web.archive.org/web/20160207213411/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-03-03T19:24:28Z",
+        "uri": "https://web.archive.org/web/20160303192428/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-03-03T19:24:28Z",
+        "uri": "https://web.archive.org/web/20160303192428/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2016-03-19T03:13:56Z",
+        "uri": "https://web.archive.org/web/20160319031356/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-03-22T04:50:01Z",
+        "uri": "https://web.archive.org/web/20160322045001/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-04-04T08:28:29Z",
+        "uri": "https://web.archive.org/web/20160404082829/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-04-04T08:28:29Z",
+        "uri": "https://web.archive.org/web/20160404082829/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2016-04-08T20:32:14Z",
+        "uri": "https://web.archive.org/web/20160408203214/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-05-21T14:22:39Z",
+        "uri": "https://web.archive.org/web/20160521142239/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-06-09T06:00:05Z",
+        "uri": "https://web.archive.org/web/20160609060005/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-07-13T20:26:58Z",
+        "uri": "https://web.archive.org/web/20160713202658/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-07-13T20:26:58Z",
+        "uri": "https://web.archive.org/web/20160713202658/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2016-07-14T21:45:39Z",
+        "uri": "https://web.archive.org/web/20160714214539/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-07-14T21:45:39Z",
+        "uri": "https://web.archive.org/web/20160714214539/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2016-07-16T06:21:22Z",
+        "uri": "https://web.archive.org/web/20160716062122/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-08-15T03:19:25Z",
+        "uri": "https://web.archive.org/web/20160815031925/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-08-15T03:19:25Z",
+        "uri": "https://web.archive.org/web/20160815031925/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2016-09-15T11:14:52Z",
+        "uri": "https://web.archive.org/web/20160915111452/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-09-15T18:17:35Z",
+        "uri": "https://web.archive.org/web/20160915181735/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-09-15T18:17:35Z",
+        "uri": "https://web.archive.org/web/20160915181735/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2016-09-16T23:11:38Z",
+        "uri": "https://web.archive.org/web/20160916231138/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-09-16T23:11:38Z",
+        "uri": "https://web.archive.org/web/20160916231138/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2016-10-18T02:13:11Z",
+        "uri": "https://web.archive.org/web/20161018021311/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-10-18T02:13:11Z",
+        "uri": "https://web.archive.org/web/20161018021311/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2016-10-22T06:30:46Z",
+        "uri": "https://web.archive.org/web/20161022063046/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-10-29T22:14:38Z",
+        "uri": "https://web.archive.org/web/20161029221438/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-11-22T23:31:59Z",
+        "uri": "https://web.archive.org/web/20161122233159/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-12-05T10:30:24Z",
+        "uri": "https://web.archive.org/web/20161205103024/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2016-12-05T10:30:24Z",
+        "uri": "https://web.archive.org/web/20161205103024/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2017-01-23T14:52:16Z",
+        "uri": "https://web.archive.org/web/20170123145216/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-03-25T08:29:55Z",
+        "uri": "https://web.archive.org/web/20170325082955/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-05-15T07:01:33Z",
+        "uri": "https://web.archive.org/web/20170515070133/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-05-15T07:01:33Z",
+        "uri": "https://web.archive.org/web/20170515070133/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2017-05-25T09:13:34Z",
+        "uri": "https://web.archive.org/web/20170525091334/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-06-06T11:45:29Z",
+        "uri": "https://web.archive.org/web/20170606114529/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-06-16T00:30:37Z",
+        "uri": "https://web.archive.org/web/20170616003037/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-06-16T00:30:37Z",
+        "uri": "https://web.archive.org/web/20170616003037/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2017-07-07T22:57:13Z",
+        "uri": "https://web.archive.org/web/20170707225713/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-07-17T15:49:42Z",
+        "uri": "https://web.archive.org/web/20170717154942/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-07-17T15:49:42Z",
+        "uri": "https://web.archive.org/web/20170717154942/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2017-07-25T03:49:39Z",
+        "uri": "https://web.archive.org/web/20170725034939/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-08-17T21:52:37Z",
+        "uri": "https://web.archive.org/web/20170817215237/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-08-17T21:52:37Z",
+        "uri": "https://web.archive.org/web/20170817215237/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2017-08-19T00:35:06Z",
+        "uri": "https://web.archive.org/web/20170819003506/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-08-19T00:35:06Z",
+        "uri": "https://web.archive.org/web/20170819003506/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2017-08-30T19:46:52Z",
+        "uri": "https://web.archive.org/web/20170830194652/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-09-19T12:07:36Z",
+        "uri": "https://web.archive.org/web/20170919120736/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-09-19T12:07:36Z",
+        "uri": "https://web.archive.org/web/20170919120736/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2017-09-23T20:05:37Z",
+        "uri": "https://web.archive.org/web/20170923200537/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-10-20T14:37:39Z",
+        "uri": "https://web.archive.org/web/20171020143739/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-10-20T14:37:39Z",
+        "uri": "https://web.archive.org/web/20171020143739/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2017-11-01T10:40:07Z",
+        "uri": "https://web.archive.org/web/20171101104007/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-11-20T15:37:50Z",
+        "uri": "https://web.archive.org/web/20171120153750/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-11-20T15:37:50Z",
+        "uri": "https://web.archive.org/web/20171120153750/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2017-12-21T15:48:12Z",
+        "uri": "https://web.archive.org/web/20171221154812/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2017-12-21T15:48:12Z",
+        "uri": "https://web.archive.org/web/20171221154812/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2018-01-01T01:09:35Z",
+        "uri": "https://web.archive.org/web/20180101010935/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-01-21T19:31:32Z",
+        "uri": "https://web.archive.org/web/20180121193132/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-01-21T19:31:32Z",
+        "uri": "https://web.archive.org/web/20180121193132/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2018-02-22T09:44:34Z",
+        "uri": "https://web.archive.org/web/20180222094434/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-02-22T09:44:34Z",
+        "uri": "https://web.archive.org/web/20180222094434/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2018-03-03T13:56:57Z",
+        "uri": "https://web.archive.org/web/20180303135657/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-03-25T11:01:48Z",
+        "uri": "https://web.archive.org/web/20180325110148/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-03-25T11:01:48Z",
+        "uri": "https://web.archive.org/web/20180325110148/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2018-04-26T19:06:53Z",
+        "uri": "https://web.archive.org/web/20180426190653/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-04-26T19:06:53Z",
+        "uri": "https://web.archive.org/web/20180426190653/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2018-04-27T12:27:58Z",
+        "uri": "https://web.archive.org/web/20180427122758/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-04-27T12:27:58Z",
+        "uri": "https://web.archive.org/web/20180427122758/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2018-05-03T22:40:11Z",
+        "uri": "https://web.archive.org/web/20180503224011/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-05-28T16:23:52Z",
+        "uri": "https://web.archive.org/web/20180528162352/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-05-28T16:23:52Z",
+        "uri": "https://web.archive.org/web/20180528162352/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2018-06-28T18:45:08Z",
+        "uri": "https://web.archive.org/web/20180628184508/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-06-28T18:45:08Z",
+        "uri": "https://web.archive.org/web/20180628184508/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2018-07-04T16:25:53Z",
+        "uri": "https://web.archive.org/web/20180704162553/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-07-30T02:43:13Z",
+        "uri": "https://web.archive.org/web/20180730024313/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-07-30T02:43:13Z",
+        "uri": "https://web.archive.org/web/20180730024313/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2018-08-19T13:25:37Z",
+        "uri": "https://web.archive.org/web/20180819132537/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-08-19T20:02:42Z",
+        "uri": "https://web.archive.org/web/20180819200242/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-08-30T08:33:08Z",
+        "uri": "https://web.archive.org/web/20180830083308/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-08-30T08:33:08Z",
+        "uri": "https://web.archive.org/web/20180830083308/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2018-08-31T00:47:02Z",
+        "uri": "https://web.archive.org/web/20180831004702/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-08-31T00:47:02Z",
+        "uri": "https://web.archive.org/web/20180831004702/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2018-09-04T06:24:50Z",
+        "uri": "https://web.archive.org/web/20180904062450/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-09-07T07:48:36Z",
+        "uri": "https://web.archive.org/web/20180907074836/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-09-30T17:48:51Z",
+        "uri": "https://web.archive.org/web/20180930174851/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-09-30T17:48:51Z",
+        "uri": "https://web.archive.org/web/20180930174851/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2018-10-31T21:38:06Z",
+        "uri": "https://web.archive.org/web/20181031213806/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-10-31T21:38:06Z",
+        "uri": "https://web.archive.org/web/20181031213806/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2018-11-07T17:40:25Z",
+        "uri": "https://web.archive.org/web/20181107174025/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-11-10T09:22:34Z",
+        "uri": "https://web.archive.org/web/20181110092234/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-12-01T17:04:16Z",
+        "uri": "https://web.archive.org/web/20181201170416/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2018-12-01T17:04:16Z",
+        "uri": "https://web.archive.org/web/20181201170416/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2019-01-01T18:12:40Z",
+        "uri": "https://web.archive.org/web/20190101181240/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-01-01T18:12:40Z",
+        "uri": "https://web.archive.org/web/20190101181240/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2019-01-10T03:29:58Z",
+        "uri": "https://web.archive.org/web/20190110032958/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-02-01T23:03:28Z",
+        "uri": "https://web.archive.org/web/20190201230328/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-02-01T23:03:28Z",
+        "uri": "https://web.archive.org/web/20190201230328/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2019-03-04T18:15:30Z",
+        "uri": "https://web.archive.org/web/20190304181530/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-03-04T18:15:30Z",
+        "uri": "https://web.archive.org/web/20190304181530/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2019-03-12T02:40:56Z",
+        "uri": "https://web.archive.org/web/20190312024056/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-03-13T03:42:34Z",
+        "uri": "https://web.archive.org/web/20190313034234/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-03-24T08:45:06Z",
+        "uri": "https://web.archive.org/web/20190324084506/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-03-31T02:32:21Z",
+        "uri": "https://web.archive.org/web/20190331023221/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-04-04T16:22:45Z",
+        "uri": "https://web.archive.org/web/20190404162245/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-04-04T16:22:45Z",
+        "uri": "https://web.archive.org/web/20190404162245/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2019-05-05T18:50:10Z",
+        "uri": "https://web.archive.org/web/20190505185010/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-05-05T18:50:10Z",
+        "uri": "https://web.archive.org/web/20190505185010/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2019-05-13T06:25:20Z",
+        "uri": "https://web.archive.org/web/20190513062520/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-06-05T10:43:59Z",
+        "uri": "https://web.archive.org/web/20190605104359/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-06-05T10:43:59Z",
+        "uri": "https://web.archive.org/web/20190605104359/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2019-07-07T00:49:02Z",
+        "uri": "https://web.archive.org/web/20190707004902/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-07-07T00:49:02Z",
+        "uri": "https://web.archive.org/web/20190707004902/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2019-07-13T13:23:54Z",
+        "uri": "https://web.archive.org/web/20190713132354/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-07-18T09:34:44Z",
+        "uri": "https://web.archive.org/web/20190718093444/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-08-07T15:50:05Z",
+        "uri": "https://web.archive.org/web/20190807155005/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-08-07T15:50:05Z",
+        "uri": "https://web.archive.org/web/20190807155005/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2019-09-07T13:46:14Z",
+        "uri": "https://web.archive.org/web/20190907134614/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-09-07T13:46:14Z",
+        "uri": "https://web.archive.org/web/20190907134614/http://disrupt-africa.com:80/category/region/north-africa"
+      },
+      {
+        "datetime": "2019-09-17T03:57:45Z",
+        "uri": "https://web.archive.org/web/20190917035745/http://disrupt-africa.com:80/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-09-22T21:06:13Z",
+        "uri": "https://web.archive.org/web/20190922210613/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2019-12-14T22:12:53Z",
+        "uri": "https://web.archive.org/web/20191214221253/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-03-19T23:06:43Z",
+        "uri": "https://web.archive.org/web/20200319230643/http://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-03-28T11:01:11Z",
+        "uri": "https://web.archive.org/web/20200328110111/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-03-31T21:06:56Z",
+        "uri": "https://web.archive.org/web/20200331210656/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-04-19T10:08:53Z",
+        "uri": "https://web.archive.org/web/20200419100853/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-05-12T06:14:55Z",
+        "uri": "https://web.archive.org/web/20200512061455/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-05-26T02:13:37Z",
+        "uri": "https://web.archive.org/web/20200526021337/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-05-26T14:29:18Z",
+        "uri": "https://web.archive.org/web/20200526142918/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-06-17T12:53:06Z",
+        "uri": "https://web.archive.org/web/20200617125306/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-06-18T09:19:10Z",
+        "uri": "https://web.archive.org/web/20200618091910/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-06-26T19:29:38Z",
+        "uri": "https://web.archive.org/web/20200626192938/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-07-21T21:56:01Z",
+        "uri": "https://web.archive.org/web/20200721215601/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-08-04T14:46:31Z",
+        "uri": "https://web.archive.org/web/20200804144631/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-08-12T20:04:11Z",
+        "uri": "https://web.archive.org/web/20200812200411/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-08-20T07:40:06Z",
+        "uri": "https://web.archive.org/web/20200820074006/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-08-20T17:03:11Z",
+        "uri": "https://web.archive.org/web/20200820170311/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-08-27T10:55:04Z",
+        "uri": "https://web.archive.org/web/20200827105504/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-09-22T22:30:58Z",
+        "uri": "https://web.archive.org/web/20200922223058/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-09-28T03:24:10Z",
+        "uri": "https://web.archive.org/web/20200928032410/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-10-23T22:10:43Z",
+        "uri": "https://web.archive.org/web/20201023221043/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-10-29T01:05:35Z",
+        "uri": "https://web.archive.org/web/20201029010535/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-11-01T07:17:45Z",
+        "uri": "https://web.archive.org/web/20201101071745/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-11-14T13:28:38Z",
+        "uri": "https://web.archive.org/web/20201114132838/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-11-23T15:38:16Z",
+        "uri": "https://web.archive.org/web/20201123153816/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2020-11-25T22:55:01Z",
+        "uri": "https://web.archive.org/web/20201125225501/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-01-21T15:19:37Z",
+        "uri": "https://web.archive.org/web/20210121151937/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-01-21T19:29:30Z",
+        "uri": "https://web.archive.org/web/20210121192930/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-01-24T22:39:52Z",
+        "uri": "https://web.archive.org/web/20210124223952/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-03-07T09:35:45Z",
+        "uri": "https://web.archive.org/web/20210307093545/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-04-18T08:04:04Z",
+        "uri": "https://web.archive.org/web/20210418080404/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-04-19T15:58:16Z",
+        "uri": "https://web.archive.org/web/20210419155816/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-04-20T02:09:10Z",
+        "uri": "https://web.archive.org/web/20210420020910/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-04-21T12:44:26Z",
+        "uri": "https://web.archive.org/web/20210421124426/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-04-22T01:47:22Z",
+        "uri": "https://web.archive.org/web/20210422014722/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-05-18T11:54:32Z",
+        "uri": "https://web.archive.org/web/20210518115432/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-05-22T08:23:54Z",
+        "uri": "https://web.archive.org/web/20210522082354/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-06-24T04:06:44Z",
+        "uri": "https://web.archive.org/web/20210624040644/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-06-24T04:06:44Z",
+        "uri": "https://web.archive.org/web/20210624040644/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-06-28T07:30:26Z",
+        "uri": "https://web.archive.org/web/20210628073026/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-07-26T16:49:59Z",
+        "uri": "https://web.archive.org/web/20210726164959/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-08-02T19:57:30Z",
+        "uri": "https://web.archive.org/web/20210802195730/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-08-11T19:37:06Z",
+        "uri": "https://web.archive.org/web/20210811193706/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-08-13T07:48:52Z",
+        "uri": "https://web.archive.org/web/20210813074852/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-09-20T03:05:13Z",
+        "uri": "https://web.archive.org/web/20210920030513/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-09-21T03:10:12Z",
+        "uri": "https://web.archive.org/web/20210921031012/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-10-19T01:29:47Z",
+        "uri": "https://web.archive.org/web/20211019012947/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-10-26T22:53:14Z",
+        "uri": "https://web.archive.org/web/20211026225314/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-10-27T09:01:56Z",
+        "uri": "https://web.archive.org/web/20211027090156/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-10-27T10:49:18Z",
+        "uri": "https://web.archive.org/web/20211027104918/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2021-12-05T15:17:30Z",
+        "uri": "https://web.archive.org/web/20211205151730/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2022-01-07T02:02:13Z",
+        "uri": "https://web.archive.org/web/20220107020213/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2022-01-07T02:04:41Z",
+        "uri": "https://web.archive.org/web/20220107020441/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2022-01-22T06:17:56Z",
+        "uri": "https://web.archive.org/web/20220122061756/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2022-05-22T14:55:23Z",
+        "uri": "https://web.archive.org/web/20220522145523/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2022-06-21T09:26:23Z",
+        "uri": "https://web.archive.org/web/20220621092623/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2022-06-28T00:51:05Z",
+        "uri": "https://web.archive.org/web/20220628005105/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2022-09-05T17:25:38Z",
+        "uri": "https://web.archive.org/web/20220905172538/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2022-09-23T06:31:19Z",
+        "uri": "https://web.archive.org/web/20220923063119/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2022-09-25T21:47:03Z",
+        "uri": "https://web.archive.org/web/20220925214703/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2022-10-19T00:32:27Z",
+        "uri": "https://web.archive.org/web/20221019003227/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2022-10-28T04:55:52Z",
+        "uri": "https://web.archive.org/web/20221028045552/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2023-01-26T14:57:43Z",
+        "uri": "https://web.archive.org/web/20230126145743/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2023-01-27T15:04:28Z",
+        "uri": "https://web.archive.org/web/20230127150428/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2023-02-17T12:36:45Z",
+        "uri": "https://web.archive.org/web/20230217123645/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2023-03-27T06:42:45Z",
+        "uri": "https://web.archive.org/web/20230327064245/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2023-05-21T02:47:55Z",
+        "uri": "https://web.archive.org/web/20230521024755/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2023-05-21T02:48:01Z",
+        "uri": "https://web.archive.org/web/20230521024801/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2023-05-21T02:48:06Z",
+        "uri": "https://web.archive.org/web/20230521024806/https://disrupt-africa.com/category/region/north-africa/"
+      },
+      {
+        "datetime": "2023-07-05T00:05:11Z",
+        "uri": "https://web.archive.org/web/20230705000511/https://disrupt-africa.com/category/region/north-africa/"
+      }
+    ],
+    "first": {
+      "datetime": "2014-12-09T23:04:06Z",
+      "uri": "https://web.archive.org/web/20141209230406/http://disrupt-africa.com:80/category/region/north-africa/"
+    },
+    "last": {
+      "datetime": "2023-07-05T00:05:11Z",
+      "uri": "https://web.archive.org/web/20230705000511/https://disrupt-africa.com/category/region/north-africa/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://disrupt-africa.com/category/region/north-africa/",
+    "json_format": "http://localhost:1208/timemap/json/https://disrupt-africa.com/category/region/north-africa/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://disrupt-africa.com/category/region/north-africa/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://disrupt-africa.com/category/region/north-africa/"
+}

@@ -1,0 +1,70 @@
+{
+  "original_uri": "https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/",
+  "self": "http://localhost:1208/timemap/json/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T07:44:25Z",
+        "uri": "https://web.archive.org/web/20231011074425/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+      },
+      {
+        "datetime": "2023-10-11T13:25:36Z",
+        "uri": "https://web.archive.org/web/20231011132536/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+      },
+      {
+        "datetime": "2023-10-12T08:39:46Z",
+        "uri": "https://web.archive.org/web/20231012083946/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+      },
+      {
+        "datetime": "2023-10-12T09:35:33Z",
+        "uri": "https://web.archive.org/web/20231012093533/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+      },
+      {
+        "datetime": "2023-10-13T11:05:17Z",
+        "uri": "https://web.archive.org/web/20231013110517/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+      },
+      {
+        "datetime": "2023-10-13T21:22:39Z",
+        "uri": "https://web.archive.org/web/20231013212239/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+      },
+      {
+        "datetime": "2023-10-14T11:47:16Z",
+        "uri": "https://web.archive.org/web/20231014114716/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+      },
+      {
+        "datetime": "2023-10-15T12:23:53Z",
+        "uri": "https://web.archive.org/web/20231015122353/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+      },
+      {
+        "datetime": "2023-10-16T17:11:24Z",
+        "uri": "https://web.archive.org/web/20231016171124/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+      },
+      {
+        "datetime": "2023-10-17T17:33:17Z",
+        "uri": "https://web.archive.org/web/20231017173317/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+      },
+      {
+        "datetime": "2023-10-18T18:44:41Z",
+        "uri": "https://web.archive.org/web/20231018184441/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+      },
+      {
+        "datetime": "2023-10-19T18:58:32Z",
+        "uri": "https://web.archive.org/web/20231019185832/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T07:44:25Z",
+      "uri": "https://web.archive.org/web/20231011074425/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+    },
+    "last": {
+      "datetime": "2023-10-19T18:58:32Z",
+      "uri": "https://web.archive.org/web/20231019185832/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/",
+    "json_format": "http://localhost:1208/timemap/json/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://cnnespanol.cnn.com/video/jenni-hermoso-luis-rubiales-beso-espana-acoso-agresion-sexual-futbol-deportes-tv/"
+}

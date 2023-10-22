@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://climatechangedispatch.com/amid-ongoing-crises-biden-wh-claims-climate-change-still-the-biggest-threat/",
+  "self": "http://localhost:1208/timemap/json/https://climatechangedispatch.com/amid-ongoing-crises-biden-wh-claims-climate-change-still-the-biggest-threat/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T18:34:11Z",
+        "uri": "https://web.archive.org/web/20231010183411/https://climatechangedispatch.com/amid-ongoing-crises-biden-wh-claims-climate-change-still-the-biggest-threat/"
+      },
+      {
+        "datetime": "2023-10-16T10:40:01Z",
+        "uri": "https://web.archive.org/web/20231016104001/https://climatechangedispatch.com/amid-ongoing-crises-biden-wh-claims-climate-change-still-the-biggest-threat/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T18:34:11Z",
+      "uri": "https://web.archive.org/web/20231010183411/https://climatechangedispatch.com/amid-ongoing-crises-biden-wh-claims-climate-change-still-the-biggest-threat/"
+    },
+    "last": {
+      "datetime": "2023-10-16T10:40:01Z",
+      "uri": "https://web.archive.org/web/20231016104001/https://climatechangedispatch.com/amid-ongoing-crises-biden-wh-claims-climate-change-still-the-biggest-threat/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://climatechangedispatch.com/amid-ongoing-crises-biden-wh-claims-climate-change-still-the-biggest-threat/",
+    "json_format": "http://localhost:1208/timemap/json/https://climatechangedispatch.com/amid-ongoing-crises-biden-wh-claims-climate-change-still-the-biggest-threat/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://climatechangedispatch.com/amid-ongoing-crises-biden-wh-claims-climate-change-still-the-biggest-threat/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://climatechangedispatch.com/amid-ongoing-crises-biden-wh-claims-climate-change-still-the-biggest-threat/"
+}
