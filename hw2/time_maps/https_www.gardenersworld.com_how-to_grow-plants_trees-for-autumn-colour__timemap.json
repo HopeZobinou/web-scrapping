@@ -1,0 +1,90 @@
+{
+  "original_uri": "https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/",
+  "self": "http://localhost:1208/timemap/json/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2020-01-17T22:06:04Z",
+        "uri": "https://web.archive.org/web/20200117220604/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2020-04-06T08:24:51Z",
+        "uri": "https://web.archive.org/web/20200406082451/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2020-06-20T23:10:30Z",
+        "uri": "https://web.archive.org/web/20200620231030/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2020-08-08T23:11:55Z",
+        "uri": "https://web.archive.org/web/20200808231155/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2020-10-30T13:10:52Z",
+        "uri": "https://web.archive.org/web/20201030131052/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2020-11-01T04:40:40Z",
+        "uri": "https://web.archive.org/web/20201101044040/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2021-01-21T17:27:53Z",
+        "uri": "https://web.archive.org/web/20210121172753/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2021-04-21T19:46:06Z",
+        "uri": "https://web.archive.org/web/20210421194606/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2021-07-28T06:39:19Z",
+        "uri": "https://web.archive.org/web/20210728063919/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2021-10-23T13:37:18Z",
+        "uri": "https://web.archive.org/web/20211023133718/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2022-05-20T00:18:07Z",
+        "uri": "https://web.archive.org/web/20220520001807/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2022-12-09T15:20:56Z",
+        "uri": "https://web.archive.org/web/20221209152056/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2022-12-23T03:49:45Z",
+        "uri": "https://web.archive.org/web/20221223034945/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2022-12-29T18:42:22Z",
+        "uri": "https://web.archive.org/web/20221229184222/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2023-01-07T19:27:14Z",
+        "uri": "https://web.archive.org/web/20230107192714/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2023-01-12T18:35:21Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230112183521mp_/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      },
+      {
+        "datetime": "2023-03-12T15:41:13Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230312154113mp_/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+      }
+    ],
+    "first": {
+      "datetime": "2020-01-17T22:06:04Z",
+      "uri": "https://web.archive.org/web/20200117220604/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+    },
+    "last": {
+      "datetime": "2023-03-12T15:41:13Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20230312154113mp_/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.gardenersworld.com/how-to/grow-plants/trees-for-autumn-colour/"
+}

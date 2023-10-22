@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/",
+  "self": "http://localhost:1208/timemap/json/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T06:49:12Z",
+        "uri": "https://web.archive.org/web/20231011064912/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/"
+      },
+      {
+        "datetime": "2023-10-11T06:53:41Z",
+        "uri": "https://web.archive.org/web/20231011065341/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/"
+      },
+      {
+        "datetime": "2023-10-11T07:35:59Z",
+        "uri": "https://web.archive.org/web/20231011073559/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/"
+      },
+      {
+        "datetime": "2023-10-12T03:30:08Z",
+        "uri": "https://web.archive.org/web/20231012033008/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/"
+      },
+      {
+        "datetime": "2023-10-12T05:54:36Z",
+        "uri": "https://web.archive.org/web/20231012055436/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/"
+      },
+      {
+        "datetime": "2023-10-12T10:36:44Z",
+        "uri": "https://web.archive.org/web/20231012103644/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/"
+      },
+      {
+        "datetime": "2023-10-13T20:40:50Z",
+        "uri": "https://web.archive.org/web/20231013204050/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/"
+      },
+      {
+        "datetime": "2023-10-15T11:54:33Z",
+        "uri": "https://web.archive.org/web/20231015115433/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/"
+      },
+      {
+        "datetime": "2023-10-15T11:54:40Z",
+        "uri": "https://web.archive.org/web/20231015115440/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T06:49:12Z",
+      "uri": "https://web.archive.org/web/20231011064912/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/"
+    },
+    "last": {
+      "datetime": "2023-10-15T11:54:40Z",
+      "uri": "https://web.archive.org/web/20231015115440/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.infobae.com/espana/2023/10/11/el-agujero-del-covid-19-todavia-perdura-el-sector-turistico-ha-dejado-de-ingresar-222000-millones-pese-a-la-recuperacion-de-la-actividad/"
+}

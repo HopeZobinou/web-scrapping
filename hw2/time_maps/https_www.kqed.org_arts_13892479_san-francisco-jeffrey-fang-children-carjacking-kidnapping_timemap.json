@@ -1,0 +1,106 @@
+{
+  "original_uri": "https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping",
+  "self": "http://localhost:1208/timemap/json/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2021-02-10T04:51:29Z",
+        "uri": "https://web.archive.org/web/20210210045129/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2021-02-10T19:16:06Z",
+        "uri": "https://web.archive.org/web/20210210191606/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2021-02-10T19:46:49Z",
+        "uri": "https://web.archive.org/web/20210210194649/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2021-02-11T03:24:08Z",
+        "uri": "https://web.archive.org/web/20210211032408/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2021-02-11T22:38:13Z",
+        "uri": "https://web.archive.org/web/20210211223813/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2021-02-13T13:08:05Z",
+        "uri": "https://web.archive.org/web/20210213130805/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2021-02-13T23:00:58Z",
+        "uri": "https://web.archive.org/web/20210213230058/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2021-02-16T14:06:58Z",
+        "uri": "https://web.archive.org/web/20210216140658/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2021-02-20T16:21:19Z",
+        "uri": "https://web.archive.org/web/20210220162119/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2021-02-23T15:30:54Z",
+        "uri": "https://web.archive.org/web/20210223153054/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2021-04-11T14:56:25Z",
+        "uri": "https://web.archive.org/web/20210411145625/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2021-04-18T15:26:27Z",
+        "uri": "https://web.archive.org/web/20210418152627/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2021-07-24T03:45:01Z",
+        "uri": "https://web.archive.org/web/20210724034501/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2021-10-25T12:59:07Z",
+        "uri": "https://web.archive.org/web/20211025125907/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2022-05-28T03:33:15Z",
+        "uri": "https://web.archive.org/web/20220528033315/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2022-08-11T08:11:17Z",
+        "uri": "https://web.archive.org/web/20220811081117/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2022-09-28T02:29:19Z",
+        "uri": "https://web.archive.org/web/20220928022919/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2022-12-24T00:05:16Z",
+        "uri": "https://web.archive.org/web/20221224000516/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2022-12-24T00:08:23Z",
+        "uri": "https://web.archive.org/web/20221224000823/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2022-12-31T07:30:59Z",
+        "uri": "https://web.archive.org/web/20221231073059/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      },
+      {
+        "datetime": "2023-02-05T18:10:20Z",
+        "uri": "https://web.archive.org/web/20230205181020/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+      }
+    ],
+    "first": {
+      "datetime": "2021-02-10T04:51:29Z",
+      "uri": "https://web.archive.org/web/20210210045129/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+    },
+    "last": {
+      "datetime": "2023-02-05T18:10:20Z",
+      "uri": "https://web.archive.org/web/20230205181020/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping",
+    "json_format": "http://localhost:1208/timemap/json/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.kqed.org/arts/13892479/san-francisco-jeffrey-fang-children-carjacking-kidnapping"
+}

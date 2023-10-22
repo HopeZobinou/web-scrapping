@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.instagram.com/cirebonnews.id/",
+  "self": "http://localhost:1208/timemap/json/https://www.instagram.com/cirebonnews.id/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2022-04-11T07:20:00Z",
+        "uri": "https://web.archive.org/web/20220411072000/https://www.instagram.com/cirebonnews.id/"
+      },
+      {
+        "datetime": "2022-04-11T07:20:00Z",
+        "uri": "https://web.archive.org/web/20220411072000/http://instagram.com/cirebonnews.id"
+      },
+      {
+        "datetime": "2022-04-11T07:26:07Z",
+        "uri": "https://web.archive.org/web/20220411072607/https://www.instagram.com/cirebonnews.id/"
+      },
+      {
+        "datetime": "2022-04-11T07:26:07Z",
+        "uri": "https://web.archive.org/web/20220411072607/http://instagram.com/cirebonnews.id"
+      },
+      {
+        "datetime": "2022-04-11T07:36:24Z",
+        "uri": "https://web.archive.org/web/20220411073624/https://www.instagram.com/cirebonnews.id/"
+      },
+      {
+        "datetime": "2022-04-11T07:36:24Z",
+        "uri": "https://web.archive.org/web/20220411073624/http://instagram.com/cirebonnews.id"
+      },
+      {
+        "datetime": "2022-09-06T11:29:56Z",
+        "uri": "https://web.archive.org/web/20220906112956/https://www.instagram.com/cirebonnews.id"
+      }
+    ],
+    "first": {
+      "datetime": "2022-04-11T07:20:00Z",
+      "uri": "https://web.archive.org/web/20220411072000/https://www.instagram.com/cirebonnews.id/"
+    },
+    "last": {
+      "datetime": "2022-09-06T11:29:56Z",
+      "uri": "https://web.archive.org/web/20220906112956/https://www.instagram.com/cirebonnews.id"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.instagram.com/cirebonnews.id/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.instagram.com/cirebonnews.id/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.instagram.com/cirebonnews.id/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.instagram.com/cirebonnews.id/"
+}

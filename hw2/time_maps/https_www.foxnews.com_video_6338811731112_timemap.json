@@ -1,0 +1,66 @@
+{
+  "original_uri": "https://www.foxnews.com/video/6338811731112",
+  "self": "http://localhost:1208/timemap/json/https://www.foxnews.com/video/6338811731112",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T06:56:09Z",
+        "uri": "https://web.archive.org/web/20231011065609/https://www.foxnews.com/video/6338811731112"
+      },
+      {
+        "datetime": "2023-10-11T06:58:24Z",
+        "uri": "https://web.archive.org/web/20231011065824/https://www.foxnews.com/video/6338811731112"
+      },
+      {
+        "datetime": "2023-10-11T07:00:15Z",
+        "uri": "https://web.archive.org/web/20231011070015/https://www.foxnews.com/video/6338811731112"
+      },
+      {
+        "datetime": "2023-10-11T07:01:56Z",
+        "uri": "https://web.archive.org/web/20231011070156/https://www.foxnews.com/video/6338811731112"
+      },
+      {
+        "datetime": "2023-10-11T08:03:33Z",
+        "uri": "https://web.archive.org/web/20231011080333/http://foxnews.com/video/6338811731112"
+      },
+      {
+        "datetime": "2023-10-11T14:25:32Z",
+        "uri": "https://web.archive.org/web/20231011142532/https://www.foxnews.com/video/6338811731112"
+      },
+      {
+        "datetime": "2023-10-12T15:18:24Z",
+        "uri": "https://web.archive.org/web/20231012151824/http://foxnews.com/video/6338811731112"
+      },
+      {
+        "datetime": "2023-10-12T23:33:11Z",
+        "uri": "https://web.archive.org/web/20231012233311/https://www.foxnews.com/video/6338811731112"
+      },
+      {
+        "datetime": "2023-10-13T18:39:28Z",
+        "uri": "https://web.archive.org/web/20231013183928/https://www.foxnews.com/video/6338811731112"
+      },
+      {
+        "datetime": "2023-10-13T18:39:29Z",
+        "uri": "https://web.archive.org/web/20231013183929/http://foxnews.com/video/6338811731112"
+      },
+      {
+        "datetime": "2023-10-16T10:46:09Z",
+        "uri": "https://web.archive.org/web/20231016104609/https://www.foxnews.com/video/6338811731112"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T06:56:09Z",
+      "uri": "https://web.archive.org/web/20231011065609/https://www.foxnews.com/video/6338811731112"
+    },
+    "last": {
+      "datetime": "2023-10-16T10:46:09Z",
+      "uri": "https://web.archive.org/web/20231016104609/https://www.foxnews.com/video/6338811731112"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.foxnews.com/video/6338811731112",
+    "json_format": "http://localhost:1208/timemap/json/https://www.foxnews.com/video/6338811731112",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.foxnews.com/video/6338811731112"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.foxnews.com/video/6338811731112"
+}

@@ -1,0 +1,78 @@
+{
+  "original_uri": "https://www.luckycommodity.com/",
+  "self": "http://localhost:1208/timemap/json/https://www.luckycommodity.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-08-05T02:37:54Z",
+        "uri": "https://web.archive.org/web/20180805023754/http://luckycommodity.com/"
+      },
+      {
+        "datetime": "2023-03-09T15:59:45Z",
+        "uri": "https://web.archive.org/web/20230309155945/http://www.luckycommodity.com/"
+      },
+      {
+        "datetime": "2023-03-28T07:17:31Z",
+        "uri": "https://web.archive.org/web/20230328071731/http://luckycommodity.com/"
+      },
+      {
+        "datetime": "2023-03-28T07:17:37Z",
+        "uri": "https://web.archive.org/web/20230328071737/http://www.luckycommodity.com/"
+      },
+      {
+        "datetime": "2023-03-28T07:17:47Z",
+        "uri": "https://web.archive.org/web/20230328071747/https://www.luckycommodity.com/"
+      },
+      {
+        "datetime": "2023-03-28T07:18:49Z",
+        "uri": "https://web.archive.org/web/20230328071849/https://www.luckycommodity.com/"
+      },
+      {
+        "datetime": "2023-03-30T13:45:32Z",
+        "uri": "https://web.archive.org/web/20230330134532/http://luckycommodity.com/"
+      },
+      {
+        "datetime": "2023-03-30T13:45:33Z",
+        "uri": "https://web.archive.org/web/20230330134533/https://www.luckycommodity.com/"
+      },
+      {
+        "datetime": "2023-03-31T08:16:04Z",
+        "uri": "https://web.archive.org/web/20230331081604/http://luckycommodity.com/"
+      },
+      {
+        "datetime": "2023-03-31T08:19:06Z",
+        "uri": "https://web.archive.org/web/20230331081906/http://www.luckycommodity.com/"
+      },
+      {
+        "datetime": "2023-04-04T08:52:23Z",
+        "uri": "https://web.archive.org/web/20230404085223/http://luckycommodity.com/"
+      },
+      {
+        "datetime": "2023-04-20T06:30:45Z",
+        "uri": "https://web.archive.org/web/20230420063045/http://www.luckycommodity.com/"
+      },
+      {
+        "datetime": "2023-04-27T07:25:18Z",
+        "uri": "https://web.archive.org/web/20230427072518/https://www.luckycommodity.com/"
+      },
+      {
+        "datetime": "2023-07-24T05:43:06Z",
+        "uri": "https://web.archive.org/web/20230724054306/https://luckycommodity.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-08-05T02:37:54Z",
+      "uri": "https://web.archive.org/web/20180805023754/http://luckycommodity.com/"
+    },
+    "last": {
+      "datetime": "2023-07-24T05:43:06Z",
+      "uri": "https://web.archive.org/web/20230724054306/https://luckycommodity.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.luckycommodity.com/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.luckycommodity.com/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.luckycommodity.com/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.luckycommodity.com/"
+}

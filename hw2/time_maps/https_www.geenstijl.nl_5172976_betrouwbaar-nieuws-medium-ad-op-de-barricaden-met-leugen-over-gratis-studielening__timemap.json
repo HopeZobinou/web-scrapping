@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.geenstijl.nl/5172976/betrouwbaar-nieuws-medium-ad-op-de-barricaden-met-leugen-over-gratis-studielening/",
+  "self": "http://localhost:1208/timemap/json/https://www.geenstijl.nl/5172976/betrouwbaar-nieuws-medium-ad-op-de-barricaden-met-leugen-over-gratis-studielening/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-14T13:46:40Z",
+        "uri": "https://web.archive.org/web/20231014134640/https://www.geenstijl.nl/5172976/betrouwbaar-nieuws-medium-ad-op-de-barricaden-met-leugen-over-gratis-studielening/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-14T13:46:40Z",
+      "uri": "https://web.archive.org/web/20231014134640/https://www.geenstijl.nl/5172976/betrouwbaar-nieuws-medium-ad-op-de-barricaden-met-leugen-over-gratis-studielening/"
+    },
+    "last": {
+      "datetime": "2023-10-14T13:46:40Z",
+      "uri": "https://web.archive.org/web/20231014134640/https://www.geenstijl.nl/5172976/betrouwbaar-nieuws-medium-ad-op-de-barricaden-met-leugen-over-gratis-studielening/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.geenstijl.nl/5172976/betrouwbaar-nieuws-medium-ad-op-de-barricaden-met-leugen-over-gratis-studielening/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.geenstijl.nl/5172976/betrouwbaar-nieuws-medium-ad-op-de-barricaden-met-leugen-over-gratis-studielening/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.geenstijl.nl/5172976/betrouwbaar-nieuws-medium-ad-op-de-barricaden-met-leugen-over-gratis-studielening/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.geenstijl.nl/5172976/betrouwbaar-nieuws-medium-ad-op-de-barricaden-met-leugen-over-gratis-studielening/"
+}

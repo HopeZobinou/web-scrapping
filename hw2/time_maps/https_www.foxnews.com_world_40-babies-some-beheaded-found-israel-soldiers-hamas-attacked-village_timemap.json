@@ -1,0 +1,614 @@
+{
+  "original_uri": "https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village",
+  "self": "http://localhost:1208/timemap/json/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T15:53:54Z",
+        "uri": "https://web.archive.org/web/20231010155354/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T16:33:23Z",
+        "uri": "https://web.archive.org/web/20231010163323/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T16:50:31Z",
+        "uri": "http://archive.md/20231010165031/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T17:16:56Z",
+        "uri": "https://web.archive.org/web/20231010171656/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T17:58:32Z",
+        "uri": "https://web.archive.org/web/20231010175832/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T18:07:20Z",
+        "uri": "https://web.archive.org/web/20231010180720/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T18:17:20Z",
+        "uri": "https://web.archive.org/web/20231010181720/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T18:40:04Z",
+        "uri": "https://web.archive.org/web/20231010184004/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T20:09:41Z",
+        "uri": "https://web.archive.org/web/20231010200941/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T20:39:22Z",
+        "uri": "https://web.archive.org/web/20231010203922/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T20:50:13Z",
+        "uri": "https://web.archive.org/web/20231010205013/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T21:30:57Z",
+        "uri": "https://web.archive.org/web/20231010213057/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T21:30:58Z",
+        "uri": "https://web.archive.org/web/20231010213058/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T21:53:40Z",
+        "uri": "https://web.archive.org/web/20231010215340/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T22:09:56Z",
+        "uri": "https://web.archive.org/web/20231010220956/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T22:40:51Z",
+        "uri": "https://web.archive.org/web/20231010224051/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-10T22:55:26Z",
+        "uri": "https://web.archive.org/web/20231010225526/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T00:00:56Z",
+        "uri": "https://web.archive.org/web/20231011000056/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T00:38:42Z",
+        "uri": "https://web.archive.org/web/20231011003842/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T00:53:28Z",
+        "uri": "https://web.archive.org/web/20231011005328/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T01:04:13Z",
+        "uri": "https://web.archive.org/web/20231011010413/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T01:09:52Z",
+        "uri": "https://web.archive.org/web/20231011010952/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T01:20:47Z",
+        "uri": "https://web.archive.org/web/20231011012047/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T01:51:01Z",
+        "uri": "https://web.archive.org/web/20231011015101/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T01:53:56Z",
+        "uri": "https://web.archive.org/web/20231011015356/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T02:05:58Z",
+        "uri": "https://web.archive.org/web/20231011020558/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T03:08:35Z",
+        "uri": "https://web.archive.org/web/20231011030835/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T06:29:55Z",
+        "uri": "https://web.archive.org/web/20231011062955/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T07:40:29Z",
+        "uri": "https://web.archive.org/web/20231011074029/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T07:40:32Z",
+        "uri": "https://web.archive.org/web/20231011074032/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T07:41:26Z",
+        "uri": "https://web.archive.org/web/20231011074126/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T07:43:15Z",
+        "uri": "https://web.archive.org/web/20231011074315/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T07:46:02Z",
+        "uri": "https://web.archive.org/web/20231011074602/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T07:53:21Z",
+        "uri": "https://web.archive.org/web/20231011075321/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T09:37:50Z",
+        "uri": "https://web.archive.org/web/20231011093750/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T11:45:25Z",
+        "uri": "https://web.archive.org/web/20231011114525/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T12:06:53Z",
+        "uri": "https://web.archive.org/web/20231011120653/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T12:24:25Z",
+        "uri": "https://web.archive.org/web/20231011122425/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T12:25:20Z",
+        "uri": "https://web.archive.org/web/20231011122520/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T13:19:59Z",
+        "uri": "https://web.archive.org/web/20231011131959/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T13:25:52Z",
+        "uri": "https://web.archive.org/web/20231011132552/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T13:38:08Z",
+        "uri": "https://web.archive.org/web/20231011133808/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T14:25:50Z",
+        "uri": "https://web.archive.org/web/20231011142550/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T14:25:50Z",
+        "uri": "https://web.archive.org/web/20231011142550/http://foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T14:30:51Z",
+        "uri": "https://web.archive.org/web/20231011143051/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T15:38:42Z",
+        "uri": "https://web.archive.org/web/20231011153842/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T16:35:55Z",
+        "uri": "https://wayback.archive-it.org/all/20231011163555/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T16:36:47Z",
+        "uri": "https://web.archive.org/web/20231011163647/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T16:52:29Z",
+        "uri": "https://web.archive.org/web/20231011165229/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T17:11:44Z",
+        "uri": "https://web.archive.org/web/20231011171144/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T17:54:55Z",
+        "uri": "https://web.archive.org/web/20231011175455/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T17:55:07Z",
+        "uri": "https://web.archive.org/web/20231011175507/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T18:23:52Z",
+        "uri": "https://web.archive.org/web/20231011182352/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T18:38:46Z",
+        "uri": "https://web.archive.org/web/20231011183846/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T19:04:35Z",
+        "uri": "https://web.archive.org/web/20231011190435/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T19:38:03Z",
+        "uri": "https://web.archive.org/web/20231011193803/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T19:38:13Z",
+        "uri": "https://web.archive.org/web/20231011193813/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T19:54:44Z",
+        "uri": "https://web.archive.org/web/20231011195444/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T20:08:29Z",
+        "uri": "https://web.archive.org/web/20231011200829/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T21:20:53Z",
+        "uri": "https://web.archive.org/web/20231011212053/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-11T22:40:10Z",
+        "uri": "https://web.archive.org/web/20231011224010/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T02:07:05Z",
+        "uri": "https://web.archive.org/web/20231012020705/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T02:36:24Z",
+        "uri": "https://web.archive.org/web/20231012023624/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T03:54:18Z",
+        "uri": "https://web.archive.org/web/20231012035418/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T05:33:31Z",
+        "uri": "https://web.archive.org/web/20231012053331/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T09:38:40Z",
+        "uri": "https://web.archive.org/web/20231012093840/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T09:54:46Z",
+        "uri": "https://web.archive.org/web/20231012095446/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T13:51:14Z",
+        "uri": "https://web.archive.org/web/20231012135114/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T17:19:55Z",
+        "uri": "https://web.archive.org/web/20231012171955/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T17:19:56Z",
+        "uri": "https://web.archive.org/web/20231012171956/http://foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T17:40:18Z",
+        "uri": "https://wayback.archive-it.org/all/20231012174018/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T19:09:18Z",
+        "uri": "https://web.archive.org/web/20231012190918/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T20:53:01Z",
+        "uri": "https://web.archive.org/web/20231012205301/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T22:52:09Z",
+        "uri": "https://web.archive.org/web/20231012225209/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T23:33:30Z",
+        "uri": "https://web.archive.org/web/20231012233330/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-12T23:38:55Z",
+        "uri": "https://web.archive.org/web/20231012233855/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T00:05:29Z",
+        "uri": "https://web.archive.org/web/20231013000529/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T00:06:27Z",
+        "uri": "https://web.archive.org/web/20231013000627/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T00:20:51Z",
+        "uri": "https://web.archive.org/web/20231013002051/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T02:51:21Z",
+        "uri": "https://web.archive.org/web/20231013025121/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T11:39:47Z",
+        "uri": "https://web.archive.org/web/20231013113947/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T11:56:37Z",
+        "uri": "https://web.archive.org/web/20231013115637/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T11:56:37Z",
+        "uri": "https://web.archive.org/web/20231013115637/http://foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T13:25:14Z",
+        "uri": "https://web.archive.org/web/20231013132514/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T14:26:47Z",
+        "uri": "https://web.archive.org/web/20231013142647/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T16:09:02Z",
+        "uri": "https://web.archive.org/web/20231013160902/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T17:10:27Z",
+        "uri": "https://web.archive.org/web/20231013171027/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T18:58:15Z",
+        "uri": "https://web.archive.org/web/20231013185815/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T19:10:29Z",
+        "uri": "https://web.archive.org/web/20231013191029/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T19:29:45Z",
+        "uri": "https://wayback.archive-it.org/all/20231013192945/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-13T22:07:33Z",
+        "uri": "https://web.archive.org/web/20231013220733/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-14T01:34:09Z",
+        "uri": "https://web.archive.org/web/20231014013409/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-14T01:40:00Z",
+        "uri": "https://web.archive.org/web/20231014014000/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-14T02:05:41Z",
+        "uri": "https://web.archive.org/web/20231014020541/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-14T02:06:48Z",
+        "uri": "https://web.archive.org/web/20231014020648/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-14T03:37:26Z",
+        "uri": "https://web.archive.org/web/20231014033726/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-14T05:05:44Z",
+        "uri": "https://web.archive.org/web/20231014050544/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-14T06:37:24Z",
+        "uri": "https://web.archive.org/web/20231014063724/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-14T11:22:14Z",
+        "uri": "https://web.archive.org/web/20231014112214/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-14T17:09:54Z",
+        "uri": "https://web.archive.org/web/20231014170954/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-14T18:40:08Z",
+        "uri": "https://wayback.archive-it.org/all/20231014184008/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-14T18:52:15Z",
+        "uri": "https://web.archive.org/web/20231014185215/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-14T18:52:15Z",
+        "uri": "https://web.archive.org/web/20231014185215/http://foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-15T01:07:04Z",
+        "uri": "https://web.archive.org/web/20231015010704/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-15T02:05:31Z",
+        "uri": "https://web.archive.org/web/20231015020531/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-15T13:54:55Z",
+        "uri": "https://web.archive.org/web/20231015135455/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-15T13:54:55Z",
+        "uri": "https://web.archive.org/web/20231015135455/http://foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-15T19:29:26Z",
+        "uri": "https://wayback.archive-it.org/all/20231015192926/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-16T01:27:06Z",
+        "uri": "https://web.archive.org/web/20231016012706/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-16T11:54:24Z",
+        "uri": "https://web.archive.org/web/20231016115424/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-16T15:53:03Z",
+        "uri": "https://web.archive.org/web/20231016155303/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-16T17:58:24Z",
+        "uri": "https://wayback.archive-it.org/all/20231016175824/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-16T18:10:50Z",
+        "uri": "https://web.archive.org/web/20231016181050/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-16T18:19:24Z",
+        "uri": "https://web.archive.org/web/20231016181924/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-16T20:30:28Z",
+        "uri": "https://web.archive.org/web/20231016203028/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-16T20:30:28Z",
+        "uri": "https://web.archive.org/web/20231016203028/http://foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-16T21:38:47Z",
+        "uri": "https://web.archive.org/web/20231016213847/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-16T21:54:51Z",
+        "uri": "https://web.archive.org/web/20231016215451/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-17T05:24:20Z",
+        "uri": "https://web.archive.org/web/20231017052420/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-17T05:41:04Z",
+        "uri": "https://web.archive.org/web/20231017054104/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-17T20:47:18Z",
+        "uri": "https://web.archive.org/web/20231017204718/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-17T20:47:18Z",
+        "uri": "https://web.archive.org/web/20231017204718/http://foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-17T23:53:53Z",
+        "uri": "https://web.archive.org/web/20231017235353/http://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-18T03:06:05Z",
+        "uri": "https://wayback.archive-it.org/all/20231018030605/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-18T10:21:58Z",
+        "uri": "https://web.archive.org/web/20231018102158/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-18T13:11:12Z",
+        "uri": "https://web.archive.org/web/20231018131112/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-18T15:48:59Z",
+        "uri": "https://web.archive.org/web/20231018154859/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-18T15:55:14Z",
+        "uri": "https://web.archive.org/web/20231018155514/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-18T15:56:34Z",
+        "uri": "https://web.archive.org/web/20231018155634/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-19T00:23:02Z",
+        "uri": "https://web.archive.org/web/20231019002302/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-19T00:24:00Z",
+        "uri": "https://web.archive.org/web/20231019002400/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-19T00:24:00Z",
+        "uri": "https://web.archive.org/web/20231019002400/http://foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-19T00:38:40Z",
+        "uri": "https://web.archive.org/web/20231019003840/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-19T01:36:06Z",
+        "uri": "https://wayback.archive-it.org/all/20231019013606/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-19T01:51:27Z",
+        "uri": "https://wayback.archive-it.org/all/20231019015127/http://foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-19T01:53:00Z",
+        "uri": "https://wayback.archive-it.org/all/20231019015300/https://foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-19T02:21:09Z",
+        "uri": "https://web.archive.org/web/20231019022109/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-19T04:09:49Z",
+        "uri": "https://web.archive.org/web/20231019040949/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-19T06:36:10Z",
+        "uri": "https://web.archive.org/web/20231019063610/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-19T07:38:38Z",
+        "uri": "https://web.archive.org/web/20231019073838/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-19T19:23:20Z",
+        "uri": "https://web.archive.org/web/20231019192320/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-19T19:23:20Z",
+        "uri": "https://web.archive.org/web/20231019192320/http://foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-19T22:06:12Z",
+        "uri": "https://web.archive.org/web/20231019220612/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-20T00:04:55Z",
+        "uri": "https://web.archive.org/web/20231020000455/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-20T00:10:41Z",
+        "uri": "https://web.archive.org/web/20231020001041/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-20T04:22:58Z",
+        "uri": "https://web.archive.org/web/20231020042258/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-20T05:34:22Z",
+        "uri": "https://web.archive.org/web/20231020053422/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      },
+      {
+        "datetime": "2023-10-20T05:40:01Z",
+        "uri": "https://web.archive.org/web/20231020054001/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T15:53:54Z",
+      "uri": "https://web.archive.org/web/20231010155354/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+    },
+    "last": {
+      "datetime": "2023-10-20T05:40:01Z",
+      "uri": "https://web.archive.org/web/20231020054001/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village",
+    "json_format": "http://localhost:1208/timemap/json/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.foxnews.com/world/40-babies-some-beheaded-found-israel-soldiers-hamas-attacked-village"
+}

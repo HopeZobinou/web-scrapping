@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.itsecuritynews.info/microsoft-is-phasing-out-vbscript-in-windows-to-improve-security/",
+  "self": "http://localhost:1208/timemap/json/https://www.itsecuritynews.info/microsoft-is-phasing-out-vbscript-in-windows-to-improve-security/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T08:52:09Z",
+        "uri": "https://web.archive.org/web/20231012085209/https://www.itsecuritynews.info/microsoft-is-phasing-out-vbscript-in-windows-to-improve-security/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T08:52:09Z",
+      "uri": "https://web.archive.org/web/20231012085209/https://www.itsecuritynews.info/microsoft-is-phasing-out-vbscript-in-windows-to-improve-security/"
+    },
+    "last": {
+      "datetime": "2023-10-12T08:52:09Z",
+      "uri": "https://web.archive.org/web/20231012085209/https://www.itsecuritynews.info/microsoft-is-phasing-out-vbscript-in-windows-to-improve-security/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.itsecuritynews.info/microsoft-is-phasing-out-vbscript-in-windows-to-improve-security/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.itsecuritynews.info/microsoft-is-phasing-out-vbscript-in-windows-to-improve-security/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.itsecuritynews.info/microsoft-is-phasing-out-vbscript-in-windows-to-improve-security/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.itsecuritynews.info/microsoft-is-phasing-out-vbscript-in-windows-to-improve-security/"
+}

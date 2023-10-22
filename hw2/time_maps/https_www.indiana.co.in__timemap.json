@@ -1,0 +1,586 @@
+{
+  "original_uri": "https://www.indiana.co.in/",
+  "self": "http://localhost:1208/timemap/json/https://www.indiana.co.in/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2008-02-07T22:51:19Z",
+        "uri": "https://web.archive.org/web/20080207225119/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2008-04-20T11:38:06Z",
+        "uri": "https://web.archive.org/web/20080420113806/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2009-11-23T21:43:19Z",
+        "uri": "https://web.archive.org/web/20091123214319/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2010-09-12T15:28:59Z",
+        "uri": "https://web.archive.org/web/20100912152859/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2011-06-30T13:09:36Z",
+        "uri": "https://web.archive.org/web/20110630130936/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2011-07-31T22:44:46Z",
+        "uri": "https://web.archive.org/web/20110731224446/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2011-08-31T19:50:56Z",
+        "uri": "https://web.archive.org/web/20110831195056/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2012-01-30T02:38:09Z",
+        "uri": "https://web.archive.org/web/20120130023809/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2012-05-16T23:10:32Z",
+        "uri": "https://web.archive.org/web/20120516231032/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2012-06-18T01:29:27Z",
+        "uri": "https://web.archive.org/web/20120618012927/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2012-10-28T03:56:38Z",
+        "uri": "https://web.archive.org/web/20121028035638/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2012-12-01T08:55:47Z",
+        "uri": "https://web.archive.org/web/20121201085547/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2013-01-02T17:14:04Z",
+        "uri": "https://web.archive.org/web/20130102171404/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2013-02-02T11:56:12Z",
+        "uri": "https://web.archive.org/web/20130202115612/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2013-04-28T08:19:49Z",
+        "uri": "https://web.archive.org/web/20130428081949/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2013-04-30T06:02:19Z",
+        "uri": "https://web.archive.org/web/20130430060219/http://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2013-05-24T15:42:29Z",
+        "uri": "https://web.archive.org/web/20130524154229/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2013-05-29T11:09:45Z",
+        "uri": "https://web.archive.org/web/20130529110945/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2013-07-03T20:09:19Z",
+        "uri": "https://web.archive.org/web/20130703200919/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2013-08-04T22:16:23Z",
+        "uri": "https://web.archive.org/web/20130804221623/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2013-10-09T06:22:47Z",
+        "uri": "https://web.archive.org/web/20131009062247/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2013-11-11T13:43:05Z",
+        "uri": "https://web.archive.org/web/20131111134305/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2013-12-22T08:48:57Z",
+        "uri": "https://web.archive.org/web/20131222084857/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2014-01-22T14:28:14Z",
+        "uri": "https://web.archive.org/web/20140122142814/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2014-02-22T22:43:23Z",
+        "uri": "https://web.archive.org/web/20140222224323/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2014-02-24T01:41:43Z",
+        "uri": "https://web.archive.org/web/20140224014143/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2014-05-16T19:28:27Z",
+        "uri": "https://web.archive.org/web/20140516192827/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2014-06-14T16:49:30Z",
+        "uri": "https://web.archive.org/web/20140614164930/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2014-07-26T23:41:52Z",
+        "uri": "https://web.archive.org/web/20140726234152/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2014-12-18T17:47:06Z",
+        "uri": "https://web.archive.org/web/20141218174706/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2015-09-14T21:32:54Z",
+        "uri": "https://web.archive.org/web/20150914213254/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2015-10-15T06:57:07Z",
+        "uri": "https://web.archive.org/web/20151015065707/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2015-11-15T13:26:03Z",
+        "uri": "https://web.archive.org/web/20151115132603/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2015-11-18T22:10:24Z",
+        "uri": "https://web.archive.org/web/20151118221024/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2015-12-28T10:15:24Z",
+        "uri": "https://web.archive.org/web/20151228101524/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2016-01-09T19:42:08Z",
+        "uri": "https://web.archive.org/web/20160109194208/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2016-01-28T17:49:03Z",
+        "uri": "https://web.archive.org/web/20160128174903/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2016-01-29T15:42:38Z",
+        "uri": "https://web.archive.org/web/20160129154238/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2016-03-07T22:07:09Z",
+        "uri": "https://web.archive.org/web/20160307220709/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2016-04-22T05:37:53Z",
+        "uri": "https://web.archive.org/web/20160422053753/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2016-07-12T22:59:48Z",
+        "uri": "https://web.archive.org/web/20160712225948/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2016-08-13T00:47:36Z",
+        "uri": "https://web.archive.org/web/20160813004736/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2016-09-13T23:25:10Z",
+        "uri": "https://web.archive.org/web/20160913232510/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2016-10-02T04:28:53Z",
+        "uri": "https://web.archive.org/web/20161002042853/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2017-02-13T07:29:13Z",
+        "uri": "https://web.archive.org/web/20170213072913/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2017-04-09T13:39:37Z",
+        "uri": "https://web.archive.org/web/20170409133937/http://indiana.co.in:80/?"
+      },
+      {
+        "datetime": "2017-05-09T07:33:00Z",
+        "uri": "https://web.archive.org/web/20170509073300/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2017-05-25T04:57:17Z",
+        "uri": "https://web.archive.org/web/20170525045717/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2017-06-26T06:31:41Z",
+        "uri": "https://web.archive.org/web/20170626063141/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2017-07-15T15:25:40Z",
+        "uri": "https://web.archive.org/web/20170715152540/http://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2017-07-27T05:31:52Z",
+        "uri": "https://web.archive.org/web/20170727053152/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2017-08-01T13:49:03Z",
+        "uri": "https://web.archive.org/web/20170801134903/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2017-08-27T04:49:55Z",
+        "uri": "https://web.archive.org/web/20170827044955/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2017-09-16T08:51:02Z",
+        "uri": "https://web.archive.org/web/20170916085102/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2017-09-27T08:43:55Z",
+        "uri": "https://web.archive.org/web/20170927084355/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2017-10-13T20:31:28Z",
+        "uri": "https://web.archive.org/web/20171013203128/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2017-11-24T11:20:09Z",
+        "uri": "https://web.archive.org/web/20171124112009/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2017-11-26T18:34:38Z",
+        "uri": "https://web.archive.org/web/20171126183438/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2017-12-25T15:07:34Z",
+        "uri": "https://web.archive.org/web/20171225150734/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2017-12-27T11:28:50Z",
+        "uri": "https://web.archive.org/web/20171227112850/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-01-03T18:42:17Z",
+        "uri": "https://web.archive.org/web/20180103184217/http://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2018-01-15T19:57:54Z",
+        "uri": "https://web.archive.org/web/20180115195754/http://indiana.co.in:80/?"
+      },
+      {
+        "datetime": "2018-01-25T12:41:28Z",
+        "uri": "https://web.archive.org/web/20180125124128/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-02-16T01:50:46Z",
+        "uri": "https://web.archive.org/web/20180216015046/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-02-25T21:09:20Z",
+        "uri": "https://web.archive.org/web/20180225210920/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-03-19T12:11:33Z",
+        "uri": "https://web.archive.org/web/20180319121133/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-03-25T08:47:48Z",
+        "uri": "https://web.archive.org/web/20180325084748/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2018-03-29T13:21:10Z",
+        "uri": "https://web.archive.org/web/20180329132110/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-04-19T12:21:56Z",
+        "uri": "https://web.archive.org/web/20180419122156/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-04-29T12:59:51Z",
+        "uri": "https://web.archive.org/web/20180429125951/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-05-20T05:33:06Z",
+        "uri": "https://web.archive.org/web/20180520053306/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-05-30T15:41:14Z",
+        "uri": "https://web.archive.org/web/20180530154114/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-06-22T04:25:43Z",
+        "uri": "https://web.archive.org/web/20180622042543/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-06-30T16:55:43Z",
+        "uri": "https://web.archive.org/web/20180630165543/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-07-09T12:45:43Z",
+        "uri": "https://web.archive.org/web/20180709124543/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2018-07-23T21:20:13Z",
+        "uri": "https://web.archive.org/web/20180723212013/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-07-31T16:01:49Z",
+        "uri": "https://web.archive.org/web/20180731160149/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-08-09T20:09:26Z",
+        "uri": "https://web.archive.org/web/20180809200926/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2018-08-19T02:51:01Z",
+        "uri": "https://web.archive.org/web/20180819025101/http://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2018-08-23T23:28:04Z",
+        "uri": "https://web.archive.org/web/20180823232804/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-08-31T21:25:39Z",
+        "uri": "https://web.archive.org/web/20180831212539/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-09-01T11:01:38Z",
+        "uri": "https://web.archive.org/web/20180901110138/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2018-09-24T13:15:36Z",
+        "uri": "https://web.archive.org/web/20180924131536/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-10-01T23:40:09Z",
+        "uri": "https://web.archive.org/web/20181001234009/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-10-26T08:25:25Z",
+        "uri": "https://web.archive.org/web/20181026082525/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-11-02T06:31:38Z",
+        "uri": "https://web.archive.org/web/20181102063138/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-11-04T20:56:04Z",
+        "uri": "https://web.archive.org/web/20181104205604/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2018-11-27T03:13:24Z",
+        "uri": "https://web.archive.org/web/20181127031324/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-12-03T17:24:22Z",
+        "uri": "https://web.archive.org/web/20181203172422/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2018-12-28T02:53:27Z",
+        "uri": "https://web.archive.org/web/20181228025327/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-01-04T23:51:58Z",
+        "uri": "https://web.archive.org/web/20190104235158/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-01-27T22:27:43Z",
+        "uri": "https://web.archive.org/web/20190127222743/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-02-05T05:54:36Z",
+        "uri": "https://web.archive.org/web/20190205055436/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-02-28T03:03:28Z",
+        "uri": "https://web.archive.org/web/20190228030328/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-03-31T19:03:32Z",
+        "uri": "https://web.archive.org/web/20190331190332/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-03-31T20:47:17Z",
+        "uri": "https://web.archive.org/web/20190331204717/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-05-01T19:04:18Z",
+        "uri": "https://web.archive.org/web/20190501190418/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-05-02T19:41:03Z",
+        "uri": "https://web.archive.org/web/20190502194103/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-05-02T20:35:20Z",
+        "uri": "https://web.archive.org/web/20190502203520/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-06-04T00:01:37Z",
+        "uri": "https://web.archive.org/web/20190604000137/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-07-05T15:11:28Z",
+        "uri": "https://web.archive.org/web/20190705151128/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-07-05T15:53:07Z",
+        "uri": "https://web.archive.org/web/20190705155307/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-08-06T13:23:00Z",
+        "uri": "https://web.archive.org/web/20190806132300/http://www.indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-08-06T13:37:39Z",
+        "uri": "https://web.archive.org/web/20190806133739/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2019-08-19T16:35:24Z",
+        "uri": "https://web.archive.org/web/20190819163524/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2019-09-06T04:12:35Z",
+        "uri": "https://web.archive.org/web/20190906041235/http://indiana.co.in:80/"
+      },
+      {
+        "datetime": "2020-10-06T02:18:47Z",
+        "uri": "https://web.archive.org/web/20201006021847/https://indiana.co.in/"
+      },
+      {
+        "datetime": "2020-11-01T03:38:51Z",
+        "uri": "https://web.archive.org/web/20201101033851/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2020-11-01T03:38:51Z",
+        "uri": "https://web.archive.org/web/20201101033851/http://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2020-11-01T03:38:51Z",
+        "uri": "https://web.archive.org/web/20201101033851/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2020-11-07T02:18:24Z",
+        "uri": "https://web.archive.org/web/20201107021824/http://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2020-11-08T03:59:05Z",
+        "uri": "https://web.archive.org/web/20201108035905/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2020-12-04T05:22:26Z",
+        "uri": "https://web.archive.org/web/20201204052226/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2020-12-04T05:22:26Z",
+        "uri": "https://web.archive.org/web/20201204052226/https://indiana.co.in/"
+      },
+      {
+        "datetime": "2020-12-04T05:22:26Z",
+        "uri": "https://web.archive.org/web/20201204052226/http://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2021-02-06T07:26:21Z",
+        "uri": "https://web.archive.org/web/20210206072621/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2021-07-29T19:16:29Z",
+        "uri": "https://web.archive.org/web/20210729191629/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2021-10-20T07:12:37Z",
+        "uri": "https://web.archive.org/web/20211020071237/https://indiana.co.in/"
+      },
+      {
+        "datetime": "2021-10-27T21:37:34Z",
+        "uri": "https://web.archive.org/web/20211027213734/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2021-11-27T19:40:49Z",
+        "uri": "https://web.archive.org/web/20211127194049/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2021-12-08T20:46:07Z",
+        "uri": "https://web.archive.org/web/20211208204607/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2021-12-09T09:41:02Z",
+        "uri": "https://web.archive.org/web/20211209094102/http://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2022-01-23T17:32:42Z",
+        "uri": "https://web.archive.org/web/20220123173242/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2022-03-07T22:43:54Z",
+        "uri": "https://web.archive.org/web/20220307224354/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2022-03-31T22:13:49Z",
+        "uri": "https://web.archive.org/web/20220331221349/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2022-05-26T17:49:33Z",
+        "uri": "https://web.archive.org/web/20220526174933/https://indiana.co.in/"
+      },
+      {
+        "datetime": "2022-05-28T22:10:53Z",
+        "uri": "https://web.archive.org/web/20220528221053/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2022-07-05T02:39:36Z",
+        "uri": "https://web.archive.org/web/20220705023936/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2022-08-02T19:25:36Z",
+        "uri": "https://web.archive.org/web/20220802192536/http://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2022-08-07T15:16:25Z",
+        "uri": "https://web.archive.org/web/20220807151625/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2023-01-28T10:25:45Z",
+        "uri": "https://web.archive.org/web/20230128102545/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2023-03-19T08:00:34Z",
+        "uri": "https://web.archive.org/web/20230319080034/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2023-03-19T10:56:38Z",
+        "uri": "https://web.archive.org/web/20230319105638/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2023-03-20T08:44:50Z",
+        "uri": "https://web.archive.org/web/20230320084450/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2023-03-30T10:02:03Z",
+        "uri": "https://web.archive.org/web/20230330100203/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2023-04-03T14:33:36Z",
+        "uri": "https://web.archive.org/web/20230403143336/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2023-04-06T04:03:22Z",
+        "uri": "https://web.archive.org/web/20230406040322/http://indiana.co.in/"
+      },
+      {
+        "datetime": "2023-05-27T09:26:40Z",
+        "uri": "https://web.archive.org/web/20230527092640/https://www.indiana.co.in/"
+      },
+      {
+        "datetime": "2023-06-30T08:05:37Z",
+        "uri": "https://web.archive.org/web/20230630080537/https://indiana.co.in/"
+      },
+      {
+        "datetime": "2023-06-30T08:07:22Z",
+        "uri": "https://web.archive.org/web/20230630080722/https://indiana.co.in/"
+      },
+      {
+        "datetime": "2023-06-30T08:10:00Z",
+        "uri": "https://web.archive.org/web/20230630081000/https://www.indiana.co.in/"
+      }
+    ],
+    "first": {
+      "datetime": "2008-02-07T22:51:19Z",
+      "uri": "https://web.archive.org/web/20080207225119/http://www.indiana.co.in:80/"
+    },
+    "last": {
+      "datetime": "2023-06-30T08:10:00Z",
+      "uri": "https://web.archive.org/web/20230630081000/https://www.indiana.co.in/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.indiana.co.in/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.indiana.co.in/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.indiana.co.in/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.indiana.co.in/"
+}

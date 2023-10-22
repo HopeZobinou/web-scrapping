@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.lbcgroup.tv/news/world/727272/lbci-lebanon-article/ar?utm_source=TheWALL360&utm_medium=Twitter-Sharing-TheWALL&utm_term=Twitter-Sharing-TheWALL&utm_campaign=Twitter-Sharing-TheWALL&src=twitter-share",
+  "self": "http://localhost:1208/timemap/json/https://www.lbcgroup.tv/news/world/727272/lbci-lebanon-article/ar?utm_source=TheWALL360&utm_medium=Twitter-Sharing-TheWALL&utm_term=Twitter-Sharing-TheWALL&utm_campaign=Twitter-Sharing-TheWALL&src=twitter-share",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T19:33:55Z",
+        "uri": "https://web.archive.org/web/20231011193355/https://www.lbcgroup.tv/news/world/727272/lbci-lebanon-article/ar?utm_source=TheWALL360&utm_medium=Twitter-Sharing-TheWALL&utm_term=Twitter-Sharing-TheWALL&utm_campaign=Twitter-Sharing-TheWALL&src=twitter-share"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T19:33:55Z",
+      "uri": "https://web.archive.org/web/20231011193355/https://www.lbcgroup.tv/news/world/727272/lbci-lebanon-article/ar?utm_source=TheWALL360&utm_medium=Twitter-Sharing-TheWALL&utm_term=Twitter-Sharing-TheWALL&utm_campaign=Twitter-Sharing-TheWALL&src=twitter-share"
+    },
+    "last": {
+      "datetime": "2023-10-11T19:33:55Z",
+      "uri": "https://web.archive.org/web/20231011193355/https://www.lbcgroup.tv/news/world/727272/lbci-lebanon-article/ar?utm_source=TheWALL360&utm_medium=Twitter-Sharing-TheWALL&utm_term=Twitter-Sharing-TheWALL&utm_campaign=Twitter-Sharing-TheWALL&src=twitter-share"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.lbcgroup.tv/news/world/727272/lbci-lebanon-article/ar?utm_source=TheWALL360&utm_medium=Twitter-Sharing-TheWALL&utm_term=Twitter-Sharing-TheWALL&utm_campaign=Twitter-Sharing-TheWALL&src=twitter-share",
+    "json_format": "http://localhost:1208/timemap/json/https://www.lbcgroup.tv/news/world/727272/lbci-lebanon-article/ar?utm_source=TheWALL360&utm_medium=Twitter-Sharing-TheWALL&utm_term=Twitter-Sharing-TheWALL&utm_campaign=Twitter-Sharing-TheWALL&src=twitter-share",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.lbcgroup.tv/news/world/727272/lbci-lebanon-article/ar?utm_source=TheWALL360&utm_medium=Twitter-Sharing-TheWALL&utm_term=Twitter-Sharing-TheWALL&utm_campaign=Twitter-Sharing-TheWALL&src=twitter-share"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.lbcgroup.tv/news/world/727272/lbci-lebanon-article/ar?utm_source=TheWALL360&utm_medium=Twitter-Sharing-TheWALL&utm_term=Twitter-Sharing-TheWALL&utm_campaign=Twitter-Sharing-TheWALL&src=twitter-share"
+}

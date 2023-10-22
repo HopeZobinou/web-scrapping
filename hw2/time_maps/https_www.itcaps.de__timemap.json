@@ -1,0 +1,914 @@
+{
+  "original_uri": "https://www.itcaps.de/",
+  "self": "http://localhost:1208/timemap/json/https://www.itcaps.de/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2011-05-19T22:19:45Z",
+        "uri": "https://web.archive.org/web/20110519221945/http://itcaps.de:80/"
+      },
+      {
+        "datetime": "2011-06-20T18:53:05Z",
+        "uri": "https://web.archive.org/web/20110620185305/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2011-07-22T06:32:15Z",
+        "uri": "https://web.archive.org/web/20110722063215/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2011-08-22T02:16:13Z",
+        "uri": "https://web.archive.org/web/20110822021613/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2011-09-02T03:17:12Z",
+        "uri": "https://web.archive.org/web/20110902031712/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2011-09-30T13:11:33Z",
+        "uri": "https://web.archive.org/web/20110930131133/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2011-10-31T02:12:18Z",
+        "uri": "https://web.archive.org/web/20111031021218/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2011-11-30T12:18:30Z",
+        "uri": "https://web.archive.org/web/20111130121830/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2011-12-31T03:09:02Z",
+        "uri": "https://web.archive.org/web/20111231030902/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2012-01-30T17:10:25Z",
+        "uri": "https://web.archive.org/web/20120130171025/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2012-03-06T07:47:09Z",
+        "uri": "https://web.archive.org/web/20120306074709/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2012-04-06T04:28:38Z",
+        "uri": "https://web.archive.org/web/20120406042838/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2012-05-06T22:55:40Z",
+        "uri": "https://web.archive.org/web/20120506225540/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2012-06-07T04:21:08Z",
+        "uri": "https://web.archive.org/web/20120607042108/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2012-07-08T05:06:38Z",
+        "uri": "https://web.archive.org/web/20120708050638/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2012-09-04T14:29:00Z",
+        "uri": "https://web.archive.org/web/20120904142900/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2012-10-05T05:44:37Z",
+        "uri": "https://web.archive.org/web/20121005054437/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2012-11-05T02:46:02Z",
+        "uri": "https://web.archive.org/web/20121105024602/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2012-12-11T03:18:56Z",
+        "uri": "https://web.archive.org/web/20121211031856/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2013-01-24T17:42:12Z",
+        "uri": "https://web.archive.org/web/20130124174212/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2013-03-10T10:54:18Z",
+        "uri": "https://web.archive.org/web/20130310105418/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2013-06-03T19:43:47Z",
+        "uri": "https://web.archive.org/web/20130603194347/http://itcaps.de/"
+      },
+      {
+        "datetime": "2013-09-16T09:01:01Z",
+        "uri": "https://web.archive.org/web/20130916090101/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2013-09-24T11:56:10Z",
+        "uri": "https://web.archive.org/web/20130924115610/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2013-10-20T03:37:11Z",
+        "uri": "https://web.archive.org/web/20131020033711/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2013-11-20T04:06:32Z",
+        "uri": "https://web.archive.org/web/20131120040632/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2013-12-19T13:34:42Z",
+        "uri": "https://web.archive.org/web/20131219133442/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2013-12-30T23:36:33Z",
+        "uri": "https://web.archive.org/web/20131230233633/http://itcaps.de/"
+      },
+      {
+        "datetime": "2014-01-20T00:47:30Z",
+        "uri": "https://web.archive.org/web/20140120004730/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2014-02-07T15:29:32Z",
+        "uri": "https://web.archive.org/web/20140207152932/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2014-02-19T21:39:50Z",
+        "uri": "https://web.archive.org/web/20140219213950/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2014-03-23T21:02:52Z",
+        "uri": "https://web.archive.org/web/20140323210252/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2014-04-25T03:49:28Z",
+        "uri": "https://web.archive.org/web/20140425034928/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2014-05-17T08:32:58Z",
+        "uri": "https://web.archive.org/web/20140517083258/http://itcaps.de/"
+      },
+      {
+        "datetime": "2014-07-08T11:39:59Z",
+        "uri": "https://web.archive.org/web/20140708113959/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2014-07-23T06:53:28Z",
+        "uri": "https://web.archive.org/web/20140723065328/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2014-08-11T08:49:00Z",
+        "uri": "https://web.archive.org/web/20140811084900/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2014-09-12T00:09:50Z",
+        "uri": "https://web.archive.org/web/20140912000950/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2014-12-17T11:18:01Z",
+        "uri": "https://web.archive.org/web/20141217111801/http://itcaps.de/"
+      },
+      {
+        "datetime": "2014-12-20T03:53:11Z",
+        "uri": "https://web.archive.org/web/20141220035311/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2015-02-14T12:02:15Z",
+        "uri": "https://web.archive.org/web/20150214120215/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2015-03-18T03:09:28Z",
+        "uri": "https://web.archive.org/web/20150318030928/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2015-04-16T00:30:33Z",
+        "uri": "https://web.archive.org/web/20150416003033/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2015-04-22T23:07:48Z",
+        "uri": "https://web.archive.org/web/20150422230748/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2015-05-23T23:37:01Z",
+        "uri": "https://web.archive.org/web/20150523233701/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2015-06-23T12:51:24Z",
+        "uri": "https://web.archive.org/web/20150623125124/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2015-08-01T12:22:02Z",
+        "uri": "https://web.archive.org/web/20150801122202/http://itcaps.de/"
+      },
+      {
+        "datetime": "2015-08-05T01:59:28Z",
+        "uri": "https://web.archive.org/web/20150805015928/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2015-08-26T00:19:20Z",
+        "uri": "http://archive.md/20150826001920/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2015-09-04T15:02:37Z",
+        "uri": "https://web.archive.org/web/20150904150237/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2015-09-11T19:25:33Z",
+        "uri": "https://web.archive.org/web/20150911192533/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2015-10-05T11:17:54Z",
+        "uri": "https://web.archive.org/web/20151005111754/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2015-11-05T02:19:31Z",
+        "uri": "https://web.archive.org/web/20151105021931/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2015-12-06T01:56:23Z",
+        "uri": "https://web.archive.org/web/20151206015623/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2016-01-06T07:57:23Z",
+        "uri": "https://web.archive.org/web/20160106075723/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2016-01-09T15:56:36Z",
+        "uri": "https://web.archive.org/web/20160109155636/http://itcaps.de/"
+      },
+      {
+        "datetime": "2016-01-12T05:21:48Z",
+        "uri": "https://web.archive.org/web/20160112052148/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2016-02-06T10:00:26Z",
+        "uri": "https://web.archive.org/web/20160206100026/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2016-03-04T17:20:13Z",
+        "uri": "https://web.archive.org/web/20160304172013/http://itcaps.de/"
+      },
+      {
+        "datetime": "2016-03-08T09:28:51Z",
+        "uri": "https://web.archive.org/web/20160308092851/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2016-03-10T19:02:18Z",
+        "uri": "https://web.archive.org/web/20160310190218/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2016-03-14T18:03:29Z",
+        "uri": "https://web.archive.org/web/20160314180329/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2016-04-08T17:37:11Z",
+        "uri": "https://web.archive.org/web/20160408173711/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2016-05-09T22:40:44Z",
+        "uri": "https://web.archive.org/web/20160509224044/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2016-08-09T13:55:17Z",
+        "uri": "https://web.archive.org/web/20160809135517/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2016-08-11T15:37:52Z",
+        "uri": "http://archive.md/20160811153752/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2016-08-21T23:05:32Z",
+        "uri": "http://archive.md/20160821230532/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2016-10-02T20:50:23Z",
+        "uri": "https://web.archive.org/web/20161002205023/http://itcaps.de/"
+      },
+      {
+        "datetime": "2016-10-17T23:20:12Z",
+        "uri": "https://web.archive.org/web/20161017232012/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2016-11-22T07:14:53Z",
+        "uri": "https://web.archive.org/web/20161122071453/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2016-11-29T03:58:01Z",
+        "uri": "https://web.archive.org/web/20161129035801/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2017-01-21T23:26:50Z",
+        "uri": "https://web.archive.org/web/20170121232650/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2017-02-02T06:33:10Z",
+        "uri": "https://web.archive.org/web/20170202063310/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2017-02-21T05:10:59Z",
+        "uri": "https://web.archive.org/web/20170221051059/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2017-03-28T19:01:03Z",
+        "uri": "https://web.archive.org/web/20170328190103/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2017-06-06T07:30:20Z",
+        "uri": "https://web.archive.org/web/20170606073020/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2017-06-06T08:52:03Z",
+        "uri": "https://web.archive.org/web/20170606085203/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2017-06-07T08:52:41Z",
+        "uri": "https://web.archive.org/web/20170607085241/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2017-06-10T01:16:53Z",
+        "uri": "https://web.archive.org/web/20170610011653/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2017-06-13T15:48:58Z",
+        "uri": "https://web.archive.org/web/20170613154858/http://itcaps.de/"
+      },
+      {
+        "datetime": "2017-06-24T05:56:00Z",
+        "uri": "https://web.archive.org/web/20170624055600/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2017-09-22T18:36:07Z",
+        "uri": "https://web.archive.org/web/20170922183607/http://itcaps.de/"
+      },
+      {
+        "datetime": "2017-10-14T17:07:30Z",
+        "uri": "https://web.archive.org/web/20171014170730/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2017-10-28T11:04:49Z",
+        "uri": "https://web.archive.org/web/20171028110449/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2017-12-16T10:46:38Z",
+        "uri": "https://web.archive.org/web/20171216104638/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-01-29T03:11:24Z",
+        "uri": "https://web.archive.org/web/20180129031124/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-03-13T23:21:46Z",
+        "uri": "https://web.archive.org/web/20180313232146/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-03-18T13:21:17Z",
+        "uri": "https://web.archive.org/web/20180318132117/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-03-21T22:09:40Z",
+        "uri": "https://web.archive.org/web/20180321220940/http://itcaps.de/"
+      },
+      {
+        "datetime": "2018-03-25T14:35:24Z",
+        "uri": "https://web.archive.org/web/20180325143524/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-03-31T11:02:18Z",
+        "uri": "https://web.archive.org/web/20180331110218/http://www.itcaps.de:80/"
+      },
+      {
+        "datetime": "2018-04-01T05:43:10Z",
+        "uri": "https://web.archive.org/web/20180401054310/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-04-01T14:34:00Z",
+        "uri": "https://web.archive.org/web/20180401143400/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-04-08T14:19:40Z",
+        "uri": "https://web.archive.org/web/20180408141940/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-04-09T20:08:09Z",
+        "uri": "https://web.archive.org/web/20180409200809/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-04-13T05:18:32Z",
+        "uri": "https://web.archive.org/web/20180413051832/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-04-15T14:43:56Z",
+        "uri": "https://web.archive.org/web/20180415144356/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-04-22T14:15:17Z",
+        "uri": "https://web.archive.org/web/20180422141517/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-04-29T15:04:25Z",
+        "uri": "https://web.archive.org/web/20180429150425/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-05-06T14:12:35Z",
+        "uri": "https://web.archive.org/web/20180506141235/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-05-08T06:45:42Z",
+        "uri": "https://web.archive.org/web/20180508064542/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-05-08T06:45:43Z",
+        "uri": "https://web.archive.org/web/20180508064543/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-05-08T06:45:48Z",
+        "uri": "https://web.archive.org/web/20180508064548/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-05-13T16:03:21Z",
+        "uri": "https://web.archive.org/web/20180513160321/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-05-20T19:37:48Z",
+        "uri": "https://web.archive.org/web/20180520193748/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-05-27T16:42:41Z",
+        "uri": "https://web.archive.org/web/20180527164241/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-06-01T11:19:28Z",
+        "uri": "https://web.archive.org/web/20180601111928/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-06-03T17:16:14Z",
+        "uri": "https://web.archive.org/web/20180603171614/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-06-05T13:10:37Z",
+        "uri": "https://web.archive.org/web/20180605131037/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-06-05T13:10:38Z",
+        "uri": "https://web.archive.org/web/20180605131038/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-06-05T13:10:40Z",
+        "uri": "https://web.archive.org/web/20180605131040/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-06-16T16:35:08Z",
+        "uri": "https://web.archive.org/web/20180616163508/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-06-17T13:06:13Z",
+        "uri": "https://web.archive.org/web/20180617130613/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-06-23T04:17:45Z",
+        "uri": "https://web.archive.org/web/20180623041745/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-06-24T14:07:52Z",
+        "uri": "https://web.archive.org/web/20180624140752/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-06-24T21:00:43Z",
+        "uri": "https://web.archive.org/web/20180624210043/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-06-24T21:00:44Z",
+        "uri": "https://web.archive.org/web/20180624210044/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-07-01T14:10:00Z",
+        "uri": "https://web.archive.org/web/20180701141000/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-07-08T14:18:14Z",
+        "uri": "https://web.archive.org/web/20180708141814/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-07-19T20:24:35Z",
+        "uri": "https://web.archive.org/web/20180719202435/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-07-22T14:01:49Z",
+        "uri": "https://web.archive.org/web/20180722140149/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-07-29T14:55:47Z",
+        "uri": "https://web.archive.org/web/20180729145547/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-08-04T17:44:55Z",
+        "uri": "https://web.archive.org/web/20180804174455/http://itcaps.de/"
+      },
+      {
+        "datetime": "2018-08-05T14:45:14Z",
+        "uri": "https://web.archive.org/web/20180805144514/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-08-07T16:19:29Z",
+        "uri": "https://web.archive.org/web/20180807161929/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-08-07T16:19:37Z",
+        "uri": "https://web.archive.org/web/20180807161937/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-08-12T14:30:55Z",
+        "uri": "https://web.archive.org/web/20180812143055/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-08-15T14:29:49Z",
+        "uri": "https://web.archive.org/web/20180815142949/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-08-19T15:58:52Z",
+        "uri": "https://web.archive.org/web/20180819155852/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-08-26T15:22:04Z",
+        "uri": "https://web.archive.org/web/20180826152204/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-08-26T22:04:59Z",
+        "uri": "https://web.archive.org/web/20180826220459/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-09-02T15:00:59Z",
+        "uri": "https://web.archive.org/web/20180902150059/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-09-09T14:57:03Z",
+        "uri": "https://web.archive.org/web/20180909145703/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-09-16T13:57:36Z",
+        "uri": "https://web.archive.org/web/20180916135736/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-09-24T08:32:22Z",
+        "uri": "https://web.archive.org/web/20180924083222/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-10-01T12:32:43Z",
+        "uri": "https://web.archive.org/web/20181001123243/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-10-07T14:25:29Z",
+        "uri": "https://web.archive.org/web/20181007142529/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-10-14T14:19:06Z",
+        "uri": "https://web.archive.org/web/20181014141906/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-10-21T14:10:47Z",
+        "uri": "https://web.archive.org/web/20181021141047/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-10-22T19:36:22Z",
+        "uri": "https://web.archive.org/web/20181022193622/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-10-28T14:52:08Z",
+        "uri": "https://web.archive.org/web/20181028145208/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-11-04T16:58:47Z",
+        "uri": "https://web.archive.org/web/20181104165847/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-11-11T15:08:39Z",
+        "uri": "https://web.archive.org/web/20181111150839/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-11-18T13:11:41Z",
+        "uri": "https://web.archive.org/web/20181118131141/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-11-25T14:14:44Z",
+        "uri": "https://web.archive.org/web/20181125141444/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-12-02T14:21:24Z",
+        "uri": "https://web.archive.org/web/20181202142124/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-12-09T14:55:54Z",
+        "uri": "https://web.archive.org/web/20181209145554/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-12-13T14:49:17Z",
+        "uri": "https://web.archive.org/web/20181213144917/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-12-16T13:06:32Z",
+        "uri": "https://web.archive.org/web/20181216130632/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-12-21T05:38:30Z",
+        "uri": "https://web.archive.org/web/20181221053830/http://itcaps.de/"
+      },
+      {
+        "datetime": "2018-12-23T14:45:59Z",
+        "uri": "https://web.archive.org/web/20181223144559/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-12-24T23:58:55Z",
+        "uri": "https://web.archive.org/web/20181224235855/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2018-12-30T13:39:47Z",
+        "uri": "https://web.archive.org/web/20181230133947/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-01-04T09:34:28Z",
+        "uri": "https://web.archive.org/web/20190104093428/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-01-06T13:02:07Z",
+        "uri": "https://web.archive.org/web/20190106130207/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-01-12T21:43:25Z",
+        "uri": "https://web.archive.org/web/20190112214325/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-01-13T14:21:13Z",
+        "uri": "https://web.archive.org/web/20190113142113/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-01-21T12:34:06Z",
+        "uri": "https://web.archive.org/web/20190121123406/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-01-27T14:19:15Z",
+        "uri": "https://web.archive.org/web/20190127141915/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-02-01T04:14:21Z",
+        "uri": "https://web.archive.org/web/20190201041421/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-02-03T13:31:07Z",
+        "uri": "https://web.archive.org/web/20190203133107/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-02-07T03:51:09Z",
+        "uri": "https://web.archive.org/web/20190207035109/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-02-10T14:29:24Z",
+        "uri": "https://web.archive.org/web/20190210142924/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-02-17T14:07:10Z",
+        "uri": "https://web.archive.org/web/20190217140710/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-02-24T15:43:28Z",
+        "uri": "https://web.archive.org/web/20190224154328/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-03-03T14:07:38Z",
+        "uri": "https://web.archive.org/web/20190303140738/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-03-10T14:49:25Z",
+        "uri": "https://web.archive.org/web/20190310144925/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-03-26T08:25:06Z",
+        "uri": "https://web.archive.org/web/20190326082506/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-03-30T04:39:37Z",
+        "uri": "https://web.archive.org/web/20190330043937/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-03-30T09:57:40Z",
+        "uri": "https://web.archive.org/web/20190330095740/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-03-31T12:52:19Z",
+        "uri": "https://web.archive.org/web/20190331125219/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2019-07-19T15:09:05Z",
+        "uri": "https://web.archive.org/web/20190719150905/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-04-18T11:56:47Z",
+        "uri": "https://web.archive.org/web/20200418115647/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-04-21T14:10:34Z",
+        "uri": "https://web.archive.org/web/20200421141034/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-05-27T14:45:16Z",
+        "uri": "https://web.archive.org/web/20200527144516/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-06-18T13:32:31Z",
+        "uri": "https://web.archive.org/web/20200618133231/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-07-22T22:49:20Z",
+        "uri": "https://web.archive.org/web/20200722224920/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-09-20T16:10:12Z",
+        "uri": "https://web.archive.org/web/20200920161012/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-09-22T02:25:59Z",
+        "uri": "https://web.archive.org/web/20200922022559/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-10-05T04:02:04Z",
+        "uri": "https://web.archive.org/web/20201005040204/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-10-26T03:21:50Z",
+        "uri": "https://web.archive.org/web/20201026032150/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-11-01T02:12:52Z",
+        "uri": "https://web.archive.org/web/20201101021252/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-11-01T02:21:56Z",
+        "uri": "https://web.archive.org/web/20201101022156/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-11-01T02:21:56Z",
+        "uri": "https://web.archive.org/web/20201101022156/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-11-01T03:42:54Z",
+        "uri": "https://web.archive.org/web/20201101034254/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-11-01T06:05:07Z",
+        "uri": "https://web.archive.org/web/20201101060507/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2020-11-01T06:05:07Z",
+        "uri": "https://web.archive.org/web/20201101060507/http://itcaps.de/"
+      },
+      {
+        "datetime": "2020-11-27T22:22:58Z",
+        "uri": "https://web.archive.org/web/20201127222258/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2021-01-26T14:13:59Z",
+        "uri": "https://web.archive.org/web/20210126141359/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2021-02-10T03:11:53Z",
+        "uri": "https://web.archive.org/web/20210210031153/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2021-02-24T19:50:27Z",
+        "uri": "https://web.archive.org/web/20210224195027/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2021-04-18T10:50:13Z",
+        "uri": "https://web.archive.org/web/20210418105013/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2021-06-13T19:40:12Z",
+        "uri": "https://web.archive.org/web/20210613194012/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2021-06-13T19:40:12Z",
+        "uri": "https://web.archive.org/web/20210613194012/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2021-07-26T03:36:54Z",
+        "uri": "https://web.archive.org/web/20210726033654/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2021-07-28T17:07:29Z",
+        "uri": "https://web.archive.org/web/20210728170729/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2021-12-07T09:14:56Z",
+        "uri": "https://web.archive.org/web/20211207091456/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2021-12-07T09:14:58Z",
+        "uri": "https://web.archive.org/web/20211207091458/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2021-12-08T11:24:56Z",
+        "uri": "https://web.archive.org/web/20211208112456/http://itcaps.de/"
+      },
+      {
+        "datetime": "2022-02-13T10:51:52Z",
+        "uri": "https://web.archive.org/web/20220213105152/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2022-03-22T05:03:59Z",
+        "uri": "https://web.archive.org/web/20220322050359/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2022-03-28T05:43:16Z",
+        "uri": "https://web.archive.org/web/20220328054316/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2022-04-13T09:01:44Z",
+        "uri": "https://web.archive.org/web/20220413090144/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2022-06-18T08:36:59Z",
+        "uri": "https://web.archive.org/web/20220618083659/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2022-07-12T06:17:08Z",
+        "uri": "https://web.archive.org/web/20220712061708/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2022-10-05T08:03:13Z",
+        "uri": "https://web.archive.org/web/20221005080313/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2022-11-01T17:17:31Z",
+        "uri": "https://web.archive.org/web/20221101171731/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2022-11-02T12:26:13Z",
+        "uri": "https://web.archive.org/web/20221102122613/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2022-12-07T02:31:10Z",
+        "uri": "https://web.archive.org/web/20221207023110/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2023-02-07T04:15:15Z",
+        "uri": "https://web.archive.org/web/20230207041515/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2023-02-13T06:59:29Z",
+        "uri": "https://arquivo.pt/wayback/20230213065929mp_/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2023-02-16T13:55:02Z",
+        "uri": "https://web.archive.org/web/20230216135502/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2023-02-16T13:55:02Z",
+        "uri": "https://web.archive.org/web/20230216135502/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2023-03-15T08:39:28Z",
+        "uri": "https://web.archive.org/web/20230315083928/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2023-03-20T05:12:25Z",
+        "uri": "https://web.archive.org/web/20230320051225/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2023-03-22T15:42:31Z",
+        "uri": "https://web.archive.org/web/20230322154231/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2023-03-24T21:28:16Z",
+        "uri": "https://web.archive.org/web/20230324212816/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2023-03-26T11:16:14Z",
+        "uri": "https://web.archive.org/web/20230326111614/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2023-05-07T02:16:18Z",
+        "uri": "https://web.archive.org/web/20230507021618/http://www.itcaps.de/"
+      },
+      {
+        "datetime": "2023-05-11T23:30:29Z",
+        "uri": "https://web.archive.org/web/20230511233029/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2023-05-14T11:17:54Z",
+        "uri": "https://web.archive.org/web/20230514111754/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2023-06-05T13:32:34Z",
+        "uri": "https://web.archive.org/web/20230605133234/https://www.itcaps.de/"
+      },
+      {
+        "datetime": "2023-06-06T12:05:56Z",
+        "uri": "https://web.archive.org/web/20230606120556/https://www.itcaps.de/"
+      }
+    ],
+    "first": {
+      "datetime": "2011-05-19T22:19:45Z",
+      "uri": "https://web.archive.org/web/20110519221945/http://itcaps.de:80/"
+    },
+    "last": {
+      "datetime": "2023-06-06T12:05:56Z",
+      "uri": "https://web.archive.org/web/20230606120556/https://www.itcaps.de/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.itcaps.de/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.itcaps.de/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.itcaps.de/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.itcaps.de/"
+}

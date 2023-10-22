@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.instagram.com/luckycommodity123/",
+  "self": "http://localhost:1208/timemap/json/https://www.instagram.com/luckycommodity123/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-04-05T07:28:59Z",
+        "uri": "https://web.archive.org/web/20230405072859/https://www.instagram.com/luckycommodity123/"
+      },
+      {
+        "datetime": "2023-04-05T09:50:25Z",
+        "uri": "https://web.archive.org/web/20230405095025/https://www.instagram.com/luckycommodity123/"
+      },
+      {
+        "datetime": "2023-04-05T21:02:09Z",
+        "uri": "https://web.archive.org/web/20230405210209/https://www.instagram.com/luckycommodity123/"
+      },
+      {
+        "datetime": "2023-04-20T06:30:35Z",
+        "uri": "https://web.archive.org/web/20230420063035/https://www.instagram.com/luckycommodity123/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-04-05T07:28:59Z",
+      "uri": "https://web.archive.org/web/20230405072859/https://www.instagram.com/luckycommodity123/"
+    },
+    "last": {
+      "datetime": "2023-04-20T06:30:35Z",
+      "uri": "https://web.archive.org/web/20230420063035/https://www.instagram.com/luckycommodity123/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.instagram.com/luckycommodity123/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.instagram.com/luckycommodity123/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.instagram.com/luckycommodity123/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.instagram.com/luckycommodity123/"
+}

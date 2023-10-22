@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted",
+  "self": "http://localhost:1208/timemap/json/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-06T14:03:36Z",
+        "uri": "https://web.archive.org/web/20231006140336/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted"
+      },
+      {
+        "datetime": "2023-10-07T03:23:03Z",
+        "uri": "https://web.archive.org/web/20231007032303/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted"
+      },
+      {
+        "datetime": "2023-10-07T10:21:23Z",
+        "uri": "https://web.archive.org/web/20231007102123/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted"
+      },
+      {
+        "datetime": "2023-10-10T00:33:59Z",
+        "uri": "https://web.archive.org/web/20231010003359/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted"
+      },
+      {
+        "datetime": "2023-10-10T00:40:27Z",
+        "uri": "https://web.archive.org/web/20231010004027/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted"
+      },
+      {
+        "datetime": "2023-10-10T10:54:42Z",
+        "uri": "https://web.archive.org/web/20231010105442/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted"
+      },
+      {
+        "datetime": "2023-10-10T11:25:41Z",
+        "uri": "https://web.archive.org/web/20231010112541/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted"
+      },
+      {
+        "datetime": "2023-10-12T00:52:32Z",
+        "uri": "https://web.archive.org/web/20231012005232/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted"
+      },
+      {
+        "datetime": "2023-10-12T11:33:42Z",
+        "uri": "https://web.archive.org/web/20231012113342/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted"
+      },
+      {
+        "datetime": "2023-10-15T15:55:38Z",
+        "uri": "https://web.archive.org/web/20231015155538/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-06T14:03:36Z",
+      "uri": "https://web.archive.org/web/20231006140336/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted"
+    },
+    "last": {
+      "datetime": "2023-10-15T15:55:38Z",
+      "uri": "https://web.archive.org/web/20231015155538/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted",
+    "json_format": "http://localhost:1208/timemap/json/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.justice.gov/opa/pr/woman-pleads-guilty-359m-fraud-involving-claims-unnecessary-respiratory-tests-submitted"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.iwradio.co.uk/news/isle-of-wight-news/isle-of-wight-project-to-help-struggling-families-now-in-jeopardy/?utm_source=dlvr.it&utm_medium=twitter",
+  "self": "http://localhost:1208/timemap/json/https://www.iwradio.co.uk/news/isle-of-wight-news/isle-of-wight-project-to-help-struggling-families-now-in-jeopardy/?utm_source=dlvr.it&utm_medium=twitter",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-14T11:45:54Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231014114554mp_/https://www.iwradio.co.uk/news/isle-of-wight-news/isle-of-wight-project-to-help-struggling-families-now-in-jeopardy/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-14T11:45:54Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20231014114554mp_/https://www.iwradio.co.uk/news/isle-of-wight-news/isle-of-wight-project-to-help-struggling-families-now-in-jeopardy/"
+    },
+    "last": {
+      "datetime": "2023-10-14T11:45:54Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20231014114554mp_/https://www.iwradio.co.uk/news/isle-of-wight-news/isle-of-wight-project-to-help-struggling-families-now-in-jeopardy/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.iwradio.co.uk/news/isle-of-wight-news/isle-of-wight-project-to-help-struggling-families-now-in-jeopardy/?utm_source=dlvr.it&utm_medium=twitter",
+    "json_format": "http://localhost:1208/timemap/json/https://www.iwradio.co.uk/news/isle-of-wight-news/isle-of-wight-project-to-help-struggling-families-now-in-jeopardy/?utm_source=dlvr.it&utm_medium=twitter",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.iwradio.co.uk/news/isle-of-wight-news/isle-of-wight-project-to-help-struggling-families-now-in-jeopardy/?utm_source=dlvr.it&utm_medium=twitter"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.iwradio.co.uk/news/isle-of-wight-news/isle-of-wight-project-to-help-struggling-families-now-in-jeopardy/?utm_source=dlvr.it&utm_medium=twitter"
+}

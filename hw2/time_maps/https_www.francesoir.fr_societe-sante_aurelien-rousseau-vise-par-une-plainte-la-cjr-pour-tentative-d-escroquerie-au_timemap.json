@@ -1,0 +1,86 @@
+{
+  "original_uri": "https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au",
+  "self": "http://localhost:1208/timemap/json/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-06T23:40:06Z",
+        "uri": "https://web.archive.org/web/20231006234006/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-06T23:48:35Z",
+        "uri": "http://archive.md/20231006234835/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-07T02:11:01Z",
+        "uri": "https://web.archive.org/web/20231007021101/http://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-07T03:20:11Z",
+        "uri": "https://web.archive.org/web/20231007032011/http://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-07T05:40:54Z",
+        "uri": "https://web.archive.org/web/20231007054054/http://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-07T06:00:22Z",
+        "uri": "http://archive.md/20231007060022/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-07T06:47:37Z",
+        "uri": "https://web.archive.org/web/20231007064737/http://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-09T14:59:29Z",
+        "uri": "https://web.archive.org/web/20231009145929/http://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-10T04:11:13Z",
+        "uri": "https://web.archive.org/web/20231010041113/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-10T17:36:16Z",
+        "uri": "https://web.archive.org/web/20231010173616/http://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-10T22:54:09Z",
+        "uri": "https://web.archive.org/web/20231010225409/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-11T15:40:12Z",
+        "uri": "https://web.archive.org/web/20231011154012/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-11T17:11:30Z",
+        "uri": "https://web.archive.org/web/20231011171130/http://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-12T15:23:04Z",
+        "uri": "https://web.archive.org/web/20231012152304/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-13T22:35:18Z",
+        "uri": "https://web.archive.org/web/20231013223518/http://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      },
+      {
+        "datetime": "2023-10-19T18:10:25Z",
+        "uri": "https://web.archive.org/web/20231019181025/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-06T23:40:06Z",
+      "uri": "https://web.archive.org/web/20231006234006/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+    },
+    "last": {
+      "datetime": "2023-10-19T18:10:25Z",
+      "uri": "https://web.archive.org/web/20231019181025/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au",
+    "json_format": "http://localhost:1208/timemap/json/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.francesoir.fr/societe-sante/aurelien-rousseau-vise-par-une-plainte-la-cjr-pour-tentative-d-escroquerie-au"
+}
