@@ -3,7 +3,7 @@
 ### DATA 440, Fall 2023 
 ### 10/10/2023
 
-# Q1: Collect URIs from Tweets
+# Q1: Collect URIs from Tweets 
 Extract 1000 unique links from tweets in Twitter. 
 
 Main steps:
