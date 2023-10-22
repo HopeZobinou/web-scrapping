@@ -126,7 +126,7 @@ if __name__ == "__main__":
 
 ## Discussion
 
-At first, I had all the links on a txt file and in order for me to get time maps from them I had to store them into a list on Python and perform the time map commands on each individual element in said list. I created a function that opens the txt file and appends an empty list with each line on the txt file. Next, I created a function that iterates over a list and performs memgator on each element. Since memgator only works on the command line I used the subprocess library to perform command line arguments in the python script—reference 3.
+At first, I had all the links on a txt file and in order for me to get time maps from them I had to store them into a list on Python and perform the time map commands on each individual element in said list. I created a function that opens the txt file and appends an empty list with each line on the txt file. Next, I created a function that iterates over a list and performs memgator on each element. Since memgator only works on the command line I used the subprocess library to perform command line arguments in the python script—reference 3. I was only able to obtain 976 time maps. The missing time maps are due to the link just not working with memgator, a timeout error, or that link being a git link. The folder labeled time_maps contains 974 time maps. I had to remove 2 due to them being too big to upload.
 
 # References
 
