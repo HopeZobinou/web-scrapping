@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://covid-19-159.creator-spring.com/listing/i-survived-coronavirus-20-2426?product=2&variation=573",
+  "self": "http://localhost:1208/timemap/json/https://covid-19-159.creator-spring.com/listing/i-survived-coronavirus-20-2426?product=2&variation=573",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2022-03-20T06:26:25Z",
+        "uri": "https://web.archive.org/web/20220320062625/https://covid-19-159.creator-spring.com/listing/i-survived-coronavirus-20-2426?product=2&variation=573"
+      }
+    ],
+    "first": {
+      "datetime": "2022-03-20T06:26:25Z",
+      "uri": "https://web.archive.org/web/20220320062625/https://covid-19-159.creator-spring.com/listing/i-survived-coronavirus-20-2426?product=2&variation=573"
+    },
+    "last": {
+      "datetime": "2022-03-20T06:26:25Z",
+      "uri": "https://web.archive.org/web/20220320062625/https://covid-19-159.creator-spring.com/listing/i-survived-coronavirus-20-2426?product=2&variation=573"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://covid-19-159.creator-spring.com/listing/i-survived-coronavirus-20-2426?product=2&variation=573",
+    "json_format": "http://localhost:1208/timemap/json/https://covid-19-159.creator-spring.com/listing/i-survived-coronavirus-20-2426?product=2&variation=573",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://covid-19-159.creator-spring.com/listing/i-survived-coronavirus-20-2426?product=2&variation=573"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://covid-19-159.creator-spring.com/listing/i-survived-coronavirus-20-2426?product=2&variation=573"
+}

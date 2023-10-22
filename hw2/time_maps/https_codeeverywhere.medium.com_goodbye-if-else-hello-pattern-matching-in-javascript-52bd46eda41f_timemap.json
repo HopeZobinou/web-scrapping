@@ -1,0 +1,94 @@
+{
+  "original_uri": "https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f",
+  "self": "http://localhost:1208/timemap/json/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-09T05:55:28Z",
+        "uri": "http://archive.md/20231009055528/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-09T17:39:12Z",
+        "uri": "https://web.archive.org/web/20231009173912/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-10T07:00:34Z",
+        "uri": "http://archive.md/20231010070034/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-11T03:53:16Z",
+        "uri": "http://archive.md/20231011035316/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-12T06:02:01Z",
+        "uri": "https://web.archive.org/web/20231012060201/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-12T23:30:24Z",
+        "uri": "https://wayback.archive-it.org/all/20231012233024/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-13T00:34:20Z",
+        "uri": "https://web.archive.org/web/20231013003420/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-13T10:11:25Z",
+        "uri": "https://wayback.archive-it.org/all/20231013101125/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-14T01:28:41Z",
+        "uri": "https://wayback.archive-it.org/all/20231014012841/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-14T01:41:22Z",
+        "uri": "https://web.archive.org/web/20231014014122/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-14T13:56:43Z",
+        "uri": "https://wayback.archive-it.org/all/20231014135643/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-14T21:53:22Z",
+        "uri": "https://wayback.archive-it.org/all/20231014215322/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-15T02:34:40Z",
+        "uri": "https://wayback.archive-it.org/all/20231015023440/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-15T09:12:27Z",
+        "uri": "https://wayback.archive-it.org/all/20231015091227/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-15T21:53:13Z",
+        "uri": "https://wayback.archive-it.org/all/20231015215313/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-16T08:52:37Z",
+        "uri": "https://wayback.archive-it.org/all/20231016085237/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-17T02:03:02Z",
+        "uri": "https://wayback.archive-it.org/all/20231017020302/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      },
+      {
+        "datetime": "2023-10-17T23:44:58Z",
+        "uri": "https://wayback.archive-it.org/all/20231017234458/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-09T05:55:28Z",
+      "uri": "http://archive.md/20231009055528/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+    },
+    "last": {
+      "datetime": "2023-10-17T23:44:58Z",
+      "uri": "https://wayback.archive-it.org/all/20231017234458/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f",
+    "json_format": "http://localhost:1208/timemap/json/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://codeeverywhere.medium.com/goodbye-if-else-hello-pattern-matching-in-javascript-52bd46eda41f"
+}

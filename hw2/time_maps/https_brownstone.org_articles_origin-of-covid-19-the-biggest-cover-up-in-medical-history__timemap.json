@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://brownstone.org/articles/origin-of-covid-19-the-biggest-cover-up-in-medical-history/",
+  "self": "http://localhost:1208/timemap/json/https://brownstone.org/articles/origin-of-covid-19-the-biggest-cover-up-in-medical-history/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T01:14:03Z",
+        "uri": "https://web.archive.org/web/20231010011403/https://brownstone.org/articles/origin-of-covid-19-the-biggest-cover-up-in-medical-history/"
+      },
+      {
+        "datetime": "2023-10-10T20:42:20Z",
+        "uri": "https://web.archive.org/web/20231010204220/https://brownstone.org/articles/origin-of-covid-19-the-biggest-cover-up-in-medical-history/"
+      },
+      {
+        "datetime": "2023-10-12T06:01:41Z",
+        "uri": "https://web.archive.org/web/20231012060141/https://brownstone.org/articles/origin-of-covid-19-the-biggest-cover-up-in-medical-history/"
+      },
+      {
+        "datetime": "2023-10-15T05:45:07Z",
+        "uri": "https://wayback.archive-it.org/all/20231015054507/https://brownstone.org/articles/origin-of-covid-19-the-biggest-cover-up-in-medical-history/"
+      },
+      {
+        "datetime": "2023-10-16T09:31:13Z",
+        "uri": "https://web.archive.org/web/20231016093113/https://brownstone.org/articles/origin-of-covid-19-the-biggest-cover-up-in-medical-history/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T01:14:03Z",
+      "uri": "https://web.archive.org/web/20231010011403/https://brownstone.org/articles/origin-of-covid-19-the-biggest-cover-up-in-medical-history/"
+    },
+    "last": {
+      "datetime": "2023-10-16T09:31:13Z",
+      "uri": "https://web.archive.org/web/20231016093113/https://brownstone.org/articles/origin-of-covid-19-the-biggest-cover-up-in-medical-history/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://brownstone.org/articles/origin-of-covid-19-the-biggest-cover-up-in-medical-history/",
+    "json_format": "http://localhost:1208/timemap/json/https://brownstone.org/articles/origin-of-covid-19-the-biggest-cover-up-in-medical-history/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://brownstone.org/articles/origin-of-covid-19-the-biggest-cover-up-in-medical-history/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://brownstone.org/articles/origin-of-covid-19-the-biggest-cover-up-in-medical-history/"
+}
