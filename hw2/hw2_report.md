@@ -62,7 +62,7 @@ class. Reference 1 & 2. The functions to get the tweets are from him. For some r
 so I made the program collect the links in a list and print them to the screen. After that, I copied the links that weren't video/audio
 related or links that linked to twitter and pasted them into Notepad++. In Notepad++, I got rid of the duplicate links.
 
-### Q2. Get TimeMaps for Each URI (2 points)
+### Q2. Get TimeMaps for Each URI
 
 Obtain the [TimeMaps](http://www.mementoweb.org/guide/quick-intro/) for each of the unique URIs from Q1 using the ODU Memento Aggregator, [MemGator](https://github.com/oduwsdl/MemGator).
 
