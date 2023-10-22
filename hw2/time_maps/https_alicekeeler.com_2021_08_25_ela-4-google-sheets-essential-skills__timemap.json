@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/",
+  "self": "http://localhost:1208/timemap/json/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2021-08-25T18:47:59Z",
+        "uri": "https://web.archive.org/web/20210825184759/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/"
+      },
+      {
+        "datetime": "2021-08-26T02:28:51Z",
+        "uri": "https://web.archive.org/web/20210826022851/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/"
+      },
+      {
+        "datetime": "2021-09-11T11:14:10Z",
+        "uri": "https://wayback.archive-it.org/all/20210911111410/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/"
+      },
+      {
+        "datetime": "2021-09-11T11:14:10Z",
+        "uri": "https://web.archive.org/web/20210911111410/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/"
+      },
+      {
+        "datetime": "2021-09-16T22:12:49Z",
+        "uri": "https://web.archive.org/web/20210916221249/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/"
+      },
+      {
+        "datetime": "2021-11-27T11:53:42Z",
+        "uri": "https://web.archive.org/web/20211127115342/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/"
+      },
+      {
+        "datetime": "2022-05-19T18:54:21Z",
+        "uri": "https://web.archive.org/web/20220519185421/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/"
+      },
+      {
+        "datetime": "2022-10-06T11:06:14Z",
+        "uri": "https://web.archive.org/web/20221006110614/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/"
+      },
+      {
+        "datetime": "2023-02-06T19:42:51Z",
+        "uri": "https://web.archive.org/web/20230206194251/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/"
+      }
+    ],
+    "first": {
+      "datetime": "2021-08-25T18:47:59Z",
+      "uri": "https://web.archive.org/web/20210825184759/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/"
+    },
+    "last": {
+      "datetime": "2023-02-06T19:42:51Z",
+      "uri": "https://web.archive.org/web/20230206194251/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/",
+    "json_format": "http://localhost:1208/timemap/json/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://alicekeeler.com/2021/08/25/ela-4-google-sheets-essential-skills/"
+}

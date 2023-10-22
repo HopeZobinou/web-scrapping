@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://athemeart.com/blog/carpentry-wordpress-themes/",
+  "self": "http://localhost:1208/timemap/json/https://athemeart.com/blog/carpentry-wordpress-themes/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T13:40:22Z",
+        "uri": "https://web.archive.org/web/20231011134022/https://athemeart.com/blog/carpentry-wordpress-themes/"
+      },
+      {
+        "datetime": "2023-10-12T10:20:44Z",
+        "uri": "https://web.archive.org/web/20231012102044/https://athemeart.com/blog/carpentry-wordpress-themes/"
+      },
+      {
+        "datetime": "2023-10-14T10:36:52Z",
+        "uri": "https://web.archive.org/web/20231014103652/https://athemeart.com/blog/carpentry-wordpress-themes/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T13:40:22Z",
+      "uri": "https://web.archive.org/web/20231011134022/https://athemeart.com/blog/carpentry-wordpress-themes/"
+    },
+    "last": {
+      "datetime": "2023-10-14T10:36:52Z",
+      "uri": "https://web.archive.org/web/20231014103652/https://athemeart.com/blog/carpentry-wordpress-themes/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://athemeart.com/blog/carpentry-wordpress-themes/",
+    "json_format": "http://localhost:1208/timemap/json/https://athemeart.com/blog/carpentry-wordpress-themes/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://athemeart.com/blog/carpentry-wordpress-themes/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://athemeart.com/blog/carpentry-wordpress-themes/"
+}
