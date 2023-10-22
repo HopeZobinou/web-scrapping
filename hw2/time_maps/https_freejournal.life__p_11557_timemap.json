@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://freejournal.life/?p=11557",
+  "self": "http://localhost:1208/timemap/json/https://freejournal.life/?p=11557",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-05-14T06:45:57Z",
+        "uri": "https://web.archive.org/web/20230514064557/https://freejournal.life/?p=11557"
+      }
+    ],
+    "first": {
+      "datetime": "2023-05-14T06:45:57Z",
+      "uri": "https://web.archive.org/web/20230514064557/https://freejournal.life/?p=11557"
+    },
+    "last": {
+      "datetime": "2023-05-14T06:45:57Z",
+      "uri": "https://web.archive.org/web/20230514064557/https://freejournal.life/?p=11557"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://freejournal.life/?p=11557",
+    "json_format": "http://localhost:1208/timemap/json/https://freejournal.life/?p=11557",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://freejournal.life/?p=11557"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://freejournal.life/?p=11557"
+}

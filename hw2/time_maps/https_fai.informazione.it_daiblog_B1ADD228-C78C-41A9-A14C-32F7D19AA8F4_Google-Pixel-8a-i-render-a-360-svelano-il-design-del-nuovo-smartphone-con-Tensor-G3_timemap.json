@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://fai.informazione.it/daiblog/B1ADD228-C78C-41A9-A14C-32F7D19AA8F4/Google-Pixel-8a-i-render-a-360-svelano-il-design-del-nuovo-smartphone-con-Tensor-G3",
+  "self": "http://localhost:1208/timemap/json/https://fai.informazione.it/daiblog/B1ADD228-C78C-41A9-A14C-32F7D19AA8F4/Google-Pixel-8a-i-render-a-360-svelano-il-design-del-nuovo-smartphone-con-Tensor-G3",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T05:02:06Z",
+        "uri": "https://web.archive.org/web/20231011050206/https://fai.informazione.it/daiblog/B1ADD228-C78C-41A9-A14C-32F7D19AA8F4/Google-Pixel-8a-i-render-a-360-svelano-il-design-del-nuovo-smartphone-con-Tensor-G3"
+      },
+      {
+        "datetime": "2023-10-11T06:09:52Z",
+        "uri": "https://web.archive.org/web/20231011060952/https://fai.informazione.it/daiblog/B1ADD228-C78C-41A9-A14C-32F7D19AA8F4/Google-Pixel-8a-i-render-a-360-svelano-il-design-del-nuovo-smartphone-con-Tensor-G3"
+      },
+      {
+        "datetime": "2023-10-13T00:34:49Z",
+        "uri": "https://web.archive.org/web/20231013003449/https://fai.informazione.it/daiblog/B1ADD228-C78C-41A9-A14C-32F7D19AA8F4/Google-Pixel-8a-i-render-a-360-svelano-il-design-del-nuovo-smartphone-con-Tensor-G3"
+      },
+      {
+        "datetime": "2023-10-16T09:28:48Z",
+        "uri": "https://web.archive.org/web/20231016092848/https://fai.informazione.it/daiblog/B1ADD228-C78C-41A9-A14C-32F7D19AA8F4/Google-Pixel-8a-i-render-a-360-svelano-il-design-del-nuovo-smartphone-con-Tensor-G3"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T05:02:06Z",
+      "uri": "https://web.archive.org/web/20231011050206/https://fai.informazione.it/daiblog/B1ADD228-C78C-41A9-A14C-32F7D19AA8F4/Google-Pixel-8a-i-render-a-360-svelano-il-design-del-nuovo-smartphone-con-Tensor-G3"
+    },
+    "last": {
+      "datetime": "2023-10-16T09:28:48Z",
+      "uri": "https://web.archive.org/web/20231016092848/https://fai.informazione.it/daiblog/B1ADD228-C78C-41A9-A14C-32F7D19AA8F4/Google-Pixel-8a-i-render-a-360-svelano-il-design-del-nuovo-smartphone-con-Tensor-G3"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://fai.informazione.it/daiblog/B1ADD228-C78C-41A9-A14C-32F7D19AA8F4/Google-Pixel-8a-i-render-a-360-svelano-il-design-del-nuovo-smartphone-con-Tensor-G3",
+    "json_format": "http://localhost:1208/timemap/json/https://fai.informazione.it/daiblog/B1ADD228-C78C-41A9-A14C-32F7D19AA8F4/Google-Pixel-8a-i-render-a-360-svelano-il-design-del-nuovo-smartphone-con-Tensor-G3",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://fai.informazione.it/daiblog/B1ADD228-C78C-41A9-A14C-32F7D19AA8F4/Google-Pixel-8a-i-render-a-360-svelano-il-design-del-nuovo-smartphone-con-Tensor-G3"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://fai.informazione.it/daiblog/B1ADD228-C78C-41A9-A14C-32F7D19AA8F4/Google-Pixel-8a-i-render-a-360-svelano-il-design-del-nuovo-smartphone-con-Tensor-G3"
+}

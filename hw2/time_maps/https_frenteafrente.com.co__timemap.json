@@ -1,0 +1,182 @@
+{
+  "original_uri": "https://frenteafrente.com.co/",
+  "self": "http://localhost:1208/timemap/json/https://frenteafrente.com.co/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2021-01-23T18:53:00Z",
+        "uri": "https://web.archive.org/web/20210123185300/http://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2021-01-23T18:53:00Z",
+        "uri": "https://web.archive.org/web/20210123185300/http://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2021-01-29T01:27:10Z",
+        "uri": "https://web.archive.org/web/20210129012710/http://www.frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2021-01-29T01:27:11Z",
+        "uri": "https://web.archive.org/web/20210129012711/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2021-06-13T05:07:31Z",
+        "uri": "https://web.archive.org/web/20210613050731/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2021-06-13T05:07:31Z",
+        "uri": "https://web.archive.org/web/20210613050731/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2021-08-02T08:56:46Z",
+        "uri": "https://web.archive.org/web/20210802085646/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2021-08-16T13:05:27Z",
+        "uri": "https://web.archive.org/web/20210816130527/http://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2021-08-21T11:09:30Z",
+        "uri": "https://web.archive.org/web/20210821110930/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2021-09-27T22:21:22Z",
+        "uri": "https://web.archive.org/web/20210927222122/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2021-10-28T01:42:20Z",
+        "uri": "https://web.archive.org/web/20211028014220/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2021-12-02T18:50:43Z",
+        "uri": "https://web.archive.org/web/20211202185043/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2021-12-04T08:17:32Z",
+        "uri": "https://web.archive.org/web/20211204081732/http://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-01-05T00:13:55Z",
+        "uri": "https://web.archive.org/web/20220105001355/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-01-24T00:19:51Z",
+        "uri": "https://web.archive.org/web/20220124001951/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-01-24T01:33:58Z",
+        "uri": "https://web.archive.org/web/20220124013358/https://frenteafrente.com.co"
+      },
+      {
+        "datetime": "2022-02-02T20:17:27Z",
+        "uri": "https://web.archive.org/web/20220202201727/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-03-01T00:06:56Z",
+        "uri": "https://web.archive.org/web/20220301000656/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-04-01T00:04:19Z",
+        "uri": "https://web.archive.org/web/20220401000419/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-05-02T23:44:54Z",
+        "uri": "https://web.archive.org/web/20220502234454/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-06-01T00:51:46Z",
+        "uri": "https://web.archive.org/web/20220601005146/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-06-24T00:06:48Z",
+        "uri": "https://web.archive.org/web/20220624000648/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-07-01T01:57:20Z",
+        "uri": "https://web.archive.org/web/20220701015720/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-08-02T01:39:23Z",
+        "uri": "https://web.archive.org/web/20220802013923/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-09-01T01:50:07Z",
+        "uri": "https://web.archive.org/web/20220901015007/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-10-01T00:01:55Z",
+        "uri": "https://web.archive.org/web/20221001000155/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-11-01T00:01:39Z",
+        "uri": "https://web.archive.org/web/20221101000139/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-12-01T09:57:04Z",
+        "uri": "https://web.archive.org/web/20221201095704/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-12-11T01:33:14Z",
+        "uri": "https://web.archive.org/web/20221211013314/http://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2022-12-11T01:33:17Z",
+        "uri": "https://web.archive.org/web/20221211013317/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2023-03-07T10:41:30Z",
+        "uri": "https://web.archive.org/web/20230307104130/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2023-04-08T13:23:54Z",
+        "uri": "https://web.archive.org/web/20230408132354/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2023-04-10T17:30:17Z",
+        "uri": "https://web.archive.org/web/20230410173017/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2023-04-10T17:30:17Z",
+        "uri": "https://web.archive.org/web/20230410173017/http://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2023-04-10T19:18:37Z",
+        "uri": "https://web.archive.org/web/20230410191837/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2023-05-02T00:54:10Z",
+        "uri": "https://web.archive.org/web/20230502005410/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2023-05-02T08:16:09Z",
+        "uri": "https://web.archive.org/web/20230502081609/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2023-06-02T11:24:06Z",
+        "uri": "https://web.archive.org/web/20230602112406/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2023-06-24T16:42:54Z",
+        "uri": "https://web.archive.org/web/20230624164254/https://frenteafrente.com.co/"
+      },
+      {
+        "datetime": "2023-07-02T04:14:31Z",
+        "uri": "https://web.archive.org/web/20230702041431/https://frenteafrente.com.co/"
+      }
+    ],
+    "first": {
+      "datetime": "2021-01-23T18:53:00Z",
+      "uri": "https://web.archive.org/web/20210123185300/http://frenteafrente.com.co/"
+    },
+    "last": {
+      "datetime": "2023-07-02T04:14:31Z",
+      "uri": "https://web.archive.org/web/20230702041431/https://frenteafrente.com.co/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://frenteafrente.com.co/",
+    "json_format": "http://localhost:1208/timemap/json/https://frenteafrente.com.co/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://frenteafrente.com.co/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://frenteafrente.com.co/"
+}
