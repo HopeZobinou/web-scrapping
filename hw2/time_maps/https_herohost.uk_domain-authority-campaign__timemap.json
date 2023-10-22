@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://herohost.uk/domain-authority-campaign/",
+  "self": "http://localhost:1208/timemap/json/https://herohost.uk/domain-authority-campaign/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-06-24T19:49:22Z",
+        "uri": "https://web.archive.org/web/20230624194922/https://herohost.uk/domain-authority-campaign/"
+      },
+      {
+        "datetime": "2023-06-24T21:15:29Z",
+        "uri": "https://web.archive.org/web/20230624211529/https://herohost.uk/domain-authority-campaign/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-06-24T19:49:22Z",
+      "uri": "https://web.archive.org/web/20230624194922/https://herohost.uk/domain-authority-campaign/"
+    },
+    "last": {
+      "datetime": "2023-06-24T21:15:29Z",
+      "uri": "https://web.archive.org/web/20230624211529/https://herohost.uk/domain-authority-campaign/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://herohost.uk/domain-authority-campaign/",
+    "json_format": "http://localhost:1208/timemap/json/https://herohost.uk/domain-authority-campaign/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://herohost.uk/domain-authority-campaign/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://herohost.uk/domain-authority-campaign/"
+}

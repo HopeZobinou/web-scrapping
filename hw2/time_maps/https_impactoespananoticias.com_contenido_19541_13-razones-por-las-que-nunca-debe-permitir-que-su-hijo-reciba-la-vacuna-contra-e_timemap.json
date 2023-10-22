@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://impactoespananoticias.com/contenido/19541/13-razones-por-las-que-nunca-debe-permitir-que-su-hijo-reciba-la-vacuna-contra-e",
+  "self": "http://localhost:1208/timemap/json/https://impactoespananoticias.com/contenido/19541/13-razones-por-las-que-nunca-debe-permitir-que-su-hijo-reciba-la-vacuna-contra-e",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-18T22:58:43Z",
+        "uri": "https://web.archive.org/web/20231018225843/https://impactoespananoticias.com/contenido/19541/13-razones-por-las-que-nunca-debe-permitir-que-su-hijo-reciba-la-vacuna-contra-e"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-18T22:58:43Z",
+      "uri": "https://web.archive.org/web/20231018225843/https://impactoespananoticias.com/contenido/19541/13-razones-por-las-que-nunca-debe-permitir-que-su-hijo-reciba-la-vacuna-contra-e"
+    },
+    "last": {
+      "datetime": "2023-10-18T22:58:43Z",
+      "uri": "https://web.archive.org/web/20231018225843/https://impactoespananoticias.com/contenido/19541/13-razones-por-las-que-nunca-debe-permitir-que-su-hijo-reciba-la-vacuna-contra-e"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://impactoespananoticias.com/contenido/19541/13-razones-por-las-que-nunca-debe-permitir-que-su-hijo-reciba-la-vacuna-contra-e",
+    "json_format": "http://localhost:1208/timemap/json/https://impactoespananoticias.com/contenido/19541/13-razones-por-las-que-nunca-debe-permitir-que-su-hijo-reciba-la-vacuna-contra-e",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://impactoespananoticias.com/contenido/19541/13-razones-por-las-que-nunca-debe-permitir-que-su-hijo-reciba-la-vacuna-contra-e"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://impactoespananoticias.com/contenido/19541/13-razones-por-las-que-nunca-debe-permitir-que-su-hijo-reciba-la-vacuna-contra-e"
+}

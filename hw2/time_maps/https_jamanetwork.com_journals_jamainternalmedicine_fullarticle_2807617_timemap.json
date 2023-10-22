@@ -1,0 +1,414 @@
+{
+  "original_uri": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617",
+  "self": "http://localhost:1208/timemap/json/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-07-24T15:21:46Z",
+        "uri": "https://web.archive.org/web/20230724152146/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T01:08:25Z",
+        "uri": "https://web.archive.org/web/20230725010825/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T11:38:21Z",
+        "uri": "http://archive.md/20230725113821/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T15:38:14Z",
+        "uri": "https://web.archive.org/web/20230725153814/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T16:27:25Z",
+        "uri": "https://web.archive.org/web/20230725162725/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T18:38:20Z",
+        "uri": "https://web.archive.org/web/20230725183820/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T18:53:25Z",
+        "uri": "https://web.archive.org/web/20230725185325/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T18:54:57Z",
+        "uri": "https://web.archive.org/web/20230725185457/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T19:10:50Z",
+        "uri": "https://web.archive.org/web/20230725191050/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T19:19:09Z",
+        "uri": "https://web.archive.org/web/20230725191909/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T19:24:29Z",
+        "uri": "https://web.archive.org/web/20230725192429/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T19:24:47Z",
+        "uri": "https://web.archive.org/web/20230725192447/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T19:35:51Z",
+        "uri": "https://web.archive.org/web/20230725193551/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T19:51:11Z",
+        "uri": "https://web.archive.org/web/20230725195111/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T20:23:00Z",
+        "uri": "https://web.archive.org/web/20230725202300/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T20:38:09Z",
+        "uri": "https://web.archive.org/web/20230725203809/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T20:38:35Z",
+        "uri": "https://web.archive.org/web/20230725203835/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T20:52:16Z",
+        "uri": "https://web.archive.org/web/20230725205216/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T20:55:11Z",
+        "uri": "https://web.archive.org/web/20230725205511/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T21:21:23Z",
+        "uri": "https://web.archive.org/web/20230725212123/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T21:35:39Z",
+        "uri": "https://web.archive.org/web/20230725213539/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T21:50:47Z",
+        "uri": "https://web.archive.org/web/20230725215047/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T22:06:27Z",
+        "uri": "https://web.archive.org/web/20230725220627/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T22:06:58Z",
+        "uri": "https://web.archive.org/web/20230725220658/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T22:22:53Z",
+        "uri": "https://web.archive.org/web/20230725222253/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T22:23:01Z",
+        "uri": "https://web.archive.org/web/20230725222301/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T23:09:09Z",
+        "uri": "https://web.archive.org/web/20230725230909/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T23:39:47Z",
+        "uri": "https://web.archive.org/web/20230725233947/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T23:39:49Z",
+        "uri": "https://web.archive.org/web/20230725233949/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T23:39:50Z",
+        "uri": "https://web.archive.org/web/20230725233950/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-25T23:39:54Z",
+        "uri": "https://web.archive.org/web/20230725233954/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T00:21:25Z",
+        "uri": "https://web.archive.org/web/20230726002125/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T06:08:56Z",
+        "uri": "https://web.archive.org/web/20230726060856/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T08:08:44Z",
+        "uri": "https://web.archive.org/web/20230726080844/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T12:06:00Z",
+        "uri": "https://web.archive.org/web/20230726120600/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T12:12:08Z",
+        "uri": "https://web.archive.org/web/20230726121208/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T12:22:56Z",
+        "uri": "https://web.archive.org/web/20230726122256/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T12:53:28Z",
+        "uri": "https://web.archive.org/web/20230726125328/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T12:54:48Z",
+        "uri": "https://web.archive.org/web/20230726125448/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T13:10:19Z",
+        "uri": "https://web.archive.org/web/20230726131019/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T13:25:27Z",
+        "uri": "https://web.archive.org/web/20230726132527/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T13:50:56Z",
+        "uri": "https://web.archive.org/web/20230726135056/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T14:11:49Z",
+        "uri": "https://web.archive.org/web/20230726141149/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T14:11:51Z",
+        "uri": "https://web.archive.org/web/20230726141151/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T14:11:53Z",
+        "uri": "https://web.archive.org/web/20230726141153/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T14:25:08Z",
+        "uri": "https://web.archive.org/web/20230726142508/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T14:38:18Z",
+        "uri": "https://web.archive.org/web/20230726143818/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T14:56:20Z",
+        "uri": "https://web.archive.org/web/20230726145620/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T15:22:34Z",
+        "uri": "https://web.archive.org/web/20230726152234/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T15:29:17Z",
+        "uri": "https://web.archive.org/web/20230726152917/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T15:40:08Z",
+        "uri": "https://web.archive.org/web/20230726154008/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T15:53:41Z",
+        "uri": "https://web.archive.org/web/20230726155341/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T16:10:42Z",
+        "uri": "https://web.archive.org/web/20230726161042/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T16:24:39Z",
+        "uri": "https://web.archive.org/web/20230726162439/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T16:27:34Z",
+        "uri": "https://web.archive.org/web/20230726162734/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T16:37:06Z",
+        "uri": "https://web.archive.org/web/20230726163706/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T16:56:10Z",
+        "uri": "https://web.archive.org/web/20230726165610/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T18:23:37Z",
+        "uri": "https://web.archive.org/web/20230726182337/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T18:54:21Z",
+        "uri": "https://web.archive.org/web/20230726185421/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T19:40:18Z",
+        "uri": "https://web.archive.org/web/20230726194018/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-26T20:52:32Z",
+        "uri": "https://web.archive.org/web/20230726205232/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-27T01:43:39Z",
+        "uri": "https://web.archive.org/web/20230727014339/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-27T03:55:09Z",
+        "uri": "https://web.archive.org/web/20230727035509/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-27T04:07:05Z",
+        "uri": "https://web.archive.org/web/20230727040705/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-27T05:44:31Z",
+        "uri": "https://web.archive.org/web/20230727054431/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-27T06:19:25Z",
+        "uri": "https://web.archive.org/web/20230727061925/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-27T08:08:43Z",
+        "uri": "https://web.archive.org/web/20230727080843/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-27T10:12:48Z",
+        "uri": "https://web.archive.org/web/20230727101248/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-28T03:51:08Z",
+        "uri": "https://web.archive.org/web/20230728035108/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-31T18:07:32Z",
+        "uri": "https://web.archive.org/web/20230731180732/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-31T20:09:50Z",
+        "uri": "https://web.archive.org/web/20230731200950/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-07-31T21:23:17Z",
+        "uri": "https://web.archive.org/web/20230731212317/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-08-01T06:51:27Z",
+        "uri": "https://web.archive.org/web/20230801065127/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-08-02T02:17:52Z",
+        "uri": "https://web.archive.org/web/20230802021752/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-08-02T23:38:13Z",
+        "uri": "https://web.archive.org/web/20230802233813/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-08-03T00:54:23Z",
+        "uri": "https://web.archive.org/web/20230803005423/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-08-03T07:15:41Z",
+        "uri": "https://wayback.archive-it.org/all/20230803071541/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-08-03T07:15:41Z",
+        "uri": "https://web.archive.org/web/20230803071541/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-08-03T08:53:10Z",
+        "uri": "https://web.archive.org/web/20230803085310/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-08-03T15:25:53Z",
+        "uri": "https://web.archive.org/web/20230803152553/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-08-04T11:07:42Z",
+        "uri": "https://web.archive.org/web/20230804110742/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-08-04T20:09:42Z",
+        "uri": "https://web.archive.org/web/20230804200942/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-08-08T01:22:35Z",
+        "uri": "https://web.archive.org/web/20230808012235/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-08-11T10:11:06Z",
+        "uri": "https://web.archive.org/web/20230811101106/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-08-11T14:50:49Z",
+        "uri": "https://web.archive.org/web/20230811145049/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-08-30T18:10:02Z",
+        "uri": "https://web.archive.org/web/20230830181002/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-09-03T21:18:24Z",
+        "uri": "https://web.archive.org/web/20230903211824/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-09-03T21:18:24Z",
+        "uri": "https://web.archive.org/web/20230903211824/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-09-03T21:19:12Z",
+        "uri": "https://web.archive.org/web/20230903211912/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-09-05T16:09:48Z",
+        "uri": "https://web.archive.org/web/20230905160948/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-09-06T12:40:18Z",
+        "uri": "https://web.archive.org/web/20230906124018/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-09-13T06:16:22Z",
+        "uri": "https://web.archive.org/web/20230913061622/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-09-13T06:41:08Z",
+        "uri": "https://web.archive.org/web/20230913064108/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-09-13T10:33:14Z",
+        "uri": "https://web.archive.org/web/20230913103314/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-09-19T22:58:01Z",
+        "uri": "https://perma.cc/X4C5-XXCL"
+      },
+      {
+        "datetime": "2023-09-20T09:05:05Z",
+        "uri": "https://web.archive.org/web/20230920090505/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-10-10T17:23:57Z",
+        "uri": "https://web.archive.org/web/20231010172357/http://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      },
+      {
+        "datetime": "2023-10-17T07:39:50Z",
+        "uri": "https://web.archive.org/web/20231017073950/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+      }
+    ],
+    "first": {
+      "datetime": "2023-07-24T15:21:46Z",
+      "uri": "https://web.archive.org/web/20230724152146/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+    },
+    "last": {
+      "datetime": "2023-10-17T07:39:50Z",
+      "uri": "https://web.archive.org/web/20231017073950/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617",
+    "json_format": "http://localhost:1208/timemap/json/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2807617"
+}

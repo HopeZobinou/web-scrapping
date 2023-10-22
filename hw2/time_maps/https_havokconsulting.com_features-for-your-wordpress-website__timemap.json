@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://havokconsulting.com/features-for-your-wordpress-website/",
+  "self": "http://localhost:1208/timemap/json/https://havokconsulting.com/features-for-your-wordpress-website/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-06T22:46:34Z",
+        "uri": "https://web.archive.org/web/20231006224634/https://havokconsulting.com/features-for-your-wordpress-website/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-06T22:46:34Z",
+      "uri": "https://web.archive.org/web/20231006224634/https://havokconsulting.com/features-for-your-wordpress-website/"
+    },
+    "last": {
+      "datetime": "2023-10-06T22:46:34Z",
+      "uri": "https://web.archive.org/web/20231006224634/https://havokconsulting.com/features-for-your-wordpress-website/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://havokconsulting.com/features-for-your-wordpress-website/",
+    "json_format": "http://localhost:1208/timemap/json/https://havokconsulting.com/features-for-your-wordpress-website/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://havokconsulting.com/features-for-your-wordpress-website/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://havokconsulting.com/features-for-your-wordpress-website/"
+}

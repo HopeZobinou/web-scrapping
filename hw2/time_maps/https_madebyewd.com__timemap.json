@@ -1,0 +1,94 @@
+{
+  "original_uri": "https://madebyewd.com/",
+  "self": "http://localhost:1208/timemap/json/https://madebyewd.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2020-04-21T16:54:21Z",
+        "uri": "https://web.archive.org/web/20200421165421/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2020-05-25T05:51:39Z",
+        "uri": "https://web.archive.org/web/20200525055139/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2020-10-01T21:14:22Z",
+        "uri": "https://web.archive.org/web/20201001211422/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2020-10-01T21:16:00Z",
+        "uri": "https://web.archive.org/web/20201001211600/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2020-10-03T14:09:53Z",
+        "uri": "https://web.archive.org/web/20201003140953/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2020-11-01T01:50:29Z",
+        "uri": "https://web.archive.org/web/20201101015029/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2020-11-02T15:38:05Z",
+        "uri": "https://web.archive.org/web/20201102153805/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2021-12-16T21:53:28Z",
+        "uri": "https://web.archive.org/web/20211216215328/http://madebyewd.com/"
+      },
+      {
+        "datetime": "2021-12-21T09:43:15Z",
+        "uri": "https://web.archive.org/web/20211221094315/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2022-03-28T11:41:00Z",
+        "uri": "https://web.archive.org/web/20220328114100/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2023-03-30T16:32:42Z",
+        "uri": "https://web.archive.org/web/20230330163242/http://madebyewd.com/"
+      },
+      {
+        "datetime": "2023-04-13T09:33:54Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230413093354mp_/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2023-04-28T16:51:23Z",
+        "uri": "https://web.archive.org/web/20230428165123/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2023-05-13T12:55:52Z",
+        "uri": "https://web.archive.org/web/20230513125552/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2023-06-05T15:32:09Z",
+        "uri": "https://web.archive.org/web/20230605153209/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2023-06-05T15:32:09Z",
+        "uri": "https://web.archive.org/web/20230605153209/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2023-06-05T15:32:09Z",
+        "uri": "https://web.archive.org/web/20230605153209/https://madebyewd.com/"
+      },
+      {
+        "datetime": "2023-08-13T17:35:56Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230813173556mp_/http://madebyewd.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2020-04-21T16:54:21Z",
+      "uri": "https://web.archive.org/web/20200421165421/https://madebyewd.com/"
+    },
+    "last": {
+      "datetime": "2023-08-13T17:35:56Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20230813173556mp_/http://madebyewd.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://madebyewd.com/",
+    "json_format": "http://localhost:1208/timemap/json/https://madebyewd.com/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://madebyewd.com/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://madebyewd.com/"
+}
