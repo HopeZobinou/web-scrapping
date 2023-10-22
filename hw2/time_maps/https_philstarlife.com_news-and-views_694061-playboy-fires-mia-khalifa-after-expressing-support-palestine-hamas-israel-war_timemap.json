@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://philstarlife.com/news-and-views/694061-playboy-fires-mia-khalifa-after-expressing-support-palestine-hamas-israel-war",
+  "self": "http://localhost:1208/timemap/json/https://philstarlife.com/news-and-views/694061-playboy-fires-mia-khalifa-after-expressing-support-palestine-hamas-israel-war",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T17:33:30Z",
+        "uri": "https://web.archive.org/web/20231011173330/https://philstarlife.com/news-and-views/694061-playboy-fires-mia-khalifa-after-expressing-support-palestine-hamas-israel-war"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T17:33:30Z",
+      "uri": "https://web.archive.org/web/20231011173330/https://philstarlife.com/news-and-views/694061-playboy-fires-mia-khalifa-after-expressing-support-palestine-hamas-israel-war"
+    },
+    "last": {
+      "datetime": "2023-10-11T17:33:30Z",
+      "uri": "https://web.archive.org/web/20231011173330/https://philstarlife.com/news-and-views/694061-playboy-fires-mia-khalifa-after-expressing-support-palestine-hamas-israel-war"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://philstarlife.com/news-and-views/694061-playboy-fires-mia-khalifa-after-expressing-support-palestine-hamas-israel-war",
+    "json_format": "http://localhost:1208/timemap/json/https://philstarlife.com/news-and-views/694061-playboy-fires-mia-khalifa-after-expressing-support-palestine-hamas-israel-war",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://philstarlife.com/news-and-views/694061-playboy-fires-mia-khalifa-after-expressing-support-palestine-hamas-israel-war"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://philstarlife.com/news-and-views/694061-playboy-fires-mia-khalifa-after-expressing-support-palestine-hamas-israel-war"
+}

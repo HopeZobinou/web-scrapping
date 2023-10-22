@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://medicalxpress.com/news/2023-10-covid-odds-immune-disorders-crohn.html",
+  "self": "http://localhost:1208/timemap/json/https://medicalxpress.com/news/2023-10-covid-odds-immune-disorders-crohn.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T01:33:11Z",
+        "uri": "https://web.archive.org/web/20231011013311/https://medicalxpress.com/news/2023-10-covid-odds-immune-disorders-crohn.html"
+      },
+      {
+        "datetime": "2023-10-11T02:26:09Z",
+        "uri": "https://web.archive.org/web/20231011022609/https://medicalxpress.com/news/2023-10-covid-odds-immune-disorders-crohn.html"
+      },
+      {
+        "datetime": "2023-10-11T02:28:05Z",
+        "uri": "https://web.archive.org/web/20231011022805/http://medicalxpress.com/news/2023-10-covid-odds-immune-disorders-crohn.html"
+      },
+      {
+        "datetime": "2023-10-15T19:41:13Z",
+        "uri": "https://web.archive.org/web/20231015194113/https://medicalxpress.com/news/2023-10-covid-odds-immune-disorders-crohn.html"
+      },
+      {
+        "datetime": "2023-10-18T17:30:03Z",
+        "uri": "https://web.archive.org/web/20231018173003/https://medicalxpress.com/news/2023-10-covid-odds-immune-disorders-crohn.html"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T01:33:11Z",
+      "uri": "https://web.archive.org/web/20231011013311/https://medicalxpress.com/news/2023-10-covid-odds-immune-disorders-crohn.html"
+    },
+    "last": {
+      "datetime": "2023-10-18T17:30:03Z",
+      "uri": "https://web.archive.org/web/20231018173003/https://medicalxpress.com/news/2023-10-covid-odds-immune-disorders-crohn.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://medicalxpress.com/news/2023-10-covid-odds-immune-disorders-crohn.html",
+    "json_format": "http://localhost:1208/timemap/json/https://medicalxpress.com/news/2023-10-covid-odds-immune-disorders-crohn.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://medicalxpress.com/news/2023-10-covid-odds-immune-disorders-crohn.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://medicalxpress.com/news/2023-10-covid-odds-immune-disorders-crohn.html"
+}

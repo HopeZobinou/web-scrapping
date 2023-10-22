@@ -1,0 +1,230 @@
+{
+  "original_uri": "https://news.kstyle.com/article.ksn?articleNo=2227013",
+  "self": "http://localhost:1208/timemap/json/https://news.kstyle.com/article.ksn?articleNo=2227013",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2020-03-28T03:59:31Z",
+        "uri": "https://arquivo.pt/wayback/20200328035931mp_/https://news.kstyle.com/article.ksn?articleNo="
+      },
+      {
+        "datetime": "2020-06-28T19:10:24Z",
+        "uri": "https://arquivo.pt/wayback/20200628191024mp_/https://news.kstyle.com/article.ksn?articleNo="
+      },
+      {
+        "datetime": "2020-09-24T23:41:13Z",
+        "uri": "https://arquivo.pt/wayback/20200924234113mp_/https://news.kstyle.com/article.ksn?articleNo="
+      },
+      {
+        "datetime": "2020-12-26T01:50:27Z",
+        "uri": "https://arquivo.pt/wayback/20201226015027mp_/https://news.kstyle.com/article.ksn?articleNo="
+      },
+      {
+        "datetime": "2021-03-27T01:21:43Z",
+        "uri": "https://arquivo.pt/wayback/20210327012143mp_/https://news.kstyle.com/article.ksn?articleNo="
+      },
+      {
+        "datetime": "2021-07-01T08:29:55Z",
+        "uri": "https://arquivo.pt/wayback/20210701082955mp_/https://news.kstyle.com/article.ksn?articleNo="
+      },
+      {
+        "datetime": "2021-11-07T14:37:15Z",
+        "uri": "https://arquivo.pt/wayback/20211107143715mp_/https://news.kstyle.com/article.ksn?articleNo="
+      },
+      {
+        "datetime": "2022-05-02T12:25:07Z",
+        "uri": "https://arquivo.pt/wayback/20220502122507mp_/https://news.kstyle.com/article.ksn?articleNo=1986868"
+      },
+      {
+        "datetime": "2022-05-26T01:09:46Z",
+        "uri": "https://arquivo.pt/wayback/20220526010946mp_/https://news.kstyle.com/article.ksn?articleNo="
+      },
+      {
+        "datetime": "2022-05-26T01:10:48Z",
+        "uri": "https://arquivo.pt/wayback/20220526011048mp_/https://news.kstyle.com/article.ksn?articleNo=1993315"
+      },
+      {
+        "datetime": "2022-05-26T01:10:57Z",
+        "uri": "https://arquivo.pt/wayback/20220526011057mp_/https://news.kstyle.com/article.ksn?articleNo=1993256"
+      },
+      {
+        "datetime": "2022-05-26T01:11:08Z",
+        "uri": "https://arquivo.pt/wayback/20220526011108mp_/https://news.kstyle.com/article.ksn?articleNo=1993184"
+      },
+      {
+        "datetime": "2022-05-26T01:11:44Z",
+        "uri": "https://arquivo.pt/wayback/20220526011144mp_/https://news.kstyle.com/article.ksn?articleNo=2100162"
+      },
+      {
+        "datetime": "2022-05-26T01:15:46Z",
+        "uri": "https://arquivo.pt/wayback/20220526011546mp_/https://news.kstyle.com/article.ksn?articleNo=2093294"
+      },
+      {
+        "datetime": "2023-02-17T06:00:48Z",
+        "uri": "https://arquivo.pt/wayback/20230217060048mp_/https://news.kstyle.com/article.ksn?articleNo=1951595"
+      },
+      {
+        "datetime": "2023-02-17T06:00:58Z",
+        "uri": "https://arquivo.pt/wayback/20230217060058mp_/https://news.kstyle.com/article.ksn?articleNo=1973689"
+      },
+      {
+        "datetime": "2023-02-17T06:01:03Z",
+        "uri": "https://arquivo.pt/wayback/20230217060103mp_/https://news.kstyle.com/article.ksn?articleNo=1979498"
+      },
+      {
+        "datetime": "2023-02-17T06:01:08Z",
+        "uri": "https://arquivo.pt/wayback/20230217060108mp_/https://news.kstyle.com/article.ksn?articleNo=1986868"
+      },
+      {
+        "datetime": "2023-02-17T06:01:13Z",
+        "uri": "https://arquivo.pt/wayback/20230217060113mp_/https://news.kstyle.com/article.ksn?articleNo=1995463"
+      },
+      {
+        "datetime": "2023-02-17T06:01:18Z",
+        "uri": "https://arquivo.pt/wayback/20230217060118mp_/https://news.kstyle.com/article.ksn?articleNo=1997670"
+      },
+      {
+        "datetime": "2023-02-17T06:01:24Z",
+        "uri": "https://arquivo.pt/wayback/20230217060124mp_/https://news.kstyle.com/article.ksn?articleNo=2001797"
+      },
+      {
+        "datetime": "2023-02-17T06:01:30Z",
+        "uri": "https://arquivo.pt/wayback/20230217060130mp_/https://news.kstyle.com/article.ksn?articleNo=2013961"
+      },
+      {
+        "datetime": "2023-02-17T06:01:36Z",
+        "uri": "https://arquivo.pt/wayback/20230217060136mp_/https://news.kstyle.com/article.ksn?articleNo=2021952"
+      },
+      {
+        "datetime": "2023-02-17T06:01:41Z",
+        "uri": "https://arquivo.pt/wayback/20230217060141mp_/https://news.kstyle.com/article.ksn?articleNo=2032731"
+      },
+      {
+        "datetime": "2023-02-17T06:01:46Z",
+        "uri": "https://arquivo.pt/wayback/20230217060146mp_/https://news.kstyle.com/article.ksn?articleNo=2032819"
+      },
+      {
+        "datetime": "2023-02-17T06:01:51Z",
+        "uri": "https://arquivo.pt/wayback/20230217060151mp_/https://news.kstyle.com/article.ksn?articleNo=2033125"
+      },
+      {
+        "datetime": "2023-02-17T06:01:56Z",
+        "uri": "https://arquivo.pt/wayback/20230217060156mp_/https://news.kstyle.com/article.ksn?articleNo=2038872"
+      },
+      {
+        "datetime": "2023-02-17T06:02:02Z",
+        "uri": "https://arquivo.pt/wayback/20230217060202mp_/https://news.kstyle.com/article.ksn?articleNo=2052664"
+      },
+      {
+        "datetime": "2023-02-17T06:02:09Z",
+        "uri": "https://arquivo.pt/wayback/20230217060209mp_/https://news.kstyle.com/article.ksn?articleNo=2056216"
+      },
+      {
+        "datetime": "2023-02-17T06:02:14Z",
+        "uri": "https://arquivo.pt/wayback/20230217060214mp_/https://news.kstyle.com/article.ksn?articleNo=2057423"
+      },
+      {
+        "datetime": "2023-02-17T06:02:20Z",
+        "uri": "https://arquivo.pt/wayback/20230217060220mp_/https://news.kstyle.com/article.ksn?articleNo=2064054"
+      },
+      {
+        "datetime": "2023-02-17T06:02:25Z",
+        "uri": "https://arquivo.pt/wayback/20230217060225mp_/https://news.kstyle.com/article.ksn?articleNo=2066045"
+      },
+      {
+        "datetime": "2023-02-17T06:02:30Z",
+        "uri": "https://arquivo.pt/wayback/20230217060230mp_/https://news.kstyle.com/article.ksn?articleNo=2069922"
+      },
+      {
+        "datetime": "2023-02-17T06:02:35Z",
+        "uri": "https://arquivo.pt/wayback/20230217060235mp_/https://news.kstyle.com/article.ksn?articleNo=2072959"
+      },
+      {
+        "datetime": "2023-02-17T06:02:40Z",
+        "uri": "https://arquivo.pt/wayback/20230217060240mp_/https://news.kstyle.com/article.ksn?articleNo=2075364"
+      },
+      {
+        "datetime": "2023-02-17T06:02:46Z",
+        "uri": "https://arquivo.pt/wayback/20230217060246mp_/https://news.kstyle.com/article.ksn?articleNo=2082482"
+      },
+      {
+        "datetime": "2023-02-17T06:02:51Z",
+        "uri": "https://arquivo.pt/wayback/20230217060251mp_/https://news.kstyle.com/article.ksn?articleNo=2084534"
+      },
+      {
+        "datetime": "2023-02-17T06:02:56Z",
+        "uri": "https://arquivo.pt/wayback/20230217060256mp_/https://news.kstyle.com/article.ksn?articleNo=2084624"
+      },
+      {
+        "datetime": "2023-02-17T06:03:02Z",
+        "uri": "https://arquivo.pt/wayback/20230217060302mp_/https://news.kstyle.com/article.ksn?articleNo=2084631"
+      },
+      {
+        "datetime": "2023-02-17T06:03:08Z",
+        "uri": "https://arquivo.pt/wayback/20230217060308mp_/https://news.kstyle.com/article.ksn?articleNo=2084905"
+      },
+      {
+        "datetime": "2023-02-17T06:03:15Z",
+        "uri": "https://arquivo.pt/wayback/20230217060315mp_/https://news.kstyle.com/article.ksn?articleNo=2085440"
+      },
+      {
+        "datetime": "2023-02-17T06:03:21Z",
+        "uri": "https://arquivo.pt/wayback/20230217060321mp_/https://news.kstyle.com/article.ksn?articleNo=2085611"
+      },
+      {
+        "datetime": "2023-02-17T06:03:26Z",
+        "uri": "https://arquivo.pt/wayback/20230217060326mp_/https://news.kstyle.com/article.ksn?articleNo=2086827"
+      },
+      {
+        "datetime": "2023-02-17T06:03:32Z",
+        "uri": "https://arquivo.pt/wayback/20230217060332mp_/https://news.kstyle.com/article.ksn?articleNo=2086857"
+      },
+      {
+        "datetime": "2023-02-17T06:03:37Z",
+        "uri": "https://arquivo.pt/wayback/20230217060337mp_/https://news.kstyle.com/article.ksn?articleNo=2088179"
+      },
+      {
+        "datetime": "2023-02-17T06:03:43Z",
+        "uri": "https://arquivo.pt/wayback/20230217060343mp_/https://news.kstyle.com/article.ksn?articleNo=2088566"
+      },
+      {
+        "datetime": "2023-02-17T06:03:50Z",
+        "uri": "https://arquivo.pt/wayback/20230217060350mp_/https://news.kstyle.com/article.ksn?articleNo=2093214"
+      },
+      {
+        "datetime": "2023-02-17T06:03:55Z",
+        "uri": "https://arquivo.pt/wayback/20230217060355mp_/https://news.kstyle.com/article.ksn?articleNo=2094308"
+      },
+      {
+        "datetime": "2023-02-17T06:04:00Z",
+        "uri": "https://arquivo.pt/wayback/20230217060400mp_/https://news.kstyle.com/article.ksn?articleNo=2094859"
+      },
+      {
+        "datetime": "2023-02-17T06:04:06Z",
+        "uri": "https://arquivo.pt/wayback/20230217060406mp_/https://news.kstyle.com/article.ksn?articleNo=2099714"
+      },
+      {
+        "datetime": "2023-10-12T07:42:23Z",
+        "uri": "https://web.archive.org/web/20231012074223/https://news.kstyle.com/article.ksn?articleNo=2227013"
+      },
+      {
+        "datetime": "2023-10-16T09:26:49Z",
+        "uri": "https://web.archive.org/web/20231016092649/https://news.kstyle.com/article.ksn?articleNo=2227013"
+      }
+    ],
+    "first": {
+      "datetime": "2020-03-28T03:59:31Z",
+      "uri": "https://arquivo.pt/wayback/20200328035931mp_/https://news.kstyle.com/article.ksn?articleNo="
+    },
+    "last": {
+      "datetime": "2023-10-16T09:26:49Z",
+      "uri": "https://web.archive.org/web/20231016092649/https://news.kstyle.com/article.ksn?articleNo=2227013"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://news.kstyle.com/article.ksn?articleNo=2227013",
+    "json_format": "http://localhost:1208/timemap/json/https://news.kstyle.com/article.ksn?articleNo=2227013",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://news.kstyle.com/article.ksn?articleNo=2227013"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://news.kstyle.com/article.ksn?articleNo=2227013"
+}

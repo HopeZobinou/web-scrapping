@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://mb.com.ph/2023/10/11/i-s-food-connect-benefits-27-msm-es-in-mimaropa",
+  "self": "http://localhost:1208/timemap/json/https://mb.com.ph/2023/10/11/i-s-food-connect-benefits-27-msm-es-in-mimaropa",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T10:01:54Z",
+        "uri": "https://web.archive.org/web/20231012100154/https://mb.com.ph/2023/10/11/i-s-food-connect-benefits-27-msm-es-in-mimaropa"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T10:01:54Z",
+      "uri": "https://web.archive.org/web/20231012100154/https://mb.com.ph/2023/10/11/i-s-food-connect-benefits-27-msm-es-in-mimaropa"
+    },
+    "last": {
+      "datetime": "2023-10-12T10:01:54Z",
+      "uri": "https://web.archive.org/web/20231012100154/https://mb.com.ph/2023/10/11/i-s-food-connect-benefits-27-msm-es-in-mimaropa"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://mb.com.ph/2023/10/11/i-s-food-connect-benefits-27-msm-es-in-mimaropa",
+    "json_format": "http://localhost:1208/timemap/json/https://mb.com.ph/2023/10/11/i-s-food-connect-benefits-27-msm-es-in-mimaropa",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://mb.com.ph/2023/10/11/i-s-food-connect-benefits-27-msm-es-in-mimaropa"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://mb.com.ph/2023/10/11/i-s-food-connect-benefits-27-msm-es-in-mimaropa"
+}

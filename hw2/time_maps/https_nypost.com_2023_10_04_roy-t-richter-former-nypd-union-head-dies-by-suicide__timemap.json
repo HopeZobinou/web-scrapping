@@ -1,0 +1,94 @@
+{
+  "original_uri": "https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/",
+  "self": "http://localhost:1208/timemap/json/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-04T21:35:45Z",
+        "uri": "https://web.archive.org/web/20231004213545/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-04T21:52:11Z",
+        "uri": "https://web.archive.org/web/20231004215211/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-05T00:28:42Z",
+        "uri": "https://web.archive.org/web/20231005002842/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-05T01:59:20Z",
+        "uri": "http://archive.md/20231005015920/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-05T02:02:25Z",
+        "uri": "https://web.archive.org/web/20231005020225/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-05T05:29:15Z",
+        "uri": "https://web.archive.org/web/20231005052915/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-05T07:18:07Z",
+        "uri": "https://web.archive.org/web/20231005071807/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-05T10:02:34Z",
+        "uri": "https://web.archive.org/web/20231005100234/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-05T12:45:26Z",
+        "uri": "https://web.archive.org/web/20231005124526/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-05T15:06:09Z",
+        "uri": "https://web.archive.org/web/20231005150609/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-05T16:08:05Z",
+        "uri": "https://web.archive.org/web/20231005160805/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-05T21:17:11Z",
+        "uri": "https://web.archive.org/web/20231005211711/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-06T03:24:36Z",
+        "uri": "https://web.archive.org/web/20231006032436/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-08T17:05:17Z",
+        "uri": "http://archive.md/20231008170517/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-09T03:05:12Z",
+        "uri": "https://web.archive.org/web/20231009030512/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-09T03:19:06Z",
+        "uri": "https://web.archive.org/web/20231009031906/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-09T19:01:59Z",
+        "uri": "https://web.archive.org/web/20231009190159/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      },
+      {
+        "datetime": "2023-10-12T12:55:48Z",
+        "uri": "https://web.archive.org/web/20231012125548/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-04T21:35:45Z",
+      "uri": "https://web.archive.org/web/20231004213545/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+    },
+    "last": {
+      "datetime": "2023-10-12T12:55:48Z",
+      "uri": "https://web.archive.org/web/20231012125548/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/",
+    "json_format": "http://localhost:1208/timemap/json/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://nypost.com/2023/10/04/roy-t-richter-former-nypd-union-head-dies-by-suicide/"
+}

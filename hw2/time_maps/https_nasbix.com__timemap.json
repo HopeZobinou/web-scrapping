@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://nasbix.com/",
+  "self": "http://localhost:1208/timemap/json/https://nasbix.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-07-23T22:50:46Z",
+        "uri": "https://web.archive.org/web/20230723225046/https://nasbix.com/"
+      },
+      {
+        "datetime": "2023-07-23T22:51:01Z",
+        "uri": "https://web.archive.org/web/20230723225101/https://nasbix.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-07-23T22:50:46Z",
+      "uri": "https://web.archive.org/web/20230723225046/https://nasbix.com/"
+    },
+    "last": {
+      "datetime": "2023-07-23T22:51:01Z",
+      "uri": "https://web.archive.org/web/20230723225101/https://nasbix.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://nasbix.com/",
+    "json_format": "http://localhost:1208/timemap/json/https://nasbix.com/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://nasbix.com/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://nasbix.com/"
+}

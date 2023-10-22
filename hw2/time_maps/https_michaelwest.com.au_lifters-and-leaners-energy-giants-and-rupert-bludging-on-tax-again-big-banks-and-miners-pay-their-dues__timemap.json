@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://michaelwest.com.au/lifters-and-leaners-energy-giants-and-rupert-bludging-on-tax-again-big-banks-and-miners-pay-their-dues/",
+  "self": "http://localhost:1208/timemap/json/https://michaelwest.com.au/lifters-and-leaners-energy-giants-and-rupert-bludging-on-tax-again-big-banks-and-miners-pay-their-dues/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2022-11-08T19:30:47Z",
+        "uri": "https://web.archive.org/web/20221108193047/https://michaelwest.com.au/lifters-and-leaners-energy-giants-and-rupert-bludging-on-tax-again-big-banks-and-miners-pay-their-dues/"
+      },
+      {
+        "datetime": "2022-11-10T14:21:31Z",
+        "uri": "https://web.archive.org.au/awa/20221110142131mp_/https://michaelwest.com.au/lifters-and-leaners-energy-giants-and-rupert-bludging-on-tax-again-big-banks-and-miners-pay-their-dues/"
+      },
+      {
+        "datetime": "2023-03-18T10:29:48Z",
+        "uri": "https://web.archive.org.au/awa/20230318102948mp_/https://michaelwest.com.au/lifters-and-leaners-energy-giants-and-rupert-bludging-on-tax-again-big-banks-and-miners-pay-their-dues/"
+      },
+      {
+        "datetime": "2023-03-18T10:29:48Z",
+        "uri": "https://web.archive.org/web/20230318102948/https://michaelwest.com.au/lifters-and-leaners-energy-giants-and-rupert-bludging-on-tax-again-big-banks-and-miners-pay-their-dues/"
+      },
+      {
+        "datetime": "2023-05-23T22:49:06Z",
+        "uri": "https://web.archive.org/web/20230523224906/https://michaelwest.com.au/lifters-and-leaners-energy-giants-and-rupert-bludging-on-tax-again-big-banks-and-miners-pay-their-dues/"
+      }
+    ],
+    "first": {
+      "datetime": "2022-11-08T19:30:47Z",
+      "uri": "https://web.archive.org/web/20221108193047/https://michaelwest.com.au/lifters-and-leaners-energy-giants-and-rupert-bludging-on-tax-again-big-banks-and-miners-pay-their-dues/"
+    },
+    "last": {
+      "datetime": "2023-05-23T22:49:06Z",
+      "uri": "https://web.archive.org/web/20230523224906/https://michaelwest.com.au/lifters-and-leaners-energy-giants-and-rupert-bludging-on-tax-again-big-banks-and-miners-pay-their-dues/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://michaelwest.com.au/lifters-and-leaners-energy-giants-and-rupert-bludging-on-tax-again-big-banks-and-miners-pay-their-dues/",
+    "json_format": "http://localhost:1208/timemap/json/https://michaelwest.com.au/lifters-and-leaners-energy-giants-and-rupert-bludging-on-tax-again-big-banks-and-miners-pay-their-dues/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://michaelwest.com.au/lifters-and-leaners-energy-giants-and-rupert-bludging-on-tax-again-big-banks-and-miners-pay-their-dues/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://michaelwest.com.au/lifters-and-leaners-energy-giants-and-rupert-bludging-on-tax-again-big-banks-and-miners-pay-their-dues/"
+}

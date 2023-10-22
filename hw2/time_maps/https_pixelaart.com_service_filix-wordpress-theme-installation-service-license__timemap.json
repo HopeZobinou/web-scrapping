@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://pixelaart.com/service/filix-wordpress-theme-installation-service-license/",
+  "self": "http://localhost:1208/timemap/json/https://pixelaart.com/service/filix-wordpress-theme-installation-service-license/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T12:02:59Z",
+        "uri": "https://web.archive.org/web/20231011120259/https://pixelaart.com/service/filix-wordpress-theme-installation-service-license/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T12:02:59Z",
+      "uri": "https://web.archive.org/web/20231011120259/https://pixelaart.com/service/filix-wordpress-theme-installation-service-license/"
+    },
+    "last": {
+      "datetime": "2023-10-11T12:02:59Z",
+      "uri": "https://web.archive.org/web/20231011120259/https://pixelaart.com/service/filix-wordpress-theme-installation-service-license/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://pixelaart.com/service/filix-wordpress-theme-installation-service-license/",
+    "json_format": "http://localhost:1208/timemap/json/https://pixelaart.com/service/filix-wordpress-theme-installation-service-license/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://pixelaart.com/service/filix-wordpress-theme-installation-service-license/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://pixelaart.com/service/filix-wordpress-theme-installation-service-license/"
+}
