@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html",
+  "self": "http://localhost:1208/timemap/json/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T07:21:25Z",
+        "uri": "https://web.archive.org/web/20231011072125/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html"
+      },
+      {
+        "datetime": "2023-10-11T11:40:44Z",
+        "uri": "https://web.archive.org/web/20231011114044/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html"
+      },
+      {
+        "datetime": "2023-10-12T01:19:20Z",
+        "uri": "https://web.archive.org/web/20231012011920/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html"
+      },
+      {
+        "datetime": "2023-10-12T03:30:45Z",
+        "uri": "https://web.archive.org/web/20231012033045/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html"
+      },
+      {
+        "datetime": "2023-10-12T04:43:05Z",
+        "uri": "https://web.archive.org/web/20231012044305/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html"
+      },
+      {
+        "datetime": "2023-10-12T08:59:37Z",
+        "uri": "https://web.archive.org/web/20231012085937/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html"
+      },
+      {
+        "datetime": "2023-10-12T20:48:19Z",
+        "uri": "https://web.archive.org/web/20231012204819/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html"
+      },
+      {
+        "datetime": "2023-10-14T08:10:07Z",
+        "uri": "https://web.archive.org/web/20231014081007/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html"
+      },
+      {
+        "datetime": "2023-10-16T08:27:00Z",
+        "uri": "https://web.archive.org/web/20231016082700/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html"
+      },
+      {
+        "datetime": "2023-10-17T00:14:50Z",
+        "uri": "https://web.archive.org/web/20231017001450/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T07:21:25Z",
+      "uri": "https://web.archive.org/web/20231011072125/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html"
+    },
+    "last": {
+      "datetime": "2023-10-17T00:14:50Z",
+      "uri": "https://web.archive.org/web/20231017001450/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.ukrinform.net/rubric-polytics/3772450-bidens-advisor-us-capable-of-supporting-both-israel-and-ukraine.html"
+}

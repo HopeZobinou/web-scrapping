@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://xtech.nikkei.com/atcl/nxt/column/18/02423/050400017/?n_cid=nbpnxt_twbn",
+  "self": "http://localhost:1208/timemap/json/https://xtech.nikkei.com/atcl/nxt/column/18/02423/050400017/?n_cid=nbpnxt_twbn",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-05-08T21:28:05Z",
+        "uri": "https://web.archive.org/web/20230508212805/https://xtech.nikkei.com/atcl/nxt/column/18/02423/050400017/?n_cid=nbpnxt_twbn"
+      }
+    ],
+    "first": {
+      "datetime": "2023-05-08T21:28:05Z",
+      "uri": "https://web.archive.org/web/20230508212805/https://xtech.nikkei.com/atcl/nxt/column/18/02423/050400017/?n_cid=nbpnxt_twbn"
+    },
+    "last": {
+      "datetime": "2023-05-08T21:28:05Z",
+      "uri": "https://web.archive.org/web/20230508212805/https://xtech.nikkei.com/atcl/nxt/column/18/02423/050400017/?n_cid=nbpnxt_twbn"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://xtech.nikkei.com/atcl/nxt/column/18/02423/050400017/?n_cid=nbpnxt_twbn",
+    "json_format": "http://localhost:1208/timemap/json/https://xtech.nikkei.com/atcl/nxt/column/18/02423/050400017/?n_cid=nbpnxt_twbn",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://xtech.nikkei.com/atcl/nxt/column/18/02423/050400017/?n_cid=nbpnxt_twbn"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://xtech.nikkei.com/atcl/nxt/column/18/02423/050400017/?n_cid=nbpnxt_twbn"
+}

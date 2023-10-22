@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html",
+  "self": "http://localhost:1208/timemap/json/https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T06:47:04Z",
+        "uri": "https://web.archive.org/web/20231010064704/https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html"
+      },
+      {
+        "datetime": "2023-10-11T08:32:01Z",
+        "uri": "https://web.archive.org/web/20231011083201/https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html"
+      },
+      {
+        "datetime": "2023-10-12T03:08:22Z",
+        "uri": "https://web.archive.org/web/20231012030822/https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html"
+      },
+      {
+        "datetime": "2023-10-12T03:29:15Z",
+        "uri": "https://web.archive.org/web/20231012032915/https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html"
+      },
+      {
+        "datetime": "2023-10-12T05:43:29Z",
+        "uri": "https://web.archive.org/web/20231012054329/https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html"
+      },
+      {
+        "datetime": "2023-10-12T10:36:15Z",
+        "uri": "https://web.archive.org/web/20231012103615/https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html"
+      },
+      {
+        "datetime": "2023-10-16T10:46:29Z",
+        "uri": "https://web.archive.org/web/20231016104629/https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T06:47:04Z",
+      "uri": "https://web.archive.org/web/20231010064704/https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html"
+    },
+    "last": {
+      "datetime": "2023-10-16T10:46:29Z",
+      "uri": "https://web.archive.org/web/20231016104629/https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.wsws.org/en/articles/2023/10/10/ytol-o10.html"
+}

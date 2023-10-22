@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/",
+  "self": "http://localhost:1208/timemap/json/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2021-04-21T11:02:12Z",
+        "uri": "https://web.archive.org/web/20210421110212/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/"
+      },
+      {
+        "datetime": "2021-07-29T05:39:50Z",
+        "uri": "https://web.archive.org/web/20210729053950/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/"
+      },
+      {
+        "datetime": "2021-07-29T08:18:48Z",
+        "uri": "https://web.archive.org/web/20210729081848/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/"
+      },
+      {
+        "datetime": "2021-07-29T08:22:00Z",
+        "uri": "https://web.archive.org/web/20210729082200/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/"
+      },
+      {
+        "datetime": "2021-10-25T20:12:53Z",
+        "uri": "https://web.archive.org/web/20211025201253/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/"
+      },
+      {
+        "datetime": "2022-08-18T04:31:28Z",
+        "uri": "https://web.archive.org/web/20220818043128/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/"
+      },
+      {
+        "datetime": "2022-11-28T08:06:49Z",
+        "uri": "https://web.archive.org/web/20221128080649/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/"
+      },
+      {
+        "datetime": "2023-03-25T13:55:46Z",
+        "uri": "https://web.archive.org/web/20230325135546/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/"
+      }
+    ],
+    "first": {
+      "datetime": "2021-04-21T11:02:12Z",
+      "uri": "https://web.archive.org/web/20210421110212/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/"
+    },
+    "last": {
+      "datetime": "2023-03-25T13:55:46Z",
+      "uri": "https://web.archive.org/web/20230325135546/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.wordpressthemeshub.com/product/delicious-restaurant-wordpress-theme/"
+}

@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.wxyz.com/news/palestinian-community-rallies-in-dearborn-to-call-for-end-to-israel-occupation-war",
+  "self": "http://localhost:1208/timemap/json/https://www.wxyz.com/news/palestinian-community-rallies-in-dearborn-to-call-for-end-to-israel-occupation-war",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T20:09:21Z",
+        "uri": "http://archive.md/20231011200921/https://www.wxyz.com/news/palestinian-community-rallies-in-dearborn-to-call-for-end-to-israel-occupation-war"
+      },
+      {
+        "datetime": "2023-10-12T18:51:29Z",
+        "uri": "https://web.archive.org/web/20231012185129/https://www.wxyz.com/news/palestinian-community-rallies-in-dearborn-to-call-for-end-to-israel-occupation-war"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T20:09:21Z",
+      "uri": "http://archive.md/20231011200921/https://www.wxyz.com/news/palestinian-community-rallies-in-dearborn-to-call-for-end-to-israel-occupation-war"
+    },
+    "last": {
+      "datetime": "2023-10-12T18:51:29Z",
+      "uri": "https://web.archive.org/web/20231012185129/https://www.wxyz.com/news/palestinian-community-rallies-in-dearborn-to-call-for-end-to-israel-occupation-war"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.wxyz.com/news/palestinian-community-rallies-in-dearborn-to-call-for-end-to-israel-occupation-war",
+    "json_format": "http://localhost:1208/timemap/json/https://www.wxyz.com/news/palestinian-community-rallies-in-dearborn-to-call-for-end-to-israel-occupation-war",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.wxyz.com/news/palestinian-community-rallies-in-dearborn-to-call-for-end-to-israel-occupation-war"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.wxyz.com/news/palestinian-community-rallies-in-dearborn-to-call-for-end-to-israel-occupation-war"
+}

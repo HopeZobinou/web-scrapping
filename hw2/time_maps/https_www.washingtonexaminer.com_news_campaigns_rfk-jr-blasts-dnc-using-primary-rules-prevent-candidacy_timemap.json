@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.washingtonexaminer.com/news/campaigns/rfk-jr-blasts-dnc-using-primary-rules-prevent-candidacy",
+  "self": "http://localhost:1208/timemap/json/https://www.washingtonexaminer.com/news/campaigns/rfk-jr-blasts-dnc-using-primary-rules-prevent-candidacy",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-09-20T09:11:39Z",
+        "uri": "https://web.archive.org/web/20230920091139/https://www.washingtonexaminer.com/news/campaigns/rfk-jr-blasts-dnc-using-primary-rules-prevent-candidacy"
+      },
+      {
+        "datetime": "2023-10-03T09:39:25Z",
+        "uri": "https://web.archive.org/web/20231003093925/https://www.washingtonexaminer.com/news/campaigns/rfk-jr-blasts-dnc-using-primary-rules-prevent-candidacy"
+      },
+      {
+        "datetime": "2023-10-09T18:16:21Z",
+        "uri": "https://web.archive.org/web/20231009181621/https://www.washingtonexaminer.com/news/campaigns/rfk-jr-blasts-dnc-using-primary-rules-prevent-candidacy"
+      }
+    ],
+    "first": {
+      "datetime": "2023-09-20T09:11:39Z",
+      "uri": "https://web.archive.org/web/20230920091139/https://www.washingtonexaminer.com/news/campaigns/rfk-jr-blasts-dnc-using-primary-rules-prevent-candidacy"
+    },
+    "last": {
+      "datetime": "2023-10-09T18:16:21Z",
+      "uri": "https://web.archive.org/web/20231009181621/https://www.washingtonexaminer.com/news/campaigns/rfk-jr-blasts-dnc-using-primary-rules-prevent-candidacy"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.washingtonexaminer.com/news/campaigns/rfk-jr-blasts-dnc-using-primary-rules-prevent-candidacy",
+    "json_format": "http://localhost:1208/timemap/json/https://www.washingtonexaminer.com/news/campaigns/rfk-jr-blasts-dnc-using-primary-rules-prevent-candidacy",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.washingtonexaminer.com/news/campaigns/rfk-jr-blasts-dnc-using-primary-rules-prevent-candidacy"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.washingtonexaminer.com/news/campaigns/rfk-jr-blasts-dnc-using-primary-rules-prevent-candidacy"
+}

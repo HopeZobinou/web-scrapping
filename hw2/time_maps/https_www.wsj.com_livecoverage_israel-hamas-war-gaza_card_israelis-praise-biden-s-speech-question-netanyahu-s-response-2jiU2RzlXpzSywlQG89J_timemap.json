@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J",
+  "self": "http://localhost:1208/timemap/json/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T12:08:38Z",
+        "uri": "http://archive.md/20231011120838/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J"
+      },
+      {
+        "datetime": "2023-10-11T13:21:25Z",
+        "uri": "https://web.archive.org/web/20231011132125/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J"
+      },
+      {
+        "datetime": "2023-10-11T21:05:10Z",
+        "uri": "https://web.archive.org/web/20231011210510/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J"
+      },
+      {
+        "datetime": "2023-10-13T06:51:03Z",
+        "uri": "https://web.archive.org/web/20231013065103/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J"
+      },
+      {
+        "datetime": "2023-10-15T17:38:30Z",
+        "uri": "https://web.archive.org/web/20231015173830/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J"
+      },
+      {
+        "datetime": "2023-10-17T00:47:30Z",
+        "uri": "https://web.archive.org/web/20231017004730/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J"
+      },
+      {
+        "datetime": "2023-10-17T19:54:48Z",
+        "uri": "https://web.archive.org/web/20231017195448/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J"
+      },
+      {
+        "datetime": "2023-10-18T17:36:21Z",
+        "uri": "https://web.archive.org/web/20231018173621/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J"
+      },
+      {
+        "datetime": "2023-10-18T21:28:39Z",
+        "uri": "https://web.archive.org/web/20231018212839/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J"
+      },
+      {
+        "datetime": "2023-10-19T15:55:42Z",
+        "uri": "https://web.archive.org/web/20231019155542/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T12:08:38Z",
+      "uri": "http://archive.md/20231011120838/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J"
+    },
+    "last": {
+      "datetime": "2023-10-19T15:55:42Z",
+      "uri": "https://web.archive.org/web/20231019155542/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J",
+    "json_format": "http://localhost:1208/timemap/json/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.wsj.com/livecoverage/israel-hamas-war-gaza/card/israelis-praise-biden-s-speech-question-netanyahu-s-response-2jiU2RzlXpzSywlQG89J"
+}

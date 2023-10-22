@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.wpglobalsupport.com/hubspot-vs-wordpress/",
+  "self": "http://localhost:1208/timemap/json/https://www.wpglobalsupport.com/hubspot-vs-wordpress/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-08-16T09:55:01Z",
+        "uri": "https://web.archive.org/web/20230816095501/https://www.wpglobalsupport.com/hubspot-vs-wordpress/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-08-16T09:55:01Z",
+      "uri": "https://web.archive.org/web/20230816095501/https://www.wpglobalsupport.com/hubspot-vs-wordpress/"
+    },
+    "last": {
+      "datetime": "2023-08-16T09:55:01Z",
+      "uri": "https://web.archive.org/web/20230816095501/https://www.wpglobalsupport.com/hubspot-vs-wordpress/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.wpglobalsupport.com/hubspot-vs-wordpress/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.wpglobalsupport.com/hubspot-vs-wordpress/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.wpglobalsupport.com/hubspot-vs-wordpress/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.wpglobalsupport.com/hubspot-vs-wordpress/"
+}

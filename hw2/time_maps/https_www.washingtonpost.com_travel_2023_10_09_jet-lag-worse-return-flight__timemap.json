@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.washingtonpost.com/travel/2023/10/09/jet-lag-worse-return-flight/",
+  "self": "http://localhost:1208/timemap/json/https://www.washingtonpost.com/travel/2023/10/09/jet-lag-worse-return-flight/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-09T13:47:30Z",
+        "uri": "http://archive.md/20231009134730/https://www.washingtonpost.com/travel/2023/10/09/jet-lag-worse-return-flight/"
+      },
+      {
+        "datetime": "2023-10-09T22:30:03Z",
+        "uri": "http://archive.md/20231009223003/https://www.washingtonpost.com/travel/2023/10/09/jet-lag-worse-return-flight/"
+      },
+      {
+        "datetime": "2023-10-11T14:37:44Z",
+        "uri": "https://web.archive.org/web/20231011143744/https://www.washingtonpost.com/travel/2023/10/09/jet-lag-worse-return-flight/"
+      },
+      {
+        "datetime": "2023-10-20T11:50:10Z",
+        "uri": "https://web.archive.org/web/20231020115010/https://www.washingtonpost.com/travel/2023/10/09/jet-lag-worse-return-flight/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-09T13:47:30Z",
+      "uri": "http://archive.md/20231009134730/https://www.washingtonpost.com/travel/2023/10/09/jet-lag-worse-return-flight/"
+    },
+    "last": {
+      "datetime": "2023-10-20T11:50:10Z",
+      "uri": "https://web.archive.org/web/20231020115010/https://www.washingtonpost.com/travel/2023/10/09/jet-lag-worse-return-flight/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.washingtonpost.com/travel/2023/10/09/jet-lag-worse-return-flight/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.washingtonpost.com/travel/2023/10/09/jet-lag-worse-return-flight/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.washingtonpost.com/travel/2023/10/09/jet-lag-worse-return-flight/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.washingtonpost.com/travel/2023/10/09/jet-lag-worse-return-flight/"
+}

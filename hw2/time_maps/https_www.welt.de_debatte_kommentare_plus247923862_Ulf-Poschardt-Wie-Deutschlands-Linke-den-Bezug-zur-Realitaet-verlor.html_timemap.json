@@ -1,0 +1,70 @@
+{
+  "original_uri": "https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html",
+  "self": "http://localhost:1208/timemap/json/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T16:46:52Z",
+        "uri": "https://web.archive.org/web/20231010164652/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+      },
+      {
+        "datetime": "2023-10-10T16:47:02Z",
+        "uri": "http://archive.md/20231010164702/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+      },
+      {
+        "datetime": "2023-10-10T21:40:40Z",
+        "uri": "https://web.archive.org/web/20231010214040/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+      },
+      {
+        "datetime": "2023-10-11T01:58:01Z",
+        "uri": "https://web.archive.org/web/20231011015801/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+      },
+      {
+        "datetime": "2023-10-11T03:07:07Z",
+        "uri": "https://web.archive.org/web/20231011030707/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+      },
+      {
+        "datetime": "2023-10-11T05:16:56Z",
+        "uri": "https://web.archive.org/web/20231011051656/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+      },
+      {
+        "datetime": "2023-10-11T06:27:38Z",
+        "uri": "https://web.archive.org/web/20231011062738/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+      },
+      {
+        "datetime": "2023-10-11T07:13:55Z",
+        "uri": "https://web.archive.org/web/20231011071355/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+      },
+      {
+        "datetime": "2023-10-11T07:20:30Z",
+        "uri": "http://archive.md/20231011072030/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+      },
+      {
+        "datetime": "2023-10-11T08:01:17Z",
+        "uri": "http://archive.md/20231011080117/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+      },
+      {
+        "datetime": "2023-10-11T13:18:59Z",
+        "uri": "https://web.archive.org/web/20231011131859/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+      },
+      {
+        "datetime": "2023-10-15T20:13:14Z",
+        "uri": "https://web.archive.org/web/20231015201314/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T16:46:52Z",
+      "uri": "https://web.archive.org/web/20231010164652/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+    },
+    "last": {
+      "datetime": "2023-10-15T20:13:14Z",
+      "uri": "https://web.archive.org/web/20231015201314/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.welt.de/debatte/kommentare/plus247923862/Ulf-Poschardt-Wie-Deutschlands-Linke-den-Bezug-zur-Realitaet-verlor.html"
+}

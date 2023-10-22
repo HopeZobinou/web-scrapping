@@ -1,0 +1,86 @@
+{
+  "original_uri": "https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/",
+  "self": "http://localhost:1208/timemap/json/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T19:16:17Z",
+        "uri": "https://web.archive.org/web/20231010191617/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+      },
+      {
+        "datetime": "2023-10-10T19:17:17Z",
+        "uri": "https://web.archive.org/web/20231010191717/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+      },
+      {
+        "datetime": "2023-10-10T19:39:44Z",
+        "uri": "https://web.archive.org/web/20231010193944/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+      },
+      {
+        "datetime": "2023-10-11T02:47:43Z",
+        "uri": "https://web.archive.org/web/20231011024743/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce"
+      },
+      {
+        "datetime": "2023-10-11T02:48:24Z",
+        "uri": "https://web.archive.org/web/20231011024824/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+      },
+      {
+        "datetime": "2023-10-11T04:22:02Z",
+        "uri": "https://web.archive.org/web/20231011042202/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+      },
+      {
+        "datetime": "2023-10-11T05:26:41Z",
+        "uri": "https://web.archive.org/web/20231011052641/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+      },
+      {
+        "datetime": "2023-10-11T06:37:46Z",
+        "uri": "https://web.archive.org/web/20231011063746/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+      },
+      {
+        "datetime": "2023-10-11T07:17:16Z",
+        "uri": "https://web.archive.org/web/20231011071716/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+      },
+      {
+        "datetime": "2023-10-11T07:22:05Z",
+        "uri": "https://web.archive.org/web/20231011072205/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+      },
+      {
+        "datetime": "2023-10-11T07:24:55Z",
+        "uri": "https://web.archive.org/web/20231011072455/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+      },
+      {
+        "datetime": "2023-10-12T23:04:34Z",
+        "uri": "https://web.archive.org/web/20231012230434/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+      },
+      {
+        "datetime": "2023-10-14T03:19:15Z",
+        "uri": "https://web.archive.org/web/20231014031915/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+      },
+      {
+        "datetime": "2023-10-15T18:35:52Z",
+        "uri": "https://web.archive.org/web/20231015183552/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+      },
+      {
+        "datetime": "2023-10-17T07:46:57Z",
+        "uri": "https://web.archive.org/web/20231017074657/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce"
+      },
+      {
+        "datetime": "2023-10-17T07:48:30Z",
+        "uri": "https://web.archive.org/web/20231017074830/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T19:16:17Z",
+      "uri": "https://web.archive.org/web/20231010191617/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+    },
+    "last": {
+      "datetime": "2023-10-17T07:48:30Z",
+      "uri": "https://web.archive.org/web/20231017074830/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.tmz.com/2023/10/10/aaron-rodgers-proposes-covid-19-vaccine-debate-travis-kelce/"
+}

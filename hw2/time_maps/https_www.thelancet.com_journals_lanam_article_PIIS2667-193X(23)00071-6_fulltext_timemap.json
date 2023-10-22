@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(23)00071-6/fulltext",
+  "self": "http://localhost:1208/timemap/json/https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(23)00071-6/fulltext",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-05-28T20:44:36Z",
+        "uri": "https://web.archive.org/web/20230528204436/https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(23)00071-6/fulltext"
+      },
+      {
+        "datetime": "2023-06-03T03:27:57Z",
+        "uri": "https://web.archive.org/web/20230603032757/https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(23)00071-6/fulltext"
+      }
+    ],
+    "first": {
+      "datetime": "2023-05-28T20:44:36Z",
+      "uri": "https://web.archive.org/web/20230528204436/https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(23)00071-6/fulltext"
+    },
+    "last": {
+      "datetime": "2023-06-03T03:27:57Z",
+      "uri": "https://web.archive.org/web/20230603032757/https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(23)00071-6/fulltext"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(23)00071-6/fulltext",
+    "json_format": "http://localhost:1208/timemap/json/https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(23)00071-6/fulltext",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(23)00071-6/fulltext"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.thelancet.com/journals/lanam/article/PIIS2667-193X(23)00071-6/fulltext"
+}

@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss",
+  "self": "http://localhost:1208/timemap/json/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T01:18:50Z",
+        "uri": "https://web.archive.org/web/20231012011850/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss"
+      },
+      {
+        "datetime": "2023-10-12T02:25:56Z",
+        "uri": "https://web.archive.org/web/20231012022556/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss"
+      },
+      {
+        "datetime": "2023-10-12T03:35:02Z",
+        "uri": "https://web.archive.org/web/20231012033502/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss"
+      },
+      {
+        "datetime": "2023-10-12T15:50:21Z",
+        "uri": "https://web.archive.org/web/20231012155021/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss"
+      },
+      {
+        "datetime": "2023-10-12T18:49:13Z",
+        "uri": "https://web.archive.org/web/20231012184913/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss"
+      },
+      {
+        "datetime": "2023-10-13T05:05:54Z",
+        "uri": "https://web.archive.org/web/20231013050554/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss"
+      },
+      {
+        "datetime": "2023-10-14T01:43:31Z",
+        "uri": "https://web.archive.org/web/20231014014331/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss"
+      },
+      {
+        "datetime": "2023-10-17T11:07:55Z",
+        "uri": "https://web.archive.org/web/20231017110755/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T01:18:50Z",
+      "uri": "https://web.archive.org/web/20231012011850/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss"
+    },
+    "last": {
+      "datetime": "2023-10-17T11:07:55Z",
+      "uri": "https://web.archive.org/web/20231017110755/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss",
+    "json_format": "http://localhost:1208/timemap/json/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.thenorthernecho.co.uk/news/23846445.cleveland-police-using-vetting-process-maintain-standards/?ref=rss"
+}

@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.tutorialbar.com/master-wordpress-website-development-and-monetization/",
+  "self": "http://localhost:1208/timemap/json/https://www.tutorialbar.com/master-wordpress-website-development-and-monetization/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-04-20T08:02:23Z",
+        "uri": "https://web.archive.org/web/20230420080223/https://www.tutorialbar.com/master-wordpress-website-development-and-monetization/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-04-20T08:02:23Z",
+      "uri": "https://web.archive.org/web/20230420080223/https://www.tutorialbar.com/master-wordpress-website-development-and-monetization/"
+    },
+    "last": {
+      "datetime": "2023-04-20T08:02:23Z",
+      "uri": "https://web.archive.org/web/20230420080223/https://www.tutorialbar.com/master-wordpress-website-development-and-monetization/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.tutorialbar.com/master-wordpress-website-development-and-monetization/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.tutorialbar.com/master-wordpress-website-development-and-monetization/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.tutorialbar.com/master-wordpress-website-development-and-monetization/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.tutorialbar.com/master-wordpress-website-development-and-monetization/"
+}
