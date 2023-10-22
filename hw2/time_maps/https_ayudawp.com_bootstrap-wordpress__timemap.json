@@ -1,0 +1,74 @@
+{
+  "original_uri": "https://ayudawp.com/bootstrap-wordpress/",
+  "self": "http://localhost:1208/timemap/json/https://ayudawp.com/bootstrap-wordpress/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2020-08-06T16:17:55Z",
+        "uri": "https://web.archive.org/web/20200806161755/https://ayudawp.com/bootstrap-wordpress/"
+      },
+      {
+        "datetime": "2020-10-26T13:03:51Z",
+        "uri": "https://web.archive.org/web/20201026130351/https://ayudawp.com/bootstrap-wordpress/"
+      },
+      {
+        "datetime": "2020-11-23T20:04:45Z",
+        "uri": "https://web.archive.org/web/20201123200445/https://ayudawp.com/bootstrap-wordpress/"
+      },
+      {
+        "datetime": "2021-01-27T13:35:26Z",
+        "uri": "https://web.archive.org/web/20210127133526/https://ayudawp.com/bootstrap-wordpress/"
+      },
+      {
+        "datetime": "2021-02-09T17:34:20Z",
+        "uri": "https://web.archive.org/web/20210209173420/https://ayudawp.com/bootstrap-wordpress/"
+      },
+      {
+        "datetime": "2021-04-11T22:00:26Z",
+        "uri": "https://web.archive.org/web/20210411220026/https://ayudawp.com/bootstrap-wordpress/"
+      },
+      {
+        "datetime": "2021-07-31T19:08:07Z",
+        "uri": "https://web.archive.org/web/20210731190807/https://ayudawp.com/bootstrap-wordpress/"
+      },
+      {
+        "datetime": "2021-10-21T02:21:28Z",
+        "uri": "https://web.archive.org/web/20211021022128/https://ayudawp.com/bootstrap-wordpress/"
+      },
+      {
+        "datetime": "2022-05-23T18:05:06Z",
+        "uri": "https://web.archive.org/web/20220523180506/https://ayudawp.com/bootstrap-wordpress/"
+      },
+      {
+        "datetime": "2022-06-26T22:06:53Z",
+        "uri": "https://web.archive.org/web/20220626220653/https://ayudawp.com/bootstrap-wordpress/"
+      },
+      {
+        "datetime": "2022-06-26T22:11:43Z",
+        "uri": "https://web.archive.org/web/20220626221143/https://ayudawp.com/bootstrap-wordpress/"
+      },
+      {
+        "datetime": "2022-07-03T02:22:30Z",
+        "uri": "https://web.archive.org/web/20220703022230/https://ayudawp.com/bootstrap-wordpress/"
+      },
+      {
+        "datetime": "2022-12-08T13:18:40Z",
+        "uri": "https://web.archive.org/web/20221208131840/https://ayudawp.com/bootstrap-wordpress/"
+      }
+    ],
+    "first": {
+      "datetime": "2020-08-06T16:17:55Z",
+      "uri": "https://web.archive.org/web/20200806161755/https://ayudawp.com/bootstrap-wordpress/"
+    },
+    "last": {
+      "datetime": "2022-12-08T13:18:40Z",
+      "uri": "https://web.archive.org/web/20221208131840/https://ayudawp.com/bootstrap-wordpress/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://ayudawp.com/bootstrap-wordpress/",
+    "json_format": "http://localhost:1208/timemap/json/https://ayudawp.com/bootstrap-wordpress/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://ayudawp.com/bootstrap-wordpress/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://ayudawp.com/bootstrap-wordpress/"
+}

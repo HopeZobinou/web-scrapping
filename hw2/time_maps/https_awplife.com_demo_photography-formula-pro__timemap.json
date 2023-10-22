@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://awplife.com/demo/photography-formula-pro/",
+  "self": "http://localhost:1208/timemap/json/https://awplife.com/demo/photography-formula-pro/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2022-11-05T21:48:58Z",
+        "uri": "https://web.archive.org/web/20221105214858/https://awplife.com/demo/photography-formula-pro/"
+      }
+    ],
+    "first": {
+      "datetime": "2022-11-05T21:48:58Z",
+      "uri": "https://web.archive.org/web/20221105214858/https://awplife.com/demo/photography-formula-pro/"
+    },
+    "last": {
+      "datetime": "2022-11-05T21:48:58Z",
+      "uri": "https://web.archive.org/web/20221105214858/https://awplife.com/demo/photography-formula-pro/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://awplife.com/demo/photography-formula-pro/",
+    "json_format": "http://localhost:1208/timemap/json/https://awplife.com/demo/photography-formula-pro/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://awplife.com/demo/photography-formula-pro/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://awplife.com/demo/photography-formula-pro/"
+}

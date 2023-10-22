@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://aldric-chen.medium.com/subscribe",
+  "self": "http://localhost:1208/timemap/json/https://aldric-chen.medium.com/subscribe",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2021-12-28T03:54:19Z",
+        "uri": "https://web.archive.org/web/20211228035419/https://aldric-chen.medium.com/subscribe"
+      },
+      {
+        "datetime": "2022-01-20T20:40:33Z",
+        "uri": "https://web.archive.org/web/20220120204033/https://aldric-chen.medium.com/subscribe"
+      },
+      {
+        "datetime": "2022-01-20T20:47:59Z",
+        "uri": "https://web.archive.org/web/20220120204759/https://aldric-chen.medium.com/subscribe"
+      },
+      {
+        "datetime": "2022-10-30T13:55:16Z",
+        "uri": "https://web.archive.org/web/20221030135516/https://aldric-chen.medium.com/subscribe"
+      },
+      {
+        "datetime": "2023-09-11T19:37:43Z",
+        "uri": "https://web.archive.org/web/20230911193743/https://aldric-chen.medium.com/subscribe"
+      }
+    ],
+    "first": {
+      "datetime": "2021-12-28T03:54:19Z",
+      "uri": "https://web.archive.org/web/20211228035419/https://aldric-chen.medium.com/subscribe"
+    },
+    "last": {
+      "datetime": "2023-09-11T19:37:43Z",
+      "uri": "https://web.archive.org/web/20230911193743/https://aldric-chen.medium.com/subscribe"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://aldric-chen.medium.com/subscribe",
+    "json_format": "http://localhost:1208/timemap/json/https://aldric-chen.medium.com/subscribe",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://aldric-chen.medium.com/subscribe"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://aldric-chen.medium.com/subscribe"
+}
