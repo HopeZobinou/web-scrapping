@@ -72,7 +72,56 @@ Finally, upload the TimeMaps to your GitHub repo -- you'll also use these for Q3
 
 Below is the code used to make the time maps for each URI.
 
+```python
+import requests
+import json
+import subprocess
+import sys
 
+def file_to_list(file_path):
+    file_path = file_path
+    links = []
+
+    # Open the file in read mode and read its lines
+    try:
+        with open(file_path, 'r') as file:
+            links = file.readlines()
+    except FileNotFoundError:
+        print(f"File not found: {file_path}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+    links = [item.strip() for item in links]
+
+    if not file.closed:
+        file.close()
+
+    return links
+
+def to_time_maps(links):
+    links = links
+    for link in links:
+        try:
+            # Run MemGator to get the TimeMap JSON and store the result in a file
+            output_file = f"{link.replace('://', '_').replace('/', '_').replace('?', '_').replace('#', '_').replace('%','_').replace('&','_').replace('{','_').replace('}','_').replace('<','_').replace('>','_').replace('*','_').replace('$', '_').replace('!','_').replace(':','_').replace('@','_').replace('+','_').replace('|','_').replace('=','_')}_timemap.json"
+            subprocess.run(["c:/Users/hopez/Documents/Data440/Homework2/memgator-windows-amd64","-f", "json", link], stdout = open(output_file, "w"), text=True, check=True)
+            print(f"TimeMap JSON for {link} has been saved to {output_file}")
+        except subprocess.CalledProcessError as e:
+            print(f"Error running MemGator for {link}: {e}")
+        except Exception as e:
+            print(f"An error occurred: {e}")
+
+if __name__ == "__main__":
+    #Path to the txt file "c:/Users/hopez/Documents/Data440/Homework2/twitter_links.txt"
+
+    if len(sys.argv) != 2:
+        print("2 arguments are required, the file name and path to the links.")
+        sys.exit(1)
+
+    links = file_to_list(sys.argv[1])
+
+    to_time_maps(links[0:1000]) #000-999
+```
 
 # References
 
