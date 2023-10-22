@@ -124,7 +124,12 @@ if __name__ == "__main__":
     to_time_maps(links[0:1000]) #000-999
 ```
 
+## Discussion
+
+At first, I had all the links on a txt file and in order for me to get time maps from them I had to store them into a list on Python and perform the time map commands on each individual element in said list. I created a function that opens the txt file and appends an empty list with each line on the txt file. Next, I created a function that iterates over a list and performs memgator on each element. Since memgator only works on the command line I used the subprocess library to perform command line arguments in the python script—reference 3.
+
 # References
 
 *Reference 1, <https://github.com/anwala/teaching-web-science/tree/main/fall-2023/week-3/twitter-scraper#example-2-extract-tweets-from-search>
 *Reference 2, <https://github.com/anwala/teaching-web-science/blob/main/fall-2023/week-3/twitter-scraper/process_tweets.py>
+*Reference 3, <https://stackoverflow.com/questions/450285/executing-command-line-programs-from-within-python>
