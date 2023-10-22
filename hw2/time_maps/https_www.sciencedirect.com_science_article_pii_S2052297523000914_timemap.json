@@ -1,0 +1,94 @@
+{
+  "original_uri": "https://www.sciencedirect.com/science/article/pii/S2052297523000914",
+  "self": "http://localhost:1208/timemap/json/https://www.sciencedirect.com/science/article/pii/S2052297523000914",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-03T18:53:34Z",
+        "uri": "http://archive.md/20231003185334/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-04T20:34:08Z",
+        "uri": "http://archive.md/20231004203408/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-04T20:34:29Z",
+        "uri": "https://web.archive.org/web/20231004203429/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-09T17:37:17Z",
+        "uri": "https://web.archive.org/web/20231009173717/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-11T04:20:55Z",
+        "uri": "https://web.archive.org/web/20231011042055/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-11T05:53:53Z",
+        "uri": "https://web.archive.org/web/20231011055353/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-12T12:53:29Z",
+        "uri": "https://web.archive.org/web/20231012125329/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-13T01:01:44Z",
+        "uri": "https://web.archive.org/web/20231013010144/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-13T11:38:57Z",
+        "uri": "https://web.archive.org/web/20231013113857/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-13T19:06:32Z",
+        "uri": "https://web.archive.org/web/20231013190632/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-13T19:52:08Z",
+        "uri": "https://web.archive.org/web/20231013195208/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-13T23:36:17Z",
+        "uri": "https://web.archive.org/web/20231013233617/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-14T23:44:31Z",
+        "uri": "https://web.archive.org/web/20231014234431/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-19T16:46:56Z",
+        "uri": "https://web.archive.org/web/20231019164656/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-19T17:22:06Z",
+        "uri": "https://web.archive.org/web/20231019172206/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-19T17:22:23Z",
+        "uri": "https://web.archive.org/web/20231019172223/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-20T06:42:31Z",
+        "uri": "https://web.archive.org/web/20231020064231/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      },
+      {
+        "datetime": "2023-10-20T06:42:32Z",
+        "uri": "https://web.archive.org/web/20231020064232/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-03T18:53:34Z",
+      "uri": "http://archive.md/20231003185334/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+    },
+    "last": {
+      "datetime": "2023-10-20T06:42:32Z",
+      "uri": "https://web.archive.org/web/20231020064232/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.sciencedirect.com/science/article/pii/S2052297523000914",
+    "json_format": "http://localhost:1208/timemap/json/https://www.sciencedirect.com/science/article/pii/S2052297523000914",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.sciencedirect.com/science/article/pii/S2052297523000914"
+}

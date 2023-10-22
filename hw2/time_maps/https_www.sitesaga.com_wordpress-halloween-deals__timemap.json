@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.sitesaga.com/wordpress-halloween-deals/",
+  "self": "http://localhost:1208/timemap/json/https://www.sitesaga.com/wordpress-halloween-deals/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2022-10-28T18:20:12Z",
+        "uri": "https://web.archive.org/web/20221028182012/https://www.sitesaga.com/wordpress-halloween-deals/"
+      },
+      {
+        "datetime": "2022-12-03T16:11:25Z",
+        "uri": "https://web.archive.org/web/20221203161125/https://www.sitesaga.com/wordpress-halloween-deals/"
+      },
+      {
+        "datetime": "2023-03-24T13:05:59Z",
+        "uri": "https://web.archive.org/web/20230324130559/https://www.sitesaga.com/wordpress-halloween-deals/"
+      }
+    ],
+    "first": {
+      "datetime": "2022-10-28T18:20:12Z",
+      "uri": "https://web.archive.org/web/20221028182012/https://www.sitesaga.com/wordpress-halloween-deals/"
+    },
+    "last": {
+      "datetime": "2023-03-24T13:05:59Z",
+      "uri": "https://web.archive.org/web/20230324130559/https://www.sitesaga.com/wordpress-halloween-deals/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.sitesaga.com/wordpress-halloween-deals/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.sitesaga.com/wordpress-halloween-deals/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.sitesaga.com/wordpress-halloween-deals/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.sitesaga.com/wordpress-halloween-deals/"
+}

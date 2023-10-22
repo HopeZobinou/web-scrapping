@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.politicalflare.com/2023/10/former-aide-to-vp-pence-says-trump-mocked-his-supporters-behind-their-backs-all-the-time/",
+  "self": "http://localhost:1208/timemap/json/https://www.politicalflare.com/2023/10/former-aide-to-vp-pence-says-trump-mocked-his-supporters-behind-their-backs-all-the-time/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T06:19:38Z",
+        "uri": "https://web.archive.org/web/20231012061938/https://www.politicalflare.com/2023/10/former-aide-to-vp-pence-says-trump-mocked-his-supporters-behind-their-backs-all-the-time/"
+      },
+      {
+        "datetime": "2023-10-17T10:30:04Z",
+        "uri": "https://web.archive.org/web/20231017103004/https://www.politicalflare.com/2023/10/former-aide-to-vp-pence-says-trump-mocked-his-supporters-behind-their-backs-all-the-time/"
+      },
+      {
+        "datetime": "2023-10-17T17:58:42Z",
+        "uri": "https://web.archive.org/web/20231017175842/https://www.politicalflare.com/2023/10/former-aide-to-vp-pence-says-trump-mocked-his-supporters-behind-their-backs-all-the-time/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T06:19:38Z",
+      "uri": "https://web.archive.org/web/20231012061938/https://www.politicalflare.com/2023/10/former-aide-to-vp-pence-says-trump-mocked-his-supporters-behind-their-backs-all-the-time/"
+    },
+    "last": {
+      "datetime": "2023-10-17T17:58:42Z",
+      "uri": "https://web.archive.org/web/20231017175842/https://www.politicalflare.com/2023/10/former-aide-to-vp-pence-says-trump-mocked-his-supporters-behind-their-backs-all-the-time/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.politicalflare.com/2023/10/former-aide-to-vp-pence-says-trump-mocked-his-supporters-behind-their-backs-all-the-time/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.politicalflare.com/2023/10/former-aide-to-vp-pence-says-trump-mocked-his-supporters-behind-their-backs-all-the-time/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.politicalflare.com/2023/10/former-aide-to-vp-pence-says-trump-mocked-his-supporters-behind-their-backs-all-the-time/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.politicalflare.com/2023/10/former-aide-to-vp-pence-says-trump-mocked-his-supporters-behind-their-backs-all-the-time/"
+}

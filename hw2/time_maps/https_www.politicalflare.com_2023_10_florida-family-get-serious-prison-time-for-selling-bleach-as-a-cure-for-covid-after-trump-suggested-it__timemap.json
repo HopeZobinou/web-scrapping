@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.politicalflare.com/2023/10/florida-family-get-serious-prison-time-for-selling-bleach-as-a-cure-for-covid-after-trump-suggested-it/",
+  "self": "http://localhost:1208/timemap/json/https://www.politicalflare.com/2023/10/florida-family-get-serious-prison-time-for-selling-bleach-as-a-cure-for-covid-after-trump-suggested-it/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T01:40:32Z",
+        "uri": "https://web.archive.org/web/20231012014032/https://www.politicalflare.com/2023/10/florida-family-get-serious-prison-time-for-selling-bleach-as-a-cure-for-covid-after-trump-suggested-it/"
+      },
+      {
+        "datetime": "2023-10-12T02:51:33Z",
+        "uri": "https://web.archive.org/web/20231012025133/https://www.politicalflare.com/2023/10/florida-family-get-serious-prison-time-for-selling-bleach-as-a-cure-for-covid-after-trump-suggested-it/"
+      },
+      {
+        "datetime": "2023-10-12T03:56:52Z",
+        "uri": "https://web.archive.org/web/20231012035652/https://www.politicalflare.com/2023/10/florida-family-get-serious-prison-time-for-selling-bleach-as-a-cure-for-covid-after-trump-suggested-it/"
+      },
+      {
+        "datetime": "2023-10-12T08:52:15Z",
+        "uri": "https://web.archive.org/web/20231012085215/https://www.politicalflare.com/2023/10/florida-family-get-serious-prison-time-for-selling-bleach-as-a-cure-for-covid-after-trump-suggested-it/"
+      },
+      {
+        "datetime": "2023-10-17T09:22:37Z",
+        "uri": "https://web.archive.org/web/20231017092237/https://www.politicalflare.com/2023/10/florida-family-get-serious-prison-time-for-selling-bleach-as-a-cure-for-covid-after-trump-suggested-it/"
+      },
+      {
+        "datetime": "2023-10-17T12:12:51Z",
+        "uri": "https://web.archive.org/web/20231017121251/https://www.politicalflare.com/2023/10/florida-family-get-serious-prison-time-for-selling-bleach-as-a-cure-for-covid-after-trump-suggested-it/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T01:40:32Z",
+      "uri": "https://web.archive.org/web/20231012014032/https://www.politicalflare.com/2023/10/florida-family-get-serious-prison-time-for-selling-bleach-as-a-cure-for-covid-after-trump-suggested-it/"
+    },
+    "last": {
+      "datetime": "2023-10-17T12:12:51Z",
+      "uri": "https://web.archive.org/web/20231017121251/https://www.politicalflare.com/2023/10/florida-family-get-serious-prison-time-for-selling-bleach-as-a-cure-for-covid-after-trump-suggested-it/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.politicalflare.com/2023/10/florida-family-get-serious-prison-time-for-selling-bleach-as-a-cure-for-covid-after-trump-suggested-it/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.politicalflare.com/2023/10/florida-family-get-serious-prison-time-for-selling-bleach-as-a-cure-for-covid-after-trump-suggested-it/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.politicalflare.com/2023/10/florida-family-get-serious-prison-time-for-selling-bleach-as-a-cure-for-covid-after-trump-suggested-it/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.politicalflare.com/2023/10/florida-family-get-serious-prison-time-for-selling-bleach-as-a-cure-for-covid-after-trump-suggested-it/"
+}

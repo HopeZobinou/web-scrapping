@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/",
+  "self": "http://localhost:1208/timemap/json/https://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T03:39:56Z",
+        "uri": "https://web.archive.org/web/20231012033956/https://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/"
+      },
+      {
+        "datetime": "2023-10-12T04:39:30Z",
+        "uri": "https://web.archive.org/web/20231012043930/https://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/"
+      },
+      {
+        "datetime": "2023-10-12T17:03:36Z",
+        "uri": "https://web.archive.org/web/20231012170336/https://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/"
+      },
+      {
+        "datetime": "2023-10-13T20:49:06Z",
+        "uri": "https://web.archive.org/web/20231013204906/https://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/"
+      },
+      {
+        "datetime": "2023-10-14T12:25:56Z",
+        "uri": "https://web.archive.org/web/20231014122556/http://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/"
+      },
+      {
+        "datetime": "2023-10-15T02:46:27Z",
+        "uri": "https://web.archive.org/web/20231015024627/https://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/"
+      },
+      {
+        "datetime": "2023-10-16T23:20:41Z",
+        "uri": "https://web.archive.org/web/20231016232041/https://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/"
+      },
+      {
+        "datetime": "2023-10-17T08:36:33Z",
+        "uri": "https://web.archive.org/web/20231017083633/http://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T03:39:56Z",
+      "uri": "https://web.archive.org/web/20231012033956/https://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/"
+    },
+    "last": {
+      "datetime": "2023-10-17T08:36:33Z",
+      "uri": "https://web.archive.org/web/20231017083633/http://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.palmerreport.com/analysis/allen-weisselberg-just-took-the-stand-and-gave-damning-testimony-against-donald-trump-in-civil-fraud-trial/52469/"
+}

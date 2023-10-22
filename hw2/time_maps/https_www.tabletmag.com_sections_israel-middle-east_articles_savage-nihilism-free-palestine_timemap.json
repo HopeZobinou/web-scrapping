@@ -1,0 +1,74 @@
+{
+  "original_uri": "https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine",
+  "self": "http://localhost:1208/timemap/json/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T19:12:17Z",
+        "uri": "https://web.archive.org/web/20231010191217/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+      },
+      {
+        "datetime": "2023-10-10T21:15:35Z",
+        "uri": "https://web.archive.org/web/20231010211535/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+      },
+      {
+        "datetime": "2023-10-11T01:26:12Z",
+        "uri": "https://web.archive.org/web/20231011012612/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+      },
+      {
+        "datetime": "2023-10-11T01:28:28Z",
+        "uri": "http://archive.md/20231011012828/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+      },
+      {
+        "datetime": "2023-10-11T15:18:03Z",
+        "uri": "https://wayback.archive-it.org/all/20231011151803/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+      },
+      {
+        "datetime": "2023-10-13T05:09:55Z",
+        "uri": "https://web.archive.org/web/20231013050955/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+      },
+      {
+        "datetime": "2023-10-13T05:42:09Z",
+        "uri": "http://archive.md/20231013054209/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+      },
+      {
+        "datetime": "2023-10-13T17:38:31Z",
+        "uri": "https://web.archive.org/web/20231013173831/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+      },
+      {
+        "datetime": "2023-10-15T05:39:19Z",
+        "uri": "https://web.archive.org/web/20231015053919/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+      },
+      {
+        "datetime": "2023-10-16T10:53:05Z",
+        "uri": "https://web.archive.org/web/20231016105305/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+      },
+      {
+        "datetime": "2023-10-17T16:58:02Z",
+        "uri": "https://web.archive.org/web/20231017165802/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+      },
+      {
+        "datetime": "2023-10-18T17:24:19Z",
+        "uri": "https://wayback.archive-it.org/all/20231018172419/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+      },
+      {
+        "datetime": "2023-10-18T20:00:21Z",
+        "uri": "https://web.archive.org/web/20231018200021/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T19:12:17Z",
+      "uri": "https://web.archive.org/web/20231010191217/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+    },
+    "last": {
+      "datetime": "2023-10-18T20:00:21Z",
+      "uri": "https://web.archive.org/web/20231018200021/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine",
+    "json_format": "http://localhost:1208/timemap/json/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.tabletmag.com/sections/israel-middle-east/articles/savage-nihilism-free-palestine"
+}

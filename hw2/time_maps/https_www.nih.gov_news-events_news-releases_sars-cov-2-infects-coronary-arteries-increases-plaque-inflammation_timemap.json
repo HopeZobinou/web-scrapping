@@ -1,0 +1,90 @@
+{
+  "original_uri": "https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation",
+  "self": "http://localhost:1208/timemap/json/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-09-28T21:35:48Z",
+        "uri": "https://web.archive.org/web/20230928213548/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-09-29T00:03:38Z",
+        "uri": "http://archive.md/20230929000338/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-09-29T20:24:57Z",
+        "uri": "https://web.archive.org/web/20230929202457/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-09-29T20:29:51Z",
+        "uri": "https://web.archive.org/web/20230929202951/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-09-30T00:23:25Z",
+        "uri": "https://web.archive.org/web/20230930002325/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-09-30T00:39:26Z",
+        "uri": "https://web.archive.org/web/20230930003926/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-09-30T03:32:01Z",
+        "uri": "https://web.archive.org/web/20230930033201/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-09-30T09:16:21Z",
+        "uri": "http://archive.md/20230930091621/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-09-30T09:25:16Z",
+        "uri": "https://web.archive.org/web/20230930092516/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-10-01T10:07:53Z",
+        "uri": "https://web.archive.org/web/20231001100753/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-10-02T10:55:49Z",
+        "uri": "https://web.archive.org/web/20231002105549/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-10-02T18:14:19Z",
+        "uri": "https://web.archive.org/web/20231002181419/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-10-03T12:27:42Z",
+        "uri": "https://web.archive.org/web/20231003122742/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-10-08T22:39:08Z",
+        "uri": "https://wayback.archive-it.org/all/20231008223908/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-10-10T07:36:13Z",
+        "uri": "https://web.archive.org/web/20231010073613/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-10-14T23:18:54Z",
+        "uri": "https://web.archive.org/web/20231014231854/http://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      },
+      {
+        "datetime": "2023-10-20T17:31:26Z",
+        "uri": "https://web.archive.org/web/20231020173126/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+      }
+    ],
+    "first": {
+      "datetime": "2023-09-28T21:35:48Z",
+      "uri": "https://web.archive.org/web/20230928213548/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+    },
+    "last": {
+      "datetime": "2023-10-20T17:31:26Z",
+      "uri": "https://web.archive.org/web/20231020173126/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nih.gov/news-events/news-releases/sars-cov-2-infects-coronary-arteries-increases-plaque-inflammation"
+}

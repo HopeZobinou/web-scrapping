@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.pravda-tv.com/2023/10/krankheit-x-ist-20-mal-toedlicher-als-covid-19/",
+  "self": "http://localhost:1208/timemap/json/https://www.pravda-tv.com/2023/10/krankheit-x-ist-20-mal-toedlicher-als-covid-19/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T17:07:19Z",
+        "uri": "https://web.archive.org/web/20231011170719/https://www.pravda-tv.com/2023/10/krankheit-x-ist-20-mal-toedlicher-als-covid-19/"
+      },
+      {
+        "datetime": "2023-10-11T23:28:06Z",
+        "uri": "https://wayback.archive-it.org/all/20231011232806/https://www.pravda-tv.com/2023/10/krankheit-x-ist-20-mal-toedlicher-als-covid-19/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T17:07:19Z",
+      "uri": "https://web.archive.org/web/20231011170719/https://www.pravda-tv.com/2023/10/krankheit-x-ist-20-mal-toedlicher-als-covid-19/"
+    },
+    "last": {
+      "datetime": "2023-10-11T23:28:06Z",
+      "uri": "https://wayback.archive-it.org/all/20231011232806/https://www.pravda-tv.com/2023/10/krankheit-x-ist-20-mal-toedlicher-als-covid-19/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.pravda-tv.com/2023/10/krankheit-x-ist-20-mal-toedlicher-als-covid-19/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.pravda-tv.com/2023/10/krankheit-x-ist-20-mal-toedlicher-als-covid-19/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.pravda-tv.com/2023/10/krankheit-x-ist-20-mal-toedlicher-als-covid-19/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.pravda-tv.com/2023/10/krankheit-x-ist-20-mal-toedlicher-als-covid-19/"
+}

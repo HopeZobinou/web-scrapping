@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.ndtv.com/video/news/news/hamas-attack-on-israel-viral-video-shows-israeli-neighbourhood-singing-national-anthem-730882",
+  "self": "http://localhost:1208/timemap/json/https://www.ndtv.com/video/news/news/hamas-attack-on-israel-viral-video-shows-israeli-neighbourhood-singing-national-anthem-730882",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T02:48:54Z",
+        "uri": "https://web.archive.org/web/20231012024854/https://www.ndtv.com/video/news/news/hamas-attack-on-israel-viral-video-shows-israeli-neighbourhood-singing-national-anthem-730882"
+      },
+      {
+        "datetime": "2023-10-16T16:44:58Z",
+        "uri": "https://web.archive.org/web/20231016164458/https://www.ndtv.com/video/news/news/hamas-attack-on-israel-viral-video-shows-israeli-neighbourhood-singing-national-anthem-730882"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T02:48:54Z",
+      "uri": "https://web.archive.org/web/20231012024854/https://www.ndtv.com/video/news/news/hamas-attack-on-israel-viral-video-shows-israeli-neighbourhood-singing-national-anthem-730882"
+    },
+    "last": {
+      "datetime": "2023-10-16T16:44:58Z",
+      "uri": "https://web.archive.org/web/20231016164458/https://www.ndtv.com/video/news/news/hamas-attack-on-israel-viral-video-shows-israeli-neighbourhood-singing-national-anthem-730882"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.ndtv.com/video/news/news/hamas-attack-on-israel-viral-video-shows-israeli-neighbourhood-singing-national-anthem-730882",
+    "json_format": "http://localhost:1208/timemap/json/https://www.ndtv.com/video/news/news/hamas-attack-on-israel-viral-video-shows-israeli-neighbourhood-singing-national-anthem-730882",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.ndtv.com/video/news/news/hamas-attack-on-israel-viral-video-shows-israeli-neighbourhood-singing-national-anthem-730882"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.ndtv.com/video/news/news/hamas-attack-on-israel-viral-video-shows-israeli-neighbourhood-singing-national-anthem-730882"
+}

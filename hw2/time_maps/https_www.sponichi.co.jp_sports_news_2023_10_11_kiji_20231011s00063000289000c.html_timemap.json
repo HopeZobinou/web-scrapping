@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html",
+  "self": "http://localhost:1208/timemap/json/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T06:58:44Z",
+        "uri": "https://web.archive.org/web/20231011065844/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html"
+      },
+      {
+        "datetime": "2023-10-11T08:12:19Z",
+        "uri": "https://web.archive.org/web/20231011081219/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html"
+      },
+      {
+        "datetime": "2023-10-12T02:21:29Z",
+        "uri": "https://web.archive.org/web/20231012022129/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html"
+      },
+      {
+        "datetime": "2023-10-12T03:34:37Z",
+        "uri": "https://web.archive.org/web/20231012033437/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html"
+      },
+      {
+        "datetime": "2023-10-12T04:39:12Z",
+        "uri": "https://web.archive.org/web/20231012043912/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html"
+      },
+      {
+        "datetime": "2023-10-12T05:51:31Z",
+        "uri": "https://web.archive.org/web/20231012055131/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html"
+      },
+      {
+        "datetime": "2023-10-12T08:52:22Z",
+        "uri": "https://web.archive.org/web/20231012085222/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html"
+      },
+      {
+        "datetime": "2023-10-13T22:32:10Z",
+        "uri": "https://web.archive.org/web/20231013223210/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html"
+      },
+      {
+        "datetime": "2023-10-16T08:56:17Z",
+        "uri": "https://web.archive.org/web/20231016085617/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T06:58:44Z",
+      "uri": "https://web.archive.org/web/20231011065844/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html"
+    },
+    "last": {
+      "datetime": "2023-10-16T08:56:17Z",
+      "uri": "https://web.archive.org/web/20231016085617/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.sponichi.co.jp/sports/news/2023/10/11/kiji/20231011s00063000289000c.html"
+}

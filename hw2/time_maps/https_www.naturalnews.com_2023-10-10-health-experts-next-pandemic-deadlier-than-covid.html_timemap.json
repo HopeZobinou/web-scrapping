@@ -1,0 +1,102 @@
+{
+  "original_uri": "https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html",
+  "self": "http://localhost:1208/timemap/json/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T22:55:44Z",
+        "uri": "https://web.archive.org/web/20231010225544/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-11T06:45:16Z",
+        "uri": "https://web.archive.org/web/20231011064516/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-11T06:52:15Z",
+        "uri": "https://web.archive.org/web/20231011065215/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-11T07:08:46Z",
+        "uri": "https://web.archive.org/web/20231011070846/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-11T09:16:53Z",
+        "uri": "https://web.archive.org/web/20231011091653/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-12T04:26:34Z",
+        "uri": "https://wayback.archive-it.org/all/20231012042634/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-12T07:12:07Z",
+        "uri": "https://wayback.archive-it.org/all/20231012071207/http://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-12T08:41:56Z",
+        "uri": "https://web.archive.org/web/20231012084156/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-12T19:13:25Z",
+        "uri": "https://web.archive.org/web/20231012191325/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-12T20:49:45Z",
+        "uri": "https://wayback.archive-it.org/all/20231012204945/http://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-12T20:49:51Z",
+        "uri": "https://wayback.archive-it.org/all/20231012204951/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-14T01:49:16Z",
+        "uri": "https://wayback.archive-it.org/all/20231014014916/http://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-14T01:49:18Z",
+        "uri": "https://wayback.archive-it.org/all/20231014014918/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-14T13:53:32Z",
+        "uri": "https://web.archive.org/web/20231014135332/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-15T08:08:08Z",
+        "uri": "https://wayback.archive-it.org/all/20231015080808/http://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-15T08:46:19Z",
+        "uri": "https://wayback.archive-it.org/all/20231015084619/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-16T00:12:48Z",
+        "uri": "https://web.archive.org/web/20231016001248/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-16T09:59:49Z",
+        "uri": "https://wayback.archive-it.org/all/20231016095949/http://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-16T09:59:52Z",
+        "uri": "https://wayback.archive-it.org/all/20231016095952/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      },
+      {
+        "datetime": "2023-10-16T20:00:20Z",
+        "uri": "https://web.archive.org/web/20231016200020/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T22:55:44Z",
+      "uri": "https://web.archive.org/web/20231010225544/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+    },
+    "last": {
+      "datetime": "2023-10-16T20:00:20Z",
+      "uri": "https://web.archive.org/web/20231016200020/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.naturalnews.com/2023-10-10-health-experts-next-pandemic-deadlier-than-covid.html"
+}

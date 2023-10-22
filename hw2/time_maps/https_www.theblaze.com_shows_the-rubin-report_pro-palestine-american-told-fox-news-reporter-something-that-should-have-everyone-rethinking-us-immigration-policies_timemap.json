@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies",
+  "self": "http://localhost:1208/timemap/json/https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T22:12:36Z",
+        "uri": "https://web.archive.org/web/20231010221236/http://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies"
+      },
+      {
+        "datetime": "2023-10-12T02:21:49Z",
+        "uri": "https://web.archive.org/web/20231012022149/https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies"
+      },
+      {
+        "datetime": "2023-10-12T03:29:00Z",
+        "uri": "https://web.archive.org/web/20231012032900/https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies"
+      },
+      {
+        "datetime": "2023-10-12T04:36:24Z",
+        "uri": "https://web.archive.org/web/20231012043624/https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies"
+      },
+      {
+        "datetime": "2023-10-12T05:43:49Z",
+        "uri": "https://web.archive.org/web/20231012054349/https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies"
+      },
+      {
+        "datetime": "2023-10-13T20:40:17Z",
+        "uri": "https://web.archive.org/web/20231013204017/https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies"
+      },
+      {
+        "datetime": "2023-10-14T00:54:28Z",
+        "uri": "https://web.archive.org/web/20231014005428/https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies"
+      },
+      {
+        "datetime": "2023-10-14T04:33:39Z",
+        "uri": "https://web.archive.org/web/20231014043339/https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies"
+      },
+      {
+        "datetime": "2023-10-15T20:49:25Z",
+        "uri": "https://web.archive.org/web/20231015204925/https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T22:12:36Z",
+      "uri": "https://web.archive.org/web/20231010221236/http://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies"
+    },
+    "last": {
+      "datetime": "2023-10-15T20:49:25Z",
+      "uri": "https://web.archive.org/web/20231015204925/https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies",
+    "json_format": "http://localhost:1208/timemap/json/https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.theblaze.com/shows/the-rubin-report/pro-palestine-american-told-fox-news-reporter-something-that-should-have-everyone-rethinking-us-immigration-policies"
+}

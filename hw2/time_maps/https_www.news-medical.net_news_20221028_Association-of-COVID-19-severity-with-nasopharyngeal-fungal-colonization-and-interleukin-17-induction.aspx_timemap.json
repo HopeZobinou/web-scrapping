@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx",
+  "self": "http://localhost:1208/timemap/json/https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2022-10-28T08:58:10Z",
+        "uri": "https://web.archive.org/web/20221028085810/https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx"
+      },
+      {
+        "datetime": "2022-10-28T09:26:07Z",
+        "uri": "https://web.archive.org/web/20221028092607/https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx"
+      },
+      {
+        "datetime": "2022-10-28T13:18:28Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20221028131828mp_/https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx"
+      },
+      {
+        "datetime": "2022-11-05T08:31:48Z",
+        "uri": "https://web.archive.org/web/20221105083148/https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx"
+      },
+      {
+        "datetime": "2022-11-11T11:19:14Z",
+        "uri": "https://web.archive.org/web/20221111111914/https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx"
+      },
+      {
+        "datetime": "2023-01-30T11:27:40Z",
+        "uri": "https://web.archive.org/web/20230130112740/https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx"
+      }
+    ],
+    "first": {
+      "datetime": "2022-10-28T08:58:10Z",
+      "uri": "https://web.archive.org/web/20221028085810/https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx"
+    },
+    "last": {
+      "datetime": "2023-01-30T11:27:40Z",
+      "uri": "https://web.archive.org/web/20230130112740/https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx",
+    "json_format": "http://localhost:1208/timemap/json/https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx"
+}

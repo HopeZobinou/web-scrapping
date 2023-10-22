@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.oneworldnews.com/entertainment/karan-kundrra-birthday-special-a-look-at-his-top-5-shows/",
+  "self": "http://localhost:1208/timemap/json/https://www.oneworldnews.com/entertainment/karan-kundrra-birthday-special-a-look-at-his-top-5-shows/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-13T01:15:50Z",
+        "uri": "https://web.archive.org/web/20231013011550/https://www.oneworldnews.com/entertainment/karan-kundrra-birthday-special-a-look-at-his-top-5-shows/"
+      },
+      {
+        "datetime": "2023-10-15T12:34:24Z",
+        "uri": "https://web.archive.org/web/20231015123424/https://www.oneworldnews.com/entertainment/karan-kundrra-birthday-special-a-look-at-his-top-5-shows/"
+      },
+      {
+        "datetime": "2023-10-15T12:36:18Z",
+        "uri": "https://web.archive.org/web/20231015123618/https://www.oneworldnews.com/entertainment/karan-kundrra-birthday-special-a-look-at-his-top-5-shows/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-13T01:15:50Z",
+      "uri": "https://web.archive.org/web/20231013011550/https://www.oneworldnews.com/entertainment/karan-kundrra-birthday-special-a-look-at-his-top-5-shows/"
+    },
+    "last": {
+      "datetime": "2023-10-15T12:36:18Z",
+      "uri": "https://web.archive.org/web/20231015123618/https://www.oneworldnews.com/entertainment/karan-kundrra-birthday-special-a-look-at-his-top-5-shows/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.oneworldnews.com/entertainment/karan-kundrra-birthday-special-a-look-at-his-top-5-shows/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.oneworldnews.com/entertainment/karan-kundrra-birthday-special-a-look-at-his-top-5-shows/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.oneworldnews.com/entertainment/karan-kundrra-birthday-special-a-look-at-his-top-5-shows/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.oneworldnews.com/entertainment/karan-kundrra-birthday-special-a-look-at-his-top-5-shows/"
+}

@@ -1,0 +1,50 @@
+{
+  "original_uri": "https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/",
+  "self": "http://localhost:1208/timemap/json/https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T01:16:51Z",
+        "uri": "https://web.archive.org/web/20231012011651/https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/"
+      },
+      {
+        "datetime": "2023-10-12T02:28:19Z",
+        "uri": "https://web.archive.org/web/20231012022819/https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/"
+      },
+      {
+        "datetime": "2023-10-12T05:50:03Z",
+        "uri": "https://web.archive.org/web/20231012055003/https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/"
+      },
+      {
+        "datetime": "2023-10-12T08:52:00Z",
+        "uri": "https://web.archive.org/web/20231012085200/https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/"
+      },
+      {
+        "datetime": "2023-10-12T08:53:23Z",
+        "uri": "https://web.archive.org/web/20231012085323/https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/"
+      },
+      {
+        "datetime": "2023-10-12T08:58:04Z",
+        "uri": "https://web.archive.org/web/20231012085804/https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/"
+      },
+      {
+        "datetime": "2023-10-16T11:14:32Z",
+        "uri": "https://web.archive.org/web/20231016111432/https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T01:16:51Z",
+      "uri": "https://web.archive.org/web/20231012011651/https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/"
+    },
+    "last": {
+      "datetime": "2023-10-16T11:14:32Z",
+      "uri": "https://web.archive.org/web/20231016111432/https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.patrika.com/world-news/earthquake-again-in-afghanistan-today-6-3-magnitude-recorder-4000-deaths-have-occurred-earlier-8529724/"
+}

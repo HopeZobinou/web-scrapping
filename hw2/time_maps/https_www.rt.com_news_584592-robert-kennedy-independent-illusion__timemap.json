@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.rt.com/news/584592-robert-kennedy-independent-illusion/",
+  "self": "http://localhost:1208/timemap/json/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T21:21:46Z",
+        "uri": "https://web.archive.org/web/20231010212146/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/"
+      },
+      {
+        "datetime": "2023-10-11T00:58:44Z",
+        "uri": "https://web.archive.org/web/20231011005844/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/"
+      },
+      {
+        "datetime": "2023-10-11T07:49:09Z",
+        "uri": "https://web.archive.org/web/20231011074909/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/"
+      },
+      {
+        "datetime": "2023-10-11T20:40:00Z",
+        "uri": "https://web.archive.org/web/20231011204000/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/"
+      },
+      {
+        "datetime": "2023-10-13T07:54:14Z",
+        "uri": "https://web.archive.org/web/20231013075414/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/"
+      },
+      {
+        "datetime": "2023-10-13T07:55:01Z",
+        "uri": "https://web.archive.org/web/20231013075501/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/"
+      },
+      {
+        "datetime": "2023-10-16T14:57:43Z",
+        "uri": "https://web.archive.org/web/20231016145743/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/"
+      },
+      {
+        "datetime": "2023-10-17T10:40:03Z",
+        "uri": "https://web.archive.org/web/20231017104003/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T21:21:46Z",
+      "uri": "https://web.archive.org/web/20231010212146/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/"
+    },
+    "last": {
+      "datetime": "2023-10-17T10:40:03Z",
+      "uri": "https://web.archive.org/web/20231017104003/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.rt.com/news/584592-robert-kennedy-independent-illusion/"
+}

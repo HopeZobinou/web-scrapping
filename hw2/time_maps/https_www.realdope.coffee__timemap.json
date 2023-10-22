@@ -1,0 +1,758 @@
+{
+  "original_uri": "https://www.realdope.coffee/",
+  "self": "http://localhost:1208/timemap/json/https://www.realdope.coffee/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-12-10T05:52:50Z",
+        "uri": "https://web.archive.org/web/20191210055250/http://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2019-12-31T00:19:06Z",
+        "uri": "https://web.archive.org/web/20191231001906/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-04-28T22:09:20Z",
+        "uri": "https://web.archive.org/web/20200428220920/http://realdope.coffee:80/"
+      },
+      {
+        "datetime": "2020-04-29T23:45:10Z",
+        "uri": "https://web.archive.org/web/20200429234510/http://realdope.coffee:80/"
+      },
+      {
+        "datetime": "2020-05-14T07:45:02Z",
+        "uri": "https://web.archive.org/web/20200514074502/http://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-05-14T07:45:04Z",
+        "uri": "https://web.archive.org/web/20200514074504/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-06-04T22:58:02Z",
+        "uri": "https://arquivo.pt/wayback/20200604225802mp_/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-06-07T12:39:23Z",
+        "uri": "https://web.archive.org/web/20200607123923/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-06-14T13:25:28Z",
+        "uri": "https://web.archive.org/web/20200614132528/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-06-17T16:35:16Z",
+        "uri": "https://web.archive.org/web/20200617163516/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-06-18T11:08:41Z",
+        "uri": "https://web.archive.org/web/20200618110841/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-06-19T12:59:34Z",
+        "uri": "https://web.archive.org/web/20200619125934/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-06-21T14:15:22Z",
+        "uri": "https://web.archive.org/web/20200621141522/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-06-22T07:06:43Z",
+        "uri": "https://web.archive.org/web/20200622070643/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-06-28T18:25:59Z",
+        "uri": "https://web.archive.org/web/20200628182559/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-07-05T19:47:30Z",
+        "uri": "https://web.archive.org/web/20200705194730/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-07-10T20:17:29Z",
+        "uri": "https://web.archive.org/web/20200710201729/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-07-12T20:28:17Z",
+        "uri": "https://web.archive.org/web/20200712202817/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-07-15T17:19:54Z",
+        "uri": "https://web.archive.org/web/20200715171954/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-07-19T22:42:25Z",
+        "uri": "https://web.archive.org/web/20200719224225/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-07-26T23:36:02Z",
+        "uri": "https://web.archive.org/web/20200726233602/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-07-30T05:04:34Z",
+        "uri": "https://web.archive.org/web/20200730050434/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-07-31T05:45:31Z",
+        "uri": "https://web.archive.org/web/20200731054531/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-08-03T00:44:22Z",
+        "uri": "https://web.archive.org/web/20200803004422/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-08-07T04:34:32Z",
+        "uri": "https://web.archive.org/web/20200807043432/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-08-13T05:53:55Z",
+        "uri": "https://web.archive.org/web/20200813055355/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-08-17T15:57:20Z",
+        "uri": "https://web.archive.org/web/20200817155720/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-08-19T18:51:19Z",
+        "uri": "https://web.archive.org/web/20200819185119/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-09-14T05:30:25Z",
+        "uri": "https://web.archive.org/web/20200914053025/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-09-25T05:54:48Z",
+        "uri": "https://web.archive.org/web/20200925055448/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-09-26T12:27:30Z",
+        "uri": "https://web.archive.org/web/20200926122730/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-10-05T02:25:52Z",
+        "uri": "https://web.archive.org/web/20201005022552/http://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-10-07T10:02:22Z",
+        "uri": "https://web.archive.org/web/20201007100222/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-10-14T20:39:44Z",
+        "uri": "https://web.archive.org/web/20201014203944/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-10-28T18:42:35Z",
+        "uri": "https://web.archive.org/web/20201028184235/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-10-29T06:01:30Z",
+        "uri": "https://web.archive.org/web/20201029060130/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-10-30T08:29:52Z",
+        "uri": "https://web.archive.org/web/20201030082952/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-11-01T01:09:14Z",
+        "uri": "https://web.archive.org/web/20201101010914/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-11-01T01:09:14Z",
+        "uri": "https://web.archive.org/web/20201101010914/http://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-11-03T12:46:40Z",
+        "uri": "https://web.archive.org/web/20201103124640/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-11-17T02:18:48Z",
+        "uri": "https://web.archive.org/web/20201117021848/http://realdope.coffee/"
+      },
+      {
+        "datetime": "2020-11-17T02:18:49Z",
+        "uri": "https://web.archive.org/web/20201117021849/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2020-12-06T16:21:17Z",
+        "uri": "https://web.archive.org/web/20201206162117/https://www.realdope.coffee"
+      },
+      {
+        "datetime": "2020-12-08T07:24:21Z",
+        "uri": "https://web.archive.org/web/20201208072421/https://www.realdope.coffee"
+      },
+      {
+        "datetime": "2020-12-08T20:35:35Z",
+        "uri": "https://web.archive.org/web/20201208203535/https://www.realdope.coffee"
+      },
+      {
+        "datetime": "2020-12-09T05:46:48Z",
+        "uri": "https://web.archive.org/web/20201209054648/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-01-01T12:51:24Z",
+        "uri": "https://web.archive.org/web/20210101125124/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-01-06T11:31:19Z",
+        "uri": "https://web.archive.org/web/20210106113119/https://www.realdope.coffee"
+      },
+      {
+        "datetime": "2021-01-21T02:00:19Z",
+        "uri": "https://web.archive.org/web/20210121020019/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-02-05T00:52:27Z",
+        "uri": "https://web.archive.org/web/20210205005227/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-02-06T02:08:29Z",
+        "uri": "https://web.archive.org/web/20210206020829/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-02-27T07:07:27Z",
+        "uri": "https://web.archive.org/web/20210227070727/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-02-28T01:03:49Z",
+        "uri": "https://web.archive.org/web/20210228010349/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-01T02:04:02Z",
+        "uri": "https://web.archive.org/web/20210301020402/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-02T08:11:27Z",
+        "uri": "https://web.archive.org/web/20210302081127/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-03T20:11:30Z",
+        "uri": "https://web.archive.org/web/20210303201130/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-05T12:50:32Z",
+        "uri": "https://web.archive.org/web/20210305125032/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-12T11:38:41Z",
+        "uri": "https://web.archive.org/web/20210312113841/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-13T13:53:25Z",
+        "uri": "https://web.archive.org/web/20210313135325/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-14T11:14:30Z",
+        "uri": "https://web.archive.org/web/20210314111430/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-16T12:17:51Z",
+        "uri": "https://web.archive.org/web/20210316121751/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-17T08:25:38Z",
+        "uri": "https://web.archive.org/web/20210317082538/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-18T08:54:55Z",
+        "uri": "https://web.archive.org/web/20210318085455/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-19T13:30:49Z",
+        "uri": "https://web.archive.org/web/20210319133049/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-20T13:08:29Z",
+        "uri": "https://web.archive.org/web/20210320130829/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-21T09:31:31Z",
+        "uri": "https://web.archive.org/web/20210321093131/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-22T13:35:26Z",
+        "uri": "https://web.archive.org/web/20210322133526/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-23T17:14:58Z",
+        "uri": "https://web.archive.org/web/20210323171458/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-24T15:11:53Z",
+        "uri": "https://web.archive.org/web/20210324151153/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-25T21:23:06Z",
+        "uri": "https://web.archive.org/web/20210325212306/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-27T00:28:31Z",
+        "uri": "https://web.archive.org/web/20210327002831/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-03-30T06:55:43Z",
+        "uri": "https://web.archive.org/web/20210330065543/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-04-01T08:52:27Z",
+        "uri": "https://web.archive.org/web/20210401085227/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-04-20T17:05:22Z",
+        "uri": "https://web.archive.org/web/20210420170522/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-05-16T22:17:03Z",
+        "uri": "https://web.archive.org/web/20210516221703/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-05-18T14:28:10Z",
+        "uri": "https://web.archive.org/web/20210518142810/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-05-19T17:06:59Z",
+        "uri": "https://web.archive.org/web/20210519170659/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-06-02T14:01:35Z",
+        "uri": "https://web.archive.org/web/20210602140135/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-06-21T03:44:27Z",
+        "uri": "https://web.archive.org/web/20210621034427/http://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-06-21T03:44:35Z",
+        "uri": "https://web.archive.org/web/20210621034435/http://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-06-22T14:23:25Z",
+        "uri": "https://web.archive.org/web/20210622142325/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-06-22T14:23:25Z",
+        "uri": "https://web.archive.org/web/20210622142325/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-06-23T03:13:47Z",
+        "uri": "https://web.archive.org/web/20210623031347/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-06-23T03:13:47Z",
+        "uri": "https://web.archive.org/web/20210623031347/http://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-07-09T20:50:20Z",
+        "uri": "https://web.archive.org/web/20210709205020/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-08-01T14:22:06Z",
+        "uri": "https://web.archive.org/web/20210801142206/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-09-28T07:48:43Z",
+        "uri": "https://web.archive.org/web/20210928074843/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-10-27T18:14:10Z",
+        "uri": "https://web.archive.org/web/20211027181410/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-10-27T18:52:20Z",
+        "uri": "https://web.archive.org/web/20211027185220/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-10-27T19:56:56Z",
+        "uri": "https://web.archive.org/web/20211027195656/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-10-29T22:53:27Z",
+        "uri": "https://web.archive.org/web/20211029225327/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-11-22T16:05:25Z",
+        "uri": "https://web.archive.org/web/20211122160525/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-01T19:23:23Z",
+        "uri": "https://web.archive.org/web/20211201192323/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-01T23:59:43Z",
+        "uri": "https://web.archive.org/web/20211201235943/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-14T01:42:20Z",
+        "uri": "https://web.archive.org/web/20211214014220/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-15T21:56:28Z",
+        "uri": "https://web.archive.org/web/20211215215628/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-21T09:13:05Z",
+        "uri": "https://web.archive.org/web/20211221091305/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-22T09:55:40Z",
+        "uri": "https://web.archive.org/web/20211222095540/http://realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-22T21:20:24Z",
+        "uri": "https://web.archive.org/web/20211222212024/http://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-22T21:20:25Z",
+        "uri": "https://web.archive.org/web/20211222212025/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-23T06:33:18Z",
+        "uri": "https://web.archive.org/web/20211223063318/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-24T07:49:04Z",
+        "uri": "https://web.archive.org/web/20211224074904/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-25T08:36:00Z",
+        "uri": "https://web.archive.org/web/20211225083600/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-26T09:44:41Z",
+        "uri": "https://web.archive.org/web/20211226094441/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-27T10:55:04Z",
+        "uri": "https://web.archive.org/web/20211227105504/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-28T10:39:59Z",
+        "uri": "https://web.archive.org/web/20211228103959/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-28T12:14:26Z",
+        "uri": "https://web.archive.org/web/20211228121426/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-29T13:09:18Z",
+        "uri": "https://web.archive.org/web/20211229130918/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2021-12-30T11:56:28Z",
+        "uri": "https://web.archive.org/web/20211230115628/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-01T13:54:39Z",
+        "uri": "https://web.archive.org/web/20220101135439/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-02T14:42:26Z",
+        "uri": "https://web.archive.org/web/20220102144226/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-03T13:27:21Z",
+        "uri": "https://web.archive.org/web/20220103132721/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-04T11:58:10Z",
+        "uri": "https://web.archive.org/web/20220104115810/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-04T14:33:43Z",
+        "uri": "https://web.archive.org/web/20220104143343/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-05T15:40:54Z",
+        "uri": "https://web.archive.org/web/20220105154054/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-06T15:26:26Z",
+        "uri": "https://web.archive.org/web/20220106152626/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-07T16:26:28Z",
+        "uri": "https://web.archive.org/web/20220107162628/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-08T17:24:44Z",
+        "uri": "https://web.archive.org/web/20220108172444/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-09T18:30:38Z",
+        "uri": "https://web.archive.org/web/20220109183038/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-10T19:12:47Z",
+        "uri": "https://web.archive.org/web/20220110191247/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-11T12:22:46Z",
+        "uri": "https://web.archive.org/web/20220111122246/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-11T20:30:42Z",
+        "uri": "https://web.archive.org/web/20220111203042/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-12T21:19:33Z",
+        "uri": "https://web.archive.org/web/20220112211933/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-25T05:10:42Z",
+        "uri": "https://web.archive.org/web/20220125051042/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-25T14:54:24Z",
+        "uri": "https://web.archive.org/web/20220125145424/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-26T02:03:51Z",
+        "uri": "https://web.archive.org/web/20220126020351/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-26T14:27:48Z",
+        "uri": "https://web.archive.org/web/20220126142748/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-01-27T16:19:08Z",
+        "uri": "https://web.archive.org/web/20220127161908/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-02-11T00:39:52Z",
+        "uri": "https://web.archive.org/web/20220211003952/http://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-02-16T22:15:29Z",
+        "uri": "https://web.archive.org/web/20220216221529/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-02-16T22:24:32Z",
+        "uri": "https://web.archive.org/web/20220216222432/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-03-03T02:15:39Z",
+        "uri": "https://web.archive.org/web/20220303021539/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-03-03T02:17:12Z",
+        "uri": "https://web.archive.org/web/20220303021712/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-03-14T10:52:40Z",
+        "uri": "https://web.archive.org/web/20220314105240/http://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-03-27T06:50:10Z",
+        "uri": "https://web.archive.org/web/20220327065010/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-04-03T02:08:43Z",
+        "uri": "https://web.archive.org/web/20220403020843/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-04-05T13:29:46Z",
+        "uri": "https://web.archive.org/web/20220405132946/http://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-04-05T13:29:48Z",
+        "uri": "https://web.archive.org/web/20220405132948/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-04-07T23:41:00Z",
+        "uri": "https://web.archive.org/web/20220407234100/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-05-20T22:55:54Z",
+        "uri": "https://web.archive.org/web/20220520225554/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-05-23T20:40:36Z",
+        "uri": "https://web.archive.org/web/20220523204036/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-05-27T06:42:20Z",
+        "uri": "https://web.archive.org/web/20220527064220/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-07-16T17:17:52Z",
+        "uri": "https://web.archive.org/web/20220716171752/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-07-18T03:30:28Z",
+        "uri": "https://web.archive.org/web/20220718033028/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-07-29T14:52:28Z",
+        "uri": "https://web.archive.org/web/20220729145228/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-08-13T02:55:25Z",
+        "uri": "https://web.archive.org/web/20220813025525/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-09-29T06:01:29Z",
+        "uri": "https://web.archive.org/web/20220929060129/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-10-20T18:08:44Z",
+        "uri": "https://web.archive.org/web/20221020180844/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-11-01T21:49:38Z",
+        "uri": "https://web.archive.org/web/20221101214938/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-11-18T15:09:47Z",
+        "uri": "https://web.archive.org/web/20221118150947/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-11-21T12:52:22Z",
+        "uri": "https://web.archive.org/web/20221121125222/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-11-22T22:54:28Z",
+        "uri": "https://web.archive.org/web/20221122225428/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-11-25T18:22:03Z",
+        "uri": "https://web.archive.org/web/20221125182203/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-11-25T23:36:05Z",
+        "uri": "https://web.archive.org/web/20221125233605/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-11-27T15:20:40Z",
+        "uri": "https://web.archive.org/web/20221127152040/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-11-27T15:20:45Z",
+        "uri": "https://web.archive.org/web/20221127152045/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-11-28T18:07:54Z",
+        "uri": "https://web.archive.org/web/20221128180754/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-11-29T20:39:52Z",
+        "uri": "https://web.archive.org/web/20221129203952/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-12-01T03:22:42Z",
+        "uri": "https://web.archive.org/web/20221201032242/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-12-02T08:53:35Z",
+        "uri": "https://web.archive.org/web/20221202085335/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2022-12-24T17:01:14Z",
+        "uri": "https://web.archive.org/web/20221224170114/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-01-14T16:34:39Z",
+        "uri": "https://web.archive.org/web/20230114163439/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-02-04T00:41:43Z",
+        "uri": "https://web.archive.org/web/20230204004143/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-02-08T00:37:28Z",
+        "uri": "https://web.archive.org/web/20230208003728/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-02-10T21:34:26Z",
+        "uri": "https://web.archive.org/web/20230210213426/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-02-10T21:40:29Z",
+        "uri": "https://web.archive.org/web/20230210214029/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-02-14T06:09:39Z",
+        "uri": "https://web.archive.org/web/20230214060939/http://realdope.coffee/"
+      },
+      {
+        "datetime": "2023-02-16T01:42:05Z",
+        "uri": "https://web.archive.org/web/20230216014205/http://realdope.coffee/"
+      },
+      {
+        "datetime": "2023-02-24T20:19:37Z",
+        "uri": "https://web.archive.org/web/20230224201937/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-02-24T20:24:51Z",
+        "uri": "https://web.archive.org/web/20230224202451/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-03-06T22:05:38Z",
+        "uri": "https://web.archive.org/web/20230306220538/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-03-08T10:41:32Z",
+        "uri": "https://web.archive.org/web/20230308104132/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-03-21T01:51:06Z",
+        "uri": "https://web.archive.org/web/20230321015106/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-04-06T00:14:34Z",
+        "uri": "https://web.archive.org/web/20230406001434/http://realdope.coffee/"
+      },
+      {
+        "datetime": "2023-04-06T01:33:20Z",
+        "uri": "https://web.archive.org/web/20230406013320/http://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-04-06T01:33:21Z",
+        "uri": "https://web.archive.org/web/20230406013321/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-04-07T01:09:38Z",
+        "uri": "https://web.archive.org/web/20230407010938/http://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-04-07T01:09:41Z",
+        "uri": "https://web.archive.org/web/20230407010941/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-04-22T23:20:20Z",
+        "uri": "https://web.archive.org/web/20230422232020/http://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-05-01T03:16:54Z",
+        "uri": "https://web.archive.org/web/20230501031654/http://realdope.coffee/"
+      },
+      {
+        "datetime": "2023-05-13T02:04:26Z",
+        "uri": "https://web.archive.org/web/20230513020426/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-06-24T18:15:19Z",
+        "uri": "https://web.archive.org/web/20230624181519/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-07-03T08:02:16Z",
+        "uri": "https://web.archive.org/web/20230703080216/https://www.realdope.coffee/"
+      },
+      {
+        "datetime": "2023-09-27T04:02:21Z",
+        "uri": "https://web.archive.org/web/20230927040221/https://www.realdope.coffee/"
+      }
+    ],
+    "first": {
+      "datetime": "2019-12-10T05:52:50Z",
+      "uri": "https://web.archive.org/web/20191210055250/http://www.realdope.coffee/"
+    },
+    "last": {
+      "datetime": "2023-09-27T04:02:21Z",
+      "uri": "https://web.archive.org/web/20230927040221/https://www.realdope.coffee/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.realdope.coffee/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.realdope.coffee/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.realdope.coffee/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.realdope.coffee/"
+}

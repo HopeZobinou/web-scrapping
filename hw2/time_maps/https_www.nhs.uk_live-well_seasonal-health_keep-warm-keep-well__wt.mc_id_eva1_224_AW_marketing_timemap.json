@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/?wt.mc_id=eva1_224_AW_marketing",
+  "self": "http://localhost:1208/timemap/json/https://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/?wt.mc_id=eva1_224_AW_marketing",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-09-14T11:35:34Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230914113534mp_/https://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/?wt.mc_id=eva1_224_AW_marketing"
+      },
+      {
+        "datetime": "2023-10-14T06:54:42Z",
+        "uri": "https://web.archive.org/web/20231014065442/https://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/?wt.mc_id=eva1_224_AW_marketing"
+      },
+      {
+        "datetime": "2023-10-18T11:26:38Z",
+        "uri": "https://web.archive.org/web/20231018112638/http://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/?wt.mc_id=eva1_224_AW_marketing"
+      },
+      {
+        "datetime": "2023-10-20T12:05:51Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231020120551mp_/https://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/?wt.mc_id=eva1_224_AW_marketing"
+      }
+    ],
+    "first": {
+      "datetime": "2023-09-14T11:35:34Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20230914113534mp_/https://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/?wt.mc_id=eva1_224_AW_marketing"
+    },
+    "last": {
+      "datetime": "2023-10-20T12:05:51Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20231020120551mp_/https://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/?wt.mc_id=eva1_224_AW_marketing"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/?wt.mc_id=eva1_224_AW_marketing",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/?wt.mc_id=eva1_224_AW_marketing",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/?wt.mc_id=eva1_224_AW_marketing"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nhs.uk/live-well/seasonal-health/keep-warm-keep-well/?wt.mc_id=eva1_224_AW_marketing"
+}

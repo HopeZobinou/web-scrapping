@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.sankei.com/article/20231011-RCQTY5NQINBD3F6LFG6VE3DTVM/",
+  "self": "http://localhost:1208/timemap/json/https://www.sankei.com/article/20231011-RCQTY5NQINBD3F6LFG6VE3DTVM/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T01:17:15Z",
+        "uri": "https://web.archive.org/web/20231012011715/https://www.sankei.com/article/20231011-RCQTY5NQINBD3F6LFG6VE3DTVM/"
+      },
+      {
+        "datetime": "2023-10-12T02:25:26Z",
+        "uri": "https://web.archive.org/web/20231012022526/https://www.sankei.com/article/20231011-RCQTY5NQINBD3F6LFG6VE3DTVM/"
+      },
+      {
+        "datetime": "2023-10-14T08:36:46Z",
+        "uri": "https://web.archive.org/web/20231014083646/https://www.sankei.com/article/20231011-RCQTY5NQINBD3F6LFG6VE3DTVM/"
+      },
+      {
+        "datetime": "2023-10-16T09:28:12Z",
+        "uri": "https://web.archive.org/web/20231016092812/https://www.sankei.com/article/20231011-RCQTY5NQINBD3F6LFG6VE3DTVM/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T01:17:15Z",
+      "uri": "https://web.archive.org/web/20231012011715/https://www.sankei.com/article/20231011-RCQTY5NQINBD3F6LFG6VE3DTVM/"
+    },
+    "last": {
+      "datetime": "2023-10-16T09:28:12Z",
+      "uri": "https://web.archive.org/web/20231016092812/https://www.sankei.com/article/20231011-RCQTY5NQINBD3F6LFG6VE3DTVM/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.sankei.com/article/20231011-RCQTY5NQINBD3F6LFG6VE3DTVM/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.sankei.com/article/20231011-RCQTY5NQINBD3F6LFG6VE3DTVM/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.sankei.com/article/20231011-RCQTY5NQINBD3F6LFG6VE3DTVM/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.sankei.com/article/20231011-RCQTY5NQINBD3F6LFG6VE3DTVM/"
+}

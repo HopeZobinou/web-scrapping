@@ -1,0 +1,582 @@
+{
+  "original_uri": "https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god",
+  "self": "http://localhost:1208/timemap/json/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2015-12-21T03:02:37Z",
+        "uri": "https://web.archive.org/web/20151221030237/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2015-12-21T04:11:16Z",
+        "uri": "https://web.archive.org/web/20151221041116/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2015-12-21T04:26:13Z",
+        "uri": "https://web.archive.org/web/20151221042613/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2015-12-21T22:46:12Z",
+        "uri": "https://web.archive.org/web/20151221224612/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2015-12-22T18:50:17Z",
+        "uri": "https://web.archive.org/web/20151222185017/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2015-12-22T20:55:06Z",
+        "uri": "https://web.archive.org/web/20151222205506/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2015-12-23T21:32:09Z",
+        "uri": "https://web.archive.org/web/20151223213209/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2015-12-24T08:04:37Z",
+        "uri": "https://web.archive.org/web/20151224080437/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god?"
+      },
+      {
+        "datetime": "2015-12-25T05:39:00Z",
+        "uri": "https://web.archive.org/web/20151225053900/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2015-12-26T10:47:33Z",
+        "uri": "https://web.archive.org/web/20151226104733/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2015-12-28T01:20:31Z",
+        "uri": "https://web.archive.org/web/20151228012031/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2015-12-28T23:11:07Z",
+        "uri": "https://web.archive.org/web/20151228231107/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2015-12-29T08:37:10Z",
+        "uri": "https://web.archive.org/web/20151229083710/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2015-12-30T14:35:38Z",
+        "uri": "https://web.archive.org/web/20151230143538/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-01T00:43:16Z",
+        "uri": "https://web.archive.org/web/20160101004316/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-02T05:49:06Z",
+        "uri": "https://web.archive.org/web/20160102054906/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-03T11:29:29Z",
+        "uri": "https://web.archive.org/web/20160103112929/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-04T16:50:29Z",
+        "uri": "https://web.archive.org/web/20160104165029/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-11T11:18:51Z",
+        "uri": "https://web.archive.org/web/20160111111851/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-11T15:51:39Z",
+        "uri": "https://web.archive.org/web/20160111155139/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-14T16:58:59Z",
+        "uri": "https://web.archive.org/web/20160114165859/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-14T23:13:25Z",
+        "uri": "https://web.archive.org/web/20160114231325/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-15T05:20:03Z",
+        "uri": "https://web.archive.org/web/20160115052003/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-15T09:58:09Z",
+        "uri": "https://web.archive.org/web/20160115095809/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-16T03:27:10Z",
+        "uri": "https://web.archive.org/web/20160116032710/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-17T03:31:45Z",
+        "uri": "https://web.archive.org/web/20160117033145/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-17T07:02:05Z",
+        "uri": "https://web.archive.org/web/20160117070205/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-22T05:06:09Z",
+        "uri": "https://web.archive.org/web/20160122050609/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-01-28T19:58:11Z",
+        "uri": "https://web.archive.org/web/20160128195811/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-03T11:03:44Z",
+        "uri": "https://web.archive.org/web/20160203110344/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-04T20:39:19Z",
+        "uri": "https://web.archive.org/web/20160204203919/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-06T07:39:54Z",
+        "uri": "https://web.archive.org/web/20160206073954/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-07T14:02:50Z",
+        "uri": "https://web.archive.org/web/20160207140250/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-08T20:40:39Z",
+        "uri": "https://web.archive.org/web/20160208204039/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-10T10:04:25Z",
+        "uri": "https://web.archive.org/web/20160210100425/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-11T21:48:41Z",
+        "uri": "https://web.archive.org/web/20160211214841/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-13T07:55:30Z",
+        "uri": "https://web.archive.org/web/20160213075530/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-14T23:33:03Z",
+        "uri": "https://web.archive.org/web/20160214233303/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-16T07:42:02Z",
+        "uri": "https://web.archive.org/web/20160216074202/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-17T18:14:14Z",
+        "uri": "https://web.archive.org/web/20160217181414/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-19T04:20:28Z",
+        "uri": "https://web.archive.org/web/20160219042028/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-20T12:47:41Z",
+        "uri": "https://web.archive.org/web/20160220124741/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-22T02:34:18Z",
+        "uri": "https://web.archive.org/web/20160222023418/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-22T12:40:01Z",
+        "uri": "https://web.archive.org/web/20160222124001/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-02-26T00:29:30Z",
+        "uri": "https://web.archive.org/web/20160226002930/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god?"
+      },
+      {
+        "datetime": "2016-03-04T21:32:53Z",
+        "uri": "https://web.archive.org/web/20160304213253/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-03-11T00:39:19Z",
+        "uri": "https://web.archive.org/web/20160311003919/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-03-16T08:18:47Z",
+        "uri": "https://web.archive.org/web/20160316081847/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-03-21T19:48:20Z",
+        "uri": "https://web.archive.org/web/20160321194820/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-03-30T05:32:25Z",
+        "uri": "https://web.archive.org/web/20160330053225/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god?"
+      },
+      {
+        "datetime": "2016-03-31T20:14:05Z",
+        "uri": "https://web.archive.org/web/20160331201405/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-04-16T03:19:20Z",
+        "uri": "https://web.archive.org/web/20160416031920/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-04-16T09:26:00Z",
+        "uri": "https://web.archive.org/web/20160416092600/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-05-01T08:34:01Z",
+        "uri": "https://web.archive.org/web/20160501083401/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god?"
+      },
+      {
+        "datetime": "2016-05-19T12:04:04Z",
+        "uri": "https://web.archive.org/web/20160519120404/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-06-01T14:19:26Z",
+        "uri": "https://web.archive.org/web/20160601141926/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god?"
+      },
+      {
+        "datetime": "2016-06-19T18:23:15Z",
+        "uri": "https://web.archive.org/web/20160619182315/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-07-04T13:12:28Z",
+        "uri": "https://web.archive.org/web/20160704131228/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god?"
+      },
+      {
+        "datetime": "2016-07-20T21:17:11Z",
+        "uri": "https://web.archive.org/web/20160720211711/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-08-22T12:53:04Z",
+        "uri": "https://web.archive.org/web/20160822125304/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-09-26T10:17:24Z",
+        "uri": "https://web.archive.org/web/20160926101724/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-10-30T02:59:05Z",
+        "uri": "https://web.archive.org/web/20161030025905/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2016-12-04T16:16:37Z",
+        "uri": "https://web.archive.org/web/20161204161637/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2017-05-08T17:06:10Z",
+        "uri": "https://web.archive.org/web/20170508170610/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2017-06-08T13:35:15Z",
+        "uri": "https://web.archive.org/web/20170608133515/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2017-06-10T06:01:36Z",
+        "uri": "https://web.archive.org/web/20170610060136/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2017-06-11T06:56:22Z",
+        "uri": "https://web.archive.org/web/20170611065622/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2017-06-12T08:26:24Z",
+        "uri": "https://web.archive.org/web/20170612082624/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2017-07-09T15:30:45Z",
+        "uri": "https://web.archive.org/web/20170709153045/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2017-07-11T04:52:13Z",
+        "uri": "https://web.archive.org/web/20170711045213/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2017-08-03T09:05:15Z",
+        "uri": "https://web.archive.org/web/20170803090515/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2017-09-03T10:35:54Z",
+        "uri": "https://web.archive.org/web/20170903103554/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2017-09-21T13:58:38Z",
+        "uri": "https://web.archive.org/web/20170921135838/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2017-10-04T22:20:26Z",
+        "uri": "https://web.archive.org/web/20171004222026/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2017-11-05T04:10:57Z",
+        "uri": "https://web.archive.org/web/20171105041057/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2017-12-06T07:07:40Z",
+        "uri": "https://web.archive.org/web/20171206070740/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-01-06T08:23:23Z",
+        "uri": "https://web.archive.org/web/20180106082323/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-02-07T08:22:59Z",
+        "uri": "https://web.archive.org/web/20180207082259/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-03-11T12:26:54Z",
+        "uri": "https://web.archive.org/web/20180311122654/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-04-12T01:12:20Z",
+        "uri": "https://web.archive.org/web/20180412011220/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-05-13T09:06:29Z",
+        "uri": "https://web.archive.org/web/20180513090629/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-06-13T08:18:20Z",
+        "uri": "https://web.archive.org/web/20180613081820/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-07-14T22:15:57Z",
+        "uri": "https://web.archive.org/web/20180714221557/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-08-15T00:23:05Z",
+        "uri": "https://web.archive.org/web/20180815002305/http://www.npr.org:80/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-12-18T14:06:08Z",
+        "uri": "https://web.archive.org/web/20181218140608/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-12-19T15:01:39Z",
+        "uri": "https://web.archive.org/web/20181219150139/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-12-20T16:00:45Z",
+        "uri": "https://web.archive.org/web/20181220160045/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-12-21T16:44:00Z",
+        "uri": "https://web.archive.org/web/20181221164400/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-12-22T17:48:51Z",
+        "uri": "https://web.archive.org/web/20181222174851/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-12-23T20:29:39Z",
+        "uri": "https://web.archive.org/web/20181223202939/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-12-24T19:19:58Z",
+        "uri": "https://web.archive.org/web/20181224191958/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-12-25T19:08:51Z",
+        "uri": "https://web.archive.org/web/20181225190851/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-12-26T21:46:37Z",
+        "uri": "https://web.archive.org/web/20181226214637/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-12-28T22:33:51Z",
+        "uri": "https://web.archive.org/web/20181228223351/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-12-30T00:25:04Z",
+        "uri": "https://web.archive.org/web/20181230002504/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2018-12-31T01:15:53Z",
+        "uri": "https://web.archive.org/web/20181231011553/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-01-01T00:50:15Z",
+        "uri": "https://web.archive.org/web/20190101005015/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-01-02T02:07:48Z",
+        "uri": "https://web.archive.org/web/20190102020748/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-01-03T08:05:43Z",
+        "uri": "https://web.archive.org/web/20190103080543/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-01-04T11:56:50Z",
+        "uri": "https://web.archive.org/web/20190104115650/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-01-17T23:40:38Z",
+        "uri": "https://web.archive.org/web/20190117234038/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-01-18T18:35:20Z",
+        "uri": "https://web.archive.org/web/20190118183520/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-04-28T11:37:57Z",
+        "uri": "https://web.archive.org/web/20190428113757/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-04-30T06:29:45Z",
+        "uri": "https://web.archive.org/web/20190430062945/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-05-27T03:33:28Z",
+        "uri": "https://web.archive.org/web/20190527033328/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-06-15T10:19:34Z",
+        "uri": "https://web.archive.org/web/20190615101934/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-06-15T10:19:36Z",
+        "uri": "https://web.archive.org/web/20190615101936/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-08-26T02:57:41Z",
+        "uri": "https://web.archive.org/web/20190826025741/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-08-27T06:20:12Z",
+        "uri": "https://web.archive.org/web/20190827062012/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-09-14T11:26:35Z",
+        "uri": "https://web.archive.org/web/20190914112635/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-09-15T16:34:10Z",
+        "uri": "https://web.archive.org/web/20190915163410/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-09-16T16:12:02Z",
+        "uri": "https://web.archive.org/web/20190916161202/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-09-17T16:42:30Z",
+        "uri": "https://web.archive.org/web/20190917164230/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-09-18T19:12:13Z",
+        "uri": "https://web.archive.org/web/20190918191213/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2019-09-19T18:12:51Z",
+        "uri": "https://web.archive.org/web/20190919181251/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2020-05-03T14:43:10Z",
+        "uri": "https://web.archive.org/web/20200503144310/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2020-11-08T12:18:39Z",
+        "uri": "https://web.archive.org/web/20201108121839/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2020-11-08T12:18:40Z",
+        "uri": "https://web.archive.org/web/20201108121840/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2020-11-08T13:21:24Z",
+        "uri": "https://web.archive.org/web/20201108132124/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2021-06-17T09:59:33Z",
+        "uri": "https://web.archive.org/web/20210617095933/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2021-06-17T09:59:33Z",
+        "uri": "https://web.archive.org/web/20210617095933/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2021-10-03T15:15:06Z",
+        "uri": "https://web.archive.org/web/20211003151506/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2021-10-03T15:15:08Z",
+        "uri": "https://web.archive.org/web/20211003151508/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2021-11-12T21:07:31Z",
+        "uri": "https://web.archive.org/web/20211112210731/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2021-11-12T21:07:32Z",
+        "uri": "https://web.archive.org/web/20211112210732/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2021-11-13T10:15:33Z",
+        "uri": "https://web.archive.org/web/20211113101533/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2021-11-13T16:49:03Z",
+        "uri": "https://web.archive.org/web/20211113164903/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2021-11-13T16:49:03Z",
+        "uri": "https://web.archive.org/web/20211113164903/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2021-12-31T19:57:55Z",
+        "uri": "https://web.archive.org/web/20211231195755/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2022-01-09T02:33:30Z",
+        "uri": "https://web.archive.org/web/20220109023330/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2022-03-23T20:07:53Z",
+        "uri": "https://web.archive.org/web/20220323200753/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2022-03-23T20:07:56Z",
+        "uri": "https://web.archive.org/web/20220323200756/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2022-04-22T15:34:26Z",
+        "uri": "https://web.archive.org/web/20220422153426/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2022-07-03T16:14:28Z",
+        "uri": "https://web.archive.org/web/20220703161428/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2022-07-18T01:29:06Z",
+        "uri": "https://web.archive.org/web/20220718012906/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2022-08-19T16:53:44Z",
+        "uri": "https://web.archive.org/web/20220819165344/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2023-03-26T17:35:15Z",
+        "uri": "https://web.archive.org/web/20230326173515/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2023-06-04T00:03:52Z",
+        "uri": "https://web.archive.org/web/20230604000352/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2023-06-04T00:06:02Z",
+        "uri": "https://web.archive.org/web/20230604000602/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      },
+      {
+        "datetime": "2023-06-28T07:59:28Z",
+        "uri": "https://web.archive.org/web/20230628075928/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+      }
+    ],
+    "first": {
+      "datetime": "2015-12-21T03:02:37Z",
+      "uri": "https://web.archive.org/web/20151221030237/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+    },
+    "last": {
+      "datetime": "2023-06-28T07:59:28Z",
+      "uri": "https://web.archive.org/web/20230628075928/http://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god",
+    "json_format": "http://localhost:1208/timemap/json/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.npr.org/2015/12/20/460480698/do-christians-and-muslims-worship-the-same-god"
+}

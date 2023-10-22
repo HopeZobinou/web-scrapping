@@ -1,0 +1,94 @@
+{
+  "original_uri": "https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866",
+  "self": "http://localhost:1208/timemap/json/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-09T12:45:11Z",
+        "uri": "http://archive.md/20231009124511/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-09T15:06:09Z",
+        "uri": "https://web.archive.org/web/20231009150609/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-09T19:22:07Z",
+        "uri": "https://web.archive.org/web/20231009192207/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-10T01:17:59Z",
+        "uri": "https://web.archive.org/web/20231010011759/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-10T06:04:39Z",
+        "uri": "https://web.archive.org/web/20231010060439/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-10T07:16:49Z",
+        "uri": "https://web.archive.org/web/20231010071649/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-10T13:42:43Z",
+        "uri": "https://web.archive.org/web/20231010134243/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-10T13:42:49Z",
+        "uri": "https://web.archive.org/web/20231010134249/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-11T10:02:34Z",
+        "uri": "https://web.archive.org/web/20231011100234/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-11T10:22:38Z",
+        "uri": "https://web.archive.org/web/20231011102238/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-12T11:52:30Z",
+        "uri": "https://web.archive.org/web/20231012115230/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-12T12:05:25Z",
+        "uri": "https://web.archive.org/web/20231012120525/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-12T16:26:18Z",
+        "uri": "https://web.archive.org/web/20231012162618/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-12T20:48:51Z",
+        "uri": "https://web.archive.org/web/20231012204851/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-13T12:08:51Z",
+        "uri": "https://web.archive.org/web/20231013120851/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-14T12:09:18Z",
+        "uri": "https://web.archive.org/web/20231014120918/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-14T21:19:52Z",
+        "uri": "https://web.archive.org/web/20231014211952/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      },
+      {
+        "datetime": "2023-10-15T22:15:08Z",
+        "uri": "https://web.archive.org/web/20231015221508/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-09T12:45:11Z",
+      "uri": "http://archive.md/20231009124511/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+    },
+    "last": {
+      "datetime": "2023-10-15T22:15:08Z",
+      "uri": "https://web.archive.org/web/20231015221508/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866",
+    "json_format": "http://localhost:1208/timemap/json/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.mirror.co.uk/news/health/covid-hospitalisations-surge-uk-course-31141866"
+}

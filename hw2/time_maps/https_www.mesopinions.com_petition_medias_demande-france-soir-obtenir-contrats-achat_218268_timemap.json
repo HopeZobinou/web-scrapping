@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.mesopinions.com/petition/medias/demande-france-soir-obtenir-contrats-achat/218268",
+  "self": "http://localhost:1208/timemap/json/https://www.mesopinions.com/petition/medias/demande-france-soir-obtenir-contrats-achat/218268",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-10T21:48:39Z",
+        "uri": "https://web.archive.org/web/20231010214839/https://mesopinions.com/petition/medias/demande-france-soir-obtenir-contrats-achat/218268"
+      },
+      {
+        "datetime": "2023-10-11T04:23:57Z",
+        "uri": "https://web.archive.org/web/20231011042357/https://www.mesopinions.com/petition/medias/demande-france-soir-obtenir-contrats-achat/218268"
+      },
+      {
+        "datetime": "2023-10-12T15:21:08Z",
+        "uri": "https://web.archive.org/web/20231012152108/https://www.mesopinions.com/petition/medias/demande-france-soir-obtenir-contrats-achat/218268"
+      },
+      {
+        "datetime": "2023-10-13T08:15:13Z",
+        "uri": "https://web.archive.org/web/20231013081513/https://www.mesopinions.com/petition/medias/demande-france-soir-obtenir-contrats-achat/218268"
+      },
+      {
+        "datetime": "2023-10-17T18:23:42Z",
+        "uri": "https://web.archive.org/web/20231017182342/https://www.mesopinions.com/petition/medias/demande-france-soir-obtenir-contrats-achat/218268"
+      },
+      {
+        "datetime": "2023-10-18T00:55:50Z",
+        "uri": "https://web.archive.org/web/20231018005550/https://www.mesopinions.com/petition/medias/demande-france-soir-obtenir-contrats-achat/218268"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-10T21:48:39Z",
+      "uri": "https://web.archive.org/web/20231010214839/https://mesopinions.com/petition/medias/demande-france-soir-obtenir-contrats-achat/218268"
+    },
+    "last": {
+      "datetime": "2023-10-18T00:55:50Z",
+      "uri": "https://web.archive.org/web/20231018005550/https://www.mesopinions.com/petition/medias/demande-france-soir-obtenir-contrats-achat/218268"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.mesopinions.com/petition/medias/demande-france-soir-obtenir-contrats-achat/218268",
+    "json_format": "http://localhost:1208/timemap/json/https://www.mesopinions.com/petition/medias/demande-france-soir-obtenir-contrats-achat/218268",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.mesopinions.com/petition/medias/demande-france-soir-obtenir-contrats-achat/218268"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.mesopinions.com/petition/medias/demande-france-soir-obtenir-contrats-achat/218268"
+}

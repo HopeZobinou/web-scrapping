@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.prnewswire.com/news-releases/codagenix-announces-late-breaking-presentation-of-positive-clinical-immunogenicity-data-for-covid-19-vaccine-candidate-coviliv-at-idweek-2023-301952953.html",
+  "self": "http://localhost:1208/timemap/json/https://www.prnewswire.com/news-releases/codagenix-announces-late-breaking-presentation-of-positive-clinical-immunogenicity-data-for-covid-19-vaccine-candidate-coviliv-at-idweek-2023-301952953.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T22:39:50Z",
+        "uri": "https://web.archive.org/web/20231011223950/https://www.prnewswire.com/news-releases/codagenix-announces-late-breaking-presentation-of-positive-clinical-immunogenicity-data-for-covid-19-vaccine-candidate-coviliv-at-idweek-2023-301952953.html"
+      },
+      {
+        "datetime": "2023-10-12T04:31:05Z",
+        "uri": "https://web.archive.org/web/20231012043105/https://www.prnewswire.com/news-releases/codagenix-announces-late-breaking-presentation-of-positive-clinical-immunogenicity-data-for-covid-19-vaccine-candidate-coviliv-at-idweek-2023-301952953.html"
+      },
+      {
+        "datetime": "2023-10-12T12:02:49Z",
+        "uri": "https://web.archive.org/web/20231012120249/https://www.prnewswire.com/news-releases/codagenix-announces-late-breaking-presentation-of-positive-clinical-immunogenicity-data-for-covid-19-vaccine-candidate-coviliv-at-idweek-2023-301952953.html"
+      },
+      {
+        "datetime": "2023-10-19T01:34:56Z",
+        "uri": "https://web.archive.org/web/20231019013456/https://www.prnewswire.com/news-releases/codagenix-announces-late-breaking-presentation-of-positive-clinical-immunogenicity-data-for-covid-19-vaccine-candidate-coviliv-at-idweek-2023-301952953.html"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T22:39:50Z",
+      "uri": "https://web.archive.org/web/20231011223950/https://www.prnewswire.com/news-releases/codagenix-announces-late-breaking-presentation-of-positive-clinical-immunogenicity-data-for-covid-19-vaccine-candidate-coviliv-at-idweek-2023-301952953.html"
+    },
+    "last": {
+      "datetime": "2023-10-19T01:34:56Z",
+      "uri": "https://web.archive.org/web/20231019013456/https://www.prnewswire.com/news-releases/codagenix-announces-late-breaking-presentation-of-positive-clinical-immunogenicity-data-for-covid-19-vaccine-candidate-coviliv-at-idweek-2023-301952953.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.prnewswire.com/news-releases/codagenix-announces-late-breaking-presentation-of-positive-clinical-immunogenicity-data-for-covid-19-vaccine-candidate-coviliv-at-idweek-2023-301952953.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.prnewswire.com/news-releases/codagenix-announces-late-breaking-presentation-of-positive-clinical-immunogenicity-data-for-covid-19-vaccine-candidate-coviliv-at-idweek-2023-301952953.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.prnewswire.com/news-releases/codagenix-announces-late-breaking-presentation-of-positive-clinical-immunogenicity-data-for-covid-19-vaccine-candidate-coviliv-at-idweek-2023-301952953.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.prnewswire.com/news-releases/codagenix-announces-late-breaking-presentation-of-positive-clinical-immunogenicity-data-for-covid-19-vaccine-candidate-coviliv-at-idweek-2023-301952953.html"
+}

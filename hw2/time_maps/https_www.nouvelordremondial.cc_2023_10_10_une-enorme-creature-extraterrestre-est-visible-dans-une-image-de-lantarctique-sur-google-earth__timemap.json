@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://www.nouvelordremondial.cc/2023/10/10/une-enorme-creature-extraterrestre-est-visible-dans-une-image-de-lantarctique-sur-google-earth/",
+  "self": "http://localhost:1208/timemap/json/https://www.nouvelordremondial.cc/2023/10/10/une-enorme-creature-extraterrestre-est-visible-dans-une-image-de-lantarctique-sur-google-earth/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T07:24:53Z",
+        "uri": "https://web.archive.org/web/20231011072453/https://www.nouvelordremondial.cc/2023/10/10/une-enorme-creature-extraterrestre-est-visible-dans-une-image-de-lantarctique-sur-google-earth/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T07:24:53Z",
+      "uri": "https://web.archive.org/web/20231011072453/https://www.nouvelordremondial.cc/2023/10/10/une-enorme-creature-extraterrestre-est-visible-dans-une-image-de-lantarctique-sur-google-earth/"
+    },
+    "last": {
+      "datetime": "2023-10-11T07:24:53Z",
+      "uri": "https://web.archive.org/web/20231011072453/https://www.nouvelordremondial.cc/2023/10/10/une-enorme-creature-extraterrestre-est-visible-dans-une-image-de-lantarctique-sur-google-earth/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.nouvelordremondial.cc/2023/10/10/une-enorme-creature-extraterrestre-est-visible-dans-une-image-de-lantarctique-sur-google-earth/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.nouvelordremondial.cc/2023/10/10/une-enorme-creature-extraterrestre-est-visible-dans-une-image-de-lantarctique-sur-google-earth/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.nouvelordremondial.cc/2023/10/10/une-enorme-creature-extraterrestre-est-visible-dans-une-image-de-lantarctique-sur-google-earth/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.nouvelordremondial.cc/2023/10/10/une-enorme-creature-extraterrestre-est-visible-dans-une-image-de-lantarctique-sur-google-earth/"
+}

@@ -1,0 +1,106 @@
+{
+  "original_uri": "https://www.stag-orienteering.co.uk/events",
+  "self": "http://localhost:1208/timemap/json/https://www.stag-orienteering.co.uk/events",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2019-07-10T03:32:33Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20190710033233mp_/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2019-12-01T09:26:31Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20191201092631mp_/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2020-08-06T22:38:10Z",
+        "uri": "https://web.archive.org/web/20200806223810/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2020-09-29T11:55:15Z",
+        "uri": "https://web.archive.org/web/20200929115515/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2020-10-24T23:56:50Z",
+        "uri": "https://web.archive.org/web/20201024235650/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2020-11-26T07:41:41Z",
+        "uri": "https://web.archive.org/web/20201126074141/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2020-12-01T10:40:51Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20201201104051mp_/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2021-01-22T01:00:34Z",
+        "uri": "https://web.archive.org/web/20210122010034/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2021-02-25T14:05:37Z",
+        "uri": "https://web.archive.org/web/20210225140537/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2021-04-23T06:09:36Z",
+        "uri": "https://web.archive.org/web/20210423060936/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2021-06-14T15:58:07Z",
+        "uri": "https://web.archive.org/web/20210614155807/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2021-06-14T15:58:07Z",
+        "uri": "https://web.archive.org/web/20210614155807/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2021-09-26T22:55:03Z",
+        "uri": "https://web.archive.org/web/20210926225503/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2021-10-23T12:40:05Z",
+        "uri": "https://web.archive.org/web/20211023124005/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2021-12-01T10:54:57Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20211201105457mp_/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2022-01-28T03:29:14Z",
+        "uri": "https://web.archive.org/web/20220128032914/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2022-01-28T16:57:18Z",
+        "uri": "https://web.archive.org/web/20220128165718/https://stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2022-05-26T21:15:02Z",
+        "uri": "https://web.archive.org/web/20220526211502/https://stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2022-06-29T04:28:51Z",
+        "uri": "https://web.archive.org/web/20220629042851/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2022-12-01T11:26:59Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20221201112659mp_/https://www.stag-orienteering.co.uk/events"
+      },
+      {
+        "datetime": "2023-04-18T13:18:22Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20230418131822mp_/https://www.stag-orienteering.co.uk/events"
+      }
+    ],
+    "first": {
+      "datetime": "2019-07-10T03:32:33Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20190710033233mp_/https://www.stag-orienteering.co.uk/events"
+    },
+    "last": {
+      "datetime": "2023-04-18T13:18:22Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20230418131822mp_/https://www.stag-orienteering.co.uk/events"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.stag-orienteering.co.uk/events",
+    "json_format": "http://localhost:1208/timemap/json/https://www.stag-orienteering.co.uk/events",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.stag-orienteering.co.uk/events"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.stag-orienteering.co.uk/events"
+}
