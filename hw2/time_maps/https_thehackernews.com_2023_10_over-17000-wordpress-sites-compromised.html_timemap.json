@@ -1,0 +1,62 @@
+{
+  "original_uri": "https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html",
+  "self": "http://localhost:1208/timemap/json/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T13:01:08Z",
+        "uri": "https://web.archive.org/web/20231011130108/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html"
+      },
+      {
+        "datetime": "2023-10-11T14:24:09Z",
+        "uri": "https://web.archive.org/web/20231011142409/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html"
+      },
+      {
+        "datetime": "2023-10-11T16:00:41Z",
+        "uri": "https://web.archive.org/web/20231011160041/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html"
+      },
+      {
+        "datetime": "2023-10-11T17:00:48Z",
+        "uri": "https://web.archive.org/web/20231011170048/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html"
+      },
+      {
+        "datetime": "2023-10-12T00:00:49Z",
+        "uri": "https://web.archive.org/web/20231012000049/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html"
+      },
+      {
+        "datetime": "2023-10-12T01:00:55Z",
+        "uri": "https://web.archive.org/web/20231012010055/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html"
+      },
+      {
+        "datetime": "2023-10-13T07:47:27Z",
+        "uri": "https://web.archive.org/web/20231013074727/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html"
+      },
+      {
+        "datetime": "2023-10-13T15:03:30Z",
+        "uri": "https://web.archive.org/web/20231013150330/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html"
+      },
+      {
+        "datetime": "2023-10-16T11:19:42Z",
+        "uri": "https://web.archive.org/web/20231016111942/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html"
+      },
+      {
+        "datetime": "2023-10-17T09:59:47Z",
+        "uri": "https://web.archive.org/web/20231017095947/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T13:01:08Z",
+      "uri": "https://web.archive.org/web/20231011130108/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html"
+    },
+    "last": {
+      "datetime": "2023-10-17T09:59:47Z",
+      "uri": "https://web.archive.org/web/20231017095947/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html",
+    "json_format": "http://localhost:1208/timemap/json/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://thehackernews.com/2023/10/over-17000-wordpress-sites-compromised.html"
+}

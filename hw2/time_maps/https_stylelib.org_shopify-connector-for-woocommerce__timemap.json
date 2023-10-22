@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://stylelib.org/shopify-connector-for-woocommerce/",
+  "self": "http://localhost:1208/timemap/json/https://stylelib.org/shopify-connector-for-woocommerce/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-05-02T02:00:17Z",
+        "uri": "https://web.archive.org/web/20230502020017/https://stylelib.org/shopify-connector-for-woocommerce/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-05-02T02:00:17Z",
+      "uri": "https://web.archive.org/web/20230502020017/https://stylelib.org/shopify-connector-for-woocommerce/"
+    },
+    "last": {
+      "datetime": "2023-05-02T02:00:17Z",
+      "uri": "https://web.archive.org/web/20230502020017/https://stylelib.org/shopify-connector-for-woocommerce/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://stylelib.org/shopify-connector-for-woocommerce/",
+    "json_format": "http://localhost:1208/timemap/json/https://stylelib.org/shopify-connector-for-woocommerce/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://stylelib.org/shopify-connector-for-woocommerce/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://stylelib.org/shopify-connector-for-woocommerce/"
+}

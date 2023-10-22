@@ -1,0 +1,70 @@
+{
+  "original_uri": "https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/",
+  "self": "http://localhost:1208/timemap/json/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T03:01:14Z",
+        "uri": "https://web.archive.org/web/20231011030114/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+      },
+      {
+        "datetime": "2023-10-11T05:24:44Z",
+        "uri": "https://web.archive.org/web/20231011052444/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+      },
+      {
+        "datetime": "2023-10-11T06:54:08Z",
+        "uri": "https://web.archive.org/web/20231011065408/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+      },
+      {
+        "datetime": "2023-10-12T03:01:00Z",
+        "uri": "https://web.archive.org/web/20231012030100/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+      },
+      {
+        "datetime": "2023-10-12T03:34:29Z",
+        "uri": "https://web.archive.org/web/20231012033429/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+      },
+      {
+        "datetime": "2023-10-12T04:06:22Z",
+        "uri": "https://web.archive.org/web/20231012040622/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+      },
+      {
+        "datetime": "2023-10-12T04:34:40Z",
+        "uri": "https://web.archive.org/web/20231012043440/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+      },
+      {
+        "datetime": "2023-10-12T12:39:42Z",
+        "uri": "https://web.archive.org/web/20231012123942/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+      },
+      {
+        "datetime": "2023-10-14T06:54:27Z",
+        "uri": "https://web.archive.org/web/20231014065427/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+      },
+      {
+        "datetime": "2023-10-14T08:09:44Z",
+        "uri": "https://web.archive.org/web/20231014080944/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+      },
+      {
+        "datetime": "2023-10-14T10:10:52Z",
+        "uri": "https://web.archive.org/web/20231014101052/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+      },
+      {
+        "datetime": "2023-10-16T03:57:28Z",
+        "uri": "https://web.archive.org/web/20231016035728/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T03:01:14Z",
+      "uri": "https://web.archive.org/web/20231011030114/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+    },
+    "last": {
+      "datetime": "2023-10-16T03:57:28Z",
+      "uri": "https://web.archive.org/web/20231016035728/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/",
+    "json_format": "http://localhost:1208/timemap/json/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://thehill.com/homenews/campaign/4249033-trump-insinuates-obama-is-bidens-boss/"
+}

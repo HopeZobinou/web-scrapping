@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://t.me/Perfectfxtrading123",
+  "self": "http://localhost:1208/timemap/json/https://t.me/Perfectfxtrading123",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-06-10T03:00:09Z",
+        "uri": "https://web.archive.org/web/20230610030009/https://t.me/Perfectfxtrading123"
+      },
+      {
+        "datetime": "2023-06-12T18:14:23Z",
+        "uri": "https://web.archive.org/web/20230612181423/https://t.me/Perfectfxtrading123"
+      }
+    ],
+    "first": {
+      "datetime": "2023-06-10T03:00:09Z",
+      "uri": "https://web.archive.org/web/20230610030009/https://t.me/Perfectfxtrading123"
+    },
+    "last": {
+      "datetime": "2023-06-12T18:14:23Z",
+      "uri": "https://web.archive.org/web/20230612181423/https://t.me/Perfectfxtrading123"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://t.me/Perfectfxtrading123",
+    "json_format": "http://localhost:1208/timemap/json/https://t.me/Perfectfxtrading123",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://t.me/Perfectfxtrading123"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://t.me/Perfectfxtrading123"
+}

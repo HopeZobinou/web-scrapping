@@ -1,0 +1,42 @@
+{
+  "original_uri": "https://thecritic.co.uk/avoiding-the-apocalypse/",
+  "self": "http://localhost:1208/timemap/json/https://thecritic.co.uk/avoiding-the-apocalypse/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T11:36:58Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231011113658mp_/https://thecritic.co.uk/avoiding-the-apocalypse/"
+      },
+      {
+        "datetime": "2023-10-11T16:20:48Z",
+        "uri": "https://web.archive.org/web/20231011162048/https://thecritic.co.uk/avoiding-the-apocalypse/"
+      },
+      {
+        "datetime": "2023-10-11T16:27:57Z",
+        "uri": "https://web.archive.org/web/20231011162757/https://thecritic.co.uk/avoiding-the-apocalypse/"
+      },
+      {
+        "datetime": "2023-10-12T10:38:05Z",
+        "uri": "https://www.webarchive.org.uk/wayback/archive/20231012103805mp_/https://thecritic.co.uk/avoiding-the-apocalypse/"
+      },
+      {
+        "datetime": "2023-10-17T01:25:17Z",
+        "uri": "https://web.archive.org/web/20231017012517/https://thecritic.co.uk/avoiding-the-apocalypse/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T11:36:58Z",
+      "uri": "https://www.webarchive.org.uk/wayback/archive/20231011113658mp_/https://thecritic.co.uk/avoiding-the-apocalypse/"
+    },
+    "last": {
+      "datetime": "2023-10-17T01:25:17Z",
+      "uri": "https://web.archive.org/web/20231017012517/https://thecritic.co.uk/avoiding-the-apocalypse/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://thecritic.co.uk/avoiding-the-apocalypse/",
+    "json_format": "http://localhost:1208/timemap/json/https://thecritic.co.uk/avoiding-the-apocalypse/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://thecritic.co.uk/avoiding-the-apocalypse/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://thecritic.co.uk/avoiding-the-apocalypse/"
+}

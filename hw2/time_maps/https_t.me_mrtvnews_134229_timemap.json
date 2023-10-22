@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://t.me/mrtvnews/134229",
+  "self": "http://localhost:1208/timemap/json/https://t.me/mrtvnews/134229",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-20T10:50:40Z",
+        "uri": "https://web.archive.org/web/20231020105040/https://t.me/mrtvnews/134229"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-20T10:50:40Z",
+      "uri": "https://web.archive.org/web/20231020105040/https://t.me/mrtvnews/134229"
+    },
+    "last": {
+      "datetime": "2023-10-20T10:50:40Z",
+      "uri": "https://web.archive.org/web/20231020105040/https://t.me/mrtvnews/134229"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://t.me/mrtvnews/134229",
+    "json_format": "http://localhost:1208/timemap/json/https://t.me/mrtvnews/134229",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://t.me/mrtvnews/134229"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://t.me/mrtvnews/134229"
+}

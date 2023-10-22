@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/",
+  "self": "http://localhost:1208/timemap/json/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T01:20:13Z",
+        "uri": "https://web.archive.org/web/20231012012013/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/"
+      },
+      {
+        "datetime": "2023-10-12T04:46:11Z",
+        "uri": "https://web.archive.org/web/20231012044611/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/"
+      },
+      {
+        "datetime": "2023-10-12T05:50:34Z",
+        "uri": "https://web.archive.org/web/20231012055034/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/"
+      },
+      {
+        "datetime": "2023-10-12T10:55:42Z",
+        "uri": "https://web.archive.org/web/20231012105542/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/"
+      },
+      {
+        "datetime": "2023-10-12T19:17:31Z",
+        "uri": "https://web.archive.org/web/20231012191731/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/"
+      },
+      {
+        "datetime": "2023-10-13T06:23:47Z",
+        "uri": "https://web.archive.org/web/20231013062347/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/"
+      },
+      {
+        "datetime": "2023-10-13T23:31:35Z",
+        "uri": "https://web.archive.org/web/20231013233135/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/"
+      },
+      {
+        "datetime": "2023-10-16T10:13:10Z",
+        "uri": "https://web.archive.org/web/20231016101310/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T01:20:13Z",
+      "uri": "https://web.archive.org/web/20231012012013/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/"
+    },
+    "last": {
+      "datetime": "2023-10-16T10:13:10Z",
+      "uri": "https://web.archive.org/web/20231016101310/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/",
+    "json_format": "http://localhost:1208/timemap/json/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://theeagleonline.com.ng/death-penalty-seven-nigerians-executed-asf-france/"
+}

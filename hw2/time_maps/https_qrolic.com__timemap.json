@@ -1,0 +1,254 @@
+{
+  "original_uri": "https://qrolic.com/",
+  "self": "http://localhost:1208/timemap/json/https://qrolic.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2018-02-08T11:41:21Z",
+        "uri": "https://web.archive.org/web/20180208114121/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-02-21T07:47:39Z",
+        "uri": "https://web.archive.org/web/20180221074739/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-03-10T07:09:06Z",
+        "uri": "https://web.archive.org/web/20180310070906/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-04-10T00:17:19Z",
+        "uri": "https://web.archive.org/web/20180410001719/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-05-12T07:16:15Z",
+        "uri": "https://web.archive.org/web/20180512071615/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-05-12T18:46:25Z",
+        "uri": "https://web.archive.org/web/20180512184625/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-06-15T20:17:47Z",
+        "uri": "https://web.archive.org/web/20180615201747/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-07-16T23:35:07Z",
+        "uri": "https://web.archive.org/web/20180716233507/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-07-18T05:22:40Z",
+        "uri": "https://web.archive.org/web/20180718052240/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-08-04T15:45:49Z",
+        "uri": "https://web.archive.org/web/20180804154549/http://qrolic.com/"
+      },
+      {
+        "datetime": "2018-08-17T20:50:37Z",
+        "uri": "https://web.archive.org/web/20180817205037/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-08-31T04:55:59Z",
+        "uri": "https://web.archive.org/web/20180831045559/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-09-22T07:49:23Z",
+        "uri": "https://web.archive.org/web/20180922074923/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-09-23T14:56:51Z",
+        "uri": "https://web.archive.org/web/20180923145651/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-10-19T13:30:01Z",
+        "uri": "https://web.archive.org/web/20181019133001/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-11-19T19:11:15Z",
+        "uri": "https://web.archive.org/web/20181119191115/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2018-12-20T15:30:16Z",
+        "uri": "https://web.archive.org/web/20181220153016/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2019-01-21T00:42:14Z",
+        "uri": "https://web.archive.org/web/20190121004214/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2019-02-14T14:43:40Z",
+        "uri": "https://web.archive.org/web/20190214144340/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2019-03-17T21:35:15Z",
+        "uri": "https://web.archive.org/web/20190317213515/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2019-04-17T22:51:09Z",
+        "uri": "https://web.archive.org/web/20190417225109/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2019-05-20T06:42:06Z",
+        "uri": "https://web.archive.org/web/20190520064206/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2019-05-21T09:50:47Z",
+        "uri": "https://web.archive.org/web/20190521095047/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2019-05-23T03:20:10Z",
+        "uri": "https://web.archive.org/web/20190523032010/http://qrolic.com/"
+      },
+      {
+        "datetime": "2019-06-21T11:18:40Z",
+        "uri": "https://web.archive.org/web/20190621111840/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2019-07-22T13:14:59Z",
+        "uri": "https://web.archive.org/web/20190722131459/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2019-08-22T16:23:08Z",
+        "uri": "https://web.archive.org/web/20190822162308/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2019-09-23T20:14:20Z",
+        "uri": "https://web.archive.org/web/20190923201420/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2019-10-27T06:10:44Z",
+        "uri": "https://web.archive.org/web/20191027061044/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2019-12-26T10:56:09Z",
+        "uri": "https://web.archive.org/web/20191226105609/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2019-12-27T16:57:32Z",
+        "uri": "https://web.archive.org/web/20191227165732/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2020-05-09T03:06:32Z",
+        "uri": "https://web.archive.org/web/20200509030632/http://qrolic.com:80/"
+      },
+      {
+        "datetime": "2020-08-08T06:58:53Z",
+        "uri": "https://web.archive.org/web/20200808065853/https://qrolic.com/"
+      },
+      {
+        "datetime": "2020-10-13T18:34:52Z",
+        "uri": "https://web.archive.org/web/20201013183452/https://qrolic.com/"
+      },
+      {
+        "datetime": "2020-10-27T00:54:44Z",
+        "uri": "https://web.archive.org/web/20201027005444/https://qrolic.com/"
+      },
+      {
+        "datetime": "2020-11-14T05:30:05Z",
+        "uri": "https://web.archive.org/web/20201114053005/https://qrolic.com/"
+      },
+      {
+        "datetime": "2021-01-25T07:35:51Z",
+        "uri": "https://web.archive.org/web/20210125073551/https://qrolic.com/"
+      },
+      {
+        "datetime": "2021-02-08T08:51:15Z",
+        "uri": "https://web.archive.org/web/20210208085115/https://qrolic.com/"
+      },
+      {
+        "datetime": "2021-02-08T08:51:15Z",
+        "uri": "https://web.archive.org/web/20210208085115/http://qrolic.com/"
+      },
+      {
+        "datetime": "2021-04-15T08:11:34Z",
+        "uri": "https://web.archive.org/web/20210415081134/https://qrolic.com/"
+      },
+      {
+        "datetime": "2021-07-31T15:58:24Z",
+        "uri": "https://web.archive.org/web/20210731155824/https://qrolic.com/"
+      },
+      {
+        "datetime": "2021-10-26T15:21:48Z",
+        "uri": "https://web.archive.org/web/20211026152148/https://qrolic.com/"
+      },
+      {
+        "datetime": "2021-12-21T04:43:30Z",
+        "uri": "https://web.archive.org/web/20211221044330/http://qrolic.com/"
+      },
+      {
+        "datetime": "2022-01-24T11:06:36Z",
+        "uri": "https://web.archive.org/web/20220124110636/https://qrolic.com/"
+      },
+      {
+        "datetime": "2022-02-26T06:53:09Z",
+        "uri": "https://web.archive.org/web/20220226065309/https://qrolic.com/"
+      },
+      {
+        "datetime": "2022-03-04T12:16:13Z",
+        "uri": "https://web.archive.org/web/20220304121613/https://qrolic.com/"
+      },
+      {
+        "datetime": "2022-04-01T08:19:38Z",
+        "uri": "https://web.archive.org/web/20220401081938/http://qrolic.com/"
+      },
+      {
+        "datetime": "2022-05-20T01:28:18Z",
+        "uri": "https://web.archive.org/web/20220520012818/https://qrolic.com/"
+      },
+      {
+        "datetime": "2022-06-29T13:15:15Z",
+        "uri": "https://web.archive.org/web/20220629131515/https://qrolic.com/"
+      },
+      {
+        "datetime": "2022-08-12T18:28:31Z",
+        "uri": "https://web.archive.org/web/20220812182831/https://qrolic.com/"
+      },
+      {
+        "datetime": "2022-08-20T04:47:22Z",
+        "uri": "https://web.archive.org/web/20220820044722/https://qrolic.com/"
+      },
+      {
+        "datetime": "2022-09-24T19:55:33Z",
+        "uri": "https://web.archive.org/web/20220924195533/https://qrolic.com/"
+      },
+      {
+        "datetime": "2022-12-07T13:49:17Z",
+        "uri": "https://web.archive.org/web/20221207134917/https://qrolic.com/"
+      },
+      {
+        "datetime": "2022-12-19T08:15:07Z",
+        "uri": "https://web.archive.org/web/20221219081507/https://qrolic.com/"
+      },
+      {
+        "datetime": "2023-01-31T10:38:52Z",
+        "uri": "https://web.archive.org/web/20230131103852/https://qrolic.com/"
+      },
+      {
+        "datetime": "2023-03-27T20:21:07Z",
+        "uri": "https://web.archive.org/web/20230327202107/https://qrolic.com/"
+      },
+      {
+        "datetime": "2023-06-06T03:17:49Z",
+        "uri": "https://web.archive.org/web/20230606031749/https://qrolic.com/"
+      },
+      {
+        "datetime": "2023-08-30T21:03:59Z",
+        "uri": "https://web.archive.org/web/20230830210359/http://www.qrolic.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2018-02-08T11:41:21Z",
+      "uri": "https://web.archive.org/web/20180208114121/http://qrolic.com:80/"
+    },
+    "last": {
+      "datetime": "2023-08-30T21:03:59Z",
+      "uri": "https://web.archive.org/web/20230830210359/http://www.qrolic.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://qrolic.com/",
+    "json_format": "http://localhost:1208/timemap/json/https://qrolic.com/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://qrolic.com/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://qrolic.com/"
+}

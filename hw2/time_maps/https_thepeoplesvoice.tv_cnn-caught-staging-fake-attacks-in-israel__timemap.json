@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/",
+  "self": "http://localhost:1208/timemap/json/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T19:47:08Z",
+        "uri": "https://web.archive.org/web/20231011194708/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/"
+      },
+      {
+        "datetime": "2023-10-11T23:58:46Z",
+        "uri": "https://web.archive.org/web/20231011235846/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/"
+      },
+      {
+        "datetime": "2023-10-12T01:38:58Z",
+        "uri": "https://web.archive.org/web/20231012013858/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/"
+      },
+      {
+        "datetime": "2023-10-12T02:51:53Z",
+        "uri": "https://web.archive.org/web/20231012025153/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/"
+      },
+      {
+        "datetime": "2023-10-12T14:57:28Z",
+        "uri": "https://web.archive.org/web/20231012145728/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/"
+      },
+      {
+        "datetime": "2023-10-12T18:35:21Z",
+        "uri": "https://web.archive.org/web/20231012183521/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/"
+      },
+      {
+        "datetime": "2023-10-14T00:13:18Z",
+        "uri": "https://web.archive.org/web/20231014001318/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/"
+      },
+      {
+        "datetime": "2023-10-16T21:07:53Z",
+        "uri": "https://web.archive.org/web/20231016210753/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/"
+      },
+      {
+        "datetime": "2023-10-20T22:10:47Z",
+        "uri": "https://web.archive.org/web/20231020221047/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T19:47:08Z",
+      "uri": "https://web.archive.org/web/20231011194708/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/"
+    },
+    "last": {
+      "datetime": "2023-10-20T22:10:47Z",
+      "uri": "https://web.archive.org/web/20231020221047/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/",
+    "json_format": "http://localhost:1208/timemap/json/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://thepeoplesvoice.tv/cnn-caught-staging-fake-attacks-in-israel/"
+}

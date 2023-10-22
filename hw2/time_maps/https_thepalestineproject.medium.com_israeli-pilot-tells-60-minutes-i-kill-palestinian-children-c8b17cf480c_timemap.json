@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://thepalestineproject.medium.com/israeli-pilot-tells-60-minutes-i-kill-palestinian-children-c8b17cf480c",
+  "self": "http://localhost:1208/timemap/json/https://thepalestineproject.medium.com/israeli-pilot-tells-60-minutes-i-kill-palestinian-children-c8b17cf480c",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-09-19T14:48:32Z",
+        "uri": "https://web.archive.org/web/20230919144832/https://thepalestineproject.medium.com/israeli-pilot-tells-60-minutes-i-kill-palestinian-children-c8b17cf480c"
+      },
+      {
+        "datetime": "2023-10-16T04:08:27Z",
+        "uri": "https://wayback.archive-it.org/all/20231016040827/https://thepalestineproject.medium.com/israeli-pilot-tells-60-minutes-i-kill-palestinian-children-c8b17cf480c"
+      }
+    ],
+    "first": {
+      "datetime": "2023-09-19T14:48:32Z",
+      "uri": "https://web.archive.org/web/20230919144832/https://thepalestineproject.medium.com/israeli-pilot-tells-60-minutes-i-kill-palestinian-children-c8b17cf480c"
+    },
+    "last": {
+      "datetime": "2023-10-16T04:08:27Z",
+      "uri": "https://wayback.archive-it.org/all/20231016040827/https://thepalestineproject.medium.com/israeli-pilot-tells-60-minutes-i-kill-palestinian-children-c8b17cf480c"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://thepalestineproject.medium.com/israeli-pilot-tells-60-minutes-i-kill-palestinian-children-c8b17cf480c",
+    "json_format": "http://localhost:1208/timemap/json/https://thepalestineproject.medium.com/israeli-pilot-tells-60-minutes-i-kill-palestinian-children-c8b17cf480c",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://thepalestineproject.medium.com/israeli-pilot-tells-60-minutes-i-kill-palestinian-children-c8b17cf480c"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://thepalestineproject.medium.com/israeli-pilot-tells-60-minutes-i-kill-palestinian-children-c8b17cf480c"
+}

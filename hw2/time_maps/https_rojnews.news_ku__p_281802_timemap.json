@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://rojnews.news/ku/?p=281802",
+  "self": "http://localhost:1208/timemap/json/https://rojnews.news/ku/?p=281802",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T09:31:04Z",
+        "uri": "https://web.archive.org/web/20231011093104/https://rojnews.news/ku/?p=281802"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T09:31:04Z",
+      "uri": "https://web.archive.org/web/20231011093104/https://rojnews.news/ku/?p=281802"
+    },
+    "last": {
+      "datetime": "2023-10-11T09:31:04Z",
+      "uri": "https://web.archive.org/web/20231011093104/https://rojnews.news/ku/?p=281802"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://rojnews.news/ku/?p=281802",
+    "json_format": "http://localhost:1208/timemap/json/https://rojnews.news/ku/?p=281802",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://rojnews.news/ku/?p=281802"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://rojnews.news/ku/?p=281802"
+}

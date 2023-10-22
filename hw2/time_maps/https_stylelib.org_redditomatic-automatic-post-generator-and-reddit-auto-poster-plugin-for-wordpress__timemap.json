@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://stylelib.org/redditomatic-automatic-post-generator-and-reddit-auto-poster-plugin-for-wordpress/",
+  "self": "http://localhost:1208/timemap/json/https://stylelib.org/redditomatic-automatic-post-generator-and-reddit-auto-poster-plugin-for-wordpress/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-05-10T09:33:47Z",
+        "uri": "https://web.archive.org/web/20230510093347/https://stylelib.org/redditomatic-automatic-post-generator-and-reddit-auto-poster-plugin-for-wordpress/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-05-10T09:33:47Z",
+      "uri": "https://web.archive.org/web/20230510093347/https://stylelib.org/redditomatic-automatic-post-generator-and-reddit-auto-poster-plugin-for-wordpress/"
+    },
+    "last": {
+      "datetime": "2023-05-10T09:33:47Z",
+      "uri": "https://web.archive.org/web/20230510093347/https://stylelib.org/redditomatic-automatic-post-generator-and-reddit-auto-poster-plugin-for-wordpress/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://stylelib.org/redditomatic-automatic-post-generator-and-reddit-auto-poster-plugin-for-wordpress/",
+    "json_format": "http://localhost:1208/timemap/json/https://stylelib.org/redditomatic-automatic-post-generator-and-reddit-auto-poster-plugin-for-wordpress/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://stylelib.org/redditomatic-automatic-post-generator-and-reddit-auto-poster-plugin-for-wordpress/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://stylelib.org/redditomatic-automatic-post-generator-and-reddit-auto-poster-plugin-for-wordpress/"
+}

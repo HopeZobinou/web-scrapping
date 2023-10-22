@@ -1,0 +1,26 @@
+{
+  "original_uri": "https://smart-items.xyz/?p=3727",
+  "self": "http://localhost:1208/timemap/json/https://smart-items.xyz/?p=3727",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2022-07-13T19:03:20Z",
+        "uri": "https://web.archive.org/web/20220713190320/https://smart-items.xyz/?p=3727"
+      }
+    ],
+    "first": {
+      "datetime": "2022-07-13T19:03:20Z",
+      "uri": "https://web.archive.org/web/20220713190320/https://smart-items.xyz/?p=3727"
+    },
+    "last": {
+      "datetime": "2022-07-13T19:03:20Z",
+      "uri": "https://web.archive.org/web/20220713190320/https://smart-items.xyz/?p=3727"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://smart-items.xyz/?p=3727",
+    "json_format": "http://localhost:1208/timemap/json/https://smart-items.xyz/?p=3727",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://smart-items.xyz/?p=3727"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://smart-items.xyz/?p=3727"
+}
