@@ -1,0 +1,70 @@
+{
+  "original_uri": "http://www.qi-wmcard.com/coronavirus_en_us.html",
+  "self": "http://localhost:1208/timemap/json/http://www.qi-wmcard.com/coronavirus_en_us.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2020-04-10T12:18:19Z",
+        "uri": "https://web.archive.org/web/20200410121819/http://www.qi-wmcard.com:80/coronavirus_en_us.html"
+      },
+      {
+        "datetime": "2020-04-23T16:04:02Z",
+        "uri": "https://web.archive.org/web/20200423160402/http://www.qi-wmcard.com/coronavirus_en_us.html"
+      },
+      {
+        "datetime": "2020-06-09T20:26:53Z",
+        "uri": "https://web.archive.org/web/20200609202653/http://www.qi-wmcard.com:80/coronavirus_en_us.html"
+      },
+      {
+        "datetime": "2020-09-24T07:59:01Z",
+        "uri": "https://web.archive.org/web/20200924075901/http://www.qi-wmcard.com/coronavirus_en_us.html"
+      },
+      {
+        "datetime": "2020-11-01T06:58:55Z",
+        "uri": "https://web.archive.org/web/20201101065855/http://www.qi-wmcard.com/coronavirus_en_us.html"
+      },
+      {
+        "datetime": "2021-12-03T07:18:16Z",
+        "uri": "https://web.archive.org/web/20211203071816/http://www.qi-wmcard.com/coronavirus_en_us.html"
+      },
+      {
+        "datetime": "2022-02-21T14:43:21Z",
+        "uri": "https://web.archive.org/web/20220221144321/http://www.qi-wmcard.com/coronavirus_en_us.html"
+      },
+      {
+        "datetime": "2022-05-18T16:23:17Z",
+        "uri": "https://web.archive.org/web/20220518162317/http://www.qi-wmcard.com/coronavirus_en_us.html"
+      },
+      {
+        "datetime": "2022-06-02T09:04:17Z",
+        "uri": "https://web.archive.org/web/20220602090417/https://www.qi-wmcard.com/coronavirus_en_us.html"
+      },
+      {
+        "datetime": "2022-10-07T12:48:52Z",
+        "uri": "https://web.archive.org/web/20221007124852/http://www.qi-wmcard.com/coronavirus_en_us.html"
+      },
+      {
+        "datetime": "2023-02-04T05:56:27Z",
+        "uri": "https://web.archive.org/web/20230204055627/http://www.qi-wmcard.com/coronavirus_en_us.html"
+      },
+      {
+        "datetime": "2023-06-08T01:54:12Z",
+        "uri": "https://web.archive.org/web/20230608015412/http://www.qi-wmcard.com/coronavirus_en_us.html"
+      }
+    ],
+    "first": {
+      "datetime": "2020-04-10T12:18:19Z",
+      "uri": "https://web.archive.org/web/20200410121819/http://www.qi-wmcard.com:80/coronavirus_en_us.html"
+    },
+    "last": {
+      "datetime": "2023-06-08T01:54:12Z",
+      "uri": "https://web.archive.org/web/20230608015412/http://www.qi-wmcard.com/coronavirus_en_us.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/http://www.qi-wmcard.com/coronavirus_en_us.html",
+    "json_format": "http://localhost:1208/timemap/json/http://www.qi-wmcard.com/coronavirus_en_us.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/http://www.qi-wmcard.com/coronavirus_en_us.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/http://www.qi-wmcard.com/coronavirus_en_us.html"
+}
