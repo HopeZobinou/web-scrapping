@@ -143,6 +143,11 @@ Use the TimeMaps you saved in Q2 to analyze how well the URIs you collected in Q
 |   30     |   27   |
 |  57     |    3   |
 
+*Q: What URI-Rs had the most mementos?  Did that surprise you?*
+
+## Answer
+
+
 
 # References
 
