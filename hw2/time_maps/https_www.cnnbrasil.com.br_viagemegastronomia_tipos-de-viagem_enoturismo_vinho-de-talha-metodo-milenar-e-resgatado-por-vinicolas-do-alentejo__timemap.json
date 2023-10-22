@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.cnnbrasil.com.br/viagemegastronomia/tipos-de-viagem/enoturismo/vinho-de-talha-metodo-milenar-e-resgatado-por-vinicolas-do-alentejo/",
+  "self": "http://localhost:1208/timemap/json/https://www.cnnbrasil.com.br/viagemegastronomia/tipos-de-viagem/enoturismo/vinho-de-talha-metodo-milenar-e-resgatado-por-vinicolas-do-alentejo/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-14T01:29:09Z",
+        "uri": "https://web.archive.org/web/20231014012909/https://www.cnnbrasil.com.br/viagemegastronomia/tipos-de-viagem/enoturismo/vinho-de-talha-metodo-milenar-e-resgatado-por-vinicolas-do-alentejo/"
+      },
+      {
+        "datetime": "2023-10-15T16:40:16Z",
+        "uri": "https://web.archive.org/web/20231015164016/https://www.cnnbrasil.com.br/viagemegastronomia/tipos-de-viagem/enoturismo/vinho-de-talha-metodo-milenar-e-resgatado-por-vinicolas-do-alentejo/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-14T01:29:09Z",
+      "uri": "https://web.archive.org/web/20231014012909/https://www.cnnbrasil.com.br/viagemegastronomia/tipos-de-viagem/enoturismo/vinho-de-talha-metodo-milenar-e-resgatado-por-vinicolas-do-alentejo/"
+    },
+    "last": {
+      "datetime": "2023-10-15T16:40:16Z",
+      "uri": "https://web.archive.org/web/20231015164016/https://www.cnnbrasil.com.br/viagemegastronomia/tipos-de-viagem/enoturismo/vinho-de-talha-metodo-milenar-e-resgatado-por-vinicolas-do-alentejo/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cnnbrasil.com.br/viagemegastronomia/tipos-de-viagem/enoturismo/vinho-de-talha-metodo-milenar-e-resgatado-por-vinicolas-do-alentejo/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cnnbrasil.com.br/viagemegastronomia/tipos-de-viagem/enoturismo/vinho-de-talha-metodo-milenar-e-resgatado-por-vinicolas-do-alentejo/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cnnbrasil.com.br/viagemegastronomia/tipos-de-viagem/enoturismo/vinho-de-talha-metodo-milenar-e-resgatado-por-vinicolas-do-alentejo/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cnnbrasil.com.br/viagemegastronomia/tipos-de-viagem/enoturismo/vinho-de-talha-metodo-milenar-e-resgatado-por-vinicolas-do-alentejo/"
+}

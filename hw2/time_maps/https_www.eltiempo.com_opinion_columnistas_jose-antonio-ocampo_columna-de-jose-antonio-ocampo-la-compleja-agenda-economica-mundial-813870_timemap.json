@@ -1,0 +1,46 @@
+{
+  "original_uri": "https://www.eltiempo.com/opinion/columnistas/jose-antonio-ocampo/columna-de-jose-antonio-ocampo-la-compleja-agenda-economica-mundial-813870",
+  "self": "http://localhost:1208/timemap/json/https://www.eltiempo.com/opinion/columnistas/jose-antonio-ocampo/columna-de-jose-antonio-ocampo-la-compleja-agenda-economica-mundial-813870",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-09T01:02:53Z",
+        "uri": "https://web.archive.org/web/20231009010253/https://www.eltiempo.com/opinion/columnistas/jose-antonio-ocampo/columna-de-jose-antonio-ocampo-la-compleja-agenda-economica-mundial-813870"
+      },
+      {
+        "datetime": "2023-10-09T03:16:27Z",
+        "uri": "https://web.archive.org/web/20231009031627/https://www.eltiempo.com/opinion/columnistas/jose-antonio-ocampo/columna-de-jose-antonio-ocampo-la-compleja-agenda-economica-mundial-813870"
+      },
+      {
+        "datetime": "2023-10-09T04:23:04Z",
+        "uri": "https://web.archive.org/web/20231009042304/https://www.eltiempo.com/opinion/columnistas/jose-antonio-ocampo/columna-de-jose-antonio-ocampo-la-compleja-agenda-economica-mundial-813870"
+      },
+      {
+        "datetime": "2023-10-09T05:27:53Z",
+        "uri": "https://web.archive.org/web/20231009052753/https://www.eltiempo.com/opinion/columnistas/jose-antonio-ocampo/columna-de-jose-antonio-ocampo-la-compleja-agenda-economica-mundial-813870"
+      },
+      {
+        "datetime": "2023-10-13T21:33:40Z",
+        "uri": "https://web.archive.org/web/20231013213340/https://www.eltiempo.com/opinion/columnistas/jose-antonio-ocampo/columna-de-jose-antonio-ocampo-la-compleja-agenda-economica-mundial-813870"
+      },
+      {
+        "datetime": "2023-10-16T01:49:30Z",
+        "uri": "https://web.archive.org/web/20231016014930/https://www.eltiempo.com/opinion/columnistas/jose-antonio-ocampo/columna-de-jose-antonio-ocampo-la-compleja-agenda-economica-mundial-813870"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-09T01:02:53Z",
+      "uri": "https://web.archive.org/web/20231009010253/https://www.eltiempo.com/opinion/columnistas/jose-antonio-ocampo/columna-de-jose-antonio-ocampo-la-compleja-agenda-economica-mundial-813870"
+    },
+    "last": {
+      "datetime": "2023-10-16T01:49:30Z",
+      "uri": "https://web.archive.org/web/20231016014930/https://www.eltiempo.com/opinion/columnistas/jose-antonio-ocampo/columna-de-jose-antonio-ocampo-la-compleja-agenda-economica-mundial-813870"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.eltiempo.com/opinion/columnistas/jose-antonio-ocampo/columna-de-jose-antonio-ocampo-la-compleja-agenda-economica-mundial-813870",
+    "json_format": "http://localhost:1208/timemap/json/https://www.eltiempo.com/opinion/columnistas/jose-antonio-ocampo/columna-de-jose-antonio-ocampo-la-compleja-agenda-economica-mundial-813870",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.eltiempo.com/opinion/columnistas/jose-antonio-ocampo/columna-de-jose-antonio-ocampo-la-compleja-agenda-economica-mundial-813870"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.eltiempo.com/opinion/columnistas/jose-antonio-ocampo/columna-de-jose-antonio-ocampo-la-compleja-agenda-economica-mundial-813870"
+}

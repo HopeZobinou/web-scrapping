@@ -1,0 +1,58 @@
+{
+  "original_uri": "https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models",
+  "self": "http://localhost:1208/timemap/json/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2020-05-20T17:17:55Z",
+        "uri": "https://web.archive.org/web/20200520171755/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models"
+      },
+      {
+        "datetime": "2020-05-21T14:14:13Z",
+        "uri": "https://web.archive.org/web/20200521141413/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models"
+      },
+      {
+        "datetime": "2020-05-23T19:13:47Z",
+        "uri": "https://web.archive.org/web/20200523191347/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models"
+      },
+      {
+        "datetime": "2020-05-25T17:00:46Z",
+        "uri": "https://web.archive.org/web/20200525170046/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models"
+      },
+      {
+        "datetime": "2020-06-01T07:52:27Z",
+        "uri": "https://web.archive.org/web/20200601075227/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models"
+      },
+      {
+        "datetime": "2020-06-03T11:18:37Z",
+        "uri": "https://web.archive.org/web/20200603111837/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models"
+      },
+      {
+        "datetime": "2020-06-21T15:24:13Z",
+        "uri": "https://web.archive.org/web/20200621152413/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models"
+      },
+      {
+        "datetime": "2020-10-04T19:18:43Z",
+        "uri": "https://web.archive.org/web/20201004191843/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models"
+      },
+      {
+        "datetime": "2021-01-05T10:13:19Z",
+        "uri": "https://web.archive.org/web/20210105101319/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models"
+      }
+    ],
+    "first": {
+      "datetime": "2020-05-20T17:17:55Z",
+      "uri": "https://web.archive.org/web/20200520171755/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models"
+    },
+    "last": {
+      "datetime": "2021-01-05T10:13:19Z",
+      "uri": "https://web.archive.org/web/20210105101319/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models",
+    "json_format": "http://localhost:1208/timemap/json/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.devdiscourse.com/article/health/1043491-pharma-post-covid-19-reducing-political-clout-can-alter-business-models"
+}

@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html",
+  "self": "http://localhost:1208/timemap/json/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T05:02:58Z",
+        "uri": "https://web.archive.org/web/20231011050258/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html"
+      },
+      {
+        "datetime": "2023-10-11T06:18:28Z",
+        "uri": "https://web.archive.org/web/20231011061828/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html"
+      },
+      {
+        "datetime": "2023-10-11T07:18:11Z",
+        "uri": "http://archive.md/20231011071811/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html"
+      },
+      {
+        "datetime": "2023-10-12T01:23:23Z",
+        "uri": "https://web.archive.org/web/20231012012323/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html"
+      },
+      {
+        "datetime": "2023-10-12T02:26:02Z",
+        "uri": "https://web.archive.org/web/20231012022602/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html"
+      },
+      {
+        "datetime": "2023-10-12T03:45:13Z",
+        "uri": "https://web.archive.org/web/20231012034513/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html"
+      },
+      {
+        "datetime": "2023-10-16T09:20:25Z",
+        "uri": "https://web.archive.org/web/20231016092025/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html"
+      },
+      {
+        "datetime": "2023-10-17T17:58:43Z",
+        "uri": "https://web.archive.org/web/20231017175843/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T05:02:58Z",
+      "uri": "https://web.archive.org/web/20231011050258/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html"
+    },
+    "last": {
+      "datetime": "2023-10-17T17:58:43Z",
+      "uri": "https://web.archive.org/web/20231017175843/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.faz.net/aktuell/politik/ausland/hamas-angriff-auf-israel-das-reine-boese-19235028.html"
+}

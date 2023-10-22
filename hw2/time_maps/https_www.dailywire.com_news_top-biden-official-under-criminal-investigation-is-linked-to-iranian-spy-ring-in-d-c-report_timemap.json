@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.dailywire.com/news/top-biden-official-under-criminal-investigation-is-linked-to-iranian-spy-ring-in-d-c-report",
+  "self": "http://localhost:1208/timemap/json/https://www.dailywire.com/news/top-biden-official-under-criminal-investigation-is-linked-to-iranian-spy-ring-in-d-c-report",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-17T02:30:50Z",
+        "uri": "https://web.archive.org/web/20231017023050/https://www.dailywire.com/news/top-biden-official-under-criminal-investigation-is-linked-to-iranian-spy-ring-in-d-c-report"
+      },
+      {
+        "datetime": "2023-10-18T23:06:58Z",
+        "uri": "https://web.archive.org/web/20231018230658/https://www.dailywire.com/news/top-biden-official-under-criminal-investigation-is-linked-to-iranian-spy-ring-in-d-c-report"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-17T02:30:50Z",
+      "uri": "https://web.archive.org/web/20231017023050/https://www.dailywire.com/news/top-biden-official-under-criminal-investigation-is-linked-to-iranian-spy-ring-in-d-c-report"
+    },
+    "last": {
+      "datetime": "2023-10-18T23:06:58Z",
+      "uri": "https://web.archive.org/web/20231018230658/https://www.dailywire.com/news/top-biden-official-under-criminal-investigation-is-linked-to-iranian-spy-ring-in-d-c-report"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.dailywire.com/news/top-biden-official-under-criminal-investigation-is-linked-to-iranian-spy-ring-in-d-c-report",
+    "json_format": "http://localhost:1208/timemap/json/https://www.dailywire.com/news/top-biden-official-under-criminal-investigation-is-linked-to-iranian-spy-ring-in-d-c-report",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.dailywire.com/news/top-biden-official-under-criminal-investigation-is-linked-to-iranian-spy-ring-in-d-c-report"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.dailywire.com/news/top-biden-official-under-criminal-investigation-is-linked-to-iranian-spy-ring-in-d-c-report"
+}

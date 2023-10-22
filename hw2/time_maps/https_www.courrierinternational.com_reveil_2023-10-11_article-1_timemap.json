@@ -1,0 +1,30 @@
+{
+  "original_uri": "https://www.courrierinternational.com/reveil/2023-10-11#article-1",
+  "self": "http://localhost:1208/timemap/json/https://www.courrierinternational.com/reveil/2023-10-11#article-1",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T21:25:20Z",
+        "uri": "https://web.archive.org/web/20231011212520/https://www.courrierinternational.com/reveil/2023-10-11"
+      },
+      {
+        "datetime": "2023-10-16T09:04:54Z",
+        "uri": "https://web.archive.org/web/20231016090454/https://www.courrierinternational.com/reveil/2023-10-11"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T21:25:20Z",
+      "uri": "https://web.archive.org/web/20231011212520/https://www.courrierinternational.com/reveil/2023-10-11"
+    },
+    "last": {
+      "datetime": "2023-10-16T09:04:54Z",
+      "uri": "https://web.archive.org/web/20231016090454/https://www.courrierinternational.com/reveil/2023-10-11"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.courrierinternational.com/reveil/2023-10-11#article-1",
+    "json_format": "http://localhost:1208/timemap/json/https://www.courrierinternational.com/reveil/2023-10-11#article-1",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.courrierinternational.com/reveil/2023-10-11#article-1"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.courrierinternational.com/reveil/2023-10-11#article-1"
+}

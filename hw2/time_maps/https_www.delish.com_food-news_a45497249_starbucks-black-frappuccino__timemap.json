@@ -1,0 +1,38 @@
+{
+  "original_uri": "https://www.delish.com/food-news/a45497249/starbucks-black-frappuccino/",
+  "self": "http://localhost:1208/timemap/json/https://www.delish.com/food-news/a45497249/starbucks-black-frappuccino/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T00:26:25Z",
+        "uri": "https://web.archive.org/web/20231012002625/https://www.delish.com/food-news/a45497249/starbucks-black-frappuccino/"
+      },
+      {
+        "datetime": "2023-10-14T15:22:31Z",
+        "uri": "https://web.archive.org/web/20231014152231/https://www.delish.com/food-news/a45497249/starbucks-black-frappuccino/"
+      },
+      {
+        "datetime": "2023-10-15T11:49:14Z",
+        "uri": "https://web.archive.org/web/20231015114914/https://www.delish.com/food-news/a45497249/starbucks-black-frappuccino/"
+      },
+      {
+        "datetime": "2023-10-16T10:07:19Z",
+        "uri": "https://web.archive.org/web/20231016100719/https://www.delish.com/food-news/a45497249/starbucks-black-frappuccino/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T00:26:25Z",
+      "uri": "https://web.archive.org/web/20231012002625/https://www.delish.com/food-news/a45497249/starbucks-black-frappuccino/"
+    },
+    "last": {
+      "datetime": "2023-10-16T10:07:19Z",
+      "uri": "https://web.archive.org/web/20231016100719/https://www.delish.com/food-news/a45497249/starbucks-black-frappuccino/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.delish.com/food-news/a45497249/starbucks-black-frappuccino/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.delish.com/food-news/a45497249/starbucks-black-frappuccino/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.delish.com/food-news/a45497249/starbucks-black-frappuccino/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.delish.com/food-news/a45497249/starbucks-black-frappuccino/"
+}

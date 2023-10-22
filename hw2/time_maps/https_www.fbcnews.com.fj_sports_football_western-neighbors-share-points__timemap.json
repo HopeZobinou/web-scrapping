@@ -1,0 +1,54 @@
+{
+  "original_uri": "https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/",
+  "self": "http://localhost:1208/timemap/json/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-12T01:18:40Z",
+        "uri": "https://web.archive.org/web/20231012011840/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/"
+      },
+      {
+        "datetime": "2023-10-12T03:41:51Z",
+        "uri": "https://web.archive.org/web/20231012034151/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/"
+      },
+      {
+        "datetime": "2023-10-12T08:50:54Z",
+        "uri": "https://web.archive.org/web/20231012085054/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/"
+      },
+      {
+        "datetime": "2023-10-13T20:41:00Z",
+        "uri": "https://web.archive.org/web/20231013204100/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/"
+      },
+      {
+        "datetime": "2023-10-14T08:51:58Z",
+        "uri": "https://web.archive.org/web/20231014085158/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/"
+      },
+      {
+        "datetime": "2023-10-16T09:33:45Z",
+        "uri": "https://web.archive.org/web/20231016093345/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/"
+      },
+      {
+        "datetime": "2023-10-17T08:41:56Z",
+        "uri": "https://web.archive.org/web/20231017084156/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/"
+      },
+      {
+        "datetime": "2023-10-18T07:17:48Z",
+        "uri": "https://web.archive.org/web/20231018071748/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-12T01:18:40Z",
+      "uri": "https://web.archive.org/web/20231012011840/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/"
+    },
+    "last": {
+      "datetime": "2023-10-18T07:17:48Z",
+      "uri": "https://web.archive.org/web/20231018071748/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/",
+    "json_format": "http://localhost:1208/timemap/json/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.fbcnews.com.fj/sports/football/western-neighbors-share-points/"
+}

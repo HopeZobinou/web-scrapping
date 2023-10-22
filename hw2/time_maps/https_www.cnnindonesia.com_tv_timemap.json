@@ -1,0 +1,1638 @@
+{
+  "original_uri": "https://www.cnnindonesia.com/tv",
+  "self": "http://localhost:1208/timemap/json/https://www.cnnindonesia.com/tv",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2016-04-22T15:46:40Z",
+        "uri": "https://web.archive.org/web/20160422154640/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-05-04T11:02:31Z",
+        "uri": "https://web.archive.org/web/20160504110231/http://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2016-05-06T13:47:39Z",
+        "uri": "https://web.archive.org/web/20160506134739/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2016-05-09T23:39:35Z",
+        "uri": "https://web.archive.org/web/20160509233935/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-05-21T20:00:43Z",
+        "uri": "https://web.archive.org/web/20160521200043/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-05-22T23:23:56Z",
+        "uri": "https://web.archive.org/web/20160522232356/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-06-03T21:28:23Z",
+        "uri": "https://web.archive.org/web/20160603212823/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-06-09T05:47:41Z",
+        "uri": "http://archive.md/20160609054741/http://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2016-06-16T09:35:06Z",
+        "uri": "https://web.archive.org/web/20160616093506/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-06-29T17:54:53Z",
+        "uri": "https://web.archive.org/web/20160629175453/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-07-01T21:13:32Z",
+        "uri": "https://web.archive.org/web/20160701211332/http://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2016-07-12T21:22:14Z",
+        "uri": "https://web.archive.org/web/20160712212214/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-07-22T14:04:26Z",
+        "uri": "https://web.archive.org/web/20160722140426/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-08-02T08:31:13Z",
+        "uri": "https://web.archive.org/web/20160802083113/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-08-05T21:21:41Z",
+        "uri": "https://web.archive.org/web/20160805212141/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-08-13T13:21:41Z",
+        "uri": "https://web.archive.org/web/20160813132141/http://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2016-08-16T17:43:43Z",
+        "uri": "https://web.archive.org/web/20160816174343/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-08-18T18:50:10Z",
+        "uri": "https://web.archive.org/web/20160818185010/http://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2016-08-26T20:01:37Z",
+        "uri": "https://web.archive.org/web/20160826200137/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-09-05T17:28:43Z",
+        "uri": "https://web.archive.org/web/20160905172843/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2016-09-06T02:25:30Z",
+        "uri": "https://web.archive.org/web/20160906022530/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-09-16T12:42:02Z",
+        "uri": "https://web.archive.org/web/20160916124202/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-09-26T23:15:34Z",
+        "uri": "https://web.archive.org/web/20160926231534/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-10-07T04:15:27Z",
+        "uri": "https://web.archive.org/web/20161007041527/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-10-17T08:35:37Z",
+        "uri": "https://web.archive.org/web/20161017083537/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-10-27T06:15:42Z",
+        "uri": "https://web.archive.org/web/20161027061542/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-10-28T14:24:36Z",
+        "uri": "https://web.archive.org/web/20161028142436/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2016-11-04T14:00:59Z",
+        "uri": "https://web.archive.org/web/20161104140059/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-11-06T00:14:23Z",
+        "uri": "https://web.archive.org/web/20161106001423/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2016-11-09T00:28:01Z",
+        "uri": "https://web.archive.org/web/20161109002801/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-11-13T18:05:01Z",
+        "uri": "https://web.archive.org/web/20161113180501/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-11-15T02:31:09Z",
+        "uri": "https://web.archive.org/web/20161115023109/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-11-18T21:54:34Z",
+        "uri": "https://web.archive.org/web/20161118215434/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-11-19T00:14:36Z",
+        "uri": "https://web.archive.org/web/20161119001436/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2016-12-05T04:37:33Z",
+        "uri": "https://web.archive.org/web/20161205043733/http://www.cnnindonesia.com:80/tv?"
+      },
+      {
+        "datetime": "2016-12-05T10:57:45Z",
+        "uri": "https://web.archive.org/web/20161205105745/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2016-12-08T05:50:55Z",
+        "uri": "https://web.archive.org/web/20161208055055/http://www.cnnindonesia.com:80/tv?"
+      },
+      {
+        "datetime": "2016-12-11T09:51:53Z",
+        "uri": "https://web.archive.org/web/20161211095153/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2016-12-11T09:51:57Z",
+        "uri": "https://web.archive.org/web/20161211095157/http://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2016-12-11T09:52:29Z",
+        "uri": "https://web.archive.org/web/20161211095229/http://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2016-12-29T12:18:19Z",
+        "uri": "https://web.archive.org/web/20161229121819/http://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2017-01-05T18:12:34Z",
+        "uri": "https://web.archive.org/web/20170105181234/https://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2017-01-18T10:01:32Z",
+        "uri": "https://web.archive.org/web/20170118100132/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2017-01-28T12:20:43Z",
+        "uri": "https://web.archive.org/web/20170128122043/http://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2017-01-30T02:03:34Z",
+        "uri": "https://web.archive.org/web/20170130020334/http://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2017-03-20T05:07:05Z",
+        "uri": "https://web.archive.org/web/20170320050705/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2017-04-26T23:23:26Z",
+        "uri": "https://web.archive.org/web/20170426232326/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-04-27T22:43:57Z",
+        "uri": "https://web.archive.org/web/20170427224357/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-04-29T16:16:35Z",
+        "uri": "https://web.archive.org/web/20170429161635/http://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2017-04-29T16:16:46Z",
+        "uri": "https://web.archive.org/web/20170429161646/http://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2017-05-02T15:07:38Z",
+        "uri": "https://web.archive.org/web/20170502150738/http://www.cnnindonesia.com:80/tv?"
+      },
+      {
+        "datetime": "2017-05-02T19:48:40Z",
+        "uri": "https://web.archive.org/web/20170502194840/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-05-05T00:30:17Z",
+        "uri": "https://web.archive.org/web/20170505003017/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2017-05-07T14:39:35Z",
+        "uri": "https://web.archive.org/web/20170507143935/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-05-08T23:30:46Z",
+        "uri": "https://web.archive.org/web/20170508233046/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-05-13T19:42:51Z",
+        "uri": "https://web.archive.org/web/20170513194251/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-05-15T08:30:41Z",
+        "uri": "https://web.archive.org/web/20170515083041/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-05-16T02:25:24Z",
+        "uri": "https://web.archive.org/web/20170516022524/https://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2017-05-16T02:25:40Z",
+        "uri": "https://web.archive.org/web/20170516022540/http://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2017-05-20T21:44:07Z",
+        "uri": "https://web.archive.org/web/20170520214407/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2017-05-21T13:26:42Z",
+        "uri": "https://web.archive.org/web/20170521132642/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-05-29T09:18:23Z",
+        "uri": "https://web.archive.org/web/20170529091823/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-06-02T22:17:37Z",
+        "uri": "https://web.archive.org/web/20170602221737/http://www.cnnindonesia.com:80/tv?"
+      },
+      {
+        "datetime": "2017-06-03T08:14:33Z",
+        "uri": "https://web.archive.org/web/20170603081433/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-06-04T10:49:26Z",
+        "uri": "https://web.archive.org/web/20170604104926/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-06-06T14:58:25Z",
+        "uri": "https://web.archive.org/web/20170606145825/http://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2017-06-10T23:28:19Z",
+        "uri": "https://web.archive.org/web/20170610232819/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-06-16T02:36:45Z",
+        "uri": "https://web.archive.org/web/20170616023645/http://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2017-06-19T10:59:45Z",
+        "uri": "https://web.archive.org/web/20170619105945/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-06-26T20:21:20Z",
+        "uri": "https://web.archive.org/web/20170626202120/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-07-02T23:46:49Z",
+        "uri": "https://web.archive.org/web/20170702234649/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-07-04T02:56:22Z",
+        "uri": "https://web.archive.org/web/20170704025622/http://www.cnnindonesia.com:80/tv?"
+      },
+      {
+        "datetime": "2017-07-05T18:25:20Z",
+        "uri": "https://web.archive.org/web/20170705182520/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-07-13T11:40:26Z",
+        "uri": "https://web.archive.org/web/20170713114026/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-07-15T12:48:13Z",
+        "uri": "https://web.archive.org/web/20170715124813/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-07-20T17:05:15Z",
+        "uri": "https://web.archive.org/web/20170720170515/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2017-08-04T17:18:33Z",
+        "uri": "https://web.archive.org/web/20170804171833/http://www.cnnindonesia.com:80/tv?"
+      },
+      {
+        "datetime": "2017-08-31T09:28:07Z",
+        "uri": "https://web.archive.org/web/20170831092807/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2017-09-01T22:01:10Z",
+        "uri": "https://web.archive.org/web/20170901220110/https://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2017-09-04T18:40:02Z",
+        "uri": "https://web.archive.org/web/20170904184002/http://www.cnnindonesia.com:80/tv?"
+      },
+      {
+        "datetime": "2017-09-14T15:06:04Z",
+        "uri": "https://web.archive.org/web/20170914150604/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2017-09-19T16:05:31Z",
+        "uri": "https://web.archive.org/web/20170919160531/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2017-09-28T10:55:20Z",
+        "uri": "https://web.archive.org/web/20170928105520/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2017-10-05T08:00:11Z",
+        "uri": "https://web.archive.org/web/20171005080011/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2017-10-14T22:17:25Z",
+        "uri": "https://web.archive.org/web/20171014221725/https://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2017-11-14T14:47:26Z",
+        "uri": "https://web.archive.org/web/20171114144726/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2018-03-02T07:03:03Z",
+        "uri": "https://web.archive.org/web/20180302070303/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2018-04-22T21:58:23Z",
+        "uri": "https://web.archive.org/web/20180422215823/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2018-05-02T11:03:09Z",
+        "uri": "https://web.archive.org/web/20180502110309/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2018-07-03T15:01:48Z",
+        "uri": "https://web.archive.org/web/20180703150148/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2018-08-25T19:14:09Z",
+        "uri": "https://web.archive.org/web/20180825191409/http://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2018-09-03T01:24:43Z",
+        "uri": "https://web.archive.org/web/20180903012443/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2018-10-04T09:14:17Z",
+        "uri": "https://web.archive.org/web/20181004091417/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2018-11-04T21:28:18Z",
+        "uri": "https://web.archive.org/web/20181104212818/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2019-01-05T10:20:56Z",
+        "uri": "https://web.archive.org/web/20190105102056/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2019-01-09T13:07:25Z",
+        "uri": "https://web.archive.org/web/20190109130725/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-01-27T09:18:47Z",
+        "uri": "https://web.archive.org/web/20190127091847/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-03-08T11:03:50Z",
+        "uri": "https://web.archive.org/web/20190308110350/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2019-03-22T13:25:09Z",
+        "uri": "https://web.archive.org/web/20190322132509/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-03-26T14:16:03Z",
+        "uri": "https://web.archive.org/web/20190326141603/https://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-03-30T07:36:54Z",
+        "uri": "https://web.archive.org/web/20190330073654/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-03-30T15:54:44Z",
+        "uri": "https://web.archive.org/web/20190330155444/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-03-30T18:09:01Z",
+        "uri": "https://web.archive.org/web/20190330180901/https://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-04-02T16:24:31Z",
+        "uri": "https://web.archive.org/web/20190402162431/http://cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2019-04-20T11:21:33Z",
+        "uri": "https://web.archive.org/web/20190420112133/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2019-05-08T11:05:29Z",
+        "uri": "https://web.archive.org/web/20190508110529/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2019-05-16T06:39:25Z",
+        "uri": "https://web.archive.org/web/20190516063925/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-05-21T20:27:56Z",
+        "uri": "https://web.archive.org/web/20190521202756/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2019-06-03T09:33:38Z",
+        "uri": "https://web.archive.org/web/20190603093338/http://cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2019-06-21T21:09:36Z",
+        "uri": "https://web.archive.org/web/20190621210936/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2019-06-26T01:28:50Z",
+        "uri": "https://web.archive.org/web/20190626012850/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-06-27T03:20:33Z",
+        "uri": "https://web.archive.org/web/20190627032033/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-06-27T05:48:17Z",
+        "uri": "https://web.archive.org/web/20190627054817/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-07-08T12:34:26Z",
+        "uri": "https://web.archive.org/web/20190708123426/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2019-07-22T21:23:06Z",
+        "uri": "https://web.archive.org/web/20190722212306/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2019-08-05T13:03:39Z",
+        "uri": "https://web.archive.org/web/20190805130339/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-08-22T17:31:36Z",
+        "uri": "https://web.archive.org/web/20190822173136/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2019-09-07T14:44:59Z",
+        "uri": "https://web.archive.org/web/20190907144459/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2019-09-14T12:50:39Z",
+        "uri": "https://web.archive.org/web/20190914125039/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-09-22T16:41:15Z",
+        "uri": "https://web.archive.org/web/20190922164115/http://www.cnnindonesia.com:80/tv"
+      },
+      {
+        "datetime": "2019-10-21T04:47:56Z",
+        "uri": "https://web.archive.org/web/20191021044756/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2019-11-04T09:38:40Z",
+        "uri": "https://web.archive.org/web/20191104093840/https://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-11-12T19:12:56Z",
+        "uri": "https://web.archive.org/web/20191112191256/https://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2019-12-20T13:02:08Z",
+        "uri": "https://web.archive.org/web/20191220130208/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2020-01-10T17:05:14Z",
+        "uri": "https://web.archive.org/web/20200110170514/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-01-10T17:05:17Z",
+        "uri": "https://web.archive.org/web/20200110170517/https://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-01-10T17:05:20Z",
+        "uri": "https://web.archive.org/web/20200110170520/http://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-01-10T17:05:23Z",
+        "uri": "https://web.archive.org/web/20200110170523/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-02-18T21:18:53Z",
+        "uri": "https://web.archive.org/web/20200218211853/http://www.cnnindonesia.com:80/tv/"
+      },
+      {
+        "datetime": "2020-03-10T20:12:22Z",
+        "uri": "https://web.archive.org/web/20200310201222/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-03-10T20:12:24Z",
+        "uri": "https://web.archive.org/web/20200310201224/https://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-03-10T20:12:26Z",
+        "uri": "https://web.archive.org/web/20200310201226/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-03-19T02:14:37Z",
+        "uri": "https://web.archive.org/web/20200319021437/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-03-19T02:42:33Z",
+        "uri": "https://web.archive.org/web/20200319024233/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-03-22T09:56:40Z",
+        "uri": "https://web.archive.org/web/20200322095640/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-03-22T09:56:42Z",
+        "uri": "https://web.archive.org/web/20200322095642/https://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-03-22T09:56:44Z",
+        "uri": "https://web.archive.org/web/20200322095644/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-03-27T09:38:11Z",
+        "uri": "https://web.archive.org/web/20200327093811/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-03-28T13:00:59Z",
+        "uri": "https://web.archive.org/web/20200328130059/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-03-29T21:07:50Z",
+        "uri": "https://web.archive.org/web/20200329210750/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-03-29T21:34:21Z",
+        "uri": "https://web.archive.org/web/20200329213421/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-04-01T20:06:06Z",
+        "uri": "https://web.archive.org/web/20200401200606/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-04-01T20:12:31Z",
+        "uri": "https://web.archive.org/web/20200401201231/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-04-01T20:52:33Z",
+        "uri": "https://web.archive.org/web/20200401205233/https://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-04-01T20:52:36Z",
+        "uri": "https://web.archive.org/web/20200401205236/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-04-01T22:11:25Z",
+        "uri": "https://web.archive.org/web/20200401221125/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-04-28T02:15:33Z",
+        "uri": "https://web.archive.org/web/20200428021533/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-04-28T23:35:24Z",
+        "uri": "https://web.archive.org/web/20200428233524/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-05-23T05:32:03Z",
+        "uri": "https://web.archive.org/web/20200523053203/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-05-26T07:37:02Z",
+        "uri": "https://web.archive.org/web/20200526073702/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-05-30T02:15:16Z",
+        "uri": "https://web.archive.org/web/20200530021516/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-06-16T15:09:58Z",
+        "uri": "https://web.archive.org/web/20200616150958/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-06-21T07:52:19Z",
+        "uri": "https://web.archive.org/web/20200621075219/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-08-13T00:14:05Z",
+        "uri": "https://web.archive.org/web/20200813001405/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-09-14T12:46:30Z",
+        "uri": "https://web.archive.org/web/20200914124630/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-09-16T20:36:35Z",
+        "uri": "https://web.archive.org/web/20200916203635/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-09-19T22:27:48Z",
+        "uri": "https://web.archive.org/web/20200919222748/https://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2020-09-22T01:50:38Z",
+        "uri": "https://web.archive.org/web/20200922015038/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-09-22T03:55:05Z",
+        "uri": "https://web.archive.org/web/20200922035505/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-09-28T12:36:34Z",
+        "uri": "https://web.archive.org/web/20200928123634/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-10-01T04:46:42Z",
+        "uri": "https://web.archive.org/web/20201001044642/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-10-01T14:43:04Z",
+        "uri": "https://web.archive.org/web/20201001144304/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-10-06T20:37:57Z",
+        "uri": "https://web.archive.org/web/20201006203757/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-10-11T15:03:09Z",
+        "uri": "https://web.archive.org/web/20201011150309/http://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-10-14T14:55:02Z",
+        "uri": "https://web.archive.org/web/20201014145502/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-10-25T08:05:23Z",
+        "uri": "https://web.archive.org/web/20201025080523/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-10-31T02:33:16Z",
+        "uri": "https://web.archive.org/web/20201031023316/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-10-31T10:27:10Z",
+        "uri": "https://web.archive.org/web/20201031102710/http://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-10-31T10:27:11Z",
+        "uri": "https://web.archive.org/web/20201031102711/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-11-01T00:58:15Z",
+        "uri": "https://web.archive.org/web/20201101005815/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-11-01T07:34:05Z",
+        "uri": "https://web.archive.org/web/20201101073405/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-11-01T07:34:06Z",
+        "uri": "https://web.archive.org/web/20201101073406/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-11-02T00:11:35Z",
+        "uri": "https://web.archive.org/web/20201102001135/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-11-04T03:05:27Z",
+        "uri": "https://web.archive.org/web/20201104030527/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-11-05T17:26:57Z",
+        "uri": "https://web.archive.org/web/20201105172657/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-11-05T17:32:04Z",
+        "uri": "https://web.archive.org/web/20201105173204/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-11-09T10:12:16Z",
+        "uri": "https://web.archive.org/web/20201109101216/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-11-15T23:19:40Z",
+        "uri": "https://web.archive.org/web/20201115231940/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-11-16T19:14:23Z",
+        "uri": "https://web.archive.org/web/20201116191423/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-11-17T00:03:50Z",
+        "uri": "https://web.archive.org/web/20201117000350/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-11-17T01:59:03Z",
+        "uri": "https://web.archive.org/web/20201117015903/http://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-11-17T01:59:04Z",
+        "uri": "https://web.archive.org/web/20201117015904/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-11-25T03:14:02Z",
+        "uri": "https://web.archive.org/web/20201125031402/https://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2020-11-25T03:14:02Z",
+        "uri": "https://web.archive.org/web/20201125031402/http://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2020-11-28T23:10:04Z",
+        "uri": "https://web.archive.org/web/20201128231004/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-04T12:16:14Z",
+        "uri": "https://web.archive.org/web/20201204121614/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-04T20:38:50Z",
+        "uri": "https://web.archive.org/web/20201204203850/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-05T02:28:29Z",
+        "uri": "https://web.archive.org/web/20201205022829/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-06T05:13:43Z",
+        "uri": "https://web.archive.org/web/20201206051343/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-06T12:10:54Z",
+        "uri": "https://web.archive.org/web/20201206121054/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-06T16:42:05Z",
+        "uri": "https://web.archive.org/web/20201206164205/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-07T06:55:38Z",
+        "uri": "https://web.archive.org/web/20201207065538/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-07T15:31:51Z",
+        "uri": "https://web.archive.org/web/20201207153151/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-08T01:25:50Z",
+        "uri": "https://web.archive.org/web/20201208012550/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-08T08:30:00Z",
+        "uri": "https://web.archive.org/web/20201208083000/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-08T12:51:08Z",
+        "uri": "https://web.archive.org/web/20201208125108/https://www.cnnindonesia.com/tv#livestreaming"
+      },
+      {
+        "datetime": "2020-12-10T02:23:07Z",
+        "uri": "https://web.archive.org/web/20201210022307/https://www.cnnindonesia.com/tv#livestreaming"
+      },
+      {
+        "datetime": "2020-12-10T13:51:02Z",
+        "uri": "https://web.archive.org/web/20201210135102/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-11T14:19:43Z",
+        "uri": "https://web.archive.org/web/20201211141943/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-15T09:59:44Z",
+        "uri": "https://web.archive.org/web/20201215095944/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-15T10:59:33Z",
+        "uri": "https://web.archive.org/web/20201215105933/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-15T10:59:34Z",
+        "uri": "https://web.archive.org/web/20201215105934/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-19T15:19:33Z",
+        "uri": "https://web.archive.org/web/20201219151933/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-19T16:44:39Z",
+        "uri": "https://web.archive.org/web/20201219164439/https://www.cnnindonesia.com/tv#livestreaming"
+      },
+      {
+        "datetime": "2020-12-28T08:39:27Z",
+        "uri": "https://web.archive.org/web/20201228083927/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2020-12-30T06:07:20Z",
+        "uri": "https://web.archive.org/web/20201230060720/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-01-07T09:58:53Z",
+        "uri": "https://web.archive.org/web/20210107095853/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-01-09T16:38:03Z",
+        "uri": "https://web.archive.org/web/20210109163803/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-01-13T12:10:24Z",
+        "uri": "https://web.archive.org/web/20210113121024/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-01-17T12:46:00Z",
+        "uri": "https://web.archive.org/web/20210117124600/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-01-19T13:22:19Z",
+        "uri": "https://web.archive.org/web/20210119132219/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-01-24T03:17:22Z",
+        "uri": "https://web.archive.org/web/20210124031722/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-01-28T04:54:31Z",
+        "uri": "https://web.archive.org/web/20210128045431/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-01-29T09:02:33Z",
+        "uri": "https://web.archive.org/web/20210129090233/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-02-24T21:05:26Z",
+        "uri": "https://web.archive.org/web/20210224210526/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-03-01T04:26:48Z",
+        "uri": "https://web.archive.org/web/20210301042648/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-03-31T18:49:42Z",
+        "uri": "https://web.archive.org/web/20210331184942/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-04-17T15:37:32Z",
+        "uri": "https://web.archive.org/web/20210417153732/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-05-17T16:52:48Z",
+        "uri": "https://web.archive.org/web/20210517165248/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-06-19T22:13:10Z",
+        "uri": "https://web.archive.org/web/20210619221310/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-06-19T22:13:10Z",
+        "uri": "https://web.archive.org/web/20210619221310/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-06-22T22:36:47Z",
+        "uri": "https://web.archive.org/web/20210622223647/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-06-27T19:10:49Z",
+        "uri": "https://web.archive.org/web/20210627191049/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-08-02T12:39:38Z",
+        "uri": "https://web.archive.org/web/20210802123938/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-08-17T06:43:31Z",
+        "uri": "https://web.archive.org/web/20210817064331/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-08-17T06:44:36Z",
+        "uri": "https://web.archive.org/web/20210817064436/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-08-17T10:28:38Z",
+        "uri": "https://web.archive.org/web/20210817102838/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-08-20T06:02:18Z",
+        "uri": "https://web.archive.org/web/20210820060218/http://cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2021-08-20T06:02:19Z",
+        "uri": "https://web.archive.org/web/20210820060219/https://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2021-08-25T11:12:40Z",
+        "uri": "https://web.archive.org/web/20210825111240/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-09-16T01:41:35Z",
+        "uri": "https://web.archive.org/web/20210916014135/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-09-22T05:29:16Z",
+        "uri": "https://web.archive.org/web/20210922052916/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-10-06T09:45:02Z",
+        "uri": "https://web.archive.org/web/20211006094502/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-10-08T16:05:47Z",
+        "uri": "https://web.archive.org/web/20211008160547/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-10-16T05:45:29Z",
+        "uri": "https://web.archive.org/web/20211016054529/http://cnnindonesia.com/TV"
+      },
+      {
+        "datetime": "2021-10-16T05:45:30Z",
+        "uri": "https://web.archive.org/web/20211016054530/https://www.cnnindonesia.com/TV"
+      },
+      {
+        "datetime": "2021-10-24T06:30:10Z",
+        "uri": "https://web.archive.org/web/20211024063010/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-10-25T20:27:59Z",
+        "uri": "https://web.archive.org/web/20211025202759/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-11-03T05:58:20Z",
+        "uri": "https://web.archive.org/web/20211103055820/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-11-18T08:57:54Z",
+        "uri": "https://arquivo.pt/wayback/20211118085754mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-11-25T11:05:58Z",
+        "uri": "https://web.archive.org/web/20211125110558/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-11-29T02:23:04Z",
+        "uri": "https://web.archive.org/web/20211129022304/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-11-29T21:07:38Z",
+        "uri": "https://web.archive.org/web/20211129210738/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-12-03T06:03:21Z",
+        "uri": "https://web.archive.org/web/20211203060321/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-12-03T06:03:21Z",
+        "uri": "https://web.archive.org/web/20211203060321/https://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-12-07T09:43:03Z",
+        "uri": "https://web.archive.org/web/20211207094303/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2021-12-16T08:08:37Z",
+        "uri": "https://web.archive.org/web/20211216080837/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-12T00:11:47Z",
+        "uri": "https://arquivo.pt/wayback/20220212001147mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-12T23:55:46Z",
+        "uri": "https://arquivo.pt/wayback/20220212235546mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-13T23:32:02Z",
+        "uri": "https://arquivo.pt/wayback/20220213233202mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-14T23:55:13Z",
+        "uri": "https://arquivo.pt/wayback/20220214235513mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-16T00:16:58Z",
+        "uri": "https://arquivo.pt/wayback/20220216001658mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-17T00:02:39Z",
+        "uri": "https://arquivo.pt/wayback/20220217000239mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-17T23:34:17Z",
+        "uri": "https://arquivo.pt/wayback/20220217233417mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-18T23:34:28Z",
+        "uri": "https://arquivo.pt/wayback/20220218233428mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-19T23:38:43Z",
+        "uri": "https://arquivo.pt/wayback/20220219233843mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-20T23:27:25Z",
+        "uri": "https://arquivo.pt/wayback/20220220232725mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-21T23:35:50Z",
+        "uri": "https://arquivo.pt/wayback/20220221233550mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-23T00:11:51Z",
+        "uri": "https://arquivo.pt/wayback/20220223001151mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-23T23:48:00Z",
+        "uri": "https://arquivo.pt/wayback/20220223234800mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-25T00:03:10Z",
+        "uri": "https://arquivo.pt/wayback/20220225000310mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-25T23:42:25Z",
+        "uri": "https://arquivo.pt/wayback/20220225234225mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-02-26T23:35:35Z",
+        "uri": "https://arquivo.pt/wayback/20220226233535mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-02T08:53:30Z",
+        "uri": "https://web.archive.org/web/20220302085330/https://www.cnnindonesia.com/tv/"
+      },
+      {
+        "datetime": "2022-03-04T01:56:24Z",
+        "uri": "https://arquivo.pt/wayback/20220304015624mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-05T01:13:26Z",
+        "uri": "https://arquivo.pt/wayback/20220305011326mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-05T23:42:25Z",
+        "uri": "https://arquivo.pt/wayback/20220305234225mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-06T23:41:58Z",
+        "uri": "https://arquivo.pt/wayback/20220306234158mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-08T01:19:30Z",
+        "uri": "https://arquivo.pt/wayback/20220308011930mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-10T00:09:08Z",
+        "uri": "https://arquivo.pt/wayback/20220310000908mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-10T07:44:39Z",
+        "uri": "https://web.archive.org/web/20220310074439/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-11T00:10:19Z",
+        "uri": "https://arquivo.pt/wayback/20220311001019mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-12T00:38:19Z",
+        "uri": "https://arquivo.pt/wayback/20220312003819mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-13T00:27:01Z",
+        "uri": "https://arquivo.pt/wayback/20220313002701mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-13T13:36:20Z",
+        "uri": "https://web.archive.org/web/20220313133620/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-14T00:34:35Z",
+        "uri": "https://arquivo.pt/wayback/20220314003435mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-15T00:44:08Z",
+        "uri": "https://arquivo.pt/wayback/20220315004408mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-16T00:51:02Z",
+        "uri": "https://arquivo.pt/wayback/20220316005102mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-17T01:00:54Z",
+        "uri": "https://arquivo.pt/wayback/20220317010054mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-18T00:58:22Z",
+        "uri": "https://arquivo.pt/wayback/20220318005822mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-18T07:48:51Z",
+        "uri": "https://web.archive.org/web/20220318074851/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-19T00:42:36Z",
+        "uri": "https://arquivo.pt/wayback/20220319004236mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-20T00:25:17Z",
+        "uri": "https://arquivo.pt/wayback/20220320002517mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-21T00:39:35Z",
+        "uri": "https://arquivo.pt/wayback/20220321003935mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-22T00:38:18Z",
+        "uri": "https://arquivo.pt/wayback/20220322003818mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-22T02:33:11Z",
+        "uri": "https://web.archive.org/web/20220322023311/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-23T01:32:23Z",
+        "uri": "https://arquivo.pt/wayback/20220323013223mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-24T00:58:14Z",
+        "uri": "https://arquivo.pt/wayback/20220324005814mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-25T00:22:23Z",
+        "uri": "https://arquivo.pt/wayback/20220325002223mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-26T01:12:36Z",
+        "uri": "https://arquivo.pt/wayback/20220326011236mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-27T00:54:57Z",
+        "uri": "https://arquivo.pt/wayback/20220327005457mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-27T23:07:45Z",
+        "uri": "https://arquivo.pt/wayback/20220327230745mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-28T23:46:02Z",
+        "uri": "https://arquivo.pt/wayback/20220328234602mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-29T23:12:52Z",
+        "uri": "https://arquivo.pt/wayback/20220329231252mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-03-31T00:17:02Z",
+        "uri": "https://arquivo.pt/wayback/20220331001702mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-01T00:00:56Z",
+        "uri": "https://arquivo.pt/wayback/20220401000056mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-01T03:03:17Z",
+        "uri": "https://web.archive.org/web/20220401030317/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-01T23:36:53Z",
+        "uri": "https://arquivo.pt/wayback/20220401233653mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-05T00:28:14Z",
+        "uri": "https://arquivo.pt/wayback/20220405002814mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-06T01:00:29Z",
+        "uri": "https://arquivo.pt/wayback/20220406010029mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-06T05:53:16Z",
+        "uri": "https://web.archive.org/web/20220406055316/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-07T01:04:03Z",
+        "uri": "https://arquivo.pt/wayback/20220407010403mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-08T00:31:32Z",
+        "uri": "https://arquivo.pt/wayback/20220408003132mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-08T17:24:24Z",
+        "uri": "https://web.archive.org/web/20220408172424/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-08T20:08:43Z",
+        "uri": "https://web.archive.org/web/20220408200843/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-09T00:29:56Z",
+        "uri": "https://arquivo.pt/wayback/20220409002956mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-10T00:39:14Z",
+        "uri": "https://arquivo.pt/wayback/20220410003914mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-11T00:28:16Z",
+        "uri": "https://arquivo.pt/wayback/20220411002816mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-12T00:45:10Z",
+        "uri": "https://arquivo.pt/wayback/20220412004510mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-04-29T16:32:07Z",
+        "uri": "https://web.archive.org/web/20220429163207/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-05-18T14:25:42Z",
+        "uri": "https://web.archive.org/web/20220518142542/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-05-23T16:57:25Z",
+        "uri": "https://web.archive.org/web/20220523165725/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-05-24T05:30:54Z",
+        "uri": "https://arquivo.pt/wayback/20220524053054mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-05-24T05:30:54Z",
+        "uri": "https://arquivo.pt/wayback/20220524053054mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-05-28T00:28:26Z",
+        "uri": "https://web.archive.org/web/20220528002826/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-05-30T06:20:54Z",
+        "uri": "https://web.archive.org/web/20220530062054/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-04T02:03:21Z",
+        "uri": "https://arquivo.pt/wayback/20220604020321mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-05T01:55:01Z",
+        "uri": "https://arquivo.pt/wayback/20220605015501mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-06T02:36:38Z",
+        "uri": "https://arquivo.pt/wayback/20220606023638mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-07T02:34:14Z",
+        "uri": "https://arquivo.pt/wayback/20220607023414mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-08T02:27:48Z",
+        "uri": "https://arquivo.pt/wayback/20220608022748mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-09T02:08:33Z",
+        "uri": "https://arquivo.pt/wayback/20220609020833mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-10T02:27:50Z",
+        "uri": "https://arquivo.pt/wayback/20220610022750mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-11T02:52:58Z",
+        "uri": "https://arquivo.pt/wayback/20220611025258mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-12T02:04:47Z",
+        "uri": "https://arquivo.pt/wayback/20220612020447mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-13T02:51:28Z",
+        "uri": "https://arquivo.pt/wayback/20220613025128mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-14T03:54:17Z",
+        "uri": "https://arquivo.pt/wayback/20220614035417mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-15T04:01:53Z",
+        "uri": "https://arquivo.pt/wayback/20220615040153mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-16T04:33:39Z",
+        "uri": "https://arquivo.pt/wayback/20220616043339mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-17T04:02:42Z",
+        "uri": "https://arquivo.pt/wayback/20220617040242mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-18T04:27:32Z",
+        "uri": "https://arquivo.pt/wayback/20220618042732mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-19T04:58:36Z",
+        "uri": "https://arquivo.pt/wayback/20220619045836mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-20T05:33:27Z",
+        "uri": "https://arquivo.pt/wayback/20220620053327mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-21T08:09:01Z",
+        "uri": "https://arquivo.pt/wayback/20220621080901mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-22T10:29:08Z",
+        "uri": "https://arquivo.pt/wayback/20220622102908mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-23T09:58:19Z",
+        "uri": "https://arquivo.pt/wayback/20220623095819mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-24T10:27:16Z",
+        "uri": "https://arquivo.pt/wayback/20220624102716mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-25T12:40:15Z",
+        "uri": "https://arquivo.pt/wayback/20220625124015mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-26T10:59:36Z",
+        "uri": "https://arquivo.pt/wayback/20220626105936mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-27T13:09:12Z",
+        "uri": "https://arquivo.pt/wayback/20220627130912mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-28T11:21:36Z",
+        "uri": "https://arquivo.pt/wayback/20220628112136mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-06-29T12:56:26Z",
+        "uri": "https://arquivo.pt/wayback/20220629125626mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-07-01T13:24:28Z",
+        "uri": "https://arquivo.pt/wayback/20220701132428mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-07-02T14:00:37Z",
+        "uri": "https://arquivo.pt/wayback/20220702140037mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-07-07T15:40:19Z",
+        "uri": "https://arquivo.pt/wayback/20220707154019mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-07-09T16:23:58Z",
+        "uri": "https://arquivo.pt/wayback/20220709162358mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-07-10T15:11:37Z",
+        "uri": "https://arquivo.pt/wayback/20220710151137mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-07-14T14:17:09Z",
+        "uri": "https://arquivo.pt/wayback/20220714141709mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-07-15T15:04:46Z",
+        "uri": "https://arquivo.pt/wayback/20220715150446mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-07-16T15:04:05Z",
+        "uri": "https://arquivo.pt/wayback/20220716150405mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-07-17T15:24:15Z",
+        "uri": "https://arquivo.pt/wayback/20220717152415mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-07-19T16:13:38Z",
+        "uri": "https://arquivo.pt/wayback/20220719161338mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-07-20T16:24:17Z",
+        "uri": "https://arquivo.pt/wayback/20220720162417mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-07-28T03:09:11Z",
+        "uri": "https://arquivo.pt/wayback/20220728030911mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-07-30T03:16:21Z",
+        "uri": "https://arquivo.pt/wayback/20220730031621mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-07-31T03:14:46Z",
+        "uri": "https://arquivo.pt/wayback/20220731031446mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-08-01T03:18:35Z",
+        "uri": "https://arquivo.pt/wayback/20220801031835mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-08-04T17:44:23Z",
+        "uri": "https://web.archive.org/web/20220804174423/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-08-08T09:03:53Z",
+        "uri": "https://web.archive.org/web/20220808090353/https://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-08-13T01:02:14Z",
+        "uri": "https://arquivo.pt/wayback/20220813010214mp_/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-08-24T18:10:21Z",
+        "uri": "https://web.archive.org/web/20220824181021/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-09-03T16:52:03Z",
+        "uri": "https://web.archive.org/web/20220903165203/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-09-12T04:21:05Z",
+        "uri": "https://web.archive.org/web/20220912042105/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-10-02T01:49:47Z",
+        "uri": "https://web.archive.org/web/20221002014947/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-10-02T07:29:53Z",
+        "uri": "https://web.archive.org/web/20221002072953/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-10-04T12:51:28Z",
+        "uri": "https://web.archive.org/web/20221004125128/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-10-05T01:17:20Z",
+        "uri": "https://web.archive.org/web/20221005011720/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-10-05T01:58:27Z",
+        "uri": "https://web.archive.org/web/20221005015827/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-10-05T02:39:37Z",
+        "uri": "https://web.archive.org/web/20221005023937/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-10-05T03:20:42Z",
+        "uri": "https://web.archive.org/web/20221005032042/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-10-07T18:27:08Z",
+        "uri": "https://web.archive.org/web/20221007182708/http://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-10-13T08:49:00Z",
+        "uri": "https://web.archive.org/web/20221013084900/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-10-17T02:08:42Z",
+        "uri": "https://web.archive.org/web/20221017020842/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-10-20T22:05:33Z",
+        "uri": "https://web.archive.org/web/20221020220533/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-10-23T09:43:57Z",
+        "uri": "https://web.archive.org/web/20221023094357/https://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-10-23T09:44:01Z",
+        "uri": "https://web.archive.org/web/20221023094401/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-11-04T16:05:49Z",
+        "uri": "https://web.archive.org/web/20221104160549/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-11-07T09:58:51Z",
+        "uri": "https://web.archive.org/web/20221107095851/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-12-13T06:56:56Z",
+        "uri": "https://web.archive.org/web/20221213065656/http://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-12-13T06:57:01Z",
+        "uri": "https://web.archive.org/web/20221213065701/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-12-14T16:44:52Z",
+        "uri": "https://web.archive.org/web/20221214164452/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-12-14T16:44:52Z",
+        "uri": "https://web.archive.org/web/20221214164452/https://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2022-12-15T11:31:25Z",
+        "uri": "https://web.archive.org/web/20221215113125/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-01-09T09:22:46Z",
+        "uri": "https://web.archive.org/web/20230109092246/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-01-16T04:01:13Z",
+        "uri": "https://web.archive.org/web/20230116040113/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-02-16T15:09:04Z",
+        "uri": "https://web.archive.org/web/20230216150904/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-03-04T00:21:19Z",
+        "uri": "https://web.archive.org/web/20230304002119/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-03-06T20:39:08Z",
+        "uri": "https://web.archive.org/web/20230306203908/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-03-15T02:47:45Z",
+        "uri": "https://web.archive.org/web/20230315024745/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-03-24T16:08:46Z",
+        "uri": "https://web.archive.org/web/20230324160846/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-04-04T01:30:22Z",
+        "uri": "https://web.archive.org/web/20230404013022/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-04-05T14:27:52Z",
+        "uri": "https://web.archive.org/web/20230405142752/https://cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-04-21T13:28:32Z",
+        "uri": "https://web.archive.org/web/20230421132832/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-04-23T09:03:26Z",
+        "uri": "https://web.archive.org/web/20230423090326/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-05-14T03:41:56Z",
+        "uri": "https://web.archive.org/web/20230514034156/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-07-19T14:36:04Z",
+        "uri": "https://web.archive.org/web/20230719143604/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-07-24T02:02:06Z",
+        "uri": "https://web.archive.org/web/20230724020206/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-07-30T10:53:10Z",
+        "uri": "https://web.archive.org/web/20230730105310/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-08-05T07:55:32Z",
+        "uri": "https://web.archive.org/web/20230805075532/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-08-07T08:38:52Z",
+        "uri": "https://web.archive.org/web/20230807083852/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-08-12T19:02:52Z",
+        "uri": "https://web.archive.org/web/20230812190252/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-08-16T19:15:20Z",
+        "uri": "https://web.archive.org/web/20230816191520/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-08-17T02:08:45Z",
+        "uri": "https://web.archive.org/web/20230817020845/https://www.cnnindonesia.com/tv"
+      },
+      {
+        "datetime": "2023-09-22T08:08:47Z",
+        "uri": "https://web.archive.org/web/20230922080847/https://www.cnnindonesia.com/tv"
+      }
+    ],
+    "first": {
+      "datetime": "2016-04-22T15:46:40Z",
+      "uri": "https://web.archive.org/web/20160422154640/http://www.cnnindonesia.com:80/tv"
+    },
+    "last": {
+      "datetime": "2023-09-22T08:08:47Z",
+      "uri": "https://web.archive.org/web/20230922080847/https://www.cnnindonesia.com/tv"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.cnnindonesia.com/tv",
+    "json_format": "http://localhost:1208/timemap/json/https://www.cnnindonesia.com/tv",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.cnnindonesia.com/tv"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.cnnindonesia.com/tv"
+}

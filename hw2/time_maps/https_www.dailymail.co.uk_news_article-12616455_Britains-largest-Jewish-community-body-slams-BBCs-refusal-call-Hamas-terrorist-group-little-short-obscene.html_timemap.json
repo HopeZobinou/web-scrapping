@@ -1,0 +1,34 @@
+{
+  "original_uri": "https://www.dailymail.co.uk/news/article-12616455/Britains-largest-Jewish-community-body-slams-BBCs-refusal-call-Hamas-terrorist-group-little-short-obscene.html",
+  "self": "http://localhost:1208/timemap/json/https://www.dailymail.co.uk/news/article-12616455/Britains-largest-Jewish-community-body-slams-BBCs-refusal-call-Hamas-terrorist-group-little-short-obscene.html",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2023-10-11T13:22:23Z",
+        "uri": "https://web.archive.org/web/20231011132223/https://www.dailymail.co.uk/news/article-12616455/Britains-largest-Jewish-community-body-slams-BBCs-refusal-call-Hamas-terrorist-group-little-short-obscene.html"
+      },
+      {
+        "datetime": "2023-10-11T13:27:54Z",
+        "uri": "https://web.archive.org/web/20231011132754/https://www.dailymail.co.uk/news/article-12616455/Britains-largest-Jewish-community-body-slams-BBCs-refusal-call-Hamas-terrorist-group-little-short-obscene.html"
+      },
+      {
+        "datetime": "2023-10-15T23:43:19Z",
+        "uri": "https://web.archive.org/web/20231015234319/https://www.dailymail.co.uk/news/article-12616455/Britains-largest-Jewish-community-body-slams-BBCs-refusal-call-Hamas-terrorist-group-little-short-obscene.html"
+      }
+    ],
+    "first": {
+      "datetime": "2023-10-11T13:22:23Z",
+      "uri": "https://web.archive.org/web/20231011132223/https://www.dailymail.co.uk/news/article-12616455/Britains-largest-Jewish-community-body-slams-BBCs-refusal-call-Hamas-terrorist-group-little-short-obscene.html"
+    },
+    "last": {
+      "datetime": "2023-10-15T23:43:19Z",
+      "uri": "https://web.archive.org/web/20231015234319/https://www.dailymail.co.uk/news/article-12616455/Britains-largest-Jewish-community-body-slams-BBCs-refusal-call-Hamas-terrorist-group-little-short-obscene.html"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://www.dailymail.co.uk/news/article-12616455/Britains-largest-Jewish-community-body-slams-BBCs-refusal-call-Hamas-terrorist-group-little-short-obscene.html",
+    "json_format": "http://localhost:1208/timemap/json/https://www.dailymail.co.uk/news/article-12616455/Britains-largest-Jewish-community-body-slams-BBCs-refusal-call-Hamas-terrorist-group-little-short-obscene.html",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://www.dailymail.co.uk/news/article-12616455/Britains-largest-Jewish-community-body-slams-BBCs-refusal-call-Hamas-terrorist-group-little-short-obscene.html"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://www.dailymail.co.uk/news/article-12616455/Britains-largest-Jewish-community-body-slams-BBCs-refusal-call-Hamas-terrorist-group-little-short-obscene.html"
+}
