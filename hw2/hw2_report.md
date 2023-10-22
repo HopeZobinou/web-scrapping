@@ -62,6 +62,18 @@ class. Reference 1 & 2. The functions to get the tweets are from him. For some r
 so I made the program collect the links in a list and print them to the screen. After that, I copied the links that weren't video/audio
 related or links that linked to twitter and pasted them into Notepad++. In Notepad++, I got rid of the duplicate links.
 
+### Q2. Get TimeMaps for Each URI (2 points)
+
+Obtain the [TimeMaps](http://www.mementoweb.org/guide/quick-intro/) for each of the unique URIs from Q1 using the ODU Memento Aggregator, [MemGator](https://github.com/oduwsdl/MemGator).
+
+Finally, upload the TimeMaps to your GitHub repo -- you'll also use these for Q3.  Put them in a separate folder, not the same folder as your report.
+
+## Answer
+
+Below is the code used to make the time maps for each URI.
+
+
+
 # References
 
 *Reference 1, <https://github.com/anwala/teaching-web-science/tree/main/fall-2023/week-3/twitter-scraper#example-2-extract-tweets-from-search>
