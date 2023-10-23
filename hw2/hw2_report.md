@@ -151,7 +151,13 @@ Use the TimeMaps you saved in Q2 to analyze how well the URIs you collected in Q
 |---------:|--------:|
 |   0     |  500   |
 |  1-10   |  261   |
-| 11-20   |   63   |
+| 11-20   |   69   |
+| 21-50   |   75   |
+| 51-100  |   22   |
+| 101-500 |   28   |
+| 501+    |   19   |
+
+
 
 # References
 
