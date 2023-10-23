@@ -157,7 +157,7 @@ Use the TimeMaps you saved in Q2 to analyze how well the URIs you collected in Q
 | 101-500 |   28   |
 | 501+    |   19   |
 
-Below is the code I used to get the mementos data.
+Below is the code I used to get the memento data.
 
 ```python
 def get_num_mementos(links):
@@ -188,11 +188,14 @@ def get_num_mementos(links):
     return num_mementos_list
 ```
 
+https_www.newsmax.com had the most mementos. I was not surprised. I figured that a news page would have a lot of mementos since the news is always changing. 
 
-
+## Discussion
+I looked at the json files to see if there was a way for me to get the number of mementos from each timemap. I saw that there was a list. So I looked up how to get the number of mementos and found out that you can access the memento list from each timemape if you parse the json and use the len() command-reference 4. The code takes in a list of URIs and it runs the memgator command on it, parses the json, and gets the length of the memento list. That memento list holds all the mementos the URI has. 
 
 # References
 
 *Reference 1, <https://github.com/anwala/teaching-web-science/tree/main/fall-2023/week-3/twitter-scraper#example-2-extract-tweets-from-search>
 *Reference 2, <https://github.com/anwala/teaching-web-science/blob/main/fall-2023/week-3/twitter-scraper/process_tweets.py>
 *Reference 3, <https://stackoverflow.com/questions/450285/executing-command-line-programs-from-within-python>
+*Reference 4, <https://earthly.dev/blog/python-subprocess/#:~:text=The%20stdout%20attribute%20of%20the,as%20a%20string%20of%20bytes.&text=You%20can%20call%20the%20decode,as%20a%20normal%20Python%20string.>
