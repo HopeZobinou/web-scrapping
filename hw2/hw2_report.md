@@ -157,6 +157,38 @@ Use the TimeMaps you saved in Q2 to analyze how well the URIs you collected in Q
 | 101-500 |   28   |
 | 501+    |   19   |
 
+Below is the code I used to get the mementos data.
+
+```python
+def get_num_mementos(links):
+    links = links
+    num_mementos_list = []
+    curr_num_mementos = 0
+
+    for link in links:
+        try:
+            #Run MemGator to get the TimeMap JSON and get the mementos
+            output_file = f"{link.replace('://', '_').replace('/', '_').replace('?', '_').replace('#', '_').replace('%','_').replace('&','_').replace('{','_').replace('}','_').replace('<','_').replace('>','_').replace('*','_').replace('$', '_').replace('!','_').replace(':','_').replace('@','_').replace('+','_').replace('|','_').replace('=','_')}_timemap.json"
+            command = subprocess.run(["c:/Users/hopez/Documents/Data440/Homework2/memgator-windows-amd64","-f", "json", link], stdout = subprocess.PIPE, text=True, check=True)
+            
+            timemap = json.loads((command.stdout)) #Parsing the json
+            curr_num_mementos = len(timemap['mementos']['list'])
+            num_mementos_list.append(curr_num_mementos)
+
+            print(f"TimeMap JSON for {output_file} has {curr_num_mementos} mementos")
+        except subprocess.CalledProcessError as e:
+            print(f"Error running MemGator for {link}: {e}")
+        except json.JSONDecodeError as e:
+            print(f"Error parsing JSON for {link}: {e}")
+        except Exception as e:
+            print(f"An error occurred: {e}")
+
+    print('The list of mementos:', num_mementos_list)
+
+    return num_mementos_list
+```
+
+
 
 
 # References
