@@ -193,6 +193,17 @@ https_www.newsmax.com had the most mementos. I was not surprised. I figured that
 ## Discussion
 I looked at the json files to see if there was a way for me to get the number of mementos from each timemap. I saw that there was a list. So I looked up how to get the number of mementos and found out that you can access the memento list from each timemape if you parse the json and use the len() command-reference 4. The code takes in a list of URIs and it runs the memgator command on it, parses the json, and gets the length of the memento list. That memento list holds all the mementos the URI has. 
 
+### Q4. Analyze Datetimes of Mementos.
+
+For each of the URI-Rs from Q3 that had > 0 mementos, create a scatterplot with the age of each URI-R (`today - earliest memento datetime`) on the x-axis and number of mementos for that URI-R on the y-axis. Some Info Vis terminology: for this graph, the item is the URI-R and the attributes are the estimated age of the URI-R (channel is horizontal position) and the number of mementos for that URI-R (channel is vertical position).
+
+*Q: What can you say about the relationship between the age of a URI-R and the number of its mementos?*
+
+*Q: What URI-R had the oldest memento? Did that surprise you?*
+
+*Q: How many URI-Rs had an age of < 1 week, meaning that their first memento was captured the same week you collected the data?*   
+
+
 # References
 
 *Reference 1, <https://github.com/anwala/teaching-web-science/tree/main/fall-2023/week-3/twitter-scraper#example-2-extract-tweets-from-search>
