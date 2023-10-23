@@ -147,7 +147,9 @@ Use the TimeMaps you saved in Q2 to analyze how well the URIs you collected in Q
 
 ## Answer
 
-
+|Mementos | URI-Rs |
+|---------:|--------:|
+|   0     |  500   |
 
 # References
 
