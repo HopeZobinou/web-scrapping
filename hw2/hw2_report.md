@@ -1,6 +1,6 @@
 # HW2 - Report
 ### Hope Zobinou   
-### DATA 440, Fall 2023 
+### DATA 440, Fall 2023  
 ### 10/24/2023
 
 # Q1: Collect URIs from Tweets 
