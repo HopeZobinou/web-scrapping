@@ -208,8 +208,46 @@ For each of the URI-Rs from Q3 that had > 0 mementos, create a scatterplot with 
 Below is the scatter plot measuring the relationship between the number of mementos a URI has and its age.
 ![q4_graph](https://github.com/HopeZobinou/data440/assets/81893993/2fc8f79e-ab47-4bc2-aa89-c7acb5a56bcc)
 
+Below is the code I used to get the age of the URIs
 
+```python
+def get_uri_age(links):
+    links = links
+    memento_age_list = []
+    age = 0
 
+    for link in links:
+        try:
+            #Run MemGator to get the TimeMap JSON and get the mementos
+            output_file = f"{link.replace('://', '_').replace('/', '_').replace('?', '_').replace('#', '_').replace('%','_').replace('&','_').replace('{','_').replace('}','_').replace('<','_').replace('>','_').replace('*','_').replace('$', '_').replace('!','_').replace(':','_').replace('@','_').replace('+','_').replace('|','_').replace('=','_')}_timemap.json"
+            command = subprocess.run(["c:/Users/hopez/Documents/Data440/Homework2/memgator-windows-amd64","-f", "json", link], stdout = subprocess.PIPE, text=True, check=True)
+
+            timemap = json.loads(command.stdout) #Parsing the json
+            mementos = timemap['mementos']['list'] #List of mementos from the one URI we are on
+
+            #Getting the age of the uri. We have to subtract this day by the date of the first memento
+            first_memento = mementos[0]
+            memento_date = first_memento['datetime']
+            memento_datetime = datetime.strptime(memento_date, "%Y-%m-%dT%H:%M:%SZ")
+            curr_datetime = datetime.now()
+            age = (curr_datetime - memento_datetime).days
+
+            memento_age_list.append(age)
+
+            print(f"TimeMap JSON for {output_file} is {age} days old")
+        except subprocess.CalledProcessError as e:
+            print(f"Error running MemGator for {link}: {e}")
+        except json.JSONDecodeError as e:
+            print(f"Error parsing JSON for {link}: {e}")
+        except Exception as e:
+            print(f"An error occurred: {e}")
+    
+    return memento_age_list
+```
+The relationship between the age of the URIs and the number of mementos isn't strong. From the graph, I don't see a clear correlation. The age of the URIs is not a good predictor for the number of mementos. https://www.haaretz.com/ had the oldest memento. This surprised me because I have never heard of it and the site name doesn't give a clue of what the site is about. 7 URIs are less than 7 days old.
+
+## Discussion
+I discovered that in the json file that contains the timemaps, the memento list has an element that holds the date and time of that memento. I figured if you want the age of something you just subtract the current date by the other date. In order to subtract them I have to make sure they are in the same unit. I made a variable that holds the first memento and I accessed the date and time element in the list. I used the datetime library to convert the times and subtract them to get the age for each link-Reference 5. 
 
 # References
 
@@ -217,3 +255,4 @@ Below is the scatter plot measuring the relationship between the number of memen
 *Reference 2, <https://github.com/anwala/teaching-web-science/blob/main/fall-2023/week-3/twitter-scraper/process_tweets.py>
 *Reference 3, <https://stackoverflow.com/questions/450285/executing-command-line-programs-from-within-python>
 *Reference 4, <https://earthly.dev/blog/python-subprocess/#:~:text=The%20stdout%20attribute%20of%20the,as%20a%20string%20of%20bytes.&text=You%20can%20call%20the%20decode,as%20a%20normal%20Python%20string.>
+*Reference 5, <https://docs.python.org/3/library/datetime.html>
