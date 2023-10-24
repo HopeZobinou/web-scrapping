@@ -203,6 +203,13 @@ For each of the URI-Rs from Q3 that had > 0 mementos, create a scatterplot with 
 
 *Q: How many URI-Rs had an age of < 1 week, meaning that their first memento was captured the same week you collected the data?*   
 
+## Answer
+
+Below is the scatter plot measuring the relationship between the number of mementos a URI has and its age.
+![q4_graph](https://github.com/HopeZobinou/data440/assets/81893993/2fc8f79e-ab47-4bc2-aa89-c7acb5a56bcc)
+
+
+
 
 # References
 
