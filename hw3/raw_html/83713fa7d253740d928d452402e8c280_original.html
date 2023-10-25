@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Хакеры внедряют вредоносный код в темы WordPress с помощью плагина tagDiv Composer</title>
+    <base href="https://securitymedia.org/"/>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow" />
+<meta name="description" content="У двух тем, для которых используется уязвимый плагин, суммарно 155 тысяч скачивания" />
+<link href="/bitrix/templates/mediapro_main/components/bitrix/news/news.infinity2/style.css?166920980954" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/mediapro_main/components/bitrix/news/news.infinity2/bitrix/news.detail/.default/style.css?16692983601390" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/mediapro_main/components/bitrix/system.pagenavigation/.default/style.css?16553537821688" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/mediapro_main/components/bitrix/news.list/favorite/style.css?1654780942846" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/mediapro_main/components/bitrix/menu/top/style.css?1654161856311" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/mediapro_main/components/bitrix/breadcrumb/new/style.css?1655367202704" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/mediapro_main/components/bitrix/menu/footer/style.css?1654161849292" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/mediapro_main/styles.css?16848296782709" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+
+<script type="text/javascript" src="/bitrix/js/main/core/core.js?1690280458486439"></script>
+
+<script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1698240011','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'a97c04b357e44804a187aa39e7425d6c'});</script>
+
+
+<meta property="og:description" content="У двух тем, для которых используется уязвимый плагин, суммарно 155 тысяч скачивания"/>
+<link rel="canonical" href="https://securitymedia.org/news/khakery-vnedryayut-vredonosnyy-kod-v-temy-wordpress-s-pomoshchyu-plagina-tagdiv-composer.html"/>
+
+
+
+<script type="text/javascript" src="/bitrix/templates/mediapro_main/components/bitrix/menu/top_mobile/script.js?1634507051508"></script>
+<script type="text/javascript" src="/bitrix/templates/mediapro_main/components/bitrix/menu/top/script.js?1634507051508"></script>
+<script type="text/javascript" src="/bitrix/templates/mediapro_main/components/bitrix/menu/footer/script.js?1634507051508"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "45c903a26702702b2dcf7fd22a483460"]); _ba.push(["host", "securitymedia.org"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+
+    <link rel="stylesheet" href="/bitrix/templates/mediapro_main/js/jquery-ui.css">
+    <link href="/bitrix/templates/mediapro_main/css/slider.css" rel="stylesheet">
+    <link href="/bitrix/templates/mediapro_main/css/slider_control.css" rel="stylesheet">
+    <link rel="stylesheet" href="/bitrix/templates/mediapro_main/css/bootstrap.min.css">
+<!--    <script src="--><!--/js/jquery-1.11.1.min.js"></script>-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="/bitrix/templates/mediapro_main/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/bitrix/templates/mediapro_main/css/!main.css">
+    <script type="text/javascript" src="/bitrix/templates/mediapro_main/js/panel.js"></script>
+    <link rel="stylesheet" type="text/css" href="/bitrix/templates/mediapro_main/css/panel_setup.css">
+    <link href="/bitrix/templates/mediapro_main/css/style_user.css?1698240010" rel="stylesheet">
+    <link href="/bitrix/templates/mediapro_main/fonts/fonts_icon.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/upload/iblock/995/mgc0pc8wzqrppm5a75plhx33smq7d49t" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <script type="text/javascript" src="/bitrix/templates/mediapro_main/js/slider_works/jquery.flexslider.js"></script>
+    <link href="/bitrix/templates/mediapro_main/css/slider_works/flexslider.css" rel="stylesheet">
+    <link href="/bitrix/templates/mediapro_main/css/slider_works/slider.css" rel="stylesheet">
+    <meta property="og:image" itemprop="image" content="https://securitymedia.org/upload/resize_cache/iblock/467/800_534_2/8zhwe1qina84fv3clq3aqfvl2pac1a6r.jpg" />
+    <meta name="twitter:image" content="https://securitymedia.org/upload/resize_cache/iblock/467/800_534_2/8zhwe1qina84fv3clq3aqfvl2pac1a6r.jpg"/>
+    <meta property="og:image:secure_url" itemprop="image" content="https://securitymedia.org/upload/resize_cache/iblock/467/800_534_2/8zhwe1qina84fv3clq3aqfvl2pac1a6r.jpg" />
+
+
+    <meta property="og:title" content=" Хакеры внедряют вредоносный код в темы WordPress с помощью плагина tagDiv Composer">
+    <meta property="og:type" content="website">
+    
+
+    <!-- No need to change anything here -->
+    <meta property="og:image:type" content="image/jpeg">
+
+    <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="534">
+
+    <!-- Website to visit when clicked in fb or WhatsApp-->
+    <meta property="og:url" content="https://securitymedia.org/news/khakery-vnedryayut-vredonosnyy-kod-v-temy-wordpress-s-pomoshchyu-plagina-tagdiv-composer.html">
+
+    <script type="text/javascript">
+        $(function() {
+            $.fn.scrollToTop = function() {
+                $(this).hide().removeAttr("href");
+                if ($(window).scrollTop() >= "0") $(this).fadeIn("slow")
+                var scrollDiv = $(this);
+                $(window).scroll(function() {
+                    if ($(window).scrollTop() <= "0") $(scrollDiv).fadeOut("slow")
+                    else $(scrollDiv).fadeIn("slow")
+                });
+                $(this).click(function() {
+                    $("html, body").animate({scrollTop: 0}, "slow")
+                })
+            }
+        });
+
+        $(function() {
+            $("#Go_Top").scrollToTop();
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).on("scroll", function() {
+            if ($(document).scrollTop() > 100) {
+                $(".line_header").removeClass("normal").addClass("small_header");
+            } else {
+                $(".line_header").removeClass("small_header").addClass("normal");
+            }
+        });
+    </script>
+
+
+    <link rel="stylesheet" href="/bitrix/templates/mediapro_main/css/owl.carousel.css">
+    <link rel="stylesheet" href="/bitrix/templates/mediapro_main/css/owl.theme.green.css">
+    <script src="/bitrix/templates/mediapro_main/js/owl.carousel.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</head>
+<body>
+
+<div class="body_top">
+    <div id="panel">
+            </div>
+    <a class="go_top" href='#' id='Go_Top'>
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </a>
+
+    
+
+    <div class="col-12 text-center">
+
+                <a href="https://scan-factory.ru/" class="d-block h-100 my-3"  target="_blank"  rel="nofollow">
+            <img src="/upload/iblock/973/zt4mcfksjzj9dbiu271f1hed2ou8hx80.PNG" class="bannering" alt="Kra23YhiZ" title="Kra23YhiZ" />
+        </a>
+        
+
+    </div>
+
+    <div class="top-container">
+        <div class="container">
+            <!-- ********************** HEADER MOBILE *********************** -->
+            <!-- ***************************************************** -->
+            <header class="d-block mobile_header">
+                <div class="row no-gutters align-items-center">
+                    <div class="col-6 col-md-3 ">
+                        <a href="/" class="logo_text">
+                            <img src="/bitrix/templates/mediapro_main/img/logo.png">
+                        </a>
+                    </div>
+                    <div class="col-7 text-right d-none d-md-block">
+                        <form class="w-100 example search_form d-none d-md-flex example search_form justify-content-center align-items-center justify-content-center align-items-center"  action="/search/">
+                            <input type="text" placeholder="Искать..." name="q">
+                            <button type="submit"><img src="/bitrix/templates/mediapro_main/img/search.gif" style="margin-top: -5px;"/></button>
+                        </form>
+                    </div>
+                    <div class="col-6 col-md-2  text-right">
+                        <div class="p-2 social d-none d-md-inline-block">
+                            <a href="https://t.me/secmedia" target=_blank class="mx-lg-0" rel="nofollow">
+                                <!--								<i class="fa fa-telegram" aria-hidden="true" style="font-size: 1.8em;"></i>-->
+                                <img src="/bitrix/templates/mediapro_main/img/tg.gif">
+                                </a>
+                            
+                            <!--<a href="https://www.facebook.com/infosecmedia" target=_blank class="text-dark" rel="nofollow">
+    								<img src="/bitrix/templates/mediapro_main/img/social/facebook.png" style="display: none;">
+    								<i class="fa fa-facebook-square" aria-hidden="true"></i>
+    							</a>
+    							-->
+
+                            <!---->
+
+
+                                                            <!--<a href="https://twitter.com/infosecmedia_" target=_blank class="text-dark" rel="nofollow">
+									<img src="/img/social/tw.png" style="display: none;">
+    								<i class="fa fa-twitter-square" aria-hidden="true"></i>
+    							</a>-->
+                            
+                            <a href="https://vk.com/infosecmedia" target=_blank class="mx-lg-2" rel="nofollow">
+                                <img src="/bitrix/templates/mediapro_main/img/wk.gif">
+                                <!--									<i class="fa fa-vk" aria-hidden="true"></i>-->
+                                </a>
+                                                        <a href="https://www.youtube.com/@infosecmedia" target=_blank class="" rel="nofollow">
+                                <img src="/bitrix/templates/mediapro_main/img/yt.gif">
+                                </a>
+                                                                                </div>
+
+                        <div class="search-mobile">
+                            <div>
+                                <button class="d-flex d-md-none btn" type="submit" data-toggle="collapse" data-target="#mobile-search" aria-expanded="false" aria-controls="collapseExample">
+                                    <img src="/bitrix/templates/mediapro_main/img/search.gif" />
+                                </button>
+                            </div>
+                            <div>
+                                <a href="" class="d-inline-block d-md-none text-dark mobile_burger" data-toggle="modal" data-target="#modal_mobile_menu" style="font-size: 20px;">
+                                    <i class="fa fa-bars"></i>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+                        <div id="modal_mobile_menu" class="modal fade menu text-left" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <button class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <div class="modal-body">
+                                        
+
+<!-- <ul class="nav navbar-nav"> -->
+<ul class="list-unstyled" style="margin: 0;">
+
+
+
+	
+	
+		
+							<li class=" active"><a href="/news/" class="root-item-selected" style="padding-bottom: 10px;">Новости</a></li>
+			
+		
+		
+		
+
+
+
+
+
+	
+	
+		
+							<li class=" "><a href="/info/" class="root-item" style="padding-bottom: 10px;">Статьи</a></li>
+			
+		
+		
+		
+
+
+
+
+
+	
+	
+		
+							<li class=" "><a href="/articles/interview/" class="root-item" style="padding-bottom: 10px;">Интервью</a></li>
+			
+		
+		
+		
+
+
+
+
+
+	
+	
+		
+							<li class=" "><a href="/analytics/" class="root-item" style="padding-bottom: 10px;">Аналитика</a></li>
+			
+		
+		
+		
+
+
+
+
+
+	
+	
+		
+							<li class=" "><a href="/articles/docs/" class="root-item" style="padding-bottom: 10px;">Продукты</a></li>
+			
+		
+		
+		
+
+
+
+
+
+	
+	
+		
+							<li class=" "><a href="/events/" class="root-item" style="padding-bottom: 10px;">Мероприятия</a></li>
+			
+		
+		
+		
+
+
+
+
+
+	
+	
+		
+							<li class=" "><a href="/video/" class="root-item" style="padding-bottom: 10px;">Видео</a></li>
+			
+		
+		
+		
+
+
+
+
+
+	
+	
+		
+							<li class=" "><a href="/products/" class="root-item" style="padding-bottom: 10px;">Каталог СЗИ</a></li>
+			
+		
+		
+		
+
+
+
+
+
+	
+	
+		
+							<li class=" "><a href="/premia/" class="root-item" style="padding-bottom: 10px;">Премия</a></li>
+			
+		
+		
+		
+
+
+
+
+	</ul>
+
+
+
+                                        <hr style=" border-bottom: 1px white solid; opacity: .4">
+
+                                        <div class="menu_enter_search">
+                                            <ul class="list-unstyled" style="margin-bottom: 3px;">
+                                                                                                <li>
+                                                    <div class="login">
+<!--<a href="/login/">Войти</a>-->
+
+<style>
+	.login	{ font-size: 13px; color: #ccc; padding-top: 2px }
+	.login	a{ text-decoration: none !important; }
+</style>                                                </li>
+                                                <li><a href="/post/" class="theme_color">Подписаться</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer text-center">
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
+
+            <div class="collapse" id="mobile-search">
+                <form style="border-top: 1px solid #efefef; border-bottom: 1px solid #efefef;" class="py-3 w-100 search_form d-flex search_form justify-content-center align-items-center justify-content-center align-items-center"  action="/search/">
+                    <input type="text" placeholder="Искать..." name="q">
+                    <button type="submit"><img src="/bitrix/templates/mediapro_main/img/search.gif" style="margin-top: -5px;"/></button>
+                </form>
+            </div>
+
+        </div>
+
+        <style>
+            ul.list-inline{ white-space:nowrap !important;}
+            .list-inline li{display:inline-block !important; float:none !important;}
+        </style>
+        <div id="menu_fixed">
+
+            <div class=" container ">
+                <div class="row">
+
+                    <div class="col-12">
+                        
+
+<!-- <ul class="nav navbar-nav"> -->
+<ul class="list-unstyled main_menu justify-content-between align-items-lg-center d-flex py-4">
+
+
+	
+	
+		
+							<li class="list-inline-item active"><a href="/news/" class="root-item-selected">Новости</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/info/" class="root-item">Статьи</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/articles/interview/" class="root-item">Интервью</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/analytics/" class="root-item">Аналитика</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/articles/docs/" class="root-item">Продукты</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/events/" class="root-item">Мероприятия</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/video/" class="root-item">Видео</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/products/" class="root-item">Каталог СЗИ</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/premia/" class="root-item">Премия</a></li>
+			
+		
+		
+		
+
+
+
+
+	</ul>
+
+
+                    </div>
+                    <div class="col-md-auto p-2 menu_enter_search d-none d-xl-block">
+                        <img src="/bitrix/templates/mediapro_main/img/search.gif" style="margin-top: -5px;"/>
+                    </div>
+                    <div class="search_block">
+                        <form class="example" action="/search/">
+                            <input type="text" placeholder="Искать..." name="q">
+                            <button type="submit"><img src="/bitrix/templates/mediapro_main/img/search.gif" style="margin-top: -5px;"/></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="top-container-1">
+            <div class="container" style="overflow: hidden;">
+                <!-- *********************** SLIDER ********************** -->
+                <!-- ***************************************************** -->
+                            </div>
+            <script>
+                window.onscroll = function() {myFunction()};
+                var navbar = document.getElementById("menu_fixed");
+                var sticky = navbar.offsetTop;
+                function myFunction() {
+                    if (window.pageYOffset >= sticky) {
+                        navbar.classList.add("sticky")
+                    } else {
+                        navbar.classList.remove("sticky");
+                    }
+                }
+            </script>
+        </div>
+    </div>
+    <div id="my-modal" class="modal fade search" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered  modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close d-sm-none" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                    <div class="container">
+                        <form method="get" action="/search/">
+                            <div class="form-row">
+                                <div class="input-group">
+                                    <input type="text" class="form-control form-control-lg" placeholder="Поиск по сайту" aria-label="Recipient's username" aria-describedby="button-addon2" name="q" value="">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-lg btn-link text-white bg-dark" type="submit">
+                                            <img src="/bitrix/templates/mediapro_main/img/search.gif" style="margin-top: -5px;"/>
+                                        </button>
+                                    </div>
+                                    <div class="input-group-append">
+
+                                        <button class="btn btn-lg text-white bg-dark d-sm-block d-none" type="button" data-dismiss="modal" aria-hidden="true">
+                                            &times;
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="begin_content">
+        <div class="container">
+
+            
+            
+            
+                <div class="container head_cont" style="padding: 0;">
+
+                    <link href="/bitrix/css/main/font-awesome.css?163450705128777" type="text/css" rel="stylesheet" />
+<div class="bx-breadcrumb" itemprop="http://schema.org/breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+			<div class="bx-breadcrumb-item" id="bx_breadcrumb_0" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				
+				<a href="/" title="Главная" itemprop="item">
+					<span itemprop="name">Главная</span>
+				</a>
+				<meta itemprop="position" content="1" />
+			</div>
+			<div class="bx-breadcrumb-item">
+				<i class="fa fa-angle-right"></i>
+				<a href="/news/" title="Новости" itemprop="item" class="active">
+				<span>Новости</span>
+				</a>
+			</div><div style="clear:both"></div></div>
+                    <section class="banner-2"></section>
+                    <h1 class="page-header">Хакеры внедряют вредоносный код в темы WordPress с помощью плагина tagDiv Composer</h1>
+                </div>
+            
+    <div class="banner-wrapper2">
+        <div class="row">
+            <div class="col-12 text-center">
+
+                <a href="https://rvision.ru/products/vm?utm_source=securitymedia&utm_medium=banner&utm_campaign=r-vision_vm" style="margin: 20px 0;" class="d-block h-100 my-3" target="_blank" rel="nofollow">
+	<img alt="Токен: Kra23opYH" src="/upload/iblock/26b/vqi2xf85vceg78mxup45bxdcd4tuhdw0.png" class="bannering" title="Токен: Kra23opYH">
+</a>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        $( document ).ready(function() {
+            $('.banner-wrapper2').appendTo('.banner-2');
+        });
+    </script>
+    <div class="index_news" style=" margin-top: 0; margin-bottom: 30px; ">
+        
+
+<script src="https://unpkg.com/infinite-scroll@4/dist/infinite-scroll.pkgd.js"></script>
+<script>
+    $( document ).ready(function() {
+        let lastChild = $('.bx-breadcrumb-item').last();
+        $('<div class="bx-breadcrumb-item breadcrumb-infinity"><i class="fa fa-angle-right"></i><span></span></div>').insertAfter(lastChild);
+
+        function yandexSend( path, body ){
+            ym(86022050,'reachGoal','target');
+            ym(86022050, 'hit', 'https://securitymedia.org'+path, {
+                params:{referer: body, title: path
+                }
+            });
+            //console.log('YandexMetric: ' + body + ' | https://securitymedia.org' + path)
+        }
+
+        let nextURL;
+        function updateNextURL( doc ) {
+            nextURL = $( doc ).find('.nxt').attr('href');}
+
+        updateNextURL( document );
+        //console.log(nextURL);
+
+        // init Infinite Scroll
+        let $container = $('.infinitie').infiniteScroll({
+            // use function to set custom URLs
+            path: function() {
+                return nextURL;
+            },
+            append: '.detail_item',
+            history: 'push',
+            status: '.loader-ellips',
+            prefill: true,
+            historyTitle: true,
+            debug: true
+        });
+        $container.on( 'load.infiniteScroll', function( event, body, path ) {
+            updateNextURL( body );
+            yandexSend( path, body.title );
+        });
+        $container.on( 'history.infiniteScroll', function( event, title, path ) {
+            console.log(`History changed to: ${path}`);
+            $('.breadcrumb-infinity span').empty().append(title);
+        });
+    });
+</script>
+
+<div class="row my-3">
+    
+<script>
+$( document ).ready(function() {
+        $('.breadcrumb-infinity span').empty().append('Хакеры внедряют вредоносный код в темы WordPress с помощью плагина tagDiv Composer');
+
+});
+</script>
+<div class="col-12 col-lg-9 mb-3" itemscope="" itemtype="http://schema.org/NewsArticle" >
+    <div class="infinitie">
+        <div class="detail_item">
+            <sape_index>
+                <div class="black">
+                    <div class="h-100 w-100 ttl">
+                        <h2 itemprop="headline" class="page-header">Хакеры внедряют вредоносный код в темы WordPress с помощью плагина tagDiv Composer</h2>
+                    </div>
+                </div>
+                <div class="row no-gutters justify-content-between align-items-lg-center">
+                    <div class="col-md-auto col-6">
+                        <div class="date_time font-weight-light theme_color mb-3">11.10.2023</div>
+                    </div>
+                </div>
+                <div class="main-pic d-flex mb-3 position-relative">
+                    <time itemprop="dateCreated" class="d-none" datetime="11.10.2023 16:05:00">11.10.2023 16:05:00</time>
+                    <time itemprop="datePublished" class="d-none">11.10.2023 16:05:00</time>
+                    <div itemprop="author" class="d-none">Securitymedia.org</div>
+                    <div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+                        <link itemprop="sameAs" href="https://www.securitymedia.org/">
+                        <div itemprop="logo" itemscope="" itemtype="https://schema.org/ImageObject">
+                            <link itemprop="url image" href="https://securitymedia.org/bitrix/templates/mediapro_main/img/logo.png">
+                        </div>
+                        <meta itemprop="name" content="SecurityMedia">
+                    </div>
+                                                                    <img itemprop="image" src="/upload/resize_cache/iblock/467/847_360_2/8zhwe1qina84fv3clq3aqfvl2pac1a6r.jpg" class="w-100 img-fluid" title="У двух тем, для которых используется уязвимый плагин, суммарно 155 тысяч скачивания" alt="Хакеры внедряют вредоносный код в темы WordPress с помощью плагина tagDiv Composer" >
+                                    </div>
+
+                <div class="content article-detail" itemprop="description">
+                    <p style="text-align: justify;">
+	 Темы для системы управления сайтами WordPress Newspaper and Newsmag могут стать объектами для внедрения вредоносного кода. Обе темы пользуются популярностью, суммарно их количество скачивания составляет 155 тысяч.
+</p>
+<p style="text-align: justify;">
+</p>
+<p style="text-align: justify;">
+	 Уязвимыми темы <a href="https://arstechnica.com/security/2023/10/thousands-of-wordpress-sites-have-been-hacked-through-tagdiv-plugin-vulnerability/" target="_blank" rel="nofollow">делает</a> обязательный для их работы плагин tagDiv Composer. Для внедрения кода стороннего кода используется уязвимость CVE-2023-3169. При помощи межсайтового скриптинга вредоносный код попадает на страницы сайтов.&nbsp;
+</p>
+<p style="text-align: justify;">
+</p>
+<p style="text-align: justify;">
+	 Уровень критичности CVE-2023-3169 оценивается в 7.1 балла. Она была обнаружена исследователем Труоком Пханом и исправлена в версии tagDiv Composer version 4.2 полностью, а в версии 4.1 лишь частично.
+</p>                                            <div class="tags element my-5 theme_color1">
+                            <a href='/tags/KHakery'>Хакеры</a> <a href='/tags/Vredonosnyeprogrammy'>Вредоносные программы</a>                         </div>
+                                    </div>
+
+                <!---->
+<!--                                            <div class="main-title d-flex align-items-center">-->
+<!--                                                <a class="main-title-name" href="#" style="cursor: default; font-size: 1.6rem !important;">Другие материалы</a>-->
+<!--                                                <hr class="green-line" style="width: 59%; !important;">-->
+<!--                                            </div>-->
+<!---->
+<!---->
+<!--                                            <div class="row mb-4 articles" >-->
+<!--                                                --><!--                                                    <div class="col-12 col-sm-6 col-lg-4 mb-4">-->
+<!--                                                        <div class="card no-border h-100">-->
+<!--                                                            <a class=" text-dark" href="--><!--">-->
+<!--                                                                --><!--                                                                <img src="--><!--" class="img-fits rounded img-fluid mb-3" style="min-height: 190px;" alt="--><!--">-->
+<!--                                                            </a>-->
+<!--                                                            <a class="text-dark" href="--><!--">-->
+<!--                                                                <div class="date_time font-weight-light mb-3">-->
+<!--                                                                    --><!--                                                                </div>-->
+<!--                                                                <div class="h4">--><!--</div>-->
+<!--                                                            </a>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+<!--                                                --><!--                                            </div>-->
+<!---->
+<!--                                        -->                
+                <a style="display: none;" class="nxt" href="/news/obnaruzheny-mnozhestvennye-uyazvimosti-v-ngaf-kitayskogo-ib-vendora-sangfor.html">Обнаружены множественные уязвимости в NGAF китайского ИБ вендора Sangfor</a>
+
+            </sape_index>
+        </div>
+    </div>
+    <div class="loader-ellips">
+        <span class="loader-ellips__dot"></span>
+        <span class="loader-ellips__dot"></span>
+        <span class="loader-ellips__dot"></span>
+        <span class="loader-ellips__dot"></span>
+    </div>
+</div>
+
+
+
+
+    <div class="col-12 col-lg-3 pl-3" >
+        <div class="bg-gray w-100 mb-3 text-center">
+            
+        <a href="https://bezopashka.rvision.ru/?utm_source=securitymedia&utm_medium=banner&utm_campaign=bezopashka"  target="_blank"  rel="nofollow">
+            <img src="/upload/iblock/fd0/pyb5m4yvab1os5ukk9z16cz4ippd6v67.jpg" alt="Kra23wYYH" title="Kra23wYYH" class="bannering-right w-100"/>
+        </a>
+
+            </div>
+
+        <div class="bg-gray">
+            <!--Главное-->
+            <div id="comp_a8329499e2e381273e3d54c26a63ca51"><div class=" content_blocks right_news right_main" style=" height: auto;">
+
+
+    <div class="h4 green pt-4 pb-1 bg-gray mb-0 px-3">Популярные материалы</div>
+        
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_4640">
+            <a href="/info/soc-security-operation-center-dlya-chego-kompanii-nuzhen-tsentr-monitoringa-kiberbezopasnosti.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/05c/235_136_2/9evrhakx8k0592gy7ja3ucng5xp0grb1.jpg" title="SOC (Security Operation Center): для чего компании нужен центр мониторинга кибербезопасности">
+                    <div class="date_time py-3">
+                        25.11.2022                    </div>
+                    <div class="long-name">SOC (Security Operation Center): для чего компании нужен центр мониторинга кибербезопасности</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_3648">
+            <a href="/info/brutfors-paroley-ustarel-ili-vse-eshche-aktualen.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/528/235_136_2/gtu8v03l52shzjssniqey8xommxndcch.png" title="Брутфорс паролей (bruteforce - взлом полным перебором) - что это и насколько актуально?">
+                    <div class="date_time py-3">
+                        19.09.2022                    </div>
+                    <div class="long-name">Брутфорс паролей (bruteforce - взлом полным перебором) - что это и насколько актуально?</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_3112">
+            <a href="/info/importozameshchenie-v-ib-kak-ukaz-prezidenta-250-menyaet-krupneyshie-rossiyskie-kompanii.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/489/235_136_2/sdm70vmyzrh2ir48xym91bhg8vseb0sm.JPG" title="Импортозамещение в ИБ: как указ президента №250 меняет крупнейшие российские компании">
+                    <div class="date_time py-3">
+                        10.08.2022                    </div>
+                    <div class="long-name">Импортозамещение в ИБ: как указ президента №250 меняет крупнейшие российские компании</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_4976">
+            <a href="/info/kak-stat-khakerom-s-nulya.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/c07/235_136_2/8ws0af20el0xsnd8pure4sxpxujdo6cl.jpeg" title="Как стать хакером с нуля? Что нужно знать и уметь, где учиться?">
+                    <div class="date_time py-3">
+                        21.12.2022                    </div>
+                    <div class="long-name">Как стать хакером с нуля? Что нужно знать и уметь, где учиться?</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_3664">
+            <a href="/analytics/obzor-sredstv-doverennoj-zagruzki.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/17a/235_136_2/2czy708g5j74ay4zlvpja9bw8gyrafct.webp" title="Обзор средств доверенной загрузки">
+                    <div class="date_time py-3">
+                        26.10.2022                    </div>
+                    <div class="long-name">Обзор средств доверенной загрузки</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_4321">
+            <a href="/analytics/xdr-dlp-ids-kakoe-ib-reshenie-vybrat-kompanii.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/ee4/235_136_2/qqlkkk4kxwd3adceca3z42vsu7aopbv1.jpg" title="XDR, DLP, IDS: какое ИБ-решение выбрать">
+                    <div class="date_time py-3">
+                        10.11.2022                    </div>
+                    <div class="long-name">XDR, DLP, IDS: какое ИБ-решение выбрать</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_2699">
+            <a href="/info/situatsionnye-tsentry-rossii-gotova-li-gosudarstvennaya-informatsionnaya-infrastruktura-k-aktualnym.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/c7c/235_136_2/5v68008d5p24hf7kynmm46r5ij6lu5b8.jpg" title="Ситуационные центры России: готова ли государственная информационная инфраструктура к актуальным внешним условиям?">
+                    <div class="date_time py-3">
+                        06.07.2022                    </div>
+                    <div class="long-name">Ситуационные центры России: готова ли государственная информационная инфраструктура к актуальным внешним условиям?</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_1638">
+            <a href="/analytics/siemsystems.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/3cc/235_136_2/mznamh9wjm0tx5iur1edttrloalm08oj.jpg" title="SIEM российские системы - что это, какие популярные решения применяются">
+                    <div class="date_time py-3">
+                        30.03.2022                    </div>
+                    <div class="long-name">SIEM российские системы - что это, какие популярные решения применяются</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_5854">
+            <a href="/info/eto-po-nashemu-kak-rabotayut-tls-sertifikaty-mintsifry.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/6b7/235_136_2/eultrh1jp3266h2rkia5tx3dvxltb72h.jpg" title="Как работают TLS-сертификаты Минцифры">
+                    <div class="date_time py-3">
+                        20.03.2023                    </div>
+                    <div class="long-name">Как работают TLS-сертификаты Минцифры</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_3983">
+            <a href="/info/utechka-dannykh-kto-vinovat-i-chto-delat.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/98e/235_136_2/b07wrfhajfls4dtzkwnyxd0s6ecwxt0j.jpg" title="Утечка данных: как случается и что с ними делать">
+                    <div class="date_time py-3">
+                        17.10.2022                    </div>
+                    <div class="long-name">Утечка данных: как случается и что с ними делать</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_8014">
+            <a href="/articles/docs/astra-linux-special-edition-obzor-samoy-zashchishchennoy-rossiyskoy-os.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/b2d/235_136_2/mwchmtundccr7c2g41u1gecptmbcla4f.jpg" title="Astra Linux Special Edition: обзор защищенной российской ОС">
+                    <div class="date_time py-3">
+                        05.10.2023                    </div>
+                    <div class="long-name">Astra Linux Special Edition: обзор защищенной российской ОС</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_5754">
+            <a href="/info/klassy-skzi-chem-otlichayutsya-pora-li-ikh-obnovit-i-chto-proveryaet-fsb.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/441/235_136_2/i2atqtgv2t7byxg362a185mumtfwm7kb.jpg" title="СКЗИ (средства криптографической защиты информации): что это, какие классы, чем отличаются и что проверяет ФСБ">
+                    <div class="date_time py-3">
+                        09.03.2023                    </div>
+                    <div class="long-name">СКЗИ (средства криптографической защиты информации): что это, какие классы, чем отличаются и что проверяет ФСБ</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_7641">
+            <a href="/articles/interview/alisa-shevchenko-zero-day-engineering-v-budushchem-u-etichnykh-khakerov-budet-vazhnaya-missiya-zashch.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/e98/235_136_2/eg47h185vr11goaqxvvmlipbm8gor3im.png" title="Алиса Шевченко, Zero Day Engineering: В будущем у этичных хакеров  будет важная миссия – защитить мир от восстания умных роботов">
+                    <div class="date_time py-3">
+                        04.09.2023                    </div>
+                    <div class="long-name">Алиса Шевченко, Zero Day Engineering: В будущем у этичных хакеров  будет важная миссия – защитить мир от восстания умных роботов</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_2890">
+            <a href="/info/testirovanie-na-proniknovenie-slabosti-v-oborone-kompaniy-kotorye-aktualny-v-2022-godu.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/1e1/235_136_2/iuvc4b7m9xz8xa3n4x2bht0ky5m401r4.jpg" title="Пентест или тестирование на проникновение: слабости в обороне компаний, актуальные в 2023 году">
+                    <div class="date_time py-3">
+                        22.07.2022                    </div>
+                    <div class="long-name">Пентест или тестирование на проникновение: слабости в обороне компаний, актуальные в 2023 году</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_3141">
+            <a href="/info/etichnyy-khaking-vozmozhen-li-on.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/77e/235_136_2/vbcpssw3q2hdpx7lpu9hnkwksmjayzfe.png" title="Этичный хакинг: что это такое и где применяется? Кто такие белые хакеры?">
+                    <div class="date_time py-3">
+                        12.08.2022                    </div>
+                    <div class="long-name">Этичный хакинг: что это такое и где применяется? Кто такие белые хакеры?</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_7404">
+            <a href="/articles/docs/bezopasnoe-khranenie-paroley-v-kompanii-ili-chto-eshche-umeet-passvork.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/e8e/235_136_2/iwe9qor8wnpwzh1okpbzd0azllrv42i5.png" title="Безопасное хранение паролей в компании, или Что еще умеет Пассворк?">
+                    <div class="date_time py-3">
+                        24.08.2023                    </div>
+                    <div class="long-name">Безопасное хранение паролей в компании, или Что еще умеет Пассворк?</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_1451">
+            <a href="/analytics/password.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/374/235_136_2/hqyz9oh3naf4rvz3b7uzr0603rrjf5rm.webp" title="Менеджеры паролей - 7 лучших решений для бизнеса">
+                    <div class="date_time py-3">
+                        16.03.2022                    </div>
+                    <div class="long-name">Менеджеры паролей - 7 лучших решений для бизнеса</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_3091">
+            <a href="/info/kriticheskaya-informatsionnaya-infrastruktura-poshagovaya-instruktsiya-po-vyyavleniyu-i-kategorirova.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/d53/235_136_2/0w9yb92f6cvr0rozlv6izlcb19ozsqso.jpg" title="Критическая информационная инфраструктура (КИИ): инструкция по выявлению и категорированию объектов ">
+                    <div class="date_time py-3">
+                        09.08.2022                    </div>
+                    <div class="long-name">Критическая информационная инфраструктура (КИИ): инструкция по выявлению и категорированию объектов </div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_3234">
+            <a href="/info/gossopka-kakie-perspektivy-u-tsifrovogo-shchita-rossii.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/d30/235_136_2/fn0tzflyxydwn66f6yz4s4pkwauli23k.png" title="ГосСОПКА: какие перспективы у цифрового щита России?">
+                    <div class="date_time py-3">
+                        19.08.2022                    </div>
+                    <div class="long-name">ГосСОПКА: какие перспективы у цифрового щита России?</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_1599">
+            <a href="/analytics/vpnservis.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/b56/235_136_2/g2b5h1hx681or9oybn7xwxlk12jlupk3.jpg" title="Бесплатный ВПН для айфона: семь бесплатных сервисов VPN для iPhone в 2023 году">
+                    <div class="date_time py-3">
+                        27.03.2022                    </div>
+                    <div class="long-name">Бесплатный ВПН для айфона: семь бесплатных сервисов VPN для iPhone в 2023 году</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_3562">
+            <a href="/info/karding-tekhnologichnoe-moshennichestvo-ili-proverka-na-vnimatelnost.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/416/235_136_2/gzqq7i8be6boqbwr6i8vp9mrkhjjnl7t.png" title="Кардинг: технологичное мошенничество или проверка на внимательность?">
+                    <div class="date_time py-3">
+                        12.09.2022                    </div>
+                    <div class="long-name">Кардинг: технологичное мошенничество или проверка на внимательность?</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_3039">
+            <a href="/info/bank-ugroz-fstek-ispolzovat-nelzya-ignorirovat.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/5ae/235_136_2/9f4hn0zotl54wleykxbv44i042613p4j.png" title="Банк угроз ФСТЭК: использовать нельзя игнорировать">
+                    <div class="date_time py-3">
+                        04.08.2022                    </div>
+                    <div class="long-name">Банк угроз ФСТЭК: использовать нельзя игнорировать</div>
+                </div>
+            </a>
+        </div>
+    
+        <div class="bg-gray px-3 py-3 block_long " id="bx_3218110189_5927">
+            <a href="/info/anonymous-vs-killnet-istoriya-gruppirovok.html">
+                <div class="h-100 align-items-center">
+                    <img class="w-100 img-fluid" src="/upload/resize_cache/iblock/e2b/235_136_2/3hfbw4jglsm3ga084sfn665ouvdcx018.jpg" title="Anonymous vs Killnet: история группировок">
+                    <div class="date_time py-3">
+                        27.03.2023                    </div>
+                    <div class="long-name">Anonymous vs Killnet: история группировок</div>
+                </div>
+            </a>
+        </div>
+    </div></div>
+            
+            <div class="d-block text-center py-2">
+                <strong><a href="/news/"></a></strong>
+            </div>
+        </div>
+
+        <div class="mt-3 subscribe-form sticky-top">
+            
+
+
+    <div class="h3">Хотите быть в курсе последних новостей?</div>
+    <form action="" method="post" class="needs-validation" validate>
+        <div class="form-group has-validation">
+            <input type="text" name="text" class="form-control form-control-lg" id="youyname" placeholder="Ваше имя">
+            <input type="email" name="email" class="form-control form-control-lg" id="Email" aria-describedby="emailHelp" required value="" placeholder="Ваш e-mail">
+        </div>
+
+        <div class="form-group form-check d-none">
+            <input type="checkbox" class="form-check-input " id="exampleCheck1" checked >
+            <label class="form-check-label" for="exampleCheck1">Нажимая кнопку «Подписаться», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных</label>
+        </div>
+        <button type="submit" id="send" value="add" name="type_email" class="btn subscribe-go">Подписаться</button>
+    </form>
+<br>
+<p style="font-size: 0.8rem">Нажимая на кнопку, я даю <a href="https://securitymedia.org/upload/Soglasie_obrabotka.pdf" rel="nofollow">Согласие на обработку персональных данных</a> в соответствии с <a href="https://securitymedia.org/upload/Soglasie_obrabotka.pdf" rel="nofollow">Политикой обработки</a>.</p>
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+</div>    </div>
+
+    <!-- *********************** FOOTER ********************** -->
+    <!-- ***************************************************** -->
+    </div>
+    </div>
+    </div>
+
+
+    <footer>
+        <div class="container no-bg text-white">
+            <hr class="mt-2 mb-4 ">
+            <div class="row ">
+                <div class="col-md-5 col-12 mb-5">
+                    <div class="copy">
+                        © 2021 - 2023. Cyber Media. Информация сайта защищена законом об авторских правах. Кибер медиа.<br>
+Кибербезопасность, новости ИБ/ИТ и цифровая безопасность онлайн.                    </div>
+
+                    <div class="mt-2 small-txt">
+                        Разрешается частичное использование материалов на других сайтах при наличии ссылки на источник. Использование материалов сайта с полной копией оригинала допускается только с письменного разрешения редакции сайта.                    </div>
+                    <div class="under_menu">
+                        
+
+<!-- <ul class="nav navbar-nav"> -->
+<ul class="list-unstyled" style="margin: 0;    width: 100%;">
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/o-proekte/" class="root-item" style="padding-bottom: 10px;">О проекте</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/reklama/" class="root-item" style="padding-bottom: 10px;">Реклама</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/kontakty/" class="root-item" style="padding-bottom: 10px;">Контакты</a></li>
+			
+		
+		
+		
+
+
+
+
+	</ul>
+
+
+                    </div>
+                    <div class="col-md-12 col-12 social text-center text-lg-left">
+
+                        <!-- Yandex.Metrika counter -->
+                        <script type="text/javascript" >
+                            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+                            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+                            ym(86022050, "init", {
+                                clickmap:true,
+                                trackLinks:true,
+                                accurateTrackBounce:true,
+                                webvisor:true
+                            });
+                        </script>
+                        <noscript><div><img src="https://mc.yandex.ru/watch/86022050" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+                        <!-- /Yandex.Metrika counter -->
+
+
+                        <a href="https://t.me/secmedia" target=_blank class="text-white" rel="nofollow">
+                            <img src="/bitrix/templates/mediapro_main/img/tg-w.png">
+
+                            </a>
+                                                <!--<a href="https://web.facebook.com/infosecmedia" target=_blank class="text-dark" rel="nofollow">
+                            <img src="/bitrix/templates/mediapro_main/img/social/facebook.png" style="display: none;">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                          </a>
+                          -->
+
+                        
+                        <!--<a href="https://twitter.com/infosecmedia_" target=_blank class="text-dark" rel="nofollow">
+                            <img src="/bitrix/templates/mediapro_main/img/social/tw.png" style="display: none;">
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                          </a>-->
+                                            <a href="https://vk.com/infosecmedia" target=_blank class="text-white" rel="nofollow">
+                            <img src="/bitrix/templates/mediapro_main/img/wk-w.png">
+
+                            </a>
+                                                <a href="https://www.youtube.com/@infosecmedia" target=_blank class="text-white" rel="nofollow">
+                            <img src="/bitrix/templates/mediapro_main/img/yt.png">
+                            </a>
+                                                                    </div>
+                </div>
+                                <div class="col-md-3 col-12 mb-3 menu_footer" style="">
+                    
+
+<!-- <ul class="nav navbar-nav"> -->
+<ul class="list-unstyled" style="margin: 0;    width: 100%;">
+
+
+	
+	
+		
+							<li class="list-inline-item active"><a href="/news/" class="root-item-selected" style="padding-bottom: 10px;">Новости</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/info/" class="root-item" style="padding-bottom: 10px;">Статьи</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/articles/interview/" class="root-item" style="padding-bottom: 10px;">Интервью</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/analytics/" class="root-item" style="padding-bottom: 10px;">Аналитика</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/articles/docs/" class="root-item" style="padding-bottom: 10px;">Продукты</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/events/" class="root-item" style="padding-bottom: 10px;">Мероприятия</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/video/" class="root-item" style="padding-bottom: 10px;">Видео</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/products/" class="root-item" style="padding-bottom: 10px;">Каталог СЗИ</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/premia/" class="root-item" style="padding-bottom: 10px;">Премия</a></li>
+			
+		
+		
+		
+
+
+
+
+	</ul>
+
+
+                </div>
+                            </div>
+            <div class="col pl-md-5 " style="display: none;">
+                                    <form method="post" action="/post/" class=" mb-2">
+                        <div class="form-row ">
+                            <div class="h5 ">Подписаться на новости</div>
+                            <div class="input-group col-md-8 pl-0 mt-2 ">
+                                <div class="input-group-append ">
+                                    <span class="input-group-text border-right-0 rounded-left " id="my-addon "><i class="fa fa-envelope-o "></i></span>
+                                </div>
+                                <input class="form-control rounded-right " type="email" name="email" placeholder="Адрес вашей электронной почты:">
+                            </div>
+                            <div class="btn-group col-md-4 mt-2 pl-0" role="group" aria-label="Button group">
+                                <button class="btn btn-info w-100" type="submit">Подписаться</button>
+                            </div>
+                        </div>
+                    </form>
+                
+                <div class="p-0 menu_about" style="margin-left: -5px;">
+                    
+
+<!-- <ul class="nav navbar-nav"> -->
+<ul class="list-unstyled main_menu justify-content-between align-items-lg-center d-flex py-4">
+
+
+	
+	
+		
+							<li class="list-inline-item active"><a href="/news/" class="root-item-selected">Новости</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/info/" class="root-item">Статьи</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/articles/interview/" class="root-item">Интервью</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/analytics/" class="root-item">Аналитика</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/articles/docs/" class="root-item">Продукты</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/events/" class="root-item">Мероприятия</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/video/" class="root-item">Видео</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/products/" class="root-item">Каталог СЗИ</a></li>
+			
+		
+		
+		
+
+
+
+
+	
+	
+		
+							<li class="list-inline-item "><a href="/premia/" class="root-item">Премия</a></li>
+			
+		
+		
+		
+
+
+
+
+	</ul>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container no-bg small-txt">
+            Разрешается цитирование материалов Cyber Media (КиберМедиа) на других сайтах при наличии ссылки на источник. Использование какого-либо материала допускается только по согласованию с редакцией портала. Мы не гарантируем точность, полноту и полезность любого материала. Мнение авторов материалов может не совпадать с позицией редакции портала. Пользователи и иные заинтересованные лица в случае выявления нарушения интеллектуальных прав и иных противоправных действий других пользователей, обязуются прежде всего сообщить редакции портала о подобных нарушениях по электронной почте.
+            <br>
+            <br><a href="https://securitymedia.org/upload/Politika_PD.pdf" rel="nofollow">Политика обработки персональных данных</a>
+            <br>
+            <br><a href="https://securitymedia.org/upload/Soglasie_obrabotka.pdf" rel="nofollow">Согласие на обработку персональных данных</a>
+        </div>
+    </footer>
+
+
+    <div class="modal fade subscribe" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header pt-2 pb-0 no-border">
+                    <button type="button" class="close " id="cookie_close" data-dismiss="modal" aria-label="Close">
+                        <img src="/bitrix/templates/mediapro_main/img/close-btn.jpg"/>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="subscribe-form bg-white text-dark p-0 m-0">
+                        <div class="text-center">
+    <div class="h3">ПОДПИСЫВАЙТЕСЬ<br>на важные новости</div>
+    <img src="/bitrix/templates/mediapro_main/img/subscribe.jpg"/>
+    <div style="padding: 15px 0 30px 0;">Узнайте первым о самом<br>главном из мира ИБ</div>
+</div>
+<div class="after-send-modal"></div>
+
+<form method="post" id="ajax_form" action="" >
+    <div class="form-group">
+        <input type="text" name="name" class="form-control form-control-lg"  placeholder="Ваше имя">
+        <input type="email" name="emailmodal" class="form-control form-control-lg" id="email-send" aria-describedby="emailHelp" required placeholder="Ваш e-mail">
+    </div>
+
+    <input type="button" id="send-modal" class="btn" value="Подписаться" />
+</form>
+
+<div id="result_form w-100 text-center"><div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div id="blueimp-gallery" class="blueimp-gallery" data-use-bootstrap-modal="false">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title" style="display: block;"></h3>
+    <a class="prev" style="font-size: 37px; display: block;"><i class="fa fa-angle-left" style="margin-left: -4px;"></i></a>
+    <a class="next" style="font-size: 37px; display: block;"><i class="fa fa-angle-right" style="margin-right: -4px;"></i></a>
+    <a class="close" style="display: block;"><i class="fa fa-times"></i></a>
+    <a class="play-pause"></a>
+    <!-- <ol class="indicator"></ol> -->
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <a href=# class="next pull-left" style="font-size: 40px;">
+                        <i class="fa fa-arrow-circle-left"></i>
+                    </a>
+                    <a href=# class="next pull-right" style="font-size: 40px;">
+                        <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="/bitrix/templates/mediapro_main/css/blueimp-gallery.min.css">
+<script src="/bitrix/templates/mediapro_main/js/jquery.blueimp-gallery.min.js"></script>
+<script src="/bitrix/templates/mediapro_main/js/bootstrap-image-gallery.js"></script>    <script src="/bitrix/templates/mediapro_main/js/slider.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(document).on('ready', function() {
+
+            $('.news_blocks.slider').on('init', function() {
+                $('.slider_index').addClass("show")
+            });
+
+            $('.news_blocks.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+                nextArrow: '<button type="button" class="slick-next">next</button>',
+                dotsClass: 'slick-dots-white',
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 4,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 580,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    }
+                ]
+            });
+
+            $('.slider_top_mobile').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                prevArrow: '',
+                nextArrow: '',
+                dotsClass: 'd-none',
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 580,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+
+
+
+            // $("#send-modal").on("click", function () {
+            //     if (!ValidateEmail($("#email-send").val())) {
+            //         $('#email-send').addClass('is-invalid');
+            //     }
+            //     else {
+            //         $('.after-send-modal').html('<div class="alert alert-success alert-dismissible fade show p-4" role="alert"><span class="h6">На указанный вами адрес электронной почты выслано письмо с ссылкой подтверждения рассылки.</span></div>');
+            //
+            //     }
+            // });
+
+        });
+    </script>
+    <script>
+        $( document ).ready(function() {
+
+            function ValidateEmail(email) {
+                var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+                return expr.test(email);
+            };
+
+            $("#send").on("click", function () {
+                if (!ValidateEmail($("#Email").val())) {
+                    $('#Email').addClass('is-invalid');
+                }
+                else {
+
+                }
+            });
+
+
+            $("#send-modal").click(
+                function(){
+                    if (!ValidateEmail($("#email-send").val())) {
+                        $('#email-send').addClass('is-invalid');
+                    }
+                    else {
+                        sendAjaxForm('result_form', 'ajax_form', '/include/ajax.php');
+                        //
+                        $('.after-send-modal').html('<div class="alert alert-success alert-dismissible fade show p-4" role="alert"><span class="h6">На указанный вами адрес электронной почты выслано письмо с ссылкой подтверждения рассылки.</span></div>');
+                        return false;
+                    }
+
+
+                }
+            );
+
+            function getCookie(name) {
+                let matches = document.cookie.match(new RegExp(
+                    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+                ));
+                return matches ? decodeURIComponent(matches[1]) : undefined;
+            }
+
+
+            let cookiecook = getCookie("cookiecook"),
+                cookiewin = document.getElementsByClassName('cookie_notice')[0];
+
+            console.log("!"+cookiecook);
+            if (cookiecook != "no") {
+
+                //show subscribe modal after 1 minute
+                // setTimeout(function () {
+                //     $('#subscribe').modal('show');
+                // }, 60000);
+
+
+                document.getElementById("cookie_close").addEventListener("click", function(){
+                    let date = new Date;
+                    date.setDate(date.getDate() + 1);
+                    document.cookie = "cookiecook=no; path=/; expires=" + date.toUTCString();
+                    $('#subscribe').modal('hide');
+                });
+
+                document.getElementById("send-modal").addEventListener("click", function(){
+
+                    if (!ValidateEmail($("#email-send").val())) {
+                        $('#email-send').addClass('is-invalid');
+                    }
+                    else {
+                        let date = new Date;
+                        date.setDate(date.getDate() + 1);
+                        document.cookie = "cookiecook=no; path=/; expires=" + date.toUTCString();
+                        setTimeout(function () {
+                            $('#subscribe').modal('hide');
+                        }, 8000);
+                    }
+
+                });
+            }
+        });
+
+        function sendAjaxForm(result_form, ajax_form, url) {
+            jQuery.ajax({
+                url:     url, //url страницы (action_ajax_form.php)
+                type:     "POST", //метод отправки
+                dataType: "html", //формат данных
+                data: jQuery("#"+ajax_form).serialize(),  // Сеарилизуем объект
+                success: function(response) { //Данные отправлены успешно
+                    result = jQuery.parseJSON(response);
+                    //document.getElementById(result_form).innerHTML = "Имя: "+result.NAME+"<br>Телефон: "+result.EMAIL;
+                },
+                error: function(response) { // Данные не отправлены
+                    document.getElementById(result_form).innerHTML = "Ошибка. Данные не отправленны.";
+                }
+            });
+        }
+    </script>
+
+    </body>
+    </html>
+

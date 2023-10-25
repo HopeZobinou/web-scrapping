@@ -1,0 +1,311 @@
+<!DOCTYPE HTML> <html lang="de"> <head> <meta charset="UTF-8"> <title>Internetagentur München | Webentwicklung & Online-Marketing</title> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="keywords" content="Internetagentur München, Webentwicklung, E-Commerce, Online-Marketing"> <meta name="description" content="Unsere Internetagentur in München bietet Webentwicklung, E-Commerce-Lösungen und effektives Online-Marketing. 15+ Jahre Erfahrung in der digitalen Welt."> <meta name="robots" content="index, follow"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"> <link href="https://www.itcaps.de/" rel="canonical"> <link rel="preconnect" href="https://www.googletagmanager.com"> <link rel="preconnect" href="https://fonts.gstatic.com"> <link rel="preload" href="/media/Slider/2_webentwicklung.jpg" as="image" type="image/jpeg"> <link rel="preload" href="/templates/default/css/project_all.css" as="style"> <link rel="preload" href="/templates/default/astra/fonts/fontawesome-webfont.woff2?v=4.4.0" as="font" type="font/woff2" crossorigin="anonymous"> <link rel="preload" href="/templates/default/astra/fonts/OpenSans-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous"> <link rel="preload" href="/templates/default/astra/fonts/OpenSans-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous"> <link rel="preload" href="/scripts/default.min.js" as="script"> <style>
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(/templates/default/astra/fonts/OpenSans-Italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(/templates/default/astra/fonts/OpenSans-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(/templates/default/astra/fonts/OpenSans-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(/templates/default/astra/fonts/OpenSans-Bold.ttf) format('truetype');
+}
+h2.tp-caption.very_big_black
+{
+    font : 36px/48px 'Trebuchet MS';
+}
+.slide-inner-text
+{
+    top             : 0;
+    left            : 0;
+    width           : 100%;
+    height          : 100%;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+}
+
+.slide-inner-text .tp-caption.very_big_black
+{
+    position         : static;
+    text-align       : center;
+    background-color : transparent;
+    color            : #fff;
+    margin-bottom    : 0;
+}
+
+.fullwidthbanner .tp-caption.very_big_black
+{
+    right       : initial;
+    line-height : 1.25;
+    width       : 100%;
+}
+
+.fullwidthbanner h1 span, .fullwidthbanner h2 span
+{
+    display : inline-block;
+    padding : 0 20px;
+}
+
+/* disabled slider styles end */
+.slider-image h1.tp-caption .big-size
+{
+    background-color : transparent;
+}
+
+.h2
+{
+    font          : 30px/40px 'Trebuchet MS';
+    margin-bottom : 22px;
+}
+
+.w-portfolio-item-title.h2
+{
+    font-size   : 14px;
+    line-height : 20px;
+    font-family : 'Open Sans';
+    padding     : 20px 60px 20px 20px;
+    color       : #2c3e50;
+}
+ul#search_results li:before {
+    content: "";
+}
+ul#search_results li h5 {
+    font-size: 1.25rem;
+}
+
+.l-header .l-subheader.at_top .w-contacts-item-value a,
+.l-header .l-subheader.at_top .w-contacts-item i.fa,
+.l-subheader .w-socials a
+{
+    color: #939eac;
+}
+.l-header .w-contacts-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.l-subheader.at_top .w-contacts-item {
+    margin: 0 0.5rem;
+}
+.l-header.state_sticky .l-subheader.at_middle {
+    min-height: 52px;
+    height: 52px;
+    line-height: 52px;
+}
+.l-canvas.headertype_extended .l-header.state_sticky .l-subheader.at_top {
+    display: none;
+}
+.l-canvas.headertype_extended .l-header.state_sticky + .l-main {
+	padding-top:152px;
+}
+
+.cmf-kontakt .quick-contact
+{
+    display : none;
+}
+
+.quick-contact
+{
+    position       : fixed;
+    right          : 15px;
+    bottom         : 80px;
+    display        : flex;
+    z-index        : 100;
+    flex-direction : column;
+}
+
+.quick-contact i
+{
+    text-align       : center;
+    line-height      : 50px;
+    height           : 50px;
+    width            : 50px;
+    border-radius    : 50%;
+    background-color : #1abc9c;
+    color            : #fff;
+    margin-top       : 15px;
+    font-size        : 1rem;
+}
+@media only screen and (max-width: 375px)
+{
+    body .l-subheader.at_top
+    {
+        min-height : 71px;
+    }
+}
+.g-btn, .cc-btn, .inputSubmit {
+    border-radius: 30px !important;
+}
+body .g-btn, body input[type=submit] {
+    padding: 12px 30px;
+}
+.verifalia-field-invalid {
+    border-color: red !important;
+    box-shadow: 0 0 0 1px red !important;
+}
+</style> <style>
+                    .l-main,.tp-caption{z-index:1}.g-btn.type_default,input[type=submit]{box-shadow:0 -2px 0 rgba(0,0,0,.15) inset}.g-btn,.w-blog-entry-link,.w-logo-link,.w-nav-anchor,.w-nav-control,a{text-decoration:none}@font-face{font-family:FontAwesome;src:url(/templates/default/astra/fonts/fontawesome-webfont.eot?v=4.4.0);src:url(/templates/default/astra/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0) format('embedded-opentype'),url(/templates/default/astra/fonts/fontawesome-webfont.woff2?v=4.4.0) format('woff2'),url(/templates/default/astra/fonts/fontawesome-webfont.woff?v=4.4.0) format('woff'),url(/templates/default/astra/fonts/fontawesome-webfont.ttf?v=4.4.0) format('truetype'),url(/templates/default/astra/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular) format('svg');font-weight:400;font-style:normal;font-display:swap}.fa-laptop:before{content:"\f109"}.tp-caption.very_big_black{position:absolute;right:0;top:30%;color:#253444;text-shadow:none;font-weight:600;font-size:60px;line-height:100px;font-family:Arial,Helvetica,sans-serif;border-width:0;border-style:none;white-space:nowrap;padding:1px 4px 0;background-color:rgba(255,255,255,.75)}.fullwidthbanner-container,.fullwidthbanner-container .fullwidthbanner{position:relative;width:100%}.cmf-home .l-submain{border-top:1px solid #e8e8e8}.color_primary,.w-iconbox-icon a{color:#fff}.w-iconbox-text .w-iconbox-text-description p{margin-bottom:15px}.w-iconbox-text .w-iconbox-text-description p:last-child{margin-bottom:0}.w-iconbox.icon_top .w-iconbox-h{margin-top:35px;border-radius:4px;border:1px solid #e8e8e8}.w-iconbox.icon_top .w-iconbox-icon{top:-36px;left:50%;margin-left:-35px}.w-iconbox.icon_top .w-iconbox-text{padding:55px 3% 30px;text-align:center}.fullwidthbanner-container{max-height:540px;overflow:hidden!important;padding:0}.slide-inner-text{top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center}.slide-inner-text .tp-caption.very_big_black{position:static;text-align:center;background-color:transparent;color:#fff;margin-bottom:0}.fullwidthbanner .tp-caption.very_big_black{right:initial;line-height:1.25;width:100%}.fullwidthbanner h1 span{display:inline-block;padding:0 20px}.slider-image h1.tp-caption .big-size{background-color:transparent}@media only screen and (max-width:1140px){.l-subheader.at_middle .w-nav-anchor.level_1:after,.slider-image img.slider-bg{display:none}.fullwidthbanner .tp-caption.very_big_black{font-size:40px}}@media only screen and (max-width:1023px){.l-subheader.at_top{height:auto;text-align:center;min-height:48px}.l-subheader.at_top .w-socials{float:none;display:inline-block;vertical-align:top;margin:5px 10px}.l-subheader.at_top .w-contacts{float:none;display:inline-block;vertical-align:top;margin:5px 0}.l-subheader.at_top .w-contacts-item.for_email,.l-subheader.at_top .w-contacts-item.for_phone{margin:0 5px}.l-subheader.at_middle{height:auto}.l-canvas.headerpos_fixed .l-header{position:relative}.l-canvas.headerpos_fixed .l-main,.l-canvas.headerpos_fixed.headertype_extended .l-main{padding-top:0}.l-submain{padding-top:40px;padding-bottom:40px}.l-subheader.at_middle .w-search-form{height:90px}}@media only screen and (max-width:899px){.fullwidthbanner-container{max-height:584px;padding:0 0 84px}.fullwidthbanner .tp-caption.very_big_black,.slider-image .tp-caption .big-size{font-size:32px}br.desktop{display:none}.slider-image .tp-caption{position:static!important;margin-bottom:0;white-space:normal}.slider-image{background-position:center;background-size:cover;background-repeat:no-repeat;padding:2.5em 0}.slide-inner-text{position:static}}@media only screen and (max-width:767px){.fullwidthbanner-container{max-height:570px;padding:0 0 70px}.l-subheader.at_middle .w-nav{float:none;clear:both;line-height:90px}.l-subheader.at_middle .w-search-submit,.l-subheader.at_top .w-socials{display:none}.l-subheader.at_middle .w-search-input input{font-size:16px;padding-right:30px}.g-cols{position:static}}@media only screen and (max-width:599px){.fullwidthbanner-container{max-height:555px;padding:0 0 55px;min-height:270px;max-height:270px}.l-subheader.at_middle,.l-submain{padding-left:25px;padding-right:25px}.l-subheader.at_top{padding-left:10px;padding-right:10px;line-height:30px;min-height:42px}.l-submain{padding-top:25px;padding-bottom:25px}.slider-image{min-height:226px}.fullwidthbanner .tp-caption.very_big_black{font-size:24px}}@media only screen and (max-width:479px){.fullwidthbanner-container{max-height:540px;padding:0 0 40px;max-height:270px}.fullwidthbanner .tp-caption.very_big_black{font-size:20px}}@media only screen and (max-width:359px){.fullwidthbanner .tp-caption.very_big_black{font-size:16px}}.l-canvas,.w-iconbox.icon_top .w-iconbox-h{background-color:#fff;color:#576676}.l-submain,.w-blog-entry,.w-iconbox.icon_top .w-iconbox-h,input[type=text]{border-color:#dce2e5}.mfp-hide{display:none!important}.white-popup{position:relative;background:#fff;padding:20px;width:auto;max-width:500px;margin:20px auto}.w-blog-entry-meta-comments,.w-blog-entry-meta-date,.w-blog-entry-meta-tags{margin-bottom:10px;vertical-align:top}.fa-folder-open:before{content:"\f07c"}.fa-comments:before{content:"\f086"}.g-btn{display:inline-block;vertical-align:middle;text-align:center;white-space:nowrap;position:relative}.w-blog-entry-h{position:relative;overflow:hidden}.w-blog-entry-preview{display:none;width:100%;overflow:hidden;line-height:0;position:relative;height:auto;text-align:center;background:0 0;color:#c4c4c4}.w-blog-entry-meta,.w-logo-h{font-size:0}.w-blog-entry-meta-date{display:inline-block;margin-right:25px}.w-blog-entry-meta-tags{display:none;margin-right:25px}.w-blog-entry-meta-comments{display:none;font-size:14px}.w-blog.imgpos_atleft .w-blog-entry-preview{display:block;float:left;width:30%;max-width:300px}.w-blog.imgpos_atleft .w-blog-entry-title{margin-left:35%;padding-top:0}.w-blog.imgpos_atleft .w-blog-entry-body{margin-left:35%}.w-blog.meta_tagscomments .w-blog-entry-meta-comments,.w-blog.meta_tagscomments .w-blog-entry-meta-tags{display:inline-block}@media (max-width:599px){.w-blog.imgpos_atleft .w-blog-entry-body,.w-blog.imgpos_atleft .w-blog-entry-title{margin-left:0}.w-blog.imgpos_atleft .w-blog-entry-preview{float:none;width:100%}.w-blog.imgpos_atleft .w-blog-entry-title{padding-top:15px}}.fa-clock-o:before{content:"\f017"}.g-btn,input[type=submit]{font-size:14px;line-height:22px;font-weight:700;text-transform:uppercase;padding:10px 30px;margin:5px 0;border:none!important;border-radius:3px}.g-btn.size_small{padding:5px 20px;font-size:12px}.ctrl-submit .form_label,.g-pagination-item.to_next span,.l-main .w-contacts.with_icons .w-contacts-item-name,.l-subfooter .w-contacts-item i,.l-subheader.at_middle .w-search.submit_inside .w-search-submit:before,.l-subheader.at_top .w-contacts-item-name{display:none}.w-blog-entry{padding-bottom:40px;margin-bottom:40px;border-bottom:1px solid #e8e8e8}.w-blog-entry-preview>img{border-radius:3px}.w-blog-entry-title{padding:0;margin-bottom:16px}.w-blog-entry-short{padding-top:10px}.w-blog-entry-meta-date,.w-blog-entry-meta-tags{font-size:13px}.w-blog-entry-meta-comments i,.w-blog-entry-meta-date i,.w-blog-entry-meta-tags i{font-size:16px;margin-right:4px;color:#999}.w-blog-entry-more{margin-bottom:2px}.w-blog-entry-meta-tags i{font-size:16px;margin-right:4px}.color_alternate,.g-btn.type_default,input[type=text]{background-color:#ecf0f1}.color_alternate h1,.g-html h1,.g-html h2,.g-html h3,.g-html h4,.w-blog-entry-title,input[type=text]{color:#2c3e50}.color_alternate,.color_alternate .w-pagehead h1,.g-btn.type_default,.l-canvas,.w-pagehead h1{color:#576676}.w-blog-entry-meta-comments i,.w-blog-entry-meta-date i,.w-blog-entry-meta-tags i,.w-search.submit_inside .w-search-submit:before{color:#9ba5a8}.g-html h2+h3,.g-html h2:first-child,.g-html h3:first-child,.g-html h4:first-child{padding-top:0}@media only screen and (max-width:767px){.g-cols.offset_default,.vert_child{display:block}.g-cols{position:static}.l-content{float:none!important;width:100%!important;padding-bottom:30px}.l-subheader.at_middle .w-nav{float:none;clear:both;line-height:90px}.l-subheader.at_middle .w-search-submit,.l-subheader.at_top .w-socials{display:none}.l-subheader.at_middle .w-search-input input{font-size:16px;padding-right:30px}}.l-content,.one-half .in_flex{width:100%}.l-content-h{min-height:1px;position:relative}.l-canvas.col_contside .l-content{float:left;width:69.1489%}.g-cols>div.full-width,.g-cols>div:first-child,.w-socials a:first-child{margin-left:0}body,div,form,h1,h2,h3,h4,html,i,iframe,img,label,nav,p,span,strong{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:0 0}h1,h2{margin-bottom:22px}h2{font:26px/34px 'Trebuchet MS',Tahoma,sans-serif}.g-html h2{padding-top:14px}.g-cols>.one-third{width:30.6666%}.l-submain.with_parallax{background-attachment:fixed}.l-submain.color_alternate,.l-submain.color_alternate+.l-submain,.l-submain.color_primary,.l-submain:first-child{border-top:0}.color_primary .g-html h3{color:#fff;text-shadow:0 1px 0 rgba(0,0,0,.1)}.color_primary,.l-main .w-contacts-item i,.w-iconbox-icon,input[type=submit]{background-color:#1abc9c}body,input[type=text]{background-color:#ecf0f1}strong{font-weight:700}body,p{font:14px/24px 'Open Sans',sans-serif}html,input{font-size:100%}.g-html p{margin-bottom:24px}.vert_child{display:flex;align-items:center}.l-main img{content-visibility:auto}.fa-bar-chart:before{content:"\f080"}.fa-line-chart:before{content:"\f201"}.g-cols>div:last-child{margin-bottom:0!important}.g-html h3{padding-top:16px}.l-body,.l-header,.w-iconbox-h,.w-nav,.w-nav-h,.w-nav-item-h{position:relative}.w-iconbox-icon{position:absolute;top:0;left:0;text-align:center;font-size:32px;line-height:70px;height:70px;width:70px;border-radius:50%;text-shadow:0 3px 0 rgba(0,0,0,.1);color:#fff;padding-left:8px}.w-iconbox-icon:before{display:block;content:'';position:absolute;left:-5px;top:-5px;padding:5px;width:100%;height:100%;border-radius:50%;opacity:0;transform:scale(.8);box-shadow:0 0 0 3px #666;box-shadow:0 0 0 3px #ffa412}.w-iconbox-icon i{vertical-align:top;line-height:inherit}.w-iconbox-text .w-iconbox-text-title{font-size:20px;margin-bottom:15px}.w-iconbox.icon_left .w-iconbox-text{margin-left:100px}.l-subheader.at_middle .w-nav-item.level_1.active .w-nav-anchor.level_1{font-weight:700;color:#1abc9c}.vert_parent{display:-moz-flex;display:-ms-flex;display:flex}.cmf-online-marketing .w-iconbox-icon{width:48px;height:48px;line-height:48px;font-size:24px}.cmf-online-marketing .w-iconbox.icon_left .w-iconbox-text{margin-left:72px}@media (max-width:767px){.g-cols>div.one-third{margin-left:0;margin-bottom:30px;width:100%}.g-cols>div{margin-left:0!important;margin-bottom:30px;width:100%!important}}@media only screen and (max-width:1140px){.l-submain.with_parallax{background-attachment:scroll;background-position:center center!important}.l-subheader.at_middle .w-nav-anchor.level_1:after{display:none}}@media only screen and (max-width:767px){.l-content{float:none!important;width:100%!important;padding-bottom:30px}.g-cols:last-child>div.full-width{margin-bottom:0}.g-cols.offset_default,.vert_child{display:block}.vert_child img{display:block;margin:0 auto}.l-subheader.at_middle .w-nav{float:none;clear:both;line-height:90px}.l-subheader.at_middle .w-search-submit,.l-subheader.at_top .w-socials{display:none}.l-subheader.at_middle .w-search-input input{font-size:16px;padding-right:30px}.g-cols{position:static}}.fa{display:inline-block;font:14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa-search:before{content:"\f002"}.fa-map-marker:before{content:"\f041"}.fa-phone:before{content:"\f095"}.fa-bars:before{content:"\f0c9"}.fa-envelope:before{content:"\f0e0"}.fa-mobile:before{content:"\f10b"}.fa-fax:before{content:"\f1ac"}body,html{width:100%;height:auto;overflow-x:hidden}*{box-sizing:border-box}.l-canvas.headertype_extended .l-subheader.at_top,.w-nav-list.level_1,nav{display:block}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-font-smoothing:antialiased}i{font-style:italic}img{border:0;-ms-interpolation-mode:bicubic;max-width:100%;height:auto}input{font-family:inherit;margin:0;line-height:normal}input::-moz-focus-inner{border:0;padding:0}.g-cols,.i-cf{zoom:1}.i-cf:after,.i-cf:before{content:' ';display:table}.g-cols:after,.i-cf:after{clear:both}.l-subheader,.l-subheader-h,.l-submain,.l-submain-h{width:100%;margin:0 auto}.l-main{position:relative}.l-canvas.type_boxed .l-subheader,.l-canvas.type_boxed .l-submain{max-width:1040px}.l-canvas.type_boxed .l-subheader-h,.l-canvas.type_boxed .l-submain-h{max-width:940px}.g-breadcrumbs{font-size:85%;position:relative}.w-nav-control,.w-search.submit_inside .w-search-submit{position:absolute}.g-cols:after,.g-cols:before{display:table;line-height:0;content:""}.g-cols>div{float:left;width:100%;margin-left:4%}.g-cols>.one-half{width:48%}@media (max-width:767px){.g-cols>div{margin-left:0!important;margin-bottom:30px;width:100%!important}.g-cols .full-height{width:100%!important;bottom:20px}}h1{font:30px/38px 'Trebuchet MS',Tahoma,sans-serif}h3{font:22px/30px 'Trebuchet MS',Tahoma,sans-serif}h4{font:17px/25px 'Trebuchet MS',Tahoma,sans-serif}.w-contacts-item{overflow:hidden}.w-contacts-item-name{display:block;float:left;font-weight:700;margin:0 0 5px}.w-contacts-item-value{display:block;margin:0 0 10px 70px}.w-logo-link h3{display:inline;vertical-align:middle;max-height:100%;max-width:220px;padding-left:15px;font-family:"Century Gothic",sans-serif;font-weight:700}.w-logo-title{display:none;line-height:30px;white-space:normal}.w-nav-h:after,.w-nav-list.layout_hor.width_auto>.w-nav-list-h:after{content:'';display:block;clear:both;height:0;overflow:hidden;visibility:hidden}.w-nav-control{right:0;top:0;height:32px;display:none}.l-subheader-h,.l-subheader.at_middle .w-search-input,.w-logo,.w-logo-h,.w-logo-link{height:100%}.w-nav-list{display:block;width:auto;min-width:150px;position:relative}.w-nav-item{font-size:14px;line-height:18px}.w-nav-anchor{display:block;position:relative;overflow:hidden}.w-nav-anchor.level_1{padding:10px 20px;text-align:left}.l-subheader.at_middle,.l-subheader.at_top{padding-left:40px;border-bottom:1px solid #e8e8e8;position:relative}.w-nav-list.layout_hor .w-nav-anchor.level_1{text-align:center}.w-nav-list.layout_hor.width_auto>.w-nav-list-h>.w-nav-item{float:left}.l-subheader.at_middle .w-nav,.l-subheader.at_top .w-socials,.w-nav-list.float_right{float:right}.w-search-form{position:relative;min-width:200px;min-width:100px}.w-search-input input{display:block;height:18px;width:100%;outline:0;position:relative;vertical-align:top}.w-search-submit input{padding:0 15px;height:30px;display:none}.w-search.submit_inside .w-search-input input{width:100%;padding-right:40px}.w-socials a{margin-left:30px}a{color:#1abc9c}.l-canvas.type_boxed,.l-canvas.type_boxed .l-subheader{max-width:1280px;margin:0 auto}.l-canvas.type_boxed .l-submain,.w-logo-img{max-width:100%}.l-canvas.type_boxed .l-subheader-h,.l-canvas.type_boxed .l-submain-h{max-width:1000px}.l-canvas.headerpos_fixed .l-header{position:fixed;left:0;width:100%;z-index:2}.l-subheader.at_top{display:none;line-height:36px;height:36px;padding-right:40px;z-index:4}.l-subheader.at_middle{line-height:90px;height:90px;padding-right:40px;z-index:3;min-height:92px}.l-subheader-h{position:relative}.l-canvas.headerpos_fixed .l-main{padding-top:90px}.l-canvas.headerpos_fixed.headertype_extended .l-main{padding-top:126px}.l-submain{padding:50px 40px;position:relative;background-position:center center;background-size:cover}.l-submain.for_pagehead{padding:25px 40px}body{font:14px/24px 'Open Sans',sans-serif}h3,h4{margin-bottom:20px}.g-html h4{padding-top:20px}input[type=text]{width:100%;position:relative;border-radius:3px;font-size:15px;padding:8px;box-shadow:0 0 0 1px transparent;border:1px solid #e8e8e8;height:40px;vertical-align:top}input[type=submit]{-webkit-appearance:button;font-size:14px;line-height:22px;font-weight:700;text-transform:uppercase;padding:10px 30px;margin:5px 0;border:none!important;border-radius:3px;text-transform:none;color:#fff}.l-main .w-contacts-item i{display:none;text-align:center;line-height:40px;height:40px;width:40px;border-radius:50%;color:#fff}.l-main .w-contacts.with_icons .w-contacts-item{font-size:16px;margin-bottom:12px}.l-main .w-contacts.with_icons .w-contacts-item i{display:block;float:left;padding-left:5px}.l-main .w-contacts.with_icons .w-contacts-item-value{line-height:26px;margin:7px 0 0 50px}.l-subheader.at_top .w-contacts{float:left;margin-right:15px;font-size:13px}.l-subheader.at_top .w-contacts-item{display:inline-block;overflow:visible;white-space:nowrap}.l-subheader.at_top .w-contacts-item i{opacity:.5}.l-subheader.at_top .w-contacts-item-value{display:inline-block;margin:0 0 0 5px}.w-logo{float:left;max-height:90px}.w-logo-link{overflow:hidden;vertical-align:top;display:block}.w-logo-img{display:inline;vertical-align:middle;max-height:100%;max-width:220px;padding:10px 0}.w-logo-title{font-size:30px;font-weight:700;line-height:inherit;text-transform:uppercase}.l-subheader.at_middle .w-nav-control{display:none;right:0;top:-90px;font-size:21px;text-align:center;height:auto;width:50px}.w-search~.w-nav .w-nav-control{right:40px}.l-subheader.at_middle .w-nav-list.level_1{margin-top:-2px}.l-subheader.at_middle .w-nav-item{font-size:15px;line-height:inherit}.l-subheader.at_middle .w-nav-anchor.level_1{padding:0 16px;height:100%}.l-subheader.at_middle .w-nav-anchor.level_1:after{display:block;content:'';position:relative;left:0;top:-32px;margin:0 auto;height:2px;width:0;background-color:#fff}.w-pagehead h1{float:left;font-size:24px;line-height:40px;margin:0;max-width:85%}.w-pagehead .g-breadcrumbs{float:right;font-size:13px;margin:8px -8px 0}.g-breadcrumbs-item{margin-right:8px}.g-breadcrumbs-separator{display:inline-block;width:6px;height:9px;margin:0 8px 2px 0;vertical-align:top}.w-search{margin-bottom:40px}.w-search-input input{padding:0 10px}.w-search.submit_inside .w-search-submit{border:none;height:38px;width:38px;top:1px;right:1px;padding:0}.w-search.submit_inside .w-search-submit input{display:block;position:absolute;top:0;left:0;height:38px;width:40px;margin:0;padding:0;text-indent:-9999px;box-shadow:none!important;background:0 0;border:none}.l-subheader.at_middle .w-search{float:right;line-height:inherit;height:100%;width:40px;margin:0}.l-subheader.at_middle .w-search-show{display:block;font-size:18px;line-height:inherit;text-align:right}.l-subheader.at_middle .w-search-show i{line-height:inherit}.l-subheader.at_middle .w-search-form{position:absolute;left:0;top:-100%;max-height:90px;height:100%;width:100%;z-index:21}.l-subheader.at_middle .w-search-input input{font-size:24px;height:100%;padding:0 80px 0 0;border:none;border-radius:0;box-shadow:none}.l-subheader.at_middle .w-search.submit_inside .w-search-submit{right:40px;top:0;font-size:18px;text-align:center;line-height:inherit;height:100%;width:40px;padding:0;border:none}.l-subheader.at_middle .w-search.submit_inside .w-search-submit input{position:absolute;top:0;left:0;height:100%;width:100%;padding:0;text-indent:-9999px;background:0 0;border:none}.l-subheader.at_middle .w-search-close{display:block;position:absolute;top:0;right:0;font-size:22px;text-align:right;line-height:inherit;height:100%;width:40px}.g-cols.offset_default.with-map{position:relative;min-height:400px}.g-cols .full-height{position:absolute;width:48%;bottom:20px}.g-cols .full-height iframe{min-height:245px}.w-logo-link h3{color:#ffa412}.l-subheader.at_top{min-height:36px}@media only screen and (max-width:1140px){.l-subheader.at_middle .w-nav-anchor.level_1:after{display:none}}@media only screen and (max-width:1023px){.l-subheader.at_top{height:auto;text-align:center;min-height:48px}.l-subheader.at_top .w-socials{float:none;display:inline-block;vertical-align:top;margin:5px 10px}.l-subheader.at_top .w-contacts{float:none;display:inline-block;vertical-align:top;margin:5px 0}.l-subheader.at_top .w-contacts-item.for_email,.l-subheader.at_top .w-contacts-item.for_phone{margin:0 5px}.l-subheader.at_middle{height:auto}.l-canvas.headerpos_fixed .l-header{position:relative}.l-canvas.headerpos_fixed .l-main,.l-canvas.headerpos_fixed.headertype_extended .l-main{padding-top:0}.l-submain{padding-top:40px;padding-bottom:40px}.l-submain.for_pagehead{padding-top:15px;padding-bottom:15px}.w-pagehead h1{max-width:100%}.l-subheader.at_middle .w-search-form{height:90px}.w-pagehead .g-breadcrumbs{float:none;clear:both;font-size:13px;margin:8px 0 0}}@media only screen and (max-width:767px){.l-subheader.at_middle .w-nav{float:none;clear:both;line-height:90px}.l-subheader.at_middle .w-search-submit,.l-subheader.at_top .w-socials{display:none}.l-subheader.at_middle .w-search-input input{font-size:16px;padding-right:30px}.g-cols.offset_default{display:block}.g-cols,.g-cols .full-height{position:static}}@media only screen and (max-width:599px){.l-subheader.at_middle,.l-submain,.l-submain.for_pagehead{padding-left:25px;padding-right:25px}.l-subheader.at_top{padding-left:10px;padding-right:10px;line-height:30px;min-height:42px}.l-submain{padding-top:25px;padding-bottom:25px}}@media only screen and (max-width:479px){.w-pagehead h1{float:none;text-align:center}.w-pagehead .g-breadcrumbs{display:none}}.l-subheader.at_middle,.l-subheader.at_middle .w-search-input input{background-color:#2c3e50}.l-subheader.at_top{background-color:#253444}.l-subheader.at_middle,.l-subheader.at_top{border-color:#374b5f}.l-subheader.at_top .w-contacts,.l-subheader.at_top .w-contacts-item-value a{color:#75818a}.l-subheader.at_middle .w-nav-anchor.level_1,.l-subheader.at_middle .w-nav-control,.l-subheader.at_middle .w-search-close,.l-subheader.at_middle .w-search-input input,.l-subheader.at_middle .w-search-show,.l-subheader.at_middle .w-search.submit_inside .w-search-submit,.w-logo-title{color:#dadfe0}.l-canvas{background-color:#fff}.w-search.submit_inside .w-search-submit:before{display:block;position:absolute;top:0;left:12px;content:'\f002';font-size:16px;line-height:38px;font-family:FontAwesome;font-style:normal;font-weight:400;color:#9ba5a8}.color_alternate a{color:#1abc9c}.w-socials a{color:#75818a;font-size:13px}
+                </style> <!--[if IE]>
+    <link rel="stylesheet" type="text/css" media="all" href="/templates/default/astra/css/labels.css">
+    <![endif]--> <script async src="https://www.googletagmanager.com/gtag/js?id=G-46JVJSJ33G"></script> <script>
+    window.addEventListener('load', function(){
+        window.cookieconsent.initialise({
+            revokeBtn: '<div class="cc-revoke {{classes}}">Cookie-Richtlinie</div>',
+            revokable: true,
+            type: "opt-in",
+            theme: "classic",
+            palette: {
+                popup: {
+                    background: "#2c3e50",
+                    text: "#fff"
+                },
+                button: {
+                    background: "#ffa412",
+                    text: "#ffffff"
+                }
+            },
+            content: {
+                message: "<\strong>Verwendung von Cookies<\/strong><br>Um unsere Webseite f&uuml;r Sie optimal zu gestalten und fortlaufend verbessern zu k&ouml;nnen, verwenden wir Cookies. Durch die weitere Nutzung der Webseite stimmen Sie der Verwendung von Cookies zu. Sie k&ouml;nnen Ihre Zustimmung jederzeit anpassen oder wiederrufen. Weitere Informationen zu Cookies erhalten Sie in unserer ",
+                allow: "akzeptieren",
+                dismiss: "entlassen",
+                deny: "verweigern",
+                link: "Datenschutzerkl&auml;rung",
+                href: "https://www.itcaps.de/datenschutz",
+                policy: ""
+            },
+            onInitialise: function (status) {
+                if (status == cookieconsent.status.allow) {
+                    executeAllowedScripts();
+                }
+            },
+            onStatusChange: function (status) {
+                if (this.hasConsented()) {
+                    executeAllowedScripts();
+                }
+            }
+        })
+    });
+
+    function executeAllowedScripts()
+    {
+                    <!-- Global site tag (gtag.js) - Google Analytics -->
+                    window.dataLayer = window.dataLayer || [];
+//
+    window.gtag = window.gtag || function(){dataLayer.push(arguments);}
+//
+    gtag('js', new Date());
+    gtag('config', 'G-46JVJSJ33G', { 'anonymize_ip': true } );
+                    
+
+        if (typeof gtag !== "undefined") {
+            gtag('event', 'this.hasConsented');
+        }
+    }
+</script> <!--[if ie 9]>
+    <script type="text/javascript" src="/scripts/astra/vert-align.js"></script>
+    <![endif]--> <!--[if IE]>
+    <script type="text/javascript" src="/scripts/astra/labels.js"></script>
+    <![endif]--> <script type="application/ld+json">
+    {
+        "@context": "http://www.schema.org",
+        "@type": "Corporation",
+        "name": "Internetagentur IT Caps GmbH",
+        "url": "https://www.itcaps.de",
+        "logo": "https://www.itcaps.de/itcaps-logo.png",
+        "description": "Internetagentur in München - Webentwicklung, E-Commerce und Online-Marketing",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Adams-Lehmann-Str. 56",
+            "addressLocality": "München",
+            "postalCode": "80797",
+            "addressCountry": "Deutschland"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+49 89 856 735 19",
+            "contactType": "https://www.itcaps.de/kontakt-internetagentur"
+        }
+    }
+</script> <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Webentwicklung",
+            "item": "https://www.itcaps.de/webentwicklung"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "E-Commerce",
+            "item": "https://www.itcaps.de/e-commerce"
+        },{
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Online-Marketing",
+            "item": "https://www.itcaps.de/online-marketing"
+        },{
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Internetagentur",
+            "item": "https://www.itcaps.de/internetagentur"
+
+        }]
+    }
+</script> </head> <body class="l-body cmf-home"> <div class="l-canvas type_boxed col_contside headerpos_fixed headertype_extended"> <div class="l-canvas-h"> <div class="l-header"> <div class="l-header-h"> <div class="l-subheader at_top"> <div class="l-subheader-h i-cf"> <div class="w-contacts"> <div class="w-contacts-h"> <div class="w-contacts-list"> <div class="w-contacts-item for_phone"> <i class="fa fa-phone"></i> <span class="w-contacts-item-name">Telefon:</span> <span class="w-contacts-item-value"><a href="tel:+498985673519">+49 89 856 735 19</a></span> </div> <div class="w-contacts-item for_whatsapp"> <i class="fa fa-whatsapp"></i> <span class="w-contacts-item-name">WhatsApp</span> <span class="w-contacts-item-value"><a href="https://wa.me/+4917657574488?text=%3D%5Bitcaps.de%5D%20Hallo,%20">WhatsApp</a></span> </div> <div class="w-contacts-item for_email"> <i class="fa fa-envelope"></i> <span class="w-contacts-item-name">E-Mail:</span> <span class="w-contacts-item-value"><script>document.write(unescape('%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%69%6e%66%6f%40%69%74%63%61%70%73%2e%64%65%22%20%74%69%74%6c%65%3d%22%45%2d%4d%61%69%6c%22%3e'));</script><script>document.write(unescape('%69%6e%66%6f%40%69%74%63%61%70%73%2e%64%65'));</script><script>document.write(unescape('%3c%2f%61%3e'));</script></span> </div> </div> </div> </div> <div class="w-socials"> <div class="w-socials-h"> <a href="https://www.itcaps.de/rueckruf-anfordern" class="h3" title="Rückruf anfordern">Rückruf anfordern</a> <a href="https://www.itcaps.de/support" class="h3" title="Support">Support</a> </div> </div> </div> </div> <div class="l-subheader at_middle"> <div class="l-subheader-h i-cf"> <div style="float:left;width:100%"> <div class="w-logo"> <div class="w-logo-h"> <a class="w-logo-link" href="https://www.itcaps.de/" title="Internetagentur in München"> <img class="w-logo-img" width="32" height="32" src="data:image/png;base64,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" alt="Internetagentur in München"> <h3>itcaps.de</h3> <span class="w-logo-title"> <span class="w-logo-title-h">Internetagentur in München</span> </span> </a> </div> </div> <div class="w-search submit_inside"> <div class="w-search-h"> <a class="w-search-show" title="Suche" href="javascript:void(0)"><i class="fa fa-search"></i></a> <form id="smartsearch_form" class="w-search-form show_hidden" action="https://www.itcaps.de/suche" method="get"> <div class="w-search-input"> <!--[if IE]>
+                <label class="input">
+                    <span>Suchbegriff eingeben</span>
+                <![endif]--> <input type="text" name="q" id="smart_search_text" value="" placeholder="Suchbegriff eingeben"> <!--[if IE]>
+                </label>
+                <![endif]--> </div> <div class="w-search-submit" title="Suche"> <input type="submit" value="Search"> <i class="fa fa-search"></i> </div> <a class="w-search-close" href="javascript:void(0)" title="Schlissen"> &#10005; </a> </form> </div> </div> <nav class="w-nav"> <div class="w-nav-h"> <div class="w-nav-control"> <i class="fa fa-bars"></i> </div> <div class="w-nav-list layout_hor width_auto float_right level_1" style="display: none;"> <div class="w-nav-list-h"> <div class="w-nav-item level_1 with_sublevel"> <div class="w-nav-item-h"> <a   class="w-nav-anchor level_1 cl-webentwicklung" href="https://www.itcaps.de/webentwicklung">
+            Webentwicklung</a> </div> </div> <div class="w-nav-item level_1 with_sublevel"> <div class="w-nav-item-h"> <a   class="w-nav-anchor level_1 cl-produkte" href="https://www.itcaps.de/e-commerce"> <span class="w-nav-hint"></span>
+                E-Commerce</a> <div class="w-nav-list place_down show_onhover level_2"> <div class="w-nav-list-h"> <div class="w-nav-item level_2 with_sublevel"> <div class="w-nav-item-h"> <a   class="w-nav-anchor level_2 cl-magento" href="https://www.itcaps.de/magento">
+            Magento</a> </div> </div> <div class="w-nav-item level_2 with_sublevel"> <div class="w-nav-item-h"> <a   class="w-nav-anchor level_2 cl-woocommerce" href="https://www.itcaps.de/woocommerce">
+            WooCommerce</a> </div> </div> </div> </div> </div> </div> <div class="w-nav-item level_1 with_sublevel"> <div class="w-nav-item-h"> <a   class="w-nav-anchor level_1 cl-online-marketing" href="https://www.itcaps.de/online-marketing">
+            Online-Marketing</a> </div> </div> <div class="w-nav-item level_1 with_sublevel"> <div class="w-nav-item-h"> <a   class="w-nav-anchor level_1 cl-unternehmen" href="https://www.itcaps.de/internetagentur">
+            Internetagentur</a> </div> </div> <div class="w-nav-item level_1 with_sublevel"> <div class="w-nav-item-h"> <a   class="w-nav-anchor level_1 cl-kontakt" href="https://www.itcaps.de/kontakt-internetagentur">
+            Kontakt</a> </div> </div> <div class="w-nav-item level_1 with_sublevel"> <div class="w-nav-item-h"> <a   class="w-nav-anchor level_1 cl-firmenblog" href="https://www.itcaps.de/firmenblog">
+            Blog</a> </div> </div> </div> </div> </div> </nav> </div> </div> </div> </div> </div> <div class="l-main"> <div class="l-main-h"> <div class="fullwidthbanner-container"> <div class="fullwidthbanner"> <div class="slider-image" style="background-image: url('/media/Slider/2_webentwicklung.jpg');"> <img class="slider-bg" src="/media/Slider/2_webentwicklung.jpg" alt="  Internetagentur in&amp;nbsp;M&amp;uuml;nchen   
+ Webentwicklung, E&amp;#8209;Commerce&amp;#8209;L&amp;ouml;sungen  und&amp;nbsp;effektives&amp;nbsp;Online&amp;#8209;Marketing " width="1280" height="540" decoding="async"> <div class="slide-inner-text"> <h1 class="tp-caption very_big_black" style="color:#ffa412"><span class="big-size">Internetagentur in&nbsp;M&uuml;nchen</span></h1> <br /> <h2 class="tp-caption very_big_black">Webentwicklung, E&#8209;Commerce&#8209;L&ouml;sungen <br class="desktop">und&nbsp;effektives&nbsp;Online&#8209;Marketing</h2> </div> </div> </div> </div> <div class="content_wrapper"> <div class="l-submain"> <div class="l-submain-h g-html"> <div class="g-cols parent-block"> <div class="one-third  child-block"> <div class="w-iconbox icon_top"> <div class="w-iconbox-h"> <div class="w-iconbox-icon"><a href="/webentwicklung" title="Webentwicklung"><i class="fa fa-laptop">&nbsp;</i></a></div> <div class="w-iconbox-text"> <h2 class="w-iconbox-text-title">Webentwicklung</h2> <div class="w-iconbox-text-description"> <p>Websites und Landingpages<br />Online-Datenbanken<br />UX/UI Design<br />Pagespeed Optimierung<br />WordPress und Programmierung</p> </div> <strong><a href="/webentwicklung" class="w-iconbox-text-link">Webentwicklung &gt;</a></strong></div> </div> </div> </div> <div class="one-third  child-block"> <div class="w-iconbox icon_top"> <div class="w-iconbox-h"> <div class="w-iconbox-icon"><a href="/e-commerce" title="E-Commerce"><i class="fa fa-shopping-cart">&nbsp;</i></a></div> <div class="w-iconbox-text"> <h2 class="w-iconbox-text-title">E-Commerce</h2> <div class="w-iconbox-text-description"> <p>Magento Online-Shops<br />WooCommerce f&uuml;r WordPress<br />Konzept und Planung<br />Entwicklung und Unterst&uuml;tzung<br />Conversion Optimierung</p> </div> <strong><a href="/e-commerce" class="w-iconbox-text-link">E-Commerce &gt;</a></strong></div> </div> </div> </div> <div class="one-third  child-block"> <div class="w-iconbox icon_top"> <div class="w-iconbox-h"> <div class="w-iconbox-icon"><a href="/online-marketing" title="Online-Marketing"><i class="fa fa-bar-chart">&nbsp;</i></a></div> <div class="w-iconbox-text"> <h2 class="w-iconbox-text-title">Online-Marketing</h2> <div class="w-iconbox-text-description"> <p>Konzept und Strategie<br />Suchmaschinenoptimierung<br />Suchmaschinenwerbung<br />Local SEO<br />Social Media Marketing</p> </div> <strong><a href="/online-marketing" class="w-iconbox-text-link">Online-Marketing &gt;</a></strong></div> </div> </div> </div> </div> </div> </div> <div id="gtx-trans" style="position: absolute; left: 243px; top: 1252px;"> <div class="gtx-trans-icon"></div> </div></div><div class="content_wrapper"> <div class="l-submain color_alternate"> <div class="l-submain-h g-html i-cf"> <div class="g-cols offset_default"> <div class="one-half"> <div class="wpb_single_image wpb_content_element "> <div class="wpb_wrapper"><img src="/media/Content/webentwicklung-de.jpg" border="0" alt="Webentwicklung M&uuml;nchen" width="460" height="509" loading="lazy" decoding="async" /></div> </div> </div> <div class="one-half "> <div class="wpb_text_column "> <div class="wpb_wrapper"> <h3><big>Webentwicklung</big></h3> </div> </div> <div class="wpb_text_column "> <div class="wpb_wrapper"> <p>Wir haben Erfahrung in der Entwicklung von Webanwendungen, Webservices und komplexen Websites.</p> <ul> <li>Professionelle Websites und Landingpages</li> <li>Online-Datenbanken</li> <li>Informations- und Newsletter-Services</li> <li>Portale</li> <li>WordPress Websites</li> <li>Individuelle Webentwicklung</li> <li>Pagespeed Optimierung</li> </ul> <p>Ihr Projekt wird benutzerfreundlich und hochperformant sein und h&ouml;chste Sicherheitsanforderungen erf&uuml;llen.</p> <p>Starten Sie Ihr Online-Business gleich heute!</p> </div> </div> </div> </div> <div class="wpb_button align_center"><a href="/webentwicklung" class="g-btn type_secondary">Webentwicklung</a></div> </div> </div> <div class="l-submain"> <div class="l-submain-h g-html i-cf"> <div class="g-cols offset_default vert_parent"> <div class="one-half "> <div class="wpb_text_column "> <div class="wpb_wrapper"> <h3><big>E-Commerce</big></h3> <h4>Online-Shop erstellen lassen</h4> <p>Wenn Sie h&ouml;here Anspr&uuml;che an die Funktionen Ihres Online-Shops stellen, mit vielen Produkten und Bestellungen rechnen und auf Wachstumskurs sind, ist Ihnen <strong>Magento</strong> zu empfehlen. Wenn Sie einen schnellen und unkomplizierten Einstieg ins E-Commerce w&uuml;nschen und mit einem kleinen Funktionsumfang vorerst zufrieden sind, k&ouml;nnen Sie auf <strong>WooCommerce</strong> setzen.</p> <p>Ihr Online-Shop wird benutzerfreundlich sein, sodass die Nutzer alles leicht finden und ihre K&auml;ufe bequem t&auml;tigen. Er wird schnell geladen werden, SEO-freundlich sein und leicht und einfach aktualisiert sowie an jedes Ger&auml;t angepasst werden, mit welchem man diesen Online-Shop besucht.<br /><br />Starten Sie jetzt mit Ihrem neuen Online-Shop.</p> </div> </div> </div> <div class="one-half vert_child"> <div class="wpb_single_image wpb_content_element align_center "> <div class="wpb_wrapper"><img src="/media/Content/online-shop-home.jpg" border="0" alt="Online Shop" width="460" height="344" loading="lazy" decoding="async" /></div> </div> </div> </div> <div class="wpb_button align_center"><a href="/e-commerce" title="E-Commerce" class="g-btn type_secondary">E-Commerce</a></div> </div> </div> <div class="l-submain color_alternate"> <div class="l-submain-h g-html i-cf"> <div class="g-cols offset_default vert_parent"> <div class="one-half vert_child"> <div class="wpb_single_image wpb_content_element  align_center"> <div class="wpb_wrapper"><img style="width: 100%; max-width: 460px;" src="/media/Content/online-marketing-de.jpg" border="0" alt="Online-Marketing" width="460" height="307" loading="lazy" decoding="async" /></div> </div> </div> <div class="one-half "> <div class="wpb_text_column "> <div class="wpb_wrapper"> <h3><big>Online-Marketing</big></h3> </div> </div> <div class="wpb_text_column "> <div class="wpb_wrapper"> <p>So k&ouml;nnen wir Ihnen helfen, Ihren Umsatz zu steigern:</p> <ul style="list-style-type: undefined;"> <li>Online-Marketing-Strategie</li> <li>Suchmaschinenoptimierung (SEO)</li> <li>Suchmaschinenwerbung (SEA)</li> <li>Local SEO</li> <li>Targeting/Retargeting</li> <li>Social Media Marketing (SMM)</li> <li>und&nbsp;wir tun unser Bestes, um das Ergebnis zu erzielen</li> </ul> <p>Das Ergebnis von Online-Marketing-Ma&szlig;nahmen wird die Erh&ouml;hung der Anzahl von Anfragen von Ihrer Website und die Verkaufssteigerung in Ihrem Online-Shop sein. <br />Steigern Sie Ihren Umsatz. Wir unterst&uuml;tzen Sie gerne aktiv dabei.</p> </div> </div> </div> </div> <div class="wpb_button align_center"><a href="/online-marketing" class="g-btn type_secondary">Online-Marketing</a></div> </div> </div> <div class="l-submain"> <div class="l-submain-h g-html i-cf"> <h2 style="text-align: center;">Internetagentur IT&nbsp;Caps&nbsp;GmbH</h2> <h3 style="text-align: center;">15+ Jahre Erfahrung und &uuml;ber 500 erfolgreich abgeschlossene Projekte</h3> <div class="g-cols offset_default"> <div class="one-half"> <div class="wpb_text_column "> <div class="wpb_wrapper"> <p>Ihr Projekt wird durch Experten im Bereich Webentwicklung, Online Marketing und E-Commerce umgesetzt werden. Wir arbeiten mit unseren Kunden fundiert und sorgf&auml;ltig und mit einem hohen Ma&szlig; an Verantwortung zusammen. F&uuml;r alle von uns realisierten Projekte gew&auml;hren wir eine Garantie und bieten st&auml;ndigen Support an.</p> </div> </div> </div> <div class="one-half"> <div class="wpb_text_column "> <div class="wpb_wrapper"> <ul> <li>15+ Jahre T&auml;tigkeit im D/A/CH-Markt</li> <li>15+ Jahre Erfahrung in Webentwicklung</li> <li>11+ Jahre Erfahrung in Online-Marketing und E-Commerce</li> <li>&Uuml;ber 500 erfolgreich umgesetzte Projekte</li> </ul> </div> </div> </div> </div> <div style="text-align: center;"><a href="/media/root/Internetagentur-itcaps.pdf" title="Firmenprofil als PDF"><span class="fa fa-file-pdf-o"></span> Firmenprofil als PDF</a></div> </div> </div> <div class="l-submain color_primary" id="parallax_section" style="background-image: url('/templates/default/images/it-caps/internetagentur-muenchen-home.jpg');"> <div class="l-submain-h g-html"> <h2 style="text-align: center;">Gute Gr&uuml;nde f&uuml;r eine&nbsp;Zusammenarbeit mit&nbsp;uns</h2> <p style="text-align: center;">Mit modernen Internettechnologien und unseren Webentwicklungen sind wir ein solider Wachstumsfaktor unserer Gesch&auml;ftskunden.</p> <div class="g-hr type_invisible"></div> <div class="g-cols parent-block"> <div class="one-fourth child-block"> <div class="w-iconbox icon_top  d3"> <div class="w-iconbox-h"> <div class="w-iconbox-icon"><a href="/internetagentur" title="Full-Service Internetagentur"><i class="fa fa-briefcase">&nbsp;</i></a></div> <div class="w-iconbox-text"> <h3 class="w-iconbox-text-title">Full-Service Internetagentur</h3> <div class="w-iconbox-text-description"> <p>Das gesamte Leistungsspektrum von der Idee bis hin zur &bdquo;Live&ldquo;-Schaltung sowie Webhosting, Online-Marketing und Support bieten wir Ihnen aus einer Hand.</p> </div> <a href="/internetagentur" class="w-iconbox-text-link">Internetagentur &gt;</a></div> </div> </div> </div> <div class="one-fourth child-block"> <div class="w-iconbox icon_top  d3"> <div class="w-iconbox-h"> <div class="w-iconbox-icon"><a href="/internetagentur" title="Kompetenz &amp; Erfahrung"><i class="fa fa-cubes">&nbsp;</i></a></div> <div class="w-iconbox-text"> <h3 class="w-iconbox-text-title">Kompetenz &amp; Erfahrung</h3> <div class="w-iconbox-text-description"> <p>15+ Jahre Erfahrung in Webentwicklung, Online-Marketing und E-Commerce. Wir haben &uuml;ber 500 Websites, Online-Shops,&nbsp;Community Plattformen und Portalsysteme erfolgreich umgesetzt.</p> </div> <a href="/internetagentur" class="w-iconbox-text-link">Internetagentur &gt;</a></div> </div> </div> </div> <div class="one-fourth child-block"> <div class="w-iconbox icon_top  d3"> <div class="w-iconbox-h"> <div class="w-iconbox-icon"><a href="/webentwicklung" title="Moderne Webtechnologien"><i class="fa fa-css3">&nbsp;</i></a></div> <div class="w-iconbox-text"> <h3 class="w-iconbox-text-title">Moderne Webtechnologien</h3> <div class="w-iconbox-text-description"> <p>Neueste Webtechnologien sind unser Standard f&uuml;r die Webentwicklung interaktiver und plattformunabh&auml;ngiger Websites, Online-Shops und Webanwendungen von Morgen.&nbsp;</p> </div> <a href="/webentwicklung" class="w-iconbox-text-link">Webentwicklung &gt;</a></div> </div> </div> </div> <div class="one-fourth child-block"> <div class="w-iconbox icon_top  d3"> <div class="w-iconbox-h"> <div class="w-iconbox-icon"><a href="/webentwicklung" title="Frist &amp;  Qualit&auml;t"><i class="fa fa-cogs">&nbsp;</i></a></div> <div class="w-iconbox-text"> <h3 class="w-iconbox-text-title">Frist &amp; <br />Qualit&auml;t</h3> <div class="w-iconbox-text-description"> <p>Wir nutzen standardisierte Workflows und spezielle Software f&uuml;r die Leitung von Webentwicklung, Qualit&auml;tskontrolle und Terminkontrolle&nbsp;bei der Entwicklung von Webprojekten.</p> </div> <a href="/webentwicklung" class="w-iconbox-text-link">Webentwicklung &gt;</a></div> </div> </div> </div> </div> </div> </div></div><div class="content_wrapper"> <div class="l-submain color_primary"> <div class="l-submain-h g-html i-cf"> <div class="g-cols offset_default"> <div class="full-width"> <div class="w-actionbox color_primary controls_aside"> <div class="w-actionbox-h"> <div class="w-actionbox-text"> <h3>Sie haben eine gro&szlig;artige Idee &ndash; wir setzen sie um!</h3> </div> <div class="wpb_button w-actionbox-controls at_right"><a href="/kontakt-internetagentur" class="g-btn type_secondary">KONTAKTIEREN SIE UNS</a></div> </div> </div> </div> </div> </div> </div></div> </div> </div> </div> </div> <div class="l-footer"> <div class="l-footer-h"> <div class="l-subfooter at_top"> <div class="l-subfooter-h g-cols"> <div class="one-third"> <div class="widget"> <h4>Informationen</h4> <ul class="w-nav-item level_1"> <li class="menuitem_kontakt"> <a  class="cl-kontakt" href="https://www.itcaps.de/kontakt-internetagentur"> <span class="l"></span><span class="r"></span><span class="t">Kontakt</span></a> </li> <li class="menuitem_rueckruf-anfordern"> <a  class="cl-rueckruf-anfordern" href="https://www.itcaps.de/rueckruf-anfordern"> <span class="l"></span><span class="r"></span><span class="t">Rückruf anfordern</span></a> </li> <li class="menuitem_support"> <a  class="cl-support" href="https://www.itcaps.de/support"> <span class="l"></span><span class="r"></span><span class="t">Support</span></a> </li> <li class="menuitem_blog"> <a  class="cl-blog" href="https://www.itcaps.de/firmenblog"> <span class="l"></span><span class="r"></span><span class="t">Blog</span></a> </li> <li class="menuitem_impressum"> <a  class="cl-impressum" href="https://www.itcaps.de/impressum"> <span class="l"></span><span class="r"></span><span class="t">Impressum</span></a> </li> <li class="menuitem_datenschutz"> <a  class="cl-datenschutz" href="https://www.itcaps.de/datenschutz"> <span class="l"></span><span class="r"></span><span class="t">Datenschutzerklärung</span></a> </li> </ul> </div> </div> <div class="one-third"> <div class="widget"> <h4>Leistungen</h4> <ul class="w-nav-item level_1"> <li class="menuitem_webentwicklung"> <a  class="cl-webentwicklung" href="https://www.itcaps.de/webentwicklung" target="_self"> <span class="l"></span><span class="r"></span><span class="t">Webentwicklung</span></a> </li> <li class="menuitem_online-shops"> <a  class="cl-online-shops" href="https://www.itcaps.de/e-commerce"> <span class="l"></span><span class="r"></span><span class="t">E-Commerce</span></a> </li> <li class="menuitem_seo-suchmaschinenoptimierung"> <a  class="cl-seo-suchmaschinenoptimierung" href="https://www.itcaps.de/magento" target="_self"> <span class="l"></span><span class="r"></span><span class="t">Magento Online-Shop</span></a> </li> <li class="menuitem_sea-suchmaschinenwerbung"> <a  class="cl-sea-suchmaschinenwerbung" href="https://www.itcaps.de/woocommerce"> <span class="l"></span><span class="r"></span><span class="t">WooCommerce Online-Shop</span></a> </li> <li class="menuitem_online-marketing"> <a  class="cl-online-marketing" href="https://www.itcaps.de/online-marketing" target="_self"> <span class="l"></span><span class="r"></span><span class="t">Online-Marketing</span></a> </li> </ul> </div> </div> <div class="one-third"> <div class="widget"> <h4>Internetagentur München</h4> <div class="w-contacts"> <div class="w-contacts-h"> <div class="w-contacts-list"> <div class="w-contacts-item for_address"> <i class="fa fa-location"></i> <span class="w-contacts-item-name">Adresse:</span> <span class="w-contacts-item-value"> IT Caps GmbH<br>Adams-Lehmann-Str. 56<br>
+80797 München</span> </div> <div class="w-contacts-item for_phone"> <i class="fa fa-mobile"></i> <span class="w-contacts-item-name">Telefon:</span> <span class="w-contacts-item-value"><a href="tel:+498985673519">+49 89 856 735 19</a></span> </div> <div class="w-contacts-item for_email"> <i class="fa fa-mail"></i> <span class="w-contacts-item-name">E-Mail:</span> <span class="w-contacts-item-value"><script>document.write(unescape('%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%69%6e%66%6f%40%69%74%63%61%70%73%2e%64%65%22%20%74%69%74%6c%65%3d%22%45%2d%4d%61%69%6c%22%3e'));</script><script>document.write(unescape('%69%6e%66%6f%40%69%74%63%61%70%73%2e%64%65'));</script><script>document.write(unescape('%3c%2f%61%3e'));</script></span> </div> </div> </div> </div> </div> </div> </div> </div> <div class="l-subfooter at_bottom"> <div class="l-subfooter-h i-cf"> <div class="w-copyright"><a href="https://www.itcaps.de/" title="Internetagentur in München">&copy; 2023 Alle Rechte vorbehalten. Internetagentur IT Caps GmbH</a></div> <nav class="w-nav"> <div class="w-nav-h"> <div class="w-nav-list layout_hor width_auto float_right level_1"> <div class="w-nav-list-h"> <div class="w-nav-item level_1 "> <div class="w-nav-item-h"> <a   class="w-nav-anchor level_1 cl-px" href="https://twitter.com/itcapsde" target="_blank">
+		twitter.com</a> </div> </div> <div class="w-nav-item level_1 "> <div class="w-nav-item-h"> <a   class="w-nav-anchor level_1 cl-facebook" href="https://www.facebook.com/itcapsde/" target="_blank">
+		Facebook</a> </div> </div> <div class="w-nav-item level_1 "> <div class="w-nav-item-h"> <a   class="w-nav-anchor level_1 cl-instagram" href="https://www.instagram.com/itcaps.de/" target="_blank">
+		Instagram </a> </div> </div> <div class="w-nav-item level_1 "> <div class="w-nav-item-h"> <a   class="w-nav-anchor level_1 cl-pinterest" href="https://www.pinterest.com/internetagentur_muenchen" target="_blank">
+		Pinterest</a> </div> </div> </div> </div> </div> </nav> </div> </div> </div> </div> <div class="quick-contact w-contacts-item" style=""> <a href="https://wa.me/+4917657574488?text=%3D%5Bitcaps.de%5D%20Hallo,%20" title="WhatsApp"><i class="fa fa-whatsapp"></i></a> <script>document.write(unescape('%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%69%6e%66%6f%40%69%74%63%61%70%73%2e%64%65%22%20%74%69%74%6c%65%3d%22%45%2d%4d%61%69%6c%22%3e'));</script><i class="fa fa-envelope-o"></i><script>document.write(unescape('%3c%2f%61%3e'));</script> </div> <a class="w-toplink" href="#" title="nach oben"><i class="fa fa-angle-up"></i></a> <link rel="stylesheet" href="/templates/default/css/project_all.css" type="text/css"> <script src="/scripts/default.min.js"></script> <script>
+/* <![CDATA[ */
+var gaProperty = "G-46JVJSJ33G";
+var gaOptoutMsg = "Das Tracking durch Google Analytics wurde in Ihrem Browser für diese Webseite deaktiviert.";
+//
+var disableStr = 'ga-disable-' + gaProperty;
+if (document.cookie.indexOf(disableStr + '=true') > -1) {
+    window[disableStr] = true;
+}
+function gaOptout() {
+    document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+    window[disableStr] = true;
+//
+            alert(gaOptoutMsg);
+    //
+}
+//
+/* ]]> */
+</script> </body> </html>
