@@ -1,0 +1,1182 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cómo crear una base de datos MySQL / MariaDB en cPanel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ¿Necesitas ayuda? Llámanos +34 982 77
+             60
+             81
+             |  
+             info@raiolanetworks.es
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       Área de clientes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Dominios y SSL
+                
+
+
+
+
+
+
+
+                            Dominios
+                        
+
+
+
+
+                            Certificados SSL
+                        
+
+
+
+
+
+
+
+
+
+
+                Hosting
+                
+
+
+
+
+¿Qué hosting elegir?
+
+                        Podemos asesorarte. Te haremos algunas preguntas sobre tu proyecto y te recomendaremos el mejor hosting para ti.
+                    
+
+
+                            Contacta con un comercial
+                        
+
+
+
+
+
+
+
+                        Hosting general
+                    
+
+
+
+
+                                Hosting
+                            
+
+
+
+
+                                Hosting Reseller
+                            
+
+
+
+
+                                Hosting SEO
+                            
+
+
+
+
+                                Hosting Elástico
+                            
+
+
+
+
+                                Hosting Correo
+                            
+
+
+
+
+Hosting específico
+
+
+
+
+                                Hosting WordPress
+                            
+
+
+
+
+                                Hosting Joomla
+                            
+
+
+
+
+                                Hosting PrestaShop
+                            
+
+
+
+
+                                Hosting Drupal
+                            
+
+
+
+
+                                Hosting Magento
+                            
+
+
+
+
+
+
+
+
+
+
+
+                Servidores VPS
+                
+
+
+
+
+¿Qué VPS elegir?
+
+                        Podemos asesorarte. Te haremos algunas preguntas sobre tu proyecto y te recomendaremos el mejor servidor VPS para ti.
+                    
+
+
+                            Contacta con un comercial
+
+
+
+
+
+
+Nuestros VPS
+
+
+
+
+                                Servidores VPS
+                            
+
+
+
+
+                                Servidores VPS optimizados
+                            
+
+
+
+
+                                Servidores VPS administrados
+                            
+
+
+
+
+VPS ESPECÍFICOS
+
+
+
+
+                                Servidores VPS con cPanel
+                            
+
+
+
+
+                                Servidores VPS con Plesk
+                            
+
+
+
+
+                                Servidores VPS con WordPress
+                            
+
+
+
+
+
+
+
+
+                servidores dedicados
+            
+
+
+
+
+                servicios
+                
+
+
+
+
+
+
+
+                            Servicios para WordPress
+                        
+
+
+
+
+                            Administración de servidores Linux
+                        
+
+
+
+
+
+
+
+                Blog
+            
+
+
+
+
+                contacto
+            
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Soporte y Ayuda
+
+cPanel
+
+
+
+Sysadmin
+
+Temas técnicos sobre webs
+
+WPO
+
+Seguridad web
+
+Desarrollo web
+
+Gestores de contenidos CMS
+
+Instalaciones y configuraciones
+
+Problemas y errores
+
+
+
+WordPress
+
+WPO para WordPress
+
+Desarrollo web para WordPress
+
+Seguridad para WordPress
+
+Themes para WordPress
+
+Plugins para WordPress
+
+WooCommerce
+
+
+
+Marketing digital
+
+Marketing de contenidos
+
+Redes sociales
+
+Email Marketing
+
+Diseño y UX/UI
+
+SEO
+
+
+
+
+
+Inicio > Blog > Soporte y Ayuda > cPanel > Cómo crear una base de datos MySQL / MariaDB en cPanel
+
+
+
+
+
+                    Cómo crear una base de datos MySQL / MariaDB en cPanel
+
+Categoría: 
+cPanel
+Soporte y Ayuda
+
+Fecha:
+                        11/04/2023
+
+Aunque la creación y gestión de bases de datos MySQL y MariaDB es una de las funcionalidades base de cualquier panel de control para hosting, en cPanel debemos seguir un proceso específico cuando creamos la base de datos para el CMS que necesitamos instalar. Precisamente, en este artículo vamos a enseñar cómo crear correctamente una base de datos MySQL o MariaDB en cPanel.
+Hablamos de bases de datos MySQL y Maria DB porque MariaDB es un fork de MySQL y es prácticamente igual. Aunque hay muchos proveedores, como es nuestro caso en Raiola Networks, que ya usamos MariaDB en todos nuestros servidores, otros muchos siguen usando MySQL aunque no ofrece ninguna ventaja.
+Pero vamos a empezar a tratar el tema objeto del post. Para crear una nueva base de datos en cPanel debemos ir a la sección «Bases de datos» y pulsar sobre el icono «Bases de datos MySQL».
+Aunque el motor de base de datos sea MariaDB, pondrá MySQL porque la integración de cPanel es para MySQL, aunque es compatible con MariaDB.
+
+En la siguiente pantalla podremos realizar todo el proceso, el problema es que es muy larga y no puedo explicarla toda en una captura, así que vamos a ir paso a paso.
+Empezaremos poniéndole un nombre a la base de datos nueva y después pulsamos el botón «Crear base de datos»:
+
+Lo que aparece antes del campo donde debes especificar el nombre de la base de datos es el prefijo, que es el nombre de tu cuenta de cPanel en el servidor. Este prefijo forma parte del nombre de la base de datos. El nombre de la base de datos es totalmente personal: elige el que quieras, pero no lo hagas muy largo, ya que puede dar errores.
+En este caso, he creado la base de datos «baseejemplo», pero el nombre real de la base de datos para ser usado en una aplicación web es «cucalyog_baseejemplo», es decir, el prefijo y el nombre unidos por un guion bajo.
+
+Como puedes ver en la captura anterior, justo para la base de datos que acabamos de crear no hay «Usuarios con privilegios», así que debemos crearlos.
+Bajamos un poco más por la pantalla y podremos ver unos campos donde añadir un nuevo usuario. Recuerda que, en este caso, el prefijo también forma parte del nombre del usuario.
+
+Debes especificar un nombre de usuario, el que quieras, aunque no puede ser muy largo. Y, finalmente, una contraseña que te recomiendo que sea cuanto más difícil mejor, incluso mejor aún si es generada automáticamente con el generador de contraseñas de cPanel.
+Después de crear el usuario, nos aparecerá en el listado o tabla que encontraremos en la misma pantalla abajo de todo:
+
+Ahora debemos añadir el nuevo usuario a la nueva base de datos que hemos creado antes. En otras palabras, vamos a asignarle permisos al nuevo usuario para que tenga el control de la base de datos que hemos creado.
+Simplemente, debemos ir a estos desplegables y seleccionar en el de arriba el usuario y en el de abajo la base de datos correspondiente:
+
+Cuando lo tengamos, pulsamos el botón «Añadir» y esto nos lleva a una pantalla donde podremos asignar los permisos al usuario para acceder a la base de datos.
+
+Marcamos todas las casillas o directamente la casilla «Todos los privilegios» y, posteriormente, pulsamos el botón «Realizar cambios».
+Después de esto podremos salir a la pantalla de «Bases de datos MySQL» y tendremos ya la base de datos creada con el «Usuario con privilegios» asignado:
+
+Y con esto ya estaría. Ya podemos configurar nuestra nueva base de datos en la aplicación web que necesitemos, como en un WordPress que vayamos a instalar.
+Si necesitamos acceder a la base de datos, en cPanel siempre podemos hacerlo a través de phpMyAdmin, al que podremos acceder también desde la sección «Bases de datos».
+
+Y hasta aquí el proceso para crear una nueva base de datos en cPanel, con su nuevo usuario correspondiente.
+Si tienes alguna duda y eres cliente de algún hosting con cPanel de Raiola Networks, puedes contactar con el departamento de soporte 24/7 mediante teléfono o ticket.
+
+
+
+
+
+
+                            Alvaro Fontela
+                        
+
+                        Mi nombre es Alvaro Fontela, soy consultor Wordpress y blogger activo desde hace años. CEO y co-Fundador de Raiola Networks, escribiendo sobre WordPress, hosting y WPO en este blog desde 2014.
+                    
+
+
+
+
+
+Artículos relacionados
+
+                Si te ha gustado este post, aquí tienes otros que pueden ser de tu interés. ¡No dejes de aprender!
+            
+
+
+
+
+
+                                Imunify 360 en hosting cPanel
+                            
+
+
+
+
+                                Comprobar los recursos utilizados en un hosting cPanel con CloudLinux
+                            
+
+
+
+
+                                Utilizar phpMyAdmin en cPanel
+                            
+
+
+
+
+                                Cómo actualizar la versión de PHP en WordPress
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¿Te gusta el blog?
+Apúntate al boletín y te
+                enviaremos los mejores artículos una vez al mes
+
+
+
+                Suscríbete
+            
+
+
+
+
+HOSTING SSD desde
+        8,95
+            €
+
+        Haz clic aquí
+        
+
+
+
+
+
+¿Te ayudamos?
+Escríbenos si tienes dudas o
+                necesitas una solución específica
+
+
+
+                Contactar
+            
+
+
+
+
+
+
+            Posts destacados
+
+ Ver la memoria RAM usada y la memoria RAM libre en Linux
+
+
+ ¿Cómo elaborar tu plan de comunicación?
+
+
+ Crea una galería de imágenes para tu web
+
+
+ Qué es el error 502 (Bad Gateway) y cómo se soluciona
+
+
+ Error 403: Acceso denegado o prohibido
+
+
+ Cómo configurar tu correo en Outlook: ayuda paso a paso
+
+
+
+
+Autores destacados
+
+
+Alvaro Fontela
+
+
+
+Andrea Barreiro
+
+
+
+David Suárez
+
+
+
+Jesus Magaña
+
+
+
+
+Últimos artículos comentados
+        
+
+ Imunify 360 en hosting cPanel
+
+
+ Utilizar phpMyAdmin en cPanel
+
+
+ Cómo redireccionar un dominio o subdominio en cPanel
+
+
+ Como instalar cPanel & WHM en CentOS o CloudLinux
+
+
+ Desbloquear IP en un hosting con cPanel
+
+
+ Manual completo de cPanel para usuarios (con vídeotutoriales)
+
+
+
+
+
+Servidores VPS
+
+          Obtén fiabilidad y rendimiento en un entorno dedicado.
+        
+
+
+          De
+          14,95€ / mes
+        
+
+Información
+
+
+
+
+
+
+
+
+
+
+
+
+             Tenemos 0                  comentarios
+                  en "Cómo crear una base de datos MySQL / MariaDB en cPanel"
+         
+
+
+
+
+
+Deja una respuesta Cancelar la respuestaTu dirección de correo electrónico no será publicada. Los campos obligatorios están marcados con *Comentario * Nombre * 
+Correo electrónico * 
+Web 
+ 
+
+
+
+
+Current ye@r *
+
+
+
+
+Leave this field empty
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+       ¿Vienes de otro proveedor?
+
+
+
+
+¡Ningún problema! Te migramos
+ 
+gratis y sin cortes
+
+
+
+
+
+
+
+
+
+
+           Elige tu nuevo plan
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              Avenida de Magoi nº66 Semisótano Derecha 27002 Lugo España
+            
+
+
+
+
+
+
+              +34 982 77 60 81
+            
+
+
+              info@raiolanetworks.es
+            
+
+
+
+CIF: B27453489
+VAT: ESB27453489
+
+
+
+
+
+
+
+
+Acerca de
+
+
+
+
+         Nuestra infraestructura
+      
+
+
+
+        Equipo
+      
+
+
+
+        Trabaja en Raiola
+      
+
+
+
+        Afiliados
+      
+
+
+
+        Kit de prensa
+      
+
+
+
+        Opiniones
+      
+
+
+
+        Accede a tu cuenta
+      
+
+
+
+        Contacto
+      
+
+
+
+        Autores del blog
+      
+
+
+
+
+
+Información
+
+
+
+
+        Migraciones
+      
+
+
+
+        Cuál es mi IP
+      
+
+
+
+        Aviso legal
+      
+
+
+
+        Términos de uso
+      
+
+
+
+        Política de privacidad
+      
+
+
+
+        Política de cookies
+      
+
+
+
+        RMC Galicia
+      
+
+
+
+        BlackFriday Hosting
+      
+
+
+
+
+
+Suscríbete al boletín
+
+
+
+Recibe ofertas, novedades y mucho más:
+
+
+
+Este campo es obligatorio.
+
+
++
+           Información básica sobre protección de datos:
+           
+
+
+
+
+               RESPONSABLE:
+               
+
+RAIOLA NETWORKS, S.L. C.I.F.: B27453489 Avda de Magoi, 66, Semisótano, Dcha., 27002 Lugo
+                 (Lugo)
+                 Telefono: +34 982776081
+                 e-mail: info@raiolanetworks.es
+               
+
+
+
+               RESPONSABLE:
+               
+
+RAIOLA NETWORKS, S.L. C.I.F.: B27453489 Avda de Magoi, 66, Semisótano, Dcha., 27002 Lugo
+                 (Lugo)
+                 Telefono: +34 982776081
+                 e-mail: info@raiolanetworks.es
+               
+
+
+
+               RESPONSABLE:
+               
+
+RAIOLA NETWORKS, S.L. C.I.F.: B27453489 Avda de Magoi, 66, Semisótano, Dcha., 27002 Lugo
+                 (Lugo)
+                 Telefono: +34 982776081
+                 e-mail: info@raiolanetworks.es
+               
+
+
+
+
+
+
+           Has leído y aceptas la  Política de privacidad
+*
+
+
+
+
+             Quiero suscribirme
+           
+
+Ha ocurrido un error. Vuelve a intentarlo.
+¡Gracias por suscribirte al boletín!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Verificada por
+          
+
+
+4.8/5
+1740 reseñas
+
+ 
+
+
+
+Los precios mostrados no incluyen IVA
+
+
+
+
+            ¡Síguenos!
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+Gestionar el consentimiento de las cookies
+
+
+
+
+
+
+Utilizamos cookies propias y de terceros para obtener información estadística, mostrar publicidad personalizada a través del análisis de tu navegación, así como para interactuar en redes sociales. Si continúas navegando, consideramos que aceptas nuestra
+
+
+
+
+
+Funcional
+
+
+
+Funcional
+
+								Siempre activo							
+
+
+
+
+
+
+El almacenamiento o acceso técnico es estrictamente necesario para el propósito legítimo de permitir el uso de un servicio específico explícitamente solicitado por el abonado o usuario, o con el único propósito de llevar a cabo la transmisión de una comunicación a través de una red de comunicaciones electrónicas.
+
+
+
+
+
+Preferencias
+
+
+Preferencias
+
+
+
+
+
+
+
+El almacenamiento o acceso técnico es necesario para la finalidad legítima de almacenar preferencias no solicitadas por el abonado o usuario.
+
+
+
+
+
+Estadísticas
+
+
+Estadísticas
+
+
+
+
+
+
+
+El almacenamiento o acceso técnico que es utilizado exclusivamente con fines estadísticos.
+El almacenamiento o acceso técnico que se utiliza exclusivamente con fines estadísticos anónimos. Sin un requerimiento, el cumplimiento voluntario por parte de tu Proveedor de servicios de Internet, o los registros adicionales de un tercero, la información almacenada o recuperada sólo para este propósito no se puede utilizar para identificarte.
+
+
+
+
+
+Marketing
+
+
+Marketing
+
+
+
+
+
+
+
+El almacenamiento o acceso técnico es necesario para crear perfiles de usuario para enviar publicidad, o para rastrear al usuario en una web o en varias web con fines de marketing similares.
+
+
+
+
+
+Administrar opciones
+Gestionar los servicios
+Gestionar {vendor_count} proveedores
+Leer más sobre estos propósitos
+
+
+
+Aceptar todas
+Denegar
+Ver preferencias
+Guardar preferencias
+Ver preferencias
+
+
+{title}
+{title}
+{title}
+
+
+
+Gestionar consentimiento
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

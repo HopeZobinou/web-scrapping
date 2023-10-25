@@ -1,0 +1,518 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Over 17,000 WordPress Sites Compromised by Balada Injector in September 2023
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+⚡ Cybersecurity Webinar ▶
+Defend, Adapt, Thrive: Top 5 Trends in Web Application Security
+Join the Webinar
+
+
+
+
+
+
+
+
+#1 Trusted Cybersecurity News Platform
+Followed by 4.50+ million
+
+
+
+
+
+
+
+
+
+
+ Get the Free Newsletter
+
+
+
+
+
+ Home
+ Newsletter
+ Webinars
+
+
+
+
+Home
+Data Breaches
+Cyber Attacks
+Vulnerabilities
+Webinars
+Store
+Contact
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Resources
+
+Webinars
+THN Store
+Free eBooks
+
+
+
+About Site
+
+About THN
+Jobs
+Advertise with us
+
+
+
+
+Contact/Tip Us
+
+
+
+Reach out to get featured—contact us to send your exclusive story idea, research, hacks, or ask us a question or leave a comment/feedback!
+
+
+
+Follow Us On Social Media
+
+
+
+
+
+
+
+
+ RSS Feeds
+ Email Alerts
+ Telegram Channel
+
+
+
+
+
+
+
+
+ Over 17,000 WordPress Sites Compromised by Balada Injector in September 2023
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Oct 11, 2023NewsroomWebsite Security / Hacking
+
+More than 17,000 WordPress websites have been compromised in the month of September 2023 with a malware known as Balada Injector, nearly twice the number of detections in August.
+Of these, 9,000 of the websites are said to have been infiltrated using a recently disclosed security flaw in the tagDiv Composer plugin (CVE-2023-3169, CVSS score: 6.1) that could be exploited by unauthenticated users to perform stored cross-site scripting (XSS) attacks.
+"This is not the first time that the Balada Injector gang has targeted vulnerabilities in tagDiv's premium themes," Sucuri security researcher Denis Sinegubko said.
+"One of the earliest massive malware injections that we could attribute to this campaign took place during the summer of 2017, where disclosed security bugs in Newspaper and Newsmag WordPress themes were actively abused."
+
+Balada Injector is a large-scale operation first discovered by Doctor Web in December 2022, wherein the threat actors exploit a variety of WordPress plugin flaws to deploy a Linux backdoor on susceptible systems.
+The main purpose of the implant is to direct users of the compromised sites to bogus tech support pages, fraudulent lottery wins, and push notification scams. More than a million websites have been impacted by the campaign since 2017.
+Attacks involving Balada Injector play out in the form of recurring activity waves that occur every couple of weeks, with a surge in infections detected on Tuesdays following the start of a wave during the weekend.
+The latest set of breaches entails the exploitation of CVE-2023-3169 to inject a malicious script and ultimately establish persistent access over the sites by uploading backdoors, adding malicious plugins, and creating rogue blog administrators.
+Historically, these scripts have targeted logged-in WordPress site administrators, as they allow the adversary to perform malicious actions with elevated privileges via the admin interface, including creating new admin users that they can use for follow-on attacks.
+The rapidly evolving nature of the scripts is evidenced by their ability to plant a backdoor in the websites' 404 error pages that are capable of executing arbitrary PHP code, or, alternatively, leverage code embedded into the pages to install a malicious wp-zexit plugin in an automated fashion.
+Sucuri described it as "one of the most complex types of attacks" performed by the script, given it mimics the entire process of installing a plugin from a ZIP archive file and activating it.
+
+The core functionality of the plugin is the same as the backdoor, which is to execute PHP code sent remotely by the threat actors.
+Newer attack waves observed in late September 2023 entail the use of randomized code injections to download and launch a second-stage malware from a remote server to install the wp-zexit plugin.
+Also used are obfuscated scripts that transmit the visitor's cookies to an actor-controlled URL and fetch in return an unspecified JavaScript code.
+"Their placement in files of the compromised sites clearly show that this time instead of using the tagDiv Composer vulnerability, attackers leveraged their backdoors and malicious admin users that had been planted after successful attacks against website admins," Sinegubko explained.
+
+
+Found this article interesting? Follow us on Twitter  and LinkedIn to read more exclusive content we post.
+
+
+
+
+
+
+SHARE
+
+
+
+
+
+
+Tweet
+Share
+Share
+Share
+
+
+Share on Facebook
+Share on Twitter
+Share on Linkedin
+Share on Reddit
+Share on Hacker News
+Share on Email
+Share on WhatsApp
+Share on Facebook Messenger
+Share on Telegram
+
+
+
+SHARE 
+hacking news, website hacking, WordPress
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Trending News
+
+
+
+
+
+
+
+
+
+Okta's Support System Breach Exposes Customer Data to Unidentified Threat Actors
+
+
+
+
+
+
+
+
+
+
+
+Cisco Zero-Day Exploited to Implant Malicious Lua Backdoor on Thousands of Devices
+
+
+
+
+
+
+
+
+
+
+
+ExelaStealer: A New Low-Cost Cybercrime Weapon Emerges
+
+
+
+
+
+
+
+
+
+
+
+Europol Dismantles Ragnar Locker Ransomware Infrastructure, Nabs Key Developer
+
+
+
+
+
+
+
+
+
+
+
+New Admin Takeover Vulnerability Exposed in Synology's DiskStation Manager
+
+
+
+
+
+
+
+
+
+
+
+iOS Zero-Day Attacks: Experts Uncover Deeper Insights into Operation Triangulation
+
+
+
+
+
+
+
+
+
+
+
+Vietnamese Hackers Target U.K., U.S., and India with DarkGate Malware
+
+
+
+
+
+
+
+
+
+
+
+Malvertisers Using Google Ads to Target Users Searching for Popular Software
+
+
+
+
+
+
+
+
+
+
+
+Lazarus Group Targeting Defense Experts with Fake Interviews via Trojanized VNC Apps
+
+
+
+
+
+
+
+
+
+
+
+Backdoor Implanted on Hacked Cisco Devices Modified to Evade Detection
+
+
+
+
+
+
+Popular Resources
+
+
+
+
+
+
+
+
+
+Identity Attacks Are Skyrocketing – Learn How to Shield Your Organization
+
+
+
+
+
+
+
+
+
+
+
+New Data Security Report Reveals Key Threats You Can't Afford to Miss
+
+
+
+
+
+
+
+
+
+
+
+Explore Cybercrime Trends with the Big Book of the Deep and Dark Web Now
+
+
+
+
+
+
+
+
+
+
+
+Bulletproof Your Servers: Deploy Gcore's Multi-Layer Global DDoS Protection
+
+
+
+
+
+
+
+
+
+
+Cybersecurity Solutionof the WeekSecure Open Source Integration — by ActiveStateOpen Source Supply Chain SecurityTraditional AppSec tools like SCA and AST do not fully address the software supply chain problem, lacking visibility beyond the first dependency layer. ActiveState lets you securely integrate open source languages like Python into your SDLC, making security seamless and scalable for developers.ActiveState Key Features:The packages you need, built from sourceReproducible, shareable runtimesCentralized view of open source usageSBOMs and AttestationsRapid CVE remediationStart your journey with our free ebook!Download the eBookSee How It Works
+
+
+
+Breaking News
+
+
+
+
+
+
+Cybersecurity Resources
+
+The IT Professional's Blueprint for ComplianceLearn how to align with HIPAA, NIST, CIS-CSC, Essential Eight, and Cyber Essentials frameworks.
+Webinar: Web App Security: From Challenges to Solutions - Expert InsightsIndustry experts from EY Technology Solutions and OPSWAT dive deep into current security challenges and solutions.
+The Ultimate Guide to Vulnerability ScanningEverything you need to know to get started with vulnerability scanning and choose the right product for your business.
+Want To Excel in Cybersecurity Risk Management?Manage cybersecurity risk with a master's from Georgetown. Learn more in our Oct. 30 webinar.
+
+
+
+
+
+
+
+
+Join 120,000+ Professionals
+Sign up for free and start receiving your daily dose of cybersecurity news, insights and tips.
+
+
+
+Email
+
+
+
+
+
+
+
+
+
+
+Connect with us!
+
+905,000 Followers
+1,950,000 Followers
+500,000 Followers
+22,000 Subscribers
+148,000 Followers
+120,000 Subscribers
+
+
+
+Company
+
+About THN
+Advertise with us
+Contact
+
+
+
+Pages
+
+Webinars
+Deals Store
+Privacy Policy
+
+
+
+Deals
+
+Hacking
+Development
+Android
+
+
+
+ RSS Feeds
+ Contact Us
+
+
+© The Hacker News, 2023. All Rights Reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

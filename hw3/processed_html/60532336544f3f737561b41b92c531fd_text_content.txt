@@ -1,0 +1,108 @@
+ WordPress Security : Cara Melindungi Situs Web Anda dari Peretas     
+Skip to content
+Mobile Menu
+
+
+
+
+
+Search
+HomeTeknologiCloud ComputingInternet of ThingsKecerdasan BuatanBig DataTips & TrikKomputerMacBookwindowsMotherboardLinuxHard DiskPemrogramanHTMLCSSPHPCMSWebsiteweb developmentWordPressBrowserGagdetAndroidAppleGameHPVirtual ServerKontak KamiMacBookKomputeriPhoneAndroidSoftwareHTMLWebsiteLinuxGameMedia SosialKekinian Rekomendasi WordPress Hosting Tercepat Terbaik  Paling Populer
+Provider Cloud Gratis Terbaik dan Terpercaya di Indonesia
+Cara Download Driver Monitor Samsung Untuk Windows 11
+Raspberry Pi 4 8GB: Komputer Pintar Untuk Semua Kebutuhan Anda!
+Apa Yang Dimaksud Dengan Cloud Email? Kelebihan Dan Implementasi
+
+
+
+Home
+
+
+
+
+
+
+WordPress
+
+
+
+
+
+WordPress Security : Cara Melindungi Situs Web Anda dari Peretas
+
+WordPress Security : Cara Melindungi Situs Web Anda dari Peretas Wanglu PiaoOctober 11, 2023October 11, 202344 Views
+Keamanan siber untuk WordPress security sangat penting untuk bisnis dan individu apa pun. Untuk webmaster yang menggunakan WordPress membangun situs web, sangat penting untuk melindungi situs web dari peretas.Artikel Labkom99 ini akan memberi Anda pengantar terperinci tentang cara melindungi situs WordPress Anda dari peretas. Termasuk langkah-langkah keamanan, aplikasi plugin dan pemulihan situs web.
+Daftar Isi 
+hide
+ 
+Pahami Penyebab dan Metode Peretas
+ 
+Langkah Keamanan Dasar WordPress Security
+ 
+1. Gunakan kata sandi yang kuat dan nama pengguna yang unik
+ 
+2. Batasi jumlah upaya login
+ 
+3. Aktifkan otentikasi dua faktor (2FA)
+ 
+4. Selalu perbarui WordPress, tema, dan plugin
+ 
+5. Nonaktifkan pengeditan file
+ 
+6. Cadangkan data situs web secara teratur
+ 
+Langkah Keamanan Lanjutan Untuk WordPress Security
+ 
+1. Instal plugin WordPress Security
+ 
+2. Mengkonfigurasi Web Application Firewall (WAF)
+ 
+3. Aktifkan HTTPS
+ 
+4. Ubah awalan tabel database
+ 
+5. Dilarang menelusuri katalog
+ 
+6. Batasi fungsionalitas XML-RPC
+ 
+Strategi Pemulihan Situs Web
+ 
+Kesimpulan
+Pahami Penyebab dan Metode PeretasSebelum melindungi situs WordPress dari peretas, kita perlu memahami mengapa dan bagaimana peretas menyerang. Alasan peretasan tidak lain adalah sebagai berikut:Peretas mencoba mencuri data situs web sensitif, seperti informasi pengguna, data transaksi, dll.Menggunakan sumber daya situs web korban untuk melakukan aktivitas peretasan, seperti mengirim spam, menanam kode berbahaya, dll.Merusak reputasi situs web korban dan mendorong pengguna untuk mengunjungi situs web berbahaya.Untuk alasan lain seperti menunjukkan kemampuan ofensif atau hiburan pribadi.Ada banyak cara untuk meretas, termasuk tetapi tidak terbatas pada hal-hal berikut:Peretasan terhadap kerentanan yang diketahui di file inti, plugin, dan tema WordPress.Gunakan kata sandi yang lemah untuk menebak kata sandi akun administrator.Mendapatkan informasi database situs web melalui injeksi SQL, skrip lintas situs, dll.Menggunakan serangan DDoS untuk menjatuhkan situs web, dll.Setelah memahami penyebab dan metode serangan peretas, kita dapat melindunginya dengan cara yang ditargetkan.Read MoreRekomendasi WordPress Hosting Tercepat Terbaik  Paling PopulerProvider Cloud Gratis Terbaik dan Terpercaya di IndonesiaCara Download Driver Monitor Samsung Untuk Windows 11Langkah Keamanan Dasar WordPress Security1. Gunakan kata sandi yang kuat dan nama pengguna yang unikMenggunakan kata sandi yang kuat dan nama pengguna unik adalah langkah dasar untuk melindungi situs WordPress Anda. Pastikan untuk menghindari penggunaan nama pengguna umum seperti admin, administrator, dll. Kata sandi harus setidaknya 12 karakter, dengan huruf besar dan kecil, angka, dan simbol khusus. Kata sandi yang rumit dapat dibuat dan disimpan menggunakan pengelola kata sandi.2. Batasi jumlah upaya loginUntuk mencegah serangan brute force, Anda dapat membatasi jumlah upaya login. Instal dan aktifkan plugin Limit Login Attempts untuk membatasi jumlah upaya login yang dapat dilakukan pengguna dalam jangka waktu tertentu. Upaya yang melebihi batas akan dikunci sementara terhadap kekerasan oleh peretas.3. Aktifkan otentikasi dua faktor (2FA)Otentikasi dua faktor (2FA) adalah metode verifikasi yang aman, selain memasukkan nama pengguna dan kata sandi, Anda perlu memverifikasi identitas Anda melalui metode kedua seperti ponsel dan email. Instal dan aktifkan plugin Dua Faktor untuk mengaktifkan otentikasi dua faktor untuk situs WordPress Anda.4. Selalu perbarui WordPress, tema, dan pluginTim WordPress akan terus memperbaiki kerentanan dan merilis versi baru untuk security. Untuk memastikan keamanan situs web Anda, file inti, tema, dan plugin WordPress harus diperbarui tepat waktu.Selain itu, hindari tema dan plugin yang diketahui memiliki kerentanan keamanan atau belum diperbarui untuk waktu yang lama. Baca juga Panduan Memilih Plugin WordPress Gratis Untuk Website Anda.5. Nonaktifkan pengeditan fileBackend WordPress memungkinkan administrator untuk mengedit file tema dan plugin secara default. Untuk mencegah peretas mengeksploitasi fitur ini, Anda dapat menonaktifkan pengeditan file dengan menambahkan kode berikut ke file wp-config .php:define('DISALLOW_FILE_EDIT', true);6. Cadangkan data situs web secara teraturMencadangkan data situs web secara teratur adalah langkah penting untuk mencegah serangan peretas. Setelah situs web diserang, ia dapat dengan cepat kembali ke keadaan normal. Anda dapat menggunakan plugin seperti UpdraftPlus, BackWPup, dll.Untuk mencadangkan data situs web secara otomatis dan teratur, dan menyimpan file cadangan ke layanan penyimpanan jarak jauh seperti Dropbox, Google Drive, dll.Langkah Keamanan Lanjutan Untuk WordPress Security1. Instal plugin WordPress SecurityPlugin keamanan dapat membantu Anda mencapai perlindungan situs web yang lebih komprehensif. Berikut adalah beberapa plugin keamanan yang direkomendasikan:Wordfence Security: menyediakan firewall, pemindaian waktu nyata, perlindungan login, dan fungsi lainnya;iThemes Security: Menyediakan berbagai pengaturan keamanan, termasuk menyembunyikan alamat login latar belakang, melarang beberapa upaya login, dll.Sucuri Security: Menyediakan firewall, pemindaian kode berbahaya, pengoptimalan kinerja keamanan, dan banyak lagi.2. Mengkonfigurasi Web Application Firewall (WAF)Web Application Firewall (WAF) dapat secara efektif memblokir lalu lintas dan serangan berbahaya. Ada banyak layanan WAF profesional untuk dipilih, seperti Cloudflare, Sucuri, dll. Setelah mengonfigurasi WAF, Anda dapat melindungi situs web Anda dari metode serangan umum seperti injeksi SQL dan skrip lintas situs (XSS).3. Aktifkan HTTPSMenggunakan sertifikat SSL untuk mengaktifkan HTTPS untuk situs web dapat melindungi transmisi data pengguna yang aman dan mencegah pencurian data. Baca juga 6 Alasan Mengapa Situs WordPress Harus Menggunakan Enkripsi HTTPS Atau SSL.Banyak penyedia domain dan penyedia CDN menawarkan sertifikat SSL gratis. Ketika HTTPS diaktifkan, tanda kunci hijau akan ditampilkan di bilah alamat situs web, yang membantu meningkatkan kepercayaan pengguna.4. Ubah awalan tabel databaseAwalan tabel basis data WordPress default adalah wp_, yang dapat dimanfaatkan peretas untuk serangan. Disarankan untuk memodifikasi awalan tabel database saat menginstal WordPress atau menggunakan plugin seperti iThemes Security untuk meningkatkan kesulitan peretasan.5. Dilarang menelusuri katalogSecara default, pengunjung dapat menelusuri struktur direktori situs. Untuk mengamankan situs web Anda, Anda dapat menambahkan kode berikut ke file .htaccess untuk menonaktifkan penjelajahan direktori:Options -Indexes6. Batasi fungsionalitas XML-RPCFitur XML-RPC dapat memberikan akses aplikasi eksternal ke situs WordPress, tetapi juga dapat dimanfaatkan oleh peretas. Jika fitur ini tidak diperlukan, Anda dapat menonaktifkan fitur XML-RPC menggunakan plug-in seperti menonaktifkan XML-RPC.Jika Anda perlu menggunakan fitur tertentu, seperti plugin Jetpack, pertimbangkan untuk membatasi fungsionalitas XML-RPC hanya untuk alamat IP tepercaya.Strategi Pemulihan Situs WebBahkan dengan langkah-langkah keamanan yang ketat, situs web masih dapat diretas. Dalam hal ini, strategi pemulihan situs berikut mungkin berguna:Pulihkan cadangan: Pulihkan data situs web dari file cadangan terbaru. Sebelum memulihkan, penting untuk memastikan bahwa file cadangan belum dirusak atau terinfeksi kode berbahaya.Bersihkan kode berbahaya: Gunakan plugin keamanan seperti Wordfence Security untuk memindai dan membersihkan kode berbahaya. Juga, periksa file .htaccess dan file penting lainnya untuk memastikan mereka belum dirusak.Instal ulang WordPress: Dalam kasus ekstrim, pertimbangkan untuk menginstal ulang WordPress. Selalu cadangkan data situs web Anda dan pastikan Anda menggunakan versi terbaru WordPress, tema, dan plugin sebelum menginstal ulang.Hubungi tim profesional: Jika metode di atas tidak menyelesaikan masalah, Anda dapat mempertimbangkan untuk menghubungi tim keamanan siber profesional hosting yang anda gunakan untuk mendapatkan bantuan.KesimpulanMelindungi situs web WordPress dari peretas adalah proses yang berkelanjutan. Hanya dengan terus belajar dan memperbarui pengetahuan dan keterampilan kita dapat mengambil inisiatif di bidang keamanan siber WordPress security.
+ Post Views: 44InternetPlugin WordPress GratisSoftwareTeknologiTemplate WordPress GratisWeb DevelopmentWebsiteWordPressSharePost navigationPrevious post 10 Plugin Caching WordPress Terbaik Untuk Mempercepat Situs Web AndaNext post 25 Langkah Praktis Untuk Melindungi Situs Web Anda Dari PeretasanRelated postsRekomendasi WordPress Hosting Tercepat Terbaik  Paling PopulerWix vs WordPress : Mana Yang Lebih Baik?Bagaimana Cara Memilih WordPress Hosting Yang Tepat Untuk Website Anda10 Plugin Caching WordPress Terbaik Untuk Mempercepat Situs Web Anda9 Template WordPress Gratis Untuk Membuat Situs Web ProfesionalFaktor Yang Mempengaruhi Percepatan Pengembangan MagentoLeave a Reply Cancel replyYour email address will not be published. Required fields are marked *Comment Save my name, email, and website in this browser for the next time I comment. 
+Topik PopulerSoftwareHardwareKomputerTeknologiWebsite  Recent Posts1
+WordPressOctober 25, 2023
+Rekomendasi WordPress Hosting Tercepat T…2
+Cloud ComputingOctober 24, 2023
+Provider Cloud Gratis Terbaik dan Terper…3
+MonitorOctober 24, 2023
+Cara Download Driver Monitor Samsung Unt…Server
+Virtual ServerOctober 19, 2023
+Apa Saja Cloud Server Yang Dapat Anda Gu…
+
+Virtual ServerOctober 17, 2023
+Perbedaan Antara Redis dan Memcached Yan…
+
+Virtual ServerOctober 3, 2023
+5 Rekomendasi VPS Windows Terbaik Luar N…Populer Post
+Virtual Server36 Views
+Apa Saja Cloud Server Yang Dapat Anda Gu…
+
+Cloud Computing29 Views
+Apa Yang Dimaksud Dengan Cloud Email? Ke…
+
+Komputer28 Views
+Raspberry Pi 4 8GB: Komputer Pintar Untu…
+
+Monitor15 Views
+Cara Download Driver Monitor Samsung Unt…
+
+Cloud Computing10 Views
+Provider Cloud Gratis Terbaik dan Terper…Kontak KamiTentang KamiPrivacy PolicyDisclaimerJasa ITJasa Buat BlogGuest PostKirim TulisanTraining WebsiteSocial NetworkFacebookTwitterPinterestTumblrInstagramRSS
+Copyright @ Labkom99.com.
+All right reserved
+   
+
+
+
+

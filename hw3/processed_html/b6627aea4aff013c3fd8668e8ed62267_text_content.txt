@@ -1,0 +1,939 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Your iPhone Can Replicate Your Voice After 15 Minutes of Training
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Apple Lineup
+
+iPhone 14
+iOS 16
+macOS Ventura
+AirPods Max
+AirPods Pro
+Apple Watch Series 8
+Apple TV
+iPad
+
+
+News
+
+AirPods
+Apple TV
+Apple Watch
+Deals
+Fast Tech
+iPad
+iPhone
+Mac
+Apple Vision Pro
+
+
+How To
+
+AirDrop
+AirPods
+Apple TV
+Apple Watch
+iPad
+iPhone
+Mac
+
+
+Rumors
+
+AirPods
+AirTag
+Apple TV
+Apple Watch
+CarPlay
+HomePod
+iPad
+iPhone
+Mac
+
+
+Store
+Giveaways
+
+MacBook Air Giveaway
+Apple iPhone 15
+$1K Amazon Gift Card
+AirPods Pro
+Apple Watch Series 7
+iPad Air
+iPhone 13 Pro Max
+MacBook Pro
+PlayStation 5
+Xbox Series X
+
+
+Wallpapers
+
+Abstract
+Apple
+Featured
+Latest
+Nature
+Ocean
+Photography
+Popular
+Space
+Travel
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Enter for a Chance to Win: Apple iPhone 15 Giveaway            
+
+
+
+
+
+
+
+
+How To/iPhone/Your iPhone Can Replicate Your Voice After 15 Minutes of Training Your iPhone Can Replicate Your Voice After 15 Minutes of Training
+
+
+
+
+By Sergio Velasquez
+
+
+
+
+
+
+
+
+
+
+
+4 Min Read
+
+                  Published: Oct 6th, 2023                
+
+
+
+
+
+ Credit: Krakenimages.com / Shutterstock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Text Size
+
+-
++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Toggle Dark Mode
+
+
+
+
+
+
+
+Long gone are the days when having a smartphone was just a luxury. Now, your iPhone can do a lot of things that make it an everyday necessity for many of us.
+
+
+
+This is thanks to all the features that Apple is constantly adding with each new iOS update. And, of course, this year was no different. 
+
+
+
+Apple added many new cool features in iOS 17 that you’re probably already playing with. However, one of the features that stands out the most is called Personal Voice, and it will help anyone with speech issues. 
+        
+
+
+ No Subscriptions - Get Microsoft Office Lifetime Access for Just $49.97
+ Even Microsoft tries to nudge you toward paying monthly for their Suite 365. The good news is that you don't have to. iDrop News readers can get lifetime access to MS Office at 85% off the normal price...Get It Here 
+
+
+
+
+What Is the New Personal Voice?
+Personal Voice is a brand new accessibility feature Apple introduced with iOS 17. This feature works with Live Speech. This means you can type any words you want, and your iPhone will speak them for you. The big difference is that instead of using a robotic voice, you can make it so your iPhone will emulate your own voice. 
+
+
+
+Granted, it still sounds a bit robotic, but it’s a better experience for people who want their iPhones to sound like themselves. 
+
+
+
+What Do I Need to Use Personal Voice?
+In addition to updating to iOS 17, Personal Voice also requires an iPhone 12 or later, and you must have your device secured with Face ID, Touch ID, or a passcode. 
+
+
+
+You can also set up Personal Voice on any Mac or iPad with an M-series chip running macOS Sonoma or iPadOS 17.
+
+
+
+Note that Personal Voice is also currently available only in English. 
+
+
+
+How to Set Up Your Own Personal Voice on iPhone
+Sergio Velasquez / iDrop News
+Keep in mind that if you want to use Personal Voice, you’re going to need to be patient. This starts with a 15-minute recording session during which you’ll be asked to repeat a bunch of phrases, but then your iPhone will need to take some time to process those recordings to create your Personal Voice. In total, that might take a few days to complete, but it’s surely worth it. 
+
+
+
+But first things first. In order to use Personal Voice, you’ll need to update your iPhone to at least iOS 17. You can do this by going to Settings > General > Software Update and following the instructions.
+
+
+
+Now, here’s how to set up Personal Voice:
+
+
+
+Open the Settings app.Scroll down and choose Accessibility.Scroll down one more time and tap on Personal Voice.Select Create a Personal Voice.Use Face ID or Touch ID to unlock this feature.Tap on Continue to move through the introduction screens.Give your personal voice a name and select ContinueCheck your sound quality and start saying the phrases you’ll see on screen.
+You’ll be taken through a total of 150 phrases you’ll need to repeat in a natural voice, which should take you around 15 minutes. 
+
+
+
+However, for your iPhone to finish this process, it’s going to take a while. According to your iPhone, your personal voice should take at least one day, but for some of us, the process has taken anywhere between two or three days. Once it’s ready, your iPhone will send you a notification.
+
+
+
+Jesse Hollington / iDrop News
+Note that your Personal Voice is generated directly on your iPhone, and this is only done while it’s locked and charging, so the time it takes will depend on how often you plug your iPhone in and the A-series processor inside.  
+
+
+
+How to Use Your Personal Voice
+Sergio Velasquez / iDrop News
+Once your Personal Voice is ready, you’ll need to set it up to start using it. As we mentioned, Personal Voice is part of Apple’s Live Speech feature, so you’ll need to turn this feature on.
+
+
+
+Open the Settings app.Scroll down and go to Accessibility.Scroll down one more time and go to Live Speech.If you haven’t already, turn Live Speech on.Under Voices, tap English (US).Tap on Personal Voice.You should see your personal voice’s name on the list. Select it, and you’re done.
+Now, you can start using your Personal Voice. To get started, triple-press the Side button on your iPhone and type something you want your iPhone to say. 
+
+
+
+Once you press the Return key, your iPhone will begin talking in “your own voice.” As we said, it’ll still sound robotic, but it’s still a cool feature to have.
+
+
+
+You can do this as many times as you need and create different voices to play around with. If you already have a speech impediment, you can always ask a person you trust to create a Personal Voice for you.
+
+
+
+Let Your iPhone Do All the Talking
+CommentWhether you really need this accessibility feature or you just want to play around with it, Personal Voice is a great addition to iOS 17. 
+
+
+
+Sure, it’ll take a while before you can actually use it, but it’ll definitely be worth it to set it up. 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+Read Next:
+The Best Prime Day Deals on Apple Gear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Sponsored
+  
+
+
+
+
+
+This Limited-Time Microsoft Office Deal Gets You Lifetime Access for Just $50 (For Mac)
+
+$49.97
+86% off
+$349.99
+
+Shop
+
+
+
+
+
+Microsoft Office Pro Lifetime for One Payment of $50 - Certified Partner (For Windows)
+
+$49.97
+86% off
+$349.99
+
+Shop
+
+
+
+
+
+Microsoft Windows 11 Pro for One Payment of $40 - Certified Partner
+
+$39.97
+80% off
+$199.99
+
+Shop
+
+
+
+
+
+7 Of The Best Side Hustles You Can Start Today To Make Extra Cash
+
+Make Legitimate Cash Now
+
+Check It Out
+
+
+
+
+
+The Best Money Moves To Supplement Social Security in 2022
+
+Money Moves You Can Make Now
+
+Learn More
+
+
+
+
+
+4 Real Things You Can Do Right Now to Make Legitimate Cash
+
+Money Moves To Make In Retirement
+
+Get Started
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ Win a Free
+
+$1,000 Amazon Gift CardApple M2 MacBook AirApple iPhone 15
+
+  				Enter
+  			
+* Guaranteed by iDrop News.
+
+
+
+Trending
+
+
+
+
+
+
+
+
+Netflix Hikes Prices: Premium Now Costs $23 a Month
+News
+
+
+
+
+
+
+
+
+
+
+10 Clever Moves to Squeeze Every Bit From Your iPhone
+Gallery
+
+
+
+
+
+
+
+
+
+
+Pro Tip: Easily Add a Second Line to Your iPhone without a Third-Party App
+How To
+
+
+
+
+
+
+
+
+
+
+Apple Is Planning a Surprise Event for Next Week | Here’s What We Know
+Mac
+
+
+
+
+
+
+
+
+
+
+7 Tips for Recording the Best iPhone Video Possible
+Gallery
+
+
+
+
+
+Newsletter
+
+
+
+
+
+
+    				Sign Up
+    			
+
+
+
+
+
+
+
+
+
+
+
+iPhone WallpapersExpress Yourself
+
+  						Browse
+  		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			Sign up to get the latest Apple News, How Tos and more delivered to your inbox.
+		
+
+
+
+				Sign Up
+		
+
+
+
+
+
+
+
+
+
+
+Contact Us   •   Unsubscribe   •   Notifications   •   Meet the Team   •   Newsletter   •   Write for Us   •   Store Support   •   Report-a-Bug
+
+
+News
+
+iPhone
+iPad
+Mac
+Apple TV
+Apple Watch
+Fast Tech
+
+
+Rumors
+
+iPhone
+iPad
+Mac
+Apple TV
+Apple Watch
+
+
+How To
+
+AirDrop
+Apple TV
+Apple Watch
+iCloud
+iPad
+iPhone
+Mac
+Mail Drop
+
+
+Features
+
+Apple Gloves
+Reviews
+Privacy
+Security
+Store
+AAPL
+Concepts
+Apple Giveaways
+
+
+Company
+
+About Us
+Privacy Policy
+Contact Us
+Advertise
+Store Support
+Terms of Use
+Unsubscribe
+
+
+Wallpapers
+
+Latest
+Abstract
+Apple
+Illustration
+Photography
+Nature
+Space
+
+
+ 
+
+
+
+
+
+Privacy Policy
+CCPA Privacy Statement
+Do Not Sell My Information
+Publishing Guidelines
+Disclosures
+ 
+
+Copyright © 2023 iDrop News. All rights reserved. By using iDrop News you agree to our terms and conditions. iDrop News and its contents are not affiliated or endorsed by Apple, Inc.
+
+
+
+
+
+
+   
+
+
+Home
+News
+Rumors
+How To
+Store
+Giveaways
+Wallpapers
+Fast Tech
+Reviews
+Site Map
+ 
+
+      
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Social Sharing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

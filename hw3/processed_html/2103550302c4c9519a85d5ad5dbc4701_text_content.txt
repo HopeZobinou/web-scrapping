@@ -1,0 +1,53 @@
+   ELA - 4 Google Sheets Essential Skills - Teacher Tech               Teacher TechPaperless Is Not A Pedagogy MenuTeacherBlog PostsTeacher Tech Facebook GroupGoogle Certified InnovatorCoffeeEDUTour of Google ClassroomBack to ClassroomAuthorAlice Keeler Books on AmazonBulk Order BooksDeveloperGoogle Developer ExpertDeveloper SpotlightAdd-ons By Alice KeelerDoc to Slides by Alice KeelerMake a TestTemplateTabtoTabsForm PrinterQuiz HelperMissing From (Google Forms™)Fresh Form TabBingoCalAddDice Slides by Alice KeelerScheduler by Alice KeelerAudience ParticipatorDocument Outline by Alice KeelerRandomize Slides by Alice KeelerSpeaker Notes by Alice KeelersheetPusherSeating Chart SlidesHyperlink Slides Choice BoardGC RubricAdd-a-DateClear RectangleDelCalQuickShare ScreenshotRoster Extras for SchoolyticsAnyone Can ViewDrive 20Apps Script TutorialsTemplatesEdTech CoachPremium MembershipFree NewsletterHire Alice Menu 
+
+
+
+ELA – 4 Google Sheets Essential Skills Posted on August 25, 2021November 20, 2021 by Alice KeelerELA teachers you NEED spreadsheets!! Google Sheets is just like a Google Doc but better. It is a big table. Have students organize their work in Google Sheets!1. Make Columns WiderYou might think Google Sheets is not for you because you need full sentences and a spreadsheet has these little tiny boxes. Make the column wider!!! Get your cursor in between two columns and drag the column so it is wider.2. Word WrapThe most essential skill for Google Sheets to help you love spreadsheets is Word Wrap. You can not be an ELA teacher using spreadsheets and not use this one! First, look for the CENTERING icon in the toolbar. This is the same icon as in Google Docs for centering text. The icon to the right of that is vertical centering (another favorite of mine.) The icon to the right of that is WORD WRAP!!
+
+
+
+
+
+
+
+3. Merge CellsPUT YOUR ANSWER IN THE BIG BOX! I use merge cells a lot. Take one tiny cell and combine it with a bunch of cells. Make a giant answer box! Highlight a bunch of cells.  Look for a broken square with 2 arrows in it. This will merge the highlighted cells into one big cell. Use the paint can to shade the giant box so students know to put their answer in there.
+
+
+
+
+
+
+
+Tip: Click on ONE cell, hold down the shift key and use the arrow keys to select multiple cells.4. Automatic NumberingYou do not need to use any numbers or math to use spreadsheets. Spreadsheets are for everyone! . Now while you do not need math, sometimes it is helpful to organize your document by numbering questions or steps. Google Sheets will do this for you! You want to establish a pattern in the spreadsheet of at least 2 numbers. Highlight the pattern and then use the fill down square in the bottom corner to pull down and continue the pattern.Try A Spreadsheet A WeekTeaching NobodyGoogle Sheets: Clip the TextGoogle Sheets: Toggle Text WrappingTop 15 Alice Keeler Posts of 2015Like this:Like Loading...RelatedRelated Alice Keeler Blog Posts:Google Sheets: Embed an ImageGoogle Sheets: Add Page BreaksAdd a Checkbox to Your Google Form DataFree: Create Avery Address Labels in Google Docs  1 thought on “ELA – 4 Google Sheets Essential Skills”  Hailee says: August 29, 2021 at 1:55 pmI love the fun pictures throughout the steps of this blog post! It made it so much fun to read! Great tips on google sheets as wellLog in to ReplyYou must log in to post a comment.This site uses Akismet to reduce spam. Learn how your comment data is processed.SearchSearchAlice Keeler is a mom of 5. High School math teacher. Author. Keynote Speaker/Teacher Trainer Google Certified Innovator, Microsoft Innovative Educator, Google Cloud Innovator Champion, and Google Developer Expert. Founder of #coffeeEDU  
+
+
+
+
+
+
+
+Find ALL My Blog Posts
+
+
+
+
+
+
+
+Link to List  Google Classroom Books
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Alice Keeler: Mom of 5. High School math teacher. Founder #coffeeEDU. Google Certified Innovator. Microsoft Innovative Educator. Google Developer Expert. EdTech Specialist.  My Referral LinksSticker Mule: $10 CreditBirdSend Newsletter3 Months Premium Mote   ©2023 Teacher Tech  | Theme by  SuperbThemes                                                                          Loading Comments...   You must be logged in to post a comment.                                %d bloggers like this:        
