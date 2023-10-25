@@ -1,0 +1,1823 @@
+<!DOCTYPE html>
+<html lang="en" data-color-scheme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Someone Infected Neil Gaiman with COVID-19, After Venues Refused to Enforce Audience Masking</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="theme-color" content="#d83a05">
+
+
+    <link rel="preload" href="https://www.okdoomer.io/assets/dist/app.min.js?v=75b5056cef" as="script">
+    <link rel="preload" href="https://www.okdoomer.io/assets/dist/app.min.css?v=75b5056cef" as="style">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+
+
+
+
+
+
+
+
+    <link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,600;0,700;1,600;1,700&display=swap" 
+          as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
+    <style>
+      body { --font-headings: 'Poppins', sans-serif; }
+      body .content, p { --font-body: 'Lora', serif; font-family: var(--font-body); }
+    </style>
+
+
+
+    <script async defer src="https://www.okdoomer.io/assets/dist/app.min.js?v=75b5056cef"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://www.okdoomer.io/assets/dist/app.min.css?v=75b5056cef">
+
+    <style>
+  :root {
+    --global-max-width: 1400px; /* site max width */
+    --global-content-width: 700px; /* post-content-width */
+    --global-wide-width: 960px; /* site max width */
+    --global-radius: 0px; /* default radius */
+    --global-gallery-gap: 1em; /* Image gallery distance between images */
+    --global-hyphens: none; /* none/auto */
+    --global-header-height: 92px;
+    --global-theme-notifications: visible; /* visible/hidden */
+    --global-progress-bar: visible; /* visible/hidden */
+    --global-content-preview-fading: 0%; /* 50%-100% for fading effect */
+    --global-scroll-behavior: smooth;
+  }
+</style>
+
+<script>
+  let preferredTheme = localStorage.getItem('PREFERRED_COLOR_SCHEME') || `light`;
+  document.documentElement.setAttribute('data-color-scheme', preferredTheme);
+  
+  // Global values needed
+  const themeGlobal = {
+    currentPage: parseInt(''),
+    nextPage: parseInt(''),
+    nextPageLink: '',
+    maxPages: parseInt(''), 
+    lastPage: `` === `` ? true : false,
+    postsPerPage: parseInt('12'),
+    scrollPos: 0,
+    imageLightbox: false
+  }
+
+  // Calculate contrast & HSL value;
+  function getBrandColorInfo(hexcolor) {
+    // get contrast
+    if (hexcolor.slice(0, 1) === '#') { hexcolor = hexcolor.slice(1); }
+    if (hexcolor.length === 3) { hexcolor = hexcolor.split('').map(function (hex) { return hex + hex;}).join(''); }
+    let r = parseInt(hexcolor.substr(0,2),16), g = parseInt(hexcolor.substr(2,2),16), b = parseInt(hexcolor.substr(4,2),16);
+    let yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+    const colorContrast = (yiq >= 128) ? '#000' : '#fff';
+
+    //get HSL
+    r /= 255, g /= 255, b /= 255;
+    const max = Math.max(r, g, b), min = Math.min(r, g, b);
+    let h, s, l = (max + min)  /  2;  
+    if ( max == min ) { h = s = 0; } else {
+      let d = max - min;
+      s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+      switch(max){
+        case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+        case g: h = (b - r) / d + 2; break;
+        case b: h = (r - g) / d + 4; break;
+      }
+      h /= 6;
+    }
+    const colorHSL = [Math.round(h * 360), Math.round(s * 100), Math.round(l * 100)];
+
+    // return
+    return { colorContrast, colorHSL }
+  };
+
+  const brandColor = getBrandColorInfo("#d83a05");
+  let style = document.createElement('style');
+  style.innerHTML = `:root { 
+    --color-brand-contrast: ${brandColor.colorContrast}; 
+    --color-brand-h: ${brandColor.colorHSL[0]};
+    --color-brand-s: ${brandColor.colorHSL[1]}%;
+    --color-brand-l: ${brandColor.colorHSL[2]}%;
+    --color-brand-hsl: ${brandColor.colorHSL[0]} ${brandColor.colorHSL[1]}% ${brandColor.colorHSL[2]}%;
+  }`
+  document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+    
+    
+     
+
+    <meta name="description" content="With a call-to-action and concrete solutions for safer venues.">
+    <link rel="icon" href="https://www.okdoomer.io/content/images/size/w256h256/format/jpeg/2023/08/AdobeStock_547714662-1-.jpg" type="image/jpeg">
+    <link rel="canonical" href="https://www.okdoomer.io/someone-infected-neil-gaiman-with-covid-19/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="OK Doomer">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Someone Infected Neil Gaiman with COVID-19, After Venues Refused to Enforce Audience Masking">
+    <meta property="og:description" content="With a call-to-action and concrete solutions for safer venues.">
+    <meta property="og:url" content="https://www.okdoomer.io/someone-infected-neil-gaiman-with-covid-19/">
+    <meta property="og:image" content="https://www.okdoomer.io/content/images/2023/10/a.webp">
+    <meta property="article:published_time" content="2023-10-08T20:45:51.000Z">
+    <meta property="article:modified_time" content="2023-10-13T11:33:33.000Z">
+    <meta property="article:tag" content="Public Health">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Someone Infected Neil Gaiman with COVID-19, After Venues Refused to Enforce Audience Masking">
+    <meta name="twitter:description" content="With a call-to-action and concrete solutions for safer venues.">
+    <meta name="twitter:url" content="https://www.okdoomer.io/someone-infected-neil-gaiman-with-covid-19/">
+    <meta name="twitter:image" content="https://www.okdoomer.io/content/images/2023/10/a.webp">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Charles A. Waltz">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Public Health">
+    <meta name="twitter:site" content="@JessicaLexicus">
+    <meta name="twitter:creator" content="@waltz_tales">
+    <meta property="og:image:width" content="720">
+    <meta property="og:image:height" content="399">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "OK Doomer",
+        "url": "https://www.okdoomer.io/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.okdoomer.io/content/images/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Charles A. Waltz",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.okdoomer.io/content/images/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg",
+            "width": 1738,
+            "height": 1743
+        },
+        "url": "https://www.okdoomer.io/author/charleswaltz/",
+        "sameAs": [
+            "https://twitter.com/waltz_tales"
+        ]
+    },
+    "headline": "Someone Infected Neil Gaiman with COVID-19, After Venues Refused to Enforce Audience Masking",
+    "url": "https://www.okdoomer.io/someone-infected-neil-gaiman-with-covid-19/",
+    "datePublished": "2023-10-08T20:45:51.000Z",
+    "dateModified": "2023-10-13T11:33:33.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.okdoomer.io/content/images/2023/10/a.webp",
+        "width": 720,
+        "height": 399
+    },
+    "keywords": "Public Health",
+    "description": "With a call-to-action and concrete solutions for safer venues.",
+    "mainEntityOfPage": "https://www.okdoomer.io/someone-infected-neil-gaiman-with-covid-19/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.70">
+    <link rel="alternate" type="application/rss+xml" title="OK Doomer" href="https://www.okdoomer.io/latest/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.36/umd/portal.min.js" data-i18n="false" data-ghost="https://www.okdoomer.io/" data-key="1d2b86a04f7e3558e5581dfbf0" data-api="https://ok-doomer.ghost.io/ghost/api/content/" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style><script async src="https://js.stripe.com/v3/"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="1d2b86a04f7e3558e5581dfbf0" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="https://ok-doomer.ghost.io/" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/announcement-bar@~1.1/umd/announcement-bar.min.js" data-announcement-bar="https://www.okdoomer.io/" data-api-url="https://www.okdoomer.io/members/api/announcement/" crossorigin="anonymous"></script>
+    <link href="https://www.okdoomer.io/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=75b5056cef"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=75b5056cef">
+    <script defer src="/public/comment-counts.min.js?v=75b5056cef" data-ghost-comments-counts-api="https://www.okdoomer.io/members/api/comments/counts/"></script>
+    <script defer src="/public/member-attribution.min.js?v=75b5056cef"></script>
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1S2NC3GPJ4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1S2NC3GPJ4');
+</script>
+<style>:root {--ghost-accent-color: #d83a05;}</style>
+  </head>
+  <body class="post-template tag-public-health "  data-excerpts="true">
+    <div class="progress-bar"></div>
+
+      <header class="header js-header" data-logo="center" data-style="sticky">
+  <div class="container wrapper flex items-center header__container">
+    <div class="header__more">
+      <button class="btn header__menu-toggle js-menu-toggle" title="Menu" aria-label="Menu">
+        <i class="icon icon-menu">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+  <path d="M4 8l16 0"></path>
+  <path d="M4 16l16 0"></path>
+</svg>
+</i>        <i class="icon icon-x">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <line x1="18" y1="6" x2="6" y2="18" />
+  <line x1="6" y1="6" x2="18" y2="18" />
+</svg>
+</i>        <span>Menu</span>
+      </button>
+
+      <button class="btn header__search-toggle" data-ghost-search title="Search" aria-label="Search">
+        <i class="icon icon-search">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+</i>        <span>Search</span>
+      </button>
+    </div>
+
+    <div class="header__brand">
+<a href="https://www.okdoomer.io">          <picture class="default-logo">
+  <source 
+    sizes="(max-width: 800px) 200px, 320px"
+    
+    
+    srcset="/content/images/size/w300/format/webp/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg 300w, /content/images/size/w600/format/webp/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg 600w"
+    type="image/webp"
+  >
+  <img class="header__logo"
+    sizes="(max-width: 800px) 200px, 320px"
+    
+    data-srcset="/content/images/size/w300/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg 300w, /content/images/size/w600/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg 600w"
+    srcset="/content/images/size/w30/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg 30w"
+    data-src="/content/images/size/w100/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg"
+    src="/content/images/size/w30/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg"
+    alt="OK Doomer"
+    loading="eager"
+  >
+</picture></a>    </div>
+
+    <div class="header__actions">
+          <a href="/signin/" class="btn signin-link radius" data-portal="signin">Log in</a>
+          <a href="/signup/" class="btn signup-link btn--brand radius" data-portal="signup">Subscribe</a>
+        
+
+      <div class="member-menu js-member-menu">
+      <a href="/signup/" data-portal="signup" class="signup-link">
+        <i class="icon icon-arrow-up-right icon--sm">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <line x1="17" y1="7" x2="7" y2="17" />
+  <polyline points="8 7 17 7 17 16" />
+</svg>
+
+
+
+</i>Sign up
+      </a>
+
+      <a href="/signin/" data-portal="signin" class="signin-link">
+        <i class="icon icon-login icon--sm">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-in">
+  <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+  <polyline points="10 17 15 12 10 7"></polyline>
+  <line x1="15" y1="12" x2="3" y2="12"></line>
+</svg>
+</i>Sign in
+      </a>
+</div>    </div>
+  </div>
+</header>
+
+<div class="header-menu">
+  <div class="container wrapper flex">
+
+    <nav class="header-menu-nav">
+      <ul class="nav">
+    <li class="nav-home" 
+      data-label="Home" data-length="4">
+      <a href="https://www.okdoomer.io/">
+        <span>Home</span>
+      </a>
+    </li>
+    <li class="nav-about" 
+      data-label="About" data-length="5">
+      <a href="https://www.okdoomer.io/about/">
+        <span>About</span>
+      </a>
+    </li>
+    <li class="nav-lists" 
+      data-label="Lists" data-length="5">
+      <a href="https://www.okdoomer.io/covid-and-climate-lists/">
+        <span>Lists</span>
+      </a>
+    </li>
+    <li class="nav-write" 
+      data-label="Write" data-length="5">
+      <a href="https://www.okdoomer.io/write/">
+        <span>Write</span>
+      </a>
+    </li>
+    <li class="nav-support" 
+      data-label="Support" data-length="7">
+      <a href="https://www.okdoomer.io/support/">
+        <span>Support</span>
+      </a>
+    </li>
+    <li class="nav-subscribe" 
+      data-label="Subscribe" data-length="9">
+      <a href="https://www.okdoomer.io/#/portal">
+        <span>Subscribe</span>
+      </a>
+    </li>
+</ul>
+    </nav>
+
+  </div>
+</div>
+
+
+
+      <div class="menu js-menu">
+  <div class="container wrapper">
+    <div class="menu__content">
+      <nav class="menu__navigation">
+        <ul class="nav">
+    <li class="nav-home" 
+      data-label="Home" data-length="4">
+      <a href="https://www.okdoomer.io/">
+        <span>Home</span>
+      </a>
+    </li>
+    <li class="nav-about" 
+      data-label="About" data-length="5">
+      <a href="https://www.okdoomer.io/about/">
+        <span>About</span>
+      </a>
+    </li>
+    <li class="nav-lists" 
+      data-label="Lists" data-length="5">
+      <a href="https://www.okdoomer.io/covid-and-climate-lists/">
+        <span>Lists</span>
+      </a>
+    </li>
+    <li class="nav-write" 
+      data-label="Write" data-length="5">
+      <a href="https://www.okdoomer.io/write/">
+        <span>Write</span>
+      </a>
+    </li>
+    <li class="nav-support" 
+      data-label="Support" data-length="7">
+      <a href="https://www.okdoomer.io/support/">
+        <span>Support</span>
+      </a>
+    </li>
+    <li class="nav-subscribe" 
+      data-label="Subscribe" data-length="9">
+      <a href="https://www.okdoomer.io/#/portal">
+        <span>Subscribe</span>
+      </a>
+    </li>
+</ul>
+
+          <ul class="nav secondary submenu">
+    <li class="nav-sign-up" 
+      data-label="Sign up" data-length="7">
+      <a href="#/portal/">
+        <span>Sign up</span>
+      </a>
+    </li>
+    <li class="nav-more-news" 
+      data-label="More News" data-length="9">
+      <a href="https://www.okdoomer.io/">
+        <span>More News</span>
+      </a>
+    </li>
+</ul>
+      </nav>
+
+      <div class="menu__posts">
+        <span class="menu__posts-title">Latest news</span>
+            <article class="post-card has-img horizontal js-post-card">
+
+  <div class="post-card__content flex flex-col ">
+      <a class="post-tag mr-sm tag-public-health" href="/tag/public-health/" aria-label="Public Health"
+        
+      >Public Health</a>
+
+      <h2 class="post-card__title"><a href="https://www.okdoomer.io/were-sick-of-getting-sick-clean-the-air/">We&#x27;re Sick of Getting Sick All The Time. Clean The Air.</a></h2>
+    
+    <p class="post-card__excerpt opacity-080">
+      Join the revolution.
+    </p>
+
+    <div class="post-info">
+  <ul class="post-info__avatars">
+        <li class="author-avatar has-image">
+          <a href="/author/jessicawildfire/" title="Jessica Wildfire" aria-label="Jessica Wildfire">
+              <picture class="">
+  <source 
+    sizes="60px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-srcset="/content/images/size/w30/format/webp/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/format/webp/2023/08/OkDoomer2.jpg 100w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="60px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/2023/08/OkDoomer2.jpg 100w"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-src="/content/images/size/w100/2023/08/OkDoomer2.jpg"
+    src="/content/images/size/w30/2023/08/OkDoomer2.jpg"
+    alt="Jessica Wildfire"
+    
+  >
+</picture>          </a>
+        </li>
+  </ul>
+  
+    <span class="post-info__authors"><a href="/author/jessicawildfire/">Jessica Wildfire</a></span>
+  
+  <time datetime="2023-10-25">Oct 25, 2023</time> 
+</div>  </div>
+</article>            <article class="post-card has-img horizontal js-post-card">
+
+  <div class="post-card__content flex flex-col ">
+      <a class="post-tag mr-sm tag-social-health" href="/tag/social-health/" aria-label="Social Health"
+        
+      >Social Health</a>
+
+      <h2 class="post-card__title"><a href="https://www.okdoomer.io/updates-fear-speech-the-second-c/">Updates: Fear Speech, The Second Coming, and Your Doomsday Toilet</a></h2>
+    
+    <p class="post-card__excerpt opacity-080">
+      Greetings, Doomers:
+
+We've got a few new pieces up on the site. First, Alan Urban talks about the problems your
+    </p>
+
+    <div class="post-info">
+  <ul class="post-info__avatars">
+        <li class="author-avatar has-image">
+          <a href="/author/jessicawildfire/" title="Jessica Wildfire" aria-label="Jessica Wildfire">
+              <picture class="">
+  <source 
+    sizes="60px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-srcset="/content/images/size/w30/format/webp/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/format/webp/2023/08/OkDoomer2.jpg 100w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="60px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/2023/08/OkDoomer2.jpg 100w"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-src="/content/images/size/w100/2023/08/OkDoomer2.jpg"
+    src="/content/images/size/w30/2023/08/OkDoomer2.jpg"
+    alt="Jessica Wildfire"
+    
+  >
+</picture>          </a>
+        </li>
+  </ul>
+  
+    <span class="post-info__authors"><a href="/author/jessicawildfire/">Jessica Wildfire</a></span>
+  
+  <time datetime="2023-10-24">Oct 24, 2023</time> 
+</div>  </div>
+</article>            <article class="post-card has-img is-featured horizontal js-post-card">
+
+  <div class="post-card__content flex flex-col ">
+      <a class="post-tag mr-sm tag-social-health" href="/tag/social-health/" aria-label="Social Health"
+        
+      >Social Health</a>
+
+      <h2 class="post-card__title"><a href="https://www.okdoomer.io/joe-biden-has-already-lost/">Joe Biden Has Already Lost</a></h2>
+    
+    <p class="post-card__excerpt opacity-080">
+      The Democratic party is sacrificing its core values for power.
+    </p>
+
+    <div class="post-info">
+  <ul class="post-info__avatars">
+        <li class="author-avatar has-image">
+          <a href="/author/jessicawildfire/" title="Jessica Wildfire" aria-label="Jessica Wildfire">
+              <picture class="">
+  <source 
+    sizes="60px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-srcset="/content/images/size/w30/format/webp/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/format/webp/2023/08/OkDoomer2.jpg 100w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="60px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/2023/08/OkDoomer2.jpg 100w"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-src="/content/images/size/w100/2023/08/OkDoomer2.jpg"
+    src="/content/images/size/w30/2023/08/OkDoomer2.jpg"
+    alt="Jessica Wildfire"
+    
+  >
+</picture>          </a>
+        </li>
+  </ul>
+  
+    <span class="post-info__authors"><a href="/author/jessicawildfire/">Jessica Wildfire</a></span>
+  
+  <time datetime="2023-10-23">Oct 23, 2023</time> 
+</div>  </div>
+</article>      </div>
+    </div>
+  </div>
+
+  <div class="w-100 mt border-top">
+    <div class="menu__actions">
+          <a href="/signin/" data-portal="signin" class="btn signin-link radius">
+            Log in
+          </a>
+          <a href="/signup/" data-portal="signup" class="btn signup-link btn--brand radius">
+            Subscribe
+          </a>
+
+      <span class="flex-1"></span>
+
+      <div class="social-links items-center mb">
+        <span class="fw-600 mr-sm">Follow</span>
+        
+  <a href="https://twitter.com/JessicaLexicus" class="twitter" aria-label="Twitter"><i class="icon icon-twitter icon--sm filled">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+</i><span>Twitter</span></a>
+
+<a href="https://www.okdoomer.io/latest/rss" class="rss" aria-label="RSS"><i class="icon icon-rss icon--sm">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+</i><span>RSS</span></a>
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+    <main class="main flex-1">
+      
+  <div class="container wrapper">
+        <div class="post-hero is-post wide" 
+    data-feature-image="true">
+    
+    <div class="post-hero__content flex flex-col">
+        <a class="post-tag mr-sm tag-public-health" href="/tag/public-health/" aria-label="Public Health"
+          
+        >Public Health</a>
+
+      <h1 class="post-hero__title">Someone Infected Neil Gaiman with COVID-19, After Venues Refused to Enforce Audience Masking</h1>
+    
+        <p class="post-hero__excerpt text-acc">With a call-to-action and concrete solutions for safer venues.</p>
+
+        <div class="post-info">
+  <ul class="post-info__avatars">
+        <li class="author-avatar has-image">
+          <a href="/author/charleswaltz/" title="Charles A. Waltz" aria-label="Charles A. Waltz">
+              <picture class="">
+  <source 
+    sizes="60px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg 30w"
+    data-srcset="/content/images/size/w30/format/webp/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg 30w, /content/images/size/w100/format/webp/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg 100w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="60px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w30/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg 30w, /content/images/size/w100/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg 100w"
+    srcset="/content/images/size/w30/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg 30w"
+    data-src="/content/images/size/w100/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg"
+    src="/content/images/size/w30/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg"
+    alt="Charles A. Waltz"
+    
+  >
+</picture>          </a>
+        </li>
+  </ul>
+  
+    <span class="post-info__authors"><a href="/author/charleswaltz/">Charles A. Waltz</a></span>
+  
+  <time datetime="2023-10-08">Oct 8, 2023</time> 
+</div>    </div>
+
+      <div class="post-hero__media">
+        <figure class="post-hero__figure">
+          <picture class="">
+  <source 
+    sizes="(max-width: 400px) 280px, 580px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/10/a.webp 30w"
+    data-srcset="/content/images/size/w300/format/webp/2023/10/a.webp 300w, /content/images/size/w600/format/webp/2023/10/a.webp 600w, /content/images/size/w1000/format/webp/2023/10/a.webp 1000w, /content/images/size/w2000/format/webp/2023/10/a.webp 2000w"
+    type="image/webp"
+  >
+  <img class="lazyload post-hero__img"
+    sizes="(max-width: 400px) 280px, 580px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w300/2023/10/a.webp 300w, /content/images/size/w600/2023/10/a.webp 600w, /content/images/size/w1000/2023/10/a.webp 1000w, /content/images/size/w2000/2023/10/a.webp 2000w"
+    srcset="/content/images/size/w30/2023/10/a.webp 30w"
+    data-src="/content/images/size/w100/2023/10/a.webp"
+    src="/content/images/size/w30/2023/10/a.webp"
+    alt="Someone Infected Neil Gaiman with COVID-19, After Venues Refused to Enforce Audience Masking"
+    
+  >
+</picture>          <figcaption>Neil Gaiman</figcaption>
+        </figure>
+      </div>
+
+  </div>
+
+      <div class="mb-lg wrapper-wide m-0-auto">
+        <div class="row">
+          <div class="col-xs-12 col-lg-8">
+              <div class="post-date-share">
+  <time datetime="2023-10-08">
+    <span>October 08 2023</span>
+    <span class="post-date__time">8:45 PM</span>
+  </time>
+
+    <span class="post-readtime">16 min read</span>
+  
+    <a class="post-comment-count" href="#comments">
+      <i class="icon icon-comment icon--sm">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message-circle-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1"></path>
+</svg>
+</i>      <script
+    data-ghost-comment-count="652308e963f7c80001968193"
+    data-ghost-comment-count-empty="0"
+    data-ghost-comment-count-singular=""
+    data-ghost-comment-count-plural=""
+    data-ghost-comment-count-tag="span"
+    data-ghost-comment-count-class-name=""
+    data-ghost-comment-count-autowrap="true"
+>
+</script>
+    </a>
+
+  <span class="spacing"></span>
+
+  <button class="share-toggle" onclick="this.classList.toggle('is-active')">
+    <span>Share</span>
+    <i class="icon icon-chevron-down">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <polyline points="6 9 12 15 18 9"></polyline>
+</svg>
+</i>  </button>
+
+  <div class="social-share content-width ">
+  <a class="social-share__item twitter js-share" target="_blank"
+      href="https://twitter.com/share?text=Someone%20Infected%20Neil%20Gaiman%20with%20COVID-19%2C%20After%20Venues%20Refused%20to%20Enforce%20Audience%20Masking&amp;url=https://www.okdoomer.io/someone-infected-neil-gaiman-with-covid-19/"
+      title="Share on Twitter" aria-label="Share on Twitter">
+    <i class="icon icon-twitter icon--sm filled">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+</i>    <span>Tweet</span>
+  </a>
+  <a class="social-share__item facebook js-share" target="_blank"
+      href="https://www.facebook.com/sharer.php?u=https://www.okdoomer.io/someone-infected-neil-gaiman-with-covid-19/"
+      title="Share on Facebook" aria-label="Share on Facebook">
+    <i class="icon icon-facebook icon--sm filled">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+</svg>
+
+
+
+</i>    <span>Share</span>
+  </a>
+  <a class="social-share__item linkedin js-share" target="_blank"
+      href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.okdoomer.io/someone-infected-neil-gaiman-with-covid-19/&title=Someone%20Infected%20Neil%20Gaiman%20with%20COVID-19%2C%20After%20Venues%20Refused%20to%20Enforce%20Audience%20Masking&summary=Someone%20Infected%20Neil%20Gaiman%20with%20COVID-19%2C%20After%20Venues%20Refused%20to%20Enforce%20Audience%20Masking"
+      title="Share on Linkedin" aria-label="Share on Linkedin">
+    <i class="icon icon-linkedin icon--sm filled">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+  <rect x="2" y="9" width="4" height="12"></rect>
+  <circle cx="4" cy="4" r="2"></circle>
+</svg>
+</i>    <span>Share</span>
+  </a>
+  <a class="social-share__item mail"
+      href="mailto:?subject=Someone%20Infected%20Neil%20Gaiman%20with%20COVID-19%2C%20After%20Venues%20Refused%20to%20Enforce%20Audience%20Masking&body=https://www.okdoomer.io/someone-infected-neil-gaiman-with-covid-19/&nbsp;Someone%20Infected%20Neil%20Gaiman%20with%20COVID-19%2C%20After%20Venues%20Refused%20to%20Enforce%20Audience%20Masking"
+      title="Share by email" aria-label="Share by email">
+    <i class="icon icon-mail icon--sm">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="3" y="5" width="18" height="14" rx="2" />
+  <polyline points="3 7 12 13 21 7" />
+</svg>
+</i>    <span>Email</span>
+  </a>
+  <button class="copy-link copy js-copy-link" data-url="https://www.okdoomer.io/someone-infected-neil-gaiman-with-covid-19/"
+      title="Copy to clipboard" data-label="Copied!" aria-label="Copy to clipboard">
+    <i class="icon icon-link icon--sm">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M9 15l6 -6"></path>
+   <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464"></path>
+   <path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463"></path>
+</svg>
+</i>    <span>Copy</span>
+  </button>
+</div>
+
+</div>
+            <article class="post tag-public-health content post-access-public no-overflow">
+              <p><strong>With a call-to-action and concrete solutions for safer venues.With a call-to-action and concrete solutions for safer venues.</strong></p><p>First thing's first. If the phrasing in the title feels unfamiliar, it has a purpose: We are eliminating the passive voice from the pandemic. Right now.</p><p>Neil Gaiman didn’t just <em>get</em> COVID-19.</p><p>Someone INFECTED Neil Gaiman with COVID-19.</p><p>And many someones in overlapping layers of responsibility ENABLED this infection.</p><p>This linguistic shift from the passive to active voice might seem irrelevant but, instead of just echoing the framing we see in the headlines — that Neil Gaiman got COVID-19— it’s time to own that somebody has infected Neil.</p><p>The passive voice has served a macabre purpose in this pandemic. The passive voice, by erasing the subject of the sentence, neatly obscures accountability, and with it our own role in unmitigated infections. Moreover, it has prevented us from identifying the layers of responsibility in enabling infections on a mass scale. This mental block is the first obstacle to advocating for effective mitigations and constructive solutions. It stops us from preventing infections. But that is changing now.</p><p>It is time to own the damage that we are causing by infecting others with COVID-19. I believe that we all know, deep inside, that we are causing harm. And many of us are suffering from the cognitive dissonance of pretending that we aren’t. Because, in a pandemic, this is serious and large-scale harm.</p><p>This harm that, according to estimates, has killed <a href="https://www.economist.com/graphic-detail/coronavirus-excess-deaths-estimates?ref=okdoomer.io" rel="noopener ugc nofollow">over 25 million people</a> and <a href="https://www.nature.com/articles/s41579-022-00846-2?ref=okdoomer.io" rel="noopener ugc nofollow">disabled at least 65 million</a> and counting. The sooner we face the harm we are causing by infecting other people, the less damage we will cause to ourselves, to our loved ones, to our community, to strangers on the other side of the world. And to people who entertain and inspire us, like speculative fiction author and TV creator Neil Gaiman. And inspiration is necessary when we are facing so many challenges. It’s that simple.</p><p>Since I can’t expect everyone to have the time to read to the end of this article, and I’ve been told that my prose style is “not simple” (but I’m a screenwriter and am teaching myself journalistic writing as I go, so bear with me) here are some relevant facts, based on settled knowled, about COVID-19 infections:</p><ul><li>COVID-19 is a serious, multi-system vascular disease that creates <a href="https://www.news-medical.net/news/20220620/Each-SARS-CoV-2-reinfection-causes-more-severe-disease.aspx?ref=okdoomer.io" rel="noopener ugc nofollow"><em>severe</em> and <em>cumulative</em> damage</a>.</li><li><a href="https://www.thehindu.com/sci-tech/health/every-reinfection-increases-the-risk-to-health/article65562513.ece?ref=okdoomer.io" rel="noopener ugc nofollow">Reinfections tend to be more severe</a> and Long COVID occurs in <a href="https://www.cambridge.org/core/journals/infection-control-and-hospital-epidemiology/article/abs/risk-factors-for-long-coronavirus-disease-2019-long-covid-among-healthcare-personnel-brazil-20202022/AA01F17E1C8A33C07457914E63AB3EEE?ref=okdoomer.io" rel="noopener ugc nofollow">1/10–1/3</a> infections.</li><li><a href="https://abcnews.go.com/Health/covid-transmission-asymptomatic/story?id=84599810&ref=okdoomer.io" rel="noopener ugc nofollow">Up to 60% of infections are spread asymptomatically</a>… Wait, let me rephrase that. People, who are asymptomatic, or presymptomatic, are infecting others with COVID-19 in up to 60% of cases.</li><li>A person who is presymptomatic <a href="https://www.healthdirect.gov.au/covid-clarity/infectious?ref=okdoomer.io#:~:text=The%20COVID%2D19%20infectious%20period,for%20up%20to%2010%20days." rel="noopener ugc nofollow">can transmit a COVID-19 infection up to <em>two days</em> before symptoms arise</a>.</li><li><a href="https://www.epa.gov/coronavirus/indoor-air-and-coronavirus-covid-19?ref=okdoomer.io" rel="noopener ugc nofollow">People infect other people with SARS-CoV-2 through aerosols.</a> An infected person expels them just by exhaling. The aerosols accumulate in the air, and spread across large spaces like cigarette smoke. They also remain in the air for hours, so even if a room is empty, if a symptomatic person was there earlier, the aerosols will still be there. Crowded, indoor spaces are high-risk for transmission.</li><li>We are currently in a wave caused by a new variant for which a vaccine has yet to be developed. <a href="https://news.northwestern.edu/stories/2023/09/covid-patients-exhale-up-to-1000-copies-of-virus-per-minute-during-first-eight-days-of-symptoms/?ref=okdoomer.io" rel="noopener ugc nofollow">In a crowd of 100, statistically 1-2 people will have active infections</a>.</li></ul><p>If we put all of this together, we see that live events in crowded, indoor spaces are particularly dangerous, and that masking only when someone is symptomatic is woefully inadequate to prevent infecting others. So, in order to not infect other people, we need to individually mask at these events, and to collectively apply pressure to venues that are enabling these infections, as well as to lawmakers who have removed protections.</p><p>That’s the tl;dr. Now, if you have some time, and feel motivated to prevent further infections, let’s look more systematically at the problem of people infecting other people, especially at live events, and how to constructively address it.</p><h1 id="neil-gaiman-requested-masking-at-his-events-from-both-venues-and-audience-members"><strong>Neil Gaiman requested masking at his events, from both venues and audience members</strong></h1><p>It’s fucked-up that, three days after Neil Gaiman requested that attendees voluntarily mask at his tour events — because the venues themselves refused to enforce audience masking — Neil announced on social media that he has <em>another</em> COVID-19 infection and “this time it means business.”</p><figure class="kg-card kg-image-card"><img src="https://miro.medium.com/v2/resize:fit:700/1*einXhyoAC9mcHgGXYB5Pkw.jpeg" class="kg-image" alt loading="lazy" width="700" height="981"></figure><p>This infection — and any COVID-19 infection — is terrible, but unfortunately not surprising. We are in a wave caused by multiple variants, and lawmakers worldwide dropped most COVID-19 public health mitigations earlier this year. So people who are appearing at live events now are at an incredibly high risk of being infected. The risk is also increased due to a swarm of new variants — so many versions of the virus are circulating now, you can get a case in August and another in September</p><p>As a fan of Neil Gaiman, I guess I wished that somehow it would miss him. <a href="https://jneuroinflammation.biomedcentral.com/articles/10.1186/s12974-022-02514-x?ref=okdoomer.io" rel="noopener ugc nofollow">COVID-19 infects the brain</a>, and his brain has created my favorite TV series, <em>Good Omens</em>, a queer love story between an angel and a demon. This series has helped me, and countless others, heal from religious trauma. It also rekindled my appreciate for David Tennant in his role as the demon Crowley, who witnesses everything from Old Testament atrocities to a modern-day armageddon, and seems to be the only one suggesting that God <em>might</em> be a tyrant. With so many of us experiencing a dark night of the soul in the pandemic, it’s much-needed validation.</p><p>What also worries, but not surprises, me about Neil’s infection is that, if his statement that “this time it means business” is anything to go by, (especially for someone who can be quite understated), this infection is more severe than any previous ones. This unfortunately is also not surprising, as reinfections tend to be more severe. The damage from these infections is cumulative, and SARS-CoV-2 <a href="https://www.nature.com/articles/s41590-021-01113-x?ref=okdoomer.io" rel="noopener ugc nofollow">attacks the immune system</a>, in many cases after a person has recovered from an initial infection. <a href="https://www.newscientist.com/article/mg25033343-000-premature-ageing-of-the-immune-system-may-be-one-cause-of-long-covid/?ref=okdoomer.io" rel="noopener ugc nofollow">Viral reservoirs continually attacking the body are believed to be the mechanism of Long COVID</a>. However, his more severe course reminds me of other performers who are currently touring, almost without exception at massive, indoor, unmasked events.</p><p>Actually, it’s more accurate to say that it scares the hell out of me.</p><p>Actors from another TV series beloved by queer fans, <em>Our Flag Means Death</em>, including Rhys Darby, Vico Ortiz and Samson Kayo, will appear at London Comic Con on October 27–29th. The event will have more than 100,000 attendees and does not require masks. And David Tennant, who sparked my motivation to advocate for safer venues, will appear at New York Comic Con October 12-15th. NYCC will have over 200,000 attendees and also does not require masks. I checked.</p><figure class="kg-card kg-image-card"><img src="https://miro.medium.com/v2/resize:fit:700/1*pYFcBjpnVP_tZE30P2HrAA.jpeg" class="kg-image" alt loading="lazy" width="700" height="411"></figure><p>The math on the likely damage is pretty fucking grim.</p><p>It’s estimated that in a crowd of 100, 1–2 people have a COVID-19 infection. So that’s at least 2,000 attendees spreading the virus.</p><p>Each person infects 2–3 other people. This is total, so they may not infect people at this event. But because the venue is extremely high risk: indoors, crowded, no mitigations, they may infect more people than averge.</p><p>So, from 2,000 people who go to Comic Con with infections, that’s at least 4,000 people that they will infect.</p><p>Between ⅓–1/10 infections result in Long COVID, so at least 400 people statistically may develop Long COVID. From one event.</p><p>tl;dr 200,000 attendees/100=<br>2,000 infections x 2=<br>4,000 newly infected/10<br>=400 Long COVID cases</p><p>And that’s the conservative estimate. The upper-end estimate, based on data, is up to 2%.</p><p>You can bet that I’m well-aware that David Tennant has a .2%-2% chance of developing Long COVID from this one event, especially because he’s due to play MacBeth in London this winter. The luckiest person who ever existed would statistically develop Long COVID after their 50th event.</p><p>It’s not just headlining performers who need to worry about infections. Any attendee has a .2% chance of developing Long COVID from this one event, and that’s a tragedy in the fan community, but also for people working on staff who don’t choose to be there. I wonder what would happen if the damage were immediately visible, like setting fire to 400 guests, fans, and staff people at the door. What then?</p><p>If you have read my first article sounding the alarm on unprecedented numbers of performers becoming seriously ill and dying in the pandemic, you will know that my own fannish devotion to David Tennant inspired me to advocate for COVID-19 mitigations at venues and nourishes me with the love and compassion to do this work. With Neil Gaiman’s infection, it hits home that everyone who is currently doing live events, particularly large ones with no mitigations, are quite likely going to be infected. And in the fourth year of the pandemic, that means reinfected, which means that, like in Neil’s case, it will probably be more severe.</p><p>Performers are just my own corner of advocacy, but we all breathe the same air, so these new infections will affect everyone. And people with disabilities, who work in service and customer-facing jobs, or who have inadequate access to medical care, will be the most vulnerable. But most people now have had at least one infection, so we’re all facing danger here.</p><p>This is why I want to prevent people from infecting people at events, and by doing so to raise awareness in the wider public that this is an escalating emergency. And I think it’s achievable.</p><p>The first step is identifying the causes, both individual and structural. Then to come up with workable interventions at each point of responsbility.</p><h1 id="individual-responsibility-someone-infected-neil-gaiman-with-covid-19"><strong>Individual responsibility: someone infected Neil Gaiman with COVID-19</strong></h1><p>Preventing infections begins at the individual level. As the founder of #FansMASKUP, which is dedicated to raising awareness in the fan community about masking at live events, my first feeling was rage at the person who infected Neil. The incubation period for COVID-19 varies widely, from 2–14 days, though on average 5–6. So, if Neil developed symptoms on October 5th, it’s possible that someone in the audience on the October 2nd event infected him. And if that person is such a fan of Neil that they paid to see him live, I ask: why didn’t they just wear a mask? But even this is not so simple.</p><p>From my conversations with other fans who have been diligent about masking, they sometimes experience harassment, and fear for their safety and mental health. And since so many of us are LGBTQIA+, neurodivergent, BIPOC and/or disabled, we are statistically more vulnerable to people harassing us, or even assaulting us, if we are the only ones masking. So as much as I’d like to judge this person for infecting someone who they admire, I have to admit that safety is too often a real concern for our community.</p><h2 id="what-can-we-do-on-an-individual-level-to-promote-safer-venues">What can we do on an individual level to promote safer venues?</h2><ul><li>If we feel sufficient safety to mask at live events, then we should do so.</li><li>If we are going with friends, we can encourage them to mask too.</li><li>We can connect on social media and find other fans who are attending and mask together.</li><li>Heck, if we have a spare $20 (which not all of us do), we can even give out masks at the event so that we’re not the only one.</li></ul><p>Aside from fear and social pressure, people may have stopped masking due to exhaustion, despair and misinformation — we MUST start again. Every masked person can break a chain of transmission and save many, many lives. Maybe even Neil Gaiman’s life, and certainly the lives of your loved ones, including fellow fans.</p><h1 id="institutional-responsibility-venues-are-enabling-people-to-infect-other-people-with-covid-19"><strong>Institutional responsibility: venues are enabling people to infect other people with COVID-19</strong></h1><p>It would be a mistake to lay all of the responsibility on the person who infected Neil. There has been systemic neglect, and even malfeasance, at every level of responsibility, and the people who are making these decisions are enabling people to infect others. Though this reaches into the level of policy, let’s begin with the most direct enabler in this instance: the venues.</p><p>Remember, Neil said on social media that he requested audience masking at venues, but they refused. Then after his first tour date, he announced that someone had infected with with SARS-CoV-2. We can’t know whether someone infected him at this particular event, though the timing is consistent with the virus’s incubation period. Regardless, the venue has approximately 1,700 seats, and if Neil’s event was sold-out, as most are, that’s: 17 active infections, 51 new infections, 5 cases of Long COVID. So wherever someone infected Neil with COVID, it is worthwhile to advocate for venues to use mitigations.</p><p>The mitigations required to significantly reduce people infecting other people at live events are relatively simple and have been proven time-and-again to reduce the the transmission of SARS-CoV-2:</p><ol><li>Audience masking and vaccination</li><li>Making use of HEPA air purification/filtration.</li></ol><p>This is achievable, and venues should have been doing this since 2020. Some venues do it, and it is certainly possible, and not terribly complicated, for more venues to adopt these simple precautions.</p><p>Now, the more complex question is: if it’s so simple, why are venues refusing to use mitigations? Some of it is simply greed. It costs money, though not a lot of money, between £300–600 ($370–740) to purchase a HEPA air filter. And for truly cash-strapped venues, vendors likes Smart Air UK are renting out HEPA air filters for events. So there really is no excuse. For those who are unfamiliar with HEPA, here’s a primer from outreach coordinator (and fan herself) for Smart Air UK, Guilia Villanucci.</p><p>I’m quoting at length, but tl;dr: HEPA purifiers can remove more than 99.97% of virus particles from the air, and protecting Neil at one of his events would only have cost between $400-$700. And you can’t put a price on his brain, so…</p><blockquote>HEPA stands for “high-efficiency particulate air.” HEPA air purifiers are nothing else than a box with a filter and a fan inside. Researchers agree that, based on their efficiency, air purifiers can remove more than 99.97% of virus particles from the air when used continuously.Now, does this extra layer of protection have to be very expensive? It can be, especially if you look only at brand names without paying attention to the technical specifications. I recommend Smart Air products, partly because I work for Smart Air UK, but mostly because these air purifiers are cheaper than most on the market, are highly efficient, and are pretty quiet.NOTE: If you are a performer based in Chicago, USA, you should check out Clean Air Club, they loan air purifiers at no extra cost to artists and touring musicians. If you are a venue or a performer based in the UK, you can rent air purifiers from us, or purchase them to take them on tour with you, just like singer and songwriter The Anchoress does. An investment of between <strong>£300 to £600</strong> will probably be enough to keep performers safer in a venue if you purchase from Smart Air UK.</blockquote><p>Again, HEPA air purifiers are effective and affordable and I can only think a noxious mix of greed, inertia and denial are preventing most venues from using this basic precaution.</p><p>There may be other financial considerations. Requiring masks could lead to lost revenue as people who refuse to mask will not attend. And, as of yet, venues face no financial liability for enabling infections. Though with lawsuits winding their way through courts regarding liability for COVID-19 infections, this may change.</p><p>However, like fans, venues may also have legitimate concerns for safety, The far-right has so politicized masking that the people responsible for venues are likely afraid of repercussions, ranging from the awkwardness of barring an unmasked person from attending an event, to someone throwing a brick through the window, or even assaulting a person on staff. These fears are not entirely unreasonable. But we need to make clear that these venues are enabling people to infect their headliners, Neil Gaiman or David Tennent or Taylor Swift. Additionally, lack of mitigations endangers attendees and people on staff, and lawsuits against employers who have exposed employees to COVID-19 infection have had more success. This changes the risk calculation.</p><h2 id="what-can-we-do-to-encourage-venues-to-create-safer-event-spaces"><strong>What can we do to encourage venues to create safer event spaces?</strong></h2><p>We can contact the venues themselves, beginning with the ones who likely are not using basic mitigations. These can be any venue where you or one of your favorites will be in attendance.</p><p>We can also start with the venues where Neil was scheduled to appear. Here is a list of these venues with the ways to contact them.</p><p>Emerson Colonial Theatre<br>(888) 616–0272<br>boston@service.broadwayacrossamerica.com<br>Twitter-X/IG: @BroadwayBoston</p><p>The Westport Library<br>(203) 291–4800<br>Twitter-X/IG: @WestportLibrary</p><p>Cooper Union<br>development@cooper.edu<br>(212) 353–4100<br>Twitter-X/IG: @cooperunion</p><p>Peter J Sharp Theatre<br>(212) 864–5400<br>boxoffice@symphonyspace.org<br>Twitter-X/IG: @SymphonySpace</p><p>Dr. Phillips Center for the Performing Arts<br>guestservices@drphillipscenter.org<br>407.839.0119<br>@DrPhillipsCtr</p><p>Venice Performing Arts Center<br>information@vipam.org<br>(941) 218–3779</p><p>Zoellner Arts Center at Lehigh University<br>610–758–2787<br>inzactix@lehigh.edu<br>@LehighU @ZoellnerArts</p><p>Frikirkjan i Reykvavik+353 552 7270<br><a href="mailto:frikirkjan@frikirkjan.is" rel="noopener ugc nofollow">frikirkjan@frikirkjan.is</a><br>@iclandnoir</p><p>Piggott Theatre (British Library)<br>+44 (0)1937 546060<br><a href="mailto:Customer-Services@bl.uk" rel="noopener ugc nofollow">Customer-Services@bl.uk</a><br>Twitter-X/IG: @BritishLibrary</p><p>New Jersey Performing Arts Center<br>1973–642–8989<br><a href="mailto:ticketservices@njpac.org" rel="noopener ugc nofollow">ticketservices@njpac.org</a><br>@NJPAC</p><p>If, like me, cold-calling gives you anxiety, here’s a script that you could follow:</p><blockquote>“Hello,I am calling to ask what COVID-19 mitigations you use.[If they require audience masking and use HEPA air purification, consider thanking them for their conscientiousness. If they do not, you could say:]Neil Gaiman requested COVID mitigations at venues, but now someone has infected him. To prevent infections at your venue, I am requesting that you require audience masking and purchase a HEPA air purification unit. These are proven to significantly reduce COVID transmissions.”</blockquote><p>I know, it’s a bit wooden, so feel free to improvise. But remember: please don’t harass these people, because most likely you will be talking to a staff person and not the person who has made the decision not to use mitigations. And if the person answering the phone is on your side, this has a better chance of success.</p><p>You can also request mitigations through social media and e-mails, although phone calls bring the most attention. But do what’s at your comfort level. Most of us who are aware of the ongoing pandemic are burnt-out and need to conserve our energy.</p><p>To sum-up, we need to hold ourselves and other fans accountable, but they face real risks and cannot be held wholly responsible. Same for venues. We need to apply pressure for them to adopt COVID-19 mitigations, but they are not wholly responsible. This brings us to the final level of accountability for people infecting other people with COVID-19.</p><h1 id="structural-responsibility-governments-are-enabling-infections-by-eliminating-covid-19-protections"><strong>Structural responsibility: governments are enabling infections by eliminating COVID-19 protections</strong></h1><p>The highest level of responsibility falls to governments, generally, and public health authorities specifically. It’s alarming how quickly people have reverted to using little-to-no precautions. But, remember, for many places lawmakers only eliminated public health protections within the past few months.</p><p>The state of affairs in which we find ourselves is not normal, and I think it is a brief interlude in which politicians and the very wealthy are encouraging us to continue with business-as-usual, but as those around us become sicker and sicker, we know that this is not sustainable. If 10%-30% of COVID-19 infections lead to Long COVID, and we conservatively assume that most people are infected once per year, what will that look like in ten years?</p><p>The most wide-reaching change required to stop people from infecting other people is on the level of policy. There is a basic social contract for governments to ensure public health because, in a complex society, individuals cannot carry that entire burden themselves.</p><p>In a simpler example: governments are responsible for putting stop signs at intersections. If a government legislated that there should be no more stop signs, people would get seriously injured or die in more car accidents. And we could blame the individuals who cruise their cars through the intersections and t-bone other people in their cars, or the city whose employees removed the stop signs — but the lion’s share of responsibility falls onto the government who legislated that there should be no more stop signs.</p><p>In the widest frame, we also need to advocate to our city, county, state, provincial and national lawmakers for a return of COVID-19 protections.</p><p>We also need to advocate for improved public health communication. It’s alarming how many people lack the basic facts of how not to infect themselves and each other with COVID-19.</p><p>In a nutshell: If you have learned anything new about COVID-19 from this article, that’s a problem.</p><p><strong>**A concerned David Tennant fan should not be doing science communication that is the rightful job of public health officials.**</strong></p><p>We need to pressure public health authorities to improve communication, and meanwhile to educate ourselves and each other about COVID.</p><h2 id="what-can-we-do-to-bring-back-covid-19-protections-on-a-societal-level">What can we do to bring back COVID-19 protections on a societal level?</h2><p>1. Call or write to your representative.<br>By mail, if you can. I know, it’s a pain and an archaic throwback to pre-digital times, but this is most likely to be heard. But if it’s not possible, call or e-mail as it does make a difference.</p><p>Find your representative:<br>US: <a href="https://www.house.gov/representatives/find-your-representative?ref=okdoomer.io" rel="noopener ugc nofollow">https://www.house.gov/representatives/find-your-representative</a><br>UK: <a href="https://members.parliament.uk/FindYourMP?ref=okdoomer.io" rel="noopener ugc nofollow">https://members.parliament.uk/FindYourMP</a></p><p>2. Educate yourself and your community<br><em>The Pandemic Accountability Index</em> maintains a large repository of research on COVID-19 and its effects on the body here:</p><p><a href="https://www.panaccindex.info/p/what-covid-does-to-the-body?ref=okdoomer.io" rel="noopener ugc nofollow">https://www.panaccindex.info/p/what-covid-does-to-the-body</a><br>and here: <a href="https://www.panaccindex.info/p/what-sars-cov-2-does-to-the-body?ref=okdoomer.io" rel="noopener ugc nofollow">What SARS-CoV-2 Does to the Body (2nd Edition, July 2023)</a></p><p>3. Stay updated on COVID news. Folks on social media have been sounding the alarm on the pandemic, like @1goodtern and performers specifically, like @MeetJess and me, @WaltzTales.</p><p>A twitter user has also kindly provided this list of scientists and concerned people worth following:<br><a href="https://twitter.com/kprather88?ref=okdoomer.io" rel="noopener ugc nofollow">@kprather88</a> (full credit to efforts to educate about all things covid)<a href="https://twitter.com/JimRosenthal4?ref=okdoomer.io" rel="noopener ugc nofollow"> @jimrosenthal4</a> (C-R box, ’nuff said)<a href="https://twitter.com/linseymarr?ref=okdoomer.io" rel="noopener ugc nofollow"> @linseymarr</a> (MacArthur genius grant<a href="https://t.co/mgjGK4KF4y?ref=okdoomer.io" rel="noopener ugc nofollow"> https://forbes.com/sites/michaeltnietzel/2023/10/04/macarthur-foundation-names-the-winners-of-its-2023-genius-grants/?sh=6c3c96af4379…</a> )<a href="https://twitter.com/joeyfox85?ref=okdoomer.io" rel="noopener ugc nofollow"> @joeyfox85</a> (mitigating airborne spread)<a href="https://twitter.com/C19VaccineFacts?ref=okdoomer.io" rel="noopener ugc nofollow"> @c19vaccinefacts</a> (safe &amp; effective)<a href="https://twitter.com/ScienceUpFirst?ref=okdoomer.io" rel="noopener ugc nofollow"> @scienceupfirst</a> (not just covid!)</p><h1 id="the-final-level-of-responsibility-the-universe"><strong>The final level of responsibility: the universe</strong></h1><p>This may sound a bit woo-woo, but if you read my first piece, which started with a loving-kindness meditation, you’ll have clocked that I think attending to ourselves emotionally is necessary for facing this emergency.</p><p>I honestly don’t know if there’s anything like a God who has an overview of the situation. And even though my theology professor said the question of theodicy (why is there evil in the world?) isn’t a particularly interesting question, my answer is:</p><p>But *gestures broadly at everything.*</p><p>If there is a God they have a lot to answer for. But I do think that a real emotional crisis we’re facing is black-pilled misanthropy where we want to let the world burn, and all humans in it. But Neil Gaiman is a human. Whoever inspires us is a human. The feeling of being inspired in this particular way is your human experience. We humans aren’t more special than other animals. We only have the experiences that are unique to us in the landscape of all things, including high-concept science fiction from dynamic minds like Neil Gaiman’s.</p><p>I don’t think we should deny or suppress our feelings of despair and rage, or even hate, but to acknowledge and take care of them, and at the same time to nourish those aspects in us which support our joy and thriving.</p><p>It is possible to suffer and thrive at the same time. Perhaps if we could come up for a word for it, it would capture an essential strategy for moving forward with this pandemic. What do you think: Suffriving? Thrivering?</p><p>Let’s try leaning into some “Thrivering” together by advocating for safer venues, so that people like Neil Gaiman can continue inspiring us.</p><hr><p>Special thanks to:<br>Giulia Villanucci, Smart Air UK, Outreach Coordinator<br>@Nerdcake78 for the scoop. And for the slow-burn Aziraphale cuddlefic that is keeping me sane.</p><p>And everyone who is providing information, amplifying posts, and offering support. I would not be able to do this without the people who are helping out of simple kindness and solidarity.</p>
+            </article>
+          </div>
+
+          <div class="col-xs-12 col-lg-4">
+            <aside class="sidebar">
+    <h2 class="section-title xxs">Featured</h2>
+    <div class="sidebar__section">
+        <article class="post-card post-card-simple no-image is-featured js-post-card">
+  
+  <div class="post-card-simple__content flex-1">
+      <a class="post-tag tag-social-health" href="/tag/social-health/" aria-label="Social Health"
+        
+      >Social Health</a>
+
+    <h3 class="post-card-simple__title">
+      <a href="https://www.okdoomer.io/joe-biden-has-already-lost/" aria-label="Joe Biden Has Already Lost">Joe Biden Has Already Lost</a>
+    </h3>
+
+
+    <div class="post-info">
+  <ul class="post-info__avatars">
+        <li class="author-avatar has-image">
+          <a href="/author/jessicawildfire/" title="Jessica Wildfire" aria-label="Jessica Wildfire">
+              <picture class="">
+  <source 
+    sizes="60px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-srcset="/content/images/size/w30/format/webp/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/format/webp/2023/08/OkDoomer2.jpg 100w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="60px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/2023/08/OkDoomer2.jpg 100w"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-src="/content/images/size/w100/2023/08/OkDoomer2.jpg"
+    src="/content/images/size/w30/2023/08/OkDoomer2.jpg"
+    alt="Jessica Wildfire"
+    
+  >
+</picture>          </a>
+        </li>
+  </ul>
+  
+    <span class="post-info__authors"><a href="/author/jessicawildfire/">Jessica Wildfire</a></span>
+  
+  <time datetime="2023-10-23">Oct 23, 2023</time> 
+</div>  </div>
+</article>        <article class="post-card post-card-simple no-image is-featured js-post-card">
+  
+  <div class="post-card-simple__content flex-1">
+      <a class="post-tag tag-social-health" href="/tag/social-health/" aria-label="Social Health"
+        
+      >Social Health</a>
+
+    <h3 class="post-card-simple__title">
+      <a href="https://www.okdoomer.io/the-toilet-problem/" aria-label="When Civilization Collapses, Your Toilets Will Turn on You">When Civilization Collapses, Your Toilets Will Turn on You</a>
+    </h3>
+
+
+    <div class="post-info">
+  <ul class="post-info__avatars">
+        <li class="author-avatar has-image">
+          <a href="/author/alan/" title="Alan Urban" aria-label="Alan Urban">
+              <picture class="">
+  <source 
+    sizes="60px"
+    data-sizes="auto"
+    srcset="https://www.gravatar.com/avatar/32382f7386afdcec428633da8116ff76?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp 30w"
+    data-srcset="https://www.gravatar.com/avatar/32382f7386afdcec428633da8116ff76?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp 30w, https://www.gravatar.com/avatar/32382f7386afdcec428633da8116ff76?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp 100w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="60px"
+    data-sizes="auto"
+    data-srcset="https://www.gravatar.com/avatar/32382f7386afdcec428633da8116ff76?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp 30w, https://www.gravatar.com/avatar/32382f7386afdcec428633da8116ff76?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp 100w"
+    srcset="https://www.gravatar.com/avatar/32382f7386afdcec428633da8116ff76?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp 30w"
+    data-src="https://www.gravatar.com/avatar/32382f7386afdcec428633da8116ff76?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp"
+    src="https://www.gravatar.com/avatar/32382f7386afdcec428633da8116ff76?s&#x3D;250&amp;r&#x3D;x&amp;d&#x3D;mp"
+    alt="Alan Urban"
+    
+  >
+</picture>          </a>
+        </li>
+  </ul>
+  
+    <span class="post-info__authors"><a href="/author/alan/">Alan Urban</a></span>
+  
+  <time datetime="2023-10-23">Oct 23, 2023</time> 
+</div>  </div>
+</article>        <article class="post-card post-card-simple no-image is-featured js-post-card">
+  
+  <div class="post-card-simple__content flex-1">
+      <a class="post-tag tag-social-health" href="/tag/social-health/" aria-label="Social Health"
+        
+      >Social Health</a>
+
+    <h3 class="post-card-simple__title">
+      <a href="https://www.okdoomer.io/fear-speech-the-problem-no-one-talks-about/" aria-label="Fear Speech: The Problem No One Talks About">Fear Speech: The Problem No One Talks About</a>
+    </h3>
+
+
+    <div class="post-info">
+  <ul class="post-info__avatars">
+        <li class="author-avatar has-image">
+          <a href="/author/katiejgln/" title="Katie Jgln" aria-label="Katie Jgln">
+              <picture class="">
+  <source 
+    sizes="60px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/10/IMG_8336.jpg 30w"
+    data-srcset="/content/images/size/w30/format/webp/2023/10/IMG_8336.jpg 30w, /content/images/size/w100/format/webp/2023/10/IMG_8336.jpg 100w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="60px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w30/2023/10/IMG_8336.jpg 30w, /content/images/size/w100/2023/10/IMG_8336.jpg 100w"
+    srcset="/content/images/size/w30/2023/10/IMG_8336.jpg 30w"
+    data-src="/content/images/size/w100/2023/10/IMG_8336.jpg"
+    src="/content/images/size/w30/2023/10/IMG_8336.jpg"
+    alt="Katie Jgln"
+    
+  >
+</picture>          </a>
+        </li>
+  </ul>
+  
+    <span class="post-info__authors"><a href="/author/katiejgln/">Katie Jgln</a></span>
+  
+  <time datetime="2023-10-23">Oct 23, 2023</time> 
+</div>  </div>
+</article>    </div>
+
+    <h2 class="section-title xxs">Latest</h2>
+    <div class="sidebar__section">   
+        <article class="post-card post-card-simple no-image js-post-card">
+  
+  <div class="post-card-simple__content flex-1">
+      <a class="post-tag tag-public-health" href="/tag/public-health/" aria-label="Public Health"
+        
+      >Public Health</a>
+
+    <h3 class="post-card-simple__title">
+      <a href="https://www.okdoomer.io/were-sick-of-getting-sick-clean-the-air/" aria-label="We&#x27;re Sick of Getting Sick All The Time. Clean The Air.">We&#x27;re Sick of Getting Sick All The Time. Clean The Air.</a>
+    </h3>
+
+
+    <div class="post-info">
+  <ul class="post-info__avatars">
+        <li class="author-avatar has-image">
+          <a href="/author/jessicawildfire/" title="Jessica Wildfire" aria-label="Jessica Wildfire">
+              <picture class="">
+  <source 
+    sizes="60px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-srcset="/content/images/size/w30/format/webp/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/format/webp/2023/08/OkDoomer2.jpg 100w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="60px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/2023/08/OkDoomer2.jpg 100w"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-src="/content/images/size/w100/2023/08/OkDoomer2.jpg"
+    src="/content/images/size/w30/2023/08/OkDoomer2.jpg"
+    alt="Jessica Wildfire"
+    
+  >
+</picture>          </a>
+        </li>
+  </ul>
+  
+    <span class="post-info__authors"><a href="/author/jessicawildfire/">Jessica Wildfire</a></span>
+  
+  <time datetime="2023-10-25">Oct 25, 2023</time> 
+</div>  </div>
+</article>        <article class="post-card post-card-simple no-image js-post-card">
+  
+  <div class="post-card-simple__content flex-1">
+      <a class="post-tag tag-social-health" href="/tag/social-health/" aria-label="Social Health"
+        
+      >Social Health</a>
+
+    <h3 class="post-card-simple__title">
+      <a href="https://www.okdoomer.io/updates-fear-speech-the-second-c/" aria-label="Updates: Fear Speech, The Second Coming, and Your Doomsday Toilet">Updates: Fear Speech, The Second Coming, and Your Doomsday Toilet</a>
+    </h3>
+
+
+    <div class="post-info">
+  <ul class="post-info__avatars">
+        <li class="author-avatar has-image">
+          <a href="/author/jessicawildfire/" title="Jessica Wildfire" aria-label="Jessica Wildfire">
+              <picture class="">
+  <source 
+    sizes="60px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-srcset="/content/images/size/w30/format/webp/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/format/webp/2023/08/OkDoomer2.jpg 100w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="60px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/2023/08/OkDoomer2.jpg 100w"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-src="/content/images/size/w100/2023/08/OkDoomer2.jpg"
+    src="/content/images/size/w30/2023/08/OkDoomer2.jpg"
+    alt="Jessica Wildfire"
+    
+  >
+</picture>          </a>
+        </li>
+  </ul>
+  
+    <span class="post-info__authors"><a href="/author/jessicawildfire/">Jessica Wildfire</a></span>
+  
+  <time datetime="2023-10-24">Oct 24, 2023</time> 
+</div>  </div>
+</article>        <article class="post-card post-card-simple no-image js-post-card">
+  
+  <div class="post-card-simple__content flex-1">
+      <a class="post-tag tag-social-health" href="/tag/social-health/" aria-label="Social Health"
+        
+      >Social Health</a>
+
+    <h3 class="post-card-simple__title">
+      <a href="https://www.okdoomer.io/watching-the-world-burn-on-our-phones-part-2/" aria-label="Watching The World Burn on Our Phones, Part 2">Watching The World Burn on Our Phones, Part 2</a>
+    </h3>
+
+
+    <div class="post-info">
+  <ul class="post-info__avatars">
+        <li class="author-avatar has-image">
+          <a href="/author/jessicawildfire/" title="Jessica Wildfire" aria-label="Jessica Wildfire">
+              <picture class="">
+  <source 
+    sizes="60px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-srcset="/content/images/size/w30/format/webp/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/format/webp/2023/08/OkDoomer2.jpg 100w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="60px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/2023/08/OkDoomer2.jpg 100w"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-src="/content/images/size/w100/2023/08/OkDoomer2.jpg"
+    src="/content/images/size/w30/2023/08/OkDoomer2.jpg"
+    alt="Jessica Wildfire"
+    
+  >
+</picture>          </a>
+        </li>
+  </ul>
+  
+    <span class="post-info__authors"><a href="/author/jessicawildfire/">Jessica Wildfire</a></span>
+  
+  <time datetime="2023-10-23">Oct 23, 2023</time> 
+</div>  </div>
+</article>    </div>
+
+        <div class="sidebar__section is-sticky flex flex-cc">
+          <div class="sidebar__subscribe">
+            <h2 class="sidebar__subscribe-title text-acc fw-800">
+              OK Doomer
+            </h2>
+            <p class="sidebar__subscribe-description mb text-acc" id="sidebar-input-label">
+                Escape wishful thinking.
+            </p>
+            <form class="subscribe-form" 
+  data-members-form="subscribe" data-style="">
+  <input data-members-email class="" 
+    type="email" autocomplete="email" placeholder="Your email address" 
+    aria-labelledby="sidebar-input-label" required> 
+  <button class="btn btn--brand" type="submit">
+    <span>Subscribe</span>
+  </button>
+  <div class="msg-success">Great! Check your inbox and click the link.</div>
+  <div class="msg-error">Sorry, something went wrong. Please try again.</div>
+</form>          </div>
+        </div>
+</aside>
+          </div>
+        </div>
+      </div>
+
+
+          <div class="post-tags content-width mb-xl">
+      <span>Published in:</span>
+      <a href="/tag/public-health/">Public Health</a>
+    </div>
+
+        <div class="post-authors mb-xl">
+    <span class="section-title xs">Author</span>
+    <div class="grid gap-200">
+        <div class="author-card author-charleswaltz has-image">
+
+<a class="author-card__media flex flex-cc" href="https://www.okdoomer.io/author/charleswaltz/">      <picture class="author-card__img z-index-1">
+  <source 
+    sizes="120px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg 30w"
+    data-srcset="/content/images/size/w100/format/webp/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg 100w, /content/images/size/w300/format/webp/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg 300w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="120px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w100/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg 100w, /content/images/size/w300/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg 300w"
+    srcset="/content/images/size/w30/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg 30w"
+    data-src="/content/images/size/w100/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg"
+    src="/content/images/size/w30/2023/10/FA5FC3CA-F164-4B66-BCE5-05C61BCA62D3-1.jpeg"
+    alt="Charles A. Waltz"
+    
+  >
+</picture></a>
+  <div class="author-card__content flex-1 flex flex-col text-acc">
+    <div class="author-card__header">
+      <h3 class="author-card__name fw-700 mb-0">
+        <a href="https://www.okdoomer.io/author/charleswaltz/">Charles A. Waltz</a>
+      </h3>
+
+      <ul class="author-card__social  has-twitter">
+          <li>
+            <a href="https://twitter.com/waltz_tales" class="twitter"
+              title="Twitter" aria-label="Twitter"
+              target="_blank" rel="noopener noreferrer">
+              <i class="icon icon-twitter icon--sm filled">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+</i>            </a>
+          </li>
+      </ul>
+    </div>
+    
+    <p class="author-card__bio text-acc opacity-080">Just a concerned David Tennant fan ❤️❤️
+
+Founder: #FansMASKUP</p>
+    
+    <a class="author-card__view text-08 text-acc opacity-075 fw-600" href="https://www.okdoomer.io/author/charleswaltz/">View articles</a>
+  </div>
+</div>
+    </div>
+  </div>
+  </div>
+
+        <div class="bg-acc">
+      <div class="container wrapper">
+        <div class="post-comments radius-double p-lg pb-0 flex-1 self-align-start" id="comments">
+          <div class="content-width">
+            
+        <script defer src="https://cdn.jsdelivr.net/ghost/comments-ui@~0.13/umd/comments-ui.min.js" data-ghost-comments="https://www.okdoomer.io/" data-api="https://ok-doomer.ghost.io/ghost/api/content/" data-admin="https://ok-doomer.ghost.io/ghost/" data-key="1d2b86a04f7e3558e5581dfbf0" data-title="Comments" data-count="true" data-post-id="652308e963f7c80001968193" data-color-scheme="auto" data-avatar-saturation="60" data-accent-color="#d83a05" data-comments-enabled="all" data-publication="OK Doomer" crossorigin="anonymous"></script>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <section class="read-next pt-xl pb-lg">
+      <div class="container wrapper">
+        <h2 class="section-title">Read next</h2>
+
+        <div class="grid post-feed gap-150 related-posts mb-lg" data-feed-layout="grid">
+            <article class="post-card has-img is-featured js-post-card">
+<a class="post-card__media" href="https://www.okdoomer.io/bird-blood/">        <figure>
+          <picture class="">
+  <source 
+    sizes="280px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/09/AdobeStock_279317967-1-.jpeg 30w"
+    data-srcset="/content/images/size/w300/format/webp/2023/09/AdobeStock_279317967-1-.jpeg 300w, /content/images/size/w600/format/webp/2023/09/AdobeStock_279317967-1-.jpeg 600w, /content/images/size/w1000/format/webp/2023/09/AdobeStock_279317967-1-.jpeg 1000w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="280px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w300/2023/09/AdobeStock_279317967-1-.jpeg 300w, /content/images/size/w600/2023/09/AdobeStock_279317967-1-.jpeg 600w, /content/images/size/w1000/2023/09/AdobeStock_279317967-1-.jpeg 1000w"
+    srcset="/content/images/size/w30/2023/09/AdobeStock_279317967-1-.jpeg 30w"
+    data-src="/content/images/size/w100/2023/09/AdobeStock_279317967-1-.jpeg"
+    src="/content/images/size/w30/2023/09/AdobeStock_279317967-1-.jpeg"
+    alt="Faces Smeared with Bird Blood: Life in The Pandemicene"
+    
+  >
+</picture>        </figure>
+</a>
+  <div class="post-card__content flex flex-col ">
+      <a class="post-tag mr-sm tag-social-health" href="/tag/social-health/" aria-label="Social Health"
+        
+      >Social Health</a>
+
+      <h3 class="post-card__title"><a href="https://www.okdoomer.io/bird-blood/">Faces Smeared with Bird Blood: Life in The Pandemicene</a></h3>
+
+    <p class="post-card__excerpt opacity-080">
+      A few days ago, someone posted this on Reddit: "Can I get sick from sleeping with a dead bird on
+    </p>
+
+    <div class="post-info">
+  <ul class="post-info__avatars">
+        <li class="author-avatar has-image">
+          <a href="/author/jessicawildfire/" title="Jessica Wildfire" aria-label="Jessica Wildfire">
+              <picture class="">
+  <source 
+    sizes="60px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-srcset="/content/images/size/w30/format/webp/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/format/webp/2023/08/OkDoomer2.jpg 100w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="60px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/2023/08/OkDoomer2.jpg 100w"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-src="/content/images/size/w100/2023/08/OkDoomer2.jpg"
+    src="/content/images/size/w30/2023/08/OkDoomer2.jpg"
+    alt="Jessica Wildfire"
+    
+  >
+</picture>          </a>
+        </li>
+  </ul>
+  
+    <span class="post-info__authors"><a href="/author/jessicawildfire/">Jessica Wildfire</a></span>
+  
+  <time datetime="2023-09-17">Sep 17, 2023</time> 
+</div>  </div>
+</article>            <article class="post-card has-img js-post-card">
+<a class="post-card__media" href="https://www.okdoomer.io/the-ugly-truth-about-sleep/">        <figure>
+          <picture class="">
+  <source 
+    sizes="280px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/AdobeStock_214376717.jpeg 30w"
+    data-srcset="/content/images/size/w300/format/webp/2023/08/AdobeStock_214376717.jpeg 300w, /content/images/size/w600/format/webp/2023/08/AdobeStock_214376717.jpeg 600w, /content/images/size/w1000/format/webp/2023/08/AdobeStock_214376717.jpeg 1000w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="280px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w300/2023/08/AdobeStock_214376717.jpeg 300w, /content/images/size/w600/2023/08/AdobeStock_214376717.jpeg 600w, /content/images/size/w1000/2023/08/AdobeStock_214376717.jpeg 1000w"
+    srcset="/content/images/size/w30/2023/08/AdobeStock_214376717.jpeg 30w"
+    data-src="/content/images/size/w100/2023/08/AdobeStock_214376717.jpeg"
+    src="/content/images/size/w30/2023/08/AdobeStock_214376717.jpeg"
+    alt="The Ugly Truth About Sleep"
+    
+  >
+</picture>        </figure>
+</a>
+  <div class="post-card__content flex flex-col ">
+      <a class="post-tag mr-sm tag-news" href="/tag/news/" aria-label="News"
+        
+      >News</a>
+
+      <h3 class="post-card__title"><a href="https://www.okdoomer.io/the-ugly-truth-about-sleep/">The Ugly Truth About Sleep</a></h3>
+
+    <p class="post-card__excerpt opacity-080">
+      Sleep has turned into a form of class privilege.
+
+
+It’s also a weapon in class warfare.
+
+
+I’m guessing
+    </p>
+
+    <div class="post-info">
+  <ul class="post-info__avatars">
+        <li class="author-avatar has-image">
+          <a href="/author/jessicawildfire/" title="Jessica Wildfire" aria-label="Jessica Wildfire">
+              <picture class="">
+  <source 
+    sizes="60px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-srcset="/content/images/size/w30/format/webp/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/format/webp/2023/08/OkDoomer2.jpg 100w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="60px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/2023/08/OkDoomer2.jpg 100w"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-src="/content/images/size/w100/2023/08/OkDoomer2.jpg"
+    src="/content/images/size/w30/2023/08/OkDoomer2.jpg"
+    alt="Jessica Wildfire"
+    
+  >
+</picture>          </a>
+        </li>
+  </ul>
+  
+    <span class="post-info__authors"><a href="/author/jessicawildfire/">Jessica Wildfire</a></span>
+  
+  <time datetime="2023-08-20">Aug 20, 2023</time> 
+</div>  </div>
+</article>            <article class="post-card has-img js-post-card">
+<a class="post-card__media" href="https://www.okdoomer.io/watching-the-world-burn-on-our-phones/">        <figure>
+          <picture class="">
+  <source 
+    sizes="280px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/AdobeStock_139384759.jpeg 30w"
+    data-srcset="/content/images/size/w300/format/webp/2023/08/AdobeStock_139384759.jpeg 300w, /content/images/size/w600/format/webp/2023/08/AdobeStock_139384759.jpeg 600w, /content/images/size/w1000/format/webp/2023/08/AdobeStock_139384759.jpeg 1000w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="280px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w300/2023/08/AdobeStock_139384759.jpeg 300w, /content/images/size/w600/2023/08/AdobeStock_139384759.jpeg 600w, /content/images/size/w1000/2023/08/AdobeStock_139384759.jpeg 1000w"
+    srcset="/content/images/size/w30/2023/08/AdobeStock_139384759.jpeg 30w"
+    data-src="/content/images/size/w100/2023/08/AdobeStock_139384759.jpeg"
+    src="/content/images/size/w30/2023/08/AdobeStock_139384759.jpeg"
+    alt="Watching The World Burn on Our Phones"
+    
+  >
+</picture>        </figure>
+</a>
+  <div class="post-card__content flex flex-col ">
+      <a class="post-tag mr-sm tag-social-health" href="/tag/social-health/" aria-label="Social Health"
+        
+      >Social Health</a>
+
+      <h3 class="post-card__title"><a href="https://www.okdoomer.io/watching-the-world-burn-on-our-phones/">Watching The World Burn on Our Phones</a></h3>
+
+    <p class="post-card__excerpt opacity-080">
+      There's this play by Eugene Ionesco called, "Rhinoceros."
+
+
+You should read it sometime.
+
+
+It's about an ordinary dude named Berenger,
+    </p>
+
+    <div class="post-info">
+  <ul class="post-info__avatars">
+        <li class="author-avatar has-image">
+          <a href="/author/jessicawildfire/" title="Jessica Wildfire" aria-label="Jessica Wildfire">
+              <picture class="">
+  <source 
+    sizes="60px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-srcset="/content/images/size/w30/format/webp/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/format/webp/2023/08/OkDoomer2.jpg 100w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="60px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/2023/08/OkDoomer2.jpg 100w"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-src="/content/images/size/w100/2023/08/OkDoomer2.jpg"
+    src="/content/images/size/w30/2023/08/OkDoomer2.jpg"
+    alt="Jessica Wildfire"
+    
+  >
+</picture>          </a>
+        </li>
+  </ul>
+  
+    <span class="post-info__authors"><a href="/author/jessicawildfire/">Jessica Wildfire</a></span>
+  
+  <time datetime="2023-08-14">Aug 14, 2023</time> 
+</div>  </div>
+</article>            <article class="post-card has-img js-post-card">
+<a class="post-card__media" href="https://www.okdoomer.io/its-time-to-cancel-covid-minimizing-doctors/">        <figure>
+          <picture class="">
+  <source 
+    sizes="280px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/AdobeStock_527716541.jpeg 30w"
+    data-srcset="/content/images/size/w300/format/webp/2023/08/AdobeStock_527716541.jpeg 300w, /content/images/size/w600/format/webp/2023/08/AdobeStock_527716541.jpeg 600w, /content/images/size/w1000/format/webp/2023/08/AdobeStock_527716541.jpeg 1000w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="280px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w300/2023/08/AdobeStock_527716541.jpeg 300w, /content/images/size/w600/2023/08/AdobeStock_527716541.jpeg 600w, /content/images/size/w1000/2023/08/AdobeStock_527716541.jpeg 1000w"
+    srcset="/content/images/size/w30/2023/08/AdobeStock_527716541.jpeg 30w"
+    data-src="/content/images/size/w100/2023/08/AdobeStock_527716541.jpeg"
+    src="/content/images/size/w30/2023/08/AdobeStock_527716541.jpeg"
+    alt="It&#x27;s Time to &quot;Cancel&quot; Covid Minimizing Doctors"
+    
+  >
+</picture>        </figure>
+</a>
+  <div class="post-card__content flex flex-col ">
+      <a class="post-tag mr-sm tag-news" href="/tag/news/" aria-label="News"
+        
+      >News</a>
+
+      <h3 class="post-card__title"><a href="https://www.okdoomer.io/its-time-to-cancel-covid-minimizing-doctors/">It&#x27;s Time to &quot;Cancel&quot; Covid Minimizing Doctors</a></h3>
+
+    <p class="post-card__excerpt opacity-080">
+      Throughout modern history, there have been doctors willing to use their credentials to spread lies and misinformation. They misled the
+    </p>
+
+    <div class="post-info">
+  <ul class="post-info__avatars">
+        <li class="author-avatar has-image">
+          <a href="/author/jessicawildfire/" title="Jessica Wildfire" aria-label="Jessica Wildfire">
+              <picture class="">
+  <source 
+    sizes="60px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-srcset="/content/images/size/w30/format/webp/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/format/webp/2023/08/OkDoomer2.jpg 100w"
+    type="image/webp"
+  >
+  <img class="lazyload"
+    sizes="60px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w, /content/images/size/w100/2023/08/OkDoomer2.jpg 100w"
+    srcset="/content/images/size/w30/2023/08/OkDoomer2.jpg 30w"
+    data-src="/content/images/size/w100/2023/08/OkDoomer2.jpg"
+    src="/content/images/size/w30/2023/08/OkDoomer2.jpg"
+    alt="Jessica Wildfire"
+    
+  >
+</picture>          </a>
+        </li>
+  </ul>
+  
+    <span class="post-info__authors"><a href="/author/jessicawildfire/">Jessica Wildfire</a></span>
+  
+  <time datetime="2023-08-30">Aug 30, 2023</time> 
+</div>  </div>
+</article>        </div>
+      </div>
+    </section>
+
+    </main>
+    
+      
+      <footer class="footer">
+  <div class="container wrapper">
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <div class="footer__brand flex items-center">
+            <picture class="default-logo">
+  <source 
+    sizes="200px"
+    data-sizes="auto"
+    srcset="/content/images/size/w30/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg 30w"
+    data-srcset="/content/images/size/w300/format/webp/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg 300w, /content/images/size/w600/format/webp/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg 600w"
+    type="image/webp"
+  >
+  <img class="footer__logo mr lazyload"
+    sizes="200px"
+    data-sizes="auto"
+    data-srcset="/content/images/size/w300/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg 300w, /content/images/size/w600/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg 600w"
+    srcset="/content/images/size/w30/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg 30w"
+    data-src="/content/images/size/w100/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg"
+    src="/content/images/size/w30/2023/08/653f9914-3294-496a-ab87-7ec1df422d2c_5655x3181-1.jpg"
+    alt="OK Doomer"
+    
+  >
+</picture>        </div>
+
+        <div class="footer__description" id="footer-input-label">
+          Escape wishful thinking.
+        </div>
+
+        <div class="social-links">
+          
+  <a href="https://twitter.com/JessicaLexicus" class="twitter" aria-label="Twitter"><i class="icon icon-twitter icon--sm filled">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+</i><span>Twitter</span></a>
+
+<a href="https://www.okdoomer.io/latest/rss" class="rss" aria-label="RSS"><i class="icon icon-rss icon--sm">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+</i><span>RSS</span></a>
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-8">
+        <span class="fw-700 mb-xs display-block text-12">Navigation</span>
+        <ul class="nav">
+    <li class="nav-home" 
+      data-label="Home" data-length="4">
+      <a href="https://www.okdoomer.io/">
+        <span>Home</span>
+      </a>
+    </li>
+    <li class="nav-about" 
+      data-label="About" data-length="5">
+      <a href="https://www.okdoomer.io/about/">
+        <span>About</span>
+      </a>
+    </li>
+    <li class="nav-lists" 
+      data-label="Lists" data-length="5">
+      <a href="https://www.okdoomer.io/covid-and-climate-lists/">
+        <span>Lists</span>
+      </a>
+    </li>
+    <li class="nav-write" 
+      data-label="Write" data-length="5">
+      <a href="https://www.okdoomer.io/write/">
+        <span>Write</span>
+      </a>
+    </li>
+    <li class="nav-support" 
+      data-label="Support" data-length="7">
+      <a href="https://www.okdoomer.io/support/">
+        <span>Support</span>
+      </a>
+    </li>
+    <li class="nav-subscribe" 
+      data-label="Subscribe" data-length="9">
+      <a href="https://www.okdoomer.io/#/portal">
+        <span>Subscribe</span>
+      </a>
+    </li>
+</ul>
+
+          <span class="footer__subtitle fw-700 mb-xs display-block text-12">More</span>
+          <ul class="nav secondary submenu">
+    <li class="nav-sign-up" 
+      data-label="Sign up" data-length="7">
+      <a href="#/portal/">
+        <span>Sign up</span>
+      </a>
+    </li>
+    <li class="nav-more-news" 
+      data-label="More News" data-length="9">
+      <a href="https://www.okdoomer.io/">
+        <span>More News</span>
+      </a>
+    </li>
+</ul>
+
+          <span class="footer__subtitle fw-700 mb-xs display-block text-12">Topics</span>
+            <ul class="nav">
+                <li><a href="/tag/climate-health/">Climate Health</a></li>
+                <li><a href="/tag/mental-health/">Mental Health</a></li>
+                <li><a href="/tag/social-health/">Social Health</a></li>
+                <li><a href="/tag/public-health/">Public Health</a></li>
+            </ul>
+
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="footer__copy">
+        <span>&copy;2023&nbsp;<a href="https://www.okdoomer.io">OK Doomer</a>.</span>
+        <span>Published with&nbsp;<a href="https://ghost.org">Ghost</a>&nbsp;&&nbsp;<a href="https://brightthemes.com/themes/maali/">Maali</a>.</span>
+      </div>
+
+      <div class="color-scheme flex flex-cc radius-half">
+  <div class="color-scheme-symbol">
+    <span class="accent-bg"></span>
+  </div>
+  <select class="color-scheme-select radius-half js-color-scheme-select" aria-label="Change color scheme">
+    <option value="system" selected>System</option>
+    <option value="light">Light</option>
+    <option value="dark">Dark</option>
+  </select>
+  <i class="icon icon-select">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-select" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M17 8.517L12 3 7 8.517M7 15.48l5 5.517 5-5.517"></path>
+</svg>
+
+
+
+</i></div>    </div>
+
+  </div>
+</footer>
+
+    <dialog class="notification">
+  <i class="icon icon-success notification-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-check" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M9 12l2 2l4 -4" />
+</svg>
+
+
+
+</i>  <i class="icon icon-error notification-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alert-octagon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M8.7 3h6.6c.3 0 .5 .1 .7 .3l4.7 4.7c.2 .2 .3 .4 .3 .7v6.6c0 .3 -.1 .5 -.3 .7l-4.7 4.7c-.2 .2 -.4 .3 -.7 .3h-6.6c-.3 0 -.5 -.1 -.7 -.3l-4.7 -4.7c-.2 -.2 -.3 -.4 -.3 -.7v-6.6c0 -.3 .1 -.5 .3 -.7l4.7 -4.7c.2 -.2 .4 -.3 .7 -.3z" />
+  <line x1="12" y1="8" x2="12" y2="12" />
+  <line x1="12" y1="16" x2="12.01" y2="16" />
+</svg>
+
+
+
+</i>  <i class="icon icon-warning notification-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alert-triangle" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M12 9v2m0 4v.01" />
+  <path d="M5 19h14a2 2 0 0 0 1.84 -2.75l-7.1 -12.25a2 2 0 0 0 -3.5 0l-7.1 12.25a2 2 0 0 0 1.75 2.75" />
+</svg>
+
+
+
+</i>  <p class="notification-msg signup-success">Great! You’ve successfully signed up.</p> 
+  <p class="notification-msg signin-success">Welcome back! You&#x27;ve successfully signed in.</p> 
+  <p class="notification-msg subscribe-success">You&#x27;ve successfully subscribed to OK Doomer.</p> 
+  <p class="notification-msg link-expired">Your link has expired.</p> 
+  <p class="notification-msg checkout-success">Success! Check your email for magic link to sign-in.</p> 
+  <p class="notification-msg billing-success">Success! Your billing info has been updated.</p> 
+  <p class="notification-msg billing-cancel">Your billing was not updated.</p> 
+  <button class="notification-close js-notification-close" aria-label="Close" onclick="closeNotification(event.currentTarget.parentNode);">
+    <i class="icon icon-x">
+  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <line x1="18" y1="6" x2="6" y2="18" />
+  <line x1="6" y1="6" x2="18" y2="18" />
+</svg>
+</i>  </button>
+</dialog>
+
+      
+    
+
+      <script>
+    // Copy button
+    const copyBtn = document.querySelector('.js-copy-link');
+    if (copyBtn) {
+      copyBtn.onclick = function(event) {
+        copyToClipboard(event.currentTarget, event.currentTarget.getAttribute('data-url'));
+      }
+    }
+    
+    /** 
+    * Copy to clipboard
+    * @src - source element
+    * @str - string to copy
+    */ 
+    const copyToClipboard = function(src, str) {
+      const el = document.createElement('textarea');
+      el.value = str;
+      el.setAttribute('readonly', '');
+      el.style.position = 'absolute';
+      el.style.left = '-9999px';
+      document.body.appendChild(el);
+      el.select();
+      document.execCommand('copy');
+      document.body.removeChild(el);
+
+      src.classList.add('has-tooltip');
+      src.setAttribute('data-label', 'Copied!');
+
+      src.onmouseleave = function() { 
+        src.classList.remove('has-tooltip');
+        setTimeout(function(){
+          src.setAttribute('data-label', '');
+        }, 500); 
+      }
+    };
+  </script>
+
+<script>
+  const navItems = document.querySelectorAll('.header-menu .nav:not(.submenu) li')
+  const allNavItems = document.querySelectorAll('.is-subitem')
+
+  // Remove '-' signs
+  allNavItems.forEach(item => {
+    const itemName = item.querySelector('a span')
+    itemName.innerText = itemName.innerText.slice(1)
+  });
+
+  // Add subitems in place
+  let subMenu, hasItems
+  navItems.forEach((item, index) => {
+    if (item.classList.contains('is-subitem') && !navItems[index - 1].classList.contains('is-subitem')) navItems[index - 1].classList.add('is-mainitem'); 
+    subMenu = item.classList.contains('is-subitem') ? subMenu : document.createElement('ul');
+    if (item.classList.contains('is-subitem')) { 
+      subMenu.appendChild(item)
+      subMenu.classList.add('nav','submenu')
+    } else { 
+      item.appendChild(subMenu)
+    }
+  });
+</script>
+
+  <script>
+    // Give the parameter a variable name
+    const qsParams = new URLSearchParams(window.location.search);
+    const isAction = qsParams.has('action');
+    const isStripe = qsParams.has('stripe');
+    const success = qsParams.get('success');
+    const action = qsParams.get('action');
+    const stripe = qsParams.get('stripe');
+
+    if (qsParams && isAction) {
+      if (success === "true") {
+        switch (action) {
+          case 'subscribe':
+            openNotification('subscribe-success');
+            break;
+          case 'signup': 
+            openNotification('signup-success');
+            break;
+          case 'signin':
+            openNotification('signin-success');
+            break;
+          default:
+            break;
+        }
+      } else {
+        openNotification('link-expired');
+      }
+    }
+
+    if (qsParams && isStripe) {
+      switch (stripe) {
+        case 'success':
+          openNotification('checkout-success');
+          break;
+        case 'billing-update-success':
+          openNotification('billing-success');
+          break;
+        case 'billing-update-cancel':
+          openNotification('billing-cancel');
+          break;
+        default:
+          break;
+      }
+    }
+
+    /**
+    * Handle Notifications
+    */
+    function openNotification(type) {
+      const notification = document.querySelector('dialog.notification');
+      if (notification) { 
+        notification.setAttribute('data-msg-type', type);
+        notification.show();
+        setTimeout(function(){ closeNotification(notification); }, 3000);
+      }
+    }
+    
+    /**
+    * Clean URI
+    */
+    function clearURI() {
+      window.history.replaceState({}, '', `${window.location.pathname}`);
+    }
+
+    function closeNotification(notification) {
+      notification.close();
+      clearURI();
+      setTimeout(function(){ notification.removeAttribute('data-msg-type') }, 500);
+    }
+  </script>
+
+
+    
+  </body>
+</html>

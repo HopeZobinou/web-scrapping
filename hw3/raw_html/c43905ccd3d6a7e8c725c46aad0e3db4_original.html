@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+ <html amp>
+   <head><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width,minimum-scale=1">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,300" rel="stylesheet" type="text/css">
+     <style amp-custom>#branch-sdk{position:fixed;bottom:0;left:0;right:0;}
+       body {
+         margin: 0;
+         word-wrap: break-word;
+         font-family: "Open Sans", Helvetica, serif;
+       }
+       /* ============ Portrait ============ */
+       .main-image {
+         width: 100%;
+         height: 250px;
+         height: 75vw;
+           background-image: url(https://di2ponv0v5otw.cloudfront.net/posts/2023/08/12/64d8648681078a28cd0c4f2c/m_64d8648681078a28cd0c4f2d.jpeg);
+         background-size: cover;
+         background-position: top center;
+       }
+       #content-container {
+         box-sizing: border-box;
+         padding: 24px;
+         margin: 0 24px;
+         background-color: #fff;
+       }
+       .app-title {
+         font-size: 14px;
+         padding-bottom: 11px;
+         text-transform: uppercase;
+       }
+       .card-title {
+         font-size: 33px;
+         line-height: 36px;
+       }
+       .app-content {
+         padding-top: 10px;
+         padding-bottom: 100px;
+         font-size: 20px;
+       }
+       .input-wrapper {
+         position: fixed;
+         bottom: 0;
+         left: 0;
+         width: 100%;
+         height: 110px;
+         background-color: #fff;
+         box-shadow: 0px -20px 20px -8px rgba(255,255,255,1);
+       }
+       .input-container {
+         width: 100%;
+         padding: 0 24px;
+         text-align: center;
+         box-sizing: border-box;
+       }
+       .form-get-the-app {
+         display: -webkit-box;
+         display: flex;
+         text-align: center;
+         padding-top: 10px;
+         border-top: 2px solid #cecece;
+         min-height: 300px;
+       }
+       .input-label {
+         padding: 4px 10px;
+         font-size: 13px;
+         overflow: hidden;
+         word-wrap: break-word;
+         text-align: center;
+       }
+       .app-icon {
+         width: 62px;
+         height: 62px;
+         line-height: 62px;
+         background-size: 100% auto;
+       }
+       .cta-button {
+         -webkit-box-flex: 1;
+         flex-grow: 1;
+         height: 62px;
+         line-height: 62px;
+         background-color: #444;
+         border-radius: 2px;
+         font-size: 20px;
+         padding: 0 20px;
+         margin-left: 10px;
+         color: #fff;
+         text-align: center;
+         text-decoration: none;
+         display: block;
+       }
+       /* No data (portrait) */
+       @media only screen and (orientation: portrait) {
+         .card--no-data .main-image {
+           background-image: url("http://s3-us-west-1.amazonaws.com/branch-assets/b_stripes-small.png");
+           background-size: auto;
+           background-position: top center;
+           background-repeat: repeat;
+           height: 190px;
+         }
+         .card--no-data > .app-icon {
+           position: absolute;
+           top: 160px;
+           left: 34px;
+         }
+         .card--no-data #content-container {
+           margin-top: 20px;
+         }
+         }
+         @media screen /* >= iPhone 5 */
+         and (min-device-width: 321px) {
+         .input-label {
+           font-size: 14px;
+         }
+       }
+       @media only screen /* >= iPhone 6 */
+         and (min-device-width: 375px)
+         and (orientation: portrait) {
+         .main-image {
+           height: 300px;
+           height: 80vw;
+         }
+         .app-content {
+           padding-bottom: 120px;
+         }
+         .input-wrapper {
+           height: 115px;
+         }
+       }
+       @media only screen /* >= iPhone 6+ */
+       and (min-device-width: 414px)
+       and (orientation: portrait) {
+         .main-image {
+           height: 390px;
+           height: 95vw;
+         }
+       }
+       /* ============ Landscape ============ */
+       @media only screen and (orientation: landscape){
+         .main-image {
+           position: fixed;
+           height: 100%;
+           height: 100vh;
+           width: 50%;
+         }
+         .input-wrapper {
+           right: 0;
+           left: auto;
+           width: 50%;
+         }
+         #content-container {
+           float: left;
+           width: 50%;
+           margin-left: 50%;
+         }
+         .input-wrapper {
+           height: 108px;
+         }
+         .app-content {
+           padding-bottom: 110px;
+         }
+         .form-get-the-app {
+           padding-top: 8px;
+         }
+         .input-container {
+           left: 50%;
+         }
+         .cta-button {
+           height: 44px;
+           line-height: 44px;
+           padding: 0 5px;
+           margin-left: 50px;
+         }
+         .app-icon {
+           width: 44px;
+           height: 44px;
+         }
+         /* No data (landscape) */
+         .card--no-data .main-image {
+           height: 100%;
+         }
+         .card--no-data > .app-icon {
+           display: none;
+         }
+         .card--no-data #content-container {
+           margin-top: 0;
+         }
+       }
+       @media only screen /* >= iPhone 6 */
+       and (min-device-width: 645px)
+       and (orientation: landscape) {
+         .form-get-the-app {
+           padding-top: 8px;
+         }
+         .cta-button {
+           height: 62px;
+           line-height: 62px;
+           padding: 0 20px;
+           margin-left: 70px;
+         }
+         .app-icon {
+           width: 62px;
+           height: 62px;
+           top: -2px;
+         }
+       }
+       /* Reusables */
+       .text-bold {
+         font-weight: 700
+       }
+       .text-light {
+         font-weight: 300;
+       }
+       .cta-button--no-app-icon {
+         margin-left: 0;
+       }
+     </style>
+       <link rel="alternate" href="ios-app://470412147/poshmark/listing/64d8648681078a28cd0c4f2c?utm_source=tw_client_sh&amp;utm_content=ext_trk%3Dbranch&amp;feature=sh_li__and&amp;campaign=share_content_user_post__us.default.003&amp;rfuid=ext1%3A229eca91-b683-4909-ac0c-2c7aefcaf545&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8gvztDLzdYP9M93z8gocPZzSQIAdWzlpxsAAAA%3D&amp;link_click_id=link-1240489603564348770">
+       <link rel="alternate" href="android-app://com.poshmark.app/poshmark/listing/64d8648681078a28cd0c4f2c?utm_source=tw_client_sh&amp;utm_content=ext_trk%3Dbranch&amp;feature=sh_li__and&amp;campaign=share_content_user_post__us.default.003&amp;rfuid=ext1%3A229eca91-b683-4909-ac0c-2c7aefcaf545&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8gvztDLzdYP9M93z8gocPZzSQIAdWzlpxsAAAA%3D&amp;link_click_id=link-1240489603564348770">
+       <link rel="apple-touch-icon" href="https://di2ponv0v5otw.cloudfront.net/posts/2023/08/12/64d8648681078a28cd0c4f2c/m_64d8648681078a28cd0c4f2d.jpeg">
+       <meta property="al:ios:url" content="poshmark://listing/64d8648681078a28cd0c4f2c?utm_source=tw_client_sh&amp;utm_content=ext_trk%3Dbranch&amp;feature=sh_li__and&amp;campaign=share_content_user_post__us.default.003&amp;rfuid=ext1%3A229eca91-b683-4909-ac0c-2c7aefcaf545&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8gvztDLzdYP9M93z8gocPZzSQIAdWzlpxsAAAA%3D&amp;link_click_id=link-1240489603564348770-eyIkb2dfdGl0bGUiOiJWaW9uaWPCoEFtYW5kYSBTdWVkZSBCYWxsZXQgRmxhdHMgaW4gV2luZSBSZWQgU2l6ZSA1IE1lZGl1bSIsIiRkZWVwbGlua19wYXRoIjoibGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUiLCIkdHdpdHRlcl9zaXRlIjoiQHBvc2htYXJrYXBwIiwiJGFmdGVyX2NsaWNrX3VybCI6Imh0dHBzOi8vcG9zaG1hcmsuY29tL2xpc3RpbmcvNjRkODY0ODY4MTA3OGEyOGNkMGM0ZjJjP3V0bV9zb3VyY2U9dHdfY2xpZW50X3NoJnV0bV9jb250ZW50PWV4dF90cmslM0RicmFuY2glMjZmZWF0dXJlJTNEc2hfbGlfX2FuZCUyNmNhbXBhaWduJTNEc2hhcmVfY29udGVudF91c2VyX3Bvc3RfX3VzLmRlZmF1bHQuMDAzJTI2cmZ1aWQlM0RleHQxJTNBMjI5ZWNhOTEtYjY4My00OTA5LWFjMGMtMmM3YWVmY2FmNTQ1IiwifmZlYXR1cmUiOiJzaF9saV9fYW5kIiwiJGRlc2t0b3BfdXJsIjoiaHR0cHM6Ly9wb3NobWFyay5jb20vbGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUmYnJfdD10cnVlIiwiJGlvc19kZWVwbGlua19wYXRoIjoibGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUiLCJ-aWQiOiIxMjQwNDg5NjAzNTY0MzQ4NzcwIiwifmNhbXBhaWduIjoic2hhcmVfY29udGVudF91c2VyX3Bvc3RfX3VzLmRlZmF1bHQuMDAzIiwiJGFuZHJvaWRfdXJsIjoiaHR0cHM6Ly9wb3NobWFyay5jb20vbGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUmYnJfdD10cnVlIiwifmNoYW5uZWwiOiJ0d19jbGllbnRfc2giLCIkaW9zX3VybCI6Imh0dHBzOi8vcG9zaG1hcmsuY29tL2xpc3RpbmcvNjRkODY0ODY4MTA3OGEyOGNkMGM0ZjJjP3V0bV9zb3VyY2U9dHdfY2xpZW50X3NoJnV0bV9jb250ZW50PWV4dF90cmslM0RicmFuY2glMjZmZWF0dXJlJTNEc2hfbGlfX2FuZCUyNmNhbXBhaWduJTNEc2hhcmVfY29udGVudF91c2VyX3Bvc3RfX3VzLmRlZmF1bHQuMDAzJTI2cmZ1aWQlM0RleHQxJTNBMjI5ZWNhOTEtYjY4My00OTA5LWFjMGMtMmM3YWVmY2FmNTQ1JmJyX3Q9dHJ1ZSIsIn5jcmVhdGlvbl9zb3VyY2UiOjAsIiRvZ19kZXNjcmlwdGlvbiI6IlNob3AgYW1iZXJtYXJpZTM3MzcncyBjbG9zZXQgb3IgZmluZCB0aGUgcGVyZmVjdCBsb29rIGZyb20gbWlsbGlvbnMgb2Ygc3R5bGlzdHMuIEZhc3Qgc2hpcHBpbmcgYW5kIGJ1eWVyIHByb3RlY3Rpb24uIFZpb25pYyBBbWFuZGEgU3VlZGUgQmFsbGV0IEZsYXRzIGluIFdpbmUgUmVkXG5cbkEgc2ltcGxlIGJ1Y2tsZSBkZXRhaWwgJiBsb3cgaGVlbCBtYWtlIEFtYW5kYSBhbiB1bmRlcnN0YXRlZCBzdGFyLiBIZXIgc29waGlzdGljYXRlZCBjb21mb3J0IHN0YW5kcyB1cCB0byBhbnkgc3BlY2lhbCBvY2Nhc2lvblxuXG4tU2l6ZSA1IE1lZGl1bVxuLUNvbG9yOiBXaW5lXG4tTWVkaXVtIHdpZHRoXG4tU3VlZGUgdXBwZXJcbi1SdWJiZXIgb3V0c29sZVxuLUhlZWwgaGVpZ2h0OiAwLjVcIlxuLUJpb21lY2hhbmljYWxseSBkZXNpZ25lZCB0byBodWcgeW91ciBhcmNoZXNcbi1CcmFuZCBuZXcgaW4gYm94XG4tWW91IHdpbGwgcmVjZWl2ZSAxIHBhaXJcblxuRG9uJ3QgaGF2ZSBhIFBvc2htYXJrIGFjY291bnQ_XG5TaWduIHVwIG5vdyB3aXRoIG15IGNvZGUgQU1CRVJNQVJJRTM3MzcgdG8gc2F2ZSAkMTAgb24geW91ciBmaXJzdCBvcmRlciIsInJmdWlkIjoiZXh0MToyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUiLCIkdHdpdHRlcl9jYXJkIjoic3VtbWFyeV9sYXJnZV9pbWFnZSIsIiRvZ19pbWFnZV91cmwiOiJodHRwczovL2RpMnBvbnYwdjVvdHcuY2xvdWRmcm9udC5uZXQvcG9zdHMvMjAyMy8wOC8xMi82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmMvbV82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmQuanBlZyIsIiRvZ190eXBlIjoicHJvZHVjdCIsIiR0d2l0dGVyX3RpdGxlIjoiVmlvbmljwqBBbWFuZGEgU3VlZGUgQmFsbGV0IEZsYXRzIGluIFdpbmUgUmVkIFNpemUgNSBNZWRpdW0iLCIkb2dfYXBwX2lkIjoiMTgyODA5NTkxNzkzNDAzIiwiK3VybCI6Imh0dHBzOi8vcG9zaC5tay9RT29HaGhwQ05EYiIsIiRhbmRyb2lkX2RlZXBsaW5rX3BhdGgiOiJsaXN0aW5nLzY0ZDg2NDg2ODEwNzhhMjhjZDBjNGYyYz91dG1fc291cmNlPXR3X2NsaWVudF9zaCZ1dG1fY29udGVudD1leHRfdHJrJTNEYnJhbmNoJTI2ZmVhdHVyZSUzRHNoX2xpX19hbmQlMjZjYW1wYWlnbiUzRHNoYXJlX2NvbnRlbnRfdXNlcl9wb3N0X191cy5kZWZhdWx0LjAwMyUyNnJmdWlkJTNEZXh0MSUzQTIyOWVjYTkxLWI2ODMtNDkwOS1hYzBjLTJjN2FlZmNhZjU0NSIsIiRjYW5vbmljYWxfdXJsIjoiaHR0cHM6Ly9wb3NobWFyay5jb20vbGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUmYnJfdD10cnVlIiwiJHR3aXR0ZXJfZGVzY3JpcHRpb24iOiJWaW9uaWMgQW1hbmRhIFN1ZWRlIEJhbGxldCBGbGF0cyBpbiBXaW5lIFJlZFxuXG5BIHNpbXBsZSBidWNrbGUgZGV0YWlsICYgbG93IGhlZWwgbWFrZSBBbWFuZGEgYW4gdW5kZXJzdGF0ZWQgc3Rhci4gSGVyIHNvcGhpc3RpY2F0ZWQgY29tZm9ydCBzdGFuZHMgdXAgdG8gYW55IHNwZWNpYWwgb2NjYXNpb25cblxuLVNpemUgNSBNZWRpdW1cbi1Db2xvcjogV2luZVxuLU1lZGl1bSB3aWR0aFxuLVN1ZWRlIHVwcGVyXG4tUnViYmVyIG91dHNvbGVcbi1IZWVsIGhlaWdodDogMC41XCJcbi1CaW9tZWNoYW5pY2FsbHkgZGVzaWduZWQgdG8gaHVnIHlvdXIgYXJjaGVzXG4tQnJhbmQgbmV3IGluIGJveFxuLVlvdSB3aWxsIHJlY2VpdmUgMSBwYWlyXG5cbkRvbid0IGhhdmUgYSBQb3NobWFyayBhY2NvdW50P1xuU2lnbiB1cCBub3cgd2l0aCBteSBjb2RlIEFNQkVSTUFSSUUzNzM3IHRvIHNhdmUgJDEwIG9uIHlvdXIgZmlyc3Qgb3JkZXIiLCIrZG9tYWluIjoicG9zaC5tayIsIitjbGlja190aW1lc3RhbXAiOjE2OTgyMzk2OTZ9">
+       <meta name="twitter:app:url:iphone" content="poshmark://listing/64d8648681078a28cd0c4f2c?utm_source=tw_client_sh&amp;utm_content=ext_trk%3Dbranch&amp;feature=sh_li__and&amp;campaign=share_content_user_post__us.default.003&amp;rfuid=ext1%3A229eca91-b683-4909-ac0c-2c7aefcaf545&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8gvztDLzdYP9M93z8gocPZzSQIAdWzlpxsAAAA%3D&amp;link_click_id=link-1240489603564348770-eyIkb2dfdGl0bGUiOiJWaW9uaWPCoEFtYW5kYSBTdWVkZSBCYWxsZXQgRmxhdHMgaW4gV2luZSBSZWQgU2l6ZSA1IE1lZGl1bSIsIiRkZWVwbGlua19wYXRoIjoibGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUiLCIkdHdpdHRlcl9zaXRlIjoiQHBvc2htYXJrYXBwIiwiJGFmdGVyX2NsaWNrX3VybCI6Imh0dHBzOi8vcG9zaG1hcmsuY29tL2xpc3RpbmcvNjRkODY0ODY4MTA3OGEyOGNkMGM0ZjJjP3V0bV9zb3VyY2U9dHdfY2xpZW50X3NoJnV0bV9jb250ZW50PWV4dF90cmslM0RicmFuY2glMjZmZWF0dXJlJTNEc2hfbGlfX2FuZCUyNmNhbXBhaWduJTNEc2hhcmVfY29udGVudF91c2VyX3Bvc3RfX3VzLmRlZmF1bHQuMDAzJTI2cmZ1aWQlM0RleHQxJTNBMjI5ZWNhOTEtYjY4My00OTA5LWFjMGMtMmM3YWVmY2FmNTQ1IiwifmZlYXR1cmUiOiJzaF9saV9fYW5kIiwiJGRlc2t0b3BfdXJsIjoiaHR0cHM6Ly9wb3NobWFyay5jb20vbGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUmYnJfdD10cnVlIiwiJGlvc19kZWVwbGlua19wYXRoIjoibGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUiLCJ-aWQiOiIxMjQwNDg5NjAzNTY0MzQ4NzcwIiwifmNhbXBhaWduIjoic2hhcmVfY29udGVudF91c2VyX3Bvc3RfX3VzLmRlZmF1bHQuMDAzIiwiJGFuZHJvaWRfdXJsIjoiaHR0cHM6Ly9wb3NobWFyay5jb20vbGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUmYnJfdD10cnVlIiwifmNoYW5uZWwiOiJ0d19jbGllbnRfc2giLCIkaW9zX3VybCI6Imh0dHBzOi8vcG9zaG1hcmsuY29tL2xpc3RpbmcvNjRkODY0ODY4MTA3OGEyOGNkMGM0ZjJjP3V0bV9zb3VyY2U9dHdfY2xpZW50X3NoJnV0bV9jb250ZW50PWV4dF90cmslM0RicmFuY2glMjZmZWF0dXJlJTNEc2hfbGlfX2FuZCUyNmNhbXBhaWduJTNEc2hhcmVfY29udGVudF91c2VyX3Bvc3RfX3VzLmRlZmF1bHQuMDAzJTI2cmZ1aWQlM0RleHQxJTNBMjI5ZWNhOTEtYjY4My00OTA5LWFjMGMtMmM3YWVmY2FmNTQ1JmJyX3Q9dHJ1ZSIsIn5jcmVhdGlvbl9zb3VyY2UiOjAsIiRvZ19kZXNjcmlwdGlvbiI6IlNob3AgYW1iZXJtYXJpZTM3MzcncyBjbG9zZXQgb3IgZmluZCB0aGUgcGVyZmVjdCBsb29rIGZyb20gbWlsbGlvbnMgb2Ygc3R5bGlzdHMuIEZhc3Qgc2hpcHBpbmcgYW5kIGJ1eWVyIHByb3RlY3Rpb24uIFZpb25pYyBBbWFuZGEgU3VlZGUgQmFsbGV0IEZsYXRzIGluIFdpbmUgUmVkXG5cbkEgc2ltcGxlIGJ1Y2tsZSBkZXRhaWwgJiBsb3cgaGVlbCBtYWtlIEFtYW5kYSBhbiB1bmRlcnN0YXRlZCBzdGFyLiBIZXIgc29waGlzdGljYXRlZCBjb21mb3J0IHN0YW5kcyB1cCB0byBhbnkgc3BlY2lhbCBvY2Nhc2lvblxuXG4tU2l6ZSA1IE1lZGl1bVxuLUNvbG9yOiBXaW5lXG4tTWVkaXVtIHdpZHRoXG4tU3VlZGUgdXBwZXJcbi1SdWJiZXIgb3V0c29sZVxuLUhlZWwgaGVpZ2h0OiAwLjVcIlxuLUJpb21lY2hhbmljYWxseSBkZXNpZ25lZCB0byBodWcgeW91ciBhcmNoZXNcbi1CcmFuZCBuZXcgaW4gYm94XG4tWW91IHdpbGwgcmVjZWl2ZSAxIHBhaXJcblxuRG9uJ3QgaGF2ZSBhIFBvc2htYXJrIGFjY291bnQ_XG5TaWduIHVwIG5vdyB3aXRoIG15IGNvZGUgQU1CRVJNQVJJRTM3MzcgdG8gc2F2ZSAkMTAgb24geW91ciBmaXJzdCBvcmRlciIsInJmdWlkIjoiZXh0MToyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUiLCIkdHdpdHRlcl9jYXJkIjoic3VtbWFyeV9sYXJnZV9pbWFnZSIsIiRvZ19pbWFnZV91cmwiOiJodHRwczovL2RpMnBvbnYwdjVvdHcuY2xvdWRmcm9udC5uZXQvcG9zdHMvMjAyMy8wOC8xMi82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmMvbV82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmQuanBlZyIsIiRvZ190eXBlIjoicHJvZHVjdCIsIiR0d2l0dGVyX3RpdGxlIjoiVmlvbmljwqBBbWFuZGEgU3VlZGUgQmFsbGV0IEZsYXRzIGluIFdpbmUgUmVkIFNpemUgNSBNZWRpdW0iLCIkb2dfYXBwX2lkIjoiMTgyODA5NTkxNzkzNDAzIiwiK3VybCI6Imh0dHBzOi8vcG9zaC5tay9RT29HaGhwQ05EYiIsIiRhbmRyb2lkX2RlZXBsaW5rX3BhdGgiOiJsaXN0aW5nLzY0ZDg2NDg2ODEwNzhhMjhjZDBjNGYyYz91dG1fc291cmNlPXR3X2NsaWVudF9zaCZ1dG1fY29udGVudD1leHRfdHJrJTNEYnJhbmNoJTI2ZmVhdHVyZSUzRHNoX2xpX19hbmQlMjZjYW1wYWlnbiUzRHNoYXJlX2NvbnRlbnRfdXNlcl9wb3N0X191cy5kZWZhdWx0LjAwMyUyNnJmdWlkJTNEZXh0MSUzQTIyOWVjYTkxLWI2ODMtNDkwOS1hYzBjLTJjN2FlZmNhZjU0NSIsIiRjYW5vbmljYWxfdXJsIjoiaHR0cHM6Ly9wb3NobWFyay5jb20vbGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUmYnJfdD10cnVlIiwiJHR3aXR0ZXJfZGVzY3JpcHRpb24iOiJWaW9uaWMgQW1hbmRhIFN1ZWRlIEJhbGxldCBGbGF0cyBpbiBXaW5lIFJlZFxuXG5BIHNpbXBsZSBidWNrbGUgZGV0YWlsICYgbG93IGhlZWwgbWFrZSBBbWFuZGEgYW4gdW5kZXJzdGF0ZWQgc3Rhci4gSGVyIHNvcGhpc3RpY2F0ZWQgY29tZm9ydCBzdGFuZHMgdXAgdG8gYW55IHNwZWNpYWwgb2NjYXNpb25cblxuLVNpemUgNSBNZWRpdW1cbi1Db2xvcjogV2luZVxuLU1lZGl1bSB3aWR0aFxuLVN1ZWRlIHVwcGVyXG4tUnViYmVyIG91dHNvbGVcbi1IZWVsIGhlaWdodDogMC41XCJcbi1CaW9tZWNoYW5pY2FsbHkgZGVzaWduZWQgdG8gaHVnIHlvdXIgYXJjaGVzXG4tQnJhbmQgbmV3IGluIGJveFxuLVlvdSB3aWxsIHJlY2VpdmUgMSBwYWlyXG5cbkRvbid0IGhhdmUgYSBQb3NobWFyayBhY2NvdW50P1xuU2lnbiB1cCBub3cgd2l0aCBteSBjb2RlIEFNQkVSTUFSSUUzNzM3IHRvIHNhdmUgJDEwIG9uIHlvdXIgZmlyc3Qgb3JkZXIiLCIrZG9tYWluIjoicG9zaC5tayIsIitjbGlja190aW1lc3RhbXAiOjE2OTgyMzk2OTZ9">
+       <meta property="al:ios:app_store_id" content="470412147">
+       <meta name="twitter:app:id:iphone" content="470412147">
+       <meta property="al:ios:app_name" content="Poshmark">
+       <meta name="twitter:app:name:iphone" content="Poshmark">
+       <meta property="al:android:url" content="poshmark://listing/64d8648681078a28cd0c4f2c?utm_source=tw_client_sh&amp;utm_content=ext_trk%3Dbranch&amp;feature=sh_li__and&amp;campaign=share_content_user_post__us.default.003&amp;rfuid=ext1%3A229eca91-b683-4909-ac0c-2c7aefcaf545&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8gvztDLzdYP9M93z8gocPZzSQIAdWzlpxsAAAA%3D&amp;link_click_id=link-1240489603564348770-eyIkb2dfdGl0bGUiOiJWaW9uaWPCoEFtYW5kYSBTdWVkZSBCYWxsZXQgRmxhdHMgaW4gV2luZSBSZWQgU2l6ZSA1IE1lZGl1bSIsIiRkZWVwbGlua19wYXRoIjoibGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUiLCIkdHdpdHRlcl9zaXRlIjoiQHBvc2htYXJrYXBwIiwiJGFmdGVyX2NsaWNrX3VybCI6Imh0dHBzOi8vcG9zaG1hcmsuY29tL2xpc3RpbmcvNjRkODY0ODY4MTA3OGEyOGNkMGM0ZjJjP3V0bV9zb3VyY2U9dHdfY2xpZW50X3NoJnV0bV9jb250ZW50PWV4dF90cmslM0RicmFuY2glMjZmZWF0dXJlJTNEc2hfbGlfX2FuZCUyNmNhbXBhaWduJTNEc2hhcmVfY29udGVudF91c2VyX3Bvc3RfX3VzLmRlZmF1bHQuMDAzJTI2cmZ1aWQlM0RleHQxJTNBMjI5ZWNhOTEtYjY4My00OTA5LWFjMGMtMmM3YWVmY2FmNTQ1IiwifmZlYXR1cmUiOiJzaF9saV9fYW5kIiwiJGRlc2t0b3BfdXJsIjoiaHR0cHM6Ly9wb3NobWFyay5jb20vbGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUmYnJfdD10cnVlIiwiJGlvc19kZWVwbGlua19wYXRoIjoibGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUiLCJ-aWQiOiIxMjQwNDg5NjAzNTY0MzQ4NzcwIiwifmNhbXBhaWduIjoic2hhcmVfY29udGVudF91c2VyX3Bvc3RfX3VzLmRlZmF1bHQuMDAzIiwiJGFuZHJvaWRfdXJsIjoiaHR0cHM6Ly9wb3NobWFyay5jb20vbGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUmYnJfdD10cnVlIiwifmNoYW5uZWwiOiJ0d19jbGllbnRfc2giLCIkaW9zX3VybCI6Imh0dHBzOi8vcG9zaG1hcmsuY29tL2xpc3RpbmcvNjRkODY0ODY4MTA3OGEyOGNkMGM0ZjJjP3V0bV9zb3VyY2U9dHdfY2xpZW50X3NoJnV0bV9jb250ZW50PWV4dF90cmslM0RicmFuY2glMjZmZWF0dXJlJTNEc2hfbGlfX2FuZCUyNmNhbXBhaWduJTNEc2hhcmVfY29udGVudF91c2VyX3Bvc3RfX3VzLmRlZmF1bHQuMDAzJTI2cmZ1aWQlM0RleHQxJTNBMjI5ZWNhOTEtYjY4My00OTA5LWFjMGMtMmM3YWVmY2FmNTQ1JmJyX3Q9dHJ1ZSIsIn5jcmVhdGlvbl9zb3VyY2UiOjAsIiRvZ19kZXNjcmlwdGlvbiI6IlNob3AgYW1iZXJtYXJpZTM3MzcncyBjbG9zZXQgb3IgZmluZCB0aGUgcGVyZmVjdCBsb29rIGZyb20gbWlsbGlvbnMgb2Ygc3R5bGlzdHMuIEZhc3Qgc2hpcHBpbmcgYW5kIGJ1eWVyIHByb3RlY3Rpb24uIFZpb25pYyBBbWFuZGEgU3VlZGUgQmFsbGV0IEZsYXRzIGluIFdpbmUgUmVkXG5cbkEgc2ltcGxlIGJ1Y2tsZSBkZXRhaWwgJiBsb3cgaGVlbCBtYWtlIEFtYW5kYSBhbiB1bmRlcnN0YXRlZCBzdGFyLiBIZXIgc29waGlzdGljYXRlZCBjb21mb3J0IHN0YW5kcyB1cCB0byBhbnkgc3BlY2lhbCBvY2Nhc2lvblxuXG4tU2l6ZSA1IE1lZGl1bVxuLUNvbG9yOiBXaW5lXG4tTWVkaXVtIHdpZHRoXG4tU3VlZGUgdXBwZXJcbi1SdWJiZXIgb3V0c29sZVxuLUhlZWwgaGVpZ2h0OiAwLjVcIlxuLUJpb21lY2hhbmljYWxseSBkZXNpZ25lZCB0byBodWcgeW91ciBhcmNoZXNcbi1CcmFuZCBuZXcgaW4gYm94XG4tWW91IHdpbGwgcmVjZWl2ZSAxIHBhaXJcblxuRG9uJ3QgaGF2ZSBhIFBvc2htYXJrIGFjY291bnQ_XG5TaWduIHVwIG5vdyB3aXRoIG15IGNvZGUgQU1CRVJNQVJJRTM3MzcgdG8gc2F2ZSAkMTAgb24geW91ciBmaXJzdCBvcmRlciIsInJmdWlkIjoiZXh0MToyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUiLCIkdHdpdHRlcl9jYXJkIjoic3VtbWFyeV9sYXJnZV9pbWFnZSIsIiRvZ19pbWFnZV91cmwiOiJodHRwczovL2RpMnBvbnYwdjVvdHcuY2xvdWRmcm9udC5uZXQvcG9zdHMvMjAyMy8wOC8xMi82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmMvbV82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmQuanBlZyIsIiRvZ190eXBlIjoicHJvZHVjdCIsIiR0d2l0dGVyX3RpdGxlIjoiVmlvbmljwqBBbWFuZGEgU3VlZGUgQmFsbGV0IEZsYXRzIGluIFdpbmUgUmVkIFNpemUgNSBNZWRpdW0iLCIkb2dfYXBwX2lkIjoiMTgyODA5NTkxNzkzNDAzIiwiK3VybCI6Imh0dHBzOi8vcG9zaC5tay9RT29HaGhwQ05EYiIsIiRhbmRyb2lkX2RlZXBsaW5rX3BhdGgiOiJsaXN0aW5nLzY0ZDg2NDg2ODEwNzhhMjhjZDBjNGYyYz91dG1fc291cmNlPXR3X2NsaWVudF9zaCZ1dG1fY29udGVudD1leHRfdHJrJTNEYnJhbmNoJTI2ZmVhdHVyZSUzRHNoX2xpX19hbmQlMjZjYW1wYWlnbiUzRHNoYXJlX2NvbnRlbnRfdXNlcl9wb3N0X191cy5kZWZhdWx0LjAwMyUyNnJmdWlkJTNEZXh0MSUzQTIyOWVjYTkxLWI2ODMtNDkwOS1hYzBjLTJjN2FlZmNhZjU0NSIsIiRjYW5vbmljYWxfdXJsIjoiaHR0cHM6Ly9wb3NobWFyay5jb20vbGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUmYnJfdD10cnVlIiwiJHR3aXR0ZXJfZGVzY3JpcHRpb24iOiJWaW9uaWMgQW1hbmRhIFN1ZWRlIEJhbGxldCBGbGF0cyBpbiBXaW5lIFJlZFxuXG5BIHNpbXBsZSBidWNrbGUgZGV0YWlsICYgbG93IGhlZWwgbWFrZSBBbWFuZGEgYW4gdW5kZXJzdGF0ZWQgc3Rhci4gSGVyIHNvcGhpc3RpY2F0ZWQgY29tZm9ydCBzdGFuZHMgdXAgdG8gYW55IHNwZWNpYWwgb2NjYXNpb25cblxuLVNpemUgNSBNZWRpdW1cbi1Db2xvcjogV2luZVxuLU1lZGl1bSB3aWR0aFxuLVN1ZWRlIHVwcGVyXG4tUnViYmVyIG91dHNvbGVcbi1IZWVsIGhlaWdodDogMC41XCJcbi1CaW9tZWNoYW5pY2FsbHkgZGVzaWduZWQgdG8gaHVnIHlvdXIgYXJjaGVzXG4tQnJhbmQgbmV3IGluIGJveFxuLVlvdSB3aWxsIHJlY2VpdmUgMSBwYWlyXG5cbkRvbid0IGhhdmUgYSBQb3NobWFyayBhY2NvdW50P1xuU2lnbiB1cCBub3cgd2l0aCBteSBjb2RlIEFNQkVSTUFSSUUzNzM3IHRvIHNhdmUgJDEwIG9uIHlvdXIgZmlyc3Qgb3JkZXIiLCIrZG9tYWluIjoicG9zaC5tayIsIitjbGlja190aW1lc3RhbXAiOjE2OTgyMzk2OTZ9">
+       <meta name="twitter:app:url:googleplay" content="poshmark://listing/64d8648681078a28cd0c4f2c?utm_source=tw_client_sh&amp;utm_content=ext_trk%3Dbranch&amp;feature=sh_li__and&amp;campaign=share_content_user_post__us.default.003&amp;rfuid=ext1%3A229eca91-b683-4909-ac0c-2c7aefcaf545&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL8gvztDLzdYP9M93z8gocPZzSQIAdWzlpxsAAAA%3D&amp;link_click_id=link-1240489603564348770-eyIkb2dfdGl0bGUiOiJWaW9uaWPCoEFtYW5kYSBTdWVkZSBCYWxsZXQgRmxhdHMgaW4gV2luZSBSZWQgU2l6ZSA1IE1lZGl1bSIsIiRkZWVwbGlua19wYXRoIjoibGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUiLCIkdHdpdHRlcl9zaXRlIjoiQHBvc2htYXJrYXBwIiwiJGFmdGVyX2NsaWNrX3VybCI6Imh0dHBzOi8vcG9zaG1hcmsuY29tL2xpc3RpbmcvNjRkODY0ODY4MTA3OGEyOGNkMGM0ZjJjP3V0bV9zb3VyY2U9dHdfY2xpZW50X3NoJnV0bV9jb250ZW50PWV4dF90cmslM0RicmFuY2glMjZmZWF0dXJlJTNEc2hfbGlfX2FuZCUyNmNhbXBhaWduJTNEc2hhcmVfY29udGVudF91c2VyX3Bvc3RfX3VzLmRlZmF1bHQuMDAzJTI2cmZ1aWQlM0RleHQxJTNBMjI5ZWNhOTEtYjY4My00OTA5LWFjMGMtMmM3YWVmY2FmNTQ1IiwifmZlYXR1cmUiOiJzaF9saV9fYW5kIiwiJGRlc2t0b3BfdXJsIjoiaHR0cHM6Ly9wb3NobWFyay5jb20vbGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUmYnJfdD10cnVlIiwiJGlvc19kZWVwbGlua19wYXRoIjoibGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUiLCJ-aWQiOiIxMjQwNDg5NjAzNTY0MzQ4NzcwIiwifmNhbXBhaWduIjoic2hhcmVfY29udGVudF91c2VyX3Bvc3RfX3VzLmRlZmF1bHQuMDAzIiwiJGFuZHJvaWRfdXJsIjoiaHR0cHM6Ly9wb3NobWFyay5jb20vbGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUmYnJfdD10cnVlIiwifmNoYW5uZWwiOiJ0d19jbGllbnRfc2giLCIkaW9zX3VybCI6Imh0dHBzOi8vcG9zaG1hcmsuY29tL2xpc3RpbmcvNjRkODY0ODY4MTA3OGEyOGNkMGM0ZjJjP3V0bV9zb3VyY2U9dHdfY2xpZW50X3NoJnV0bV9jb250ZW50PWV4dF90cmslM0RicmFuY2glMjZmZWF0dXJlJTNEc2hfbGlfX2FuZCUyNmNhbXBhaWduJTNEc2hhcmVfY29udGVudF91c2VyX3Bvc3RfX3VzLmRlZmF1bHQuMDAzJTI2cmZ1aWQlM0RleHQxJTNBMjI5ZWNhOTEtYjY4My00OTA5LWFjMGMtMmM3YWVmY2FmNTQ1JmJyX3Q9dHJ1ZSIsIn5jcmVhdGlvbl9zb3VyY2UiOjAsIiRvZ19kZXNjcmlwdGlvbiI6IlNob3AgYW1iZXJtYXJpZTM3MzcncyBjbG9zZXQgb3IgZmluZCB0aGUgcGVyZmVjdCBsb29rIGZyb20gbWlsbGlvbnMgb2Ygc3R5bGlzdHMuIEZhc3Qgc2hpcHBpbmcgYW5kIGJ1eWVyIHByb3RlY3Rpb24uIFZpb25pYyBBbWFuZGEgU3VlZGUgQmFsbGV0IEZsYXRzIGluIFdpbmUgUmVkXG5cbkEgc2ltcGxlIGJ1Y2tsZSBkZXRhaWwgJiBsb3cgaGVlbCBtYWtlIEFtYW5kYSBhbiB1bmRlcnN0YXRlZCBzdGFyLiBIZXIgc29waGlzdGljYXRlZCBjb21mb3J0IHN0YW5kcyB1cCB0byBhbnkgc3BlY2lhbCBvY2Nhc2lvblxuXG4tU2l6ZSA1IE1lZGl1bVxuLUNvbG9yOiBXaW5lXG4tTWVkaXVtIHdpZHRoXG4tU3VlZGUgdXBwZXJcbi1SdWJiZXIgb3V0c29sZVxuLUhlZWwgaGVpZ2h0OiAwLjVcIlxuLUJpb21lY2hhbmljYWxseSBkZXNpZ25lZCB0byBodWcgeW91ciBhcmNoZXNcbi1CcmFuZCBuZXcgaW4gYm94XG4tWW91IHdpbGwgcmVjZWl2ZSAxIHBhaXJcblxuRG9uJ3QgaGF2ZSBhIFBvc2htYXJrIGFjY291bnQ_XG5TaWduIHVwIG5vdyB3aXRoIG15IGNvZGUgQU1CRVJNQVJJRTM3MzcgdG8gc2F2ZSAkMTAgb24geW91ciBmaXJzdCBvcmRlciIsInJmdWlkIjoiZXh0MToyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUiLCIkdHdpdHRlcl9jYXJkIjoic3VtbWFyeV9sYXJnZV9pbWFnZSIsIiRvZ19pbWFnZV91cmwiOiJodHRwczovL2RpMnBvbnYwdjVvdHcuY2xvdWRmcm9udC5uZXQvcG9zdHMvMjAyMy8wOC8xMi82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmMvbV82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmQuanBlZyIsIiRvZ190eXBlIjoicHJvZHVjdCIsIiR0d2l0dGVyX3RpdGxlIjoiVmlvbmljwqBBbWFuZGEgU3VlZGUgQmFsbGV0IEZsYXRzIGluIFdpbmUgUmVkIFNpemUgNSBNZWRpdW0iLCIkb2dfYXBwX2lkIjoiMTgyODA5NTkxNzkzNDAzIiwiK3VybCI6Imh0dHBzOi8vcG9zaC5tay9RT29HaGhwQ05EYiIsIiRhbmRyb2lkX2RlZXBsaW5rX3BhdGgiOiJsaXN0aW5nLzY0ZDg2NDg2ODEwNzhhMjhjZDBjNGYyYz91dG1fc291cmNlPXR3X2NsaWVudF9zaCZ1dG1fY29udGVudD1leHRfdHJrJTNEYnJhbmNoJTI2ZmVhdHVyZSUzRHNoX2xpX19hbmQlMjZjYW1wYWlnbiUzRHNoYXJlX2NvbnRlbnRfdXNlcl9wb3N0X191cy5kZWZhdWx0LjAwMyUyNnJmdWlkJTNEZXh0MSUzQTIyOWVjYTkxLWI2ODMtNDkwOS1hYzBjLTJjN2FlZmNhZjU0NSIsIiRjYW5vbmljYWxfdXJsIjoiaHR0cHM6Ly9wb3NobWFyay5jb20vbGlzdGluZy82NGQ4NjQ4NjgxMDc4YTI4Y2QwYzRmMmM_dXRtX3NvdXJjZT10d19jbGllbnRfc2gmdXRtX2NvbnRlbnQ9ZXh0X3RyayUzRGJyYW5jaCUyNmZlYXR1cmUlM0RzaF9saV9fYW5kJTI2Y2FtcGFpZ24lM0RzaGFyZV9jb250ZW50X3VzZXJfcG9zdF9fdXMuZGVmYXVsdC4wMDMlMjZyZnVpZCUzRGV4dDElM0EyMjllY2E5MS1iNjgzLTQ5MDktYWMwYy0yYzdhZWZjYWY1NDUmYnJfdD10cnVlIiwiJHR3aXR0ZXJfZGVzY3JpcHRpb24iOiJWaW9uaWMgQW1hbmRhIFN1ZWRlIEJhbGxldCBGbGF0cyBpbiBXaW5lIFJlZFxuXG5BIHNpbXBsZSBidWNrbGUgZGV0YWlsICYgbG93IGhlZWwgbWFrZSBBbWFuZGEgYW4gdW5kZXJzdGF0ZWQgc3Rhci4gSGVyIHNvcGhpc3RpY2F0ZWQgY29tZm9ydCBzdGFuZHMgdXAgdG8gYW55IHNwZWNpYWwgb2NjYXNpb25cblxuLVNpemUgNSBNZWRpdW1cbi1Db2xvcjogV2luZVxuLU1lZGl1bSB3aWR0aFxuLVN1ZWRlIHVwcGVyXG4tUnViYmVyIG91dHNvbGVcbi1IZWVsIGhlaWdodDogMC41XCJcbi1CaW9tZWNoYW5pY2FsbHkgZGVzaWduZWQgdG8gaHVnIHlvdXIgYXJjaGVzXG4tQnJhbmQgbmV3IGluIGJveFxuLVlvdSB3aWxsIHJlY2VpdmUgMSBwYWlyXG5cbkRvbid0IGhhdmUgYSBQb3NobWFyayBhY2NvdW50P1xuU2lnbiB1cCBub3cgd2l0aCBteSBjb2RlIEFNQkVSTUFSSUUzNzM3IHRvIHNhdmUgJDEwIG9uIHlvdXIgZmlyc3Qgb3JkZXIiLCIrZG9tYWluIjoicG9zaC5tayIsIitjbGlja190aW1lc3RhbXAiOjE2OTgyMzk2OTZ9">
+       <meta property="al:android:package" content="com.poshmark.app">
+       <meta name="twitter:app:id:googleplay" content="com.poshmark.app">
+       <meta property="al:android:app_name" content="Poshmark">
+       <meta name="twitter:app:name:googleplay" content="Poshmark">
+       <meta property="og:image" content="https://di2ponv0v5otw.cloudfront.net/posts/2023/08/12/64d8648681078a28cd0c4f2c/m_64d8648681078a28cd0c4f2d.jpeg">
+         <meta name="twitter:image:src" content="https://di2ponv0v5otw.cloudfront.net/posts/2023/08/12/64d8648681078a28cd0c4f2c/m_64d8648681078a28cd0c4f2d.jpeg">
+       <title>Vionic&#xA0;Amanda Suede Ballet Flats in Wine Red Size 5 Medium</title>
+       <meta property="og:title" content="Vionic&#xA0;Amanda Suede Ballet Flats in Wine Red Size 5 Medium">
+       <meta property="og:description" content="Shop ambermarie3737&apos;s closet or find the perfect look from millions of stylists. Fast shipping and buyer protection. Vionic Amanda Suede Ballet Flats in Wine Red
+
+A simple buckle detail &amp; low heel make Amanda an understated star. Her sophisticated comfort stands up to any special occasion
+
+-Size 5 Medium
+-Color: Wine
+-Medium width
+-Suede upper
+-Rubber outsole
+-Heel height: 0.5&quot;
+-Biomechanically designed to hug your arches
+-Brand new in box
+-You will receive 1 pair
+
+Don&apos;t have a Poshmark account?
+Sign up now with my code AMBERMARIE3737 to save $10 on your first order">
+       <meta property="fb:app_id" content="182809591793403">
+       <meta property="og:url" content="https://poshmark.com/listing/64d8648681078a28cd0c4f2c?utm_source=tw_client_sh&amp;utm_content=ext_trk%3Dbranch%26feature%3Dsh_li__and%26campaign%3Dshare_content_user_post__us.default.003%26rfuid%3Dext1%3A229eca91-b683-4909-ac0c-2c7aefcaf545&amp;br_t=true">
+       <meta property="og:type" content="product">
+       <meta name="twitter:card" content="summary_large_image">
+       <meta name="twitter:app:country" content="US">
+       <meta name="twitter:title" content="Vionic&#xA0;Amanda Suede Ballet Flats in Wine Red Size 5 Medium">
+       <meta name="twitter:description" content="Vionic Amanda Suede Ballet Flats in Wine Red
+
+A simple buckle detail &amp; low heel make Amanda an understated star. Her sophisticated comfort stands up to any special occasion
+
+-Size 5 Medium
+-Color: Wine
+-Medium width
+-Suede upper
+-Rubber outsole
+-Heel height: 0.5&quot;
+-Biomechanically designed to hug your arches
+-Brand new in box
+-You will receive 1 pair
+
+Don&apos;t have a Poshmark account?
+Sign up now with my code AMBERMARIE3737 to save $10 on your first order">
+       <meta name="twitter:site" content="@poshmarkapp">
+   <script async src="https://cdn.ampproject.org/v0.js"></script><script async src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js" custom-element="amp-iframe"></script><script async src="https://cdn.ampproject.org/v0/amp-list-0.1.js" custom-element="amp-list"></script><script async src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js" custom-template="amp-mustache"></script><link rel="canonical" href="https://posh.mk/QOoGhhpCNDb"></head>
+   <body>
+     <div class="card center">
+       <div class="main-image"></div>
+       <div id="content-container">
+         <div class="app-title text-bold">Poshmark</div>
+         <div class="card-title text-light">Vionic&#xA0;Amanda Suede Ballet Flats in Wine Red Size 5 Medium</div>
+         <div class="app-content text-light">Shop ambermarie3737&apos;s closet or find the perfect look from millions of stylists. Fast shipping and buyer protection. Vionic Amanda Suede Ballet Flats in Wine Red
+
+A simple buckle detail &amp; low heel make Amanda an understated star. Her sophisticated comfort stands up to any special occasion
+
+-Size 5 Medium
+-Color: Wine
+-Medium width
+-Suede upper
+-Rubber outsole
+-Heel height: 0.5&quot;
+-Biomechanically designed to hug your arches
+-Brand new in box
+-You will receive 1 pair
+
+Don&apos;t have a Poshmark account?
+Sign up now with my code AMBERMARIE3737 to save $10 on your first order</div>
+       </div>
+       <div class="input-wrapper">
+         <div class="input-container">
+           <div class="input-label text-light">See this content immediately after install</div>
+           <div class="form-get-the-app">
+             <amp-list src="https://posh.mk/QOoGhhpCNDb?__branch_amp_json=1" layout="flex-item">
+      <template type="amp-mustache" id="cta-template">
+        <a href="{{action}}" class="cta-button text-light cta-button--no-app-icon">
+               Get The App
+             </a>
+      <amp-iframe id="branch-sdk" src="/amp-iframe-redirect?scheme_redirect={{scheme_redirect}}&redirect_strategy={{redirect_strategy}}&app_id=99560020626113106&has_app=false" sandbox="allow-scripts allow-top-navigation" height="11" layout="fixed-height" frameborder="0"></amp-iframe></template>
+    </amp-list>
+           </div>
+         </div>
+       </div>
+     </div>
+   </body>
+ </html>
