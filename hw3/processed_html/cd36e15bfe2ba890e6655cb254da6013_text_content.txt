@@ -1,0 +1,252 @@
+
+
+
+Pharma post-COVID 19: Reducing political clout can alter business models | Health
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+                 HOME  NEWS  RESEARCH  LIVE DISCOURSE  BLOG / OPINION  SUBMIT PRESS RELEASE       About  Career  Advertisement  Team  Partnership    Knowledge Partnership  Media Partnership   Contact Us      NEWS  RESEARCH  LIVE DISCOURSE  BLOG / OPINION  INTERVIEW  SUBMIT PRESS RELEASE      Agro-Forestry  Art & Culture  Technology  Economy  Education  Energy  Politics  Law & Governance  Health  Science  Social  Sports  Transport  Urban Development  WASH   
+
+
+
+ Advertisement 
+
+ Home  
+ Blog  
+
+Economy & Business
+
+
+Article
+ 
+
+
+Pharma post-COVID 19: Reducing political clout can alter business models Powerful governments that have historically supported the pharma industry in enforcing global intellectual property rules are changing course and introducing legislation that can override normal patent rights during emergencies.  
+
+COE-EDP
+                      | Updated: 15-05-2020 06:54 IST | Created: 15-05-2020 06:54 IST
+      Intellectual property rules might not work in favor of pharma as the world faces its biggest healthcare crisis of the 21st century. Image Credit: Pexels 
+
+SHARE
+    
+    
+    
+    
+
+  
+Pharma industry has the scientific know-how, management capabilities, and the physical as well as the technological infrastructure required to develop treatments and a vaccine against COVID-19. Companies in the sector are making unprecedented efforts for R&D and moving towards drug development in an accelerated manner.
+But the COVID-19 pandemic has shaken the bedrock of almost every industry and pharma is no exception. Apart from the efforts to develop vaccine and treatment for the virus, the industry is confronted with other challenges that are forcing companies to re-evaluate their business models for long-term sustainability.
+Much of the world’s supply of generic drugs relies on ingredients made in China, and some factories have shut down to curb the spread of novel coronavirus. Global supply chains are falling apart as industry struggles with manufacturing disruptions, lack of logistic support, and manpower shortage.
+Across the globe, while research into potential COVID-19 vaccines and treatments is speeding along, the pandemic has slowed or halted clinical trials for other diseases.
+The way this industry works has also changed dramatically; big pharma companies that hold patents and Intellectual Property (IP) rights close to heart have started waiving off these rights to facilitate easier and cheaper distribution of drugs and devices. In March, American pharmaceutical behemoth AbbVie said it would stop enforcing its patent on Kaletra, an HIV medicine that is currently being tested for effectiveness in the treatment of COVID-19.
+Pharma companies are being urged to collaborate and pool resources to develop treatments and vaccines against COVID-19 and they are getting on board with the idea, going against the competition-based model that has helped them thrive for decades. Some of the world’s leading biopharmaceutical companies have committed to collaborate and share their expertise across the scientific community as part of the global fight against COVID-19.
+How is the pharmaceutical industry impacted?
+Businesses across the world are struggling to continue operations due to supply chain disruptions and those providing essential goods like drugs and medical devices remain at the forefront of the crisis. China is a global manufacturing hub and much of the world’s supply of ingredients used in generic drugs rely on the country, which claims to have controlled the spread of pandemic but several factories are struggling to operate at full capacity due to restrictions imposed to stop a ‘second wave’ and limited access to logistics.
+India, which is home to some of the biggest generic drug makers, has also restricted exports of drugs and medical devices to ensure that it has enough supplies for its own population of more than 1.3 billion people. Although it should be noted that the country exported hydroxychloroquine tablets to several countries after a request by US President Donald Trump.
+Limited access to logistics has also impacted the pharmaceutical industry’s ability to procure and supply essential drugs which are paramount in the fight against this pandemic. If lockdowns and restrictions persist, they would further disrupt supplies of key drugs from reaching distributors and ultimately patients around the world.
+Letting go of the traditional model of pursuing own research and maintaining secrecy to protect R&D investments, pharma companies are collaborating at an ‘unprecedented’ scale, says industry body International Federation of Pharmaceutical Manufacturers & Associations (IFPMA). “The world’s leading biopharmaceutical companies reaffirmed the industry’s commitment to join forces to ensure that its breadth of expertise in therapeutics (research, clinical development, manufacturing) is shared across the scientific community as part of the global fight against COVID-19,” IFPMA said in a press release in early May.
+The extraordinary times have increased pressure on pharma companies to share patents to facilitate the manufacturing and supply of essential drugs. Stakeholders including the World Health Organization (WHO) and investors themselves have urged companies to waive off IP rights.
+Drugmaker Gilead was recently criticized for allegedly trying to profit from the pandemic when it secured orphan-drug status for its experimental drug Remdesivir, which is being considered as a possible treatment for COVID-19. The status gives drug companies a seven-year monopoly on sales, tax credits, and expedited approval. The company faced heavy criticism and ultimately asked the US Food and Drug Administration (FDA) to rescind the status.
+A few other companies have also dropped patent rights and special status for their drugs. The pharma industry is removing barriers to support drug development for COVID-19, and they don’t have a choice or supportive political clout in rich countries this time, unlike during the Big Pharma vs Nelson Mandela case, where South Africa had to literally fight a lawsuit against big pharmaceutical companies to save millions of people from dying due to AIDS.
+Powerful governments that have historically supported the pharma industry in enforcing global intellectual property rules, which are often against the interests of upcoming companies, have changed course which proves that these are not the normal times for the industry and could leave a lasting impact.
+AbbVie’s move to drop patent rights for its Kaletra antiviral drug came after the Israeli government issued a compulsory license that allows companies to produce generic drugs by paying only royalty to the patent owner and overrides normal patent rights during an emergency. Canada has also amended its laws to make it easier to issue compulsory licenses.
+Germany and France have also introduced similar measures that allow them to produce generic drugs before the expiry of related patents in their country.
+Companies and stakeholders have accelerated research into potential vaccines and treatments for COVID-19 but many clinical trials for other diseases have been either halted or being operated at limited capacity. Shortage of doctors, clinical space, and fear of transmission between already sick patients have impacted clinical trials and the development of other drugs and treatments.
+Clinical trials can be crucial for patients suffering from serious and incurable conditions. Sometimes these trials are their best shot as traditional therapies have failed.
+Many companies are deploying AI-based solutions to accelerate drug development for COVID-19. Drug development has traditionally been a slow process that often takes years and billions of dollars of investment but advocates of AI have claimed that technology can be the saviour during this time of crisis as it can analyze more data in a few days than a human can in a lifetime. Based on this data, the solution can undertake a predictive analysis to model the diseases and recommend drugs or new molecules that can be effective against the disease.
+BenevolentAI has already identified a drug called Baricitinib as a potential treatment to prevent the virus infecting lung cells and it has now entered a controlled trial with the US National Institute of Allergy and Infectious Diseases. Several other companies including Japan’s NEC and South Korea’s Deargen have also deployed AI to model the novel coronavirus and predict the activity of available antiviral drugs against the disease. But the claims of tech companies should be taken with caution because the data about COVID-19 and the virus SARS-CoV-2 is very limited and that data is crucial to train algorithms.
+Future of the pharma industry
+
+Reducing political clout
+
+Several of the world’s leading biopharmaceutical companies have committed to join forces to ensure that their breadth of expertise is shared across the scientific community and helps the fight against COVID-19. IFPMA has said that the R&D biopharmaceutical industry is involved in more than 25 clinical trials, assessing over 130 therapeutics and undertaking 13 different programs to accelerate the development of safe and effective vaccines to prevent COVID-19 in collaboration with others.
+Adding to unprecedented moves, few companies have even waived off their patent rights to drugs that are believed to be useful in treating COVID-19. Public pressure on more pharma companies to waive off such rights is building up and the political clouts in developed countries would not be of much use this time.
+This pandemic has changed the way the pharma industry operates and the argument of protecting R&D investment with patent rights isn’t holding up well with the public. In the long term, R&D into drug development and patent rights could see a regulatory overhaul as many countries, including the developed ones, seek a more humane balance between profits of pharma companies and public health.
+
+AI-powered drug development
+
+The potential of AI in drug development has been talked about for years and its use has been demonstrated but it is still not widely adopted. The disruption caused by the COVID-19 pandemic is the chance of such technologies to prove their worth in tackling the challenges of the 21st century.
+Traditionally, drug development takes about 3-5 years of discovering and optimizing molecules with animal studies and clinical trials. Even repurposing existing drugs for new diseases can take anywhere between 1-3 years. Advocates of AI have, however, often claimed to identify and design new drugs in a matter of months and some even claim that it can be done in a few days. The benefits, if realistic, could save multiple years and billions of dollars to bring a new treatment to market.
+But many people believe that the use of AI in drug development is overhyped and blind trust in such technologies during a pandemic could elevate problems. In general, the success of AI-powered solutions is dependent on the data that is used to ‘train’ the algorithms. Limited availability of data about SARS-CoV-2, the virus that causes COVID-19, can be a challenge.
+However, the disruption in drug development has already happened due to the pandemic and it is the perfect time to test the viability of AI in drug development on a large scale. Although any predictions by these algorithms should be tested with clinical trials before deployment in the real world. If it’s successful, the benefits would be reaped in for years, or even decades, to come.
+
+Resilience in supply chains
+
+Supply chain disruptions have impacted every sector dealing in goods but pharmaceutical companies are hit particularly hard because keeping their supply chains up and running is crucial in the fight against COVID-19.
+Many companies are dependent on Chinese and Indian suppliers for ingredients and generics, and this dependence can do real damage to a business, rendering it unable to deliver orders or maintain day-to-day operations. Although governments have stepped in to ensure that the supply of essential drugs is uninterrupted, the shock was big enough for pharma companies to rethink their supply chains and introduce more resilience in the future.
+Rather than single sourcing, companies should diversify their supply chains, wherever possible, to build resilience. Big pharma could also look for alternatives and local production in case their efforts to build resilience are blocked by intellectual property regulations.
+
+Damage control
+
+While intellectual property rules might not work in favor of pharma as the world faces its biggest healthcare crisis of the 21st century, companies in the sector might just as well try to utilize it as an opportunity to redeem a reputation that has been tarnished over decades. Massive corruption scandals, unethical lobbying, and prioritizing profits over public health are some of the PR blunders that the industry has faced year after year.
+To turn the COVID-19 disruption into an opportunity, it will be critical for pharma companies to prioritize relationships with healthcare professionals (HCPs) and ultimately better prioritize public healthcare needs. Efforts taken in the direction of customer-centricity will also play a catalyst for companies in adapting to changing market expectations over the long term.
+
+Changing ways to engage HCPs
+
+Face-to-face interactions between pharma reps and HCPs have essentially ceased due to the pandemic. While some of these interactions have moved online, a significant number of physicians are avoiding pharma reps altogether as they focus on the problem at hand.
+But that doesn’t mean HCPs have stopped looking for new medical information altogether and pharma companies should embrace flexible approaches to engage while maintaining the right level of sensitivity.
+The drop in interactions might have been due to immediate challenges but changing expectations for interactions between HCPs and pharma can continue even after the pandemic. Companies should carefully consider when and how to re-engage with physicians.
+
+Pharma events
+
+Hundreds of events have been canceled or postponed due to the COVID-19 pandemic which includes many pharma events as well. These events are crucial for the industry as they serve as a marketing platform for new product launches and networking opportunities.
+While a few events have tried to go virtual, stakeholders are trying to focus all their resources on COVID-19, which compounds the difficulties arising from a salesforce largely unable to meet with HCPs. If the situation is not brought under control soon and hospitals don’t start moving back to the stable healthcare-delivery ecosystem, pharma companies risk losing a year of educating the market and HCPs on the benefits of their new treatments and drugs, perjuring billions of dollars of investment.
+Going ahead, pharma giants should consider more resilient options for product launches and networking but only conducting virtual events won’t solve the problem, and companies should invest in monitoring engagement dynamically for an agile response.
+Centre of Excellence on Emerging Development Perspectives (COE-EDP) is an initiative of VisionRI and aims to keep track of the transition trajectory of global development and works towards conceptualization, development, and mainstreaming of innovative developmental approaches, frameworks, and practices.   READ MORE ON:  Pharma   Pharma COVID-19   coronavirus pharma   Compulsory license   drug development   COVID 19 vaccine     FIRST PUBLISHED IN: Devdiscourse  
+Advertisement
+
+
+   ALSO READ    Revolutionizing Pharma Distribution: MEDIMNY Fosters Nationwide Integration with Innovative E-commerce Platform   Revolutionising Industries: AI's Impact on Digital Marketing in Healthcare, Pharma, Food, Real Estate, Travel, and Education   Health News Roundup: Novavax says new COVID shot now available in U.S. pharmacies; EU countries fail to agree on extending glyphosate approval and more    Health News Roundup: Novavax says new COVID shot now available in U.S. pharmacies; EU countries fail to agree on extending glyphosate approval and more    Health News Roundup: Novavax says new COVID shot now available in U.S. pharmacies;   
+  POST / READ COMMENTS     
+ 
+
+ Advertisement   TRENDING 
+ 1       Health News Roundup: Analysis-Anti-obesity drugs can be boost for food maker...   Global  2       FEATURE-Nigerians say food handouts do not make up for lost fuel subsidy    Global  3       US STOCKS-Wall Street surges to close higher, powered by upbeat earnings, gu...   United States  4       "UCL is the competition we all like the most": Real Madrid head coach Carlo ...   Portugal    DevShots     Latest News  
+
+
+
+                    Goa Maritime Conclave to be held from October 29 to 31 
+                
+
+
+
+
+
+                    Turkish top court: Rights of jailed new parliamentary deputy Atalay violated
+                
+
+
+
+
+
+                    Emerging markets need $1.5 trillion to make buildings greener - World Bank's IFC
+                
+
+
+
+
+
+                    Everest Better Kitchen Awards: Celebrating Excellence in India's Culinary Landscape
+                
+
+
+                              OPINION / BLOG / INTERVIEW 
+
+
+
+
+
+
+Cold Plunge Therapy: Exploring Its Scientific Benefits and Worth
+
+
+
+
+
+
+
+
+
+Traveler's Paradise: 9 Absolutely Stunning Waterfalls to Visit
+
+
+
+
+
+
+
+
+
+Optimize Your Sleep: A Step-by-Step Hourly Bedtime Routine Guide
+
+
+
+
+
+
+
+
+
+Career Rebound: How to Successfully Retract Your Resignation
+
+
+
+   Connect us on   Facebook  Twitter  LinkedIn  Quora  Youtube   Google News   RSS 
+
+
+
+  Give Feedback   Name   Email   Message  Submit           HOME  ABOUT  CAREER  ADVERTISEMENT  TEAM  KNOWLEDGE PARTNERSHIP  MEDIA PARTNERSHIP  INTERNSHIP  CONTACT US    Subscribe to our Newsletter       SUBSCRIBE        SECTORS     Agro-Forestry  Art & Culture  Technology  Economy & Business  Education  Energy & Extractives  Politics     Law & Governance  Health  Science & Environment  Social & Gender  Sports  Transport  Urban Development  WASH    EDITIONS    Pacific  South Asia  East and South East Asia  Europe and Central Asia  Central Africa  East Africa  Southern Africa  West Africa  Middle East and North Africa  North America  Latin America and Caribbean    OTHER LINKS     Write for us  Submit Press Release  Opinion / Blog / Analysis  Business News  Entertainment News  Technology News     Law-order News  Lifestyle News  National News  International News  Headlines  Other    OTHER PRODUCTS    VITHI  VYOMA  VYAPAD  IDEA-KM  IDEA-M&E  CONNECT                  Email: info@devdiscourse.com Phone: +91-720-6444012, +91-7027739813, 14, 15   VisionRI | Disclaimer | Terms of use  | Privacy Policy © Copyright 2023 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

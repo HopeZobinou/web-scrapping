@@ -1,0 +1,428 @@
+
+
+
+
+
+
+
+The anatomy of a letterform – WordPress Developer Blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+WordPress.org
+
+
+ 
+
+
+
+
+
+
+
+NewsShowcaseHostingExtendThemesPluginsPatternsBlocksOpenverse ↗︎LearnLearn WordPressDocumentationForumsDevelopersWordPress.tv ↗︎CommunityMake WordPressPhoto DirectoryFive for the FutureWordCamp ↗︎Meetups ↗︎Job Board ↗︎AboutAbout WordPressEnterpriseGutenberg ↗︎Swag Store ↗︎Get WordPress
+
+
+
+
+
+
+
+
+
+
+
+Search in WordPress.org
+
+
+
+
+
+
+
+
+
+		Get WordPress	
+
+
+
+WordPress Developer Blog
+
+
+
+
+
+
+HomeThemesPluginsBlock developmentLearningBeginnersAdvancedConceptsAboutUpdatesTips and guidelinesHow to contributeDeveloper DocsCode ReferenceCoding StandardsBlock EditorCommon APIsThemesPluginsREST APIWP-CLI 
+
+
+
+
+
+
+
+The anatomy of a letterform
+August 17, 2023
+
+By
+marybaum
+in
+Concepts, Learning, Themes
+
+
+
+
+
+
+
+
+This is Part 2 of the six-part series, Make your site’s typography make a statement.
+
+Make your site’s typography make a statement: a series of six posts
+
+The visual voice of type: basic type terms, so we can start the discussion
+This post: The anatomy of a letterform. How do the parts of a letterform give a typeface its voice? What makes a family appropriate for automotive or fashion, tech or consumer packaged goods?
+A great read: Four simple steps to your best body copy ever a progression from naked HTML to nicely formed paragraphs and subheads
+Picking type for a site, to build a brand: a simple formula (battle-tested over 40 years of continuous use!) you can follow every time that will give you remarkably different looks that seem to arise organically from the nature of the site itself.
+Beyond Google Fonts: where do you find great type families? There are sites full of supposedly free fonts that are full of student experiments and knockoffs of famous brands. There are big sites offering entire libraries of the foundries that built the type we see every day. And then there are the places I go, for bundles, subscriptions and deals.
+Making type work: Across browsers. In block themes. In theme.json (but mostly in the Editor). And with a little PHP and CSS, you can use the entire universe of type sold online today. 
+
+
+In Part 1 you looked at the language of type—the basic terminology around organizing typefaces, families, and fonts. You also got specific with spacing, slants, sizing, and widths. 
+But what is a letter, really? In code it’s part of a string. In machine language it carries the weight of one bit.
+A letter is also a character. (But a character can also be a punctuation mark, a space, or a symbol. Some typefaces have more characters than others.)
+Above all, a letter’s form is what gives a typeface its personality— loud, soft, delicate, playful, elegant, brutal, creepy, and so many more—also called its voice. The term for that marriage of character and voice is its letterform.
+A letterform is the sum of its parts.
+Let’s take a look at how the parts go together in a sans-serif typeface, a fairly normal serif face, and a serif face that has some extra features.
+A geometric sans called Wright Funk
+
+The parts of a sans-serif typeface occur in serif faces, too. So it makes sense to start here:
+
+Just about every letter has at least one stroke. This W has four.
+The area inside the curve is the counter.
+The curved part is the bowl.
+The primary stroke of a letter—think of it as the weight-bearing column—is the stem. 
+The part of a stem that rises above the midline is the ascender.
+A horizontal stroke enclosed in the letter is a bar.
+The main stroke of an S is the spine.
+Any curve coming off a stem, in any letter, is a shoulder. This lowercase r has one. So does a lowercase n. A lowercase m has two.
+The counter of a lowercase e is the eye.
+The stroke heading down and to the right of this k, an uppercase K, and the uppercase R, is the leg.
+
+A transitional serif called Otama
+
+Serif typefaces add the serifs, of course, plus:
+
+ Big horizontals are arms. This uppercase E has three.
+ The tapering end of a stroke, as on the lowercase e, is a finial. So are the unadorned terminals on the lowercase s.
+ This terminal on the lowercase r, with its big circular end, is a ball terminal. There’s one on the lowercase y, too.
+The part of any letter that hangs down from the baseline, as on the y and the p here, is the descender.
+ And the foot is the part of any letter that sits on the baseline.
+ Any counter whose bowl is not completely closed is called the aperture. Here it’s on the lowercase e (both of them, actually) but it also occurs on both cases of C and anywhere else there’s a gap in the bowl.
+
+Hey—what are those lines?
+Have you noticed that our samples are sitting on a pair of parallel lines? The bottom one is the baseline. The top one is the midline, and its position varies with the typeface. 
+The distance between the two is the x-height, named for the height of the lowercase x. Curved forms, like bowls and shoulders, slightly overshoot both the baseline and the midline.
+A swash serif called Magiona Display
+
+A typeface that has a lot of decorative features also has names for those features. Here they are, plus a few that are just plain obscure:
+
+The part of a serif that joins the extension to the stroke is the bracket.
+ By the way, here are some serifs on Magiona. The gradual taper of that bracket from stroke to serif classifies the typeface as glyphic.
+ The decorative extension of any letter part is the swash.
+ The extra protrusion at the bottom of this lowercase u and b, respectively, is the spur.
+The dot on the i? That’s the tittle. Really.
+Even though this particular s and h (green, outlined in blue) don’t touch, the type designer drew the combination as a single unit, called a ligature.
+This part of the lowercase r has so many names! It’s a curve coming off the stem, so it’s a shoulder. It’s an end stroke, so it’s a terminal. It’s unadorned and tapers, so it’s also a finial.
+
+So there you have it—a quick look at the lines and shapes that put the style in a typeface. And there’s always more to know.
+How do these parts combine to give a typeface its personality—its voice? Another term for personality is mood.
+How does that voice carry over into characters that are not letters—numbers, punctuation, symbols, accents, and more?
+Let’s take a look at those three typefaces again.
+One sentence, three ways
+Wright Funk
+
+Otama
+
+Magiona
+
+The same sentence doesn’t just look different. It feels different. Remember that in Part 1, we talked about type having a voice? Well, these three faces (short for typefaces) even sound different.
+
+is a geometric sans-serif. If you want to sound cool at a party, call it a geometric sans for short. 
+It’s all straight lines, sharp angles, and nearly perfect circles. It exudes cool, architectural simplicity. Its low x-height and unusual treatment of letterforms like the uppercase F and lowercase k give it an Art Deco feel. So it works just as well to promote an upscale lifestyle brand, a bank, or a jazz venue.
+Need a little more heft? Wright comes in a giant family with many weights and true italics across four separate stylings, each of which is a subtly different take on distinctive letterforms, so you can also use it in very traditional settings.  
+
+curves and serifs (and those ball terminals!) make this transitional serif a lot friendlier.
+And it might be easier to read in long form. Current research disputes the long-held view that serifs are what make reading easier. Instead, the literature (and WCEU speaker Giulia Laco, via the WP Tavern) suggests that high x-heights and open apertures boost readability.
+Otama comes in lots of weights, as do a lot of workhorse families from established foundries. 
+For what it’s worth, Big Food has used a lot of transitional serifs to bring eaters to the table for most of the last fifty years. Otama would also be right at home promoting all kinds of consumer goods and retail brands. If you want to reach the head of a household, you can’t go wrong with a transitional serif.
+
+is also a transitional serif. But look at all those swashes! The typeface has lots of other alternate forms—a good six to eight, each, for every lowercase letter of the alphabet, and two to four for lots of the uppercase. 
+And this bold weight makes it fairly shout, like a big friendly puppy who wants to play.
+Want a lighter weight? You’ll need to buy a different package. For the most part, as we speak in 2023, relatively few big type families (say, eight or more weights) offer a lot of alternates and ligatures. More commonly, a ligature serif face might come in a duo or a trio, with a handwritten script.
+Want more on type?
+These two pages were invaluable as reference for all the part names:
+
+Canva’s illustrated guide
+A glossary from Fontshop
+
+If you’d like to get more detail on type classifications, here’s Google’s summary.
+If you’d like to get involved with the WordPress Fonts Library, which is slated to launch Stage 1 in 6.4, here’s the tracking issue.
+Next in the series: A great read—four steps to your best body copy ever
+Huge props to @greenshady, @annezazu, and @webcommsat for feedback and review.
+
+
+
+Tags: 
+design, Extenders, Learning, typography
+
+Are you a developer with a topic idea that you would like to share with the community? How about publishing it here on the WordPress Developer Blog? Read the tips and guidelines and find out how you can contribute.
+
+
+
+
+2 responses to “The anatomy of a letterform”
+
+
+
+Erik
+August 18, 2023
+
+Great Article! I never thought about how a font is created…
+In the Graphic to Magiona Display some numbers are mixed up.
+– The i tittle should be 21
+– The s&h ligature should be 22
+– The r -s shoulder-terminal-finial should be 23
+Thank you for your work, I love the articles in this blog <3
+
+Reply
+
+
+
+
+marybaum
+August 22, 2023
+
+Thank you very much for the catch! And the compliments. I’m thrilled you like the subject! (In the next post you’ll see some theme.json at work when we set long copy. My favorite!)
+
+Reply
+
+
+
+Leave a Reply Cancel replyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ Save my name, email, and website in this browser for the next time I comment.
+ Notify me of follow-up comments by email. Notify me of new posts by email. 
+
+Δ 
+
+
+
+
+
+
+
+
+
+Release Dev Notes
+Framework for storing revisions of Post Meta in 6.4October 24, 2023 by Adam SilversteinWordPress 6.4 Field GuideOctober 23, 2023 by Abha ThakorUpdates to the HTML API in 6.4October 21, 2023 by Dennis SnellImage loading optimization enhancements in 6.4October 18, 2023 by Felix ArntzNew option functions in 6.4October 17, 2023 by Felix Arntz
+View all Dev Notes from the latest WordPress version 
+
+
+Learn WordPress for Developers
+On Learn WordPress you find courses, workshops and video tutorials. 
+Introduction to Block Development: Build your first custom block
+Using the WordPress Data Layer
+Developers Guide to Block Themes (Part 1)
+A Developers Guide to Block Themes  (Part 2)
+See also the  calendar of online workshops. You’ll find events for developers are happening every week.
+Subscribe to the Developer Blog
+
+
+
+
+
+
+
+								Email Address							
+
+
+
+
+
+
+
+
+
+								Subscribe							
+
+
+
+
+						Join 688 other subscribers					
+
+
+
+
+
+
+
+
+
+About
+News
+Hosting
+Privacy
+
+
+Showcase
+Themes
+Plugins
+Patterns
+
+
+Learn
+Documentation
+Developers
+WordPress.tv ↗
+
+
+Get Involved
+Donate ↗
+Swag Store ↗
+WordCamp ↗
+
+
+WordPress.com ↗
+Matt ↗
+bbPress ↗
+BuddyPress ↗
+
+
+
+
+
+
+
+
+WordPress.org
+
+
+ 
+
+
+
+
+WordPress.org
+
+
+
+ 
+
+
+
+Visit our Facebook page
+Visit our X (formerly Twitter) account
+Visit our Instagram account
+Visit our LinkedIn account
+Visit our YouTube channel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

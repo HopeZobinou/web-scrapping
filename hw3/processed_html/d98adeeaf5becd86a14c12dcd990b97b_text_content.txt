@@ -1,0 +1,838 @@
+
+
+
+
+
+
+
+
+Agency Growth, Optimization, Automation and Enterprise Level Clients
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		Skip to content
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Listen
+Sponsors
+Supporters
+Get in Touch
+ 
+
+
+
+
+Search for:
+
+
+Search
+
+
+
+
+
+
+
+
+Search
+
+
+ 
+
+
+
+
+SupportSupport 
+
+
+
+
+
+
+
+Listen
+Sponsors
+Supporters
+Get in Touch
+ 
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Main Menu
+
+ 
+
+
+
+
+
+
+
+
+
+Listen
+Sponsors
+Supporters
+Get in Touch
+ 
+
+
+
+
+
+
+
+
+
+
+ / Do the Woo Podcast, Woo AgencyChat / By  
+
+				BobWP			
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Agency Growth, Optimization, Automation and Enterprise Level Clients
+
+
+
+
+
+September 21, 2023 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+						Do the Woo - A WooCommerce and WordPress Builder Podcast					
+Agency Growth, Optimization, Automation and Enterprise Level Clients
+
+
+
+
+Play Episode
+
+
+Pause Episode
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mute/Unmute Episode
+
+
+Rewind 10 Seconds
+
+1x
+
+Fast Forward 30 seconds
+
+
+
+00:00
+/
+
+00:43:52
+
+
+
+
+
+Subscribe
+Share
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								Apple Podcasts							
+
+
+								Google Podcasts							
+
+
+								Overcast							
+
+
+								Pandora							
+
+
+								PocketCasts							
+
+
+								Spotify							
+
+
+
+						RSS Feed					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					Share				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					Link				
+
+
+
+
+
+
+
+					Embed				
+
+
+
+
+
+
+
+
+Download file | Play in new window | Duration: 00:43:52Subscribe: Apple Podcasts | Google Podcasts | Overcast | Pandora | PocketCasts | Spotify
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Thanks to Our Pod Friend
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+Take the effort out of determining tax rates for your clients with automated tax management from Avalara AvaTax— now covering more VAT scenarios when you sell into or across the EU and UK. 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+In this Woo AgencyChat, Robbie Adair and Robert Jacobi have a conversation with Josh and Zach Webber from Big Red Jelly, a digital agency. They discuss the origins of the agency's name and their focus on branding and efficiency.
+Josh and Zach also touch on the importance of optimization and automation in e-commerce, as well as the benefits of using WordPress and WooCommerce as a platform.
+And as they continue, a look at challenges and opportunities of working with enterprise-level clients. The episode concludes with a discussion on the potential for growth in the mid-market business sector and the importance of targeting specific industries and niches.
+Big Red Jelly | Zach on LinkedIn | Josh on LinkedIn
+
+Robbie:
+Hello. My name is Robbie Adair, and I'm with OSTraining. I'm one of the co-hosts at Do the Woo. And we've got a cool episode for you today. But first let me also just say hey to my co-host, Robert Jacobi. Robert, how you doing?
+Robert:
+I'm doing great. Survived WordCamp US, so that's fantastic.
+Robbie:
+Yes, but boy, I say our little impromptu podcast that we did there at WordCamp has taken off. I've gotten all kinds of comments from people about it. We had a really fun one there.
+Robert:
+You know it has to be a thing.
+Robbie:
+Recorded live with... Yes. And then we also have another co-host and I'll say slash guest from Woo. We always like to have somebody from Woo coming on. We like to question them, but also let them ask questions of our guests as well. So today we have Travis Lima, his first time on here. Hi. Welcome Travis.
+Travis:
+Thanks Robbie. Happy to be here.
+Robbie:
+Awesome. And we're going to come up with some very difficult questions and really put you on the spot. No, I'm joking. We will not.
+Travis:
+Sounds like fun.
+Robbie:
+Yes, it is. And we've got a couple of guests today from the same agency with a really cool name, Big Red Jelly. I don't know, I just love that name. Whenever I heard you guys were going to be on here, I was like, "I just love that name and I've got to get the story behind it." But we have Josh and Zach Webber here with us today. So guys, I will let you pick who goes first on talking. Well, actually no I won't. I'm going to just pick and I'm going to say Josh. Josh, how are you doing today?
+Josh:
+I'm doing great. Thanks for having us on. So, I'm excited.
+Robbie:
+Cool. And Zach, how are you doing today?
+Zach:
+I am doing great. I'm surviving. Josh will have to tell you the story. He's got it memorized. He gets asked the story about Big Red Jelly probably three times a day, so he's good to go.
+Robbie:
+I had no doubt when I saw the name of your company, I was like, "I bet they get asked all the time, where did this name come from?" So, we will let Josh tell it, since he's got it memorized.
+Josh:
+Well sure. Every time I try to mix it up at least a little bit and then eventually the lure will just grow and something will happen with our brand I'm sure that's very interesting. But long story short, Big Red Jelly has been around for six years, in fact, as of two days ago. Two days ago was our business anniversary. So, I just remembered that when you were talking. So the name Big Red Jelly, long story short, when we started this agency, Zach and I, six years ago, we both worked in other creative agencies, digital agencies, several. And we always felt like there was a lot of inefficiencies. There's a lot of fluff, there's a lot of fat, there's a lot of waving your hands in the air and not getting stuff done. Not with all agents, but with a lot that happens just in business, I think in general, but a lot in the agency space too.
+And so when we started Big Red Jelly, we did not have a name in mind. We just knew we wanted to be efficient and transparent. And I'm a little bit of a National Geographic geek, and at that particular point in time, I received an email that they just discovered the red jellyfish off the coast of Japan, and it was the world's most efficient animal. So we went to redjelly.com to see if it was available and some foodie blogger had that domain out of the UK who was making red jelly. Shame shame. So we went with Big Red Jelly and then that mascot has stuck with us ever since. So it's served as our mascot, but also reminder of just who we are, how we operate. So, Big Red Jelly was born.
+Robbie:
+I love it. I love it. It has some meaning behind it too. And by the way, I'm also a big Nat Geo fan too, so-
+Josh:
+Shout out.
+Robbie:
+Kudos. Awesome. So Robert, I'm going to hand it over to you and let you start the questioning.
+Robert:
+So just having a chance to speak with you guys earlier and understand your business, it looks like Big Red Jelly rather than a standard e-commerce shop really moves branding first rather than tech. Is that fair to say or how does that look like for you guys?
+Josh:
+Yeah, that is fair to say. It's interesting, because we started our agency focused on web design and web dev. But, over and over and over again, as we started to work with small to mid-size businesses especially, we noticed that a lot of the problems they had when you really boiled them down to their core, brand related issues. They don't know who their audience is, who they serve, who they are as a company. And it's evolved into what our tagline is now today, brand, build, grow. And so we like to work with our clients and say, "Well, let's figure out who you are first, who you serve." And in our experience, a website and an online experience is an extension of your brand. It's now, "Okay, how do you reach your audience the best way and the most effective way possible?" And then that's where technology comes in to accelerate a brand, to accelerate your message. So, everything's the brand. That's what we're trying to evangelize here. It's way more than just a logo, but that website or WooCommerce, whatever technology you need should accelerate your brand forward. So that's the way we look at it.
+Robert:
+So almost tech agnostic?
+Josh:
+We have definitely some tech that we prefer over others, that's for sure.
+Robert:
+I really want to hear which ones then.
+Josh:
+Yeah, yeah. WordPress is our number one platform if we have anything to say about it. So when we work with businesses, because we do serve mostly, I would say, small to mid-cap companies. Although the last year and a half that's changed. We've started to really enter the enterprise market quite a bit. We were at WordCamp just a few weeks ago. We go every year. WordPress is our go-to CMS, WooCommerce is our go-to e-commerce platform. And then we have preferred CRMs. We have preferred online tools, we have preferred hosting, but we like to say that we are flexible, so we can work with other tools, but we have our color palette that we like to work with.
+Robert:
+It's mostly red. Got it.
+Zach:
+No. What we typically say, our elevator pitch, when people ask what does Big Red Jelly do? It's everything you should be doing before you start dumping money into Google paid ads, pay-per-click, email marketing, et cetera. Business owners get so excited thinking about, "Oh, I'm going to start my email marketing this next week." Or, "I'm going to reach out to all my friends and family and create coupons and do a bunch of... "I'm going to dump a lot of money into social ads." And then they don't really have an effective strategy for their brand or for their website, or it's all disjointed or it doesn't make sense or it doesn't resonate with their audience. And so going back to what Josh was saying, it starts with the brand. If your brand is off, your website will be off, your online store will be off. It won't resonate with your clients. And it doesn't matter how much money you dump into Google Ads, it's not going to perform as well as it should.
+Travis:
+Zach and Josh, I'm curious. I've got a little bit of a small background of brand design and brand awareness and communications. And so I'm curious, from an e-commerce perspective, if you're seeing with customers that you can take a mediocre product and brand their way into success? Or, is that something that can be done or is product has to be top of the range before you can even look at brand? Or maybe you could just touch on that real quick.
+Josh:
+Yeah, you're bringing up probably the biggest dilemma that I think about the most. And sometimes to be frank with you, we will turn down clients if we feel like it's just not a good product or service. I think that's an honest conversation that needs to be had more often between a client and an agency. It's like putting a bow on a pig. There's only so much we can do. However, I forget who shared the quotes, maybe it can be shared in the notes, but there's a popular quote that goes, I'll paraphrase, but there's only two really primary functions in any business; marketing and innovation. Innovation meaning you've got to be improving the product, you've got to be improving the service, and then you've got to be marketing it. There is nothing else.
+And so, oftentimes, yeah, I think going back to what Zach said, it's like sometimes we lose focus of you got to be attacking both. Sometimes we're neck deep in marketing and branding, but we forget that we've got to be putting out a world-class product. That goes back to the technology question that Robert asked, which is why do we pick certain technologies over others? Well, because we align with brands and technologies that are constantly innovating, pushing the envelope. It may not be perfect, but they're growing, they're testing, they're innovating, and then we see what happens to companies that don't. So yeah, I think that's a question, that's a debate I think that needs to happen more between agencies and their clients. What's the product that we're branding, that we're selling? How can we improve it if possible?
+Robbie:
+So you said that you guys have been entering into the enterprise level a lot more lately. Is it still the same type of work that you were doing for your mid-size companies or are you finding that you're branching into other types of projects?
+Zach:
+It is the same type of work in the sense that it's the same category of work, but it is scaled up or we dive significantly deeper. So for enterprise level clients, much more time, much more resources, and a lot more money spent on a discovery, a more thorough discovery process, a more thorough research process, brand research, looking at their target demographic, understanding how that industry or those products or similar products are performing in the industry right now. So same service, but much deeper.
+And we're noticing now, going back to what Josh was saying before, we are industry agnostic and so we get clients and customers from all around the world with all sorts of different products, but as long as that client is passionate about what they're doing, and people can be passionate about the most obscure topics, products and services, but if they're passionate about it and that's what they want to do with their life, it's like that's what we really want to do. And we're moving more and more into those enterprise level where these people are looking at it. It's not a side hustle, it's not an entrepreneur, it's somebody who takes this very seriously and they know the ins and outs. They've been in the industry for 20, 30 years and so they take it very seriously. And so, so should we in that sense.
+Robbie:
+And have you found any resistance in the enterprise level with WordPress and WooCommerce? Or have you seen that enterprise, again, doesn't care as long as it gets the job done?
+Josh:
+That's a good question. I think depends on the industry, depends on the clients, all very different. For the most part, what we are seeing, it would seem paradoxical, the bigger the client, going back to what Zach said, the more they're interested in what is the holistic approach and solution to what we're looking for; "We really don't care what the technology is. You guys are the experts." It's that meme that goes around in the agency space, if there's any agency owners listening or freelancers, they'll giggle. But there's the $500 client and then there's the $50,000 client and one of them wants you to buy into their vision, live in the basement, you're committed to them for the long haul and then the $50,000 client's like, "Hey, checks in the mail, let me know when you're done."
+And we are seeing that at the enterprise level, but the strategy is important. Like Zach said, when we get smaller businesses, there might be a particular thing that's broken that they need fixed, like, "This feature I need fixed." When an enterprise client reaches out, it's not that issue that they're reaching out for. They're more, "Hey, here's our whole approach. How can we improve our conversion rates across the board by 3%?" That's a lot of things that we need to take into account. And then as an agency or a Woo expert, when we come and say, "Well, this is how we're going to solve that problem, these are the tools we're going to use," they rarely ask about the tools. They're just like, "Yeah, just solve the problem." So in that respect, it's almost... Yeah, it's a whole different treat to work with these enterprise level companies.
+Zach:
+So I'm really curious, Robbie runs a company as well, an agency as a side gig to OSTraining, and I ran one for 15 years on the technical side. And I know people listening will be very curious as to a lot of almost like nitty-gritty about what that discovery, delivery process looks like. From the most basic is how long should you expect to close a mid-cap or enterprise client from that first touch? What are the expectations folks in the agency space, WooCommerce space, what should they have in mind?
+Josh:
+Yeah, I can speak to a few points there. It's definitely going to be longer. Mid-cap and enterprise level, for us at least, I will speak to our numbers, plan on 60 to 90 days in terms of the sales process, where it might be a request for a proposal that you're putting in. We aim to have an initial discovery call where we just ask a lot of questions. And then over the course of those 60 to 90 days, we might have 2, 3, 4, 5 calls, but those do get more specific, more detailed as we really try to lock in the scope. Over that course of time as well, we start to present more. So the first call is 90% them talking, 10% of us asking questions toward the end. It's more, "Hey, this is us presenting our solution to you." And then they say, "Yes, let's go for it."
+So yeah, much longer. What we do see as well for our agency owners that are out there, Q4 those tend to shorten. You know, "All of a sudden it's the end of the year, we've got some budget. I've always wanted to rebrand or rebuild this. Let's do it." And so Q4 is exciting. It's a mad house for a lot of agencies, but it's a fun time of year. So, we're coming up on Q4, two weeks away.
+Robbie:
+I know. And I feel you on that Q4. I'm getting prepped myself. So you've been in business, you said six years, I believe. So, at what point did you say, "Hey, you know what? We are established enough. We know what we're doing. We can go after enterprise." Where did you make that turn where you said, "You know what? I don't have to do small websites or even just mid-size companies. I can move on up and I can handle enterprise level work"?
+Josh:
+Yeah, I've got one thought, Zach, and then I'll let you chime in. Sorry if I'm talking too much.
+Zach:
+No, no. Hey, someone's got to talk, Josh. Don't worry.
+Josh:
+These are great questions. This is fun. For us, that big step happened when we decided to niche down, I would say was the big catalyst into, "We can do this." And we made that decision right when COVID hit really. So COVID hit and a third of our clients... We were a full service digital marketing agency at that point in time, and those can be scary words for a lot of people, because that's a lot of work. I don't know why we were thinking we could do everything at that point in time, but COVID hit and a third of our clients had to immediately pause work. So a third of our revenue just disappeared in the course of two weeks. And at that point in time, Zach and I sat down and we said, "What's the plan here?" And we'd always been thinking for the first, what was that, three years of our existence, we always liked building and branding online. We liked the project stuff. To be frank, it was just more enjoyable. We just liked that.
+And then when it comes to, "Now it's time to turn up the gas and market and advertise, you guys can go do that." But when COVID hit, it was a silver lining for us. We said, "We have less to lose now." And so we ripped the bandaid off. We found partners who did SEO, social media, email marketing, online ads. Said, "Hey, we got all these clients we're going to hand over to you. We're just going to brand and build online experiences going forward." And you can see our metrics, you can see our revenue, our profit, we track every month from day one, from that decision, just immediate bounce up, just exponential curve. And then that was when, to answer your question Robbie, we said, "Yeah, we can do this." Because we not only niched down in terms of our services, but that's when we fully committed to the technologies and the platforms that we want to use, WordPress, WooCommerce being the biggest, I would say for us.
+Robbie:
+Awesome. Great answer there. And I think it's a key for agencies that are listening too, is to understand that sometimes you do... I've had my agency, it'll be 21 years next month, and we've had to pivot many times over those years to say... Because a lot of times you will get, like you said, all of a sudden you're like, you realize you're doing everything and you're just like, "Why am I doing everything? Because if I do everything, I can't do anything really well." And so you have to always reevaluate your agency as you're going along over the years and say, "Hey, maybe I can find... As you said, "Find a partner." That's also another great thing. I hate whenever I hear agencies say, "Well, we just stopped doing this." I'm like, "Well, did you find someone to hand that over to? Did you find someone to work with and be that person for you going forward?"
+Josh:
+Yeah.
+Robbie:
+So I'm glad to hear that you guys did find partners for that.
+Josh:
+It's a scary thing. They're like, "Well, this brings in X amount of revenue," but we don't calculate that opportunity cost of really sit down and I invite everyone to do this, even if you're not an agency owner, just in your work life, your personal life, sit down and list out all the things you do in a day, all those tasks. And say, "Okay, what 20% of... There is going to be the Pareto principle, I think it's called. 20% of the things that you did today resulted in 80% of your joy, your revenue, your [inaudible 00:18:19]. What are those 20% of those things? And then tomorrow commit to doing that all the time. And then like you said, Robbie, instead of just throwing it into the wind, delegate, find a VA, figure that out. So you can boil that principle down to your personal life, your work life, but in business as well, it works.
+Robbie:
+Yes. And if you find those strategic partners that they are specializing in whatever that X is you don't want to do and you've gone and given it to them, guess what? They're not doing what you're specializing in, so now you've got a great way of tossing referrals back and forth too, which was going to be one of my other questions is as a marketing, how do you market towards your enterprise level? But before we go into that, because that's going to be more Josh talk, I'm going to try and push something towards Zach, which I know, Zach, you are more technical here. I want to talk about WooCommerce and optimization and any issues you guys are having with WooCommerce. How much importance do you put on optimization? How much importance do you put on hosting? Those type of things.
+Zach:
+I love that question. So WooCommerce, even before we were introduced to the WooExpert Program, WooCommerce has been our go-to. And so that introduction to that program and that partnership with the WooExpert team and WooCommerce team has just been an awesome cherry on top. So we love that, and that's one of our key partnerships right now, honestly, speaking of partners. But when I think about WooCommerce and how we use it and the optimization, I also think about the automization. We're really big with tools and using any tools you can. And partly or one of the main reasons why we love working on WordPress and WooCommerce is because of its open source nature. And so the ability to sync, integrate, automate with all these other tools is part of what we include in our brand and build strategy.
+It's like, "Okay, great. You're passionate about your product. You have a pretty cool product. Now you have a really awesome brand and a website, but you could run ads to it." But if you're not automating and optimizing that website, that is actually the title of one of our, we call it our chapters in our services, is automate and optimize. So optimizing your, obviously, click-through optimization or conversion rate optimization, all of those things. But then automating it from there. The thank you pages, the automatic emails, the drip campaigns, the coupons that get sent out, all of that stuff, like Josh was saying, automate or outsource or delegate those things that you don't need to be doing, the 80% of the stuff, and you can automate and optimize all of those things that are going to do the hard work for you. A lot of times people think, "Oh, I'm just grind. Every month, I'm going to write a new newsletter, email campaign and include a coupon." Well, it's like, "Newsflash, you can write eight of those, automate it, so that it's automatic when a client comes in, buys a product, they're just signed up and it's done."
+We, internally, as far as optimizing, because that's automating, as far as optimizing goes, we use some really awesome behavioral analytical tools to see where people are clicking, where they're hovering, where they're scrolling, how long they're staying there, and we can analyze the user experience on the website. And so there are some bits and pieces that can be optimized in the user flow or the user journey through an e-commerce website. People don't think a whole lot about this very simple feature that WooCommerce has, for example, which is when they add a product to the cart, does it automatically redirect to the cart? People think, "Oh, that's so tiny. What difference does it make?" Well, it's like at some price point, your product more likely than not is only going to be bought in batches of one. And so it's like if you're a clothing store, you don't want that feature. If you're selling a $2,000 printer, it's like, "Yeah. Fewer clicks, let's get them to give me money faster," and there's no way than redirecting them to the cart or the checkout page directly.
+So we got to take all those things into account, especially when working on e-commerce, because every penny matters when it comes to ROI, running ads, doing social media, your marketing efforts, et cetera. So yeah, it's fun.
+Robert:
+So I totally want to follow up on this automation thing. So you talked about the automation side for that end user, for that customer of yours. What does it look like inside Big Red Jelly with regards to deployments and Q&A? Do you have some custom, rapid deployment process? How does that look like for you guys inside?
+Zach:
+I love it. This goes all the way back to the technology question in the beginning we're industry agnostic, we have our preferences for technology, and that goes for just about every technological category. So you're talking CRM, we have our preferences. You're talking CMS, obviously we have WordPress as our preference. And then all the other tools, the scheduling, the analytical tools, we have our preferences. But now a client might come with a CRM that's not in our preference, our toolbox so to speak, and we'll still work with that and make that work. And we have adopted internally a lot of the, this is going to sound maybe cheesy or unrelated, but restaurantology terminology or the food service terminology. So, before a project goes live, our QA is, we call it pass approval. So before a plate goes out to the diners, head chef comes around, and he doesn't change the plate per se, but he approves the plate. And so all of our projects go through pass approval, which is getting a new set of eyeballs on it from a new designer, a new team member, usually somebody, a manager or a director, who's looking at that and putting their stamp of approval and saying, "Yes, this works."
+Now we will run, of course, the nitty-gritty. We'll go through the checkout process, we'll fill out the forms, we'll check that the automated emails are sending, et cetera. But more so it's like, "Oh, let me come in with a fresh set of eyeballs and pretend to be a user here and see if anything raises any flags. Does anything not make sense?" Sometimes we get so caught up in, "Oh, this functionality or this email or this link." It's like, "Okay, that's all well and good," and those will come to the surface, I assure you, but more so it's big picture. Does the navigational menu even make sense? Are we prioritizing our products and services that make us the most money? Is there some automation that should be implemented that isn't? Those kinds of things we tried to find earlier on before launching, and of course you're going to learn as you go, and the client might realize three months after project launches, "Oh, you know what? Big Red Jelly, you were right. I do need to set up an automatic Drip email campaign." And that's fine. It's part of the learning curve and we love it. So that's how we handle it.
+Robert:
+Got it. And that totally makes sense. So you've built that process to make things right for the enterprise. And I want to circle back something Robbie said a few minutes ago is again, how do you connect with them? And specifically to Travis, how does WooCommerce help Big Red Jelly, and vice versa, make these things happen, make these engagements, follow up on RFPs? What are that nitty-gritty that our audience wants to know?
+Zach:
+So the question being how do we connect with enterprise level clients and how does WooCommerce serve as that solution that we present to them?
+Robert:
+Does WooCommerce participate in those discussions and help actualize them?
+Zach:
+Yes and yes. So, shout out Ross, if he's listening. It's just great to have... When we have sales, we've got a sales team here, a business development team here at Big Red Jelly. When we need a specific pitch deck, we have questions, we have very technical questions, we can hop on it. Ross is our point of contact and he'll put us in touch with the right person at the WooCommerce team. We've had people hop on calls with us to present this to enterprise level clients. We've had custom pitch decks made from us with WooCommerce branding and Big Red Jelly branding combined and everything in between. So, it's everything that you would need to give as much time to our guy or gal to just work with the client, technical questions, assets, sales material, et cetera, et cetera. So, it's been a great relationship and it will continue to grow as we start to move more into the enterprise market, I'm excited to see where it goes.
+Robert:
+That's very cool. What does it look like from your end, Travis, then?
+Travis:
+Yeah, I think Josh basically sold it. I can just wrap up here and let you folks carry on. But yeah, so I think if we take a step back, about two and a half years ago, Woo set up a customer success department specifically with the focus on enterprise level customers. And Ross, in addition to that, is doing a great job with our partners. But essentially what we're trying to do is bridge the gap between WooCommerce and these enterprise level customers, because what we're seeing is bigger and better merchants are either starting off on Woo and then growing to a certain level, or they are looking at e-commerce solutions and wondering is Woo capable enough of handling their needs? And so a lot of what we're doing, working with partners, working with Woo experts and handholding these enterprise level customers through this rocky terrain that is e-commerce. And yeah, so I think it looks a little different for each customer and each merchant and each agency. But yeah, we are trying to smooth that road as much as we can.
+Robbie:
+And while we are on the big E topic here, enterprise, just everybody should know this, listening on the Do the Woo here that Do the Woo is going to have some episodes that are going to be focused on enterprise level WordPress and WooCommerce too, coming up soon. So watch out for those episodes as well.
+Robert:
+Oh, I got one more, because I get to be the troublemaker always. Boy, what is this Wix and Shopify stuff that's dirtying up the Big Red Jelly services page?
+Josh:
+We've been hoodwinked. Yeah. I want to tie two points together. About 85% of our build projects, as we call them, are WordPress. And then I would say, Zach, what 10% are Wix, 5% are Shopify. We do get a lot of mom-and-pop shops, I would say, just a lot of solopreneurs, entrepreneurs, freelancers who are on Wix, and we've got a startup department that helps them with their Wix needs. To be completely frank, if we can convince them to move over to WordPress... In fact, that's becoming more and more popular. We had a great conversation with Ross and the team at WordCamp about, just in our experience, the demand for clients that are coming to us who are on Shopify, were on another e-commerce platform, and they've outgrown that platform. And some of these CMSs do advertise themselves as being a great enterprise solution, and it's not entirely true. I think it's become very apparent to us that there are certain business sizes that just work better with certain CMSs or e-commerce platforms.
+So Wix is better. It's okay for a mom-and-pop shop. I think likewise with a really early entry level e-commerce shop with Shopify. But they will start to hit some pain points. They will start to hit that plateau and then a conversation is being had about what the other alternatives are, WooCommerce being one of them. So yeah, don't be too worried, Robert.
+Robert:
+No. I figured that would be the direction of the answer, so I'm curious if you already have predefined metrics around those things, so that other WooCommerce agencies and partners could be like, "Oh yeah, we know these folks are on Wix or Squarespace or Shopify at these points and we can recognize when that pain will hit." So yes, I want to know the magic secret sauce behind Big Red Jelly on when that conversion can happen to WooCommerce.
+Josh:
+Yeah, it's really hard to put... Yeah, I get asked this question a lot and I think about it quite a bit. It's hard to put really specific, because it's so industry specific or what their goals are as a company or how big their team is or how tech-savvy they are. But for the most part it's exactly what I just said. But to a client, I'll say, "Hey, if it's just you or you're already on Wix and it's your niece who's running your donut shop, then maybe stick with it." I don't want to be that agency that forces you to make changes just because it's what I want. But I am also transparent with them in saying, "If you've got ambitious growth goals, you've got big digital marketing goals, you've got some SEO goals, you want to customize some things, you want to automate more, you want more flexibility, you might want to make that move now, when it's easier, rather than down the road when it's a lot harder."
+And so for me, it comes down to what their goals are and what they're comfortable with and just being open, honest, transparent with them. But again, what we're seeing more and more is that they're coming to us, because they're on a CMS and they've outgrown that platform and they've heard about WooCommerce, they've heard about WordPress and they want to make the switch. So, it's definitely an empowering thing to talk about WordPress to clients and just say, "Look, it's the most used CMS platform on planet Earth. Therefore, it's not a huge risk here. And when you work with other agencies, freelancers or on your own, it's got more resources than any other platform on the planet. So, you're not going blind here. It's probably going to be a better platform for you moving forward." So, I usually lead with that and then they appreciate the transparency and a lot of times they make the switch.
+Robbie:
+Awesome. I'm glad to hear that. It was not to hoodwink you guys, by the way, to bring that up. I think it's being a responsible and empathetic agency to look at a client and say, Yeah, this is a better solution for you." Sometimes a SaaS solution is a better solution for them, because like you said, size of team or ambition. If they don't have an ambition and this is it, literally we've had some people who are like, "You really just need to sell this on Etsy." That's going to be your best place to be and it's the truth.
+And you just never know though, having those type of clients over the years, we have a client we've had for 19 years, it's our oldest client, and it was that mom-and-pop type situation, but we also, especially right before pandemic, thank goodness, we convinced them to do another SaaS platform for some video training as well. Anyway, and so that all took off so much that now, 19 years later, we've had them on SaaS products all these years and now we're building a very custom WooCommerce with LMS built in and everything like that, so they can cross sell. So you just never know. It could happen. It may not be immediate though. But yeah, so I'm glad to hear that you guys are doing that. It is the ethical thing to do for a client, is to really give them what they need and not just what you want to sell.
+Josh:
+I would say one more point, really quick, going back to your question, Robert. I think an important thing for freelancers, agencies to keep in mind, just the words that we use. Enterprise, that means different things to different people and depending on who you ask. And what we're seeing here, I've been spending a lot of time researching mid-market, even lower mid-market companies, as defined by the IRS. So 5 to 10 million in revenue to 1 billion. That sounds like a lot, but that's nowhere close to the Amazon that's in the trillions. But there's this big almost forgotten range of businesses, that is much bigger than the mom-and-pop shop. 5, 10 million in revenue a year, that's no peanuts.
+So, there's this big strata of businesses that are clearly past the small business range, but they're not what some would call enterprise, an Amazon, a Nike, that kind of thing, which is a dream client for some agencies that can handle that. But do people know enough about this middle range of businesses? And in my opinion, WordPress, WooCommerce is the perfect solution for these people oftentimes. They need something that's highly customizable with a lot of potential, both SEO wise, automation wise, optimization wise, definitely outgrown Wix or Shopify or other solutions. And you can service all of their needs. That's prime real estate. So I encourage everyone to explore mid-market businesses and the makeup of those business owners, a fascinating range of businesses that I think we don't talk about enough, really.
+Robert:
+In my head, it's enterprise as soon as I'm told that I need to be a preferred vendor procurement or purchasing department. As soon as those words come up, then I know they're enterprise, because at that point you're going to have three months of legal, three months of purchasing, and then you're actually starting to work at month six.
+Josh:
+Yeah, I like that.
+Robert:
+And that recovers the range, whether you're a $20 million company or a $2 trillion company, I feel that that process specifically takes a bit of savvy to understand, as well as the patience and the right people to deal with, again, on the insurance, on the legal, on all these other bits and pieces that would typically never exist for the donut shop.
+Josh:
+Yeah. The last thing I'll say on that point really quick, there's a lot of interesting pain points that the mid-market businesses have been experiencing. So some of the characteristics that make up this class of business are they've been around for around 30 years on average. So that's a decent amount of time without being this 100 year old Ford. So, they've been around for around 30 years, usually multi-generational companies. They're very well known in their industry or their niche, but not outside of there. And again, 10 million, 1 billion in revenue, it's a wide range. You're not going to reach them by just digital marketing tactics. You've got to be in the industry and you've got to be a thought leader in that space. So again, be a thought leader in that space and then have your tools ready, i.e. WordPress, WooCommerce
+Once you start to see these... Drive on the freeway, look at these businesses that are off the side, there's no billboard, but they're clearly maybe a manufacturing business or a masonry business that serves all of Nevada, that's one of our clients. Enormous companies that you just don't hear about and the pain points that they're experiencing right now, according to there's several articles, one those Harvard Business Review article is technology disruption, so they are finally getting into... COVID pushed that forward, hiring talent and then I forget what the third one was, but the first one was technology. They're just trying to say, "Okay, we need to work smarter now." So they're waking up a little bit. So it's prime time for people in the agency space and the WordPress community to think about mid-market businesses.
+Zach:
+We have a client who's one of the largest hardwood floor manufacturers and distributors in the western United States. It's like, you would never think of that. You think like, "Oh, I want Nike. I want Walgreens." Okay, yeah, that's a cool dream client, but there's these really big companies that you drive past and you don't even think twice about.
+Robbie:
+Yeah, absolutely. And there are a ton of those businesses out there, a ton. Awesome. Well, guys I really appreciate you coming on the show today. This has been a very interesting conversation we've had today. I love it. And hopefully our audience got some good little tidbits out of this one. So Josh and Zach, if someone wants to get in touch with you guys and talk to you about their project, how would they find you?
+Josh:
+Go to bigredjelly.com. Send us a message, or you'll see our team page. You can send us an email. I'd love to connect with anyone on LinkedIn too. Love the community, love to talk WordPress, WooCommerce. This is fun.
+Robbie:
+Fantastic. And Zach, I saw on your profile, you also are starting a podcast, right?
+Josh:
+Well, we're thinking about it.
+Zach:
+We are too, yeah. We're launching one, so stay tuned.
+Robbie:
+That's right. Well you've put it out there, so now you have to. See?
+Josh:
+Yeah, exactly.
+Robbie:
+Awesome. And Travis, if there's an agency out there that's wanting to also be someone like Big Red Jelly, how would they get in touch with you guys?
+Travis:
+Yeah, so you can look me up on any social media, Travis Lima or @TravisLima. Ping me personally, and I'll get in touch with you. Otherwise, there is a... Get in touch with us at woocommerce.com form, and then that will probably come to my inbox and then we can start a conversation.
+Robbie:
+Fantastic.
+Robert:
+And I guess, since in four weeks when we normally do this, we have WooSesh as well. So that'll be going on in a couple of weeks.
+Robbie:
+Yeah, thanks for bringing that up, Robert. I meant to bring that up, so great. Thank you. All right, well thank you everyone for listening to this episode and don't forget to look out for the next episode of Do the Woo.
+Robert:
+Thanks all.
+Travis:
+Yeah, thanks guys.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+Thanks to our Pod Friends for their support
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Post navigation
+← Previous PostNext Post →
+ 
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Podcast
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+About
+Do the Woo News
+Changelog
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Sponsor
+Support
+Subscribe
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Contact
+Be a Host or Guest
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Menu 
+Home
+Privacy Policy
+Disclaimer
+Terms of Service
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mastodon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+DotheWoo.io does not have any affiliate links. Our efforts are full funded by our sponsors and supporters.
+WordPress® and its related trademarks are registered trademarks of the WordPress foundation. This website is not affiliated with WooCommerce, Automattic, Inc., the WordPress Foundation or the WordPress® open source project. WooCommerce trademarks used with permission.
+Copyright: © BobWP 2010 - 2023 | Owned and operated by BobWP.
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+

@@ -1,0 +1,1484 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GitHub - bomsn/rclone-automated-backups-for-wordpress: Rclone automated WordPress backups to various cloud storage providers. Also, supports incremental backups using Restic.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+
+
+            Sign up
+          
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Product
+        
+
+
+
+
+
+
+
+
+
+
+
+
+Actions
+        Automate any workflow
+      
+
+
+
+
+
+
+
+Packages
+        Host and manage packages
+      
+
+
+
+
+
+
+
+Security
+        Find and fix vulnerabilities
+      
+
+
+
+
+
+
+
+Codespaces
+        Instant dev environments
+      
+
+
+
+
+
+
+
+Copilot
+        Write better code with AI
+      
+
+
+
+
+
+
+
+Code review
+        Manage code changes
+      
+
+
+
+
+
+
+
+Issues
+        Plan and track work
+      
+
+
+
+
+
+
+
+Discussions
+        Collaborate outside of code
+      
+
+
+
+
+Explore
+
+
+
+      All features
+
+    
+
+
+
+      Documentation
+
+    
+
+
+
+
+
+      GitHub Skills
+
+    
+
+
+
+
+
+      Blog
+
+    
+
+
+
+
+
+
+
+
+
+        Solutions
+        
+
+
+
+
+
+For
+
+
+
+      Enterprise
+
+    
+
+
+
+      Teams
+
+    
+
+
+
+      Startups
+
+    
+
+
+
+      Education
+
+    
+
+
+
+
+
+
+By Solution
+
+
+
+      CI/CD & Automation
+
+    
+
+
+
+      DevOps
+
+    
+
+
+
+
+
+      DevSecOps
+
+    
+
+
+
+
+
+
+Resources
+
+
+
+      Learning Pathways
+
+    
+
+
+
+
+
+      White papers, Ebooks, Webinars
+
+    
+
+
+
+
+
+      Customer Stories
+
+    
+
+
+
+      Partners
+
+    
+
+
+
+
+
+
+
+
+
+        Open Source
+        
+
+
+
+
+
+
+
+
+
+GitHub Sponsors
+        Fund open source developers
+      
+
+
+
+
+
+
+
+
+The ReadME Project
+        GitHub community articles
+      
+
+
+
+
+Repositories
+
+
+
+      Topics
+
+    
+
+
+
+      Trending
+
+    
+
+
+
+      Collections
+
+    
+
+
+
+
+
+
+Pricing
+
+
+
+
+
+
+
+
+
+
+
+
+Search or jump to...
+
+
+
+
+
+
+
+Search code, repositories, users, issues, pull requests...
+
+ 
+
+
+
+
+        Search
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+Clear
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+              Search syntax tips
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Provide feedback
+      
+
+
+
+
+
+
+
+
+ 
+We read every piece of feedback, and take your input very seriously.
+
+
+Include my email address so I can be contacted
+
+     Cancel
+
+    Submit feedback
+
+
+
+
+
+
+
+
+
+
+        Saved searches
+      
+Use saved searches to filter your results more quickly
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Name
+
+
+
+
+
+
+Query
+
+
+
+            To see all available qualifiers, see our documentation.
+          
+ 
+
+
+
+
+     Cancel
+
+    Create saved search
+
+
+
+
+
+
+
+
+              Sign in
+            
+
+
+              Sign up
+            
+
+
+
+
+
+
+
+
+
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+
+ 
+
+
+ Dismiss alert
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        bomsn
+ 
+/
+
+rclone-automated-backups-for-wordpress
+
+Public
+
+
+
+
+
+ 
+
+Notifications
+
+
+
+ 
+
+Fork
+    0
+
+
+
+
+ 
+
+
+          Star
+ 7
+  
+
+
+
+
+
+
+
+
+
+
+        Rclone automated WordPress backups to various cloud storage providers. Also, supports incremental backups using Restic.
+      
+
+
+
+
+
+7
+          stars
+ 
+
+
+
+0
+          forks
+ 
+
+
+
+Activity
+ 
+
+
+
+ 
+
+
+          Star
+
+  
+
+
+
+
+
+ 
+
+Notifications
+
+
+
+
+
+
+
+
+
+
+
+
+Code
+
+
+
+
+
+
+
+Issues
+0
+
+
+
+
+
+
+Pull requests
+0
+
+
+
+
+
+
+Actions
+
+
+
+
+
+
+
+Projects
+0
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Insights
+
+
+
+ 
+ 
+
+
+
+More
+
+
+
+
+
+
+                  Code
+ 
+
+
+                  Issues
+ 
+
+
+                  Pull requests
+ 
+
+
+                  Actions
+ 
+
+
+                  Projects
+ 
+
+
+                  Security
+ 
+
+
+                  Insights
+ 
+
+
+
+
+
+
+
+bomsn/rclone-automated-backups-for-wordpress
+
+
+
+
+
+
+
+This commit does not belong to any branch on this repository, and may belong to a fork outside of the repository.
+
+
+
+
+
+
+
+
+
+
+
+master
+
+
+
+
+
+Switch branches/tags
+
+
+
+
+
+
+
+
+
+
+Branches
+Tags
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all branches
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View all tags
+
+
+
+
+
+
+
+
+
+
+
+
+
+Name already in use
+
+
+
+
+
+
+
+
+
+      A tag already exists with the provided branch name. Many Git commands accept both tag and branch names, so creating this branch may cause unexpected behavior. Are you sure you want to create this branch?
+
+
+
+    Cancel
+
+    Create
+
+
+
+
+
+
+
+
+1
+branch
+
+
+
+
+
+0
+tags
+
+
+
+
+
+
+
+ 
+Code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Local
+
+
+
+ Codespaces
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  Clone
+
+
+
+
+
+            HTTPS
+ 
+            GitHub CLI
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Use Git or checkout with SVN using the web URL.
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Work fast with our official CLI.
+      Learn more about the CLI.
+    
+
+
+
+
+
+
+
+
+    Open with GitHub Desktop
+
+
+
+
+
+
+    Download ZIP
+
+
+
+ 
+Sign In Required
+
+                Please
+                sign in
+                to use Codespaces.
+              
+
+
+
+
+Launching GitHub Desktop
+
+    If nothing happens, download GitHub Desktop and try again.
+  
+
+
+
+
+Launching GitHub Desktop
+
+    If nothing happens, download GitHub Desktop and try again.
+  
+
+
+
+
+Launching Xcode
+
+    If nothing happens, download Xcode and try again.
+  
+
+
+
+
+
+Launching Visual Studio Code
+Your codespace will open once ready.
+There was a problem preparing your codespace, please try again.
+
+
+
+
+
+
+
+
+
+
+
+
+Latest commit
+
+
+
+ 
+ 
+Git stats
+
+
+
+
+
+
+
+16
+
+                      commits
+                    
+
+
+
+
+
+
+
+Files
+
+Permalink
+
+
+
+
+    Failed to load latest commit information.
+
+
+  
+ 
+
+
+Type
+Name
+Latest commit message
+Commit time
+
+
+
+
+
+
+
+
+.gitignore
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+config.sh
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+functions.sh
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+readme.md
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+screenshot.png
+
+
+ 
+
+
+ 
+
+
+
+
+    View code
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rclone Automated Backups for WordPress
+Requirements
+Optional
+Getting Started
+How to use:
+Subsequent Use:
+
+
+
+
+
+readme.md
+
+
+
+
+Rclone Automated Backups for WordPress
+Automate WordPress backups to various cloud storage providers using rclone automation. Also supports restic for incremental backups using rclone.
+
+Requirements
+
+Sudo and SSH access to your server.
+wp-cli installed.
+rclone installed.
+
+Optional
+
+restic to add incremental backup support ( no setup or configuration needed ).
+
+Getting Started
+Follow these steps to set up automated WordPress backups:
+How to use:
+
+Connect to your server via SSH: ssh root@server.ip.address
+Download this repo zip file:
+
+sudo curl -LJO https://github.com/bomsn/rclone-automated-backups-for-wordpress/archive/refs/heads/master.zip
+
+Unzip the file
+
+sudo unzip rclone-automated-backups-for-wordpress-master.zip
+
+Delete the zip file
+
+sudo rm rclone-automated-backups-for-wordpress-master.zip
+
+rename and cd into the project folder
+
+mv rclone-automated-backups-for-wordpress-master rclone-automated-backups-for-wordpress && cd rclone-automated-backups-for-wordpress
+
+Run the initilization script
+
+sudo bash config.sh
+You'll have options to add domains and configure backups.
+The script will guide you through the process, just make sure to add sites/domains and their correct path, add backup configurations such as backup time, frequency, retention period, and configure rclone remote(s), then create your backups.
+Note: the domains and associated paths will be saved to definitions file, you can change it later if needed. However, note that changing the file doesn't change any running backups.
+That's it, once you've completed all the configuration steps, a cron job will be created to take backups automatically using rclone. Feel free to use the menu again to make as many automated backups as you want.
+Subsequent Use:
+If you want to add more websites, create additional backups, disable or delete existing backups, or even restore the remote backups created by the script, just run the config script again sudo bash config.sh and use the available options.
+
+
+
+
+
+
+
+
+
+About
+
+      Rclone automated WordPress backups to various cloud storage providers. Also, supports incremental backups using Restic.
+    
+Resources
+
+
+
+
+
+      Readme
+ 
+
+
+
+
+
+
+
+Activity
+
+Stars
+
+
+
+
+
+7
+    stars
+
+Watchers
+
+
+
+
+
+1
+    watching
+
+Forks
+
+
+
+
+
+0
+    forks
+
+
+
+        Report repository
+ 
+
+
+
+
+
+
+    Releases
+
+No releases published
+
+
+
+
+
+
+    Packages
+      0
+
+
+        No packages published 
+
+
+
+
+
+
+
+
+
+
+
+Languages
+
+
+
+
+
+
+
+
+
+
+Shell
+100.0%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Footer
+
+
+
+
+
+
+
+ 
+        © 2023 GitHub, Inc.
+        
+
+
+
+Footer navigation
+
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    You can’t perform that action at this time.
+  
+
+
+
+
+
+
+
+
+
+
+

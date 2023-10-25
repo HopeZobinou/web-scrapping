@@ -1,0 +1,681 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Severe COVID-19 is associated with fungal colonization of the nasopharynx and potent induction of IL-17 responses in the nasal epithelium | medRxiv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Home
+About
+Submit
+ALERTS / RSS
+ 
+
+
+
+
+
+
+
+
+
+Search for this keyword 
+
+
+
+
+ 
+
+
+
+Advanced Search 
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Severe COVID-19 is associated with fungal colonization of the nasopharynx and potent induction of IL-17 responses in the nasal epithelium
+ View ORCID ProfileCarly G. K. Ziegler,  View ORCID ProfileAnna H. Owings,  View ORCID ProfileVincent N. Miao,  View ORCID ProfileAndrew W. Navia, Ying Tang,  View ORCID ProfileJoshua D. Bromley,  View ORCID ProfilePeter Lotfy,  View ORCID ProfileMeredith Sloan, Hannah Laird, Haley B. Williams,  View ORCID ProfileMicayla George,  View ORCID ProfileRiley S. Drake, Yilianys Pride, George E. Abraham III,  View ORCID ProfileMichal Senitko, Tanya O. Robinson,  View ORCID ProfileMichail S. Lionakis,  View ORCID ProfileAlex K. Shalek,  View ORCID ProfileJose Ordovas-Montanes, Bruce H. Horwitz,  View ORCID ProfileSarah C. Glover
+doi: https://doi.org/10.1101/2022.10.25.22281528 
+
+Carly G. K. Ziegler 1Program in Health Sciences & Technology, Harvard Medical School & MIT, Boston, MA, USA2Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, USA3Broad Institute of MIT and Harvard, Cambridge, MA, USA4Harvard Graduate Program in Biophysics, Harvard University, Cambridge, MA, USA5Institute for Medical Engineering & Science, Massachusetts Institute of Technology, Cambridge, MA, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Carly G. K. ZieglerAnna H. Owings 6Department of Medicine, University of Mississippi Medical Center, Jackson, MS, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Anna H. OwingsVincent N. Miao 1Program in Health Sciences & Technology, Harvard Medical School & MIT, Boston, MA, USA2Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, USA3Broad Institute of MIT and Harvard, Cambridge, MA, USA5Institute for Medical Engineering & Science, Massachusetts Institute of Technology, Cambridge, MA, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Vincent N. MiaoAndrew W. Navia 2Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, USA3Broad Institute of MIT and Harvard, Cambridge, MA, USA5Institute for Medical Engineering & Science, Massachusetts Institute of Technology, Cambridge, MA, USA7Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Andrew W. NaviaYing Tang 8Division of Gastroenterology, Hepatology, and Nutrition, Boston Children’s Hospital, Boston, MA, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteJoshua D. Bromley 2Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, USA3Broad Institute of MIT and Harvard, Cambridge, MA, USA5Institute for Medical Engineering & Science, Massachusetts Institute of Technology, Cambridge, MA, USA9Department of Microbiology, Massachusetts Institute of Technology, Cambridge, MA, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Joshua D. BromleyPeter Lotfy 3Broad Institute of MIT and Harvard, Cambridge, MA, USA8Division of Gastroenterology, Hepatology, and Nutrition, Boston Children’s Hospital, Boston, MA, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Peter LotfyMeredith Sloan 6Department of Medicine, University of Mississippi Medical Center, Jackson, MS, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Meredith SloanHannah Laird 10Division of Digestive Diseases, University of Mississippi Medical Center, Jackson, MS, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteHaley B. Williams 10Division of Digestive Diseases, University of Mississippi Medical Center, Jackson, MS, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteMicayla George 2Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, USA3Broad Institute of MIT and Harvard, Cambridge, MA, USA5Institute for Medical Engineering & Science, Massachusetts Institute of Technology, Cambridge, MA, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Micayla GeorgeRiley S. Drake 2Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, USA3Broad Institute of MIT and Harvard, Cambridge, MA, USA5Institute for Medical Engineering & Science, Massachusetts Institute of Technology, Cambridge, MA, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Riley S. DrakeYilianys Pride 10Division of Digestive Diseases, University of Mississippi Medical Center, Jackson, MS, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteGeorge E. Abraham III11Division of Pulmonary, Critical Care, and Sleep Medicine, University of Mississippi Medical Center, Jackson, MS, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteMichal Senitko 11Division of Pulmonary, Critical Care, and Sleep Medicine, University of Mississippi Medical Center, Jackson, MS, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Michal SenitkoTanya O. Robinson 10Division of Digestive Diseases, University of Mississippi Medical Center, Jackson, MS, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteMichail S. Lionakis 12Fungal Pathogenesis Section, Laboratory of Clinical Immunology and Microbiology (LCIM), National Institute of Allergy and Infectious Diseases (NIAID), Bethesda, MD, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Michail S. LionakisAlex K. Shalek 1Program in Health Sciences & Technology, Harvard Medical School & MIT, Boston, MA, USA2Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, USA3Broad Institute of MIT and Harvard, Cambridge, MA, USA4Harvard Graduate Program in Biophysics, Harvard University, Cambridge, MA, USA5Institute for Medical Engineering & Science, Massachusetts Institute of Technology, Cambridge, MA, USA7Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA13Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA, USA14Program in Immunology, Harvard Medical School, Boston, MA, USA15Harvard Stem Cell Institute, Cambridge, MA, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Alex K. ShalekFor correspondence: 
+jose.ordovas-montanes@childrens.harvard.edu
+bruce.horwitz@childrens.harvard.edu
+scglover@umc.edu
+shalek@mit.eduJose Ordovas-Montanes 2Ragon Institute of MGH, MIT, and Harvard, Cambridge, MA, USA3Broad Institute of MIT and Harvard, Cambridge, MA, USA8Division of Gastroenterology, Hepatology, and Nutrition, Boston Children’s Hospital, Boston, MA, USA14Program in Immunology, Harvard Medical School, Boston, MA, USA15Harvard Stem Cell Institute, Cambridge, MA, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Jose Ordovas-MontanesFor correspondence: 
+jose.ordovas-montanes@childrens.harvard.edu
+bruce.horwitz@childrens.harvard.edu
+scglover@umc.edu
+shalek@mit.eduBruce H. Horwitz 8Division of Gastroenterology, Hepatology, and Nutrition, Boston Children’s Hospital, Boston, MA, USA14Program in Immunology, Harvard Medical School, Boston, MA, USA16Division of Emergency Medicine, Boston Children’s Hospital, Boston, MA, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteFor correspondence: 
+jose.ordovas-montanes@childrens.harvard.edu
+bruce.horwitz@childrens.harvard.edu
+scglover@umc.edu
+shalek@mit.eduSarah C. Glover 10Division of Digestive Diseases, University of Mississippi Medical Center, Jackson, MS, USA17Center for Immunology and Microbial Research, Department of Cell & Molecular Biology, University of Mississippi Medical Center, Jackson, MS, USAFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Sarah C. GloverFor correspondence: 
+jose.ordovas-montanes@childrens.harvard.edu
+bruce.horwitz@childrens.harvard.edu
+scglover@umc.edu
+shalek@mit.edu 
+
+
+
+AbstractFull TextInfo/HistoryMetricsSupplementary materialData/Code Preview PDF 
+
+
+
+
+
+
+
+ABSTRACTRecent case reports and epidemiological data suggest fungal infections represent an under-appreciated complication among people with severe COVID-19. However, the frequency of fungal colonization in patients with COVID-19 and associations with specific immune responses in the airways remain incompletely defined. We previously generated a single-cell RNA-sequencing (scRNA-seq) dataset characterizing the upper respiratory microenvironment during COVID-19, and mapped the relationship between disease severity and the local behavior of nasal epithelial cells and infiltrating immune cells. Our study, in agreement with findings from related human cohorts, demonstrated that a profound deficiency in host immunity, particularly in type I and type III interferon signaling in the upper respiratory tract, is associated with rapid progression to severe disease and worse clinical outcomes. We have now performed further analysis of this cohort and identified a subset of participants with severe COVID-19 and concurrent detection of Candida species-derived transcripts within samples collected from the nasopharynx and trachea. Here, we present the clinical characteristics of these individuals, including confirmatory diagnostic testing demonstrating elevated serum (1, 3)-β-D-glucan and/or confirmed fungal culture of the predicted pathogen. Using matched single-cell transcriptomic profiles of these individuals’ respiratory mucosa, we identify epithelial immune signatures suggestive of IL-17 stimulation and anti-fungal immunity. Further, we observe significant expression of anti-fungal inflammatory cascades in the nasal and tracheal epithelium of all participants who went on to develop severe COVID-19, even among participants without detectable genetic material from fungal pathogens. Together, our data suggests that IL-17 stimulation – in part driven by Candida colonization – and blunted type I/III interferon signaling represents a common feature of severe COVID-19 infection.Competing Interest StatementA.K.S. reports compensation for consulting and/or SAB membership from Merck, Honeycomb Biotechnologies, Cellarity, Repertoire Immune Medicines, Hovione, Ochre Bio, Third Rock Ventures, FL82, Empress Therapeutics, Senda Biosciences, IntrECate Biotherapeutics, Relation Therapeutics, and Dahlia Biosciences. J.O.M. reports compensation for consulting services with Cellarity and Hovione.Funding StatementThis project has been made possible in part by grant number 2020-216949 from the Chan Zuckerberg Initiative DAF, an advised fund of Silicon Valley Community Foundation to A.K.S. and J.O.M.. C.G.K.Z. was supported by award number T32GM007753 and T32GM144273 from the National Institute of General Medical Sciences. J.O.M is a New York Stem Cell Foundation - Robertson Investigator. J.O.M was supported by the Richard and Susan Smith Family Foundation, the AGA Research Foundation's AGA-Takeda Pharmaceuticals Research Scholar Award in IBD - AGA2020-13-01, the HDDC Pilot and Feasibility P30 DK034854, the Food Allergy Science Initiative, the Leona M. and Harry B. Helmsley Charitable Trust, The Pew Charitable Trusts Biomedical Scholars, The Broad Next Generation Award, The Chan Zuckerberg Initiative Pediatric Networks, The Mathers Foundation, The New York Stem Cell Foundation, and The Manton Foundation Cell Discovery Network at Boston Children's Hospital. B.H.H. was supported by DK122532-01A1, NIH; 12019PG-CD002, The Leona M. and Harry B. Helmsley Charitable Trust; SRA #54518, and Crohn's and Colitis Foundation. A.K.S. was supported by the Bill and Melinda Gates Foundation, Sloan Fellowship in Chemistry, the NIH (5U24AI118672), and the Ragon Institute of MGH, MIT and Harvard. This work was supported in part by the Division of Intramural Research of the NIAID.Author DeclarationsI confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.YesThe details of the IRB/oversight body that provided approval or exemption for the research described are given below:Ethics committee/IRB of the University of Mississippi Medical Center gave ethical approval for this work under IRB#2020-0065.I confirm that all necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived, and that any patient/participant/sample identifiers included were not known to anyone (e.g., hospital staff, patients or participants themselves) outside the research group so cannot be used to identify individuals.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).YesI have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable.YesData AvailabilityAll data analyzed in this study is publicly available from prior manuscripts. Aligned and annotated scRNA-seq data can be downloaded via the Single Cell Portal, study SCP1289 (https://singlecell.broadinstitute.org/single_cell/study/SCP1289). Aligned TPM-normalized RNA-seq data can be downloaded via the Single Cell Portal, study SCP822 (https://singlecell.broadinstitute.org/single_cell/study/SCP822).
+https://singlecell.broadinstitute.org/single_cell/study/SCP1289
+ 
+
+
+
+Copyright The copyright holder for this preprint is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. It is made available under a CC-BY-NC-ND 4.0 International license. 
+
+
+
+
+ 
+
+
+
+View the discussion thread. 
+
+
+
+ Back to top 
+
+
+
+
+
+
+
+
+ PreviousNext  
+
+
+
+    Posted October 26, 2022.  
+
+
+
+
+
+
+
+
+
+ Download PDF 
+
+
+
+Supplementary Material  
+
+
+
+ Data/Code 
+
+
+
+
+
+
+
+
+ Email
+
+
+
+
+Thank you for your interest in spreading the word about medRxiv.NOTE: Your email address is requested solely to identify you as the sender of this article.
+
+
+Your Email *
+
+
+
+Your Name *
+
+
+
+Send To *
+
+Enter multiple addresses on separate lines or separate them with commas.
+
+
+You are going to email the following 
+Severe COVID-19 is associated with fungal colonization of the nasopharynx and potent induction of IL-17 responses in the nasal epithelium
+
+
+Message Subject 
+ (Your Name) has forwarded a page to you from medRxiv
+
+
+Message Body 
+ (Your Name) thought you would like to see this page from the medRxiv website.
+
+
+Your Personal Message 
+
+
+
+
+
+
+
+CAPTCHAThis question is for testing whether or not you are a human visitor and to prevent automated spam submissions.
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+ Share 
+
+
+
+
+
+
+
+
+
+Severe COVID-19 is associated with fungal colonization of the nasopharynx and potent induction of IL-17 responses in the nasal epithelium 
+Carly G. K. Ziegler, Anna H. Owings, Vincent N. Miao, Andrew W. Navia, Ying Tang, Joshua D. Bromley, Peter Lotfy, Meredith Sloan, Hannah Laird, Haley B. Williams, Micayla George, Riley S. Drake, Yilianys Pride, George E. Abraham III, Michal Senitko, Tanya O. Robinson, Michail S. Lionakis, Alex K. Shalek, Jose Ordovas-Montanes, Bruce H. Horwitz, Sarah C. Glover
+medRxiv 2022.10.25.22281528; doi: https://doi.org/10.1101/2022.10.25.22281528 
+
+ 
+
+
+
+
+
+
+
+
+Share This Article:
+
+
+
+
+
+Copy
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+ Citation Tools
+
+
+
+
+
+
+
+Severe COVID-19 is associated with fungal colonization of the nasopharynx and potent induction of IL-17 responses in the nasal epithelium 
+Carly G. K. Ziegler, Anna H. Owings, Vincent N. Miao, Andrew W. Navia, Ying Tang, Joshua D. Bromley, Peter Lotfy, Meredith Sloan, Hannah Laird, Haley B. Williams, Micayla George, Riley S. Drake, Yilianys Pride, George E. Abraham III, Michal Senitko, Tanya O. Robinson, Michail S. Lionakis, Alex K. Shalek, Jose Ordovas-Montanes, Bruce H. Horwitz, Sarah C. Glover
+medRxiv 2022.10.25.22281528; doi: https://doi.org/10.1101/2022.10.25.22281528 
+
+ 
+
+Citation Manager Formats
+
+BibTeXBookendsEasyBibEndNote (tagged)EndNote 8 (xml)MedlarsMendeleyPapersRefWorks TaggedRef ManagerRISZotero 
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+Tweet WidgetFacebook LikeGoogle Plus One 
+
+
+Subject Area
+
+Infectious Diseases (except HIV/AIDS)
+ 
+
+
+
+
+
+
+
+
+
+
+
+Subject Areas 
+
+
+
+
+
+
+
+All Articles 
+
+
+
+
+
+Addiction Medicine (276)
+Allergy and Immunology (564)
+Anesthesia (137)
+Cardiovascular Medicine (1841)
+Dentistry and Oral Medicine (243)
+Dermatology (174)
+Emergency Medicine (322)
+Endocrinology (including Diabetes Mellitus and Metabolic Disease) (674)
+Epidemiology (10929)
+Forensic Medicine (8)
+Gastroenterology (600)
+Genetic and Genomic Medicine (3048)
+Geriatric Medicine (292)
+Health Economics (547)
+Health Informatics (1972)
+Health Policy (848)
+Health Systems and Quality Improvement (760)
+Hematology (303)
+HIV/AIDS (652)
+Infectious Diseases (except HIV/AIDS) (12602)
+Intensive Care and Critical Care Medicine (701)
+Medical Education (305)
+Medical Ethics (92)
+Nephrology (327)
+Neurology (2871)
+Nursing (156)
+Nutrition (443)
+Obstetrics and Gynecology (574)
+Occupational and Environmental Health (606)
+Oncology (1497)
+Ophthalmology (450)
+Orthopedics (177)
+Otolaryngology (262)
+Pain Medicine (194)
+Palliative Medicine (57)
+Pathology (391)
+Pediatrics (880)
+Pharmacology and Therapeutics (374)
+Primary Care Research (342)
+Psychiatry and Clinical Psychology (2699)
+Public and Global Health (5466)
+Radiology and Imaging (1046)
+Rehabilitation Medicine and Physical Therapy (605)
+Respiratory Medicine (735)
+Rheumatology (332)
+Sexual and Reproductive Health (300)
+Sports Medicine (284)
+Surgery (333)
+Toxicology (48)
+Transplantation (154)
+Urology (128)
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+

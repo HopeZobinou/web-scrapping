@@ -1,0 +1,1522 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+New to WordPress.com: Earn More By Adding a Paywall  – WordPress.com News
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							Products 
+
+
+
+
+							Features 
+
+
+
+
+							Resources 
+
+
+
+
+						Plans & Pricing					
+
+
+
+
+
+							Log In						
+
+
+
+						Get Started					
+
+
+
+Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									WordPress Hosting																	
+
+
+
+									Domain Names																	
+
+
+
+									Website Builder																	
+
+
+
+									Create a Blog																	
+
+
+
+									Newsletter																	
+
+
+
+									Professional Email																	
+
+
+
+									Website Design Services																	
+
+
+
+									Store																	
+
+
+
+									Course Maker																	
+
+
+
+									Enterprise Solutions											
+
+
+
+
+
+
+
+
+
+
+									Overview																	
+
+
+
+									WordPress Themes																	
+
+
+
+									WordPress Plugins																	
+
+
+
+									Google Apps																	
+
+
+
+
+
+
+
+									WordPress.com Support																	
+
+
+
+									WordPress News																	
+
+
+
+									Website Building Tips																	
+
+
+
+									Business Name Generator																	
+
+
+
+									Logo Maker																	
+
+
+
+									Discover New Posts																	
+
+
+
+									Popular Tags																	
+
+
+
+									Blog Search																	
+
+
+
+									Daily Webinars																	
+
+
+
+									Learn WordPress																	
+
+
+
+
+
+
+
+
+Close the navigation menu
+
+
+
+
+
+
+
+						Get Started					
+
+
+
+									Sign Up 
+
+
+
+
+									Log In 
+
+
+
+
+
+
+						About					
+
+
+
+								Plans & Pricing							
+
+
+
+
+
+							Products						
+
+
+
+										WordPress Hosting																			
+
+
+
+										Domain Names																			
+
+
+
+										Website Builder																			
+
+
+
+										Create a Blog																			
+
+
+
+										Newsletter																			
+
+
+
+										Professional Email																			
+
+
+
+										Website Design Services																			
+
+
+
+										Store																			
+
+
+
+										Course Maker																			
+
+
+
+										Enterprise Solutions												
+
+
+
+
+
+
+
+
+							Features						
+
+
+
+										Overview																			
+
+
+
+										WordPress Themes																			
+
+
+
+										WordPress Plugins																			
+
+
+
+										Google Apps																			
+
+
+
+
+
+							Resources						
+
+
+
+										WordPress.com Support																			
+
+
+
+										WordPress News																			
+
+
+
+										Website Building Tips																			
+
+
+
+										Business Name Generator																			
+
+
+
+										Logo Maker																			
+
+
+
+										Discover New Posts																			
+
+
+
+										Popular Tags																			
+
+
+
+										Blog Search																			
+
+
+
+										Daily Webinars																			
+
+
+
+										Learn WordPress																			
+
+
+
+
+
+
+
+
+
+
+
+The WordPress.com Blog
+WordPress.com News
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+New to WordPress.com: Earn More By Adding a Paywall 
+
+The brand new Paywall Block can be easily added to any post or page, making it easier for creators to monetize and diversify their content.
+
+
+
+
+October 10, 2023
+
+ Cris Busquets
+
+
+While there are many ways to monetize your website, there’s one strategy that stands out for its potential and simplicity: the paywall. We’re excited to tell you that this feature is now available on all WordPress.com sites. 
+Let’s explore why and how to use the new Paywall Block. 
+What is a paywall and what are the benefits?
+
+
+A paywall allows you to restrict certain pieces of content on your site or newsletter, requiring your readers to subscribe in order to access your work. 
+Generally, you’ll insert a paywall partway through a post, allowing all visitors to see a portion of the content, but then incentivizing them to subscribe in order to read the rest of it. 
+If you’re wondering whether this strategy is worth considering, here are the three key benefits:
+
+Revenue generation: By offering premium content behind a paywall, you open a new revenue stream and diversify your income.
+Audience loyalty: Paying subscribers are committed to your content, and are more likely to share your content and contribute to your site’s growth. 
+Content versatility: You can now offer a mix of free and premium content, and adapt it to each situation. For example, you can upload a podcast and put the transcript behind the paywall, or write a detailed case study and put the downloadable content and resources behind the paywall. These limitless opportunities make it easier for you to attract a wider audience—you can use your free content to draw in new users, and then entice them to subscribe for access to premium content.  
+
+How to use the Paywall Block
+
+ 
+
+You can add the Paywall Block anywhere in your posts or pages:
+
+In the editor for any post/page editor, type “/” or click the inserter (“+”) button to add a new block.
+Search for “Paywall,” insert the block, then drag it wherever you want.
+From the toolbar or the right sidebar, choose the audience segment who will have access to the content below that paywall—and you’re all set! 
+
+You can also add the Paywall Block to previously published material.
+Amplify an existing site with newsletter features
+Whether you already have a well-established site or you’re starting from scratch, at WordPress.com you have all the tools you need to start a newsletter. With the Subscribe Block and Newsletter Patterns at your disposal, you can get a publication up and running in no time. With the new Paywall Block, we’ve added another piece to your newsletter toolbox.
+What’s next?
+WordPress.com is ever-evolving, and we’re always refining the design, experience, and offerings for writers, creators, and publishers like you. We’re all ears for your ideas to make it even easier for more people to publish and earn from their work.
+Try out the Paywall Block and let us know what you think in the comments. We’re always listening to your feedback.
+
+Test drive the Paywall Block
+
+Email Newsletter
+
+
+Missing out on the latest WordPress.com developments? Enter your email below to receive future announcements direct to your inbox. An email confirmation will be sent before you will start receiving notifications—please check your spam folder if you don't receive this.
+
+
+						Email Address:					
+ 
+
+
+
+
+
+
+ 
+						Follow					
+
+
+
+					Join 102.6M other subscribers				
+
+Share this:Click to share on Tumblr (Opens in new window)Click to share on Twitter (Opens in new window)Click to share on Mastodon (Opens in new window)Click to share on Facebook (Opens in new window)Click to share on LinkedIn (Opens in new window)Click to share on WhatsApp (Opens in new window)MoreClick to email a link to a friend (Opens in new window)Click to print (Opens in new window)Click to share on Pinterest (Opens in new window)Click to share on Reddit (Opens in new window)Click to share on Pocket (Opens in new window)Like this:Like Loading...
+
+Related
+
+
+
+
+
+Earn from your site, New Features, newsletters 
+
+Next PostEngage a Wider Audience With ActivityPub on WordPress.com Previous PostUpcoming Webinar: Effortless Course Creation With Sensei 
+
+
+
+44 Comments
+
+
+
+
+
+
+  Joe Talks
+
+
+			Oct 10th at 8:03 pm
+
+Good one, keep going 💪
+LikeLiked by 4 people
+
+
+
+ 
+
+  Steve Sawczyn
+
+
+			Oct 11th at 12:46 am
+
+I’m really disappointed that podcast transcriptions was listed here as a use case for the paywall block.  While transcriptions may be a convenience for many, they’re absolutely essential for people who may not be able to hear the podcast (e.g. someone who may be deaf or hard of hearing).  I love the flexibility that the Paywall block can offer, but would hate to see it used in a way that inadvertently shuts people out completely which is what would happen if it is used on podcast transcriptions.
+>
+LikeLiked by 1 person
+
+
+
+ 
+
+  supernovia
+
+
+			Oct 11th at 8:19 pm
+
+Thanks for that feedback!
+LikeLiked by 1 person
+
+
+
+ 
+
+
+
+  isteb22
+
+
+			Oct 11th at 2:28 am
+
+I just want to say thank you so very much for all of the information because I just last night well or this morning however you want to put it was telling people on my blog that I don’t know how to do that I haven’t figured out how to monetize my site yet and boom I turned my phone on and there’s your article so I’m following you and I’m going to probably gobble up every word you say. I will of course screw it up here and there and maybe I could ask you a question or two once in awhile if I get really messed up but either way thank you so much for writing that I needed to know that information you rock
+LikeLiked by 2 people
+
+
+
+ 
+
+  supernovia
+
+
+			Oct 11th at 7:55 pm
+
+So glad you’ve found this!
+LikeLiked by 1 person
+
+
+
+ 
+
+
+
+  MNSPandit
+
+
+			Oct 11th at 4:26 am
+
+Very helpful.
+LikeLiked by 1 person
+
+
+
+ 
+
+  KING
+
+
+			Oct 11th at 4:32 am
+
+This isn’t working for me. I’ve just tried it 
+LikeLiked by 1 person
+
+
+
+ 
+
+  supernovia
+
+
+			Oct 11th at 8:14 pm
+
+I had to check into this: have you connected Stripe yet so that you can accept payments? You can connect a Stripe account here.
+LikeLike
+
+
+
+ 
+
+  KING
+
+
+			Oct 11th at 11:34 pm
+
+I have done so
+LikeLiked by 1 person
+
+
+
+ 
+
+  supernovia
+
+
+			Oct 12th at 9:42 pm
+
+Perfect. Do you see the paywall option now?
+If you don’t, please contact support directly with a link to the affected post and any further context you have.
+LikeLike
+
+
+
+ 
+
+
+
+
+
+
+
+  Stellar
+
+
+			Oct 11th at 8:10 am
+
+I will try to add it to my blogspot.thanx for the info
+LikeLiked by 1 person
+
+
+
+ 
+
+  supernovia
+
+
+			Oct 11th at 7:44 pm
+
+This is specific to sites that use our services. Let us know if you need help getting started!
+LikeLiked by 1 person
+
+
+
+ 
+
+
+
+  josgibs
+
+
+			Oct 11th at 8:21 am
+
+I have also some sites that I’ve been working on here which I have paid for but now everything has all disappeared. i just wished we’ve got some trustworthy people who run these sites. Thank you and Goodbye
+LikeLiked by 2 people
+
+
+
+ 
+
+  supernovia
+
+
+			Oct 11th at 7:44 pm
+
+Were you hosting your own installations elsewhere? You’re welcome to set up your sites here on our managed hosting services. Here’s a little info about the difference between that and managing your own copy elsewhere.
+LikeLike
+
+
+
+ 
+
+
+
+  Elisha Mueller
+
+
+			Oct 11th at 10:38 am
+
+great post
+LikeLiked by 1 person
+
+
+
+ 
+
+  goodgoverngovernance
+
+
+			Oct 11th at 10:57 am
+
+I can not continue with WordPress without my paid plan website
+LikeLiked by 1 person
+
+
+
+ 
+
+  supernovia
+
+
+			Oct 11th at 7:42 pm
+
+Do you need any help? If you want to share more context we can point you in the right direction.
+LikeLike
+
+
+
+ 
+
+
+
+  Nisha Agrwal
+
+
+			Oct 11th at 12:31 pm
+
+Nice
+LikeLiked by 1 person
+
+
+
+ 
+
+  nasimasif408
+
+
+			Oct 11th at 1:24 pm
+
+Hearts
+LikeLiked by 2 people
+
+
+
+ 
+
+  tradeanthology
+
+
+			Oct 11th at 3:59 pm
+
+Monetise ones site, increasing subscription numbers and to create content that people are sufficiently interested in getting are three very desirable outcomes when writing content so the paywall sounds very interesting . The responsibility lies with the content writer to make sure that the viewers want to see more.
+LikeLiked by 2 people
+
+
+
+ 
+
+  Thinker
+
+
+			Oct 12th at 2:17 am
+
+Thanks for info…
+LikeLiked by 1 person
+
+
+
+ 
+
+  Dave Watson
+
+
+			Oct 12th at 8:47 am
+
+I think that this is a viable option for wordpress. It works on some sites, X.com, however, has the worst implementation of a paywall I have ever seen.
+LikeLiked by 1 person
+
+
+
+ 
+
+  Abel Simeon, PhD
+
+
+			Oct 12th at 12:18 pm
+
+I just need to understand how this works
+LikeLiked by 1 person
+
+
+
+ 
+
+  supernovia
+
+
+			Oct 12th at 9:24 pm
+
+Let us know what questions you have and we can point you in the best direction for help!
+LikeLiked by 1 person
+
+
+
+ 
+
+
+
+  CarolCooks2
+
+
+			Oct 12th at 2:59 pm
+
+I have come across something similar to this on a recipe site you get maybe 3 free recipes and then a taster of some others which you have to subscribe and pay for to access if you wish to have those recipes 🙂
+LikeLiked by 2 people
+
+
+
+ 
+
+  supernovia
+
+
+			Oct 12th at 9:23 pm
+
+That’s a great example!
+LikeLike
+
+
+
+ 
+
+
+
+  Tazeen Aziz
+
+
+			Oct 12th at 5:43 pm
+
+Great 👍
+LikeLiked by 5 people
+
+
+
+ 
+
+  Hiriato
+
+
+			Oct 13th at 10:04 pm
+
+Sounds really nice!
+LikeLiked by 1 person
+
+
+
+ 
+
+  top gangster
+
+
+			Oct 15th at 1:30 pm
+
+how would you add a login and sign up page?
+LikeLiked by 2 people
+
+
+
+ 
+
+  Jerry B
+
+
+			Oct 16th at 7:31 pm
+
+Hi there, there is no need to set up a login page, since anyone who is a subscriber will see the message to log in to their WordPress.com account at https://wordpress.com/log-in/
+Once they are logged into their account they can view subscriber content without the need to log in a second time directly on your site.  You can learn more about setting up a membership-driven site by checking out our free self-guided course here:  Membership Sites 101 | Learn WordPress.com
+LikeLiked by 2 people
+
+
+
+ 
+
+
+
+  Ms. Manaal Mujtaba Momin
+
+
+			Oct 16th at 3:32 pm
+
+Thanks for the suggestion!
+LikeLiked by 1 person
+
+
+
+ 
+
+  Isla Becker
+
+
+			Oct 17th at 12:22 am
+
+How do you add this to a blog?
+LikeLiked by 2 people
+
+
+
+ 
+
+  supernovia
+
+
+			Oct 17th at 7:22 pm
+
+If your site is here with us, the steps in this article will work! You will also need to create and connect a Stripe account. If you need help, let us know!
+LikeLike
+
+
+
+ 
+
+
+
+  howtousedaily
+
+
+			Oct 18th at 3:18 am
+
+Awesome 
+LikeLike
+
+
+
+ 
+
+  almagiulia
+
+
+			Oct 18th at 6:24 am
+
+thank you for suggesting this
+LikeLike
+
+
+
+ 
+
+  Andrew Konyha
+
+
+			Oct 18th at 6:52 am
+
+thanks
+LikeLike
+
+
+
+ 
+
+  howtousedaily
+
+
+			Oct 18th at 7:30 am
+
+Good
+LikeLiked by 1 person
+
+
+
+ 
+
+  Isla Becker
+
+
+			Oct 18th at 8:57 pm
+
+I don’t understand.
+LikeLike
+
+
+
+ 
+
+  supernovia
+
+
+			Oct 19th at 8:51 pm
+
+If you’ll get in touch with support and let us know what you have in mind, we’ll help!
+LikeLike
+
+
+
+ 
+
+
+
+  Soul Fitness
+
+
+			Oct 19th at 12:24 pm
+
+Do tell
+LikeLiked by 1 person
+
+
+
+ 
+
+  SaymanBlogger
+
+
+			Oct 21st at 2:10 am
+
+Hello
+LikeLike
+
+
+
+ 
+
+
+
+  bharath
+
+
+			Oct 21st at 1:27 am
+
+Super updates
+LikeLiked by 2 people
+
+
+
+ 
+
+  farhaanfk
+
+
+			Oct 22nd at 7:07 am
+
+Good
+LikeLike
+
+
+
+ 
+
+  mamesadbouh
+
+
+			Oct 23rd at 2:22 pm
+
+Super updates
+LikeLiked by 1 person
+
+
+
+ 
+
+
+
+
+
+
+
+Please do not use these comments for asking questions, support, or bug reporting.  Use the forums or support contact form for that.
+Please read our comment guidelines before posting.
+ 
+Leave a Reply Cancel reply
+
+ 
+
+
+
+
+
+Create your new blog or website for free
+Get Started
+
+
+
+
+
+
+Get Started
+Create your own website
+
+
+Products
+
+WordPress Hosting
+Domain Names
+Website Builder
+Create a Blog
+Professional Email
+P2: WordPress for Teams
+Enterprise Solutions
+Website Design Services
+
+
+
+Features
+
+Overview
+WordPress Themes
+WordPress Plugins
+Google Apps
+
+
+
+Resources
+
+WordPress.com Support
+WordPress Forums
+WordPress News
+Website Building Tips
+Business Name Generator
+Logo Maker
+Popular Topics
+Daily Webinars
+Learn WordPress
+Developer Resources
+
+
+
+Company
+
+About
+Partners
+Press
+Terms of Service
+Privacy Policy
+Do Not Sell or Share My Personal Information
+Privacy Notice for California Users
+
+
+
+
+An Automattic Invention 
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Comment						
+
+
+
+
+
+Follow
+
+
+
+Following
+
+
+
+
+
+
+
+				WordPress.com News			
+
+
+Join 100,972,637 other followers
+
+
+
+
+
+
+
+ 
+
+												Sign me up											
+
+
+
+
+											Already have a WordPress.com account? Log in now. 
+
+
+
+
+
+
+ 
+
+
+
+
+
+				WordPress.com News			
+
+
+
+ Customize
+
+
+
+
+
+Follow
+
+
+
+Following
+
+
+Sign up
+Log in
+Copy shortlink
+
+
+											Report this content										
+
+
+
+											View post in Reader										
+
+
+Manage subscriptions
+
+Collapse this bar
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Loading Comments...
+
+
+
+ 
+
+
+
+													You must be logged in to post a comment.												
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+%d bloggers like this:		
+
+
+ 
+
+
+
+
+
+
+
+

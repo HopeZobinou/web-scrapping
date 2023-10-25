@@ -1,0 +1,725 @@
+
+
+
+【コピペで使える】日本語版WordPressチートシート – More Web
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+WordPress WPチートシート
+準備編
+初期設定
+サイトカスタマイズ
+プラグイン
+記事作成編
+
+
+コラム SEO
+WEB広告
+WEBサイト運営
+WEBライティング
+コーディング
+
+
+お問い合わせ お問い合わせフォーム
+お見積りフォーム
+私たちについて
+プライバシーポリシー
+
+
+
+
+
+検索検索 
+
+
+
+
+
+
+
+
+					WEB制作会社様のリソース不足を即日解消！お気軽にご連絡ください！				
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Home
+WordPress WPチートシート
+準備編
+初期設定
+サイトカスタマイズ
+プラグイン
+記事作成編
+
+
+コラム SEO
+WEB広告
+WEBサイト運営
+WEBライティング
+コーディング
+
+
+お問い合わせ お問い合わせフォーム
+お見積りフォーム
+私たちについて
+プライバシーポリシー
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		MENU	
+
+
+
+
+
+
+
+
+
+Home
+WordPress WPチートシート
+準備編
+初期設定
+サイトカスタマイズ
+プラグイン
+記事作成編
+
+
+コラム SEO
+WEB広告
+WEBサイト運営
+WEBライティング
+コーディング
+
+
+お問い合わせ お問い合わせフォーム
+お見積りフォーム
+私たちについて
+プライバシーポリシー
+
+
+
+
+
+
+
+
+
+
+
+					WEB制作会社様のリソース不足を即日解消！お気軽にご連絡ください！				
+
+
+
+
+
+
+
+
+トップページ
+
+
+
+
+
+WordPress
+
+
+
+
+
+【コピペで使える】日本語版WordPressチートシート
+
+
+
+
+
+
+
+
+
+【コピペで使える】日本語版WordPressチートシート
+
+
+
+
+
+投稿日
+			2020年3月5日		
+
+
+
+
+更新日
+			2021年11月11日		
+
+
+著者
+		Hiroaki Onodera	
+
+カテゴリー
+
+WordPress
+
+
+
+
+
+
+
+
+
+
+
+
+
+WorePressのテーマカスタマイズ時によく使う基本的なタグをまとめてみました！基本的なタグを全てコピペで使えます！各タグについてCodex日本語版ページへのリンクも貼っています！
+WorePressのカスタマイズは、Codexはこまめに確認することをおすすめします。
+
+
+※タグ追加のご要望、改善すべき点などありましたら、お気軽にご連絡下さい。※初心者向けのため厳密な説明ではなく、あえてわかりやすい表現をしている場合があります。
+インクルードタグ
+インクルードタグとはheader.phpのようなテンプレートファイルを読み込みたい時に使うタグです。インクルードタグ – WordPress Codex 日本語版
+インクルードタグ内容Codex補足<?php get_header(); ?>header.phpを読み込みますcheck–<?php get_footer(); ?>footer.phpを読み込みますcheck–<?php get_sidebar(); ?>sidebar.phpを読み込みますcheck–<?php get_template_part(); ?>独自に作成したファイルを読み込みます例 gnav.php <?php get_template_part('gnav'); ?>check–<?php get_search_form(); ?>検索フォームが表示されます（searchform.phpが未作成の場合、デフォルトの検索フォームが表示）check–<?php comments_template(); ?>コメントテンプレートを読み込みます投稿と固定ページ での表示に使用しますcheck–
+テンプレートタグ
+テンプレートタグとはコンテンツをサイトに表示するためのタグです。テンプレートタグ – WordPress Codex 日本語版
+基本情報の出力
+bloginfoの出力タグ内容Codex補足<?php bloginfo( 'name' ); ?>管理画面「一般設定」で設定したサイトのタイトルを出力check–<?php bloginfo( 'description' ); ?>管理画面「一般設定」で設定したサイトのキャッチフレーズを出力同上–<?php bloginfo( 'charset' ); ?>「UTF-8」が出力されます <meta charset="<?php bloginfo( 'charset' ); ?>">同上–<?php bloginfo( 'language' ); ?>一般設定のサイトの言語を出力します　例 ja<html lang="<?php bloginfo( 'language' ); ?>">同上–
+基本情報の出力タグ内容Codex補足<?php echo home_url(); ?>現在のブログのホームURLを出力します<?php echo esc_url( home_url() ); ?> check–<?php echo get_stylesheet_uri(); ?>現状のテーマのスタイルシートのURI を取得し、表示check–<?php echo get_template_directory_uri(); ?>親テーマのディレクトリのURI を取得し、表示check–<?php echo get_stylesheet_directory_uri(); ?>子テーマのディレクトリのURI を取得し、表示check<?php wp_head(); ?> </head> タグ直前で使用します例: header.phpの中check–<?php wp_footer(); ?> </body> タグ直前で使用します例: footer.phpの中check–
+
+非推奨タグについてWordPressのタグの中にはすでに廃止や非推奨とされているものがあります。とくにbloginfoは注意が必要です。
+
+
+// bloginfo('siteurl')　bloginfo('home')　廃止
+=> <?php echo home_url(); ?>
+
+実際にはエスケープ処理をしましょう！<?php echo esc_url( home_url() ); ?> 
+参考）codex(関数リファレンス/esc url)について
+
+
+// bloginfo('stylesheet_url')　非推奨
+// bloginfo('stylesheet_directory')　非推奨
+//親テーマ利用の場合
+=> <?php echo get_stylesheet_directory_uri(); ?>
+//子テーマ利用の場合
+=> <?php echo get_stylesheet_uri(); ?>
+
+
+
+
+class追加
+class名出力タグ内容Codex補足<?php body_class(); ?>bodyにclass名を追加できます※オリジナルのclass名をさらに追加で出力したい場合＝＞<body <?php body_class( 'クラス名' ); ?>>check–<?php post_class(); ?>投稿IDを任意の場所に出力できますbody以外にも個別にclassを出力したい場合に便利ですcheck–
+投稿関連
+投稿タグ内容Codex補足<?php the_title(); ?>現在の投稿のタイトルを表示できますcheck<?php the_content(); ?>現在の投稿の本文を出力できますcheck<?php the_excerpt(); ?>現在の投稿の抜粋を表示できます※ブログの記事一覧ページなどに利用しますcheck<?php the_post_thumbnail(); ?>投稿編集画面で設定されたアイキャッチ画像を表示できますcheck<?php the_category(); ?>現在の記事が属するカテゴリーへのリンクを表示できます※必ずループの中で使う必要がありますcheck<?php the_tags(); ?>現在の記事に付けられたタグを表示できます※必ずループの中で使う必要がありますcheck<?php the_time(); ?>現在の投稿の公開時刻を表示します。投稿の公開時刻を取得する場合には get_the_time()表示は、the_time()　取得は、get_the_time()check<?php the_date(); ?>表示は、the_date()　取得は、get_the_date()check<?php echo get_the_date(); ?>取得したデータを、echoで表示しますcheck<?php the_permalink(); ?>投稿のパーマリンク の URL を表示します。このタグはループ内で使用しなければなりません。任意の投稿のパーマリンクを取得は、get_permalink()check<?php the_author(); ?>投稿作成者のブログ上の表示名を表示checkcheck<?php the_ID(); ?>現在の投稿の ID を表示。取得は、get_the_ID()※必ずループの中で使う必要がありますcheck
+ナビゲーション
+ナビゲーション関係 タグ内容Codex補足<?php next_post_link(); ?>現在の投稿より新しい投稿へのリンクを表示※必ずループの中で使う必要がありますcheck–<?php previous_post_link(); ?>現在の投稿よりひとつ前の投稿へのリンクを表示※必ずループの中で使う必要がありますcheck–<?php next_posts_link(); ?>現在のクエリ内で、投稿の次のセットへのリンクを表示取得は、get_next_posts_link()checkcheck–<?php previous_posts_link(); ?>現在のクエリ内で、投稿の一つ前のセットへのリンクを表示取得は、get_previous_posts_link()checkcheck–<?php wp_nav_menu(); ?>管理画面 > 外観 > メニュー で作成したナビゲーションメニューを表示check–
+Author
+Author 関連タグ内容Codex補足<?php the_author(); ?>投稿作成者のブログ上の表示名を表示check–<?php the_author_link(); ?>投稿作成者のウェブサイトへのリンク<p><?php the_author_link(); ?> による投稿</p>check–<?php the_author_posts_link(); ?> 投稿作成者の表示名とともに著者ページへのリンクを表示check–<?php the_author_meta(); ?> ユーザーが持つメタデータから好きなものを表示できます。ループの外で使う場合には、ユーザー IDを指定する必要があります。<?php the_author_meta( $field, $userID ); ?> check–<?php the_author_posts(); ?>  投稿の作成者が公開した投稿の総数を表示check–
+条件分岐タグ
+条件分岐タグとはif文を使って特定のページ内容を表示する条件を設定する場合に使います。例えば、投稿ページと固定ページで出力情報を変えたい場合などです。条件分岐タグ – WordPress Codex 日本語版
+主要な条件分岐タグ
+条件分岐タグ内容Codex補足is_home()メインの投稿ページかを判定check–is_front_page()フロントページかを判定check–is_singular()投稿タイプを判定デフォルトの投稿 => is_singular( ‘post’ )カスタム投稿タイプ => is_singular( ‘投稿タイプ名’ );check–is_single()個別の投稿ページかを判定check–is_page()固定ページかを判定check–is_page_template()ページテンプレートが使われているかを判定例 about.php => if ( is_page_template( ‘about.php’ ) )check–
+アーカイブページの条件分岐タグ
+条件分岐タグ内容Codex補足is_archive()各アーカイブページが表示されているかを判定アーカイブページには、カテゴリー、タグ、タクソノミー、作成者、日付別のものがあります。check–is_category()ページが $category カテゴリーと関連付けられているかを判定check–is_tag()タグのアーカイブページが表示されているかを判定check–is_tax()タクソノミーのアーカイブページが表示されているかを判定check–is_author()作成者のアーカイブページが表示されているかを判定check–is_date()日付に関連するアーカイブページが表示されているかを判定check–
+その他の条件分岐タグ
+条件分岐タグ内容Codex補足is_404()404 Not Found”エラーページが表示されているかを判定check–is_paged()表示中のページが複数のページにまたがるかを判定2ページ目以降のときに true を返しますcheck–is_admin()ダッシュボードまたは管理パネルが表示されているかを判定check–is_user_logged_in()ユーザーがログインしているかを判定check–
+ループ（メインループとサブループ）
+
+
+// ループ開始
+<?php if ( have_posts() ) : ?>
+<?php while ( have_posts() ) : the_post(); ?>
+// 投稿内容を出力
+...
+<?php endwhile; else : ?>
+// 投稿がない場合の表示を処理
+...
+<?php endif; ?>
+
+ループ – WordPress Codex 日本語版WP Query – WordPress Codex 日本語版
+
+
+// サブループの準備（例）
+<?php $args = array(
+	'category_name'   => 'music',
+	'order'   => 'DESC',
+); ?>
+<?php $the_query = new WP_Query( $args ); ?>
+
+// サブループ開始
+<?php if ( $the_query->have_posts() ) : ?>
+<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+// 投稿内容を出力
+...
+<?php endwhile; ?> // サブループ終了
+<?php wp_reset_postdata(); ?> //クエリリセット（重要）
+<?php else : ?>
+// 投稿がない場合の表示を処理
+...
+<?php endif; ?>
+
+
+
+非推奨タグ
+非推奨タグ補足query_postsWP_Queryまたはget_postsを使用することが強く推奨されています。
+参考サイト
+
+WordPress Codex 日本語版wpdocs.osdn.jp
+
+この記事が参考になりましたら、SNSでシェアしていただけるとうれしいです！
+
+
+
+
+
+
+			-		
+
+
+
+
+シェア
+
+
+
+
+
+
+			-		
+
+
+
+
+ツイート
+
+
+
+
+
+
+			-		
+
+
+
+
+ブックマーク
+
+
+
+
+
+
+			-		
+
+
+
+
+Feedly
+
+
+
+
+
+-
+
+
+
+
+LINE
+
+
+
+
+
+-
+
+
+
+
+Pinterest
+
+
+
+
+
+
+-
+
+
+
+
+フィード
+
+
+
+
+
+
+この記事を書いた人
+
+
+ 
+
+
+						Hiroaki Onodera					
+
+静岡でWEB制作＆コンサルティング会社を経営しています。
+全国の制作会社様からコーディングやWordPress実装の仕事をお引き受けしています。
+
+
+
+							記事一覧						
+
+
+ウェブサイト
+Twitter
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+						古い投稿									
+
+					WordPressでカテゴリーの順番を自由に並び替える方法
+				
+ 
+
+ 
+ 
+
+											新しい投稿						
+
+
+					WordPressのリビジョンを削除・回数制限する方法
+				
+ 
+
+
+
+
+			関連記事					
+
+
+
+
+
+
+
+
+		サイトカスタマイズ	
+
+
+
+
+	WordPressのウィジェット設定の仕方を解説
+
+
+	WordPressにおいてウィジェットとは、WEBサイトのサイドやフッター部分に追加できるコンテンツをいいます。 追加できるコンテンツはテーマによって様々ですが、例えば「カテゴリー一覧」や「新着記事の表示」などがあります […]
+
+
+
+Yoshihiko Hoshino		
+
+			2019年10月12日		
+
+
+
+
+
+
+
+
+
+
+
+
+		初期設定	
+
+
+
+
+	WordPressの一般設定の仕方を解説【初期設定編】
+
+
+	WordPressは管理画面から様々な設定をすることができます。 例えば“サイト名”や“１ページに表示する新着記事の数”など、サイトのコンセプトや大まかな外観にかかわる変更も「設定」から行うことができます。 関連記事Wo […]
+
+
+
+Yoshihiko Hoshino		
+
+			2019年9月26日		
+
+
+
+
+
+
+
+
+
+
+
+
+		初期設定	
+
+
+
+
+	WordPressのディスカッション設定の仕方を解説【初期設定編】
+
+
+	WordPressは管理画面から様々な設定をすることができます。 例えばサイト名や、そのWEBサイトにアクセスするためのURLなど、運営にかかわる大事な部分も「設定」から行うことができます。 関連記事WordPressの […]
+
+
+
+Yoshihiko Hoshino		
+
+			2019年9月29日		
+
+
+
+
+
+
+
+
+
+
+
+
+		WordPress	
+
+
+
+
+	【2021最新版】無料のWordPressおすすめテーマ21選
+
+
+	WordPressには「テーマ」と呼ばれる機能が備わっています。 WordPressテーマとは「テーマ」とはデザインテンプレートのような機能で、ブログやコーポレートサイトなど、希望の印象に合うテーマを適用すれば、簡単にデ […]
+
+
+
+Hiroaki Onodera		
+
+			2021年2月8日		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+私たちについて
+
+
+お仕事のご依頼
+
+
+運営会社
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+検索 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
