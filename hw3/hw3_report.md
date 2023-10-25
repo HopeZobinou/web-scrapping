@@ -88,7 +88,7 @@ if __name__ == "__main__":
 819 of the links produced useful texts. I was not surprised because in my code I skipped saving HTML and striped HTML if they returned none from the download. 
 
 ## Discussion
-
+The process of downloading the web pages is similar to hw2. First I had the program read in a file containing all the URIs and put it into a list. Then I iterate through the list and call a bunch of methods on that certain element in the list to get the raw html file, and processed html text file. In the loop, I also have some dictionary work going on the map the hashed file names to the original file name. I used beautiful soup instead of boilerpy3 because of some parsing error I couldn't fix.
 
 
 # Q2
