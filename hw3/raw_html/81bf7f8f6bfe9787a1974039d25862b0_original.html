@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en-IN" prefix="og: https://ogp.me/ns#" class="no-js">
+<head><meta charset="UTF-8"><script src="/cdn-cgi/apps/head/lWUzy5epBHookwxDxDs8DP1tSfI.js"></script><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.v="1.2.3",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",t=>{this.persisted=t.persisted}),window.addEventListener("DOMContentLoaded",()=>{this._preconnect3rdParties()}),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}_addUserInteractionListener(t){if(document.hidden){t._triggerListener();return}this.triggerEvents.forEach(e=>window.addEventListener(e,t.userEventHandler,{passive:!0})),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler)}_removeUserInteractionListener(){this.triggerEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!0})),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"onclick","rocket-onclick"),this._pendingClickStarted())}_onTouchMove(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this._pendingClickFinished()}_onTouchEnd(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(t){t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this._pendingClickFinished()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach(t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))})}_waitForPendingClicks(){return new Promise(t=>{this._isClickPending?this._pendingClickFinished=t:t()})}_pendingClickStarted(){this._isClickPending=!0}_pendingClickFinished(){this._isClickPending=!1}_renameDOMAttribute(t,e,r){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(r,event.target.getAttribute(e)),event.target.removeAttribute(e))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(e=>{if(e.hasAttribute("src")){let r=new URL(e.src).origin;r!==location.origin&&t.push({src:r,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this._batchInjectResourceHints(t,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(this),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._waitForPendingClicks().then(()=>{this._replayClicks()}),this._emptyTrash()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _transformScript(t){return new Promise((await this._littleBreath(),navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor)?e=>{let r=document.createElement("script");[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),r.setAttribute(e,t.nodeValue))}),t.text&&(r.text=t.text),r.hasAttribute("src")?(r.addEventListener("load",e),r.addEventListener("error",e)):(r.text=t.text,e());try{t.parentNode.replaceChild(r,t)}catch(i){e()}}:async e=>{function r(){t.setAttribute("data-rocket-status","failed"),e()}try{let i=t.getAttribute("data-rocket-type"),n=t.getAttribute("data-rocket-src");t.text,i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",function r(){t.setAttribute("data-rocket-status","executed"),e()}),t.addEventListener("error",r),n?(t.removeAttribute("data-rocket-src"),t.src=n):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}catch(s){r()}})}async _loadScriptsFromList(t){let e=t.shift();return e&&e.isConnected?(await this._transformScript(e),this._loadScriptsFromList(t)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(t,e){var r=document.createDocumentFragment();t.forEach(t=>{let i=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(i){let n=document.createElement("link");n.href=i,n.rel=e,"preconnect"!==e&&(n.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),r.appendChild(n),this.trash.push(n)}}),document.head.appendChild(r)}_delayEventListeners(t){let e={};function r(t,r){!function t(r){!e[r]&&(e[r]={originalFunctions:{add:r.addEventListener,remove:r.removeEventListener},eventsToRewrite:[]},r.addEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.add.apply(r,arguments)},r.removeEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.remove.apply(r,arguments)});function i(t){return e[r].eventsToRewrite.indexOf(t)>=0?"rocket-"+t:t}}(t),e[t].eventsToRewrite.push(r)}function i(t,e){let r=t[e];Object.defineProperty(t,e,{get:()=>r||function(){},set(i){t["rocket"+e]=r=i}})}r(document,"DOMContentLoaded"),r(window,"DOMContentLoaded"),r(window,"load"),r(window,"pageshow"),r(document,"readystatechange"),i(document,"onreadystatechange"),i(window,"onload"),i(window,"onpageshow")}_delayJQueryReady(t){let e;function r(r){if(r&&r.fn&&!t.allJQueries.includes(r)){r.fn.ready=r.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(r):document.addEventListener("rocket-DOMContentLoaded",()=>e.bind(document)(r)),r([])};let i=r.fn.on;r.fn.on=r.fn.init.prototype.on=function(){if(this[0]===window){function t(t){return t.split(" ").map(t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=t(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(e=>{let r=arguments[0][e];delete arguments[0][e],arguments[0][t(e)]=r})}return i.apply(this,arguments),this},t.allJQueries.push(r)}e=r}r(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){r(t)}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this._littleBreath();let t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){let t=new Map;document.write=document.writeln=function(e){let r=document.currentScript;r||console.error("WPRocket unable to document.write this: "+e);let i=document.createRange(),n=r.parentElement,s=t.get(r);void 0===s&&(s=r.nextSibling,t.set(r,s));let a=document.createDocumentFragment();i.setStart(a,0),a.appendChild(i.createContextualFragment(e)),n.insertBefore(a,s)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}_emptyTrash(){this.trash.forEach(t=>t.remove())}static run(){let t=new RocketLazyLoadScripts;t._addUserInteractionListener(t)}}RocketLazyLoadScripts.run();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="smdpwHhOJp3wNigxVeafsc8Oyj52Xaf_HOagHDFM21M" />
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<script type="rocketlazyloadscript">(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<link rel="dns-prefetch" href="//maps.googleapis.com">
+<link rel="dns-prefetch" href="//maps.gstatic.com">
+<link rel="dns-prefetch" href="//ajax.googleapis.com">
+<link rel="dns-prefetch" href="//apis.google.com">
+<link rel="dns-prefetch" href="//google-analytics.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//ssl.google-analytics.com">
+<link rel="dns-prefetch" href="//youtube.com">
+<link rel="dns-prefetch" href="//api.pinterest.com">
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+<link rel="dns-prefetch" href="//pixel.wp.com">
+<link rel="dns-prefetch" href="//connect.facebook.net">
+<link rel="dns-prefetch" href="//platform.twitter.com">
+<link rel="dns-prefetch" href="//syndication.twitter.com">
+<link rel="dns-prefetch" href="//platform.instagram.com">
+<link rel="dns-prefetch" href="//disqus.com">
+<link rel="dns-prefetch" href="//sitename.disqus.com">
+<link rel="dns-prefetch" href="//s7.addthis.com">
+<link rel="dns-prefetch" href="//platform.linkedin.com">
+<link rel="dns-prefetch" href="//w.sharethis.com">
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="dns-prefetch" href="//s.gravatar.com">
+<link rel="dns-prefetch" href="//stats.wp.com">
+<link rel="dns-prefetch" href="//j.clarity.ms">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//googletagmanager.com">
+<link rel="dns-prefetch" href="//ssl.googletagmanager.com">
+<link rel="dns-prefetch" href="//embed.tawk.to">
+<link rel="dns-prefetch" href="//tawk.to">
+
+<title>Construction WordPress theme for Contractor building materials interior</title>
+<meta name="description" content="Construction WordPress theme is one of the topnotch themes to end your quest for a fully-featured theme for designing your splendid website." />
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+<link rel="canonical" href="https://www.sktthemes.in/product/skt-construction-pro/" />
+<meta property="og:locale" content="en_IN" />
+<meta property="og:type" content="product" />
+<meta property="og:title" content="Construction WordPress theme for Contractor building materials interior" />
+<meta property="og:description" content="Construction WordPress theme is one of the topnotch themes to end your quest for a fully-featured theme for designing your splendid website." />
+<meta property="og:url" content="https://www.sktthemes.in/product/skt-construction-pro/" />
+<meta property="og:site_name" content="WordPress Themes for India" />
+<meta property="og:updated_time" content="2023-10-11T16:37:32+05:30" />
+<meta property="fb:app_id" content="278086042950542" />
+<meta property="product:price:amount" content="2700" />
+<meta property="product:price:currency" content="INR" />
+<meta property="product:availability" content="instock" />
+<meta property="product:brand" content="SKT Themes" />
+<meta property="product:price:amount" content="2700" />
+<meta property="product:price:currency" content="INR" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Construction WordPress theme for Contractor building materials interior" />
+<meta name="twitter:description" content="Construction WordPress theme is one of the topnotch themes to end your quest for a fully-featured theme for designing your splendid website." />
+<meta name="twitter:creator" content="@sonalsinha21" />
+<meta name="twitter:label1" content="Price" />
+<meta name="twitter:data1" content="Rs.2,700.00" />
+<meta name="twitter:label2" content="Availability" />
+<meta name="twitter:data2" content="In stock" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.sktthemes.in/#organization","name":"WordPress Themes India","url":"https://www.sktthemes.in","sameAs":["https://www.facebook.com/wpthemesindia/"],"logo":{"@type":"ImageObject","@id":"https://www.sktthemes.in/#logo","url":"https://www.sktthemes.in/wp-content/uploads/2020/08/wp-themes-india-logo-hd.png","contentUrl":"https://www.sktthemes.in/wp-content/uploads/2020/08/wp-themes-india-logo-hd.png","caption":"WordPress Themes India","inLanguage":"en-IN","width":"970","height":"153"}},{"@type":"WebSite","@id":"https://www.sktthemes.in/#website","url":"https://www.sktthemes.in","name":"WordPress Themes India","publisher":{"@id":"https://www.sktthemes.in/#organization"},"inLanguage":"en-IN"},{"@type":"ImageObject","@id":"https://www.sktthemes.in/wp-content/uploads/2021/06/Construction-WordPress-Theme.webp","url":"https://www.sktthemes.in/wp-content/uploads/2021/06/Construction-WordPress-Theme.webp","width":"472","height":"2443","caption":"Construction WordPress Theme","inLanguage":"en-IN"},{"@type":"ItemPage","@id":"https://www.sktthemes.in/product/skt-construction-pro/#webpage","url":"https://www.sktthemes.in/product/skt-construction-pro/","name":"Construction WordPress theme for Contractor building materials interior","datePublished":"2023-10-11T16:22:27+05:30","dateModified":"2023-10-11T16:37:32+05:30","isPartOf":{"@id":"https://www.sktthemes.in/#website"},"primaryImageOfPage":{"@id":"https://www.sktthemes.in/wp-content/uploads/2021/06/Construction-WordPress-Theme.webp"},"inLanguage":"en-IN"},{"@type":"Person","@id":"https://www.sktthemes.in/author/wpthemesind2/","name":"Sonnal S Sinha","url":"https://www.sktthemes.in/author/wpthemesind2/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/10c0dfbf72d8fa363a00710f1f51d2ee?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/10c0dfbf72d8fa363a00710f1f51d2ee?s=96&amp;d=mm&amp;r=g","caption":"Sonnal S Sinha","inLanguage":"en-IN"},"sameAs":["https://www.sktthemes.in","https://www.facebook.com/sonalsinha21","https://twitter.com/sonalsinha21"],"worksFor":{"@id":"https://www.sktthemes.in/#organization"}},{"@type":"Product","name":"Construction WordPress theme for Contractor building materials interior","description":"Construction WordPress theme is one of the topnotch themes to end your quest for a fully-featured theme for designing your splendid website.","brand":{"@type":"Brand","name":"SKT Themes"},"image":{"@id":"https://www.sktthemes.in/wp-content/uploads/2021/06/Construction-WordPress-Theme.webp"},"offers":{"@type":"Offer","url":"https://www.sktthemes.in/product/skt-construction-pro/","price":"2700","priceCurrency":"INR","availability":"InStock","priceValidUntil":"2027-05-31"},"review":{"@type":"Review","datePublished":"2023-10-11T16:22:27+05:30","dateModified":"2023-10-11T16:37:32+05:30","author":{"@id":"https://www.sktthemes.in/author/wpthemesind2/","name":"Sonnal S Sinha"},"reviewRating":{"@type":"Rating","ratingValue":"5"}},"@id":"https://www.sktthemes.in/product/skt-construction-pro/#schema-80837","mainEntityOfPage":{"@id":"https://www.sktthemes.in/product/skt-construction-pro/#webpage"}}]}</script>
+
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="bbp-default-css" href="https://www.sktthemes.in/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css?ver=2.6.9" type="text/css" media="all" />
+<link data-minify="1" rel="stylesheet" id="woocommerce-layout-css" href="https://www.sktthemes.in/wp-content/cache/min/1/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=1697805453" type="text/css" media="all" />
+<link data-minify="1" rel="stylesheet" id="woocommerce-general-css" href="https://www.sktthemes.in/wp-content/cache/min/1/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=1697805453" type="text/css" media="all" />
+<style id="woocommerce-inline-inline-css" type="text/css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link data-minify="1" rel="stylesheet" id="twentysixteen-style-css" href="https://www.sktthemes.in/wp-content/cache/min/1/wp-content/themes/wpthemesindia/style.css?ver=1697805446" type="text/css" media="all" />
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.sktthemes.in/wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js" defer></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://www.sktthemes.in/wp-content/themes/wpthemesindia/js/html5.js?ver=3.7.3' id='twentysixteen-html5-js'></script>
+<![endif]-->
+<meta name="google-site-verification" content="ofRfNq2fwV7WwRlFIAF1zp7vQ0mmcMlbTso4zgsd6pA" /><script type="rocketlazyloadscript">
+	function expand(param) {
+		param.style.display = (param.style.display == "none") ? "block" : "none";
+	}
+	function read_toggle(id, more, less) {
+		el = document.getElementById("readlink" + id);
+		el.innerHTML = (el.innerHTML == more) ? less : more;
+		expand(document.getElementById("read" + id));
+	}
+	</script><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style> <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+<script type="rocketlazyloadscript">function perfmatters_check_cart_fragments(){if(null!==document.getElementById("perfmatters-cart-fragments"))return!1;if(document.cookie.match("(^|;) ?woocommerce_cart_hash=([^;]*)(;|$)")){var e=document.createElement("script");e.id="perfmatters-cart-fragments",e.src="https://www.sktthemes.in/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js",e.async=!0,document.head.appendChild(e)}}perfmatters_check_cart_fragments(),document.addEventListener("click",function(){setTimeout(perfmatters_check_cart_fragments,1e3)});</script><link rel="icon" href="https://www.sktthemes.in/wp-content/uploads/2021/07/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.sktthemes.in/wp-content/uploads/2021/07/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.sktthemes.in/wp-content/uploads/2021/07/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.sktthemes.in/wp-content/uploads/2021/07/cropped-favicon-270x270.png" />
+<style type="text/css">
+
+*[id^='readlink'] {
+ font-weight: normal;
+ color: #ffffff;
+ background: #07a0dd;
+ padding: 0px;
+ border-bottom: 0px solid #000000;
+ -webkit-box-shadow: none !important;
+ box-shadow: none !important;
+ -webkit-transition: none !important;
+}
+
+*[id^='readlink']:hover {
+ font-weight: normal;
+ color: #ffffff;
+ padding: 0px;
+ border-bottom: 0px solid #000000;
+}
+
+*[id^='readlink']:focus {
+ outline: none;
+ color: #ffffff;
+}
+
+</style>
+<style type="text/css" id="wp-custom-css">
+			.woocommerce-store-notice__dismiss-link {
+    display: none;
+}
+#main { margin-top:50px;}
+.woocommerce-store-notice, p.demo_store { background-color:#ff9000;}		</style>
+<noscript><style>.perfmatters-lazy[data-src]{display:none !important;}</style></noscript><style>.perfmatters-lazy.pmloaded,.perfmatters-lazy.pmloaded>img,.perfmatters-lazy>img.pmloaded,.perfmatters-lazy[data-ll-status=entered]{animation:500ms pmFadeIn}@keyframes pmFadeIn{0%{opacity:0}100%{opacity:1}}</style> <link data-minify="1" href="https://www.sktthemes.in/wp-content/cache/min/1/wp-content/themes/wpthemesindia/css/theme-responsive.css?ver=1697805446" rel="stylesheet" type="text/css" />
+<script type="rocketlazyloadscript" data-rocket-src="https://www.sktthemes.in/wp-content/themes/wpthemesindia/js/themes-function.js" data-rocket-type="text/javascript" defer></script>
+</head>
+<body class="product-template-default single single-product postid-383 theme-wpthemesindia woocommerce woocommerce-page woocommerce-no-js group-blog">
+<div id="main">
+<div class="header">
+<div class="container">
+<div class="logo">
+<a href="https://www.sktthemes.in"><img src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;223&#039;%20height=&#039;26&#039;%20viewBox=&#039;0%200%20223%2026&#039;%3E%3C/svg%3E" alt="SKT Themes India" width="223" height="26" class="perfmatters-lazy" data-src="https://www.sktthemes.in/wp-content/themes/wpthemesindia/images/logo.webp" /><noscript><img src="https://www.sktthemes.in/wp-content/themes/wpthemesindia/images/logo.webp" alt="SKT Themes India" width="223" height="26"/></noscript></a>
+</div>
+<div class="languages"><i class="fa fa-phone"></i><a href="tel:9011466663">9011466663</a></div>
+<div class="nav">
+<div class="menu-top_menu-container"><ul id="menu-top_menu" class="menu"><li id="menu-item-2041" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2041"><a href="https://www.sktthemes.in/">Home</a></li>
+<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-241"><a href="https://www.sktthemes.in/themes/">Themes</a></li>
+<li id="menu-item-3490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3490"><a href="https://www.sktthemes.in/pricing/">Pricing</a></li>
+<li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="https://www.sktthemes.in/contact-us/">Contact</a></li>
+<li id="menu-item-2110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2110"><a href="https://www.sktthemes.in/support/">Support</a></li>
+<li id="menu-item-274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274"><a href="https://www.sktthemes.in/my-account/">Login</a></li>
+</ul></div> </div>
+<div class="clear"></div>
+</div>
+</div>
+<section>
+<div class="container">
+<div class="row">
+<div class="col-6">
+<div class="theme-details-left">
+<h2>SKT Construction Pro</h2>
+<div class="themes-box">
+<div class="thumb">
+<img src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;472&#039;%20height=&#039;100%&#039;%20viewBox=&#039;0%200%20472%20100%&#039;%3E%3C/svg%3E" alt="SKT Construction Pro" width="472" height="100%" class="perfmatters-lazy" data-src="https://www.sktthemes.in/wp-content/uploads/2021/06/Construction-WordPress-Theme.webp" /><noscript><img src="https://www.sktthemes.in/wp-content/uploads/2021/06/Construction-WordPress-Theme.webp" alt="SKT Construction Pro" width="472" height="100%"></noscript>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="col-6">
+<div class="theme-details-right">
+<h3>For <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">Rs.</span>2,700.00</bdi></span></h3>
+<div class="buttons">
+<a href="http://sktthemesdemo.net/skt-construction-pro/" target="_blank" class="button">Demo</a>
+</a><a href="?add-to-cart=383" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="383" data-product_sku aria-label="Add &ldquo;SKT Construction Pro&rdquo; to your cart" aria-describedby rel="nofollow">Buy Now</a>
+<a href="https://www.sktthemes.in/product/all-themes-package/" class="button byall">Buy All Our Themes</a>
+</div>
+<p><strong>For Documentation: <a href="http://sktthemesdemo.net/documentation/skt-construction-doc/" target="_blank">Click Here</a></strong></p>
+<div class="wp-theme-features">
+<img src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;659&#039;%20height=&#039;2245&#039;%20viewBox=&#039;0%200%20659%202245&#039;%3E%3C/svg%3E" alt="WP Theme Features" width="659" height="2245" class="perfmatters-lazy" data-src="https://www.sktthemes.in/wp-content/themes/wpthemesindia/images/theme-features-new.webp" /><noscript><img loading="lazy" src="https://www.sktthemes.in/wp-content/themes/wpthemesindia/images/theme-features-new.webp" alt="WP Theme Features" width="659" height="2245"/></noscript>
+</div>
+<h1>Features of Construction WordPress Theme</h1>
+<ul>
+<li>Construction WordPress theme can be used by multiple industries since it is designed to be customizable.</li>
+<li>Designed with a user-friendly approach, therefore, is much easy and simple to be handled even by novice users.</li>
+<li>Installation will be made available to our customers free of cost once after the purchase of the theme.</li>
+<li>Incarnation of various shortcodes proved to be advantageous for you. As you can add additional functionality to your website and can make it more functional.</li>
+<li>With the use of shortcode plugins you can even add more shortcodes. As shortcode plugins work well with the theme.</li>
+<li>Gutenberg, Elementor, Divi, Visual composer, Beaver, Live composer, and other page builder plugins work at its optimum with the theme. Hence, you can represent your pages with a fancy appearance.</li>
+<li>You can open an online construction agency with the use of this theme. As the theme is designed congenial with WooCommerce plugin. Also, you need not worry about online transactions, all will be taken care of by WooCommerce plugin.</li>
+<li>You can contact us in case if you are facing any qualm. Support will be provided one year from the date of purchasing the theme.</li>
+<li>Standard pages like 404, search, archives and category are also designed in order to provide your website with a more standardized look.</li>
+<li>Coding has been done based on SEO standards. Hence, you will have a website with good search results. Along with this, it is also compatible with various SEO plugins.</li>
+<li>Flat and material designed approach has been opted for while designing construction theme in order to have a flat structure website which will be compatible with old and new browsers.</li>
+<li>You can keep visitors engaged with your construction website for a long. This is plausible by keep updating articles or blogs related to your construction company on a regular basis.</li>
+<li>Coding of construction WordPress theme has been done as per WordPress codex theme review standards.</li>
+<li>Designed to be SMO affable as social media sharing is necessary to attract more traffic to your construction website.</li>
+<li>Tested across various browsers like Opera, Firefox, Chrome, Safari, and others. Hence, you can view your website in any of them without any hassle.</li>
+<li>Faster loading speed of a website is essential to reduce bounce rate. So by making use of cache plugins, you can make loading speed of your website faster.</li>
+<li>Designed to be translation ready with POT file incarnation. Hence, your website can be translated into any other language.</li>
+<li>You can incorporate widgets in various sections as construction theme is designed to be widget friendly.</li>
+<li>You can have an elegant global website with the use of this theme. As it is designed Multilingual friendly with help of WPML, qTranslateX and Polylang plugins.</li>
+<li>High-resolution devices can easily render your construction website without any additional set up.</li>
+<li>Responsive construction WordPress theme is Google mobile friendly and responsive on all devices</li>
+<li>Animated sections on the homepage add to the overall look and feel of the theme</li>
+<li>Theme is speed test checked as well as compatible with major plugins including gallery plugins and Woocommerce</li>
+<li>Comes with a default slider with 10 slide options and 12 animation and pause time option</li>
+<li>Choose your own color to customize the theme the way you want it</li>
+<li>Setting Background, setting fonts, setting images and text are piece of cake with this theme</li>
+<li>Comes integrated with 580+ icons pack</li>
+<li>100+ shortcodes and 650+ Google fonts add to the list of features</li>
+<li>Responsive construction WordPress theme has contact us area and 5 page templates</li>
+<li>Standard pages like blog, about us, 404 page, search page are also included</li>
+<li>Full documentation and easy access to support via support forum and email and Skype is available</li>
+<li>Animated columns which can be used anywhere within the website</li>
+<li>Blog layout options are also availble</li>
+<li>Compatible with latest version of WordPress</li>
+<li>Coded with HTML5 &amp; CSS3</li>
+</ul>
+<p>Construction companies are necessary aspects in this technological era. As with the population growth expansion of societies need to be done. </p>
+<p>And, with the advancement in technologies, new companies are also emerging. All need good infrastructure and this is not plausible without construction agencies. </p>
+<p>In order to maintain competition with others, it is essential to building an online presence. As this is the only way by which you can reach to a larger array of people. It is profitable for you also, as you can upsurge revenue generation by this tremendously. </p>
+<p>Construction WordPress theme is one of the topnotch themes to end your quest for a fully-featured theme for designing your splendid website. </p>
+<p>It is a brew of eye-grabbing appearance and contemporary features. Try this theme and design amazing building of more customers and thereby generate more revenue.</p>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</section>
+
+<div id="footer-wrapper">
+<div class="whatsapp">
+<a href="https://wa.me/9011466663" target="_blank">
+<img src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;78&#039;%20height=&#039;38&#039;%20viewBox=&#039;0%200%2078%2038&#039;%3E%3C/svg%3E" alt="WhatsApp" width="78" height="38" class="perfmatters-lazy" data-src="https://www.sktthemes.in/wp-content/themes/wpthemesindia/images/whatsapp.webp" /><noscript><img src="https://www.sktthemes.in/wp-content/themes/wpthemesindia/images/whatsapp.webp" alt="WhatsApp" width="78" height="38"/></noscript>
+</a>
+</div>
+<div class="footer">
+<div class="row">
+<div class="col-3 box">
+<h3>Quick links</h3>
+<div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-257"><a href="https://www.sktthemes.in/">Home</a></li>
+<li id="menu-item-486" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486"><a href="https://www.sktthemes.in/about-us/">About Us</a></li>
+<li id="menu-item-272" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-272"><a href="https://www.sktthemes.in/blog/">Blog</a></li>
+<li id="menu-item-2111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2111"><a href="https://www.sktthemes.in/support/">Support</a></li>
+<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258"><a href="https://www.sktthemes.in/my-account/">Login</a></li>
+<li id="menu-item-487" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-487"><a href="https://www.sktthemes.in/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-488"><a href="https://www.sktthemes.in/terms-and-conditions/">Terms And Condition</a></li>
+<li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="https://www.sktthemes.in/contact-us/">Contact Us</a></li>
+</ul></div>
+</div>
+<div class="col-6 box footcatlist">
+<h3>Categories</h3>
+<ul>
+<li><a href="https://www.sktthemes.in/product-category/realestate/">Real estate</a></li><li><a href="https://www.sktthemes.in/product-category/author/">Author</a></li><li><a href="https://www.sktthemes.in/product-category/automotive/">Automotive</a></li><li><a href="https://www.sktthemes.in/product-category/bakery/">Bakery</a></li><li><a href="https://www.sktthemes.in/product-category/blog/">Blog</a></li><li><a href="https://www.sktthemes.in/product-category/business/">Business</a></li><li><a href="https://www.sktthemes.in/product-category/church/">Church</a></li><li><a href="https://www.sktthemes.in/product-category/construction/">Construction</a></li><li><a href="https://www.sktthemes.in/product-category/corporate/">Corporate</a></li><li><a href="https://www.sktthemes.in/product-category/dentist/">Dentist</a></li><li><a href="https://www.sktthemes.in/product-category/divi-child/">Divi Child</a></li><li><a href="https://www.sktthemes.in/product-category/ebook/">Ebook</a></li><li><a href="https://www.sktthemes.in/product-category/ecommerce/">Ecommerce</a></li><li><a href="https://www.sktthemes.in/product-category/education/">Education</a></li><li><a href="https://www.sktthemes.in/product-category/fitness/">Fitness</a></li><li><a href="https://www.sktthemes.in/product-category/gutenberg/">Gutenberg</a></li><li><a href="https://www.sktthemes.in/product-category/hotel/">Hotel</a></li><li><a href="https://www.sktthemes.in/product-category/interior/">Interior</a></li><li><a href="https://www.sktthemes.in/product-category/lawyer/">Lawyer</a></li><li><a href="https://www.sktthemes.in/product-category/magazine/">Magazine</a></li><li><a href="https://www.sktthemes.in/product-category/medical/">Medical</a></li><li><a href="https://www.sktthemes.in/product-category/multipurpose/">Multipurpose</a></li><li><a href="https://www.sktthemes.in/product-category/music-artist/">Music Artist</a></li><li><a href="https://www.sktthemes.in/product-category/nature/">Nature</a></li><li><a href="https://www.sktthemes.in/product-category/news/">News</a></li><li><a href="https://www.sktthemes.in/product-category/ngo/">NGO</a></li><li><a href="https://www.sktthemes.in/product-category/non-profit/">Non profit</a></li><li><a href="https://www.sktthemes.in/product-category/one-page/">One Page</a></li><li><a href="https://www.sktthemes.in/product-category/personal/">Personal</a></li><li><a href="https://www.sktthemes.in/product-category/photographer/">Photographer</a></li><li><a href="https://www.sktthemes.in/product-category/wordpress-plugins/">Plugins</a></li><li><a href="https://www.sktthemes.in/product-category/portfolio/">Portfolio</a></li><li><a href="https://www.sktthemes.in/product-category/resort/">Resort</a></li><li><a href="https://www.sktthemes.in/product-category/responsive/">Responsive</a></li><li><a href="https://www.sktthemes.in/product-category/restaurant/">Restaurant</a></li><li><a href="https://www.sktthemes.in/product-category/spa-and-salon/">Spa and Salon</a></li><li><a href="https://www.sktthemes.in/product-category/sport/">Sport</a></li><li><a href="https://www.sktthemes.in/product-category/technology/">Technology</a></li><li><a href="https://www.sktthemes.in/product-category/travel/">Travel</a></li><li><a href="https://www.sktthemes.in/product-category/wedding/">Wedding</a></li> </ul>
+</div>
+<div class="col-3 box">
+<h3>Recent Post</h3>
+<a href="https://www.sktthemes.in/quick-guide-to-wordpress-customizer/" class="footer-postlist">A Quick Guide To The WordPress Customizer Interface</a>
+<a href="https://www.sktthemes.in/drupal-vs-wordpress/" class="footer-postlist">Drupal vs WordPress: Which CMS Is Right For You?</a>
+<a href="https://www.sktthemes.in/cost-of-using-wordpress/" class="footer-postlist">The True Cost of Using WordPress</a>
+<div class="social-icons">
+<a href="https://www.facebook.com/sktthemesindia/" target="_blank"><img src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;8&#039;%20height=&#039;13&#039;%20viewBox=&#039;0%200%208%2013&#039;%3E%3C/svg%3E" alt="Facebook" width="8" height="13" class="perfmatters-lazy" data-src="https://www.sktthemes.in/wp-content/themes/wpthemesindia/images/icon-fb.webp" /><noscript><img src="https://www.sktthemes.in/wp-content/themes/wpthemesindia/images/icon-fb.webp" alt="Facebook" width="8" height="13"/></noscript></a>
+<a href="https://twitter.com/sktthemesindia/" target="_blank"><img src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;14&#039;%20height=&#039;10&#039;%20viewBox=&#039;0%200%2014%2010&#039;%3E%3C/svg%3E" alt="Twitter" width="14" height="10" class="perfmatters-lazy" data-src="https://www.sktthemes.in/wp-content/themes/wpthemesindia/images/icon-twitter.webp" /><noscript><img src="https://www.sktthemes.in/wp-content/themes/wpthemesindia/images/icon-twitter.webp" alt="Twitter" width="14" height="10"/></noscript></a>
+<a href="https://www.instagram.com/sktthemesindia/" target="_blank"><img src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;12&#039;%20height=&#039;12&#039;%20viewBox=&#039;0%200%2012%2012&#039;%3E%3C/svg%3E" alt="Instagram" width="12" height="12" class="perfmatters-lazy" data-src="https://www.sktthemes.in/wp-content/themes/wpthemesindia/images/icon-insta.webp" /><noscript><img src="https://www.sktthemes.in/wp-content/themes/wpthemesindia/images/icon-insta.webp" alt="Instagram" width="12" height="12"/></noscript></a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="gstnote"><p>Please note M/s. Shri Krishna Technologies falls under GST registration exempt limit and hence we aren't providing GST bills to our customers.</p></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="copyright">
+<div class="container">
+<div class="left"><p>&copy; Copyright 2023 M/s. Shri Krishna Technologies</p></div>
+<div class="right"><p>Design by <a href="https://www.sktthemes.org">SKT Web Themes Private Limited</a></p></div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<script type="rocketlazyloadscript" async data-rocket-src="https://www.sktthemes.in/wp-content/uploads/perfmatters/gtagv4.js?id=G-NLTGXWBG3Q"></script><script type="rocketlazyloadscript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "G-NLTGXWBG3Q");</script> <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.sktthemes.in/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.8.2.1" id="jquery-blockui-js" defer></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/www.sktthemes.in\/checkout\/","is_cart":"","cart_redirect_after_add":"yes"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.sktthemes.in/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=8.2.1" id="wc-add-to-cart-js" defer></script>
+<script type="text/javascript" id="wc-single-product-js-extra">
+/* <![CDATA[ */
+var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"no","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"","zoom_options":[],"photoswipe_enabled":"","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":""};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.sktthemes.in/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=8.2.1" id="wc-single-product-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.sktthemes.in/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.8.2.1" id="js-cookie-js" defer></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.sktthemes.in/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=8.2.1" id="woocommerce-js" defer></script>
+<script type="rocketlazyloadscript" id="rocket-browser-checker-js-after" data-rocket-type="text/javascript">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/my-account\/|\/checkout\/|\/cart\/|\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/checkout\/??(.*)|\/cart\/?|\/my-account\/??(.*)|\/wc-api\/v(.*)|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/www.sktthemes.in","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" id="rocket-preload-links-js-after" data-rocket-type="text/javascript">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="text/javascript" id="twentysixteen-script-js-extra">
+/* <![CDATA[ */
+var screenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.sktthemes.in/wp-content/themes/wpthemesindia/js/functions.js?ver=20160816" id="twentysixteen-script-js" defer></script>
+<script id="perfmatters-lazy-load-js-before" type="text/javascript">
+window.lazyLoadOptions={elements_selector:"img[data-src],.perfmatters-lazy,.perfmatters-lazy-css-bg",thresholds:"0px 0px",class_loading:"pmloading",class_loaded:"pmloaded",callback_loaded:function(element){if(element.tagName==="IFRAME"){if(element.classList.contains("pmloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener("LazyLoad::Initialized",function(e){var lazyLoadInstance=e.detail.instance;});
+</script>
+<script type="text/javascript" async src="https://www.sktthemes.in/wp-content/plugins/perfmatters/js/lazyload.min.js?ver=2.1.3" id="perfmatters-lazy-load-js"></script>
+<script type="rocketlazyloadscript">window.addEventListener('DOMContentLoaded', function() {
+jQuery(document).ready(function(){	
+    jQuery('.lang-nav-wrapper').click( function(e) {		
+        e.preventDefault(); // stops link from making page jump to the top
+        e.stopPropagation(); // when you click the button, it stops the page from seeing it as clicking the body too
+        jQuery('#droparea').toggle();
+		jQuery('.triangle').toggle();		
+    });
+    jQuery('#droparea').click( function(e) {
+        e.stopPropagation(); // when you click within the content area, it stops the page from seeing it as clicking the body too
+    });
+    jQuery('body').click( function() {
+        jQuery('#droparea').hide();
+    });
+});
+});</script>
+<script type="text/javascript" id="perfmatters-delayed-scripts-js">const perfmattersDelayTimer = setTimeout(pmLoadDelayedScripts,10*1000);const perfmattersUserInteractions=["keydown","mousemove","wheel","touchmove","touchstart","touchend"];perfmattersUserInteractions.forEach(function(event){window.addEventListener(event,pmTriggerDelayedScripts,{passive:!0})});function pmTriggerDelayedScripts(){pmLoadDelayedScripts();clearTimeout(perfmattersDelayTimer);perfmattersUserInteractions.forEach(function(event){window.removeEventListener(event, pmTriggerDelayedScripts,{passive:!0});});}function pmLoadDelayedScripts(){document.querySelectorAll("script[data-pmdelayedscript]").forEach(function(elem){elem.setAttribute("src",elem.getAttribute("data-pmdelayedscript"));});}</script></body>
+</html>

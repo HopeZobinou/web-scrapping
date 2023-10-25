@@ -1,0 +1,599 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta property="og:image" content="http://html5.pagesuite.com/desktop/stage/image_resize.aspx?w=500&url=https://misc.pagesuite.com/3630c326-c935-42f5-b0da-daebc36b7646/images/e5e9d31e-f10d-402e-9cb6-b9f99919e2ae.jpg" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Israel pounds sealed-off Gaza " />
+        <meta property="pg:description" content="Israel pounds sealed-off Gaza " />
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Israel pounds sealed-off Gaza " />
+    <meta name="twitter:description" content="Israel pounds sealed-off Gaza " />
+        <meta name="twitter:image" content="http://html5.pagesuite.com/desktop/stage/image_resize.aspx?w=500&url=https://misc.pagesuite.com/3630c326-c935-42f5-b0da-daebc36b7646/images/e5e9d31e-f10d-402e-9cb6-b9f99919e2ae.jpg" />
+
+        <!-- Custom CSS -->
+    
+
+        <style>
+            @font-face {
+	            font-family:headFont;
+	            src:url("assets/fonts/Georgia Bold.ttf");
+            }
+            @font-face {
+	            font-family:headDeckFont;
+	            src:url("assets/fonts/Georgia.ttf");
+            }
+            @font-face {
+	            font-family:bodyFont;
+	            src:url("assets/fonts/Georgia.ttf");
+            }
+
+            p {
+                margin:0px;
+            }
+
+            .verticalscrollfixedwidth .x-scroll-scroller-vertical {
+                max-width:100% !important;
+            }
+
+            .loading {
+                background-image: url(../images/articleloading.gif);
+                background-position:center;
+                background-repeat:no-repeat;
+            }
+      
+            .container {
+                height:100%;
+            }
+
+            .content {
+	            margin:auto;
+	            /*height:calc(100% - 90px);*/
+                height:100%;
+	            width:calc(100% - 10px);
+            }
+        
+            .controls {
+	            height:36px;
+                position:relative;
+                text-align:right;
+                display:block !important;
+            }
+        
+            .articleContentHtml5 {
+	            height:calc(100% - 41px);
+	            overflow-y:auto;
+	            -webkit-overflow-scrolling: touch;
+            }
+        
+            .textSizeHtml5, .sharingHtml5 {
+                display:inline-block;
+                vertical-align:top;
+            }
+            .clearFloat {
+	            height:0px;
+	            clear:both;
+            }
+            .navBar {
+                height:40px;
+                line-height:40px;
+                padding:0 15px 0 15px;
+                text-align:center;
+                position:relative;
+                background-color:#d0d0d0;
+                font-family:Arial;
+            }
+            .imageControls {
+                height:40px;
+                line-height:40px;
+                padding:0 15px 0 15px;
+                text-align:center;
+                position:relative;
+                background-color:#222222;
+                font-family:Arial;
+            }
+            .imageControls a {
+                text-decoration:none;
+                font-family:Arial;
+                color:#4591B8;
+            }
+            .previousImage {
+                position:absolute;
+                left:5px;
+                padding-left:28px;
+                font-size:13px;
+            }
+            .imgPreviousImage {
+                height:24px;
+                width:24px;
+                position:absolute;
+                top:8px;
+                left:0px;
+            }
+            .imageCount {
+                width:140px;
+                text-align:center;
+                position:absolute;
+                left:calc(50% - 70px);
+                font-size:15px;
+	            color:#ffffff;
+            }
+            .nextImage {
+                position:absolute;
+                right:5px;
+                padding-right:28px;
+                font-size:13px;
+            }
+            .imgNextImage {
+                height:24px;
+                width:24px;
+                position:absolute;
+                top:8px;
+                right:0px;
+            }
+
+            .contentHead {
+	            font-weight:bold;
+	            font-family:headFont;
+                margin: 0 0 25px 0;
+            }
+            .contentHead p {
+                display:inline-block;
+                margin-right:8px;
+            }
+
+            .clHeadline {
+	            font-weight:bold;
+	            font-family:headFont;
+                margin: 0 0 25px 0;
+            }
+            .clHeadline p {
+                display:inline-block;
+                margin-right:8px;
+            }
+
+            .contentDeck {
+	            font-family:headDeckFont;
+                margin:25px 0 25px 0;
+            }
+            .contentDeck p {
+                display:inline;
+            }
+
+            .clSubHeadline {
+	            font-family:headDeckFont;
+                margin:25px 0 25px 0;
+            }
+            .clSubHeadline p {
+                display:inline;
+            }
+
+            .contentImages {
+	            background-color:#333333;
+            }
+            .contentImage {
+                text-align:center;
+            }
+            .contentImage img {
+                max-width:100%;
+            }
+            .contentCaption {
+	            text-align:left;
+                color:#ffffff;
+	            padding: 5px 8px 5px 8px;
+            }
+            .contentCaption p {
+                display:inline;
+            }
+
+             .clImageCaption {
+	            text-align:left;
+                color:#ffffff;
+	            padding: 5px 8px 5px 8px;
+            }
+            .clImageCaption p {
+                display:inline;
+            }
+
+            .contentByline {
+	            font-family:headFont;
+                margin:10px 0 10px 0;
+            }
+            .contentByline p {
+                display:inline-block;
+                padding-right:8px;
+            }
+            .contentByline p:last-child {
+                font-family:bodyFont;
+            }
+
+            .clByline {
+	            font-family:headFont;
+                margin:10px 0 10px 0;
+            }
+            .clByline p {
+                display:inline-block;
+                padding-right:8px;
+            }
+            .clByline p:last-child {
+                font-family:bodyFont;
+            }
+
+            .contentBody {
+	            font-family:bodyFont;
+                word-wrap: break-word;
+            }
+
+            .contentBody p {
+                margin-top:15px;
+                margin-bottom:15px;
+            }
+
+            .clBody {
+	            font-family:bodyFont;
+                word-wrap: break-word;
+            }
+
+            .clBody p {
+                margin-top:15px;
+                margin-bottom:15px;
+            }
+
+            .font35 {
+                font-size:39px;
+            }
+            .font25 {
+                font-size:29px;
+            }
+            .font15 {
+                font-size:19px;
+            }
+            .font13 {
+                font-size:17px;
+            }
+
+            .ad {
+                display:none;
+            }
+
+            .stLarge {
+	            background-repeat:no-repeat !important;
+	            background-position:center !important;
+            }
+            .st_facebook_large .stLarge {
+	            background:url("facebook-ic.png") !important;
+	            background-size:contain !important;
+            }
+            .st_twitter_large .stLarge {
+	            background:url("twitter-ic.png") !important;
+	            background-size:contain !important;
+            }
+            .st_linkedin_large .stLarge {
+	            background:url("linkedin-ic.png") !important;
+	            background-size:contain !important;
+            }
+            .st_pinterest_large .stLarge {
+	            background:url("pinterest-ic.png") !important;
+	            background-size:contain !important;
+            }
+            .st_googleplus_large .stLarge {
+	            background:url("google-ic.png") !important;
+	            background-size:contain !important;
+            }
+            .st_email_large .stLarge {
+	            background:url("email-ic.png") !important;
+	            background-size:contain !important;
+            }   
+
+            .contentBody a {
+              text-decoration: none;
+              font-family: Arial;
+              color: #4591B8;
+            }
+
+            table.contentBody {
+                display:none;
+            }
+
+            .printImage {
+              display: none;
+              height: 100%;
+              width: auto;
+            }
+
+             @media print {
+                 .topBar {
+                     max-height:0px;
+                 }
+
+                 .controls{
+                     display:none !important;
+                 }
+
+                 .bottomNav {
+                     max-height:0px;
+                 }
+
+                 .bottomBar {
+                     max-height:0px;
+                 }
+
+                .x-scroll-scroller-vertical.x-scroll-scroller {
+              height: 100% !important;
+              -webkit-transform: translate3d(0px, -0px, 0px) !important;
+            }
+
+
+
+               .printImage {
+                display:block;
+                height:100%;
+                margin:auto;
+               }
+
+
+
+               .outerDiv {
+                display:none;
+               }
+            }
+        </style>
+        <script type="text/javascript" src="https://edition.pagesuite.com/tribune/jquery-1.11.3.min.js"></script>
+        <script id="resizeScript" type="text/javascript">
+            function increaseText() { resizeText(4); }
+            function decreaseText() { resizeText(-4); }
+            function resizeText(multiplier) {
+                var font35Size = 39;
+                var font25Size = 29;
+                var font15Size = 19;
+                var font13Size = 17;
+
+                var font35UpperLimit = 79;
+                var font25UpperLimit = 69;
+                var font15UpperLimit = 57;
+                var font13UpperLimit = 51;
+
+                var font35LowerLimit = 31;
+                var font25LowerLimit = 21;
+                var font15LowerLimit = 11;
+                var font13LowerLimit = 9;
+
+                var cols = document.getElementsByClassName("font35");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        font35Size = parseFloat(font35Size) + 4 + (multiplier * 0.2);
+                    } else {
+                        font35Size = parseFloat(cols[i].style.fontSize) + (multiplier * 0.2);
+                    }
+                    if (font35Size > font35UpperLimit) {
+                        font35Size = font35UpperLimit;
+                    }
+                    else if (font35Size < font35LowerLimit) {
+                        font35Size = font35LowerLimit;
+                    }
+                    cols[i].style.fontSize = font35Size + "px";
+                    //localStorage.setItem("font35" + publicationguid, font35Size);
+                }
+
+                cols = document.getElementsByClassName("font25");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        font25Size = 29 + (multiplier * 0.2);
+                    } else {
+                        font25Size = parseFloat(cols[i].style.fontSize) + (multiplier * 0.2);
+                    }
+                    if (font25Size > font25UpperLimit) {
+                        font25Size = font25UpperLimit;
+                    }
+                    else if (font25Size < font25LowerLimit) {
+                        font25Size = font25LowerLimit;
+                    }
+                    cols[i].style.fontSize = font25Size + "px";
+                    //localStorage.setItem("font25" + publicationguid, font25Size);
+                }
+
+                cols = document.getElementsByClassName("font15");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        font15Size = 19 + (multiplier * 0.2);
+                    } else {
+                        font15Size = parseFloat(cols[i].style.fontSize) + (multiplier * 0.2);
+                    }
+                    if (font15Size > font15UpperLimit) {
+                        font15Size = font15UpperLimit;
+                    }
+                    else if (font15Size < font15LowerLimit) {
+                        font15Size = font15LowerLimit;
+                    }
+                    cols[i].style.fontSize = font15Size + "px";
+                    //localStorage.setItem("font15" + publicationguid, font15Size);
+                }
+
+                cols = document.getElementsByClassName("font13");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        font13Size = 17 + (multiplier * 0.2);
+                    } else {
+                        font13Size = parseFloat(cols[i].style.fontSize) + (multiplier * 0.2);
+                    }
+                    if (font13Size > font13UpperLimit) {
+                        font13Size = font13UpperLimit;
+                    }
+                    else if (font13Size < font13LowerLimit) {
+                        font13Size = font13LowerLimit;
+                    }
+                    cols[i].style.fontSize = font13Size + "px";
+                    //localStorage.setItem("font13" + publicationguid, font13Size);
+                }
+
+                /*var cols = document.getElementsByClassName("font35");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        cols[i].style.fontSize = (39 + step) + "px";
+                    } else {
+                        cols[i].style.fontSize = (parseFloat(cols[i].style.fontSize) + step) + "px";
+                    }
+                }
+                cols = document.getElementsByClassName("font25");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        cols[i].style.fontSize = (29 + step) + "px";
+                    } else {
+                        cols[i].style.fontSize = (parseFloat(cols[i].style.fontSize) + step) + "px";
+                    }
+                }
+                cols = document.getElementsByClassName("font15");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        cols[i].style.fontSize = (19 + step) + "px";
+                    } else {
+                        cols[i].style.fontSize = (parseFloat(cols[i].style.fontSize) + step) + "px";
+                    }
+                }
+                cols = document.getElementsByClassName("font13");
+                for (i = 0; i < cols.length; i++) {
+                    if (cols[i].style.fontSize == "") {
+                        cols[i].style.fontSize = (17 + step) + "px";
+                    } else {
+                        cols[i].style.fontSize = (parseFloat(cols[i].style.fontSize) + step) + "px";
+                    }
+                }*/
+
+                if (document.getElementsByClassName("font35")[0] != null) {
+                    var currentStep = parseFloat(document.getElementsByClassName("font35")[0].style.fontSize) - 39;
+                    document.cookie = "articlefontstep=" + currentStep + "; expires=Wed, 1 Jan 2020 12:00:00 UTC";
+                }
+            }
+            function runArticleFontSetup() {
+                var myCookie = getCookie("articlefontstep");
+
+                if (myCookie != null) {
+                    resizeText(parseFloat(myCookie));
+                }
+            }
+            function getCookie(name) {
+                var dc = document.cookie;
+                var prefix = name + "=";
+                var begin = dc.indexOf("; " + prefix);
+                if (begin == -1) {
+                    begin = dc.indexOf(prefix);
+                    if (begin != 0) {
+                        return null;
+                    } else {
+                        var end = document.cookie.indexOf(";", begin);
+                        if (end == -1) {
+                            end = dc.length;
+                        }
+                    }
+                }
+                else {
+                    begin += 2;
+                    var end = document.cookie.indexOf(";", begin);
+                    if (end == -1) {
+                        end = dc.length;
+                    }
+                }
+                return unescape(dc.substring(begin + prefix.length, end));
+            }
+    </script>
+        <script type="text/javascript">
+            var currentImageCount = 1;
+            var totalImages = 1;
+            $(document).ready(function () {
+                runArticleFontSetup();
+
+                runGallerySetup();
+            });
+            function runGallerySetup() {
+                if ($(".contentImage").size() > 1) {
+                    totalImages = $(".contentImage").size();
+                    if (totalImages > 1) {
+                        $(".contentImage:gt(0)").hide();
+                        $(".previousImage").hide();
+                        updateCount();
+                    } else if (totalImages == 1) {
+                        $(".imageControls").hide();
+                    }
+
+                    $(".nextImage").click(function () {
+                        var currentItem = $(".contentImage:visible");
+                        var nextItem = $(".contentImage:visible").next();
+                        currentItem.hide();
+                        currentImageCount++;
+                        updateCount();
+                        nextItem.fadeIn();
+
+                        $(".previousImage").show();
+                        if (nextItem.is(".contentImage:last")) {
+                            $(".nextImage").hide();
+                        }
+                    });
+
+                    $(".previousImage").click(function () {
+                        var currentItem = $(".contentImage:visible");
+                        var prevItem = $(".contentImage:visible").prev();
+                        currentItem.hide();
+                        currentImageCount--;
+                        updateCount();
+                        prevItem.fadeIn();
+
+                        $(".nextImage").show();
+                        if (prevItem.is(".contentImage:first")) {
+                            $(".previousImage").hide();
+                        }
+                    });
+                } else {
+                    $(".imageControls").hide();
+                }
+            }
+            function updateCount() {
+                var count = "Image " + currentImageCount.toString() + " of " + totalImages.toString();
+                $(".imageCount").text(count);
+            }
+	</script>
+    </head>
+    <body>
+        
+
+<div class="container">
+	<div class="content">
+		<div class="controls">
+			<div class="sharingFlash">
+				<span class='st_email_large' displayText='Email'></span>
+				<span class='st_facebook_large' displayText='Facebook'></span>
+				<span class='st_twitter_large' displayText='Tweet'></span>
+			</div>
+            <div class="textSizeFlash">
+                <img style="cursor:hand;cursor:pointer;width:32px;height:32px;" src="http://digitaledition.courant.com/tribune/print-icon.png" alt="Print" onClick="window.print()" />
+				&nbsp;&nbsp;
+				<img style="cursor:hand;cursor:pointer;width:32px;height:32px;" src="assets/article view/Text_Increase_Icon.png" onClick="increaseText()"/>
+				&nbsp;&nbsp;
+				<img style="cursor:hand;cursor:pointer;width:32px;height:32px;" src="assets/article view/Text_Decrease_Icon.png" onClick="decreaseText()"/>
+			</div>
+			<div class="clearFloat"><!-- --></div>
+		</div>
+		<div class="articleContent">
+			
+			<div class="contentHead font35">
+				<p xmlns:cci="urn:schemas-ccieurope.com">Israel pounds sealed-off Gaza</p>
+			</div>
+			<div class="contentDeck font25"><p xmlns:cci="urn:schemas-ccieurope.com">Palestinians scramble for safety; many are trapped in rubble. Biden delivers a warning to militants.</p></div>
+            <div class="contentImages"><div class="contentImage"><img src="https://misc.pagesuite.com/3630c326-c935-42f5-b0da-daebc36b7646/images/e5e9d31e-f10d-402e-9cb6-b9f99919e2ae.jpg" alt="" /><div class="contentCaption font13">CLOCKWISE FROM top left, Israel’s Iron Dome missile defense system intercepts Hamas rockets over Ashkelon near the Gaza border. A Palestinian girl cries during the funeral for a victim of an Israeli airstrike in Khan Yunis, Gaza Strip. Israeli soldiers carry the body of a person killed by militants in the village of Kfar Aza. (Erik Marmor Associated Press)</div></div><div class="contentImage"><img src="https://misc.pagesuite.com/3630c326-c935-42f5-b0da-daebc36b7646/images/b26f26c7-2c1d-4ad2-8db7-a21e217be489.jpg" alt="" /><div class="contentCaption font13">Marcus Yam Los Angeles Times</div></div><div class="contentImage"><img src="https://misc.pagesuite.com/3630c326-c935-42f5-b0da-daebc36b7646/images/8272f032-cc67-4bc9-bb21-9877f8b2d6b3.jpg" alt="" /><div class="contentCaption font13">Hatem Ali Associated Press</div></div><div class="imageControls"><a href="javascript:void(0)" class="previousImage">PREVIOUS IMAGE<img class="imgPreviousImage" src="http://enewspaper.sandiegouniontribune.com/tribune/left-image-arrow.png" alt="" /></a><div class="imageCount">Image</div><a href="javascript:void(0)" class="nextImage">NEXT IMAGE<img class="imgNextImage" src="http://enewspaper.sandiegouniontribune.com/tribune/right-image-arrow.png" alt="" /></a></div></div>
+			<div class="contentByline font15"><p xmlns:cci="urn:schemas-ccieurope.com"><byline_name name="byline_name" class="character" displayname="byline_name">By Josef Federman </byline_name></p><p xmlns:cci="urn:schemas-ccieurope.com"><byline_name name="byline_name" class="character" displayname="byline_name">and Issam Adwan</byline_name></p></div>
+			<div class="contentBody font15">
+				<p xmlns:cci="urn:schemas-ccieurope.com"><dateline name="dateline" class="character" displayname="dateline">JERUSALEM — </dateline>Israeli warplanes hammered the Gaza Strip neighborhood by neighborhood Tuesday, reducing buildings to rubble and sending people scrambling to find safety in the tiny, sealed-off territory now suffering severe retaliation for the deadly weekend attack by Hamas militants.</p><p xmlns:cci="urn:schemas-ccieurope.com">Humanitarian groups pleaded for the creation of corridors to get aid into Gaza and warned that hospitals overwhelmed with wounded people were running out of supplies. Israel has stopped entry of food, fuel and medicines into Gaza, and the sole remaining access from Egypt shut down Tuesday after airstrikes hit near the border crossing.</p><p xmlns:cci="urn:schemas-ccieurope.com">The war, which has claimed at least 1,900 lives on both sides, is expected to escalate. The weekend attack that Hamas said was retribution for worsening conditions for Palestinians under Israeli occupation has fired Israel’s determination to crush the group’s hold in Gaza. New exchanges of fire over Israel’s northern borders with militants in Lebanon and Syria on Tuesday pointed to the risk of an expanded regional conflict.</p><p xmlns:cci="urn:schemas-ccieurope.com">President Biden, who spoke earlier in the day with Prime Minister Benjamin Netanyahu, said “there is no justification for terrorism.”</p><p xmlns:cci="urn:schemas-ccieurope.com">In a televised address, Biden added an apparent warning to Hezbollah, saying, “To any country, any organization, anyone thinking of taking advantage of the situation, I have one word: Don’t.</p><p xmlns:cci="urn:schemas-ccieurope.com">“Our hearts may be broken, but our resolve is clear,” said Biden, who compared the brutality of the Hamas militants to that of the Islamic State terrorist group. “Let there be no doubt. The United States has Israel’s back. We’ll make sure the Jewish and democratic state of Israel can defend itself today, tomorrow as we always have.”</p><p xmlns:cci="urn:schemas-ccieurope.com">Hamas militants <a name="web" class="character" href="https://apnews.com/article/israel-palestinians-gaza-hamas-rockets-airstrikes-tel-aviv-11fb98655c256d54ecb5329284fc37d2" displayname="web" target="_blank">stormed into Israel</a> on Saturday morning, killing hundreds of residents in homes and streets near the Gaza border and bringing gun battles to Israeli towns for the first time in decades. Hamas and other militant groups in Gaza hold about 150 soldiers and civilians hostage, according to Israel.</p><p xmlns:cci="urn:schemas-ccieurope.com">Israel stepped up its offensive Tuesday, expanding the mobilization of reservists to 360,000. Israel’s military said it had regained effective control over areas Hamas attacked in its south, and of the Gaza border.</p><p xmlns:cci="urn:schemas-ccieurope.com">A looming question is whether Israel will launch a ground assault into Gaza — a 25-mile strip of land wedged among Israel, Egypt and the Mediterranean Sea that is home to 2.3 million people and has been governed by Hamas since 2007.</p><p xmlns:cci="urn:schemas-ccieurope.com">Rescue officials in Gaza said “large numbers” of people were still trapped under the remnants of leveled buildings, with rescue equipment and ambulances unable to reach the area.</p><p xmlns:cci="urn:schemas-ccieurope.com">On Tuesday, a large part of Gaza City’s Rimal neighborhood was reduced to rubble after hours of airstrikes the night before. Residents found buildings torn in half or demolished to mounds of concrete and rebar. Cars were flattened and trees burned out on residential streets transformed into moonscapes.</p><p xmlns:cci="urn:schemas-ccieurope.com">Palestinian Civil Defense forces pulled Abdullah Musleh out of his basement together with 30 others after their apartment building was flattened.</p><p xmlns:cci="urn:schemas-ccieurope.com">“I sell toys, not missiles,’’ the 46-year-old said, weeping. “I want to leave Gaza. Why do I have to stay here? I lost my home and my job.”</p><p xmlns:cci="urn:schemas-ccieurope.com">The Israeli military said it struck hundreds of targets in Rimal, an upscale district home to ministries of the Hamas-run government, universities, media organizations and aid agency offices.</p><p xmlns:cci="urn:schemas-ccieurope.com">In a new tactic, Israel is warning civilians to evacuate neighborhood after neighborhood, and then inflicting devastation, in what could be a prelude to a ground offensive. On Tuesday, the military told residents of the nearby Daraj neighborhood to evacuate, and soon after explosions rocked it and other areas, continuing into the night. One blast hit Gaza City’s seaport, setting fishing boats aflame.</p><p xmlns:cci="urn:schemas-ccieurope.com">“There is no safe place in Gaza right now. You see decent people being killed every day,” Hasan Jabar, a Gaza journalist, said after three Palestinian journalists were killed in the Rimal bombardment. “I am genuinely afraid for my life.”</p><p xmlns:cci="urn:schemas-ccieurope.com">Tuesday afternoon, Hamas fired barrages of rockets toward the southern Israeli city of Ashkelon and Tel Aviv. There were no immediate reports of casualties. On Tuesday night, a group of militants entered an industrial zone in Ashkelon, sparking a gun battle with Israeli troops, the military said. Three militants were killed, and troops were searching the area for others.</p><p xmlns:cci="urn:schemas-ccieurope.com">Israel’s new tactics could point to its new objective.</p><p xmlns:cci="urn:schemas-ccieurope.com">Four rounds of Israel-Hamas fighting between 2008 and 2021 all ended inconclusively, with Hamas battered but still in control. This time, Israel’s government is under intense pressure from the public to topple Hamas, a goal considered unachievable in the past because it would require a reoccupation of the Gaza Strip, at least temporarily.</p><p xmlns:cci="urn:schemas-ccieurope.com">“The objective is for this war to end very differently from all of the previous rounds. There has to be a clear victory,” said Chuck Freilich, a former deputy national security advisor in Israel. “Whatever has to be done to fundamentally change the situation will have to be done,” he said.</p><p xmlns:cci="urn:schemas-ccieurope.com">The devastation also sharpened questions about Hamas’ strategy and objectives. Hamas officials have said they planned for all possibilities, including a punishing Israeli escalation. Desperation has grown among Palestinians, many of whom see nothing to lose under <a name="web" class="character" href="https://apnews.com/article/israel-palestine-settler-bedouin-displacement-violence-un-108e11712310b5ea099dbded7be8effb" displayname="web" target="_blank">unending</a> Israeli control and <a name="web" class="character" href="https://apnews.com/article/israel-palestinians-settlements-west-bank-biden-49c4788ffc5f5ee41d5c48365ac5395b" displayname="web" target="_blank">increasing</a> settlements in the West Bank, a 16-year-long blockade in Gaza and what they see as the world’s apathy.</p><p xmlns:cci="urn:schemas-ccieurope.com">Hamas may have been counting on the fight to spread to the West Bank and possibly for Lebanon’s Hezbollah to open a front in the north. Days of clashes between rock-throwing Palestinians and Israeli forces in the West Bank have left 15 Palestinians dead, but Israel has clamped down on the territory, preventing movement between communities. The violence also spread into East Jerusalem, where Israeli police said they killed two Palestinians who hurled stones at police Tuesday.</p><p xmlns:cci="urn:schemas-ccieurope.com">Brief exchanges of fire across Israel’s northern border have taken place nearly daily. Palestinian militants fired rockets into northern Israel from Lebanon and from Syria on Tuesday, each bringing Israeli artillery and mortar fire in return. But so far they have not escalated.</p><p xmlns:cci="urn:schemas-ccieurope.com">In hopes of blunting the bombardment in Gaza, Hamas has threatened to kill one Israeli civilian captive any time Israel targets civilians in their homes in Gaza “without prior warning.”</p><p xmlns:cci="urn:schemas-ccieurope.com">The militants’ attack stunned Israel with a death toll unseen since the 1973 war with Egypt and Syria — and those deaths happened over a longer period. It brought horrific scenes of Hamas militants gunning down civilians in their homes, on streets and at a mass outdoor music festival, while dragging men, women and children into captivity.</p><p xmlns:cci="urn:schemas-ccieurope.com">The Israeli military said more than 1,000 people, including 155 soldiers, have been killed in Israel. In Gaza, 900 people have been killed, including 260 children and 230 women, according to authorities there; Israel says hundreds of Hamas fighters are among them. Thousands have been wounded on both sides.</p><p xmlns:cci="urn:schemas-ccieurope.com"> Biden coupled his unflinching defense for Israel with only a glancing reference to the suffering that innocent Palestinians are enduring from Israel’s barrage of retaliatory fire on the Gaza Strip, where the Hamas attack was launched. That hard-line approach could prove more difficult to sustain if, as expected, the humanitarian crisis for the Palestinians worsens as Israel expands its military operation.</p><p xmlns:cci="urn:schemas-ccieurope.com">Biden took note of the impact on Americans as well. He said the number of U.S. citizens confirmed to have been killed in the fighting has reached 14, up from 11. U.S. officials said some 20 Americans remain unaccounted for.</p><p xmlns:cci="urn:schemas-ccieurope.com">“There’s no justification for terrorism. There’s no excuse,” Biden said. </p><p xmlns:cci="urn:schemas-ccieurope.com">Hamas responded to Biden’s remarks with a statement defending its actions, saying it was fighting against an occupation and defending Palestinians’ right to self-determination. Hamas called on Biden to “move away from the policy of double standards” when it comes to Israel.</p><p xmlns:cci="urn:schemas-ccieurope.com">The State Department announced that Secretary of State Antony J. Blinken would travel in the coming days to Israel to deliver a message of solidarity and support.</p><p xmlns:cci="urn:schemas-ccieurope.com"><tagline_credit name="tagline_credit" class="character" displayname="tagline_credit">Federman and Adwan write for the Associated Press. Federman reported from Jerusalem and Adwan from Rafah, Gaza Strip. AP writers Isabel DeBre, Amy Teibel and Julia Frankel in Jerusalem; Wafaa Shurafa in Gaza City; Tia Goldenberg in Tel Aviv; Bassem Mroue and Kareem Chehayeb in Beirut; Samy Magdy in Cairo; and Amir Vahdat in Tehran contributed to this report.</tagline_credit></p>
+			</div>
+		</div>
+        
+	</div>
+	<div class="ad">
+		<a href="http://www.latimes.com/">
+			<img src="blue-sky-banner-ad2.jpg" style="width:728px;" />
+		</a>
+	</div>
+</div>
+
+
+    </body>
+</html>

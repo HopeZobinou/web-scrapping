@@ -1,0 +1,2459 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v21.4 (Yoast SEO v21.4) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Improve WordPress security by fixing exposed files | Melapress</title>
+	<meta name="description" content="Learn how to improve your WordPress security and avoid data leakage by fixing unreferenced and publicly exposed files" />
+	<link rel="canonical" href="https://melapress.com/exposed-backup-unreferenced-files-wordpress/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Fix publicly exposed WordPress files" />
+	<meta property="og:description" content="Learn how to improve your WordPress security and avoid data leakage by fixing unreferenced and publicly exposed files" />
+	<meta property="og:url" content="https://melapress.com/exposed-backup-unreferenced-files-wordpress/" />
+	<meta property="og:site_name" content="Melapress" />
+	<meta property="article:publisher" content="https://www.facebook.com/wpwhitesecurity/" />
+	<meta property="article:published_time" content="2023-10-11T13:30:00+00:00" />
+	<meta property="article:modified_time" content="2023-10-11T13:30:02+00:00" />
+	<meta property="og:image" content="https://melapress.com/wp-content/uploads/2021/08/featured-exposed-backup-and-unreferenced-files.jpeg" />
+	<meta property="og:image:width" content="768" />
+	<meta property="og:image:height" content="404" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Nitish Kumar" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@__melapress__" />
+	<meta name="twitter:site" content="@__melapress__" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Nitish Kumar" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="15 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://melapress.com/exposed-backup-unreferenced-files-wordpress/#article","isPartOf":{"@id":"https://melapress.com/exposed-backup-unreferenced-files-wordpress/"},"author":{"name":"Nitish Kumar","@id":"https://melapress.com/#/schema/person/6c2bddf90aba7719ab9e0409366f8985"},"headline":"Fix publicly exposed WordPress files","datePublished":"2023-10-11T13:30:00+00:00","dateModified":"2023-10-11T13:30:02+00:00","mainEntityOfPage":{"@id":"https://melapress.com/exposed-backup-unreferenced-files-wordpress/"},"wordCount":3350,"publisher":{"@id":"https://melapress.com/#organization"},"image":{"@id":"https://melapress.com/exposed-backup-unreferenced-files-wordpress/#primaryimage"},"thumbnailUrl":"https://melapress.com/wp-content/uploads/2021/08/featured-exposed-backup-and-unreferenced-files.jpeg","articleSection":["WordPress Security"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://melapress.com/exposed-backup-unreferenced-files-wordpress/","url":"https://melapress.com/exposed-backup-unreferenced-files-wordpress/","name":"Improve WordPress security by fixing exposed files | Melapress","isPartOf":{"@id":"https://melapress.com/#website"},"primaryImageOfPage":{"@id":"https://melapress.com/exposed-backup-unreferenced-files-wordpress/#primaryimage"},"image":{"@id":"https://melapress.com/exposed-backup-unreferenced-files-wordpress/#primaryimage"},"thumbnailUrl":"https://melapress.com/wp-content/uploads/2021/08/featured-exposed-backup-and-unreferenced-files.jpeg","datePublished":"2023-10-11T13:30:00+00:00","dateModified":"2023-10-11T13:30:02+00:00","description":"Learn how to improve your WordPress security and avoid data leakage by fixing unreferenced and publicly exposed files","breadcrumb":{"@id":"https://melapress.com/exposed-backup-unreferenced-files-wordpress/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://melapress.com/exposed-backup-unreferenced-files-wordpress/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://melapress.com/exposed-backup-unreferenced-files-wordpress/#primaryimage","url":"https://melapress.com/wp-content/uploads/2021/08/featured-exposed-backup-and-unreferenced-files.jpeg","contentUrl":"https://melapress.com/wp-content/uploads/2021/08/featured-exposed-backup-and-unreferenced-files.jpeg","width":768,"height":404,"caption":"Exposed backup and unreferenced files"},{"@type":"BreadcrumbList","@id":"https://melapress.com/exposed-backup-unreferenced-files-wordpress/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://melapress.com/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://melapress.com/blog/"},{"@type":"ListItem","position":3,"name":"WordPress Security","item":"https://melapress.com/wordpress-security-category/"},{"@type":"ListItem","position":4,"name":"Fix publicly exposed WordPress files"}]},{"@type":"WebSite","@id":"https://melapress.com/#website","url":"https://melapress.com/","name":"Melapress - specialized management & security WordPress plugins","description":"","publisher":{"@id":"https://melapress.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://melapress.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://melapress.com/#organization","name":"Melapress","url":"https://melapress.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://melapress.com/#/schema/logo/image/","url":"https://melapress.com/wp-content/uploads/2023/05/cropped-melapress-bookmark-logo.png","contentUrl":"https://melapress.com/wp-content/uploads/2023/05/cropped-melapress-bookmark-logo.png","width":512,"height":512,"caption":"Melapress"},"image":{"@id":"https://melapress.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/wpwhitesecurity/","https://twitter.com/__melapress__","https://www.linkedin.com/company/melapress/","https://www.instagram.com/__melapress__/"]},{"@type":"Person","@id":"https://melapress.com/#/schema/person/6c2bddf90aba7719ab9e0409366f8985","name":"Nitish Kumar","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://melapress.com/#/schema/person/image/","url":"https://melapress.com/wp-content/uploads/2023/09/nitish-kumar-96x96.jpg","contentUrl":"https://melapress.com/wp-content/uploads/2023/09/nitish-kumar-96x96.jpg","caption":"Nitish Kumar"},"description":"Nitish is a freelance web developer and technical writer with experience in various web development technologies, including WordPress. He specializes in developing eCommerce websites and likes to spend his free time working on personal projects or going out with friends.","url":"https://melapress.com/author/nitish/"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Melapress &raquo; Feed" href="https://melapress.com/feed/" />
+<script>function cpLoadCSS(e,t,n){"use strict";var i=window.document.createElement("link"),o=t||window.document.getElementsByTagName("script")[0];return i.rel="stylesheet",i.href=e,i.media="only x",o.parentNode.insertBefore(i,o),setTimeout(function(){i.media=n||"all"}),i}</script><style>.cp-popup-container .cpro-overlay,.cp-popup-container .cp-popup-wrapper{opacity:0;visibility:hidden;display:none}</style><link rel='stylesheet' id='wp-block-library-css' href='https://melapress.com/wp-includes/css/dist/block-library/style.min.css?ver=6.3.2' media='all' />
+<style id='wp-block-library-inline-css'>
+.wp-block-button.is-style-brand-secondary .wp-block-button__link {
+	background-color: var(--wp--section--color--lightalt) !important;
+	color: var(--wp--section--color--normal) !important;
+}
+.wp-block-button.is-style-brand-secondary .wp-block-button__link:after {
+	background-color: var(--wp--section--color--normal) !important;
+}
+.wp-block-button.is-style-brand-transparent .wp-block-button__link {
+	background: transparent !important;
+	color: var(--wp--preset--color--brand-1) !important;
+	font-family: "Quicksand", sans-serif;
+	font-weight: 700;
+	text-decoration: underline;
+	text-decoration-color: var(--wp--preset--color--lightalt);
+	text-decoration-thickness: .125rem;
+	text-underline-offset: 1.5px;
+	text-decoration-skip-ink: auto;
+	transition: text-decoration-color 0.35s ease-in-out;
+}
+.wp-block-button.is-style-brand-transparent .wp-block-button__link:focus,
+.wp-block-button.is-style-brand-transparent .wp-block-button__link:hover {
+	text-decoration-color: var(--wp--preset--color--brand-1);
+}
+.wp-block-button.is-style-brand-transparent .wp-block-button__link:focus:after,
+.wp-block-button.is-style-brand-transparent .wp-block-button__link:hover:after {
+	display: none !important;
+}
+.wp-block-columns.is-style-no-gutter {
+	gap: 0 !important;
+}
+@media (max-width: 780.95px) {
+				.wp-block-column.is-style-mobile-first {
+					order: -1;
+				}
+			}
+@media (max-width: 780.95px) {
+				.wp-block-column.is-style-mobile-last {
+					order: 999;
+				}
+			}
+@media (max-width: 780.95px) {
+				.wp-block-column.is-style-mobile-hidden {
+					display: none;
+				}
+			}
+.wp-block-cover.is-style-contain-img .wp-block-cover__image-background, 
+.wp-block-cover.is-style-contain-img video.wp-block-cover__video-background, 
+.wp-block-cover.is-style-contain-img .wp-block-cover-image .wp-block-cover__image-background, 
+.wp-block-cover.is-style-contain-img .wp-block-cover-image video.wp-block-cover__video-background {
+	object-fit: contain !important;
+}
+.wp-block-group.is-style-h-100 {
+	height: 100%;
+}
+.wp-block-group.is-style-card {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid #a0a7b9;
+	border-radius: var(--wp--preset--spacing--40);
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
+	position: relative;
+	overflow: hidden;
+	padding-top: var(--wp--preset--spacing--30);
+	padding-bottom: var(--wp--preset--spacing--30);
+}
+.wp-block-group.is-style-card:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: var(--wp--preset--spacing--30);
+	content: "";
+	background: #fff;
+}
+.wp-block-group.is-style-card > * {
+	position: relative;
+	z-index: 10;
+}
+.wp-block-group.is-style-h-100-vertical-center {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.wp-block-group.is-style-mp-drop-shadow.has-background {
+	border-radius: var(--wp--preset--spacing--40);
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
+}
+.wp-block-group.is-style-mp-gradient-background {
+	position: relative;
+	z-index: 10;
+}
+.wp-block-group.has-background.is-style-mp-gradient-background {
+	background: none !important;
+}
+.wp-block-group.is-style-mp-gradient-background::before {
+	position: absolute;
+	display: block;
+	content: "";
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	opacity: 0.25;
+	background-color: var(--wp--preset--color--brand-2);
+	background-image:
+		linear-gradient(
+			#ffffff, var(--wp--preset--color--brand-2)
+		);
+}
+.wp-block-group.is-style-diagonal-break {
+	position: relative;
+	overflow: hidden;
+	z-index: 10;
+}
+.wp-block-group.has-background.is-style-diagonal-break {
+	background: none !important;
+}
+.wp-block-group.is-style-diagonal-break::before {
+	position: absolute;
+	display: block;
+	content: "";
+	background-color: var(--wp--preset--color--dark);
+	top: 50%;
+	right: -99rem;
+	left: -99rem;
+	width: calc(100% + 198rem);
+	height: 100%;
+	z-index: -1;
+	transform: rotate(2.5deg);
+	-webkit-transform prefix: rotate(2.5deg);
+}
+.wp-block-group.has-background.is-style-diagonal-break > .aligncenter:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright),
+.wp-block-group .wp-block-group.has-background.is-style-diagonal-break > .aligncente:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright) {
+	padding-left: var(--melapress--gutter-outside);
+	padding-right: var(--melapress--gutter-outside);
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+.wp-block-image.is-style-aspect-16x9 {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.wp-block-image.is-style-aspect-16x9:before {
+	display: block;
+	content: "";
+	width: 100%;
+	padding-top: 56.25%;
+}
+.wp-block-image.is-style-aspect-16x9 > .components-resizable-box__container {
+	position: unset !important;
+}
+.wp-block-image.is-style-aspect-16x9 img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	object-fit: cover;
+}
+.wp-block-image.is-style-aspect-16x9 figcaption {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: 0;
+	padding: var(--melapress--gutter-outside);
+	color: var(--wp--preset--color--light);
+	text-shadow: 1px 1px 5px rgba(0,0,0,1);
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+.wp-block-image.is-style-aspect-square {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.wp-block-image.is-style-aspect-square:before {
+	display: block;
+	content: "";
+	width: 100%;
+	padding-top: 100%;
+}
+.wp-block-image.is-style-aspect-square > .components-resizable-box__container {
+	position: unset !important;
+}
+.wp-block-image.is-style-aspect-square img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	object-fit: cover;
+}
+.wp-block-image.is-style-aspect-square figcaption {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-bottom: 0;
+	padding: var(--melapress--gutter-outside);
+	color: var(--wp--preset--color--light);
+	text-shadow: 1px 1px 5px rgba(0,0,0,1);
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+.wp-block-image.is-style-aspect-circle {
+	display: block;
+	position: relative;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.wp-block-image.is-style-aspect-circle:before {
+	display: block;
+	content: "";
+	width: 100%;
+	padding-top: 100%;
+}
+.wp-block-image.is-style-aspect-circle > .components-resizable-box__container {
+	position: unset !important;
+}
+.wp-block-image.is-style-aspect-circle img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	object-fit: cover;
+}
+.wp-block-image.is-style-aspect-circle figcaption {
+	display: none;
+}
+.is-style-rounded-font {
+	font-family: "Quicksand" !important;
+	font-weight: 700 !important;
+}
+.is-style-blockquote {
+	text-align: center;
+}
+.is-style-blockquote p {
+	font-family: "Quicksand" !important;
+	font-weight: 700 !important;
+}
+.is-style-blockquote p:before {
+	content: "“ ";
+}
+.is-style-blockquote p:after {
+	content: " ”";
+}
+.is-style-rounded-font {
+	font-family: "Quicksand" !important;
+	font-weight: 700 !important;
+}
+</style>
+<style id='safe-svg-svg-icon-style-inline-css'>
+.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}
+
+</style>
+<link rel='stylesheet' id='mpp_gutenberg-css' href='https://melapress.com/wp-content/plugins/metronet-profile-picture/dist/blocks.style.build.css?ver=2.6.0' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--brand-1: #0000EE;--wp--preset--color--brand-1-b: #4A4CF7;--wp--preset--color--brand-2: #FF8977;--wp--preset--color--brand-3: #b6c3f2;--wp--preset--color--brand-4: #485D89;--wp--preset--color--lightalt: #D9E4FD;--wp--preset--color--light-grey: #f2f3f4;--wp--preset--color--dark: #1A3060;--wp--preset--color--darkest: #020e26;--wp--preset--color--light: #ffffff;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: clamp(1rem, 0.8978723404255318rem + 0.2836879432624116vw, 1.1rem);--wp--preset--font-size--medium: clamp(1.2rem, 0.4131rem + 2.6230vw, 2rem);--wp--preset--font-size--large: clamp(1.4rem, 0.2197rem + 3.9344vw, 2.6rem);--wp--preset--font-size--x-large: clamp(2rem, 0.2295rem + 5.9016vw, 3.8rem);--wp--preset--font-size--x-small: clamp(0.75rem, 0.6989361702127659rem + 0.1418439716312058vw, 0.8rem);--wp--preset--font-size--xx-large: clamp(2.8rem, 0.4393rem + 7.8689vw, 5.2rem);--wp--preset--font-size--xxx-large: clamp(3.8rem, 1.0459rem + 9.1803vw, 6.6rem);--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: .25rem;--wp--preset--spacing--40: .5rem;--wp--preset--spacing--50: 1rem;--wp--preset--spacing--60: 2rem;--wp--preset--spacing--70: 2.5rem;--wp--preset--spacing--80: 3.375rem;--wp--preset--spacing--90: 4rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}.wp-block-button .wp-block-button__link{--wp--preset--font-size--small: clamp(0.9rem, 0.7666666666666666rem + 0.44444444444444464vw, 1.1rem);--wp--preset--font-size--medium: clamp(1.2rem, 0.4131rem + 2.6230vw, 2rem);}body { margin: 0;--wp--style--global--content-size: var(--melapress--content-width);--wp--style--global--wide-size: var(--melapress--content-width--wide); }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: var(--wp--preset--spacing--50); margin-block-end: 0; }:where(.wp-site-blocks) > :first-child:first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child:last-child { margin-block-end: 0; }body { --wp--style--block-gap: var(--wp--preset--spacing--50); }:where(body .is-layout-flow)  > :first-child:first-child{margin-block-start: 0;}:where(body .is-layout-flow)  > :last-child:last-child{margin-block-end: 0;}:where(body .is-layout-flow)  > *{margin-block-start: var(--wp--preset--spacing--50);margin-block-end: 0;}:where(body .is-layout-constrained)  > :first-child:first-child{margin-block-start: 0;}:where(body .is-layout-constrained)  > :last-child:last-child{margin-block-end: 0;}:where(body .is-layout-constrained)  > *{margin-block-start: var(--wp--preset--spacing--50);margin-block-end: 0;}:where(body .is-layout-flex) {gap: var(--wp--preset--spacing--50);}:where(body .is-layout-grid) {gap: var(--wp--preset--spacing--50);}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-radius: 4px;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding-top: calc(0.6em + 2px);padding-right: calc(1.2em + 2px);padding-bottom: calc(0.6em + 2px);padding-left: calc(1.2em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-brand-1-color{color: var(--wp--preset--color--brand-1) !important;}.has-brand-1-b-color{color: var(--wp--preset--color--brand-1-b) !important;}.has-brand-2-color{color: var(--wp--preset--color--brand-2) !important;}.has-brand-3-color{color: var(--wp--preset--color--brand-3) !important;}.has-brand-4-color{color: var(--wp--preset--color--brand-4) !important;}.has-lightalt-color{color: var(--wp--preset--color--lightalt) !important;}.has-light-grey-color{color: var(--wp--preset--color--light-grey) !important;}.has-dark-color{color: var(--wp--preset--color--dark) !important;}.has-darkest-color{color: var(--wp--preset--color--darkest) !important;}.has-light-color{color: var(--wp--preset--color--light) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-brand-1-background-color{background-color: var(--wp--preset--color--brand-1) !important;}.has-brand-1-b-background-color{background-color: var(--wp--preset--color--brand-1-b) !important;}.has-brand-2-background-color{background-color: var(--wp--preset--color--brand-2) !important;}.has-brand-3-background-color{background-color: var(--wp--preset--color--brand-3) !important;}.has-brand-4-background-color{background-color: var(--wp--preset--color--brand-4) !important;}.has-lightalt-background-color{background-color: var(--wp--preset--color--lightalt) !important;}.has-light-grey-background-color{background-color: var(--wp--preset--color--light-grey) !important;}.has-dark-background-color{background-color: var(--wp--preset--color--dark) !important;}.has-darkest-background-color{background-color: var(--wp--preset--color--darkest) !important;}.has-light-background-color{background-color: var(--wp--preset--color--light) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-brand-1-border-color{border-color: var(--wp--preset--color--brand-1) !important;}.has-brand-1-b-border-color{border-color: var(--wp--preset--color--brand-1-b) !important;}.has-brand-2-border-color{border-color: var(--wp--preset--color--brand-2) !important;}.has-brand-3-border-color{border-color: var(--wp--preset--color--brand-3) !important;}.has-brand-4-border-color{border-color: var(--wp--preset--color--brand-4) !important;}.has-lightalt-border-color{border-color: var(--wp--preset--color--lightalt) !important;}.has-light-grey-border-color{border-color: var(--wp--preset--color--light-grey) !important;}.has-dark-border-color{border-color: var(--wp--preset--color--dark) !important;}.has-darkest-border-color{border-color: var(--wp--preset--color--darkest) !important;}.has-light-border-color{border-color: var(--wp--preset--color--light) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-x-small-font-size{font-size: var(--wp--preset--font-size--x-small) !important;}.has-xx-large-font-size{font-size: var(--wp--preset--font-size--xx-large) !important;}.has-xxx-large-font-size{font-size: var(--wp--preset--font-size--xxx-large) !important;}.wp-block-button .wp-block-button__link.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.wp-block-button .wp-block-button__link.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+.wp-block-button .wp-block-button__link{background-color: var(--wp--preset--color--brand-2);color: var(--wp--preset--color--brand-1);font-weight: 600;}
+.wp-block-gallery-is-layout-flow > :first-child:first-child{margin-block-start: 0;}.wp-block-gallery-is-layout-flow > :last-child:last-child{margin-block-end: 0;}.wp-block-gallery-is-layout-flow > *{margin-block-start: 0px;margin-block-end: 0;}.wp-block-gallery-is-layout-constrained > :first-child:first-child{margin-block-start: 0;}.wp-block-gallery-is-layout-constrained > :last-child:last-child{margin-block-end: 0;}.wp-block-gallery-is-layout-constrained > *{margin-block-start: 0px;margin-block-end: 0;}.wp-block-gallery-is-layout-flex{gap: 0px;}.wp-block-gallery-is-layout-grid{gap: 0px;}
+</style>
+<link rel='stylesheet' id='distinctive_lightbox_frontend-css' href='https://melapress.com/wp-content/plugins/distinctive-lightbox/dist/css/style.css?ver=1.0.5' media='all' />
+<style id='distinctive_lightbox_frontend-inline-css'>
+
+		@media all and (min-width: 1024px) {
+			.glightbox-container .gslide-inner-content {
+				max-width: 80wh;
+			}
+		}
+	
+</style>
+<script>document.addEventListener('DOMContentLoaded', function(event) {  if( typeof cpLoadCSS !== 'undefined' ) { cpLoadCSS('https://melapress.com/wp-content/plugins/convertpro/assets/modules/css/cp-popup.min.css?ver=1.7.7', 0, 'all'); } }); </script>
+<link rel='stylesheet' id='melapress-style-fontello-css' href='https://melapress.com/wp-content/themes/melapress2023/fonts/fontello/css/fontello.css?ver=2023.09.V1' media='all' />
+<link rel='stylesheet' id='melapress-style-css' href='https://melapress.com/wp-content/themes/melapress2023/style.css?ver=2023.09.V1' media='all' />
+<style id='melapress-style-inline-css'>
+
+:root {
+	--melapress--content-width: 60.5rem;
+	--melapress--content-width--wide: 71.25rem;
+	--melapress--gutter-outside: 1.5rem;
+}
+
+/* Set outer gutter to the left and right of all content */
+#melapress,
+.is-layout-constrained > *,
+.editor-styles-wrapper {
+	padding-left: 1.5rem !important;
+	padding-right: 1.5rem !important;	
+}
+
+/* Set full width blocks to extend beyond outer gutter */
+.is-root-container > *.alignfull,
+.is-layout-constrained > *.alignfull {
+	margin-left: calc( -1 * 1.5rem ) !important;
+	margin-right: calc( -1 * 1.5rem ) !important;
+	width: calc( 100% + calc( 1.5rem * 2 ) ) !important;
+}
+
+/* Don't float images left or right below standard break point */
+@media ( max-width: calc( 60.5rem - 0.05px ) ) {
+	.is-root-container > .wp-block-image.alignleft,
+	.is-root-container > .wp-block-image.alignright {
+		  float: none;
+		  margin-left: auto;
+		  margin-right: auto;
+	}
+}
+
+/* Constain standard width content above standard width break points */
+@media ( min-width: calc( 60.5rem ) ) {
+	.is-layout-constrained.alignwide > *:not(.alignwide, .alignfull),
+	.is-layout-constrained.alignfull > *:not(.alignwide, .alignfull) {
+		max-width: calc( 60.5rem + calc( 1.5rem * 2 ) ) !important;
+	}
+}
+@media ( min-width: calc( 60.5rem + ( 1.5rem * 2 ) ) ) {
+	.is-root-container > *:not(.alignfull, .alignwide),
+	.is-layout-constrained.alignwide:not(.is-layout-flow) > *:not(.alignwide, .alignfull),
+	.is-layout-constrained.alignfull:not(.is-layout-flow) > *:not(.alignwide, .alignfull) {
+		max-width: 60.5rem;
+	}
+}
+@media ( min-width: calc( 60.5rem + ( 1.5rem * 4 ) ) ) {
+	.is-layout-constrained.alignwide > *:not(.alignwide, .alignfull),
+	.is-layout-constrained.alignfull > *:not(.alignwide, .alignfull) {
+		max-width: 60.5rem !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+
+/* Constrain wide width content above wide width break point */
+@media ( min-width: calc( 71.25rem ) ) {
+	.is-layout-constrained.alignfull > .alignwide {
+		max-width: calc( 71.25rem + calc( 1.5rem * 2 ) ) !important;
+	}
+}
+@media ( min-width: calc( 71.25rem + ( 1.5rem * 2 ) ) ) {
+	.is-root-container > .alignwide,
+	.is-layout-constrained.alignfull:not(.is-layout-flow) > *.alignwide {
+		max-width: 71.25rem;
+	}
+	.is-root-container > .wp-block-image.alignleft {
+		padding-left: calc( ( 100% - 71.25rem ) / 2 ) !important;
+	}
+	.is-root-container > .wp-block-image.alignright {
+		padding-right: calc( ( 100% - 71.25rem ) / 2 ) !important;
+	}
+	.wp-block-cover.alignfull .wp-block-cover__inner-container {
+		padding-left: calc( ( 100% - 71.25rem ) / 2 );
+		padding-right: calc( ( 100% - 71.25rem ) / 2 );
+	}
+}
+@media ( min-width: calc( 71.25rem + ( 1.5rem * 4 ) ) ) {
+	.is-layout-constrained.alignfull > *.alignwide {
+		max-width: 71.25rem !important;
+	}
+	.is-layout-constrained.alignfull > *.alignwide:not(.has-background) {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+/* Break point for middling content between standard and wide break points */
+/*@media ( min-width: calc( 60.5rem + ( 1.5rem * 2 ) ) ) and ( max-width: calc( 71.25rem + ( 1.5rem * 2 )  - 0.05px ) ) {
+	.is-root-container > .alignwide:not(#melapress-header__content):not(#melapress-footer-after__content) {
+		max-width: unset !important;
+	}
+}
+
+@media ( max-width: calc( 60.5rem + ( 1.5rem * 2 ) - 0.05px ) ) {
+	#melapress-post-scroll-container .wp-block-group.alignfull > *:not(.alignfull),
+	#melapress-post-scroll-container .is-root-container > *:not(.alignfull):not(.alignwide):not(.alignleft):not(.alignright):not(.aligncenter):not(.wp-block-group),
+	#melapress-post-scroll-container .is-root-container > *.alignwide {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+}*/:root {
+--wp--preset--color--wpactivitylog-dark: #384a2f;
+--wp--preset--color--wpactivitylog-normal: #009344;
+--wp--preset--color--wpactivitylog-light: #BDD63A;
+--wp--preset--color--wpactivitylog-lightalt: #f8e71c;
+--wp--preset--color--wp-2-fa-dark: #1a3060;
+--wp--preset--color--wp-2-fa-normal: #3e6bff;
+--wp--preset--color--wp-2-fa-light: #40d3f0;
+--wp--preset--color--wp-2-fa-lightalt: #99ffff;
+--wp--preset--color--captcha-4-wp-dark: #50284e;
+--wp--preset--color--captcha-4-wp-normal: #824780;
+--wp--preset--color--captcha-4-wp-light: #cca0c9;
+--wp--preset--color--captcha-4-wp-lightalt: #e9d7e7;
+--wp--preset--color--loginsecurity-dark: #482B15;
+--wp--preset--color--loginsecurity-normal: #7a262a;
+--wp--preset--color--loginsecurity-light: #dd2b10;
+--wp--preset--color--loginsecurity-lightalt: #ff8977;}
+.has-background.has-wpactivitylog-dark-background-color {
+	background-color: var(--wp--preset--color--wpactivitylog-dark);
+}
+.has-text-color.has-wpactivitylog-dark-color {
+	color: var(--wp--preset--color--wpactivitylog-dark);
+}
+.wp-block-button__link.mp-button-wpactivitylog:after {
+	background-color: var(--wp--preset--color--wpactivitylog-lightalt) !important;
+}
+.wp-block-button__link.mp-button-wpactivitylog:focus,
+.wp-block-button__link.mp-button-wpactivitylog:hover {
+	color: var(--wp--preset--color--wpactivitylog-normal) !important;
+}
+.has-background.has-wpactivitylog-normal-background-color {
+	background-color: var(--wp--preset--color--wpactivitylog-normal);
+}
+.has-text-color.has-wpactivitylog-normal-color {
+	color: var(--wp--preset--color--wpactivitylog-normal);
+}
+.wp-block-button__link.mp-button-wpactivitylog:after {
+	background-color: var(--wp--preset--color--wpactivitylog-lightalt) !important;
+}
+.wp-block-button__link.mp-button-wpactivitylog:focus,
+.wp-block-button__link.mp-button-wpactivitylog:hover {
+	color: var(--wp--preset--color--wpactivitylog-normal) !important;
+}
+.has-background.has-wpactivitylog-light-background-color {
+	background-color: var(--wp--preset--color--wpactivitylog-light);
+}
+.has-text-color.has-wpactivitylog-light-color {
+	color: var(--wp--preset--color--wpactivitylog-light);
+}
+.wp-block-button__link.mp-button-wpactivitylog:after {
+	background-color: var(--wp--preset--color--wpactivitylog-lightalt) !important;
+}
+.wp-block-button__link.mp-button-wpactivitylog:focus,
+.wp-block-button__link.mp-button-wpactivitylog:hover {
+	color: var(--wp--preset--color--wpactivitylog-normal) !important;
+}
+.has-background.has-wpactivitylog-lightalt-background-color {
+	background-color: var(--wp--preset--color--wpactivitylog-lightalt);
+}
+.has-text-color.has-wpactivitylog-lightalt-color {
+	color: var(--wp--preset--color--wpactivitylog-lightalt);
+}
+.wp-block-button__link.mp-button-wpactivitylog:after {
+	background-color: var(--wp--preset--color--wpactivitylog-lightalt) !important;
+}
+.wp-block-button__link.mp-button-wpactivitylog:focus,
+.wp-block-button__link.mp-button-wpactivitylog:hover {
+	color: var(--wp--preset--color--wpactivitylog-normal) !important;
+}
+.has-background.has-wp-2-fa-dark-background-color {
+	background-color: var(--wp--preset--color--wp-2-fa-dark);
+}
+.has-text-color.has-wp-2-fa-dark-color {
+	color: var(--wp--preset--color--wp-2-fa-dark);
+}
+.wp-block-button__link.mp-button-wp-2-fa:after {
+	background-color: var(--wp--preset--color--wp-2-fa-lightalt) !important;
+}
+.wp-block-button__link.mp-button-wp-2-fa:focus,
+.wp-block-button__link.mp-button-wp-2-fa:hover {
+	color: var(--wp--preset--color--wp-2-fa-normal) !important;
+}
+.has-background.has-wp-2-fa-normal-background-color {
+	background-color: var(--wp--preset--color--wp-2-fa-normal);
+}
+.has-text-color.has-wp-2-fa-normal-color {
+	color: var(--wp--preset--color--wp-2-fa-normal);
+}
+.wp-block-button__link.mp-button-wp-2-fa:after {
+	background-color: var(--wp--preset--color--wp-2-fa-lightalt) !important;
+}
+.wp-block-button__link.mp-button-wp-2-fa:focus,
+.wp-block-button__link.mp-button-wp-2-fa:hover {
+	color: var(--wp--preset--color--wp-2-fa-normal) !important;
+}
+.has-background.has-wp-2-fa-light-background-color {
+	background-color: var(--wp--preset--color--wp-2-fa-light);
+}
+.has-text-color.has-wp-2-fa-light-color {
+	color: var(--wp--preset--color--wp-2-fa-light);
+}
+.wp-block-button__link.mp-button-wp-2-fa:after {
+	background-color: var(--wp--preset--color--wp-2-fa-lightalt) !important;
+}
+.wp-block-button__link.mp-button-wp-2-fa:focus,
+.wp-block-button__link.mp-button-wp-2-fa:hover {
+	color: var(--wp--preset--color--wp-2-fa-normal) !important;
+}
+.has-background.has-wp-2-fa-lightalt-background-color {
+	background-color: var(--wp--preset--color--wp-2-fa-lightalt);
+}
+.has-text-color.has-wp-2-fa-lightalt-color {
+	color: var(--wp--preset--color--wp-2-fa-lightalt);
+}
+.wp-block-button__link.mp-button-wp-2-fa:after {
+	background-color: var(--wp--preset--color--wp-2-fa-lightalt) !important;
+}
+.wp-block-button__link.mp-button-wp-2-fa:focus,
+.wp-block-button__link.mp-button-wp-2-fa:hover {
+	color: var(--wp--preset--color--wp-2-fa-normal) !important;
+}
+.has-background.has-captcha-4-wp-dark-background-color {
+	background-color: var(--wp--preset--color--captcha-4-wp-dark);
+}
+.has-text-color.has-captcha-4-wp-dark-color {
+	color: var(--wp--preset--color--captcha-4-wp-dark);
+}
+.wp-block-button__link.mp-button-captcha-4-wp:after {
+	background-color: var(--wp--preset--color--captcha-4-wp-lightalt) !important;
+}
+.wp-block-button__link.mp-button-captcha-4-wp:focus,
+.wp-block-button__link.mp-button-captcha-4-wp:hover {
+	color: var(--wp--preset--color--captcha-4-wp-normal) !important;
+}
+.has-background.has-captcha-4-wp-normal-background-color {
+	background-color: var(--wp--preset--color--captcha-4-wp-normal);
+}
+.has-text-color.has-captcha-4-wp-normal-color {
+	color: var(--wp--preset--color--captcha-4-wp-normal);
+}
+.wp-block-button__link.mp-button-captcha-4-wp:after {
+	background-color: var(--wp--preset--color--captcha-4-wp-lightalt) !important;
+}
+.wp-block-button__link.mp-button-captcha-4-wp:focus,
+.wp-block-button__link.mp-button-captcha-4-wp:hover {
+	color: var(--wp--preset--color--captcha-4-wp-normal) !important;
+}
+.has-background.has-captcha-4-wp-light-background-color {
+	background-color: var(--wp--preset--color--captcha-4-wp-light);
+}
+.has-text-color.has-captcha-4-wp-light-color {
+	color: var(--wp--preset--color--captcha-4-wp-light);
+}
+.wp-block-button__link.mp-button-captcha-4-wp:after {
+	background-color: var(--wp--preset--color--captcha-4-wp-lightalt) !important;
+}
+.wp-block-button__link.mp-button-captcha-4-wp:focus,
+.wp-block-button__link.mp-button-captcha-4-wp:hover {
+	color: var(--wp--preset--color--captcha-4-wp-normal) !important;
+}
+.has-background.has-captcha-4-wp-lightalt-background-color {
+	background-color: var(--wp--preset--color--captcha-4-wp-lightalt);
+}
+.has-text-color.has-captcha-4-wp-lightalt-color {
+	color: var(--wp--preset--color--captcha-4-wp-lightalt);
+}
+.wp-block-button__link.mp-button-captcha-4-wp:after {
+	background-color: var(--wp--preset--color--captcha-4-wp-lightalt) !important;
+}
+.wp-block-button__link.mp-button-captcha-4-wp:focus,
+.wp-block-button__link.mp-button-captcha-4-wp:hover {
+	color: var(--wp--preset--color--captcha-4-wp-normal) !important;
+}
+.has-background.has-loginsecurity-dark-background-color {
+	background-color: var(--wp--preset--color--loginsecurity-dark);
+}
+.has-text-color.has-loginsecurity-dark-color {
+	color: var(--wp--preset--color--loginsecurity-dark);
+}
+.wp-block-button__link.mp-button-loginsecurity:after {
+	background-color: var(--wp--preset--color--loginsecurity-lightalt) !important;
+}
+.wp-block-button__link.mp-button-loginsecurity:focus,
+.wp-block-button__link.mp-button-loginsecurity:hover {
+	color: var(--wp--preset--color--loginsecurity-normal) !important;
+}
+.has-background.has-loginsecurity-normal-background-color {
+	background-color: var(--wp--preset--color--loginsecurity-normal);
+}
+.has-text-color.has-loginsecurity-normal-color {
+	color: var(--wp--preset--color--loginsecurity-normal);
+}
+.wp-block-button__link.mp-button-loginsecurity:after {
+	background-color: var(--wp--preset--color--loginsecurity-lightalt) !important;
+}
+.wp-block-button__link.mp-button-loginsecurity:focus,
+.wp-block-button__link.mp-button-loginsecurity:hover {
+	color: var(--wp--preset--color--loginsecurity-normal) !important;
+}
+.has-background.has-loginsecurity-light-background-color {
+	background-color: var(--wp--preset--color--loginsecurity-light);
+}
+.has-text-color.has-loginsecurity-light-color {
+	color: var(--wp--preset--color--loginsecurity-light);
+}
+.wp-block-button__link.mp-button-loginsecurity:after {
+	background-color: var(--wp--preset--color--loginsecurity-lightalt) !important;
+}
+.wp-block-button__link.mp-button-loginsecurity:focus,
+.wp-block-button__link.mp-button-loginsecurity:hover {
+	color: var(--wp--preset--color--loginsecurity-normal) !important;
+}
+.has-background.has-loginsecurity-lightalt-background-color {
+	background-color: var(--wp--preset--color--loginsecurity-lightalt);
+}
+.has-text-color.has-loginsecurity-lightalt-color {
+	color: var(--wp--preset--color--loginsecurity-lightalt);
+}
+.wp-block-button__link.mp-button-loginsecurity:after {
+	background-color: var(--wp--preset--color--loginsecurity-lightalt) !important;
+}
+.wp-block-button__link.mp-button-loginsecurity:focus,
+.wp-block-button__link.mp-button-loginsecurity:hover {
+	color: var(--wp--preset--color--loginsecurity-normal) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-brand-1-background-color::before {
+	background-color: var(--wp--preset--color--brand-1);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--brand-1)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-brand-1-background-color::before {
+	background-color: var(--wp--preset--color--brand-1);
+}.wp-block-separator.is-style-wide.has-background.has-brand-1-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#0000EE,
+	#0000EE 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-brand-1-background-color svg polygon {
+	fill: var(--wp--preset--color--brand-1) !important;
+}
+.melapress-block-torn-divider.has-background.has-brand-1-background-color svg path {
+	fill: var(--wp--preset--color--brand-1) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-brand-1-b-background-color::before {
+	background-color: var(--wp--preset--color--brand-1-b);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--brand-1-b)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-brand-1-b-background-color::before {
+	background-color: var(--wp--preset--color--brand-1-b);
+}.wp-block-separator.is-style-wide.has-background.has-brand-1-b-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#4A4CF7,
+	#4A4CF7 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-brand-1-b-background-color svg polygon {
+	fill: var(--wp--preset--color--brand-1-b) !important;
+}
+.melapress-block-torn-divider.has-background.has-brand-1-b-background-color svg path {
+	fill: var(--wp--preset--color--brand-1-b) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-brand-2-background-color::before {
+	background-color: var(--wp--preset--color--brand-2);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--brand-2)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-brand-2-background-color::before {
+	background-color: var(--wp--preset--color--brand-2);
+}.wp-block-separator.is-style-wide.has-background.has-brand-2-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#FF8977,
+	#FF8977 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-brand-2-background-color svg polygon {
+	fill: var(--wp--preset--color--brand-2) !important;
+}
+.melapress-block-torn-divider.has-background.has-brand-2-background-color svg path {
+	fill: var(--wp--preset--color--brand-2) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-brand-3-background-color::before {
+	background-color: var(--wp--preset--color--brand-3);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--brand-3)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-brand-3-background-color::before {
+	background-color: var(--wp--preset--color--brand-3);
+}.wp-block-separator.is-style-wide.has-background.has-brand-3-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#b6c3f2,
+	#b6c3f2 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-brand-3-background-color svg polygon {
+	fill: var(--wp--preset--color--brand-3) !important;
+}
+.melapress-block-torn-divider.has-background.has-brand-3-background-color svg path {
+	fill: var(--wp--preset--color--brand-3) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-brand-4-background-color::before {
+	background-color: var(--wp--preset--color--brand-4);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--brand-4)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-brand-4-background-color::before {
+	background-color: var(--wp--preset--color--brand-4);
+}.wp-block-separator.is-style-wide.has-background.has-brand-4-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#485D89,
+	#485D89 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-brand-4-background-color svg polygon {
+	fill: var(--wp--preset--color--brand-4) !important;
+}
+.melapress-block-torn-divider.has-background.has-brand-4-background-color svg path {
+	fill: var(--wp--preset--color--brand-4) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-lightalt-background-color::before {
+	background-color: var(--wp--preset--color--lightalt);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--lightalt)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-lightalt-background-color::before {
+	background-color: var(--wp--preset--color--lightalt);
+}.wp-block-separator.is-style-wide.has-background.has-lightalt-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#D9E4FD,
+	#D9E4FD 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-lightalt-background-color svg polygon {
+	fill: var(--wp--preset--color--lightalt) !important;
+}
+.melapress-block-torn-divider.has-background.has-lightalt-background-color svg path {
+	fill: var(--wp--preset--color--lightalt) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-light-grey-background-color::before {
+	background-color: var(--wp--preset--color--light-grey);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--light-grey)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-light-grey-background-color::before {
+	background-color: var(--wp--preset--color--light-grey);
+}.wp-block-separator.is-style-wide.has-background.has-light-grey-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#f2f3f4,
+	#f2f3f4 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-light-grey-background-color svg polygon {
+	fill: var(--wp--preset--color--light-grey) !important;
+}
+.melapress-block-torn-divider.has-background.has-light-grey-background-color svg path {
+	fill: var(--wp--preset--color--light-grey) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-dark-background-color::before {
+	background-color: var(--wp--preset--color--dark);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--dark)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-dark-background-color::before {
+	background-color: var(--wp--preset--color--dark);
+}.wp-block-separator.is-style-wide.has-background.has-dark-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#1A3060,
+	#1A3060 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-dark-background-color svg polygon {
+	fill: var(--wp--preset--color--dark) !important;
+}
+.melapress-block-torn-divider.has-background.has-dark-background-color svg path {
+	fill: var(--wp--preset--color--dark) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-darkest-background-color::before {
+	background-color: var(--wp--preset--color--darkest);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--darkest)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-darkest-background-color::before {
+	background-color: var(--wp--preset--color--darkest);
+}.wp-block-separator.is-style-wide.has-background.has-darkest-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#020e26,
+	#020e26 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-darkest-background-color svg polygon {
+	fill: var(--wp--preset--color--darkest) !important;
+}
+.melapress-block-torn-divider.has-background.has-darkest-background-color svg path {
+	fill: var(--wp--preset--color--darkest) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-light-background-color::before {
+	background-color: var(--wp--preset--color--light);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--light)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-light-background-color::before {
+	background-color: var(--wp--preset--color--light);
+}.wp-block-separator.is-style-wide.has-background.has-light-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#ffffff,
+	#ffffff 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-light-background-color svg polygon {
+	fill: var(--wp--preset--color--light) !important;
+}
+.melapress-block-torn-divider.has-background.has-light-background-color svg path {
+	fill: var(--wp--preset--color--light) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-wpactivitylog-dark-background-color::before {
+	background-color: var(--wp--preset--color--wpactivitylog-dark);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--wpactivitylog-dark)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-wpactivitylog-dark-background-color::before {
+	background-color: var(--wp--preset--color--wpactivitylog-dark);
+}.wp-block-separator.is-style-wide.has-background.has-wpactivitylog-dark-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#384a2f,
+	#384a2f 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-wpactivitylog-dark-background-color svg polygon {
+	fill: var(--wp--preset--color--wpactivitylog-dark) !important;
+}
+.melapress-block-torn-divider.has-background.has-wpactivitylog-dark-background-color svg path {
+	fill: var(--wp--preset--color--wpactivitylog-dark) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-wpactivitylog-normal-background-color::before {
+	background-color: var(--wp--preset--color--wpactivitylog-normal);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--wpactivitylog-normal)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-wpactivitylog-normal-background-color::before {
+	background-color: var(--wp--preset--color--wpactivitylog-normal);
+}.wp-block-separator.is-style-wide.has-background.has-wpactivitylog-normal-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#009344,
+	#009344 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-wpactivitylog-normal-background-color svg polygon {
+	fill: var(--wp--preset--color--wpactivitylog-normal) !important;
+}
+.melapress-block-torn-divider.has-background.has-wpactivitylog-normal-background-color svg path {
+	fill: var(--wp--preset--color--wpactivitylog-normal) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-wpactivitylog-light-background-color::before {
+	background-color: var(--wp--preset--color--wpactivitylog-light);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--wpactivitylog-light)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-wpactivitylog-light-background-color::before {
+	background-color: var(--wp--preset--color--wpactivitylog-light);
+}.wp-block-separator.is-style-wide.has-background.has-wpactivitylog-light-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#BDD63A,
+	#BDD63A 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-wpactivitylog-light-background-color svg polygon {
+	fill: var(--wp--preset--color--wpactivitylog-light) !important;
+}
+.melapress-block-torn-divider.has-background.has-wpactivitylog-light-background-color svg path {
+	fill: var(--wp--preset--color--wpactivitylog-light) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-wpactivitylog-lightalt-background-color::before {
+	background-color: var(--wp--preset--color--wpactivitylog-lightalt);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--wpactivitylog-lightalt)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-wpactivitylog-lightalt-background-color::before {
+	background-color: var(--wp--preset--color--wpactivitylog-lightalt);
+}.wp-block-separator.is-style-wide.has-background.has-wpactivitylog-lightalt-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#f8e71c,
+	#f8e71c 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-wpactivitylog-lightalt-background-color svg polygon {
+	fill: var(--wp--preset--color--wpactivitylog-lightalt) !important;
+}
+.melapress-block-torn-divider.has-background.has-wpactivitylog-lightalt-background-color svg path {
+	fill: var(--wp--preset--color--wpactivitylog-lightalt) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-wp-2-fa-dark-background-color::before {
+	background-color: var(--wp--preset--color--wp-2-fa-dark);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--wp-2-fa-dark)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-wp-2-fa-dark-background-color::before {
+	background-color: var(--wp--preset--color--wp-2-fa-dark);
+}.wp-block-separator.is-style-wide.has-background.has-wp-2-fa-dark-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#1a3060,
+	#1a3060 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-wp-2-fa-dark-background-color svg polygon {
+	fill: var(--wp--preset--color--wp-2-fa-dark) !important;
+}
+.melapress-block-torn-divider.has-background.has-wp-2-fa-dark-background-color svg path {
+	fill: var(--wp--preset--color--wp-2-fa-dark) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-wp-2-fa-normal-background-color::before {
+	background-color: var(--wp--preset--color--wp-2-fa-normal);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--wp-2-fa-normal)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-wp-2-fa-normal-background-color::before {
+	background-color: var(--wp--preset--color--wp-2-fa-normal);
+}.wp-block-separator.is-style-wide.has-background.has-wp-2-fa-normal-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#3e6bff,
+	#3e6bff 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-wp-2-fa-normal-background-color svg polygon {
+	fill: var(--wp--preset--color--wp-2-fa-normal) !important;
+}
+.melapress-block-torn-divider.has-background.has-wp-2-fa-normal-background-color svg path {
+	fill: var(--wp--preset--color--wp-2-fa-normal) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-wp-2-fa-light-background-color::before {
+	background-color: var(--wp--preset--color--wp-2-fa-light);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--wp-2-fa-light)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-wp-2-fa-light-background-color::before {
+	background-color: var(--wp--preset--color--wp-2-fa-light);
+}.wp-block-separator.is-style-wide.has-background.has-wp-2-fa-light-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#40d3f0,
+	#40d3f0 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-wp-2-fa-light-background-color svg polygon {
+	fill: var(--wp--preset--color--wp-2-fa-light) !important;
+}
+.melapress-block-torn-divider.has-background.has-wp-2-fa-light-background-color svg path {
+	fill: var(--wp--preset--color--wp-2-fa-light) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-wp-2-fa-lightalt-background-color::before {
+	background-color: var(--wp--preset--color--wp-2-fa-lightalt);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--wp-2-fa-lightalt)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-wp-2-fa-lightalt-background-color::before {
+	background-color: var(--wp--preset--color--wp-2-fa-lightalt);
+}.wp-block-separator.is-style-wide.has-background.has-wp-2-fa-lightalt-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#99ffff,
+	#99ffff 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-wp-2-fa-lightalt-background-color svg polygon {
+	fill: var(--wp--preset--color--wp-2-fa-lightalt) !important;
+}
+.melapress-block-torn-divider.has-background.has-wp-2-fa-lightalt-background-color svg path {
+	fill: var(--wp--preset--color--wp-2-fa-lightalt) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-captcha-4-wp-dark-background-color::before {
+	background-color: var(--wp--preset--color--captcha-4-wp-dark);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--captcha-4-wp-dark)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-captcha-4-wp-dark-background-color::before {
+	background-color: var(--wp--preset--color--captcha-4-wp-dark);
+}.wp-block-separator.is-style-wide.has-background.has-captcha-4-wp-dark-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#50284e,
+	#50284e 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-captcha-4-wp-dark-background-color svg polygon {
+	fill: var(--wp--preset--color--captcha-4-wp-dark) !important;
+}
+.melapress-block-torn-divider.has-background.has-captcha-4-wp-dark-background-color svg path {
+	fill: var(--wp--preset--color--captcha-4-wp-dark) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-captcha-4-wp-normal-background-color::before {
+	background-color: var(--wp--preset--color--captcha-4-wp-normal);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--captcha-4-wp-normal)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-captcha-4-wp-normal-background-color::before {
+	background-color: var(--wp--preset--color--captcha-4-wp-normal);
+}.wp-block-separator.is-style-wide.has-background.has-captcha-4-wp-normal-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#824780,
+	#824780 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-captcha-4-wp-normal-background-color svg polygon {
+	fill: var(--wp--preset--color--captcha-4-wp-normal) !important;
+}
+.melapress-block-torn-divider.has-background.has-captcha-4-wp-normal-background-color svg path {
+	fill: var(--wp--preset--color--captcha-4-wp-normal) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-captcha-4-wp-light-background-color::before {
+	background-color: var(--wp--preset--color--captcha-4-wp-light);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--captcha-4-wp-light)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-captcha-4-wp-light-background-color::before {
+	background-color: var(--wp--preset--color--captcha-4-wp-light);
+}.wp-block-separator.is-style-wide.has-background.has-captcha-4-wp-light-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#cca0c9,
+	#cca0c9 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-captcha-4-wp-light-background-color svg polygon {
+	fill: var(--wp--preset--color--captcha-4-wp-light) !important;
+}
+.melapress-block-torn-divider.has-background.has-captcha-4-wp-light-background-color svg path {
+	fill: var(--wp--preset--color--captcha-4-wp-light) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-captcha-4-wp-lightalt-background-color::before {
+	background-color: var(--wp--preset--color--captcha-4-wp-lightalt);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--captcha-4-wp-lightalt)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-captcha-4-wp-lightalt-background-color::before {
+	background-color: var(--wp--preset--color--captcha-4-wp-lightalt);
+}.wp-block-separator.is-style-wide.has-background.has-captcha-4-wp-lightalt-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#e9d7e7,
+	#e9d7e7 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-captcha-4-wp-lightalt-background-color svg polygon {
+	fill: var(--wp--preset--color--captcha-4-wp-lightalt) !important;
+}
+.melapress-block-torn-divider.has-background.has-captcha-4-wp-lightalt-background-color svg path {
+	fill: var(--wp--preset--color--captcha-4-wp-lightalt) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-loginsecurity-dark-background-color::before {
+	background-color: var(--wp--preset--color--loginsecurity-dark);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--loginsecurity-dark)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-loginsecurity-dark-background-color::before {
+	background-color: var(--wp--preset--color--loginsecurity-dark);
+}.wp-block-separator.is-style-wide.has-background.has-loginsecurity-dark-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#482B15,
+	#482B15 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-loginsecurity-dark-background-color svg polygon {
+	fill: var(--wp--preset--color--loginsecurity-dark) !important;
+}
+.melapress-block-torn-divider.has-background.has-loginsecurity-dark-background-color svg path {
+	fill: var(--wp--preset--color--loginsecurity-dark) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-loginsecurity-normal-background-color::before {
+	background-color: var(--wp--preset--color--loginsecurity-normal);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--loginsecurity-normal)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-loginsecurity-normal-background-color::before {
+	background-color: var(--wp--preset--color--loginsecurity-normal);
+}.wp-block-separator.is-style-wide.has-background.has-loginsecurity-normal-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#7a262a,
+	#7a262a 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-loginsecurity-normal-background-color svg polygon {
+	fill: var(--wp--preset--color--loginsecurity-normal) !important;
+}
+.melapress-block-torn-divider.has-background.has-loginsecurity-normal-background-color svg path {
+	fill: var(--wp--preset--color--loginsecurity-normal) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-loginsecurity-light-background-color::before {
+	background-color: var(--wp--preset--color--loginsecurity-light);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--loginsecurity-light)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-loginsecurity-light-background-color::before {
+	background-color: var(--wp--preset--color--loginsecurity-light);
+}.wp-block-separator.is-style-wide.has-background.has-loginsecurity-light-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#dd2b10,
+	#dd2b10 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-loginsecurity-light-background-color svg polygon {
+	fill: var(--wp--preset--color--loginsecurity-light) !important;
+}
+.melapress-block-torn-divider.has-background.has-loginsecurity-light-background-color svg path {
+	fill: var(--wp--preset--color--loginsecurity-light) !important;
+}
+.wp-block-group.is-style-mp-gradient-background.has-background.has-loginsecurity-lightalt-background-color::before {
+	background-color: var(--wp--preset--color--loginsecurity-lightalt);
+	background-image:
+		linear-gradient(
+		#ffffff, var(--wp--preset--color--loginsecurity-lightalt)
+		);
+}
+.wp-block-group.is-style-diagonal-break.has-background.has-loginsecurity-lightalt-background-color::before {
+	background-color: var(--wp--preset--color--loginsecurity-lightalt);
+}.wp-block-separator.is-style-wide.has-background.has-loginsecurity-lightalt-background-color {
+background: repeating-linear-gradient(
+	135deg,
+	#ff8977,
+	#ff8977 1px,
+	transparent 1px,
+	transparent 4px
+	) !important;
+}
+.melapress-block-diagonal-divider.has-background.has-loginsecurity-lightalt-background-color svg polygon {
+	fill: var(--wp--preset--color--loginsecurity-lightalt) !important;
+}
+.melapress-block-torn-divider.has-background.has-loginsecurity-lightalt-background-color svg path {
+	fill: var(--wp--preset--color--loginsecurity-lightalt) !important;
+}
+body {
+	--wp--section--color--dark: var(--wp--preset--color--darkest);
+	--wp--section--color--normal: var(--wp--preset--color--brand-1);
+	--wp--section--color--normal-background: var(--wp--preset--color--brand-1-b);
+	--wp--section--color--light: var(--wp--preset--color--brand-3);
+	--wp--section--color--lightalt: var(--wp--preset--color--lightalt);
+}
+.has-section-normal-color {
+	color: var(--wp--section--color--normal);
+}
+.has-section-darkest-color {
+	color: var(--wp--section--color--dark);
+}
+.has-section-light-color {
+	color: var(--wp--section--color--light) !important;
+}
+.has-section-lightalt-color {
+	color: var(--wp--section--color--lightalt) !important;
+}
+.has-section-normal-background-color {
+	background-color: var(--wp--section--color--normal-background);
+}
+.has-section-darkest-background-color {
+	background-color: var(--wp--section--color--dark) !important;
+}
+.has-section-light-background-color {
+	background-color: var(--wp--section--color--light);
+}
+.has-section-lightalt-background-color {
+	background-color: var(--wp--section--color--lightalt);
+}
+
+</style>
+<link rel='stylesheet' id='tablepress-default-css' href='https://melapress.com/wp-content/plugins/tablepress-premium/css/build/default.css?ver=2.1.8' media='all' />
+<link rel='stylesheet' id='tablepress-datatables-buttons-css' href='https://melapress.com/wp-content/plugins/tablepress-premium/modules/css/build/datatables.buttons.css?ver=2.1.8' media='all' />
+<link rel='stylesheet' id='tablepress-datatables-columnfilterwidgets-css' href='https://melapress.com/wp-content/plugins/tablepress-premium/modules/css/build/datatables.columnfilterwidgets.css?ver=2.1.8' media='all' />
+<link rel='stylesheet' id='tablepress-datatables-serverside-processing-css' href='https://melapress.com/wp-content/plugins/tablepress-premium/modules/css/build/datatables.serverside-processing.css?ver=2.1.8' media='all' />
+<link rel='stylesheet' id='tablepress-responsive-tables-css' href='https://melapress.com/wp-content/plugins/tablepress-premium/modules/css/build/responsive-tables.css?ver=2.1.8' media='all' />
+<link rel='stylesheet' id='moove_gdpr_frontend-css' href='https://melapress.com/wp-content/plugins/gdpr-cookie-compliance/dist/styles/gdpr-main.css?ver=4.12.8' media='all' />
+<style id='moove_gdpr_frontend-inline-css'>
+#moove_gdpr_cookie_modal,#moove_gdpr_cookie_info_bar,.gdpr_cookie_settings_shortcode_content{font-family:Nunito,sans-serif}#moove_gdpr_save_popup_settings_button{background-color:#373737;color:#fff}#moove_gdpr_save_popup_settings_button:hover{background-color:#000}#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton,#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton{background-color:#0C4DA2}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton,.gdpr_cookie_settings_shortcode_content .gdpr-shr-button.button-green{background-color:#0C4DA2;border-color:#0C4DA2}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton:hover,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton:hover,.gdpr_cookie_settings_shortcode_content .gdpr-shr-button.button-green:hover{background-color:#fff;color:#0C4DA2}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close span.gdpr-icon{background-color:#0C4DA2;border:1px solid #0C4DA2}#moove_gdpr_cookie_info_bar span.change-settings-button.focus-g,#moove_gdpr_cookie_info_bar span.change-settings-button:focus,#moove_gdpr_cookie_info_bar button.change-settings-button.focus-g,#moove_gdpr_cookie_info_bar button.change-settings-button:focus{-webkit-box-shadow:0 0 1px 3px #0C4DA2;-moz-box-shadow:0 0 1px 3px #0C4DA2;box-shadow:0 0 1px 3px #0C4DA2}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close i:hover,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close span.gdpr-icon:hover,#moove_gdpr_cookie_info_bar span[data-href]>u.change-settings-button{color:#0C4DA2}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected a span.gdpr-icon,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected button span.gdpr-icon{color:inherit}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a span.gdpr-icon,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button span.gdpr-icon{color:inherit}#moove_gdpr_cookie_modal .gdpr-acc-link{line-height:0;font-size:0;color:transparent;position:absolute}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close:hover i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .moove-gdpr-tab-main-content a:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content span.change-settings-button:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.change-settings-button:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content u.change-settings-button:hover,#moove_gdpr_cookie_info_bar span[data-href]>u.change-settings-button,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content span.change-settings-button.focus-g,span.change-settings-button:focus,button.change-settings-button.focus-g,button.change-settings-button:focus,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content u.change-settings-button.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content u.change-settings-button:focus{color:#0C4DA2}#moove_gdpr_cookie_modal.gdpr_lightbox-hide{display:none}
+</style>
+<link rel='stylesheet' id='welcomebar-front-css' href='https://melapress.com/wp-content/plugins/mystickymenu-pro/css/welcomebar-front.css?ver=2.6.6' media='all' />
+<link rel='stylesheet' id='welcomebar-animate-css' href='https://melapress.com/wp-content/plugins/mystickymenu-pro/css/welcomebar-animate.css?ver=2.6.6' media='all' />
+<script src='https://melapress.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+<script src='https://melapress.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+<style id="mystickymenu" type="text/css">#mysticky-nav { width:100%; position: static; }#mysticky-nav.wrapfixed { position:fixed; left: 0px; margin-top:0px;  z-index: 99990; -webkit-transition: 0.3s; -moz-transition: 0.3s; -o-transition: 0.3s; transition: 0.3s; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; filter: alpha(opacity=90); opacity:0.9; background-color: #f7f5e7;}#mysticky-nav.wrapfixed .myfixed{ background-color: #f7f5e7; position: relative;top: auto;left: auto;right: auto;}#mysticky-nav .myfixed { margin:0 auto; float:none; border:0px; background:none; max-width:100%; }</style>			<style type="text/css">
+																															</style>
+			
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NGWJZGT');</script>
+<!-- End Google Tag Manager -->
+
+			<link rel="icon" href="https://melapress.com/wp-content/uploads/2023/05/cropped-melapress-bookmark-logo-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://melapress.com/wp-content/uploads/2023/05/cropped-melapress-bookmark-logo-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://melapress.com/wp-content/uploads/2023/05/cropped-melapress-bookmark-logo-180x180.png" />
+<meta name="msapplication-TileImage" content="https://melapress.com/wp-content/uploads/2023/05/cropped-melapress-bookmark-logo-270x270.png" />
+<style id="wpforms-css-vars-root">
+				:root {
+					--wpforms-field-border-radius: 3px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+
+				}
+			</style></head>
+
+<body class="post-template-default single single-post postid-1613 single-format-standard wp-embed-responsive maximalist-menu section-melapress">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGWJZGT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+			<div id="melapress" class="melapress">
+	<a class="skip-link screen-reader-text" href="#melapress-main">Skip to content</a>
+
+	
+			<header id="melapress-header" class="melapress-header is-root-container">
+
+			<div id="melapress-header__content" class="alignwide">
+
+				<div id="melapress-header__content__topbar" class="">
+
+					<div id="melapress-header__content__topbar_logo" class="mp-text-center mp-text-xl-start">
+													<p class="site-title mp-my-0">
+													<a href="https://melapress.com/" rel="home">
+								<span class="mp-display-xl-none">
+									<span class="mp-mobile-header-logo-main">
+										<span class="melapress-header__logo"><img width="126" height="65" src="https://melapress.com/wp-content/uploads/2023/05/melapress-logo-stacked.svg" class="attachment-thumbnail size-thumbnail" alt="Melapress logo" decoding="sync" /></span>									</span>
+									<span class="mp-mobile-header-logo-menu" style="display:none;">
+										<span class="melapress-header__logo"><img width="126" height="65" src="https://melapress.com/wp-content/uploads/2023/02/logo-melapress-reverse-stack.svg" class="attachment-thumbnail size-thumbnail" alt="Melapress logo" decoding="sync" /></span>									</span>
+								</span>
+								<span class="mp-display-none mp-display-xl-block">
+									<span class="melapress-header__logo"><img width="234" height="50" src="https://melapress.com/wp-content/uploads/2023/05/melapress-logo-horiz.svg" class="attachment-thumbnail size-thumbnail" alt="Melapress logo" decoding="sync" /></span>								</span>
+								<span class="screen-reader-text">Melapress</span>
+							</a>
+													</p>
+						
+											</div>
+
+					<div id="melapress-header__content__topbar_nav" class="main-navigation">
+						<button class="menu-toggle mp-no-animate" aria-controls="primary-menu" aria-expanded="false"><span class="melapress-line"></span><span class="screen-reader-text">Menu</span></button>
+						<div id="melapress-header__content__topbar_nav_container">
+							<div class="toggled-logo-horizontal">
+								<span class="melapress-header__logo"><img width="234" height="50" src="https://melapress.com/wp-content/uploads/2023/05/logo-melapress-horiz-reverse.svg" class="attachment-thumbnail size-thumbnail" alt="Melapress logo" decoding="sync" /></span>							</div>
+							<nav class="menu-melapress-main-menu-container"><ul id="header-menu-main" class="menu"><li id="menu-item-78" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-78"><a href="#">Our plugins</a>
+<ul class="sub-menu">
+	<li id="menu-item-4556" class="menu-item menu-item-type-post_type menu-item-object-page_wpactivitylog menu-item-4556"><a href="/wordpress-activity-log/">WP Activity Log</a></li>
+	<li id="menu-item-4555" class="menu-item menu-item-type-post_type menu-item-object-page_wp2fa menu-item-4555"><a href="/wordpress-2fa/">WP 2FA</a></li>
+	<li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page_captcha4wp menu-item-149"><a href="/wordpress-captcha/">CAPTCHA 4WP</a></li>
+	<li id="menu-item-4559" class="menu-item menu-item-type-post_type menu-item-object-page_loginsecurity menu-item-4559"><a href="/wordpress-login-security/">Melapress Login Security</a></li>
+</ul>
+</li>
+<li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a href="https://melapress.com/case-studies/">Case studies</a></li>
+<li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="https://melapress.com/support/">Support</a></li>
+<li id="menu-item-183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><a href="https://melapress.com/blog/">Blog</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="https://melapress.com/about-us/">About us</a></li>
+</ul></nav>													</div>
+					</div>
+
+					<div id="melapress-header__content__topbar_search" >
+						<button id="search-toggle" class="search-toggle mp-no-animate" aria-controls="melapress-search" aria-expanded="false"><span class="screen-reader-text">Search</span><span class="icon-search"></span></button>
+						<div id="melapress-search" class="hidden">
+							<form role="search" method="get" class="search-form" action="/">
+								<label>
+									<input type="search" class="search-field" placeholder="What are you looking for?" value="" name="s" title="Search site:">
+								</label>
+								<button type="button" class="search-submit mp-no-animate"><span class="screen-reader-text">Search</span><i class="icon-search"></i></button>
+							</form>
+						</div><!-- #melapress-search -->
+					</div>
+
+				</div><!-- #melapress-header__content__topbar -->
+
+			</div><!-- #melapress-header__content -->
+
+		</header><!-- #melapress-header -->
+	
+	<main id="melapress-main" class="melapress-main is-root-container">
+
+		<p id="melapress-breadcrumbs" class="mp-display-none mp-display-md-block alignwide has-small-font-size mp-mt-40 mp-mb-60"><span><span><a href="https://melapress.com/">Home</a></span> <i class="icon-chevron-right-heavy"></i> <span><a href="https://melapress.com/blog/">Blog</a></span> <i class="icon-chevron-right-heavy"></i> <span><a href="https://melapress.com/wordpress-security-category/">WordPress Security</a></span> <i class="icon-chevron-right-heavy"></i> <span class="breadcrumb_last" aria-current="page">Fix publicly exposed WordPress files</span></span></p>
+		<div class="wp-block-group alignfull is-layout-constrained is-style-mp-gradient-background">
+
+			
+					<div class="melapress-post-feature-image-container">
+						
+			<div class="post-thumbnail">
+				<img width="768" height="404" src="https://melapress.com/wp-content/uploads/2021/08/featured-exposed-backup-and-unreferenced-files.jpeg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Exposed backup and unreferenced files" decoding="async" fetchpriority="high" srcset="https://melapress.com/wp-content/uploads/2021/08/featured-exposed-backup-and-unreferenced-files.jpeg 768w, https://melapress.com/wp-content/uploads/2021/08/featured-exposed-backup-and-unreferenced-files-480x253.jpeg 480w" sizes="(max-width: 768px) 100vw, 768px" />			</div><!-- .post-thumbnail -->
+
+								<div class="entry-meta mp-mt-50 mp-text-uppercase has-small-font-size">
+							<span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://melapress.com/author/nitish/">Nitish Kumar</a></span> </span><span class="posted-on">On <time class="entry-date updated" datetime="2023-10-11T15:30:02+02:00">11 October, 2023</time><time class="published" datetime="2023-10-11T15:30:00+02:00">11 October, 2023</time></span>						</div><!-- .entry-meta -->
+					</div>
+
+					<div id="melapress-post-scroll-container" class="alignfull mp-mt-0">
+
+						<div class="melapress-empty"></div>
+
+						<div class="melapress-post mp-mb-70">
+							
+<article id="post-1613" class="post-1613 post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress-security-category tax_melapress_plugins-websitefilechangesmonitor">
+			<header class="entry-header is-root-container">
+			<h1 class="entry-title has-x-large-font-size mp-mt-50 ">Fix publicly exposed WordPress files</h1>		</header><!-- .entry-header -->
+	
+	<div class="entry-content is-root-container">
+		
+<p>Fixing publicly exposed WordPress files can mitigate vulnerabilities caused by misconfiguration of your WordPress website. Because leaving certain WordPress files exposed can result in bad actors gaining unauthorized access to your website, fixing access to such files is very important.</p>
+
+
+
+<p>In this tutorial, you will learn how to make your WordPress websites more secure by improving the privacy of files and directories that you might have unintentionally left exposed.</p>
+
+
+
+<h2 class="wp-block-heading" id="h-need-for-improving-wordpress-file-privacy-and-security">Need for improving WordPress file privacy and security</h2>
+
+
+
+<p>While people need access to some files on your website to navigate and use it properly, there are some other files and directories, such as wp-config.php and wp-admin, which should be protected against public access.</p>
+
+
+
+<p>Having access to these files and directories can provide visitors with unauthorized access to your website. Improved file privacy will limit the access of malicious actors to these files and safeguard your website.</p>
+
+
+
+<p>For example, <a href="https://melapress.com/what-is-wp-config-php-file/">wp-config.php is an important WordPress file</a> that contains sensitive information critical for your website. This includes the credentials required to access the database, which stores all the information related to your website. As such. it is important that wp-config.php isn’t exposed so that any sensitive information that it contains isn’t leaked.</p>
+
+
+
+<p>Your users trust your website with their data. Therefore, you should try your best to protect any information they provide you from malicious actors. This is also important for complying with regulations such as GDPR and PCI-DSS, among others. Hardening the security and privacy around some of the publicly exposed WordPress files goes a long way in doing that.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-attack-prevention">Attack prevention</h3>
+
+
+
+<p>It is also important to protect wp-admin. Should someone gain access to the admin area, they might try to <a href="https://melapress.com/wordpress-security-glossary/backdoor/">install backdoors to your WordPress website</a> in a variety of places, such as themes, plugins, and the wp-includes directory for future access or other malicious motives.</p>
+
+
+
+<p>Any exposed WordPress files might also be susceptible to a variety of attacks. <a href="https://melapress.com/wordpress-security-glossary/sql-injection/">SQL Injection</a> and <a href="https://melapress.com/wordpress-security-glossary/cross-site-scripting-xss/">cross-site scripting (XSS for short) attacks</a> are two common types of attacks. Weak privacy settings for important <a href="https://melapress.com/wordpress-file-system-structure/">WordPress files</a> can result in attackers injecting harmful code into your files and compromising data.</p>
+
+
+
+<p>Another risk of publicly exposed files is that someone might be able to inject inappropriate content or ads inside your blog posts etc. Not only does this result in a bad user experience, but it also gives your brand a bad reputation.</p>
+
+
+
+<p>As you can see, it is very important that you reduce the exposure of different files in your WordPress websites. Following <a href="https://melapress.com/wordpress-security-principle-of-least-privileges/">the principle of least privilege</a>, people should only be able to access what they need to accomplish their tasks.</p>
+
+
+
+<h2 class="wp-block-heading" id="h-disable-directory-browsing">Disable directory browsing</h2>
+
+
+
+<p>Different directories on a website generally have an index page. In the case of WordPress, it could either be index.html or index.php. This index page serves as the entry point into the directory.</p>
+
+
+
+<p>For example, let’s say you have a directory called /products/ on your website. If you have an index.php file inside the directory, then someone visiting either https://your-website.com/products/ or https://your-website.com/products/index.php will be served the content from the index.php file. In other words, someone visiting either the directory or the index page gets served the index page if it is available.</p>
+
+
+
+<p>If you don’t have an index file in a directory, someone who visits https://your-website.com/products/ will get a list of all the files and sub-directories in that directory.</p>
+
+
+
+<p>When <a href="https://melapress.com/wordpress-security-glossary/directory-listing/">directory listing</a> isn’t disabled, the ability of visitors to see the contents of a directory can become a security issue. Bad actors can exploit it to either gain access to your website or do other damage.</p>
+
+
+
+<p>There are multiple ways in which you can disable directory browsing, including:</p>
+
+
+
+<h3 class="wp-block-heading" id="h-using-a-htaccess-file">Using a .htaccess file</h3>
+
+
+
+<p>If you want to disable directory browsing for a particular directory, you can create a .htaccess file in the directory and add the following line to it.</p>
+
+
+
+<pre class="wp-block-code"><code>Options -Indexes</code></pre>
+
+
+
+<p>This line will disable directory browsing for the directory where this file is located. You can add this line to the root of your WordPress installation to disable directory browsing site-wide.</p>
+
+
+
+<p>Anyone who tries to visit a directory with no index file now will get a 403 Forbidden error instead of getting a list of files and sub-directories inside the directory.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-using-the-cpanel-controls">Using the cPanel controls</h3>
+
+
+
+<p>If your <a href="https://melapress.com/best-wordpress-hosting/">WordPress hosting provider</a> provides access to a hosting control panel such as cPanel, you can also disable directory browsing through its admin area.</p>
+
+
+
+<p>Log into your cPanel account and scroll down until you see the <strong>Advanced </strong>section, which lists <strong>Indexes </strong>as one of its menu options, as shown below.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://melapress.com/wp-content/uploads/2023/10/cpanel-advanced-indexes.jpg"><img decoding="async" width="850" height="299" src="https://melapress.com/wp-content/uploads/2023/10/cpanel-advanced-indexes.jpg" alt="Directory index in cPanel Advanced menu" class="wp-image-10677" srcset="https://melapress.com/wp-content/uploads/2023/10/cpanel-advanced-indexes.jpg 850w, https://melapress.com/wp-content/uploads/2023/10/cpanel-advanced-indexes-480x169.jpg 480w, https://melapress.com/wp-content/uploads/2023/10/cpanel-advanced-indexes-768x270.jpg 768w" sizes="(max-width: 850px) 100vw, 850px" /></a></figure>
+
+
+
+<p>Click on <strong>Indexes</strong>, and it will show you a list of directories. You can click the <strong>Edit </strong>button beside each directory to specify the indexing settings for that directory. The four indexing options are:</p>
+
+
+
+<ul>
+<li>Inherit — This mode will tell the directory to use its parent directory’s setting</li>
+
+
+
+<li>No Indexing — This means that no files or sub-directories will appear on the front end if the index file is missing</li>
+
+
+
+<li>Show Filename Only — This means that users will see a simple list of files</li>
+
+
+
+<li>Show Filename and Description — This means that the users will see a list of files along with their size and type</li>
+</ul>
+
+
+
+<p>You need to select the <strong>No Indexing</strong> option for the home directory. All other directories need the <strong>Inherit </strong>option enabled.<br>This will disable directory browsing for all the directories on your website.</p>
+
+
+
+<h2 class="wp-block-heading" id="h-protect-wordpress-uploads-directory">Protect WordPress uploads directory</h2>
+
+
+
+<p>All the media files that you upload on your website go into the <strong>uploads </strong>folder present under <strong>wp-content</strong> in your WordPress installation. This directory plays an important role in storing and managing your media files.</p>
+
+
+
+<p>If your website allows user-generated content to be uploaded to the server through the use of different forms or plugins, it will also be stored in the uploads directory. This makes it very important to properly secure the uploads directory.</p>
+
+
+
+<p>Bad actors will usually try to upload malware on websites where user content or files can be uploaded. This makes it very important for you to sanitize and validate all uploaded files. You should also implement file type restrictions and set proper file permissions.</p>
+
+
+
+<p>You should also have content moderation and usage restrictions in place if you decide to allow users to upload files. There should be clear guidelines on what type of files they can upload and what are the size limits.</p>
+
+
+
+<p>Also, make sure that you have disabled PHP execution within the uploads directory. This is disabled by default. However, you should double-check that any server configuration settings or .htaccess rules aren’t allowing PHP execution within the directory.</p>
+
+
+
+<p>You can also explicitly disable PHP execution by adding the following code to the <strong>.htaccess</strong> file within the <strong>wp-content/uploads</strong> directory.</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;Files *.php&gt;
+deny from all
+&lt;/Files&gt;
+</code></pre>
+
+
+
+<h2 class="wp-block-heading" id="h-protect-the-wp-includes-directory">Protect the wp-includes directory</h2>
+
+
+
+<p>The wp-includes directory contains all the WordPress core files required for your website&#8217;s proper functioning. The core files can be CSS files used for styling, JavaScript files and libraries used for frontend interactions, and PHP classes and functions that handle the backend or server side of your website.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-ensure-that-the-files-and-directories-have-the-right-permissions">Ensure that the files and directories have the right permissions</h3>
+
+
+
+<p>When you install WordPress, the permissions of all the files and directories inside wp-includes are automatically set to recommended values. However, you should regularly check if those values are still what they are supposed to be.</p>
+
+
+
+<p>The directories should have permission 755, while the files are supposed to have permission 644. The 755 permission gives the owner full read, write, and execute access while everyone else has read and execute permissions. The 644 permission gives the owner read and write access while everyone else just has read access.</p>
+
+
+
+<p>You might want to read our tutorial on <a href="https://melapress.com/wordpress-file-permissions-guide-secure-website-server/">configuring secure WordPress website and web server permissions</a> to better understand what these different values mean.</p>
+
+
+
+<figure class="wp-block-image size-full"><a href="https://melapress.com/wp-content/uploads/2023/10/webserver-folders-files-permissions.jpg"><img decoding="async" width="850" height="266" src="https://melapress.com/wp-content/uploads/2023/10/webserver-folders-files-permissions.jpg" alt="Folder and file permissions on the webserver" class="wp-image-10678" srcset="https://melapress.com/wp-content/uploads/2023/10/webserver-folders-files-permissions.jpg 850w, https://melapress.com/wp-content/uploads/2023/10/webserver-folders-files-permissions-480x150.jpg 480w, https://melapress.com/wp-content/uploads/2023/10/webserver-folders-files-permissions-768x240.jpg 768w" sizes="(max-width: 850px) 100vw, 850px" /></a></figure>
+
+
+
+<p>You can see and update the existing permissions either by using the control panels like cPanel that most web hosts provide or through FTP applications such as FileZilla. Having proper permissions set up reduces the chances of someone executing malicious code.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-use-htaccess-to-limit-access">Use .htaccess to limit access</h3>
+
+
+
+<p>The .htaccess file can prove very useful if you are planning to restrict user access to certain files and directories. WordPress.org officially recommends that you <a href="https://wordpress.org/documentation/article/hardening-wordpress/#securing-wp-includes" target="_blank" rel="noreferrer noopener">add the following snippet to your root .htaccess file to improve security</a>.</p>
+
+
+
+<pre class="wp-block-code"><code># Block the include-only files.
+&lt;IfModule mod_rewrite.c&gt;
+RewriteEngine On
+RewriteBase /
+RewriteRule ^wp-admin/includes/ - &#91;F,L]
+RewriteRule !^wp-includes/ - &#91;S=3]
+RewriteRule ^wp-includes/&#91;^/]+\.php$ - &#91;F,L]
+RewriteRule ^wp-includes/js/tinymce/langs/.+\.php - &#91;F,L]
+RewriteRule ^wp-includes/theme-compat/ - &#91;F,L]
+&lt;/IfModule&gt;
+</code></pre>
+
+
+
+<p>Make sure that you put these rules outside of the # BEGIN WordPress and # END WordPress tags. Otherwise, there is a chance that WordPress might overwrite them in the future.</p>
+
+
+
+<p>The primary purpose of these lines is to block access to files and folders within the wp-includes directory.</p>
+
+
+
+<p>On the fifth line, we are preventing users from accessing files or directories within the wp-admin/includes/ path. The F flag indicates that the server should return a 403 Forbidden error message. The L flag indicates that no other rules should be processed.</p>
+
+
+
+<p>The next rule allows all requests that don’t start with wp-includes to skip the next three rules and proceed without interruption. The next three rules determine how requests for PHP files within the wp-includes directory should be processed. These rules simply block access to different directories and files by returning a 403 Forbidden error message.</p>
+
+
+
+<p>There are many other rules that you can add to your .htaccess file to improve WordPress security. We have discussed them in detail in our <a href="https://melapress.com/definite-guide-htaccess-wordpress/">definitive guide to WordPress .htaccess file</a>.</p>
+
+
+
+<h2 class="wp-block-heading" id="h-fixing-publicly-exposed-php-ini-file">Fixing publicly exposed php.ini file</h2>
+
+
+
+<p>PHP installations usually have a php.ini file, also called the configuration file. It is read every time PHP starts up. The php.ini file is responsible for determining how the PHP engine will behave at runtime.</p>
+
+
+
+<p>There are several factors that can result in a publicly exposed php.ini file such as a misconfigured server which causes the php.ini file to be placed in a publicly accessible directory. You might also have references to the php.ini file in your backups.</p>
+
+
+
+<p>If the php.ini file is publicly exposed and is writable, it can pose serious threats as attackers will now be able to change the configuration of your PHP extensions or libraries, enable or disable PHP functions, change error reporting settings, change resource limits, etc.</p>
+
+
+
+<p>Our tutorial on protecting the wp-config.php file discusses how you can restrict access to the wp-config.php file through a directive in the .htaccess file. You can use the same directive to protect the php.ini file by using the following code:</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;Files php\.ini&gt;
+order allow,deny
+deny from all
+&lt;/Files&gt;
+</code></pre>
+
+
+
+<p>You should also ensure you set up the proper permissions for the php.ini file to prevent unauthorized access. In most cases, you will want to set the file permissions to 600 so that only the owner of the file has read and write access to it.</p>
+
+
+
+<p>As we mentioned earlier, the php.ini file can contain configuration options that enable or disable different functions and extensions. You should consider going through all the enabled extensions and see if you can disable some of them without affecting existing functionality.</p>
+
+
+
+<h2 class="wp-block-heading" id="h-find-and-fix-exposed-backup-and-unreferenced-files">Find and fix exposed backup and unreferenced files</h2>
+
+
+
+<p>There are two primary reasons why you might have backup files on your server.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-file-changes">File changes</h3>
+
+
+
+<p>The first one is that you might want to make changes to a file. However, it is always a good idea to have a backup of the original. So, you make a copy of the original. This way, you can update the original file and roll back any undesired changes in case they didn’t work as expected. This might be the case for files such as wp-config.php where you create a backup file and call it wp-config.php.bkp.</p>
+
+
+
+<p>However, that backup file left in the folder (just in case, you know) can end up being the source of many aches and pains. Chances are pretty much anyone can download it and, with it, the entire configuration, in plain text, no less.</p>
+
+
+<style id="eos-video-35c8cb23-css">.vc-inner iframe,.eosb_video-bg iframe{ max-width:none } .eosb_video-bg{ height:100%; overflow:hidden; pointer-events:none; position:absolute; top:0; left:0; width:100%; z-index:0 } .eosb_video-el-width- .eosb_wrapper{ width:% } .eosb_video_widget .eosb_video_wrapper{ padding-top:56.25%; position:relative; width:100% } .eosb_video_wrapper>div{ padding-top:0!important; position:static } .eosb_video-aspect-ratio-169 .eosb_video_wrapper{ padding-top:56.25% } .eosb_video-aspect-ratio-43 .eosb_video_wrapper{ padding-top:75% } .eosb_video-aspect-ratio-235 .eosb_video_wrapper{ padding-top:42.55319149% } .eosb_video_widget .eosb_wrapper iframe{ width:100%; height:100%; display:block; position:absolute; margin:0; top:0; left:0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box }</style>
+	<div class="eosb_video_widget eosb_content_element eosb_clearfix wp-embed-aspect-4-3 wp-has-aspect-ratio eosb_video-aspect-ratio-169 eosb_video-el-width-100" style="position:relative">
+		<div class="eosb_wrapper" style="position:relative"><div id="eos-video-35c8cb23" class="eosb_video_wrapper" style="background-image:url(https://img.youtube.com/vi/yiVwRYo1j50/maxresdefault.jpg);background-size:cover;background-repeat:no-repeat;background-position:center"><div id="eos-video-35c8cb23-btn" class="melapress-video-button hover" style="position:absolute;width:8rem;height:8rem;top:50%;left:50%;right:50%;margin-top:-4rem;margin-bottom:-4rem;margin-left:-4rem;margin-right:-4rem;border-radius:50%;box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2);background-color:#fff"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.93 54.64" style="position:absolute;top:30%;left:34%;height:40%;width:auto"><defs><clipPath id="a"><path d="M47.91 29.06 2.98 54.38c-.96.54-2.18.2-2.73-.76-.17-.3-.26-.64-.26-.98V2C0 .9.89 0 2 0c.34 0 .68.09.98.26l44.93 25.32a1.999 1.999 0 0 1 0 3.48Z" style="clip-rule:evenodd;fill:none"/></clipPath></defs><g style="clip-path:url(#a)"><path d="M-1-1h51.21v56.93H-1z" style="fill:var(--wp--preset--color--brand-1)"/></g></svg></div><img decoding="async" style="position:absolute;top:50%;left:50%;right:50%;width:32px;height:32px;margin:-16px;display:none" src="https://melapress.com/wp-content/themes/melapress2023/img/ajax-loader.gif" /><div id="eos-video-35c8cb23-iframe" width="500" height="310.6" allowfullscreen></div>    <script>
+        document.getElementById("eos-video-35c8cb23-btn").addEventListener("click", function(){
+            var d=document.getElementById("eos-video-35c8cb23-iframe"),
+                i=document.createElement("iframe");
+            if(d){
+                document.getElementById("eos-video-35c8cb23-btn").parentNode.getElementsByTagName("img")[0].style.display="inline-block";i.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";i.src="https://www.youtube-nocookie.com/embed/yiVwRYo1j50?rel=0&autoplay=1";
+                i.width="'.esc_js( esc_attr( $video_w ) ).'";
+                i.height="'.esc_js( esc_attr( round( $video_h,1 ) ) ).'";
+                d.parentNode.replaceChild(i,d);
+            }
+        });
+    </script>
+    </div></div></div>
+
+
+<h3 class="wp-block-heading" id="h-file-backups">File backups</h3>
+
+
+
+<p>The second reason you might have backup files on the server is that you stored your whole backup there. Unfortunately, it’s not uncommon for WordPress website owners and administrators to configure cron jobs (scheduled tasks) to take database backups, only to store these backups on the same server.</p>
+
+
+
+<p>While you most certainly should be backing up your website, take care that the backup files are not stored anywhere on the system you backed up. After all, backups are not worth much if you cannot use them to restore data.</p>
+
+
+
+<p>Moreover, many WordPress administrators may not be aware that editing files in place using a file editor such as Vim may automatically create backup, recovery, and lock files. Vim creates these files to allow you to recover your work if Vim crashes or quits unexpectedly. While this is unquestionably a valuable feature to have, it also means that you may inadvertently end up with backup files you never intended to create sprinkled around your website, waiting for anyone to access.</p>
+
+
+<style id="eos-video-a7f730bc-css">.vc-inner iframe,.eosb_video-bg iframe{ max-width:none } .eosb_video-bg{ height:100%; overflow:hidden; pointer-events:none; position:absolute; top:0; left:0; width:100%; z-index:0 } .eosb_video-el-width- .eosb_wrapper{ width:% } .eosb_video_widget .eosb_video_wrapper{ padding-top:56.25%; position:relative; width:100% } .eosb_video_wrapper>div{ padding-top:0!important; position:static } .eosb_video-aspect-ratio-169 .eosb_video_wrapper{ padding-top:56.25% } .eosb_video-aspect-ratio-43 .eosb_video_wrapper{ padding-top:75% } .eosb_video-aspect-ratio-235 .eosb_video_wrapper{ padding-top:42.55319149% } .eosb_video_widget .eosb_wrapper iframe{ width:100%; height:100%; display:block; position:absolute; margin:0; top:0; left:0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box }</style>
+	<div class="eosb_video_widget eosb_content_element eosb_clearfix wp-embed-aspect-4-3 wp-has-aspect-ratio eosb_video-aspect-ratio-169 eosb_video-el-width-100" style="position:relative">
+		<div class="eosb_wrapper" style="position:relative"><div id="eos-video-a7f730bc" class="eosb_video_wrapper" style="background-image:url(https://img.youtube.com/vi/ZClIQeGww2M/maxresdefault.jpg);background-size:cover;background-repeat:no-repeat;background-position:center"><div id="eos-video-a7f730bc-btn" class="melapress-video-button hover" style="position:absolute;width:8rem;height:8rem;top:50%;left:50%;right:50%;margin-top:-4rem;margin-bottom:-4rem;margin-left:-4rem;margin-right:-4rem;border-radius:50%;box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2);background-color:#fff"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.93 54.64" style="position:absolute;top:30%;left:34%;height:40%;width:auto"><defs><clipPath id="a"><path d="M47.91 29.06 2.98 54.38c-.96.54-2.18.2-2.73-.76-.17-.3-.26-.64-.26-.98V2C0 .9.89 0 2 0c.34 0 .68.09.98.26l44.93 25.32a1.999 1.999 0 0 1 0 3.48Z" style="clip-rule:evenodd;fill:none"/></clipPath></defs><g style="clip-path:url(#a)"><path d="M-1-1h51.21v56.93H-1z" style="fill:var(--wp--preset--color--brand-1)"/></g></svg></div><img decoding="async" style="position:absolute;top:50%;left:50%;right:50%;width:32px;height:32px;margin:-16px;display:none" src="https://melapress.com/wp-content/themes/melapress2023/img/ajax-loader.gif" /><div id="eos-video-a7f730bc-iframe" width="500" height="310.6" allowfullscreen></div>    <script>
+        document.getElementById("eos-video-a7f730bc-btn").addEventListener("click", function(){
+            var d=document.getElementById("eos-video-a7f730bc-iframe"),
+                i=document.createElement("iframe");
+            if(d){
+                document.getElementById("eos-video-a7f730bc-btn").parentNode.getElementsByTagName("img")[0].style.display="inline-block";i.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";i.src="https://www.youtube-nocookie.com/embed/ZClIQeGww2M?rel=0&autoplay=1";
+                i.width="'.esc_js( esc_attr( $video_w ) ).'";
+                i.height="'.esc_js( esc_attr( round( $video_h,1 ) ) ).'";
+                d.parentNode.replaceChild(i,d);
+            }
+        });
+    </script>
+    </div></div></div>
+
+
+<p>Common examples of backup files include renamed old versions of modified configuration files, PHP files, or other source code, and automatic or manual backups in the form of compressed archives (such as .zip, .gz, or .tar.gz archives).</p>
+
+
+
+<p>On the other hand, unreferenced files are misplaced files that, due to a configuration or design decision, end up somewhere where they do not belong.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-risks-involved-in-keeping-these-files">Risks involved in keeping these files</h3>
+
+
+
+<p>Backup and unreferenced files accidentally left accessible may leak sensitive information. Depending on the file, sensitive data can include configuration parameters or source code that help malicious users better understand how your website works, thus making it easier to craft an attack against your website. In some cases, passwords that may give attackers control over the entire WordPress installation can also be leaked.</p>
+
+
+
+<p>There are several ways someone can find leftover files on your web server. While some of the methods require some technical expertise, others are as simple as a Google search, which increases the risk of exposure. If you’re unsure whether you have leftover files on your server, continue reading to learn how you can search for them and find them before someone else does.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-finding-backup-files-and-unreferenced-files">Finding backup files and unreferenced files</h3>
+
+
+
+<p>There are a few different methods someone can use to find backup and unreferenced files. As the server owner, you have the edge since you can go about it more directly. This section will explore these different tools, starting with the tools you can use to hunt and remove these files. We will then look at how a curious cat might go about finding backup and unreferenced files on your server.</p>
+
+
+
+<p>When looking for backup files you may have left behind on your web server, you can take one (or more) of three approaches. The easiest way is to install a plugin that monitors files for changes.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-file-integrity-monitoring-plugin">File integrity monitoring plugin</h3>
+
+
+
+<p>A <a href="https://melapress.com/wordpress-file-integrity-scanning-site/">file integrity monitoring solution for WordPress</a> can effortlessly help monitor file changes on your web server and alert you if it detects anything has been added, removed, or changed.</p>
+
+
+
+<p>This can be achieved with the <a href="https://wordpress.org/plugins/website-file-changes-monitor/" target="_blank" rel="noreferrer noopener">WordPress File Changes Monitor</a> plugin. The plugin has a lot of features, and one of them is that it takes a hash of your directories and then compares it to subsequent fingerprints. In essence, it works on the same principles as a checksum, making it highly secure and reliable.</p>
+
+
+
+<p>A file integrity monitor can be especially effective if you’re not privy to all of the directories used by WordPress. Another significant advantage of this plugin is that monitoring is automated, so you do not have to remember to check for files – the plugin does it automatically.</p>
+
+
+
+<h3 class="wp-block-heading" id="h-use-command-line-tools-to-find-the-files">Use command line tools to find the files</h3>
+
+
+
+<p>Your cPanel account should give you access to a terminal that you can use to run some basic commands to find various files. Once you have logged into your cPanel account, look for a section titled Advanced, and you should see the option to open Terminal inside it. You can also accomplish this task with SSH using clients such as PuTTY.</p>
+
+
+
+<p>Click on the terminal, and you will be asked if you want to proceed. Confirm that you would like to go ahead, and after a few moments, you will see the terminal.&nbsp;</p>
+
+
+
+<p>We will use the find command to look for files with specific extensions such as <strong>.bak</strong>, <strong>.backup,</strong> or .zip, etc. We also look for files with prefixes such as bak- or old_, etc.</p>
+
+
+
+<p>In this particular case, we are looking for files within the <strong>/var/www</strong> directory. You might need to provide a different directory, depending on your hosting setup.</p>
+
+
+
+<p>Enter the following code into the terminal:</p>
+
+
+
+<pre class="wp-block-code"><code>find /var/www -type f ( -name ‘*.bak’ -o -name ‘*.backup’ -o -name ‘*.bac’ -o -name ‘*.zip’ -o -name ‘*.tar’ -o -name ‘*.jar’ -o -name ‘*.log’ -o -name ‘*.swp’ -o -name ‘*~’ -o -name ‘*.old’ -o -name ‘*.~bk’ -o -name ‘*.orig’ -o -name ‘*.tmp’ -o -name ‘*.exe’ -o -name ‘*.0’ -o -name ‘*.1’ -o -name ‘*.2’ -o -name ‘*.3’ -o -name ‘*.gz’ -o -name ‘*.bz2’ -o -name ‘*.7z’ -o -name ‘*.s7z’ -o -name ‘*.lz’ -o -name ‘*.z’ -o -name ‘*.lzma’ -o -name ‘*.lzo’ -o -name ‘*.apk’ -o -name ‘*.cab’ -o -name ‘*.rar’ -o -name ‘*.war’ -o -name ‘*.ear’ -o -name ‘*.tar.gz’ -o -name ‘*.tgz’ -o -name ‘*.tar.z’ -o -name ‘*.tar.bz2’ -o -name ‘*.tbz2’ -o -name ‘*.tar.lzma’ -o -name ‘*.tlz’ -o -name ‘*.zipx’ -o -name ‘*.iso’ -o -name ‘*.src’ -o -name ‘*.dev’ -o -name ‘*.a’ -o -name ‘*.ar’ -o -name ‘*.cbz’ -o -name ‘*.cpio’ -o -name ‘*.shar’ -o -name ‘*.lbr’ -o -name ‘*.mar’ -o -name ‘*.f’ -o -name ‘*.rz’ -o -name ‘*.sfark’ -o -name ‘*.xz’ -o -name ‘*.ace’ -o -name ‘*.afa’ -o -name ‘*.alz’ -o -name ‘*.arc’ -o -name ‘*.arj’ -o -name ‘*.ba’ -o -name ‘*.bh’ -o -name ‘*.cfs’ -o -name ‘*.cpt’ -o -name ‘*.dar’ -o -name ‘*.dd’ -o -name ‘*.dgc’ -o -name ‘*.dmg’ -o -name ‘*.gca’ -o -name ‘*.ha’ -o -name ‘*.hki’ -o -name ‘*.ice’ -o -name ‘*.inc’ -o -name ‘*.j’ -o -name ‘*.kgb’ -o -name ‘*.lhz’ -o -name ‘*.lha’ -o -name ‘*.lzk’ -o -name ‘*.pak’ -o -name ‘*.partimg.’ -o -name ‘*.paq6’ -o -name ‘*.paq7’ -o -name ‘*.paq8’ -o -name ‘*.pea’ -o -name ‘*.pim’ -o -name ‘*.pit’ -o -name ‘*.qda’ -o -name ‘*.rk’ -o -name ‘*.sda’ -o -name ‘*.sea’ -o -name ‘*.sen’ -o -name ‘*.sfx’ -o -name ‘*.sit’ -o -name ‘*.sitx’ -o -name ‘*.sqx’ -o -name ‘*s.xz’ -o -name ‘*.tar.7z’ -o -name ‘*.tar.xz’ -o -name ‘*.uc’ -o -name ‘*.uc0’ -o -name ‘*.uc2’ -o -name ‘*.ucn’ -o -name ‘*.ur2’ -o -name ‘*.ue2’ -o -name ‘*.uca’ -o -name ‘*.uha’ -o -name ‘*.wim’ -o -name ‘*.xar’ -o -name ‘*.xp3’ -o -name ‘*.yz1’ -o -name ‘*.zoo’ -o -name ‘*.zpaq’ -o -name ‘*.zz’ -o -name ‘*.include’ -o -name ‘*_1’ -o -name ‘*_2’ -o -name ‘*_x’ -o -name ‘*bak’ -o -name ‘*_bak’ -o -name ‘*old’ -o -name ‘*_old’ -o -name ‘*_a’ -o -name ‘*_b’ -o -name ‘*_c’ -o -name ‘*_d’ -o -name ‘*_e’ -o -name ‘*_f’ -o -name ‘*inc’ -o -name ‘*_inc’ -o -name ‘*_backup’ -o -name ‘* – Copy’ -o -name ‘* – Copy (2)’ -o -name ‘* – Copy (3)’ -o -name ‘*backup’ -o -name ‘*-backup’ -o -name ‘*-bak’ -o -name ‘*-old’ -o -name ‘*-1’ -o -name ‘*-2’ -o -name ‘* – Copy – Copy’ -o -name ‘*(copy)’ -o -name ‘*(another copy)’ -o -name ‘*(second copy)’ -o -name ‘*(third copy)’ -o -name ‘*(fourth copy)’ -o -name ‘*(2nd copy)’ -o -name ‘*(3rd copy)’ -o -name ‘*(4th copy)’ -o -name ‘* (copy)’ -o -name ‘* (another copy)’ -o -name ‘* (second copy)’ -o -name ‘* (third copy)’ -o -name ‘* (fourth copy)’ -o -name ‘* (2nd copy)’ -o -name ‘* (3rd copy)’ -o -name ‘* (4th copy)’ -o -name ‘Copy of *’ -o -name ‘Copy (2) of *’ -o -name ‘Copy (3) of *’ -o -name ‘Copy of Copy of *’ -o -name ‘backup*’ -o -name ‘backup_*’ -o -name ‘backup-*’ -o -name ‘bak*’ -o -name ‘bak_*’ -o -name ‘bak-*’ -o -name ‘old*’ -o -name ‘old_*’ -o -name ‘old-*’ -o -name ‘1*’ -o -name ‘1_*’ -o -name ‘1-*’ -o -name ‘2*’ -o -name ‘2_*’ -o -name ‘2-*’ )</code></pre>
+
+
+
+<h3 class="wp-block-heading" id="h-fuzzing">Fuzzing</h3>
+
+
+
+<p>Fuzzing allows you to find security vulnerabilities in your website by helping you look for some rogue files with unexpected names. FFUF is a popular open-source project that lets you fuzz faster using the command line. You can read this excellent tutorial to <a href="https://codingo.io/tools/ffuf/bounty/2020/09/17/everything-you-need-to-know-about-ffuf.html" target="_blank" rel="noreferrer noopener">get started with FFUF</a>.</p>
+
+
+
+<p>Basically, we will be making a bunch of requests to different files based on a list of words that have been put together by a variety of knowledgeable people. You can find the whole collection in the <a href="https://github.com/danielmiessler/SecLists/" target="_blank" rel="noreferrer noopener">GitHub repository SecLists</a>.</p>
+
+
+
+<p>In this particular case, we want to focus on WordPress-related terminology. Therefore, we head over to Discovery/Web-Content/CMS/wordpress.fuzz.txt to get our word list. Our interest is in looking for backup files, so we execute the following command, which checks for the extensions .bak and .backup, which are common backup extensions. You will want to expand this list for a more exhaustive search.</p>
+
+
+
+<pre class="wp-block-code"><code>ffuf -u http://example.com/FUZZ -w wordlist.txt -e ‘.bak,.backup’</code></pre>
+
+
+<style id="eos-video-2efbaa9f-css">.vc-inner iframe,.eosb_video-bg iframe{ max-width:none } .eosb_video-bg{ height:100%; overflow:hidden; pointer-events:none; position:absolute; top:0; left:0; width:100%; z-index:0 } .eosb_video-el-width- .eosb_wrapper{ width:% } .eosb_video_widget .eosb_video_wrapper{ padding-top:56.25%; position:relative; width:100% } .eosb_video_wrapper>div{ padding-top:0!important; position:static } .eosb_video-aspect-ratio-169 .eosb_video_wrapper{ padding-top:56.25% } .eosb_video-aspect-ratio-43 .eosb_video_wrapper{ padding-top:75% } .eosb_video-aspect-ratio-235 .eosb_video_wrapper{ padding-top:42.55319149% } .eosb_video_widget .eosb_wrapper iframe{ width:100%; height:100%; display:block; position:absolute; margin:0; top:0; left:0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box }</style>
+	<div class="eosb_video_widget eosb_content_element eosb_clearfix wp-embed-aspect-4-3 wp-has-aspect-ratio eosb_video-aspect-ratio-169 eosb_video-el-width-100" style="position:relative">
+		<div class="eosb_wrapper" style="position:relative"><div id="eos-video-2efbaa9f" class="eosb_video_wrapper" style="background-image:url(https://img.youtube.com/vi/oflpZO29Z8o/maxresdefault.jpg);background-size:cover;background-repeat:no-repeat;background-position:center"><div id="eos-video-2efbaa9f-btn" class="melapress-video-button hover" style="position:absolute;width:8rem;height:8rem;top:50%;left:50%;right:50%;margin-top:-4rem;margin-bottom:-4rem;margin-left:-4rem;margin-right:-4rem;border-radius:50%;box-shadow:0px 5px 15px 0px rgba(0,0,0,0.2);background-color:#fff"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.93 54.64" style="position:absolute;top:30%;left:34%;height:40%;width:auto"><defs><clipPath id="a"><path d="M47.91 29.06 2.98 54.38c-.96.54-2.18.2-2.73-.76-.17-.3-.26-.64-.26-.98V2C0 .9.89 0 2 0c.34 0 .68.09.98.26l44.93 25.32a1.999 1.999 0 0 1 0 3.48Z" style="clip-rule:evenodd;fill:none"/></clipPath></defs><g style="clip-path:url(#a)"><path d="M-1-1h51.21v56.93H-1z" style="fill:var(--wp--preset--color--brand-1)"/></g></svg></div><img decoding="async" style="position:absolute;top:50%;left:50%;right:50%;width:32px;height:32px;margin:-16px;display:none" src="https://melapress.com/wp-content/themes/melapress2023/img/ajax-loader.gif" /><div id="eos-video-2efbaa9f-iframe" width="500" height="310.6" allowfullscreen></div>    <script>
+        document.getElementById("eos-video-2efbaa9f-btn").addEventListener("click", function(){
+            var d=document.getElementById("eos-video-2efbaa9f-iframe"),
+                i=document.createElement("iframe");
+            if(d){
+                document.getElementById("eos-video-2efbaa9f-btn").parentNode.getElementsByTagName("img")[0].style.display="inline-block";i.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";i.src="https://www.youtube-nocookie.com/embed/oflpZO29Z8o?rel=0&autoplay=1";
+                i.width="'.esc_js( esc_attr( $video_w ) ).'";
+                i.height="'.esc_js( esc_attr( round( $video_h,1 ) ) ).'";
+                d.parentNode.replaceChild(i,d);
+            }
+        });
+    </script>
+    </div></div></div>
+
+
+<h3 class="wp-block-heading" id="h-an-alternative-to-backup-file-enumeration">An alternative to backup file enumeration</h3>
+
+
+
+<p>Keeping backup files on your WordPress website can be pretty risky. As such, you should always use a test or staging environment to carry out your changes before pushing them to the live/production server. Most managed WordPress hosting accounts come with a staging environment right out of the box. You can also use software such as <a href="https://localwp.com/" target="_blank" rel="noreferrer noopener">Flywheel Local</a>, which lets you spin up WordPress instances on your PC.</p>
+
+
+
+<p>Nevertheless, if you choose to keep backup files on your web server, ideally, keep them out of the directory you have configured your webserver to serve.</p>
+
+
+
+<h2 class="wp-block-heading" id="h-more-tips-to-eliminate-vulnerabilities">More tips to eliminate vulnerabilities</h2>
+
+
+
+<p>There are a few more general tips that you can follow to further improve the security of your site.</p>
+
+
+
+<ul>
+<li>Search engines rely on web scrapers or bots to scan your entire website for content. You can use a robots.txt file placed inside the root directory in order to guide them around and get better SEO results. For example, you can use this file to tell the bots which files to scrape or ignore. Unfortunately, the same file is also accessible to bad actors. Therefore, you should not place any sensitive information related to files on your website.</li>
+
+
+
+<li>It is also important that none of the web pages or the WordPress themes you are using on your website expose information such as the version of WordPress you are using. For example, WordPress installations by default, include information about the WordPress version in use inside the header. Similarly, the popular eCommerce plugin WooCommerce also adds its version information to the header. You should turn off the option to display this information through the WordPress admin area.</li>
+
+
+
+<li>Ensure that any of your installed WordPress plugins don’t display the information needed to publicly debug the website. Any debugging information should not be publicly visible in the production version of your web application.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading" id="h-conclusion">Conclusion</h2>
+
+
+
+<p>In this tutorial, you learned how to <a href="https://melapress.com/wordpress-security/">harden the security of a WordPress website</a> by restricting the access of users to different files and directories. Improving file privacy and protecting some of these files and directories from exposure prevents a lot of unfortunate situations, such as the injection of harmful code, leakage of sensitive data, and other security risks.</p>
+
+
+
+<p>Once you’ve fixed publicly exposed files, it’s also important to <a href="https://wordpress.org/plugins/website-file-changes-monitor/" target="_blank" rel="noreferrer noopener">start monitoring WordPress file changes</a>. Doing so helps you stay on top of any changes. You can then take immediate action and avoid unnecessary security risks.</p>
+<span class="cp-load-after-post"></span>	</div><!-- .entry-content -->
+
+	<footer class="entry-footer is-root-container">
+		<span class="cat-links"><span class="screen-reader-text">Posted in</span><a href="https://melapress.com/wordpress-security-category/" rel="category tag">WordPress Security</a></span>        							<div class="mp-mt-70 mp-px-50 mp-py-50 has-background has-light-background-color author-card">
+					<a href="https://melapress.com/author/nitish/" class="author-photo"><img width="100" height="100" src="https://melapress.com/wp-content/uploads/2023/09/nitish-kumar-150x150.jpg" class="avatar avatar-100 photo" alt="" decoding="async" loading="lazy" srcset="https://melapress.com/wp-content/uploads/2023/09/nitish-kumar-150x150.jpg 150w, https://melapress.com/wp-content/uploads/2023/09/nitish-kumar-24x24.jpg 24w, https://melapress.com/wp-content/uploads/2023/09/nitish-kumar-48x48.jpg 48w, https://melapress.com/wp-content/uploads/2023/09/nitish-kumar-96x96.jpg 96w, https://melapress.com/wp-content/uploads/2023/09/nitish-kumar-300x300.jpg 300w, https://melapress.com/wp-content/uploads/2023/09/nitish-kumar.jpg 400w" sizes="(max-width: 100px) 100vw, 100px" /></a>
+					<div class="author-info">
+						<span class="author-name vcard has-normal-font-size"><a class="mp-text-rounded" href="https://melapress.com/author/nitish/">Nitish Kumar</a></span>
+						<p class="author-description mp-mb-0">Nitish is a freelance web developer and technical writer with experience in various web development technologies, including WordPress. He specializes in developing eCommerce websites and likes to spend his free time working on personal projects or going out with friends.</p>
+					</div>
+				</div>
+							</footer><!-- .entry-footer -->
+</article><!-- #post-1613 -->
+						</div><!-- .melapress-post -->
+
+						<div class="melapress-sidebar">
+                            														
+			<div id="melapress__related_posts" class="">
+				<h3 class="mp-mb-50">
+					Related				</h3>
+				<div class="mp-row">
+					<div class="mp-col-12 mp-col-md-6 mp-mb-50">
+<article id="post-678" class="melapress-box mp-h-100 has-background has-light-background-color post post-678 type-post status-publish format-standard has-post-thumbnail hentry category-wordpress-security-category tax_melapress_plugins-websitefilechangesmonitor" style="border-bottom: var(--wp--preset--spacing--30) solid var(--wp--preset--color--websitefilechangesmonitor-light);">
+	<a href="https://melapress.com/wordpress-file-integrity-scanning-site/" rel="bookmark">
+		
+		<div class="melapress-post-thumbnail melapress-ratio-16x9">
+			<div class="content">
+				<img width="480" height="270" src="https://melapress.com/wp-content/uploads/2023/05/wordpress-file-integrity-scanning-site-480x270.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="File integrity scanning site" decoding="async" loading="lazy" srcset="https://melapress.com/wp-content/uploads/2023/05/wordpress-file-integrity-scanning-site-480x270.jpeg 480w, https://melapress.com/wp-content/uploads/2023/05/wordpress-file-integrity-scanning-site.jpeg 768w" sizes="(max-width: 480px) 100vw, 480px" /><span class="melapress-tab" style="border-color: transparent var(--wp--preset--color--websitefilechangesmonitor-light) transparent transparent;"></span>			</div><!-- .content -->
+		</div><!-- .melapress-post-thumbnail -->
+
+		</a>
+	<div class="melapress-box-content mp-py-50 mp-px-50">
+		<header class="entry-header">
+			<h3 class="entry-title has-small-font-size mp-mt-0 mp-mb-50"><a href="https://melapress.com/wordpress-file-integrity-scanning-site/" rel="bookmark">What is file integrity monitoring &#038; why you need it on your WordPress website?</a></h3>		</header><!-- .entry-header -->
+		<footer class="entry-footer has-x-small-font-size">
+			<span class="cat-links"><span class="screen-reader-text">Posted in</span><a href="https://melapress.com/wordpress-security-category/" rel="category tag">WordPress Security</a></span>					</footer><!-- .entry-footer -->
+	</div>
+</article><!-- #post-678 -->
+</div><div class="mp-col-12 mp-col-md-6 mp-mb-50">
+<article id="post-368" class="melapress-box mp-h-100 has-background has-light-background-color post post-368 type-post status-publish format-standard hentry category-wordpress-security-category" >
+	<a href="https://melapress.com/secure-mysql-user-wordpress-database-privileges/" rel="bookmark">
+		
+		<div class="melapress-post-thumbnail melapress-ratio-16x9">
+			<div class="content">
+				<img width="480" height="270" src="https://melapress.com/wp-content/uploads/2023/03/melapress-slide-padlock-480x270.png" class="attachment-thumbnail size-thumbnail" alt="Melapress padlock illustration" decoding="async" loading="lazy" srcset="https://melapress.com/wp-content/uploads/2023/03/melapress-slide-padlock-480x270.png 480w, https://melapress.com/wp-content/uploads/2023/03/melapress-slide-padlock-968x545.png 968w, https://melapress.com/wp-content/uploads/2023/03/melapress-slide-padlock-1320x743.png 1320w, https://melapress.com/wp-content/uploads/2023/03/melapress-slide-padlock-768x432.png 768w, https://melapress.com/wp-content/uploads/2023/03/melapress-slide-padlock-1536x864.png 1536w, https://melapress.com/wp-content/uploads/2023/03/melapress-slide-padlock.png 1600w" sizes="(max-width: 480px) 100vw, 480px" />			</div><!-- .content -->
+		</div><!-- .melapress-post-thumbnail -->
+
+		</a>
+	<div class="melapress-box-content mp-py-50 mp-px-50">
+		<header class="entry-header">
+			<h3 class="entry-title has-small-font-size mp-mt-0 mp-mb-50"><a href="https://melapress.com/secure-mysql-user-wordpress-database-privileges/" rel="bookmark">Why minimum MySQL user WordPress database privileges improve security</a></h3>		</header><!-- .entry-header -->
+		<footer class="entry-footer has-x-small-font-size">
+			<span class="cat-links"><span class="screen-reader-text">Posted in</span><a href="https://melapress.com/wordpress-security-category/" rel="category tag">WordPress Security</a></span>					</footer><!-- .entry-footer -->
+	</div>
+</article><!-- #post-368 -->
+</div>				</div><!-- .mp-row -->
+			</div><!-- #melapress__related_posts -->
+								</div><!-- .melapress-sidebar -->
+
+					</div><!-- .melapress-post-scroll-container -->
+
+					<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-wide">
+
+					<div class="is-layout-flow wp-block-group alignwide mp-pb-70">
+											</div>
+
+					<!--<div class="is-layout-flow wp-block-group alignwide mp-py-60">-->
+											<!--</div> -->
+
+			
+			<section class="melapress-block-torn-divider alignfull has-background has-darkest-background-color" id="melapress-block-torn-divider-block_a60b6139c4b56c2b9c828aa67260f5f4">    <svg class="mp-display-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1344.74 103.7"><path d="M1373.92 91.02c-7.01-10.3-21.19-15.21-27.32-11.36-41.48-9.93-16.18-5.83-26.84-14.27-10.44-8.26-8.74 3.35-16.09-.67-17.51-4.96-29.59 12.09-39.66 12.49-11.98 1.16-22.92-.24-23.58-8.89-5.89 3.67-18.5-4.04-26.91-6.13-23.65-5.86-1.88 15.2-55.94 9.01-12.5-1.43-24.37-18.48-36.79-24.4-27 7.23-36.38-8.85-61.76-10.51-17.25 12.01 3.88 18.8-45.24 11.26-12.35-1.9-3.57-6.57-7.32-10.51-6.81-1.67-9.39-7.54-13.39-.49-19.88 24.1-102.1-16.05-112.75-7.96-.07.05-36.36-3.58-46.74.38-5.57 2.24-24.96 16.1-23.11.79 1.38-14.48-24.34 11.23-32.4 1.41 1.94-3.66-28.26 16.04-40.17-.68-20.42-23.94-43.6 7.32-52.8-6.77-32.01-3.64-35.71-3.17-63.63 7.32-16.66-31.51-45.39 12.63-72.08-2.53-5.75.78-27.24-5.62-55.13-9.5-26.34-12-34.89 24.25-50.93 1.66-19.12-32.04-37.03 30.71-52.86-1.47-52.01 16.57 7.46-22.92-74.96-11.96-15.58-6.04-19.07-1.13-26.44 11.31-20.33 7.71-47.03-23.18-67.06-1.55-12.08 6.35 9.06-16.76-11.33-8.17-35.38 7.64-71.46 20.01-107.39 9.44-26.21 7.25-60.71 23.45-67.63-16.93C32.79-5.17 22.03 14.08 10 21.8c-22.17 11.95-39.03 81.65-9.63 81.9h1366.87c6.51 0 10.32-7.28 6.66-12.66" style="fill:#020e26"/></svg>
+</section>
+
+
+<div class="wp-block-group alignfull has-darkest-background-color has-background is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 class="wp-block-heading has-text-align-center has-light-color has-text-color has-large-font-size" id="h-stay-in-the-loop">Stay in the loop</h2>
+
+
+
+<div class="wp-block-columns is-style-no-gutter is-layout-flex wp-container-4 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:15%"></div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p class="has-text-align-center has-light-color has-text-color">Subscribe to the Melapress newsletter and receive curated WordPress management and security tips and content.</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:15%"></div>
+</div>
+
+
+
+<div class="wp-block-columns are-vertically-aligned-center is-style-default is-layout-flex wp-container-8 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="padding-top:var(--wp--preset--spacing--50);flex-basis:25%">
+<figure class="wp-block-image aligncenter size-large is-resized mp-align-lg-right"><img decoding="async" src="https://melapress.com/wp-content/uploads/2023/05/melapress-icon-newsletter-red.svg" alt="Newsletter icon" class="wp-image-4223" style="width:130px" width="130" /></figure>
+</div>
+
+
+
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:50%"><div class="wpforms-container wpforms-block wpforms-block-a460ac5e-5dc8-416b-a967-f362cd370e38 wpforms-render-modern" id="wpforms-4467"><form id="wpforms-form-4467" class="wpforms-validate wpforms-form" data-formid="4467" method="post" enctype="multipart/form-data" action="/exposed-backup-unreferenced-files-wordpress/?utm_source=twitter&#038;utm_medium=organic&#038;utm_campaign=twitter_organic&#038;utm_content=image_post" data-token="731e586c93c06b5feae7b54f7d82582c"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript><div class="wpforms-hidden" id="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</div><div class="wpforms-field-container"><div id="wpforms-4467-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1"><input type="email" id="wpforms-4467-field_1" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][1]" placeholder="Enter your email here" spellcheck="false" aria-errormessage="wpforms-4467-field_1-error" required></div></div><!-- .wpforms-field-container --><div class="wpforms-field wpforms-field-hp"><label for="wpforms-4467-field-hp" class="wpforms-field-label">Website</label><input type="text" name="wpforms[hp]" id="wpforms-4467-field-hp" class="wpforms-field-medium"></div><div class="wpforms-submit-container" ><input type="hidden" name="wpforms[id]" value="4467"><input type="hidden" name="wpforms[author]" value="29"><input type="hidden" name="wpforms[post_id]" value="1613"><button type="submit" name="wpforms[submit]" id="wpforms-submit-4467" class="wpforms-submit" data-alt-text="Sending..." data-submit-text="Subscribe" aria-live="assertive" value="wpforms-submit">Subscribe</button></div></form></div>  <!-- .wpforms-container -->
+
+
+<p class="has-text-align-center has-light-color has-text-color has-small-font-size">It&#8217;s free and you can unsubscribe whenever you want. Check our <a href="https://melapress.com/blog/">blog</a> for a taste.</p>
+</div>
+
+
+
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:25%">
+<figure class="wp-block-image aligncenter size-large is-resized mp-align-lg-left"><img decoding="async" src="https://melapress.com/wp-content/uploads/2023/05/melapress-icon-envelope-red.svg" alt="Envelope icon" class="wp-image-4222" style="width:115px" width="115" /></figure>
+</div>
+</div>
+
+
+
+<div style="height:1rem" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
+<span class="cp-load-after-post"></span>
+		</div><!-- .wp-block-group -->
+
+	</main><!-- #main -->
+
+
+			<footer id="melapress-footer" class="melapress-footer is-root-container">
+
+			
+			<div class="wp-block-group is-layout-constrained alignfull is-layout-flow has-light-color has-section-darkest-background-color has-text-color has-background mp-mb-0 mp-pt-60 mp-pb-60">
+
+				
+				<div id="melapress-footer__content" class="wp-block-group alignwide is-layout-flow has-small-font-size mp-pt-60">
+
+				<div class="mp-row">
+
+					<div class="melapress-footer-social mp-col-12 mp-col-lg-4">
+						<h3 class="has-small-font-size has-section-lightalt-color has-text-color mp-mt-0">We’re dedicated to building great plugins but we’re not antisocial!</h3><section class="melapress__social-network-icons melapress-footer__social-network-icons"><ul><li><a href="https://www.linkedin.com/company/melapress/" target="_blank" title="Melapress on LinkedIn"><i class="has-small-font-size icon-linkedin" aria-hidden="true"></i><span class="has-x-small-font-size">Follow us on LinkedIn</span></a></li><li><a href="https://www.facebook.com/wpwhitesecurity" target="_blank" title="Melapress on Facebook"><i class="has-small-font-size icon-facebook" aria-hidden="true"></i><span class="has-x-small-font-size">Connect with us on Facebook</span></a></li><li><a href="https://twitter.com/__melapress__" target="_blank" title="Melapress on Twitter"><i class="has-small-font-size icon-twitter" aria-hidden="true"></i><span class="has-x-small-font-size">Follow us on Twitter</span></a></li><li><a href="https://www.instagram.com/__melapress__/" target="_blank" title="Melapress on Instagram"><i class="has-small-font-size icon-instagram" aria-hidden="true"></i><span class="has-x-small-font-size">Follow us on Instagram</span></a></li></ul>			</section>
+		
+						<div class="wp-block-buttons is-layout-flex mp-mt-70">
+							<div class="wp-block-button has-custom-font-size has-x-small-font-size">
+								<a href="/contact/" style="border-radius:100px" class="wp-block-button__link wp-element-button mp-text-uppercase mp-mb-70 mp-mb-lg-0">Contact us &gt;</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="mp-col-12 mp-col-md-3 mp-col-lg-2">
+						<div class="melapress-footer-menu mp-mt-0">
+							<h3 class="has-small-font-size has-section-lightalt-color has-text-color mp-mt-0 mp-mb-50">Our plugins</h3>
+							<div class="has-x-small-font-size">
+								<nav class="menu-our-plugins-container"><ul id="footer-menu-1" class="menu"><li id="menu-item-4666" class="menu-item menu-item-type-post_type menu-item-object-page_wpactivitylog menu-item-4666"><a href="/wordpress-activity-log/">WP Activity Log</a></li>
+<li id="menu-item-4667" class="menu-item menu-item-type-post_type menu-item-object-page_wp2fa menu-item-4667"><a href="/wordpress-2fa/">WP 2FA</a></li>
+<li id="menu-item-4668" class="menu-item menu-item-type-post_type menu-item-object-page_captcha4wp menu-item-4668"><a href="/wordpress-captcha/">CAPTCHA 4WP</a></li>
+<li id="menu-item-4669" class="menu-item menu-item-type-post_type menu-item-object-page_loginsecurity menu-item-4669"><a href="/wordpress-login-security/">Melapress Login Security</a></li>
+</ul></nav>							</div>
+						</div>
+					</div>
+
+					<div class="mp-col-12 mp-col-md-3 mp-col-lg-2 mp-mb-50">
+						<div class="melapress-footer-menu mp-mt-0">
+							<h3 class="has-small-font-size has-section-lightalt-color has-text-color mp-mt-0 mp-mb-50">Support</h3>
+							<div class="has-x-small-font-size">
+								<nav class="menu-support-container"><ul id="footer-menu-2" class="menu"><li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-265"><a href="https://melapress.com/support/submit-ticket/">Open a ticket</a></li>
+<li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-268"><a href="https://melapress.com/support/kb/">Knowledge base</a></li>
+<li id="menu-item-8464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8464"><a href="https://melapress.com/support/">Plugins support</a></li>
+</ul></nav>							</div>
+						</div>
+					</div>
+
+					<div class="mp-col-12 mp-col-md-3 mp-col-lg-2">
+						<div class="melapress-footer-menu mp-mt-0">
+							<h3 class="has-small-font-size has-section-lightalt-color has-text-color mp-mt-0 mp-mb-50">WordPress</h3>
+							<div class="has-x-small-font-size">
+								<nav class="menu-wordpress-container"><ul id="footer-menu-3" class="menu"><li id="menu-item-8465" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8465"><a href="https://melapress.com/wordpress-security/">WordPress security &#038; hardening</a></li>
+<li id="menu-item-8466" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8466"><a href="https://melapress.com/wordpress-security-glossary/">WordPress security glossary</a></li>
+<li id="menu-item-8467" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-8467"><a href="https://melapress.com/best-wordpress-security-plugins/">The guide to WordPress security plugins</a></li>
+<li id="menu-item-8471" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8471"><a href="https://melapress.com/newsletter/">Subscribe to newsletter</a></li>
+</ul></nav>							</div>
+						</div>
+					</div>
+					
+					<div class="mp-col-12 mp-col-md-3 mp-col-lg-2">
+						<div class="melapress-footer-menu mp-mt-0">
+							<h3 class="has-small-font-size has-section-lightalt-color has-text-color mp-mt-0 mp-mb-50">Melapress</h3>
+							<div class="has-x-small-font-size">
+								<nav class="menu-melapress-container"><ul id="footer-menu-4" class="menu"><li id="menu-item-270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-270"><a href="https://melapress.com/about-us/">About us</a></li>
+<li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279"><a href="https://melapress.com/affiliates/">Become an affiliate</a></li>
+<li id="menu-item-273" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-273"><a href="https://melapress.com/careers/">Careers</a></li>
+<li id="menu-item-8470" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8470"><a href="https://melapress.com/account/">My account page</a></li>
+<li id="menu-item-9936" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9936"><a href="https://melapress.com/partners/">Partners</a></li>
+<li id="menu-item-8481" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8481"><a href="https://melapress.com/blog/">Blog</a></li>
+</ul></nav>							</div>
+						</div>
+					</div>
+
+					<div class="melapress-footer__more">
+
+						
+						
+								
+
+								
+
+						
+						
+					</div><!-- .melapress-footer__contact-details -->
+
+				</div><!-- .mp-row -->
+				</div><!-- #melapress-footer__content -->
+
+			</div><!-- .wp-block-group -->
+
+			
+<section id="melapress-footer-after" class="wp-block-group alignfull is-layout-constrained has-background has-section-normal-background-color has-light-color">
+    <div id="melapress-footer-after__content" class="alignwide melapress_the_section_logo has-small-font-size wp-block-columns are-vertically-aligned-center mp-mb-0 mp-py-60">
+        <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%">
+            <div class="has-light-color has-text-color has-x-small-font-size mp-text-center mp-text-md-start">
+                <div class="melapress-footer-after__copyright"><span>Copyright&nbsp;&copy;&nbsp;2023 Melapress. All rights reserved.</span> <span>Enjoy the rest of your&nbsp;<span id="week-day-footer">Wednesday</span>.</span></div>                                <nav class="menu-post-footer-menu-container"><ul id="footer-menu-post" class="menu mp-mt-40 mp-mb-0"><li id="menu-item-6553" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6553"><a href="https://melapress.com/terms-and-conditions/">Terms and conditions</a></li>
+<li id="menu-item-6555" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6555"><a href="https://melapress.com/privacy-policy/">Privacy policy</a></li>
+</ul></nav>            </div>
+        </div>
+        <div class="wp-block-column is-vertically-aligned-center mp-text-center mp-text-md-end mp-mt-50 mp-mt-md-0" style="flex-basis:33.33%">
+            <a href="https://melapress.com/" rel="home">
+                <span class="melapress-footer-after__logo"><img width="234" height="44" src="https://melapress.com/wp-content/uploads/2023/01/logo-melapress-white.svg" class="attachment-thumbnail size-thumbnail" alt="Melapress logo" decoding="async" loading="lazy" /></span>            </a>
+        </div>
+    </div>
+</section>
+
+		</footer><!-- #melapress-footer -->
+	</div><!-- #melapress -->
+
+			<div class="cpro-onload  cp-popup-global  cp-custom-cls-manual_trigger_9791 "  data-class-id="9791" data-inactive-time='60' ></div>
+			
+		<div id="cp_popup_id_9791" class="cp-popup-container cp-popup-live-wrap cp_style_9791 cp-module-slide_in  " data-style="cp_style_9791" data-module-type="slide_in" data-class-id="9791" data-styleslug="newsletter-subscriber">
+
+			
+			<div class="cp-popup-wrapper cp-auto  "  >
+				<div class="cp-popup  cpro-animate-container ">
+
+					
+								<form class="cpro-form" method="post" id="9791">
+						<input type='hidden' class='panel-settings' data-style_id= '9791' data-section='configure' value='{&quot;enable_custom_cookies&quot;:&quot;&quot;,&quot;enable_cookies_class&quot;:&quot;&quot;,&quot;enable_adblock_detection&quot;:&quot;&quot;,&quot;enable_visitors&quot;:&quot;&quot;,&quot;visitor_type&quot;:&quot;first-time&quot;,&quot;referrer_type&quot;:&quot;hide-from&quot;,&quot;hide_custom_cookies&quot;:&quot;&quot;,&quot;hide_cookies_class&quot;:&quot;&quot;,&quot;show_for_logged_in&quot;:&quot;1&quot;,&quot;hide_on_device&quot;:&quot;tablet|mobile&quot;,&quot;0&quot;:{&quot;cp_hide_on_device&quot;:[&quot;tablet&quot;,&quot;mobile&quot;]},&quot;cookies_enabled&quot;:&quot;1&quot;,&quot;conversion_cookie&quot;:&quot;365&quot;,&quot;closed_cookie&quot;:&quot;30&quot;,&quot;cookies_enabled_submit&quot;:&quot;&quot;,&quot;enable_cookies_class_submit&quot;:&quot;&quot;,&quot;conversion_cookie_submit&quot;:&quot;90&quot;,&quot;cookies_enabled_closed&quot;:&quot;&quot;,&quot;enable_cookies_class_closed&quot;:&quot;&quot;,&quot;closed_cookie_new&quot;:&quot;30&quot;}' ><input type='hidden' class='panel-rulesets' data-style_id= '9791' data-section='configure' value='[{&quot;name&quot;:&quot;Ruleset 1&quot;,&quot;autoload_on_duration&quot;:&quot;0&quot;,&quot;load_on_duration&quot;:1,&quot;autoload_on_no_page_visit&quot;:false,&quot;load_on_no_page_visit&quot;:1,&quot;load_on_page_visit_type&quot;:&quot;is-more-than&quot;,&quot;cp_show_note_page_view&quot;:&quot;&quot;,&quot;modal_exit_intent&quot;:false,&quot;autoload_on_scroll&quot;:&quot;1&quot;,&quot;show_after_within_scroll_info&quot;:&quot;&quot;,&quot;load_after_scroll&quot;:75,&quot;close_after_scroll&quot;:0,&quot;inactivity&quot;:false,&quot;inactivity_link&quot;:&quot;&quot;,&quot;enable_after_post&quot;:false,&quot;enable_custom_scroll&quot;:false,&quot;enable_scroll_class&quot;:&quot;&quot;,&quot;on_scroll_txt&quot;:&quot;&quot;,&quot;show_cta_info&quot;:&quot;&quot;,&quot;enable_custom_cookies&quot;:false,&quot;enable_cookies_class&quot;:&quot;&quot;,&quot;on_cookie_txt&quot;:&quot;&quot;,&quot;hide_cta_link&quot;:&quot;&quot;,&quot;enable_adblock_detection&quot;:false,&quot;all_visitor_info&quot;:&quot;&quot;,&quot;enable_visitors&quot;:&quot;&quot;,&quot;visitor_type&quot;:&quot;first-time&quot;,&quot;enable_referrer&quot;:&quot;&quot;,&quot;referrer_type&quot;:&quot;hide-from&quot;,&quot;display_to&quot;:&quot;&quot;,&quot;hide_from&quot;:&quot;&quot;,&quot;enable_scheduler&quot;:false,&quot;enable_scheduler_txt&quot;:&quot;&quot;,&quot;start_date&quot;:&quot;&quot;,&quot;end_date&quot;:&quot;&quot;,&quot;custom_cls_text_head&quot;:&quot;&quot;,&quot;enable_custom_class&quot;:false,&quot;copy_link_code_button&quot;:&quot;Copy Link Code&quot;,&quot;copy_link_cls_code_button&quot;:&quot;&quot;,&quot;custom_class&quot;:&quot;&quot;,&quot;custom_cls_text&quot;:&quot;&quot;}]' ><style id='cp_popup_style_9791' type='text/css'>.cp_style_9791 .cp-popup-content {font-family:Verdana;font-style:Normal;font-weight:Normal;}.cp_style_9791 .cp-popup-content{ border-style:none;border-color:#e1e1e1;border-width:1px 1px 1px 1px;border-radius:3px 3px 3px 3px;mobile-breakpoint:767;}.cp_style_9791 #panel-1-9791 .cp-target:hover { }.cp_style_9791 #panel-1-9791 { }.cp_style_9791 .cp-popup-content { width:701px;height:451px;background-color:#fff;}@media ( max-width: 767px ) {.cp_style_9791 .cp-popup-content{ border-style:none;border-color:#e1e1e1;border-width:1px 1px 1px 1px;border-radius:3px 3px 3px 3px;mobile-breakpoint:767;}.cp_style_9791 #panel-1-9791 .cp-target:hover { }.cp_style_9791 #panel-1-9791 { }.cp_style_9791 .cp-popup-content { width:250px;height:300px;background-color:#fff;}}.cp_style_9791 #toggle-9791 .cp-target { }.cp_style_9791 #toggle-9791 .cp-target:hover { }.cp_style_9791 .cp-open-toggle{ font-size:16px;}.cp_style_9791 .cp-open-toggle{ color:#FFFFFF;}.cp_style_9791 .cp-open-toggle{ background-color:#000000;}.cp_style_9791 .cp-open-toggle{ }.cp_style_9791 .cp-open-toggle{ }.cp_style_9791 .cp-open-toggle{ }.cp_style_9791 .cp-open-toggle{ width:250px;}.cp_style_9791 .cp-open-toggle{ line-height:50px;height:50px;}.cp_style_9791 #toggle-9791 { }@media ( max-width: 767px ) {.cp_style_9791 #toggle-9791 .cp-target { }.cp_style_9791 #toggle-9791 .cp-target:hover { }.cp_style_9791 .cp-open-toggle{ font-size:16px;}.cp_style_9791 .cp-open-toggle{ color:#FFFFFF;}.cp_style_9791 .cp-open-toggle{ background-color:#000000;}.cp_style_9791 .cp-open-toggle{ }.cp_style_9791 .cp-open-toggle{ }.cp_style_9791 .cp-open-toggle{ }.cp_style_9791 .cp-open-toggle{ width:250px;}.cp_style_9791 .cp-open-toggle{ line-height:50px;height:50px;}.cp_style_9791 #toggle-9791 { }}.cp_style_9791 .cp-popup .cpro-form .cp-form-input-field{ font-family:inherit;font-style:inherit;font-weight:inherit;text-transform:none;font-size:13px;letter-spacing:0;text-align:left;color:#666;background-color:#fff;border-style:solid;border-width:1px 1px 1px 1px;border-radius:1px 1px 1px 1px;border-color:#bbb;active-border-color:#666;padding:0px 10px 0px 10px;}.cp_style_9791 #form_field-9791 .cp-target:hover { }.cp_style_9791 #form_field-9791 placeholder { color:#666;}.cp_style_9791 .cp-popup .cpro-form .cp-form-input-field input[type='radio'], .cp_style_9791 .cp-popup .cpro-form .cp-form-input-field input[type='checkbox'] {color:#666;background-color:#fff;}.cp_style_9791 .cp-popup .cpro-form .cp-form-input-field:focus {border-color: #666;}.cp_style_9791 .cp-popup .cpro-form .cp-form-input-field::-webkit-input-placeholder {color:#666;}.cp_style_9791 .cp-popup .cpro-form .cp-form-input-field::-moz-placeholder  {color:#666;}.cp_style_9791 .cp-popup .cpro-form .pika-lendar table tbody button:hover { background :#666;}.cp_style_9791 .cp-popup .cpro-form .pika-lendar table tbody .is-selected .pika-button { background :#666;box-shadow : inset 0 1px 3px #666;}.cp_style_9791 #form_field-9791 { }@media ( max-width: 767px ) {.cp_style_9791 .cp-popup .cpro-form .cp-form-input-field{ font-family:inherit;font-style:inherit;font-weight:inherit;text-transform:none;font-size:13px;letter-spacing:0;text-align:left;color:#666;background-color:#fff;border-style:solid;border-width:1px 1px 1px 1px;border-radius:1px 1px 1px 1px;border-color:#bbb;active-border-color:#666;padding:0px 10px 0px 10px;}.cp_style_9791 #form_field-9791 .cp-target:hover { }.cp_style_9791 #form_field-9791 placeholder { color:#666;}.cp_style_9791 .cp-popup .cpro-form .cp-form-input-field input[type='radio'], .cp_style_9791 .cp-popup .cpro-form .cp-form-input-field input[type='checkbox'] {color:#666;background-color:#fff;}.cp_style_9791 .cp-popup .cpro-form .cp-form-input-field:focus {border-color: #666;}.cp_style_9791 .cp-popup .cpro-form .cp-form-input-field::-webkit-input-placeholder {color:#666;}.cp_style_9791 .cp-popup .cpro-form .cp-form-input-field::-moz-placeholder  {color:#666;}.cp_style_9791 .cp-popup .cpro-form .pika-lendar table tbody button:hover { background :#666;}.cp_style_9791 .cp-popup .cpro-form .pika-lendar table tbody .is-selected .pika-button { background :#666;box-shadow : inset 0 1px 3px #666;}.cp_style_9791 #form_field-9791 { }}.cp_style_9791 #cp_image-2-9791 .cp-target { width:701px;height:450px;}.cp_style_9791 #cp_image-2-9791 .cp-target:hover { }.cp_style_9791 #cp_image-2-9791 .cp-target { border-style:none;}.cp_style_9791 #cp_image-2-9791 .cp-target ~ .cp-field-shadow { border-style:none;}.cp_style_9791 #cp_image-2-9791 .cp-target { border-color:#757575;}.cp_style_9791 #cp_image-2-9791 .cp-target ~ .cp-field-shadow { border-color:#757575;}.cp_style_9791 #cp_image-2-9791 .cp-target { border-width:1px 1px 1px 1px;}.cp_style_9791 #cp_image-2-9791 .cp-target ~ .cp-field-shadow { border-width:1px 1px 1px 1px;}.cp_style_9791 #cp_image-2-9791 .cp-target { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_image-2-9791 .cp-target ~ .cp-field-shadow { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_image-2-9791 .cp-target > .cp-close-link { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_image-2-9791 .cp-target > .cp-close-image { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_image-2-9791 .cp-target { }.cp_style_9791 #cp_image-2-9791 .cp-target ~ .cp-field-shadow { }.cp_style_9791 #cp_image-2-9791 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_9791 #cp_image-2-9791 .cp-target:hover { }.cp_style_9791 #cp_image-2-9791 .cp-target:hover ~ .cp-field-shadow { }.cp_style_9791 #cp_image-2-9791 { left: 0px;top: 0px;z-index:2;}@media ( max-width: 767px ) {.cp_style_9791 #cp_image-2-9791 .cp-target { width:701px;height:450px;}.cp_style_9791 #cp_image-2-9791 .cp-target:hover { }.cp_style_9791 #cp_image-2-9791 .cp-target { border-style:none;}.cp_style_9791 #cp_image-2-9791 .cp-target ~ .cp-field-shadow { border-style:none;}.cp_style_9791 #cp_image-2-9791 .cp-target { border-color:#757575;}.cp_style_9791 #cp_image-2-9791 .cp-target ~ .cp-field-shadow { border-color:#757575;}.cp_style_9791 #cp_image-2-9791 .cp-target { border-width:1px 1px 1px 1px;}.cp_style_9791 #cp_image-2-9791 .cp-target ~ .cp-field-shadow { border-width:1px 1px 1px 1px;}.cp_style_9791 #cp_image-2-9791 .cp-target { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_image-2-9791 .cp-target ~ .cp-field-shadow { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_image-2-9791 .cp-target > .cp-close-link { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_image-2-9791 .cp-target > .cp-close-image { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_image-2-9791 .cp-target { }.cp_style_9791 #cp_image-2-9791 .cp-target ~ .cp-field-shadow { }.cp_style_9791 #cp_image-2-9791 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_9791 #cp_image-2-9791 .cp-target:hover { }.cp_style_9791 #cp_image-2-9791 .cp-target:hover ~ .cp-field-shadow { }.cp_style_9791 #cp_image-2-9791 { left: 0px;top: 0px;z-index:2;}}.cp_style_9791 #cp_email-2-9791 .cp-target { width:330px;height:45px;}.cp_style_9791 #cp_email-2-9791 .cp-target:hover { }.cp_style_9791 #cp_email-2-9791 { left: 114.5px;top: 368px;z-index:3;}@media ( max-width: 767px ) {.cp_style_9791 #cp_email-2-9791 .cp-target { width:330px;height:45px;}.cp_style_9791 #cp_email-2-9791 .cp-target:hover { }.cp_style_9791 #cp_email-2-9791 { left: 114.5px;top: 368px;z-index:3;}}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target { font-family:inherit;font-style:Inherit;font-weight:Inherit;font-size:14px;letter-spacing:0px;color:#fff;background : #dd2b10;background : -webkit-linear-gradient(180deg, #dd2b10 0%, #dd2b10  100%);background : -moz-linear-gradient(180deg, #dd2b10 0%, #dd2b10  100%);background : -ms-linear-gradient(180deg, #dd2b10 0%, #dd2b10  100%);background : -o-linear-gradient(180deg, #dd2b10 0%, #dd2b10  100%);background : linear-gradient(180deg, #dd2b10 0%, #dd2b10  100%);width:180px;height:45px;padding:0px 15px 0px 15px;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target:hover { color:#fff;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target { border-style:none;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target ~ .cp-field-shadow { border-style:none;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target { border-color:#757575;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target ~ .cp-field-shadow { border-color:#757575;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target { border-width:1px 1px 1px 1px;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target ~ .cp-field-shadow { border-width:1px 1px 1px 1px;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target ~ .cp-field-shadow { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target > .cp-close-link { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target > .cp-close-image { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target { }.cp_style_9791 #cp_gradient_button-2-9791 .cp-target ~ .cp-field-shadow { }.cp_style_9791 #cp_gradient_button-2-9791 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target:hover { }.cp_style_9791 #cp_gradient_button-2-9791 .cp-target:hover ~ .cp-field-shadow { }.cp_style_9791 #cp_gradient_button-2-9791 { left: 464px;top: 368px;z-index:5;}@media ( max-width: 767px ) {.cp_style_9791 #cp_gradient_button-2-9791 .cp-target { font-family:inherit;font-style:Inherit;font-weight:Inherit;font-size:14px;letter-spacing:0px;color:#fff;background : #dd2b10;background : -webkit-linear-gradient(180deg, #dd2b10 0%, #dd2b10  100%);background : -moz-linear-gradient(180deg, #dd2b10 0%, #dd2b10  100%);background : -ms-linear-gradient(180deg, #dd2b10 0%, #dd2b10  100%);background : -o-linear-gradient(180deg, #dd2b10 0%, #dd2b10  100%);background : linear-gradient(180deg, #dd2b10 0%, #dd2b10  100%);width:180px;height:45px;padding:0px 15px 0px 15px;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target:hover { color:#fff;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target { border-style:none;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target ~ .cp-field-shadow { border-style:none;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target { border-color:#757575;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target ~ .cp-field-shadow { border-color:#757575;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target { border-width:1px 1px 1px 1px;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target ~ .cp-field-shadow { border-width:1px 1px 1px 1px;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target ~ .cp-field-shadow { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target > .cp-close-link { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target > .cp-close-image { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target { }.cp_style_9791 #cp_gradient_button-2-9791 .cp-target ~ .cp-field-shadow { }.cp_style_9791 #cp_gradient_button-2-9791 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_9791 #cp_gradient_button-2-9791 .cp-target:hover { }.cp_style_9791 #cp_gradient_button-2-9791 .cp-target:hover ~ .cp-field-shadow { }.cp_style_9791 #cp_gradient_button-2-9791 { left: 464px;top: 368px;z-index:5;}}.cp_style_9791 #cp_close_image-2-9791 .cp-target { width:50px;height:50px;}.cp_style_9791 #cp_close_image-2-9791 .cp-target:hover { }.cp_style_9791 #cp_close_image-2-9791 .cp-target { border-style:none;}.cp_style_9791 #cp_close_image-2-9791 .cp-target ~ .cp-field-shadow { border-style:none;}.cp_style_9791 #cp_close_image-2-9791 .cp-target { border-color:#757575;}.cp_style_9791 #cp_close_image-2-9791 .cp-target ~ .cp-field-shadow { border-color:#757575;}.cp_style_9791 #cp_close_image-2-9791 .cp-target { border-width:1px 1px 1px 1px;}.cp_style_9791 #cp_close_image-2-9791 .cp-target ~ .cp-field-shadow { border-width:1px 1px 1px 1px;}.cp_style_9791 #cp_close_image-2-9791 .cp-target { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_close_image-2-9791 .cp-target ~ .cp-field-shadow { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_close_image-2-9791 .cp-target > .cp-close-link { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_close_image-2-9791 .cp-target > .cp-close-image { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_close_image-2-9791 .cp-target { }.cp_style_9791 #cp_close_image-2-9791 .cp-target ~ .cp-field-shadow { }.cp_style_9791 #cp_close_image-2-9791 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_9791 #cp_close_image-2-9791 .cp-target:hover { }.cp_style_9791 #cp_close_image-2-9791 .cp-target:hover ~ .cp-field-shadow { }.cp_style_9791 #cp_close_image-2-9791 { left: 671px;top: -24.5px;z-index:6;}@media ( max-width: 767px ) {.cp_style_9791 #cp_close_image-2-9791 .cp-target { width:50px;height:50px;}.cp_style_9791 #cp_close_image-2-9791 .cp-target:hover { }.cp_style_9791 #cp_close_image-2-9791 .cp-target { border-style:none;}.cp_style_9791 #cp_close_image-2-9791 .cp-target ~ .cp-field-shadow { border-style:none;}.cp_style_9791 #cp_close_image-2-9791 .cp-target { border-color:#757575;}.cp_style_9791 #cp_close_image-2-9791 .cp-target ~ .cp-field-shadow { border-color:#757575;}.cp_style_9791 #cp_close_image-2-9791 .cp-target { border-width:1px 1px 1px 1px;}.cp_style_9791 #cp_close_image-2-9791 .cp-target ~ .cp-field-shadow { border-width:1px 1px 1px 1px;}.cp_style_9791 #cp_close_image-2-9791 .cp-target { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_close_image-2-9791 .cp-target ~ .cp-field-shadow { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_close_image-2-9791 .cp-target > .cp-close-link { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_close_image-2-9791 .cp-target > .cp-close-image { border-radius:0px 0px 0px 0px;}.cp_style_9791 #cp_close_image-2-9791 .cp-target { }.cp_style_9791 #cp_close_image-2-9791 .cp-target ~ .cp-field-shadow { }.cp_style_9791 #cp_close_image-2-9791 .cp-rotate-wrap{ transform:rotate( 0deg);}.cp_style_9791 #cp_close_image-2-9791 .cp-target:hover { }.cp_style_9791 #cp_close_image-2-9791 .cp-target:hover ~ .cp-field-shadow { }.cp_style_9791 #cp_close_image-2-9791 { left: 671px;top: -24.5px;z-index:6;}}@media ( max-width: 767px ) {.cp_style_9791 .cp-invisible-on-mobile {display: none !important;}}</style>
+					<div class="cp-popup-content cpro-active-step  cp-slide_in   bottom-right   cp-panel-1" data-entry-animation = "cp-fadeIn"  data-overlay-click ="1" data-title="Newsletter subscriber" data-module-type="slide_in"  data-step="1"  data-width="701" data-mobile-width="250" data-height="451" data-mobile-height="300" data-mobile-break-pt="767" data-popup-position="bottom right" data-mobile-responsive="yes">
+												
+					<div class="cpro-form-container">                             
+						<div id="cp_image-2-9791" class="cp-field-html-data    cp-none cp-image-ratio" data-type="cp_image"  data-action="none" data-step="1"     >
+	<div class="cp-rotate-wrap">
+		<div class="cp-image-main"><img width="701" height="450" data-cp-src="https://melapress.com/wp-content/uploads/2023/08/newsletter-pop-up.png" class="cp-img-lazy cp-target cp-field-element cp-image" name="cp_image-2" alt="newsletter-pop-up" src="">
+			<div class="cp-field-shadow"></div>
+		</div>
+		
+	</div>
+</div><div id="cp_email-2-9791" class="cp-field-html-data    cp-animation" data-type="cp_email"  data-anim-duration="1000ms" data-animation="cp-bounceIn" data-anim-delay="0ms" >
+	<input type="email"  class="cp-target cp-field-element cp-form-input-field cp-form-field cp-email cp-form-field cp-email-field" aria-label="Enter your email " placeholder="Enter your email " name="param[email]" value="" required="required" data-email-error-msg="{{email-error}}" autocomplete="on" />
+</div><div id="cp_gradient_button-2-9791" class="cp-field-html-data    cp-animation" data-type="cp_gradient_button" data-field-title="Gradient Button"  data-action="submit_n_close" data-step="1"     data-anim-duration="1000ms" data-animation="cp-bounceIn" data-anim-delay="0ms" >
+	<div class="cp-rotate-wrap"><button type="submit" class=" cp-target cp-field-element cp-button cp-gradient-button cp-button-field" name="cp_gradient_button-2"  data-success-message="Thank You for Subscribing." data-get-param="false" style="{{btn_style}}">SUBSCRIBE</button>
+		<div class="cp-btn-tooltip"></div>
+	</div>
+</div><div id="cp_close_image-2-9791" class="cp-field-html-data    cp-none cp-image-ratio cp-close-field cp-close-image-wrap" data-type="cp_close_image" data-field-title="Close Image" data-action="close"   >	
+	<div class="cp-rotate-wrap">
+		<div class="cp-image-main"><img width="50" height="50" data-cp-src="https://melapress.com/wp-content/plugins/convertpro/assets/admin/img/close2.png" class="cp-target cp-field-element cp-close-image cp-img-lazy" alt="" name="cp_close_image-2" value="" src="">
+			<div class="cp-field-shadow"></div>
+		</div>
+		
+	</div>
+</div>							</div>              
+														
+						</div><!-- .cp-popup-content -->
+						      
+		<input type="hidden" name="param[date]" value="25 October, 2023" />
+		<input type='text' class='cpro-hp-field' name='cpro_hp_field_9791' value=''>
+		<input type="hidden" name="action" value="cp_v2_add_subscriber" />
+		<input type="hidden" name="style_id" value="9791" />
+						</form>
+										</div>
+							</div><!-- .cp-popup-wrapper -->
+			
+					</div><!-- Modal popup container -->
+			
+  <!--copyscapeskip-->
+  <aside id="moove_gdpr_cookie_info_bar" class="moove-gdpr-info-bar-hidden moove-gdpr-align-center moove-gdpr-dark-scheme gdpr_infobar_postion_bottom" aria-label="GDPR Cookie Banner" style="display: none;">
+    <div class="moove-gdpr-info-bar-container">
+      <div class="moove-gdpr-info-bar-content">
+        
+<div class="moove-gdpr-cookie-notice">
+  <p>We are using cookies to give you the best experience on our website. For more information about our use of cookies please refer to our <a href="https://melapress.com/privacy-policy/" rel="noopener" target="_blank">Privacy policy</a>.</p>
+				<button class="moove-gdpr-infobar-close-btn gdpr-content-close-btn" aria-label="Close GDPR Cookie Banner">
+					<span class="gdpr-sr-only">Close GDPR Cookie Banner</span>
+					<i class="moovegdpr-arrow-close"></i>
+				</button>
+			</div>
+<!--  .moove-gdpr-cookie-notice -->        
+<div class="moove-gdpr-button-holder">
+	  				<button class="moove-gdpr-infobar-close-btn gdpr-fbo-3" aria-label="Close GDPR Cookie Banner" >
+					<span class="gdpr-sr-only">Close GDPR Cookie Banner</span>
+					<i class="moovegdpr-arrow-close"></i>
+				</button>
+			</div>
+<!--  .button-container -->      </div>
+      <!-- moove-gdpr-info-bar-content -->
+    </div>
+    <!-- moove-gdpr-info-bar-container -->
+  </aside>
+  <!-- #moove_gdpr_cookie_info_bar -->
+  <!--/copyscapeskip-->
+<style id='core-block-supports-inline-css'>
+.wp-container-4.wp-container-4,.wp-container-8.wp-container-8{flex-wrap:nowrap;}
+</style>
+<link rel='stylesheet' id='wpforms-modern-base-css' href='https://melapress.com/wp-content/plugins/wpforms/assets/css/frontend/modern/wpforms-base.min.css?ver=1.8.4' media='all' />
+<link rel='stylesheet' id='wpforms-pro-modern-base-css' href='https://melapress.com/wp-content/plugins/wpforms/assets/pro/css/frontend/modern/wpforms-base.min.css?ver=1.8.4' media='all' />
+<script src='https://melapress.com/wp-content/plugins/metronet-profile-picture/js/mpp-frontend.js?ver=2.6.0' id='mpp_gutenberg_tabs-js'></script>
+<script id='distinctive_lightbox_frontend-js-extra'>
+var LightBoxData = {"ajaxURL":"https:\/\/melapress.com\/wp-admin\/admin-ajax.php","imageSetting":"auto-all-images","videoSetting":"auto-all-videos","imageAnchorClass":"","videoAnchorClass":"","openAnimation":"zoomIn","slideAnimation":"slide","closeAnimation":"zoomOut","maxHeight":"","maxWidth":"80wh","descPosition":"bottom","descSetting":"manual-description","exclusiveImageClass":"","includedImageClass":"","touchNavigation":"1"};
+</script>
+<script src='https://melapress.com/wp-content/plugins/distinctive-lightbox/dist/js/frontend.js?ver=1.0.5' id='distinctive_lightbox_frontend-js'></script>
+<script src='https://melapress.com/wp-content/themes/melapress2023/js/navigation.js?ver=2023.09.V1' id='melapress-navigation-js'></script>
+<script id='moove_gdpr_frontend-js-extra'>
+var moove_frontend_gdpr_scripts = {"ajaxurl":"https:\/\/melapress.com\/wp-admin\/admin-ajax.php","post_id":"1613","plugin_dir":"https:\/\/melapress.com\/wp-content\/plugins\/gdpr-cookie-compliance","show_icons":"all","is_page":"","ajax_cookie_removal":"false","strict_init":"1","enabled_default":{"third_party":0,"advanced":0},"geo_location":"false","force_reload":"false","is_single":"1","hide_save_btn":"false","current_user":"0","cookie_expiration":"730","script_delay":"2000","close_btn_action":"1","close_btn_rdr":"","scripts_defined":"{\"cache\":true,\"header\":\"\",\"body\":\"\",\"footer\":\"\",\"thirdparty\":{\"header\":\"\",\"body\":\"\",\"footer\":\"\"},\"advanced\":{\"header\":\"\",\"body\":\"\",\"footer\":\"\"}}","gdpr_scor":"true","wp_lang":""};
+</script>
+<script src='https://melapress.com/wp-content/plugins/gdpr-cookie-compliance/dist/scripts/main.js?ver=4.12.8' id='moove_gdpr_frontend-js'></script>
+<script id="moove_gdpr_frontend-js-after">
+var gdpr_consent__strict = "false"
+var gdpr_consent__thirdparty = "false"
+var gdpr_consent__advanced = "false"
+var gdpr_consent__cookies = ""
+</script>
+<script src='https://melapress.com/wp-content/plugins/mystickymenu-pro/js/morphext/morphext.min.js?ver=2.6.6' id='morphext-js-js' defer data-wp-strategy='defer'></script>
+<script id='welcomebar-frontjs-js-extra'>
+var welcomebar_frontjs = {"ajaxurl":"https:\/\/melapress.com\/wp-admin\/admin-ajax.php","days":"Days","hours":"Hours","minutes":"Minutes","seconds":"Seconds","ajax_nonce":"9906b326a5"};
+</script>
+<script src='https://melapress.com/wp-content/plugins/mystickymenu-pro/js/welcomebar-front.js?ver=2.6.6' id='welcomebar-frontjs-js' defer data-wp-strategy='defer'></script>
+<script id='cp-popup-script-js-extra'>
+var cp_ajax = {"url":"https:\/\/melapress.com\/wp-admin\/admin-ajax.php","ajax_nonce":"b4f09ae036","assets_url":"https:\/\/melapress.com\/wp-content\/plugins\/convertpro\/assets\/","not_connected_to_mailer":"This form is not connected with any mailer service! Please contact web administrator.","timer_labels":"Years,Months,Weeks,Days,Hours,Minutes,Seconds","timer_labels_singular":"Year,Month,Week,Day,Hour,Minute,Second","image_on_ready":"","cpro_mx_valid":"0","invalid_email_id":"Invalid Email Address!"};
+var cp_pro = {"inactive_time":"60"};
+var cp_pro_url_cookie = {"days":"30"};
+var cp_v2_ab_tests = {"cp_v2_ab_tests_object":[]};
+</script>
+<script defer="defer" src='https://melapress.com/wp-content/plugins/convertpro/assets/modules/js/cp-popup.min.js?ver=1.7.7' id='cp-popup-script-js'></script>
+<script src='https://melapress.com/wp-content/plugins/wpforms/assets/lib/jquery.validate.min.js?ver=1.19.5' id='wpforms-validation-js'></script>
+<script src='https://melapress.com/wp-content/plugins/wpforms/assets/lib/mailcheck.min.js?ver=1.1.2' id='wpforms-mailcheck-js'></script>
+<script src='https://melapress.com/wp-content/plugins/wpforms/assets/lib/punycode.min.js?ver=1.0.0' id='wpforms-punycode-js'></script>
+<script src='https://melapress.com/wp-content/plugins/wpforms/assets/js/utils.min.js?ver=1.8.4' id='wpforms-generic-utils-js'></script>
+<script src='https://melapress.com/wp-content/plugins/wpforms/assets/js/wpforms.min.js?ver=1.8.4' id='wpforms-js'></script>
+<script src='https://melapress.com/wp-content/plugins/wpforms/assets/js/wpforms-modern.min.js?ver=1.8.4' id='wpforms-modern-js'></script>
+	
+			<script type="text/javascript">
+
+				jQuery(document).on( "cp_after_form_submit", function( e, element, response
+					, style_slug ) {
+
+					if( false == response.data.error ) {
+
+						if( 'undefined' !== typeof response.data['cfox_data']  ) {
+							var form_data = JSON.parse( response.data['cfox_data']  );
+
+							form_data.overwrite_tags = false;
+
+							if( 'undefined' !== typeof convertfox ) {
+								convertfox.identify( form_data );
+							}
+						}
+					}
+
+				});
+
+
+			</script>
+				
+    
+  <!--copyscapeskip-->
+  <!-- V1 -->
+  <div id="moove_gdpr_cookie_modal" class="gdpr_lightbox-hide" role="complementary" aria-label="GDPR Settings Screen">
+    <div class="moove-gdpr-modal-content moove-clearfix logo-position-left moove_gdpr_modal_theme_v1">
+          
+        <button class="moove-gdpr-modal-close" aria-label="Close GDPR Cookie Settings">
+          <span class="gdpr-sr-only">Close GDPR Cookie Settings</span>
+          <span class="gdpr-icon moovegdpr-arrow-close"></span>
+        </button>
+            <div class="moove-gdpr-modal-left-content">
+        
+<div class="moove-gdpr-company-logo-holder">
+  <img src="https://melapress.com/wp-content/plugins/gdpr-cookie-compliance/dist/images/gdpr-logo.png" alt="Melapress"   width="350"  height="233"  class="img-responsive" />
+</div>
+<!--  .moove-gdpr-company-logo-holder -->        <ul id="moove-gdpr-menu">
+          
+<li class="menu-item-on menu-item-privacy_overview menu-item-selected">
+  <button data-href="#privacy_overview" class="moove-gdpr-tab-nav" aria-label="Privacy Overview">
+    <span class="gdpr-nav-tab-title">Privacy Overview</span>
+  </button>
+</li>
+
+  <li class="menu-item-strict-necessary-cookies menu-item-off">
+    <button data-href="#strict-necessary-cookies" class="moove-gdpr-tab-nav" aria-label="Strictly Necessary Cookies">
+      <span class="gdpr-nav-tab-title">Strictly Necessary Cookies</span>
+    </button>
+  </li>
+
+
+
+
+        </ul>
+        
+<div class="moove-gdpr-branding-cnt">
+  		<a href="https://wordpress.org/plugins/gdpr-cookie-compliance/" rel="noopener noreferrer" target="_blank" class='moove-gdpr-branding'>Powered by&nbsp; <span>GDPR Cookie Compliance</span></a>
+		</div>
+<!--  .moove-gdpr-branding -->      </div>
+      <!--  .moove-gdpr-modal-left-content -->
+      <div class="moove-gdpr-modal-right-content">
+        <div class="moove-gdpr-modal-title">
+           
+        </div>
+        <!-- .moove-gdpr-modal-ritle -->
+        <div class="main-modal-content">
+
+          <div class="moove-gdpr-tab-content">
+            
+<div id="privacy_overview" class="moove-gdpr-tab-main">
+      <span class="tab-title">Privacy Overview</span>
+    <div class="moove-gdpr-tab-main-content">
+  	<p>This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.</p>
+  	  </div>
+  <!--  .moove-gdpr-tab-main-content -->
+
+</div>
+<!-- #privacy_overview -->            
+  <div id="strict-necessary-cookies" class="moove-gdpr-tab-main" style="display:none">
+    <span class="tab-title">Strictly Necessary Cookies</span>
+    <div class="moove-gdpr-tab-main-content">
+      <p>Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.</p>
+      <div class="moove-gdpr-status-bar ">
+        <div class="gdpr-cc-form-wrap">
+          <div class="gdpr-cc-form-fieldset">
+            <label class="cookie-switch" for="moove_gdpr_strict_cookies">    
+              <span class="gdpr-sr-only">Enable or Disable Cookies</span>        
+              <input type="checkbox" aria-label="Strictly Necessary Cookies"  value="check" name="moove_gdpr_strict_cookies" id="moove_gdpr_strict_cookies">
+              <span class="cookie-slider cookie-round" data-text-enable="Enabled" data-text-disabled="Disabled"></span>
+            </label>
+          </div>
+          <!-- .gdpr-cc-form-fieldset -->
+        </div>
+        <!-- .gdpr-cc-form-wrap -->
+      </div>
+      <!-- .moove-gdpr-status-bar -->
+              <div class="moove-gdpr-strict-warning-message" style="margin-top: 10px;">
+          <p>If you disable this cookie, we will not be able to save your preferences. This means that every time you visit this website you will need to enable or disable cookies again.</p>
+        </div>
+        <!--  .moove-gdpr-tab-main-content -->
+                                              
+    </div>
+    <!--  .moove-gdpr-tab-main-content -->
+  </div>
+  <!-- #strict-necesarry-cookies -->
+            
+            
+            
+          </div>
+          <!--  .moove-gdpr-tab-content -->
+        </div>
+        <!--  .main-modal-content -->
+        <div class="moove-gdpr-modal-footer-content">
+          <div class="moove-gdpr-button-holder">
+			  		<button class="mgbutton moove-gdpr-modal-allow-all button-visible" aria-label="Enable All">Enable All</button>
+		  					<button class="mgbutton moove-gdpr-modal-save-settings button-visible" aria-label="Save Changes">Save Changes</button>
+				</div>
+<!--  .moove-gdpr-button-holder -->        </div>
+        <!--  .moove-gdpr-modal-footer-content -->
+      </div>
+      <!--  .moove-gdpr-modal-right-content -->
+
+      <div class="moove-clearfix"></div>
+
+    </div>
+    <!--  .moove-gdpr-modal-content -->
+  </div>
+  <!-- #moove_gdpr_cookie_modal -->
+  <!--/copyscapeskip-->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpforms_settings = {"val_required":"This field is required.","val_email":"Please enter a valid email address.","val_email_suggestion":"Did you mean {suggestion}?","val_email_suggestion_title":"Click to accept this suggestion.","val_email_restricted":"This email address is not allowed.","val_number":"Please enter a valid number.","val_number_positive":"Please enter a valid positive number.","val_confirm":"Field values do not match.","val_checklimit":"You have exceeded the number of allowed selections: {#}.","val_limit_characters":"{count} of {limit} max characters.","val_limit_words":"{count} of {limit} max words.","val_recaptcha_fail_msg":"Google reCAPTCHA verification failed, please try again later.","val_turnstile_fail_msg":"Cloudflare Turnstile verification failed, please try again later.","val_inputmask_incomplete":"Please fill out the field in required format.","uuid_cookie":"","locale":"en","wpforms_plugin_url":"https:\/\/melapress.com\/wp-content\/plugins\/wpforms\/","gdpr":"1","ajaxurl":"https:\/\/melapress.com\/wp-admin\/admin-ajax.php","mailcheck_enabled":"1","mailcheck_domains":[],"mailcheck_toplevel_domains":["dev"],"is_ssl":"1","page_title":"Fix publicly exposed WordPress files","page_id":"1613","currency_code":"USD","currency_thousands":",","currency_decimals":"2","currency_decimal":".","currency_symbol":"$","currency_symbol_pos":"left","css_vars":["field-border-radius","field-background-color","field-border-color","field-text-color","label-color","label-sublabel-color","label-error-color","button-border-radius","button-background-color","button-text-color","field-size-input-height","field-size-input-spacing","field-size-font-size","field-size-line-height","field-size-padding-h","field-size-checkbox-size","field-size-sublabel-spacing","field-size-icon-size","label-size-font-size","label-size-line-height","label-size-sublabel-font-size","label-size-sublabel-line-height","button-size-font-size","button-size-height","button-size-padding-h","button-size-margin-top"],"val_requiredpayment":"Payment is required.","val_creditcard":"Please enter a valid credit card number.","val_post_max_size":"The total size of the selected files {totalSize} MB exceeds the allowed limit {maxSize} MB.","val_time12h":"Please enter time in 12-hour AM\/PM format (eg 8:45 AM).","val_time24h":"Please enter time in 24-hour format (eg 22:45).","val_time_limit":"Please enter time between {minTime} and {maxTime}.","val_url":"Please enter a valid URL.","val_fileextension":"File type is not allowed.","val_filesize":"File exceeds max size allowed. File was not uploaded.","post_max_size":"134217728","isModernMarkupEnabled":"1","formErrorMessagePrefix":"Form error message","errorMessagePrefix":"Error message","submitBtnDisabled":"Submit button is disabled during form submission.","val_password_strength":"A stronger password is required. Consider using upper and lower case letters, numbers, and symbols.","val_phone":"Please enter a valid phone number.","indicatorStepsPattern":"Step {current} of {total}","richtext_add_media_button":"","entry_preview_iframe_styles":["https:\/\/melapress.com\/wp-includes\/js\/tinymce\/skins\/lightgray\/content.min.css?ver=6.3.2","https:\/\/melapress.com\/wp-includes\/css\/dashicons.min.css?ver=6.3.2","https:\/\/melapress.com\/wp-includes\/js\/tinymce\/skins\/wordpress\/wp-content.css?ver=6.3.2"]}
+/* ]]> */
+</script>
+<div id="tt" role="tooltip" aria-label="Tooltip content" class="cmtt"></div>
+</body>
+</html>
