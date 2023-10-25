@@ -1,0 +1,618 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Effects of COVID-19 mRNA vaccination on HIV viremia and reservoir size | medRxiv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Home
+About
+Submit
+ALERTS / RSS
+ 
+
+
+
+
+
+
+
+
+
+Search for this keyword 
+
+
+
+
+ 
+
+
+
+Advanced Search 
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Effects of COVID-19 mRNA vaccination on HIV viremia and reservoir size
+ View ORCID ProfileMaggie C. Duncan,  View ORCID ProfileF. Harrison Omondi,  View ORCID ProfileNatalie N. Kinloch,  View ORCID ProfileHope R. Lapointe, Sarah Speckmaier, Nadia Moran-Garcia, Tanya Lawson,  View ORCID ProfileMari L. DeMarco,  View ORCID ProfileJanet Simons,  View ORCID ProfileDaniel T. Holmes,  View ORCID ProfileChristopher F. Lowe, Nic Bacani,  View ORCID ProfilePaul Sereda,  View ORCID ProfileRolando Barrios, Marianne Harris,  View ORCID ProfileMarc G. Romney,  View ORCID ProfileJulio S.G. Montaner,  View ORCID ProfileChanson J. Brumme,  View ORCID ProfileMark A. Brockman,  View ORCID ProfileZabrina L. Brumme
+doi: https://doi.org/10.1101/2023.10.08.23296718 
+
+Maggie C. Duncan 1British Columbia Centre for Excellence in HIV/AIDS, Vancouver, Canada2Faculty of Health Sciences, Simon Fraser University, Burnaby, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Maggie C. DuncanF. Harrison Omondi 1British Columbia Centre for Excellence in HIV/AIDS, Vancouver, Canada2Faculty of Health Sciences, Simon Fraser University, Burnaby, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for F. Harrison OmondiNatalie N. Kinloch 1British Columbia Centre for Excellence in HIV/AIDS, Vancouver, Canada2Faculty of Health Sciences, Simon Fraser University, Burnaby, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Natalie N. KinlochHope R. Lapointe 1British Columbia Centre for Excellence in HIV/AIDS, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Hope R. LapointeSarah Speckmaier 1British Columbia Centre for Excellence in HIV/AIDS, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteNadia Moran-Garcia 1British Columbia Centre for Excellence in HIV/AIDS, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteTanya Lawson 3Division of Medical Microbiology and Virology, St. Paul’s Hospital, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteMari L. DeMarco 4Department of Pathology and Laboratory Medicine, Providence Health Care, Vancouver, Canada5Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Mari L. DeMarcoJanet Simons 4Department of Pathology and Laboratory Medicine, Providence Health Care, Vancouver, Canada5Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Janet SimonsDaniel T. Holmes 4Department of Pathology and Laboratory Medicine, Providence Health Care, Vancouver, Canada5Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Daniel T. HolmesChristopher F. Lowe 3Division of Medical Microbiology and Virology, St. Paul’s Hospital, Vancouver, Canada4Department of Pathology and Laboratory Medicine, Providence Health Care, Vancouver, Canada5Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Christopher F. LoweNic Bacani 1British Columbia Centre for Excellence in HIV/AIDS, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this sitePaul Sereda 1British Columbia Centre for Excellence in HIV/AIDS, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Paul SeredaRolando Barrios 1British Columbia Centre for Excellence in HIV/AIDS, Vancouver, Canada6School of Population and Public Health, University of British Columbia, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Rolando BarriosMarianne Harris 1British Columbia Centre for Excellence in HIV/AIDS, Vancouver, Canada7Department of Family Practice, Faculty of Medicine, University of British Columbia, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteMarc G. Romney 3Division of Medical Microbiology and Virology, St. Paul’s Hospital, Vancouver, Canada4Department of Pathology and Laboratory Medicine, Providence Health Care, Vancouver, Canada5Department of Pathology and Laboratory Medicine, University of British Columbia, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Marc G. RomneyJulio S.G. Montaner 1British Columbia Centre for Excellence in HIV/AIDS, Vancouver, Canada8Department of Medicine, University of British Columbia, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Julio S.G. MontanerChanson J. Brumme 1British Columbia Centre for Excellence in HIV/AIDS, Vancouver, Canada8Department of Medicine, University of British Columbia, Vancouver, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Chanson J. BrummeMark A. Brockman 1British Columbia Centre for Excellence in HIV/AIDS, Vancouver, Canada2Faculty of Health Sciences, Simon Fraser University, Burnaby, Canada9Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Mark A. BrockmanZabrina L. Brumme 1British Columbia Centre for Excellence in HIV/AIDS, Vancouver, Canada2Faculty of Health Sciences, Simon Fraser University, Burnaby, CanadaFind this author on Google ScholarFind this author on PubMedSearch for this author on this siteORCID record for Zabrina L. BrummeFor correspondence: 
+zbrumme@sfu.ca
+zbrumme@bccfe.ca 
+
+
+
+AbstractFull TextInfo/HistoryMetricsData/Code Preview PDF 
+
+
+
+
+
+
+
+AbstractObjective The immunogenic nature of COVID-19 mRNA vaccines led to some initial concern that these could stimulate the HIV reservoir. We analyzed changes in plasma HIV loads (pVL) and reservoir size following COVID-19 mRNA vaccination in 62 people with HIV (PWH) receiving antiretroviral therapy (ART), and analyzed province-wide trends in pVL before and after the mass vaccination campaign.Design Longitudinal observational cohort and province-wide analysis.Methods 62 participants were sampled pre-vaccination, and one month after their first and second COVID-19 immunizations. Vaccine-induced anti-SARS-CoV-2-Spike antibodies in serum were measured using the Roche Elecsys Anti-S assay. HIV reservoirs were quantified using the Intact Proviral DNA Assay; pVL were measured using the cobas 6800 (LLOQ:20 copies/mL). The province-wide analysis included all 290,401 pVL performed in British Columbia, Canada between 2012-2022.Results Pre-vaccination, the median intact reservoir size was 77 (IQR:20-204) HIV copies/million CD4+ T-cells, compared to 74 (IQR:27-212) and 65 (IQR:22-174) post-first and -second dose, respectively (all comparisons p>0.07). Pre-vaccination, 82% of participants had pVL<20 copies/mL (max:110 copies/mL), compared to 79% post-first dose (max:183 copies/mL) and 85% post-second dose (max:79 copies/mL) (p>0.4). The magnitude of the vaccine-elicited anti-SARS-CoV-2-Spike antibody response did not correlate with changes in reservoir size nor detectable pVL frequency (p>0.6). We found no evidence linking the COVID-19 mass vaccination campaign to population-level increases in detectable pVL frequency among all PWH in the province, nor among those who maintained pVL suppression on ART.Conclusion We found no evidence that COVID-19 mRNA vaccines induced changes in HIV reservoir size nor plasma viremia.Competing Interest StatementThe authors have declared no competing interest.Funding StatementThis work was supported in part by the Canadian Institutes for Health Research (CIHR) through a project grant (PJT-159625 to ZLB) and a team grant (HB1-164063 to ZLB and MAB). This work was also supported in part by the National Institutes of Health (NIH) through the Martin Delaney "REACH" Collaboratory (NIH grant 1-UM1AI164565-01 to ZLB and MAB), which is supported by the following NIH cofounding institutes: NIMH, NIDA, NINDS, NIDDK, NHLBI and NIAID. MCD was supported by a CIHR CGS-M award. NNK was supported by a CIHR Vanier Canada Graduate Scholarship. MLD and ZLB were supported by Scholar Awards from Michael Smith Health Research BC. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health or other funders.Author DeclarationsI confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.YesThe details of the IRB/oversight body that provided approval or exemption for the research described are given below:Research ethics board of the University of British Columbia/Providence Health Care gave ethical approval for this work
+Research ethics board of Simon Fraser University gave ethical approval for this workI confirm that all necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived, and that any patient/participant/sample identifiers included were not known to anyone (e.g., hospital staff, patients or participants themselves) outside the research group so cannot be used to identify individuals.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).YesI have followed all appropriate research reporting guidelines, such as any relevant EQUATOR Network research reporting checklist(s) and other pertinent material, if applicable.YesData AvailabilityAll data produced in the present study are available upon reasonable request to the authors 
+
+
+
+Copyright The copyright holder for this preprint is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. It is made available under a CC-BY-ND 4.0 International license. 
+
+
+
+
+ 
+
+
+
+View the discussion thread. 
+
+
+
+ Back to top 
+
+
+
+
+
+
+
+
+ PreviousNext  
+
+
+
+    Posted October 09, 2023.  
+
+
+
+
+
+
+
+
+
+ Download PDF 
+
+
+
+ Data/Code 
+
+
+
+
+
+
+
+
+ Email
+
+
+
+
+Thank you for your interest in spreading the word about medRxiv.NOTE: Your email address is requested solely to identify you as the sender of this article.
+
+
+Your Email *
+
+
+
+Your Name *
+
+
+
+Send To *
+
+Enter multiple addresses on separate lines or separate them with commas.
+
+
+You are going to email the following 
+Effects of COVID-19 mRNA vaccination on HIV viremia and reservoir size
+
+
+Message Subject 
+ (Your Name) has forwarded a page to you from medRxiv
+
+
+Message Body 
+ (Your Name) thought you would like to see this page from the medRxiv website.
+
+
+Your Personal Message 
+
+
+
+
+
+
+
+CAPTCHAThis question is for testing whether or not you are a human visitor and to prevent automated spam submissions.
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+ Share 
+
+
+
+
+
+
+
+
+
+Effects of COVID-19 mRNA vaccination on HIV viremia and reservoir size 
+Maggie C. Duncan, F. Harrison Omondi, Natalie N. Kinloch, Hope R. Lapointe, Sarah Speckmaier, Nadia Moran-Garcia, Tanya Lawson, Mari L. DeMarco, Janet Simons, Daniel T. Holmes, Christopher F. Lowe, Nic Bacani, Paul Sereda, Rolando Barrios, Marianne Harris, Marc G. Romney, Julio S.G. Montaner, Chanson J. Brumme, Mark A. Brockman, Zabrina L. Brumme
+medRxiv 2023.10.08.23296718; doi: https://doi.org/10.1101/2023.10.08.23296718 
+
+ 
+
+
+
+
+
+
+
+
+Share This Article:
+
+
+
+
+
+Copy
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+ Citation Tools
+
+
+
+
+
+
+
+Effects of COVID-19 mRNA vaccination on HIV viremia and reservoir size 
+Maggie C. Duncan, F. Harrison Omondi, Natalie N. Kinloch, Hope R. Lapointe, Sarah Speckmaier, Nadia Moran-Garcia, Tanya Lawson, Mari L. DeMarco, Janet Simons, Daniel T. Holmes, Christopher F. Lowe, Nic Bacani, Paul Sereda, Rolando Barrios, Marianne Harris, Marc G. Romney, Julio S.G. Montaner, Chanson J. Brumme, Mark A. Brockman, Zabrina L. Brumme
+medRxiv 2023.10.08.23296718; doi: https://doi.org/10.1101/2023.10.08.23296718 
+
+ 
+
+Citation Manager Formats
+
+BibTeXBookendsEasyBibEndNote (tagged)EndNote 8 (xml)MedlarsMendeleyPapersRefWorks TaggedRef ManagerRISZotero 
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+Tweet WidgetFacebook LikeGoogle Plus One 
+
+
+Subject Area
+
+HIV/AIDS
+ 
+
+
+
+
+
+
+
+
+
+
+
+Subject Areas 
+
+
+
+
+
+
+
+All Articles 
+
+
+
+
+
+Addiction Medicine (276)
+Allergy and Immunology (564)
+Anesthesia (137)
+Cardiovascular Medicine (1841)
+Dentistry and Oral Medicine (243)
+Dermatology (174)
+Emergency Medicine (322)
+Endocrinology (including Diabetes Mellitus and Metabolic Disease) (674)
+Epidemiology (10929)
+Forensic Medicine (8)
+Gastroenterology (600)
+Genetic and Genomic Medicine (3048)
+Geriatric Medicine (292)
+Health Economics (547)
+Health Informatics (1972)
+Health Policy (848)
+Health Systems and Quality Improvement (760)
+Hematology (303)
+HIV/AIDS (652)
+Infectious Diseases (except HIV/AIDS) (12602)
+Intensive Care and Critical Care Medicine (701)
+Medical Education (305)
+Medical Ethics (92)
+Nephrology (327)
+Neurology (2871)
+Nursing (156)
+Nutrition (443)
+Obstetrics and Gynecology (574)
+Occupational and Environmental Health (606)
+Oncology (1497)
+Ophthalmology (450)
+Orthopedics (177)
+Otolaryngology (262)
+Pain Medicine (194)
+Palliative Medicine (57)
+Pathology (391)
+Pediatrics (880)
+Pharmacology and Therapeutics (374)
+Primary Care Research (342)
+Psychiatry and Clinical Psychology (2699)
+Public and Global Health (5466)
+Radiology and Imaging (1046)
+Rehabilitation Medicine and Physical Therapy (605)
+Respiratory Medicine (735)
+Rheumatology (332)
+Sexual and Reproductive Health (300)
+Sports Medicine (284)
+Surgery (333)
+Toxicology (48)
+Transplantation (154)
+Urology (128)
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+

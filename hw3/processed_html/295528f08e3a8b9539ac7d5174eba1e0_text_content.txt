@@ -1,0 +1,704 @@
+
+
+
+
+
+Performance Chat Summary: 10 October 2023 – Make WordPress Core
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+Log InRegister 
+
+
+
+
+
+
+WordPress.org
+
+
+ 
+
+
+
+
+
+
+
+NewsShowcaseHostingExtendThemesPluginsPatternsBlocksOpenverse ↗︎LearnLearn WordPressDocumentationForumsDevelopersWordPress.tv ↗︎CommunityMake WordPressPhoto DirectoryFive for the FutureWordCamp ↗︎Meetups ↗︎Job Board ↗︎AboutAbout WordPressEnterpriseGutenberg ↗︎Swag Store ↗︎Get WordPress
+
+
+
+
+
+
+
+
+
+
+
+Search in WordPress.org
+
+
+
+
+
+
+
+
+
+		Get WordPress	
+
+
+Menu
+
+Make WordPress Core
+
+
+Tickets
+Components
+Handbook
+Browse Source
+Trac Timeline
+Create a New Ticket
+ 
+
+
+
+Hide welcome box
+
+
+
+
+Welcome!
+The WordPress coreCore Core is the set of software required to run WordPress. The Core Development Team builds WordPress. development team builds WordPress! Follow this site for general updates, status reports, and the occasional code debate. There’s lots of ways to contribute:
+
+Found a bugbug A bug is an error or unexpected result. Performance improvements, code optimization, and are considered enhancements, not defects. After feature freeze, only bugs are dealt with, with regressions (adverse changes from the previous version) being the highest priority.? Create a ticket in the bug tracker.
+Want to contribute? Get started quickly with tickets marked as good first bugs for new contributors or join a bug scrub. There’s more on the reports page, like patches needing testing, and on feature projects page.
+Other questions? Here is a detailed handbook for contributors, complete with tutorials.
+
+
+
+Communication
+Core uses Slack for real-time communication. Contributors live all over the world, so there are discussions happening at all hours of the day.
+Core development meetings are every Wednesday at 20:00 UTC in the #core channel on Slack. Anyone can join and participate or listen in!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Emily Clarke
+
+4:07 pm on October 10, 2023 
+
+
+
+Tags: core-performance ( 49 ), performance ( 253 ), performance-chat ( 198 ), summary ( 769 )   
+				
+
+Performance Chat Summary: 10 October 2023
+
+
+Meeting agenda here and the full chat log is available beginning here on Slack.
+Announcements
+
+Welcome to our new members of #core-performance
+WordPress 6.4 betaBeta A pre-release of software that is given out to a large group of users to trial under real conditions. Beta versions have gone through alpha testing in-house and are generally fairly close in look, feel and function to the final product; however, design changes often occur as part of the process. 3 is today
+Reminder about the Performance Hallway Hangout next week Thursday, October 19, 2023 at 04:00 PM GMT+1
+
+Priority Projects
+Server Response Time
+Link to roadmap projects
+Contributors: @joemcgill @spacedmonkey @swissspidy @thekt12 @mukesh27
+
+@joemcgill Everything planned for 6.4 has been resolved. I’m keep an eye out for issues that come up during the last week of beta and RCrelease candidate One of the final stages in the version release cycle, this version signals the potential to be a final release to the public. Also see alpha (beta).. Otherwise, am beginning to start focusing on opportunities for 6.5, like Improving Template Loading and Improvements to the way blockBlock Block is the abstract term used to describe units of markup that, composed together, form the content or layout of a webpage using the WordPress editor. The idea combines concepts of what in the past may have achieved with shortcodes, custom HTML, and embed discovery into a single consistent API and user experience. widgets are registered (ex: #55595)
+@spacedmonkey
+
+Committed
+
+https://github.com/WordPress/wordpress-develop/commit/3ad20183b0f54b79ae7a2bbf449ea523d50fd687
+https://github.com/WordPress/wordpress-develop/commit/d8206d2167f2c082258f31db163289bae3682e06
+
+
+Code reviewed
+
+https://github.com/WordPress/wordpress-develop/commit/41cf9f0a38ae2bb2136102f2394ff883bbd4085f
+https://github.com/WordPress/wordpress-develop/commit/9d039e6c911d2479453cb26f6895249f0d40fa23
+
+
+
+
+@mukesh27 #59360 to be committed today. It was reopened for some concern that I’m looking into right now
+@swissspidy Performant Translations is doing well. There are already PRs and tickets for all the relevant areas this touches. I’m working on further simplifying the pluginPlugin A plugin is a piece of software containing a group of functions that can be added to a WordPress website. They can extend functionality or add new features to your WordPress websites. WordPress plugins are written in the PHP programming language and integrate seamlessly with WordPress. These can be free in the WordPress.org Plugin Directory https://wordpress.org/plugins/ or can be cost-based plugin from a third-party & coreCore Core is the set of software required to run WordPress. The Core Development Team builds WordPress. patchpatch A special text file that describes changes to code, by identifying the files and lines which are added, removed, and altered. It may also be referred to as a diff. A patch can be applied to a codebase for testing.. Once 6.4 is released we can continue with the next steps for a 6.5 merge.
+@flixos90 I would like to flag this Slack thread – just spotted this literally 5 minutes ago, but it looks like the most significant performance fix for TT4 caused a bugbug A bug is an error or unexpected result. Performance improvements, code optimization, and are considered enhancements, not defects. After feature freeze, only bugs are dealt with, with regressions (adverse changes from the previous version) being the highest priority., which now with the fix for that bug effectively may have reverted almost all the performance benefit
+
+In my benchmark yesterday, TT4 was about ~10% slower than TT3. Now it’s again ~25% slower
+@spacedmonkey to re-open #59541 to see if it helps
+@joemcgill to run some profiles, but assuming it’s due to parse_blocks() being called way more often.
+
+
+@thekt12 I have picked up https://github.com/WordPress/performance/issues/746 (just a while ago), checking through tickets that are still left
+
+Database Optimization
+Link to roadmap projects
+Contributors: @spacedmonkey @mukesh27 @thekt12
+
+@spacedmonkey
+
+Committed
+
+https://github.com/WordPress/wordpress-develop/commit/94d2f4e68be97a24f4b588551e30bcf5339c5b15
+https://github.com/WordPress/wordpress-develop/commit/6ee34689ca8a3336cd7fe4bbde552380564cfee6
+https://github.com/WordPress/wordpress-develop/commit/33b32ebc4ee8cdc577792c40ee47736394442dc4
+
+
+Still working on #59188
+
+Would love feedback on https://github.com/WordPress/wordpress-develop/pull/5443
+Worth reading this comment – https://core.trac.wordpress.org/ticket/59188#comment:62
+
+
+
+
+@joemcgill to follow up on both the above items
+@pbearne I would like help looking at the all options ideas to see if it worth going forward and how best to approach implementing this here https://gist.github.com/pbearne/ce21417bf5ecfa10b84afc758092cd9f
+
+@spacedmonkey this ticketticket Created for both bug reports and feature development on the bug tracker. could also do with some review #42441
+
+
+@joemcgill we have a running GH ticket about autoloaded options that would be useful to get your comments on, if there are additional ideas you want to consider: https://github.com/WordPress/performance/issues/766
+
+JavaScriptJavaScript JavaScript or JS is an object-oriented computer programming language commonly used to create interactive effects within web browsers. WordPress makes extensive use of JS for a better user experience. While PHP is executed on the server, JS executes within a user’s browser. https://www.javascript.com/. & CSSCSS Cascading Style Sheets.
+Link to roadmap project
+Contributors: @mukesh27 @10upsimon @westonruter @spacedmonkey
+
+@westonruter Yesterday I committed the removal of unload event listeners and use of pagehide and pageshow where appropriate for #55491 . In the best case this will improve performance by allowing bfcache to speed up page navigations. But as I mentioned before, bfcache is also disabled when Cache-Control: no-store is present, and this was added to all authenticated page requests in 6.3 with #21938. Lastly, the heartbeat script is only used on 0.25% of HTTPHTTP HTTP is an acronym for Hyper Text Transfer Protocol. HTTP  is the underlying protocol used by the World Wide Web and this protocol defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands. Archive pages (which would be unauthenticated).  So in practice the performance benefits will be marginal. Nevertheless, the unload event is unreliable so the change is an improvement regardless.
+@adamsilverstein I have been working on adoption of the script strategy feature with plugins and have been having some success. Its great how easy it is to layer on the new APIAPI An API or Application Programming Interface is a software intermediary that allows programs to interact with each other and share data in limited, clearly defined ways. without breaking old use cases (especially using `wp_script_add_data`). One potential issue I have discovered that could cause regressions has to do with dependencies and the footer attribute.
+
+Here is the scenerio:
+
+Popular plugin “Plugin A” currently enqueues a script on the front end, using `in_footer` => true, so the script is essentially non blocking
+To get a slight performance gain, in WP >= 6.3 the plugin changes `in_footer` to `array( ‘strategy => ‘defer’ )`. Great, now the script is in the headerHeader The header of your site is typically the first thing people will experience. The masthead or header art located across the top of your page is part of the look and feel of your website. It can influence a visitor’s opinion about your content and you/ your organization’s brand. It may also look different on different screen sizes. so it can be discovered slightly earlier, and it is marked as `defer` so it is non-blocking.
+
+
+Now… along comes “Plugin B”, they enqueue a script that depends on the script from “Plugin A”, and they still use `in_footer => true`. Now the script from “Plugin A” can no longer be deferred, so it is not – however it remains in the header. The result: we now have a new blocking script in the header.
+I wonder if we had considered this during the design? Maybe in my scenario I should instead use `array( ‘strategy => ‘defer’, ‘in_fooer’ => true )`
+@flixos90 I think opening a ticket would be good. If a script has defer, it should always be fine to load it in the footer (since with defer it only loads after the DOM anyway). So I think that would be a good fix: If a script is in the head and its defer is forced back to blocking, move it to the footer
+@adamsilverstein I was thinking that also, but it might have other implications…Also in my testing I noticed that in_footer already has some dependency behavior built in that can move scripts to the header:Script A is marked for the footer. If script b depends on script a and is marked for the header, script a also gets put in the header
+@10upsimon That makes sense @flixos90 I think we only never did that because by design you’d only usually have deferred in the header, generally, correct?
+
+@flixos90 Not sure, I don’t remember us ever thinking about the head vs footer implication of a deferred script being forced back to blocking. So we may just have missed that consideration. To me what @adamsilverstein pointed out above is something we should be able to fix in a rather straightforward way
+@adamsilverstein yea, I don’t think we considered that exact scenereo, I came across it trying to implement/use the feature
+
+
+@flixos90 I think the latter has been the case forever, so that wouldn’t be a regressionregression A software bug that breaks or degrades something that previously worked. Regressions are often treated as critical bugs or blockers. Recent regressions may be given higher priorities. A "3.6 regression" would be a bug in 3.6 that worked as intended in 3.5.
+@joemcgill We could do some analysis of how many registered deferred scripts end up in the head, since we added some data attributes to track that sort of thing
+@westonruter We don’t currently capture whether a script was originally registered with $in_footer in the data attributes like we do with the script strategies though
+@flixos90 FWIW I cannot see any concerns with moving a head defer script to footer from a functional perspective. In both cases it would be loaded after the DOM. Not sure how important the impact research would be for that bug specifically
+@adamsilverstein to open a ticket to discuss further
+
+
+
+Images
+Link to roadmap projects
+Contributors: @flixos90 @thekt12 @adamsilverstein @joemcgill @pereirinha
+
+@joemcgill I’m planning to follow up on two things we’ve discussed, related to improving how WordPress calculates the sizes attribute.
+
+1. Improving how WP calculates its default  `sizes` attributes: https://github.com/WordPress/performance/issues/760
+2. Support native lazy sizes once it’s available (currently still in development by browsers) https://github.com/WordPress/performance/issues/791
+
+
+@adamsilverstein I’ve been testing the fetchpriority attribute and wanted to raise some potential issues. First: I created a simple plugin that adds an advanced image control that lets users set the fetchpriority manually for individual images – https://github.com/adamsilverstein/wp-fetchpriority-control
+
+Noticed a few edge cases with our approach in testing –
+
+putting images in columns in GB resizes them but only with styles (?) so we still apply fetchpriority – https://wp-sample-pages.instawp.xyz/another-test/ — note that the thumbnail in the first row gets the fetchpriority=high which is probably incorrect
+repeating the same image three times means all three will get the fetchpriority attribute – because our processing tries to skip re-processing duplicate images – https://wp-sample-pages.instawp.xyz/test-post/
+manually setting the fetchpriority for an image causes core to skip it (not change it), but it then applies the attribute to the next image, In this test, I applied fetchpriority=”low” to the first image, and fetchpriority=”high” to the large image below the thumbnails. Core aded the fetchpriority=”high” to the second thumbnail image – https://wp-sample-pages.instawp.xyz/with-manually-set-high-and-low/. If core finds existing fetchpriority=high tagging it should probably avoid adding its own.
+
+@westonruter found the same issue with columns: https://gist.github.com/westonruter/fc251e8f0917ae4135b3334273360be8
+Also can be an issue with Image & Text block: https://gist.github.com/westonruter/72d00dfd9d59f2c1870524f8dcd3cb79
+@adamsilverstein very interesting! I always wondered about these cases (and how we should address them)
+@westonruter I don’t really see how such scenarios can be easily fixed with PHPPHP The web scripting language in which WordPress is primarily architected. WordPress requires PHP 5.6.20 or higher heuristics. But this should be easily accounted for with client-side detection.
+
+
+
+
+I think these are all addressable in some form and the first may already be covered by an existing ticket; I’ll plan to open tickets for further discussion
+
+
+@flixos90 I opened a new ticket yesterday for a recently found limitation of wp_get_loading_optimization_attributes() when it comes to images in block templates #59577 that affects TT4
+@pereirinha I’m looking for good candidates to pick up, but nothing yet. Happy to assist here.
+
+Measurement
+Link to roadmap projects
+Contributors: @adamsilverstein @joemcgill @mukesh27 @swissspidy @flixos90
+
+@flixos90 Nothing from my end, other than running benchmarks on several tickets this week
+@mukesh27 Planning to run benchmarks for beta 3 tomorrow.
+@swissspidy Continuing working on documenting ways for improving the core performance test setup & reducing test variance. Nothing concrete right now
+@joemcgill Another thing we’ve been discussing for the past few weeks is how to improve the confidence we have in our benchmarking setups. Many of us have been using an automated script that @swissspidy put together to run benchmarks for each release, and we’re getting consistent numbers, but those numbers are showing much bigger performance gains than what @flixos90 has been reporting with his local setup. I’m planning to dig into this a bit more today. @swissspidy I saw that you’re making good progress on converting performance tests to Playwrite. Anything we can help with there?
+
+@swissspidy basically complete. Just needs code review under #59517
+
+
+
+Ecosystem Tools
+Link to roadmap projects
+Contributors: @mukesh27 @swissspidy @westonruter
+
+@mukesh27 For the Plugin Checker: PR Add Trademarks_Check 285 – Ready for review
+
+Creating Standalone Plugins
+Link to GitHub overview issue
+Contributors: @flixos90 @mukesh27 @10upsimon
+
+@10upsimon No major updates from me at the moment, I did decide to refactor some code to be more WordPress’y when it comes to the standalone plug-in card rendering within WPP settings screen, so I’ll open said PR for standalone plug-ins UIUI User interface soon, via a feature branchbranch A directory in Subversion. WordPress uses branches to store the latest development code for each major release (3.9, 4.0, etc.). Branches are then updated with code for any minor releases of that branch. Sometimes, a major version of WordPress and its minor versions are collectively referred to as a "branch", such as "the 4.0 branch"..
+
+Open Floor
+
+@spacedmonkey I am changing roles ( I am leaving XWP ). I will not have sponsored time to work on this project. So as of the end of this week, I will be stepping down from this project. That means I will not be around to answer questions or code review. If you need anything, please message me before the end of the week.
+
+Our next chat will be held on Tuesday, October 17, 2023 at 15:00 UTC in the #core-performance channel in Slack.
+#core-performance, #performance, #performance-chat, #summaryShare this:TwitterFacebookLogin to Reply
+
+
+
+
+
+
+
+Leave a Reply Cancel replyYou must be logged in to post a comment. 
+This site uses Akismet to reduce spam. Learn how your comment data is processed.
+
+
+
+Post navigation
+← Performance Chat Agenda: 10 October 2023 Editor Chat Agenda: 10 October 2023 →
+
+
+
+
+
+
+
+
+Search
+
+
+
+Email Updates
+
+
+Enter your email address to subscribe to this blog and receive notifications of new posts by email.
+
+
+
+							Email Address						
+
+
+
+
+
+
+
+
+							Subscribe						
+
+
+
+					Join 5,648 other subscribers				
+
+Recent UpdatesRecent CommentsNo RepliesRecent UpdatesRecent CommentsNo RepliesCurrent Release The current release in progress is WordPress 6.4.
+Planned future releases are listed on the Project Roadmap.
+Feature projects not tied to specific releases can be found on the Features page.
+
+Regular ChatsNote: All chats happen on Slack.
+
+
+
+Weekly Developer Meetings: Wednesday 20:00 UTC in #core
+
+
+About the Dev Chat
+
+
+Agendas | Summaries
+
+
+
+
+
+APAC Triage Sessions Tuesday 5:00 UTC alternating between #core and #core-editor
+
+
+JavaScript Weekly Chat Tuesday 14:00 UTC in #core-js
+
+
+Performance Weekly Chat Tuesday 15:00 UTC in #core-performance
+
+
+Multisite Weekly Chat Tuesday 17:00 UTC in #core-multisite
+
+
+REST API Weekly Chat Thursday 18:00 UTC in #core-restapi
+
+
+Editor Weekly Chat Wednesday 14:00 UTC in #core-editor
+
+
+New Contributors Chat Wednesday 19:00 UTC in #core
+
+
+Images/Media Weekly Chat Thursday 15:00 UTC in #core-media
+
+
+CSS Weekly Chat Thursday 21:00 UTC in #core-css
+
+
+Customize Weekly Chat Monday 19:00 UTC in #core-customize
+
+
+
+
+See all meetings → 
+Recent Posts and Comments
+
+
+			Team Pledges
+		
+
+2089 people have pledged time to contribute to Core Team efforts! When looking for help on a project or program, try starting by reaching out to them!		
+
+
+
+
+
+
+
+
+About
+News
+Hosting
+Privacy
+
+
+Showcase
+Themes
+Plugins
+Patterns
+
+
+Learn
+Documentation
+Developers
+WordPress.tv ↗
+
+
+Get Involved
+Donate ↗
+Swag Store ↗
+WordCamp ↗
+
+
+WordPress.com ↗
+Matt ↗
+bbPress ↗
+BuddyPress ↗
+
+
+
+
+
+
+
+
+WordPress.org
+
+
+ 
+
+
+
+
+WordPress.org
+
+
+
+ 
+
+
+
+Visit our Facebook page
+Visit our X (formerly Twitter) account
+Visit our Instagram account
+Visit our LinkedIn account
+Visit our YouTube channel
+
+
+
+
+
+
+ 
+
+
+
+
+ssearch
+ccompose new post
+r reply
+e edit
+t go to top
+j go to the next post or comment
+k go to the previous post or comment
+o toggle comment visibility
+esc cancel edit post or comment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+		Please enable JavaScript to view this page properly.	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

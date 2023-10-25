@@ -1,0 +1,1506 @@
+
+
+
+
+
+
+
+
+
+
+The True Cost of Loyalty: Why It’s Crucial for Retail to Protect Loyalty Data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Continue to your page in 15 seconds or skip this ad.
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+   
+
+
+Jobs
+Resource Guide
+Advertise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+The Retailer's Source for Content & Community
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+Topics
+
+Brick-and-Mortar
+E-Commerce
+Management
+Marketing
+Merchandising
+Mobile
+Omnichannel
+Operations & Fulfillment
+Professional Development
+Technology
+
+
+Events
+
+Live Events
+
+Total Retail Tech
+Total Retail Roundtables
+WIRLC On the Road
+Women In Retail Leadership Summit
+Industry Event Calendar
+
+
+Webinars
+Virtual Exchange
+
+August 2023
+August 2022
+May 2022
+Browse All
+
+
+Women In Retail Leadership Summit
+
+
+Podcasts
+
+Total Retail Talks
+Total Retail Tech Insights
+
+
+Videos
+Blogs
+
+Tim Ash
+Reggie Brady
+Jim Gilbert
+Maria Haggerty
+George Hague
+Stephen R. Lett
+Rob Martinez
+Susan J. Mcintyre
+Joe Palzkill
+
+
+Resources
+
+The Retailer’s Guide to Optimizing Supply Chain Operations
+2022 Retail Technology Report
+Top 50 Tips of 2022
+Browse Resources
+Add a Resource
+
+
+Research
+Subscribe
+
+Total Retail Report newsletter
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ E-Commerce, Customer Retention 
+ 
+September 19, 2023
+ 
+    The True Cost of Loyalty: Why it’s Crucial for Retailers to Protect Loyalty Data
+
+
+
+
+
+Credit: Getty Images by Rapeepong Puttakumwong 
+
+
+
+
+
+
+
+
+
+
+
+
+By 
+
+Erfan Shadabi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Facebook
+Facebook
+
+
+
+
+Twitter
+Twitter
+
+
+
+
+LinkedIn
+LinkedIn
+
+
+
+
+Email
+Email
+
+
+
+0 Comments
+Comments
+
+
+ 
+
+
+
+
+
+
+
+ 
+ 
+
+
+Loyalty is big business. In the U.S., research has shown that there are over 3.3 billion loyalty memberships. Programs span across almost all markets, from supermarkets and restaurants to beauty and hospitality. For organizations, a loyalty program that resonates with consumers can set them apart from competitors. Last year, for example, Starbucks told investors that its rewards members drove a staggering 53 percent of Q3 2022 U.S. revenue.
+However, with customers willing to hand over their data for discounts and rewards, especially as we find ourselves in a time of economic turmoil, retailers end up with more and more sensitive data that they need to protect. But how can organizations protect loyalty data effectively? And where should they start?
+Loyalty and Trust: The Unexpected Cost of Data Breaches
+Like consumers, cybercriminals also find loyalty programs particularly enticing, not least because it’s a booming market. In 2022, the global loyalty management market was estimated to be worth $5.92 billion. It’s not hard to see why cybercriminals are desperate to get in on the act. Loyalty program data breaches are on the rise, too. Notably, in January 2023, more than half a million Hilton Hotels customers had their data stolen and put up for sale on the dark web. With big-name brands being hit by devastating data breaches, where does this leave loyalty?
+Cybersecurity is becoming an increasingly important discussion among C-suite executives; however, organizations may not have considered loyalty programs within their cyber risk planning exercises. While lucrative, the data that’s collected may not attract the same security attention as checkout payment systems or mainframe networks. It’s also often continually underestimated in terms of its value to cybercriminals. Similarly, a company might outsource the management of its loyalty card program to a partner as part of an extended supply chain, which increases the potential attack surface. Some of these outsourced companies may have lower levels of baseline security, leading to cloud misconfigurations which can leak data. Whenever depending on outside partners, it’s important for organizations to do their due diligence.
+When a company’s loyalty card program suffers a breach (whether in-house or via a supply chain), the consequences can be devastating. Hand in hand with loyalty comes trust. When consumers hand over their data to organizations, they believe that their data is in safe hands. In the event of a breach, not only is this trust lost, but organizations will also find themselves shelling out the cost of reimbursing customers in stolen points, facing class-action lawsuits, or battling hefty regulatory fines. Similarly, there’s cost involved in breach investigations, remediation and notification, and reputational damage can be hard to come back from.
+But what about the data itself?
+Why Cybercriminals Covet Loyalty Card Data
+An uptick in revenue and customer numbers naturally draws interest from opportunistic cybercriminals. Points themselves, often redeemable for pricey commodities, along with personal data, have become valuable objects on underground sites. But why do cybercriminals want such information and how do they use it?
+Although it may seem strange, the illegal use of loyalty points is on the rise. While points are virtually worthless (given they hold no real-world cash value outside of the program), they can be exchanged for valuable goods and services. Threat actors can use stolen points to purchase hotel rooms and flights, for example, which can then be resold for profit.
+On the other hand, personal customer data from accounts, which may include payment card information, names, addresses, phone numbers (among other data), can be sold on the dark web and/or used in follow-on phishing attacks to elicit more sensitive information. More and more often this data is being used to commit identity fraud.
+Similarly, credential stuffing is on the rise. By using data collected from breached loyalty card accounts, cybercriminals can attempt, with the help of sophisticated automated tools, to access other accounts where users may use the same combination of details.
+The Answer: Protect the Data
+So, where should organizations begin when protecting their loyalty card programs? First, organizations must recognize why it’s so important to protect loyalty card data. From reputational damage to loss of income, it’s evident that the effect of a cyberattack on an organization’s loyalty program can be catastrophic. Ultimately, prevention is better — and more cost effective — than a cure.
+Organizations must assume that a sustained attack is just a matter of time. Therefore, it’s important that organizations adopt a data-centric approach to security. Protecting customer data doesn’t equate to just guarding it with strong perimeters around data repositories containing data at rest. It also means applying protection directly to the data itself, in motion and at rest. Data-centric security methods such as tokenization and format-preserving encryption obfuscate sensitive data elements while enabling organizations to work with data in its protected state.
+A multipronged defensive strategy incorporating both traditional controls as well as data-centric protections is the right course of action for the business and is the right thing to do for all customers to encourage their loyalty to your business.
+Erfan Shadabi is a cybersecurity expert with data security specialists comforte AG, where he works to help organizations identify and understand cybersecurity risks to allow them to make better and more informed business decisions. 
+
+
+
+
+      Related story:      A New Threat for Retailers: The Rise of the Synthetic Shopper
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0 Comments
+
+
+
+
+
+View Comments
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Erfan Shadabi
+Author's page
+
+
+
+Erfan Shadabi is a cybersecurity expert with data security specialists comforte AG, where he works to help organizations identify and understand cybersecurity risks to allow them to make better and more informed business decisions. Shadabi previously held marketing and technical positions at Hyundai, The Helsinki Times, Nokia and Lionbridge. 
+
+
+
+ 
+
+
+
+
+Related Content
+
+
+
+
+
+
+
+
+
+
+
+
+How to Leverage AI Without Scaring Off Shoppers
+
+
+
+
+
+The Value of Tokenization and Data Portability
+
+
+
+
+
+Forever 21 Discloses Employee Data Breach
+
+
+
+
+
+Hot Topic Reveals Data Breach
+
+
+
+
+
+3DS2 Boosts Security, Creates CX Challenges
+
+
+
+
+
+Fraud is Taking a Toll on the Retail Industry
+
+
+
+
+
+
+ 
+  
+ 
+
+
+
+Comments
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Find Resources
+
+
+
+
+
+
+
+
+
+
+Categories
+
+
+
+          E-Commerce (220)
+        
+
+
+
+          Omnichannel (136)
+        
+
+
+
+          Marketing (123)
+        
+
+
+
+          Technology (99)
+        
+
+
+
+          Retail Stores (76)
+        
+
+
+
+          Mobile Commerce (74)
+        
+
+
+
+Show More Categories
+
+
+
+
+          3-D (1)
+        
+
+
+
+          Affiliate Marketing (4)
+        
+
+
+
+          Analytics (44)
+        
+
+
+
+          Apps (14)
+        
+
+
+
+          Attribution (20)
+        
+
+
+
+          Attribution Modeling (8)
+        
+
+
+
+          Augmented Reality (5)
+        
+
+
+
+          B-to-B (15)
+        
+
+
+
+          Beacons (5)
+        
+
+
+
+          Behavioral Retargeting (31)
+        
+
+
+
+          Branding (13)
+        
+
+
+
+          CRM (17)
+        
+
+
+
+          Catalog Circulation (1)
+        
+
+
+
+          Catalog Design (10)
+        
+
+
+
+          ChatBots (3)
+        
+
+
+
+          Contact Centers (5)
+        
+
+
+
+          Content Management Systems (9)
+        
+
+
+
+          Content Marketing (28)
+        
+
+
+
+          Copywriting (15)
+        
+
+
+
+          Creative (15)
+        
+
+
+
+          Crisis Management (5)
+        
+
+
+
+          Customer Acquisition (64)
+        
+
+
+
+          Customer Data (56)
+        
+
+
+
+          Customer Retention (34)
+        
+
+
+
+          Customer Service (65)
+        
+
+
+
+          Customer Service Reps (4)
+        
+
+
+
+          Data Security (24)
+        
+
+
+
+          Database Marketing (23)
+        
+
+
+
+          Digital Catalogs (3)
+        
+
+
+
+          Digital Innovation (20)
+        
+
+
+
+          Direct Mail (30)
+        
+
+
+
+          Dynamic Pricing (1)
+        
+
+
+
+          E-mail (54)
+        
+
+
+
+          Environmental Sustainability (1)
+        
+
+
+
+          Fraud (9)
+        
+
+
+
+          Geo-Location (12)
+        
+
+
+
+          Hiring (6)
+        
+
+
+
+          Hiring Leadership Strategies (2)
+        
+
+
+
+          In-Store Pickup (5)
+        
+
+
+
+          In-Store Technology (20)
+        
+
+
+
+          Innovation Labs (1)
+        
+
+
+
+          International Strategy (18)
+        
+
+
+
+          Internet of Things (2)
+        
+
+
+
+          Inventory (6)
+        
+
+
+
+          Inventory Management (22)
+        
+
+
+
+          Landing Page Optimization (11)
+        
+
+
+
+          Leadership (32)
+        
+
+
+
+          Legal (6)
+        
+
+
+
+          Lifecycle Marketing (18)
+        
+
+
+
+          Lists (5)
+        
+
+
+
+          Loss Prevention (3)
+        
+
+
+
+          Loyalty Programs (32)
+        
+
+
+
+          Management (26)
+        
+
+
+
+          Marketing Automation (15)
+        
+
+
+
+          Marketplaces (14)
+        
+
+
+
+          Mentoring (1)
+        
+
+
+
+          Merchandising (42)
+        
+
+
+
+          Mergers & Acquisitions (3)
+        
+
+
+
+          Mobile Design (4)
+        
+
+
+
+          Mobile Marketing (54)
+        
+
+
+
+          Mobile POS (7)
+        
+
+
+
+          Mobile Payments (12)
+        
+
+
+
+          Online Marketing (59)
+        
+
+
+
+          Online Taxes (7)
+        
+
+
+
+          Online Video (6)
+        
+
+
+
+          Order Fulfillment (33)
+        
+
+
+
+          Order Management Systems (8)
+        
+
+
+
+          POS Systems (11)
+        
+
+
+
+          Payment Options (17)
+        
+
+
+
+          Personal Development (2)
+        
+
+
+
+          Personalization (49)
+        
+
+
+
+          Personnel (8)
+        
+
+
+
+          Pop-Up Shops (1)
+        
+
+
+
+          Postal (6)
+        
+
+
+
+          Pricing (22)
+        
+
+
+
+          Printing/Production (7)
+        
+
+
+
+          Product Packaging (2)
+        
+
+
+
+          Product Photography (7)
+        
+
+
+
+          Product Returns (9)
+        
+
+
+
+          Product Reviews (8)
+        
+
+
+
+          Product Sourcing (3)
+        
+
+
+
+          Product Videos (6)
+        
+
+
+
+          Promotional Strategy (22)
+        
+
+
+
+          Prospecting (13)
+        
+
+
+
+          Public Relations (2)
+        
+
+
+
+          RFID (2)
+        
+
+
+
+          Robots (2)
+        
+
+
+
+          SMS (5)
+        
+
+
+
+          Search Engine Marketing (20)
+        
+
+
+
+          Search Engine Optimization (24)
+        
+
+
+
+          Ship From Store (2)
+        
+
+
+
+          Shipping (26)
+        
+
+
+
+          Shopping Cart Abandonment (13)
+        
+
+
+
+          Showrooming (4)
+        
+
+
+
+          Site Search (15)
+        
+
+
+
+          Social Commerce (11)
+        
+
+
+
+          Social Media Marketing (56)
+        
+
+
+
+          Software (24)
+        
+
+
+
+          Startups (2)
+        
+
+
+
+          Store Associates (9)
+        
+
+
+
+          Store Design (4)
+        
+
+
+
+          Subscription Commerce (5)
+        
+
+
+
+          Supply Chain (29)
+        
+
+
+
+          Systems Integration (10)
+        
+
+
+
+          Training (1)
+        
+
+
+
+          Usability (10)
+        
+
+
+
+          User Experience (62)
+        
+
+
+
+          Virtual Reality (4)
+        
+
+
+
+          Warehouse Management (9)
+        
+
+
+
+          Web Design (12)
+        
+
+
+
+          Web Optimization (27)
+        
+
+
+
+          e-Commerce Platforms (15)
+        
+
+
+Types
+
+
+
+          Best Practices (7)
+        
+
+
+
+          Case Studies (11)
+        
+
+
+
+          Company Profiles (1)
+        
+
+
+
+          How-to Guides (36)
+        
+
+
+
+          Industry Sector Reports (68)
+        
+
+
+
+          Questions and Answers (6)
+        
+
+
+
+          Research (64)
+        
+
+
+
+          Special Reports (182)
+        
+
+
+
+          Technology (2)
+        
+
+
+
+          Tips and Tools (26)
+        
+
+
+
+          Trends/Analysis (20)
+        
+
+
+
+          Video (20)
+        
+
+
+
+          Webinars (155)
+        
+
+
+
+          White Papers (162)
+        
+
+
+
+Have great content to share?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+Blogs
+ 
+
+About Us
+Advertise
+Reprints
+List Rental
+Privacy Policy
+Customer Service
+ 
+
+Subscribe to the Total Retail Report Newsletter
+ 
+Do Not Sell
+
+
+
+RSS Feed
+Find a Career in Retail
+Find Retail Whitepapers
+ 
+
+
+ Facebook  Twitter  LinkedIn 
+
+
+
+
+Explore NAPCO Media
+
+
+ 
+
+
+
+
+
+Marketing, Retail & NonProfit
+BRAND United
+Total Retail
+NonProfit Pro
+
+
+Events
+Retail Roundtables
+Women in Retail Leadership Summit
+Women in Retail Summit On The Road
+NonProfit POWER
+Total Retail Tech
+
+
+
+
+Printing and Packaging
+Printing Impressions
+In-plant Impressions
+Packaging Impressions
+Wide-Format Impressions
+Apparelist
+
+
+Events
+Inkjet Summit
+Digital Packaging Summit
+Wide-Format Summit
+
+
+
+
+Promotional Products
+Print & Promo Marketing
+
+
+Events
+Power Meetings
+Distributor Connect
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+Copyright © 2023 NAPCO Media.  All Rights Reserved.
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recommended for you
+
+
+ 
+
+
