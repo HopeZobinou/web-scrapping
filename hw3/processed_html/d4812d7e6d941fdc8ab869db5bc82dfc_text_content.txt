@@ -1,0 +1,830 @@
+
+
+
+
+
+
+
+
+Microsoft is phasing out VBScript in Windows to improve security
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search for:
+
+
+
+
+
+
+IT Security News
+News and articles about information security, vulnerabilities, exploits, hacks, laws, spam, viruses, malware, breaches. 
+
+
+
+
+Main menu
+Skip to content
+Advertising
+Sponsors
+Cybersecurity Consulting
+Contact
+Legal
+
+Contact
+Privacy Policy
+Legal and Contact information
+
+Social
+
+Social Media
+Daily summary
+Apps
+Telegram Channel
+Weekly summary
+
+ 
+
+
+
+
+
+
+
+
+www.ghacks.net
+Microsoft is phasing out VBScript in Windows to improve security
+
+2023-10-11 06:10 
+
+
+Microsoft announced plans to deprecate Visual Basic Script (VBScript) support in its Windows operating system. The company introduced VBScript, which is modeled on Visual Basic, in 1996. Web developers were the initial […]
+Thank you for being a Ghacks reader. The post Microsoft is phasing out VBScript in Windows to improve security appeared first on gHacks Technology News.
+
+This article has been indexed from  www.ghacks.net
+
+Read the original article: 
+
+
+
+
+
+
+Microsoft is phasing out VBScript in Windows to improve security
+
+
+
+Liked it? Take a second to support IT Security News on Patreon!
+
+Related
+ 
+
+Tags: EN 
+
+
+Post navigation
+← Guardians of Your Digital Realm: The Vital Role of Antivirus Software
+Play Ransomware Victim: Metro Transit →
+
+
+
+
+
+Top postsIT Security News Daily Summary 2023-10-24How did the Okta Support breach impact 1Password?1Password also affected by Okta Support System breachIT Security News Daily Summary 2023-10-23Cisco warns of a second IOS XE zero-day used to infect devices worldwide1Password Becomes Latest Victim of Okta Customer Service BreachLockBit 3.0 Ransomware Victim: grupocobra[.]comFive Southern Ontario hospitals impacted by cyber attack on shared services providerVMware reveals critical vCenter vuln that you may have patched already without knowing it1Password Latest Hit With Okta Related Intrusion IT SicherheitsnewsTransparente Logistik-Prozesse dank Videotechnik October 25, 2023heise-Angebot: IT-Sicherheitstag 2023: Workshop und Vorträge zur Abwehr aktueller Bedrohungen October 25, 2023Exploitcode für Root-Lücke in VMware Aria Operations for Logs in Umlauf October 25, 2023Schreddern oder Entmagnetisieren – was ist besser? October 25, 2023Wie die Westfalen Gruppe ihre SAP-Systeme schützt October 25, 2023Phishing-Masche: Klarstellung wegen Viren-Versands gefordert October 25, 2023Deutsche bleiben bei digitalen Zukunftstechnologien skeptisch October 25, 2023Quantenmechanik als Faktor der Cybersecurity October 25, 2023Zutrittslösung: Per Fingerprint ins Wohnmobil October 25, 2023Webbrowser: Google-Chrome-Update schließt zwei Sicherheitslücken October 25, 2023 
+
+
+
+Search for:
+
+
+
+Daily Summary
+Enter your email address:
+GDPR compliance
+CategoriesCategories
+Select Category
+$~ lloydlabs  (2)
+(ISC)2 Blog  (323)
+(ISC)2 Blog infosec  (13)
+(ISC)² Blog  (800)
+2020-12-08 – Files for an ISC diary (recent Qakbot activity)  (1)
+2020-12-11 – Quick post: TA551 (Shathak) pushes IcedID  (2)
+2020-12-14 – Quick post: Hancitor infection with Cobalt Strike and Ficker Stealer  (1)
+2021-08-10 – Pcap and malware for ISC diary (TA551 -> BazarLoader -> Cobalt Strike)  (2)
+2021-08-19 – Traffic Analysis Exercise – Funkylizards  (3)
+2021-08-30 – Quick post: TA551 (Shathak) BazarLoader  (3)
+2021-09-02 – Hancitor with Cobalt Strike  (1)
+A Journey in Security  (5)
+A Journey through Security  (143)
+A WordPress Site  (1)
+Adobe Product Security Incident Response Team (PSIRT) Blog  (141)
+Adobe Product Security Incident Response Team (PSIRT) Blog infosec  (5)
+Advanced Persistent Security  (70)
+All Articles and Blogs  (912)
+All CISA Advisories  (79)
+americansecuritytoday.com  (2)
+Arbor Networks Threat Intelligence  (48)
+Arbor Threat Intelligence  (49)
+Arbor Threat Intelligence infosec  (4)
+Ars Technica  (1,374)
+Ars Technica » Risk Assessment infosec  (31)
+Articles at ComputerworldUK infosec  (3)
+BankInfoSecurity.com RSS Syndication  (40)
+Bitsight  (8)
+BitSight Security Ratings Blog  (401)
+BitSight Security Ratings Blog infosec  (19)
+BleepingComputer  (3,766)
+Blog  (523)
+Blog – crowdstrike.com  (35)
+Blog RSS Feed  (188)
+Blog | Avast EN  (803)
+Blog | Imperva  (232)
+Blog – crowdstrike.com  (80)
+Blog – Stealthbits Technologies  (3)
+blog.avast.com EN  (542)
+blog.checkpoint.com  (1)
+blog.malwarebytes.com  (3)
+Blogs List with categories – CipherCloud  (13)
+BreachAlarm Data Security Blog  (66)
+BreachAlarm Data Security Blog infosec  (11)
+Breaking Malware  (220)
+BrightPlanet  (223)
+BrightPlanet infosec  (7)
+Bulletins  (27)
+Carbon Black  (190)
+Carnal0wnage & Attack Research Blog  (59)
+CASB Vendors | Cloud Security Companies | CipherCloud  (2)
+CC 2017  (14)
+Center for Internet Security Blog  (33)
+Center for Internet Security Blog infosec  (1)
+CERT Recently Published Vulnerability Notes infosec  (5)
+Check Point Blog  (180)
+Check Point Software  (864)
+Check Point Software Blog  (59)
+CHMag News Apps  (1,152)
+CHMag News Apps infosec  (580)
+CipherCloud  (81)
+CipherCloud infosec  (3)
+CipherCloud | CASB+ Platform | Enterprise Cloud Security  (2)
+CircleID: Cyberattack  (73)
+CircleID: Cybercrime  (240)
+CircleID: Malware  (7)
+CISA All NCAS Products  (1,939)
+CISA Blog  (9)
+CISA Bulletins  (2)
+CISA News  (15)
+CISA TIPS feed  (2)
+Cisco Blog » Security infosec  (14)
+Cisco Blogs  (71)
+Cisco Umbrella Blog  (10)
+CISO Collective  (3)
+Confiant – Medium  (44)
+Corporate Blog  (2,196)
+Corporate Blog infosec  (28)
+CSO Online  (2,386)
+CUInfoSecurity.com RSS Syndication  (76)
+Cyber Defense Magazine  (1,215)
+Cyber Defense Magazine infosec  (33)
+Cyber Secure Car  (1)
+Cyber Security Archives – American Security Today  (158)
+Cyber Security Buzz  (237)
+Cyber Security News  (2)
+Cyber Security Review  (79)
+Cyber Security – American Security Today  (310)
+Cyber Security – Computer Business Review  (400)
+Cyber Trust Blog infosec  (1)
+Cyber Trust Blog » Cloud Computing  (2)
+Cyber Trust Blog » Cloud Computing infosec  (3)
+Cyber Trust Blog » Cybersecurity  (2)
+Cyber Trust Blog » Cybersecurity infosec  (7)
+CyberCrime & Doing Time  (97)
+Cybercrime – WeLiveSecurity  (41)
+Cybereason  (51)
+Cybersecurity  (1,528)
+Cybersecurity Blog | CrowdStrike  (13)
+Cybersecurity infosec  (13)
+Cybersecurity Insiders  (8,541)
+Cybersecurity News, Insights and Analysis | SecurityWeek  (65)
+Cybersecurity News: Get the Latest Trends & Threats | Cisco Umbrella  (31)
+Cybersecurity – Cyber Trust Blog  (1)
+Cylance Blog  (215)
+Cyphort infosec  (1)
+CYREN Blog RSS Feed  (54)
+CYREN Blog RSS Feed infosec  (4)
+CySecurity News – Latest Information Security and Hacking Incidents  (3,396)
+Cyveillance Blog – The Cyber Intelligence Blog infosec  (8)
+Cyveillance Blog – The Cyber Intelligence Blog  (13)
+Cyveillance Blog – The Cyber Intelligence Blog infosec  (19)
+daily summary  (1,074)
+Dark Reading  (5,416)
+Dark Reading:  (4,723)
+Darkmatters infosec  (19)
+Darknet  (35)
+Darknet – The Darkside infosec  (2)
+Darknet – Hacking Tools, Hacker News & Cyber Security  (6)
+Darknet – The Darkside  (241)
+Darknet – The Darkside infosec  (13)
+data-protection.safenet-inc.com  (1)
+DataBreachToday.com RSS Syndication  (49)
+DDoS Attack Protection  (16)
+Deeplinks  (1,705)
+Deeplinks infosec  (181)
+Defense Systems: All Articles  (457)
+Digital Guardian  (932)
+Digital Guardian infosec  (50)
+Duo Security Bulletin  (149)
+Duo Security Bulletin infosec  (24)
+DZone Security Zone  (1,753)
+E Hacking News – Latest Hacker News and IT Security News  (2,948)
+E Hacking News – Latest Hacker News and IT Security News infosec  (50)
+Endpoint Cybersecurity  (377)
+Engadget RSS Feed  (26)
+English – We Live Security  (88)
+English – WeLiveSecurity  (112)
+Enterprise Mobility + Security  (94)
+Enterprise Mobility + Security articles  (119)
+Errata Security  (82)
+Errata Security infosec  (16)
+eSecurity Planet  (46)
+esecurityplanet  (680)
+eSecurityPlanet RSS Feed  (1,094)
+eSecurityPlanet RSS Feed infosec  (66)
+Everyone’s Blog Posts – CISO Platform  (417)
+F-Secure Antivirus Research Weblog infosec  (2)
+Facecrooks  (741)
+FCW – All Content  (1,525)
+FCW: The business of federal technology  (3,641)
+feedpress.me  (1)
+feeds.dzone.com  (5)
+feeds.feedburner.com  (29)
+feeds.fortinet.com  (1)
+Fortinet Blog  (50)
+Fortinet Blog infosec  (31)
+Fortinet Blog | Latest Posts  (902)
+Fortinet Industry Trends Blog  (5)
+Fortinet Threat Research Blog  (5)
+Fox-IT International blog  (54)
+Fox-IT International blog infosec  (2)
+GBHackers On Security  (3,009)
+GBHackers on Security | #1 Globally Trusted Cyber Security News Platform  (16)
+GBHackers – Latest Cyber Security News | Hacker News  (889)
+gbhackers.com  (10)
+GCN – All Content  (1,776)
+GCN: News and Blogs  (2,392)
+GCN: News, Explainers, Insights  (2,349)
+GFI Blog  (53)
+GFI Blog infosec  (26)
+Gizmodo  (228)
+Google Online Security Blog  (212)
+Google Online Security Blog infosec  (7)
+googleonlinesecurity.blogspot.com  (1)
+GuardiCore – Data Center and Cloud Security  (3)
+guest  (1)
+Hacker Combat  (166)
+Hackers Online Club (HOC)  (10)
+hackersonlineclub.com  (1)
+Hacking News — ScienceDaily  (126)
+Hacking News — ScienceDaily infosec  (16)
+HACKMAGEDDON  (206)
+HACKMAGEDDON infosec  (9)
+HackRead  (1,212)
+HackRead | Latest Cyber Crime – InfoSec- Tech – Hacking News  (756)
+HackRead | Latest Cybersecurity and Hacking News Site  (520)
+Hackread – Latest Cybersecurity News, Press Releases & Technology Today  (196)
+Have I Been Pwned latest breaches  (317)
+Have I been pwned? latest breaches  (239)
+Have I been pwned? latest breaches infosec  (13)
+HEAT Security Blog  (19)
+HEAT Security Blog infosec  (5)
+Heimdal Security Blog  (3,559)
+Heimdal Security Blog infosec  (18)
+Help Net Security  (15,868)
+Help Net Security infosec  (350)
+HelpSystems Blog  (156)
+HITBSecNews – Keeping Knowledge Free for Over a Decade  (1,461)
+HITBSecNews – Keeping Knowledge Free for Over a Decade infosec  (311)
+HolisticInfoSec  (28)
+HolisticInfoSec infosec  (2)
+HolisticInfoSec™  (62)
+HOTforSecurity » Industry News infosec  (23)
+http://blog.idwatchdog.com/index.php/feed/  (47)
+http://blogs.cisco.com/rss/security/  (213)
+http://blogs.rsa.com/feed/  (106)
+http://facecrooks.com/feed/  (496)
+http://feeds.arstechnica.com/arstechnica/security  (300)
+http://feeds.feedburner.com/darknethackers  (225)
+http://feeds.feedburner.com/Imperviews  (190)
+http://feeds.feedburner.com/TalkTechToMe-All  (69)
+http://feeds.trendmicro.com/Anti-MalwareBlog/  (207)
+http://holisticinfosec.blogspot.com/feeds/posts/default  (36)
+http://news.netcraft.com/feed  (77)
+http://news.softpedia.com/newsRSS/Security-5.xml  (883)
+http://packetstormsecurity.org/headlines.xml  (600)
+http://rss.juniper.net/f/100001s481stb5hvl0q.rss  (35)
+http://securityblog.redhat.com/feed/  (43)
+http://venturebeat.com/category/security/feed/  (15)
+http://welivesecurity.com/feed/rss  (22)
+http://www.ciphercloud.com/feed/  (1)
+http://www.eff.org/rss/updates.xml  (622)
+http://www.europol.europa.eu/rss_news_feed  (228)
+http://www.hotforsecurity.com/blog/category/industry-news/feed  (348)
+http://www.informationsecuritybuzz.com/feed/  (314)
+http://www.infosecurity-magazine.com/rss/news/76/application-security/  (6,614)
+http://www.intezer.com/feed/  (105)
+http://www.lawfareblog.com/rss.xml  (1,168)
+http://www.secmaniac.com/feed/  (16)
+http://www.techweekeurope.co.uk/category/security/feed  (27)
+https://americansecuritytoday.com/category/itsecurity/cybersecurity/feed  (15)
+https://blog.css-security.com/blog/rss.xml  (121)
+https://blog.syscall.party/feed  (4)
+https://blogs.technet.microsoft.com/msrc/feed  (52)
+https://hackercombat.com/feed/  (204)
+https://www.crowdstrike.com/blog/feed  (206)
+https://www.cyberdefensemagazine.com/feed/  (1)
+https://www.europol.europa.eu/rss.xml  (254)
+https://www.hackread.com/feed/  (617)
+https://www.ipswitch.com/blog/security/feed/  (6)
+IEEE Cybersecurity  (12)
+Imperva Cyber Security Blog  (1)
+Imperva Cyber Security Blog infosec  (18)
+Improve Your Security  (23)
+Industry News – HOTforSecurity  (1,147)
+Industry News – HOTforSecurity infosec  (26)
+Info Security News  (551)
+Info Security News infosec  (26)
+InfoCON: green infosec  (64)
+InfoRiskToday.com RSS Syndication  (229)
+Information Security Buzz  (3,324)
+Information Security Buzz infosec  (247)
+Information Security infosec  (1)
+infosec  (314)
+InfoSec Institute infosec  (16)
+Infosec Island Latest Articles  (163)
+Infosec Island Latest Articles infosec  (21)
+InfoSec News  (45)
+InfoSec Resources  (929)
+InfoSec Resources infosec  (35)
+InfoWorld Security  (240)
+Insider Threat Security Blog  (222)
+Intezer  (410)
+Invincea Endpoint Security Blog – Invincea  (7)
+Irongeek’s Security Site  (24)
+Irongeek’s Security Site infosec  (5)
+ISACA Now: Posts infosec  (4)
+iSIGHT Partners  (247)
+iSIGHT Partners infosec  (6)
+IT Security – The IT Security Industry’s Web Resource  (141)
+IT Security Expert Blog  (181)
+IT SECURITY GURU  (2,816)
+IT Security Guru infosec  (294)
+IT World Canada  (129)
+ITsecurity  (201)
+ITsecurity infosec  (44)
+itsecurityguru.org  (4)
+ITSecurityPortal.com  (1,830)
+Keen Security Lab Blog  (113)
+Kevin Townsend  (212)
+Krebs on Security  (490)
+Krebs on Security infosec  (31)
+krebsonsecurity.com  (2)
+Latest articles from SC Magazine News  (12)
+Latest articles from SC Magazine News infosec  (121)
+Latest Blogs Posts from ComputerworldUK  (11)
+Latest Hacking News  (2,886)
+Latest Hacking News | Cyber Security News, Hacking Tools and Penetration Testing Courses  (507)
+Latest news and stories from BleepingComputer.com  (3,085)
+Latest Secunia Blog Entries  (1,916)
+Latest Security Advisories  (21)
+Latest stories for ZDNet in Security  (1,031)
+Latest topics for ZDNet in Security  (9,535)
+Latest topics for ZDNet in Security infosec  (336)
+latesthackingnews.com  (2)
+Lawfare  (2,023)
+Lawfare infosec  (255)
+Lifehacker  (528)
+LinuxSecurity.com  (9)
+LinuxSecurity.com – Hybrid RSS  (1,141)
+LinuxSecurity.com – Security Advisories  (763)
+Liquidmatrix Security Digest  (130)
+Liquidmatrix Security Digest infosec  (7)
+MacRumors: Mac News and Rumors – Front Page  (11,159)
+Malcovery Security Blog  (234)
+Malware don’t need Coffee  (64)
+Malware don’t need Coffee infosec  (1)
+malware-traffic-analysis.net  (1)
+Malware-Traffic-Analysis.net – Blog Entries  (419)
+Malwarebytes Labs  (2,310)
+Malwarebytes Labs infosec  (22)
+MalwareTech  (22)
+MalwareTech infosec  (2)
+Mashable  (27)
+McAfee Blog  (245)
+McAfee Blogs  (673)
+McAfee Labs | McAfee Blogs  (19)
+McAfee Labs – McAfee Blog  (5)
+McAfee Labs – McAfee Blogs  (59)
+Metasploit  (167)
+Metasploit infosec  (28)
+Microsoft Azure Blog > Security  (209)
+Microsoft Malware Protection Center Blog  (14)
+Microsoft Malware Protection Center infosec  (7)
+Microsoft Secure  (21)
+Microsoft Security  (497)
+Microsoft Security Baselines Blog articles  (1)
+Microsoft Security Blog  (766)
+Microsoft Security Bulletins  (133)
+Microsoft Security Bulletins infosec  (30)
+Microsoft Security Content: Comprehensive Edition  (182)
+Microsoft Security Content: Comprehensive Edition infosec  (16)
+Microsoft Security Guidance blog  (13)
+Microsoft Security Response Center  (202)
+Microsoft Security Response Center infosec  (8)
+Minded Security Blog  (58)
+Minded Security Blog infosec  (1)
+Mocana ON Blog infosec  (5)
+monthly summary  (31)
+MSRC  (6)
+MSRC infosec  (2)
+msrc.microsoft.com  (1)
+Naked Security  (6)
+Naked Security – Sophos  (2,601)
+Naked Security – Sophos infosec  (186)
+NetApp Blog  (825)
+Netcraft  (11)
+Netcraft News  (138)
+Network Security Blog  (179)
+Network Security Blog infosec  (3)
+News  (1)
+News from the Lab  (273)
+News infosec  (12)
+News Items  (5)
+News Items infosec  (6)
+News ≈ Packet Storm  (3,864)
+News ≈ Packet Storm infosec  (199)
+Newsroom  (321)
+NorseCorp  (932)
+OEM Hub | Insights into Antivirus Technology Licensing  (1,772)
+Offensive Security  (176)
+Offensive Security – Offensive Security infosec  (1)
+Offensive Security infosec  (2)
+Official Google Blog  (32)
+OffSec  (42)
+OpenDNS Blog infosec  (5)
+OpenDNS Security Labs infosec  (3)
+OpenDNS Umbrella Blog  (78)
+OpenSSL Blog  (2)
+Optimal Security infosec  (13)
+packetstormsecurity.org  (5)
+Palo Alto Networks Blog  (500)
+Palo Alto Networks Blog infosec  (55)
+Panda Security Mediacenter  (632)
+Perception Point  (144)
+PKI Blog  (94)
+Power More  (6)
+Project Zero  (11)
+rdist  (1)
+Recorded Future  (665)
+Recorded Future infosec  (16)
+Red Hat Security  (196)
+Red Hat Security Blog Blog Posts  (150)
+Red Hat Security infosec  (2)
+RedPacket Security  (562)
+Risk Assessment – Ars Technica  (754)
+Risk Assessment – Ars Technica infosec  (52)
+safebreach.com – Main Channel  (51)
+SANS Information Security Reading Room  (527)
+SANS Information Security Reading Room infosec  (46)
+SANS Internet Storm Center  (64)
+SANS Internet Storm Center, InfoCON: green  (1,583)
+SANS Internet Storm Center, InfoCON: yellow  (7)
+SANS ISC InfoSec News Feed  (1,819)
+SANS NewsBites  (429)
+SANS NewsBites infosec  (191)
+SANS Penetration Testing  (230)
+SANS Penetration Testing infosec  (1)
+Schneier on Security  (953)
+Schneier on Security infosec  (53)
+Scott Helme  (160)
+SearchSecurity  (2,808)
+SearchSecurity.techtarget.com  (5)
+SearchSecurity: RSS Feed  (495)
+SearchSecurity: Security Wire Daily News  (887)
+SearchSecurity: Security Wire Daily News infosec  (37)
+Secunia Research: Research, opinions and views from our Vulnerability Research experts  (3)
+Securelist  (465)
+Securelist – Information about Viruses, Hackers and Spam  (544)
+Securelist – Kaspersky Lab’s cyberthreat research and reports  (91)
+Security  (877)
+Security – Cisco Blogs  (176)
+Security @ Cisco Blogs  (5)
+Security Affairs  (5,972)
+Security Affairs infosec  (235)
+Security Blog G Data Software AG  (112)
+Security Blog G Data Software AG infosec  (1)
+Security Bloggers Network  (2,260)
+Security Bloggers Network infosec  (697)
+Security Boulevard  (7,055)
+Security Intelligence  (1,381)
+Security Latest  (1,787)
+Security News | TechCrunch  (121)
+Security News | VentureBeat  (898)
+Security on TechRepublic  (2,926)
+Security on TechRepublic infosec  (43)
+Security Research & Defense  (33)
+Security Resources and Information from TechTarget  (595)
+Security Software news and updates  (281)
+Security Watch  (2,137)
+Security Watch infosec  (9)
+Security Zap  (28)
+Security Zap infosec  (31)
+Security | Azure Blog | Microsoft Azure  (2)
+Security | TechCrunch  (103)
+Security | TechRepublic  (1,067)
+security – Ars Technica  (147)
+Security – Cisco Blog  (1,225)
+Security – Cisco Blog infosec  (20)
+Security – Cisco Blogs  (684)
+Security – gHacks Technology News  (36)
+Security – Ipswitch Blog  (117)
+Security – Re/code  (46)
+Security – Re/code infosec  (68)
+Security – Silicon UK  (163)
+Security – VentureBeat  (2,725)
+securityaffairs.co  (6)
+securityboulevard.com  (20)
+SecurityFocus Vulnerabilities  (468)
+SecurityFocus Vulnerabilities infosec  (316)
+SecurityRecruiter.com’s Security Recruiter Blog  (19)
+securityweek  (26)
+SecurityWeek RSS Feed  (8,737)
+SecurityWeek RSS Feed infosec  (329)
+securityzap.com  (2)
+SentinelOne  (318)
+Services  (398)
+Shell is Only the Beginning  (9)
+Shell is Only the Beginning infosec  (2)
+Silicon UK  (5,676)
+Silicon UK » Security  (1,033)
+Slashdot  (25)
+Softpedia News / Security  (417)
+Software Security Archives – Software Curated  (28)
+Software Security – Software Curated  (238)
+Sorin Mustaca on Cyber Security infosec  (18)
+Sorin Mustaca on Cybersecurity  (63)
+Sorin Mustaca on Security infosec  (3)
+Speaking of Security – The RSA Blog and Podcast infosec  (18)
+Speaking of Security – The RSA Blog  (202)
+Speaking of Security – The RSA Blog and Podcast  (142)
+Speaking of Security – The RSA Blog and Podcast infosec  (34)
+sponsored  (1)
+StopBadware blogs  (186)
+StopBadware blogs infosec  (1)
+Sucuri Blog  (201)
+Tech  (358)
+TechCrunch  (740)
+techcrunch.com  (6)
+Technical Blog  (18)
+TechSpective infosec  (24)
+TechWeekEurope UK  (983)
+TechWeekEurope UK infosec  (358)
+TechWeekEurope UK » Security  (235)
+Thales CPL Blog Feed  (92)
+The Art of Data Protection  (8)
+The Art of Data Protection infosec  (14)
+The AVIEN Blog  (98)
+The Duo Blog  (453)
+The first stop for security news | Threatpost  (425)
+The Hacker News  (4,587)
+The Hacker News – Cybersecurity News and Analysis  (3)
+The Hacker News – Most Trusted Cyber Security and Computer Security Analysis  (37)
+The Hacker News infosec  (141)
+The Insider Threat Security Blog  (2)
+The Invisible Things Lab’s blog  (199)
+The Mac Security Blog  (472)
+The Official Blog from Kaspersky Lab infosec  (28)
+The Official Google Blog  (1,127)
+The PhishLabs Blog  (179)
+The PhishLabs Blog infosec  (5)
+the register  (16,478)
+The Register – Security  (5,145)
+The Register – Security infosec  (450)
+The Register infosec  (1,803)
+The Social Media Security Podcast  (187)
+The Spamhaus Project News  (29)
+The State of Security  (1,924)
+The State of Security infosec  (159)
+The Watchblog — ID Watchdog  (150)
+The Watchblog — ID Watchdog infosec  (10)
+ThinkGeek – What’s New  (1,659)
+Threat Intelligence Times  (111)
+Threat Intelligence Times infosec  (4)
+Threat Research  (334)
+Threat Research Blog  (12)
+Threat Research Blog infosec  (5)
+Threat Research infosec  (11)
+Threat Watch  (362)
+Threat Watch – Binary Defense  (1,011)
+threatpost  (4,022)
+Threatpost | The first stop for security news  (185)
+Threatpost | The first stop for security news infosec  (169)
+Threatpost – English – Global – threatpost.com  (2)
+ThreatTrack Security Labs Blog  (215)
+ThreatTrack Security Labs Blog infosec  (1)
+Trend Micro Research, News and Perspectives  (525)
+Trend Micro Simply Security  (406)
+TrendLabs Security Intelligence Blog  (512)
+TrendLabs Security Intelligence Blog infosec  (35)
+Troy Hunt  (3)
+Troy Hunt’s Blog  (452)
+Troy Hunt’s Blog infosec  (9)
+TrustedSec – Information Security infosec  (6)
+TrustedSec – Information Security  (54)
+TrustedSec – Information Security infosec  (7)
+Trustwave Blog  (288)
+Uncategorized  (11)
+US – Research, News, and Perspectives  (4)
+US-CERT Current Activity  (671)
+US-CERT Current Activity infosec  (44)
+US-CERT Tips  (82)
+US-CERT: The United States Computer Emergency Readiness Team  (464)
+Venafi Blog  (6)
+Venafi Blog infosec  (5)
+venturebeat.com  (2)
+Virus Bulletin blog infosec  (12)
+Virus Bulletin’s blog  (161)
+Virus Bulletin’s blog infosec  (14)
+VirusTotal Blog  (120)
+VMware Carbon Black  (217)
+We Live Security  (4)
+We Live Security » Languages » English  (119)
+We Live Security » Languages » English infosec  (96)
+Webroot Blog  (340)
+Webroot Threat Blog  (337)
+Webroot Threat Blog infosec  (19)
+weekly summary  (192)
+welivesecurity  (952)
+Windows Incident Response  (184)
+Windows Incident Response infosec  (4)
+Windows Security  (27)
+Windows Security blog  (38)
+wired  (511)
+WIRED » WIRED  (3)
+WIRED » » Threat Level » WIRED  (3)
+WIRED » » Threat Level » WIRED infosec  (37)
+Writing and Ramblings  (1)
+www.cisa.gov  (6)
+www.cyberdefensemagazine.com  (2)
+www.cybersecurity-insiders.com  (2)
+www.cysecurity.news  (8)
+www.darkreading.com  (13)
+www.eff.org  (1)
+www.esecurityplanet.com  (2)
+www.ghacks.net  (1)
+www.hackread.com  (7)
+www.helpnetsecurity.com  (13)
+www.infosecurity-magazine.com  (61)
+www.itworldcanada.com  (3)
+www.redpacketsecurity.com  (32)
+www.schneier.com  (1)
+www.silicon.co.uk  (6)
+www.techrepublic.com  (2)
+www.theregister.co.uk  (8)
+www.wired.com  (4)
+www.zdnet.com  (6)
+ZDI: Upcoming Advisories  (952)
+ZDNet.de  (5)
+ZecOps Blog  (40)
+ZenMate Blog | Internet Security and Privacy Reports  (8)
+ZenMate Blog | Internet Security and Privacy Reports infosec  (12)
+ZenMate Mind  (21)
+ZephrSec – Adventures In Information Security  (4)
+ZeroSec – Adventures In Information Security  (47)
+Zscaler Blog infosec  (7)
+
+
+
+Pages
+
+Advertising
+Contact
+Cybersecurity Consulting
+Legal
+Legal and Contact information
+Privacy Policy
+Social Media
+
+Apps
+Telegram Channel
+
+
+Sponsors
+
+Endpoint Cybersecurity
+
+
+
+Log in 
+ 
+ 
+
+
+
+
+Copyright © 2023 IT Security News. All Rights Reserved.
+The Magazine Basic Theme by bavotasan.com.
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

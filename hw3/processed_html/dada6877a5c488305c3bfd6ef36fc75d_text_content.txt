@@ -1,0 +1,485 @@
+
+
+
+
+
+
+
+Going Green: Sustainable Data Centers & Goals for 2023
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Clients
+
+
+WordPress
+
+
+News
+
+
+Product Updates
+
+
+Engineering
+
+
+
+search
+
+
+
+
+
+Clients
+
+
+WordPress
+
+
+News
+
+
+Product Updates
+
+
+Engineering
+
+
+
+Topics
+menu
+
+
+search
+
+
+
+
+
+
+
+
+
+close
+
+
+
+ 
+
+
+
+
+
+
+
+Copy link
+Copied!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+Daily Life 
+
+
+
+Tuesday October 10, 2023 
+
+
+
+Matleena S. 
+
+
+Going Green: Hostinger’s Transition to Renewable Energy at Data Centers
+
+
+
+
+
+Copy link
+Copied!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+Ever wondered how the tech world contributes to climate change? While storing your files in the cloud is usually more sustainable than printing papers, the servers that store your data can take up a surprising amount of energy.
+Data centers, in particular, consume energy significantly and contribute to greenhouse gas emissions. Luckily, tech companies have the power to make environmentally responsible choices and opt for renewable energy.
+At Hostinger, we’re committed to doing our part for the planet. Releasing our initial sustainability report in 2023 helped us identify areas that needed more attention – and electricity sources at our data centers are one of them.
+In 2022, nonrenewable electricity from our data centers accounted for approximately 60% of our location-based scope 2 emissions. We saw room for improvement and began focusing on our data center energy sources and future sustainability goals. We believe that transparency in sustainability matters helps to set us apart in an industry where such disclosures are rare.
+Current State of Our Data Centers and Renewable Energy
+In 2022, four out of nine Hostinger data centers, located in Phoenix, USA; Vilnius, Lithuania; Manchester, UK; and São Paulo, Brazil, utilized renewable energy, making approximately 35% of our data center energy renewable. In 2023, we added our French data center to the list.
+This increased our renewable energy consumption to approximately 43%, marking an 8% improvement. However, these percentages can fluctuate as we continue to expand our server capacity. The final number for 2023 will be provided in our sustainability report later on.
+Here’s a detailed look at our data centers and their used energy:
+
+
+Power Usage Effectiveness (PUE)
+On top of making our data centers go renewable, we also want to ensure that they are as effective in power usage as they can be.
+One way to achieve this is by reducing a metric called Power Usage Effectiveness (PUE), as outlined by the Climate Neutral Data Center Pact. The pact has set ambitious targets: by January 1, 2025, new data centers in cool climates should have a PUE of 1.3, and those in warm climates should aim for 1.4.
+Our PUE Scores
+Our average PUE score is 1.4045. Most of our data centers align with the pact’s targets, but there’s room for improvement. We’re actively seeking opportunities to better our PUE scores and align with the Climate Neutral Data Center Pact.
+What’s Next?
+Based on our analysis of renewable electricity and Power Usage Effectiveness (PUE), we’re working on an action plan to manage Hostinger’s environmental impact, set for implementation in 2023 and beyond.
+Our plan encompasses several key components, including:
+
+Seeking ways to boost the percentage of renewable electricity in our data centers.
+Developing both Scope 1 and Scope 2 greenhouse gas emission reduction plans.
+Establishing a server disposal procedure and registry.
+Formulating a third-party code of conduct to ensure all major suppliers, including data centers where we have colocation agreements, align with our sustainability criteria.
+
+Moving forward, we’re committed to making Hostinger more sustainable. We plan not just to reduce our environmental footprint but also to set an industry example for responsible business practices.
+
+
+
+
+
+
+
+The author
+Matleena S.
+
+
+
+
+Matleena is a seasoned eCommerce writer, with a particular interest in emerging digital marketing trends, dropshipping, and growth hacking. In her free time, she enjoys cups of good coffee, tends to her balcony garden, and studies Japanese. 
+
+
+
+More from Matleena S. 
+
+
+
+
+
+
+
+
+
+Related posts
+
+
+
+
+
+ 
+
+
+
+12 Oct •
+
+Daily Life 
+•
+•
+2min 
+
+
+
+Management Changes: Daugirdas Jankus becomes Hostinger CEO  
+
+
+Having led our marketing activities for the past six years, Daugirdas Jankus became our new CEO. Arnas Stuopelis, our former CEO for 12 years, will continue as Chairman of the Boa… 
+
+
+
+By Kotryna D 
+
+
+
+
+
+
+
+
+ 
+
+
+
+29 Sep •
+
+Daily Life 
+•
+•
+2min 
+
+
+
+Hostinger Becomes a Golden Partner of the Awwwards Conference   
+
+
+Hostinger is joining the 17th edition of the Awwwards Digital Thinkers Conference as the main sponsor to foster connections in the digital creative community. This prestigious eve… 
+
+
+
+By Kotryna D 
+
+
+
+
+
+
+
+
+ 
+
+
+
+26 Sep •
+
+Daily Life 
+•
+•
+5min 
+
+
+
+From Studies to Breakthroughs: How to Excel in Studies and Unlock Your Full Potential With Hostinger? 
+
+
+Lifelong learning is essential to succeed and achieve goals. Here at Hostinger, we take this very seriously. Our Learn and Be Curious principle and learning routines go beyond rec… 
+
+
+
+By Kotryna D 
+
+
+
+
+ 
+
+
+
+
+
+
+Leave a reply Cancel replyPlease fill the required fields.Please accept the privacy checkbox.Please fill the required fields and accept the privacy checkbox.
+
+By using this form you agree that your personal data would be processed in accordance with our Privacy Policy.
+ 
+
+Δ 
+
+
+
+
+Thank you! Your comment has been successfully submitted. It will be approved within the next 24 hours.
+
+
+
+
+
+
+
+
+Become a part of Hostinger now!
+
+Get Started
+
+
+
+
+
+
+
+
+
+ 
+ Share This 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

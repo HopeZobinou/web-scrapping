@@ -1,0 +1,57 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ronaldo or Messi? Individual contributions to football match points for 10 last La Liga seasons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Medium
+Ronaldo or Messi? Individual contributions to football match points for 10 last La Liga seasons
+Detailed analysis with data transformation, modeling with Machine Learning, and model explanations with SHAP values
+
+
+
+See this content immediately after install
+
+ 
+
+
+
+
+
+
+
+
