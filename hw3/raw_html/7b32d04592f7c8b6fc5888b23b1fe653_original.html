@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta property="og:title" content='Help register and elect more Dems!'>
+<meta name="twitter:title" content='Help register and elect more Dems!'>
+
+
+  <meta property="og:type" content="website" />
+  <meta property="og:image" itemprop="image" content="https://storage.googleapis.com/media-production-bucket/7cbb217c-40fd-4357-a24c-a1f357a60eb5.jpeg">
+  <meta property="og:image:secure_url" itemprop="image" content="https://storage.googleapis.com/media-production-bucket/7cbb217c-40fd-4357-a24c-a1f357a60eb5.jpeg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://storage.googleapis.com/media-production-bucket/7cbb217c-40fd-4357-a24c-a1f357a60eb5.jpeg">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-144737533-1"></script>
+<script   src="https://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script> 
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144737533-1', {
+       'anonymize_ip': true,
+  });
+</script>
+</head>
+
+<body>
+<script>
+window.onload = function() {
+    var elem = document.createElement('textarea');
+    elem.innerHTML = 'https://fieldteam6.org/';
+    var decodedLink = elem.value;
+    var parameteredDecodedLink = new URL(decodedLink)
+    parameteredDecodedLink.searchParams.append('sp_sn', "twitter");
+
+    if (decodedLink !== '') {
+        $.ajax({
+          type: "POST",
+          url: "/api/analytics/register_click",
+          data: {
+              imageID: "4CAC8DB5-6BB0-48D7-89D2-959BEBF1A278",
+              socialNetwork: "twitter",
+              campaignID: "F6DDBE84-04F4-4C96-A5FA-7E22A07FEDDB",
+              sharedLink: decodedLink
+          },
+          error: function (result) {
+            window.location.replace(parameteredDecodedLink);
+          },
+          success: function(data){
+            parameteredDecodedLink.searchParams.append('spclid', data.id);
+            window.location.replace(parameteredDecodedLink);
+          }
+        });
+    }
+}
+</script>
+</body>
+
+</html>

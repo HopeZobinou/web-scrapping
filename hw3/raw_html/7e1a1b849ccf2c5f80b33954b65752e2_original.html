@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+ <html amp>
+   <head><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width,minimum-scale=1">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,300" rel="stylesheet" type="text/css">
+     <style amp-custom>#branch-sdk{position:fixed;bottom:0;left:0;right:0;}
+       body {
+         margin: 0;
+         word-wrap: break-word;
+         font-family: "Open Sans", Helvetica, serif;
+       }
+       /* ============ Portrait ============ */
+       .main-image {
+         width: 100%;
+         height: 250px;
+         height: 75vw;
+           background-image: url(https://cdn-images-1.medium.com/max/600/0*WLiK3aZfhq3Inlyn.jpg);
+         background-size: cover;
+         background-position: top center;
+       }
+       #content-container {
+         box-sizing: border-box;
+         padding: 24px;
+         margin: 0 24px;
+         background-color: #fff;
+       }
+       .app-title {
+         font-size: 14px;
+         padding-bottom: 11px;
+         text-transform: uppercase;
+       }
+       .card-title {
+         font-size: 33px;
+         line-height: 36px;
+       }
+       .app-content {
+         padding-top: 10px;
+         padding-bottom: 100px;
+         font-size: 20px;
+       }
+       .input-wrapper {
+         position: fixed;
+         bottom: 0;
+         left: 0;
+         width: 100%;
+         height: 110px;
+         background-color: #fff;
+         box-shadow: 0px -20px 20px -8px rgba(255,255,255,1);
+       }
+       .input-container {
+         width: 100%;
+         padding: 0 24px;
+         text-align: center;
+         box-sizing: border-box;
+       }
+       .form-get-the-app {
+         display: -webkit-box;
+         display: flex;
+         text-align: center;
+         padding-top: 10px;
+         border-top: 2px solid #cecece;
+         min-height: 300px;
+       }
+       .input-label {
+         padding: 4px 10px;
+         font-size: 13px;
+         overflow: hidden;
+         word-wrap: break-word;
+         text-align: center;
+       }
+       .app-icon {
+         width: 62px;
+         height: 62px;
+         line-height: 62px;
+         background-size: 100% auto;
+           background-image: url(https://cdn.branch.io/branch-assets/1602694458802-og_image.png);
+       }
+       .cta-button {
+         -webkit-box-flex: 1;
+         flex-grow: 1;
+         height: 62px;
+         line-height: 62px;
+         background-color: #444;
+         border-radius: 2px;
+         font-size: 20px;
+         padding: 0 20px;
+         margin-left: 10px;
+         color: #fff;
+         text-align: center;
+         text-decoration: none;
+         display: block;
+       }
+       /* No data (portrait) */
+       @media only screen and (orientation: portrait) {
+         .card--no-data .main-image {
+           background-image: url("http://s3-us-west-1.amazonaws.com/branch-assets/b_stripes-small.png");
+           background-size: auto;
+           background-position: top center;
+           background-repeat: repeat;
+           height: 190px;
+         }
+         .card--no-data > .app-icon {
+           position: absolute;
+           top: 160px;
+           left: 34px;
+         }
+         .card--no-data #content-container {
+           margin-top: 20px;
+         }
+         }
+         @media screen /* >= iPhone 5 */
+         and (min-device-width: 321px) {
+         .input-label {
+           font-size: 14px;
+         }
+       }
+       @media only screen /* >= iPhone 6 */
+         and (min-device-width: 375px)
+         and (orientation: portrait) {
+         .main-image {
+           height: 300px;
+           height: 80vw;
+         }
+         .app-content {
+           padding-bottom: 120px;
+         }
+         .input-wrapper {
+           height: 115px;
+         }
+       }
+       @media only screen /* >= iPhone 6+ */
+       and (min-device-width: 414px)
+       and (orientation: portrait) {
+         .main-image {
+           height: 390px;
+           height: 95vw;
+         }
+       }
+       /* ============ Landscape ============ */
+       @media only screen and (orientation: landscape){
+         .main-image {
+           position: fixed;
+           height: 100%;
+           height: 100vh;
+           width: 50%;
+         }
+         .input-wrapper {
+           right: 0;
+           left: auto;
+           width: 50%;
+         }
+         #content-container {
+           float: left;
+           width: 50%;
+           margin-left: 50%;
+         }
+         .input-wrapper {
+           height: 108px;
+         }
+         .app-content {
+           padding-bottom: 110px;
+         }
+         .form-get-the-app {
+           padding-top: 8px;
+         }
+         .input-container {
+           left: 50%;
+         }
+         .cta-button {
+           height: 44px;
+           line-height: 44px;
+           padding: 0 5px;
+           margin-left: 50px;
+         }
+         .app-icon {
+           width: 44px;
+           height: 44px;
+         }
+         /* No data (landscape) */
+         .card--no-data .main-image {
+           height: 100%;
+         }
+         .card--no-data > .app-icon {
+           display: none;
+         }
+         .card--no-data #content-container {
+           margin-top: 0;
+         }
+       }
+       @media only screen /* >= iPhone 6 */
+       and (min-device-width: 645px)
+       and (orientation: landscape) {
+         .form-get-the-app {
+           padding-top: 8px;
+         }
+         .cta-button {
+           height: 62px;
+           line-height: 62px;
+           padding: 0 20px;
+           margin-left: 70px;
+         }
+         .app-icon {
+           width: 62px;
+           height: 62px;
+           top: -2px;
+         }
+       }
+       /* Reusables */
+       .text-bold {
+         font-weight: 700
+       }
+       .text-light {
+         font-weight: 300;
+       }
+       .cta-button--no-app-icon {
+         margin-left: 0;
+       }
+     </style>
+       <link rel="alternate" href="ios-app://828256236/medium/p/cfe664512e6e?_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1S8MLS43cQkr8HdJAgAIlW8TIwAAAA%3D%3D&amp;link_click_id=link-1240664001164186860">
+       <link rel="alternate" href="android-app://com.medium.reader/medium/p/cfe664512e6e?_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1S8MLS43cQkr8HdJAgAIlW8TIwAAAA%3D%3D&amp;link_click_id=link-1240664001164186860">
+       <link rel="apple-touch-icon" href="https://cdn-images-1.medium.com/max/600/0*WLiK3aZfhq3Inlyn.jpg">
+       <meta property="al:ios:url" content="medium://p/cfe664512e6e?_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1S8MLS43cQkr8HdJAgAIlW8TIwAAAA%3D%3D&amp;link_click_id=link-1240664001164186860-eyIkb2dfdGl0bGUiOiJIb3cgdG8gQmVjb21lIGEgUG9wIEN1bHR1cmUgRXhwZXJ0IiwiJGRlZXBsaW5rX3BhdGgiOiJwL2NmZTY2NDUxMmU2ZSIsIiR0d2l0dGVyX3NpdGUiOiJATWVkaXVtIiwifmNyZWF0aW9uX3NvdXJjZSI6MCwiJG9nX2Rlc2NyaXB0aW9uIjoiSGksIGl04oCZcyBBYWxpeWFoLiBJZiB5b3XigJl2ZSBmb2xsb3dlZCB0aGlzIGFjY291bnQgZm9yIGEgd2hpbGUsIHlvdSBrbm93IEnigJltIGEgcG9wIGN1bHR1cmUgd3JpdGVyLiBJIHdhbnRlZCB0byBnaXZlIGEgZGV0YWlsZWQgYnJlYWtkb3duIG9m4oCmIiwiJHR3aXR0ZXJfY2FyZCI6InN1bW1hcnlfbGFyZ2VfaW1hZ2UiLCIkb2dfaW1hZ2VfdXJsIjoiaHR0cHM6Ly9jZG4taW1hZ2VzLTEubWVkaXVtLmNvbS9tYXgvNjAwLzAqV0xpSzNhWmZocTNJbmx5bi5qcGciLCJ-ZmVhdHVyZSI6InNoYXJlX3Bvc3QiLCIkb2dfdHlwZSI6ImFydGljbGUiLCIkdHdpdHRlcl90aXRsZSI6IkhvdyB0byBiZWNvbWUgYSBQb3AgQ3VsdHVyZSBFeHBlcnQiLCIkb2dfYXBwX2lkIjoiNTQyNTk5NDMyNDcxMDE4IiwiK3VybCI6Imh0dHBzOi8vbGluay5tZWRpdW0uY29tL3FVc3c0RFZwT0RiIiwiJGRlc2t0b3BfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIiRpb3NfZGVlcGxpbmtfcGF0aCI6InAvY2ZlNjY0NTEyZTZlIiwiJGFuZHJvaWRfZGVlcGxpbmtfcGF0aCI6InAvY2ZlNjY0NTEyZTZlIiwifmlkIjoiMTI0MDY2NDAwMTE2NDE4Njg2MCIsIiRjYW5vbmljYWxfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIn5jYW1wYWlnbiI6IndlYl9zaGFyaW5nIiwiJGFuZHJvaWRfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIn5jaGFubmVsIjoidHdpdHRlciIsIiRpb3NfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIiR0d2l0dGVyX2Rlc2NyaXB0aW9uIjoiSGksIGl04oCZcyBBYWxpeWFoLiBJZiB5b3XigJl2ZSBmb2xsb3dlZCB0aGlzIGFjY291bnQgZm9yIGEgd2hpbGUsIHlvdSBrbm93IEnigJltIGEgcG9wIGN1bHR1cmUgd3JpdGVyLiBJIHdhbnRlZCB0byBnaXZlIGEgZGV0YWlsZWQgYnJlYWtkb3duIG9m4oCmIiwiK2RvbWFpbiI6ImxpbmsubWVkaXVtLmNvbSIsIitjbGlja190aW1lc3RhbXAiOjE2OTgyMzk5Mzl9">
+       <meta name="twitter:app:url:iphone" content="medium://p/cfe664512e6e?_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1S8MLS43cQkr8HdJAgAIlW8TIwAAAA%3D%3D&amp;link_click_id=link-1240664001164186860-eyIkb2dfdGl0bGUiOiJIb3cgdG8gQmVjb21lIGEgUG9wIEN1bHR1cmUgRXhwZXJ0IiwiJGRlZXBsaW5rX3BhdGgiOiJwL2NmZTY2NDUxMmU2ZSIsIiR0d2l0dGVyX3NpdGUiOiJATWVkaXVtIiwifmNyZWF0aW9uX3NvdXJjZSI6MCwiJG9nX2Rlc2NyaXB0aW9uIjoiSGksIGl04oCZcyBBYWxpeWFoLiBJZiB5b3XigJl2ZSBmb2xsb3dlZCB0aGlzIGFjY291bnQgZm9yIGEgd2hpbGUsIHlvdSBrbm93IEnigJltIGEgcG9wIGN1bHR1cmUgd3JpdGVyLiBJIHdhbnRlZCB0byBnaXZlIGEgZGV0YWlsZWQgYnJlYWtkb3duIG9m4oCmIiwiJHR3aXR0ZXJfY2FyZCI6InN1bW1hcnlfbGFyZ2VfaW1hZ2UiLCIkb2dfaW1hZ2VfdXJsIjoiaHR0cHM6Ly9jZG4taW1hZ2VzLTEubWVkaXVtLmNvbS9tYXgvNjAwLzAqV0xpSzNhWmZocTNJbmx5bi5qcGciLCJ-ZmVhdHVyZSI6InNoYXJlX3Bvc3QiLCIkb2dfdHlwZSI6ImFydGljbGUiLCIkdHdpdHRlcl90aXRsZSI6IkhvdyB0byBiZWNvbWUgYSBQb3AgQ3VsdHVyZSBFeHBlcnQiLCIkb2dfYXBwX2lkIjoiNTQyNTk5NDMyNDcxMDE4IiwiK3VybCI6Imh0dHBzOi8vbGluay5tZWRpdW0uY29tL3FVc3c0RFZwT0RiIiwiJGRlc2t0b3BfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIiRpb3NfZGVlcGxpbmtfcGF0aCI6InAvY2ZlNjY0NTEyZTZlIiwiJGFuZHJvaWRfZGVlcGxpbmtfcGF0aCI6InAvY2ZlNjY0NTEyZTZlIiwifmlkIjoiMTI0MDY2NDAwMTE2NDE4Njg2MCIsIiRjYW5vbmljYWxfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIn5jYW1wYWlnbiI6IndlYl9zaGFyaW5nIiwiJGFuZHJvaWRfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIn5jaGFubmVsIjoidHdpdHRlciIsIiRpb3NfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIiR0d2l0dGVyX2Rlc2NyaXB0aW9uIjoiSGksIGl04oCZcyBBYWxpeWFoLiBJZiB5b3XigJl2ZSBmb2xsb3dlZCB0aGlzIGFjY291bnQgZm9yIGEgd2hpbGUsIHlvdSBrbm93IEnigJltIGEgcG9wIGN1bHR1cmUgd3JpdGVyLiBJIHdhbnRlZCB0byBnaXZlIGEgZGV0YWlsZWQgYnJlYWtkb3duIG9m4oCmIiwiK2RvbWFpbiI6ImxpbmsubWVkaXVtLmNvbSIsIitjbGlja190aW1lc3RhbXAiOjE2OTgyMzk5Mzl9">
+       <meta property="al:ios:app_store_id" content="828256236">
+       <meta name="twitter:app:id:iphone" content="828256236">
+       <meta property="al:ios:app_name" content="Medium">
+       <meta name="twitter:app:name:iphone" content="Medium">
+       <meta property="al:android:url" content="medium://p/cfe664512e6e?_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1S8MLS43cQkr8HdJAgAIlW8TIwAAAA%3D%3D&amp;link_click_id=link-1240664001164186860-eyIkb2dfdGl0bGUiOiJIb3cgdG8gQmVjb21lIGEgUG9wIEN1bHR1cmUgRXhwZXJ0IiwiJGRlZXBsaW5rX3BhdGgiOiJwL2NmZTY2NDUxMmU2ZSIsIiR0d2l0dGVyX3NpdGUiOiJATWVkaXVtIiwifmNyZWF0aW9uX3NvdXJjZSI6MCwiJG9nX2Rlc2NyaXB0aW9uIjoiSGksIGl04oCZcyBBYWxpeWFoLiBJZiB5b3XigJl2ZSBmb2xsb3dlZCB0aGlzIGFjY291bnQgZm9yIGEgd2hpbGUsIHlvdSBrbm93IEnigJltIGEgcG9wIGN1bHR1cmUgd3JpdGVyLiBJIHdhbnRlZCB0byBnaXZlIGEgZGV0YWlsZWQgYnJlYWtkb3duIG9m4oCmIiwiJHR3aXR0ZXJfY2FyZCI6InN1bW1hcnlfbGFyZ2VfaW1hZ2UiLCIkb2dfaW1hZ2VfdXJsIjoiaHR0cHM6Ly9jZG4taW1hZ2VzLTEubWVkaXVtLmNvbS9tYXgvNjAwLzAqV0xpSzNhWmZocTNJbmx5bi5qcGciLCJ-ZmVhdHVyZSI6InNoYXJlX3Bvc3QiLCIkb2dfdHlwZSI6ImFydGljbGUiLCIkdHdpdHRlcl90aXRsZSI6IkhvdyB0byBiZWNvbWUgYSBQb3AgQ3VsdHVyZSBFeHBlcnQiLCIkb2dfYXBwX2lkIjoiNTQyNTk5NDMyNDcxMDE4IiwiK3VybCI6Imh0dHBzOi8vbGluay5tZWRpdW0uY29tL3FVc3c0RFZwT0RiIiwiJGRlc2t0b3BfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIiRpb3NfZGVlcGxpbmtfcGF0aCI6InAvY2ZlNjY0NTEyZTZlIiwiJGFuZHJvaWRfZGVlcGxpbmtfcGF0aCI6InAvY2ZlNjY0NTEyZTZlIiwifmlkIjoiMTI0MDY2NDAwMTE2NDE4Njg2MCIsIiRjYW5vbmljYWxfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIn5jYW1wYWlnbiI6IndlYl9zaGFyaW5nIiwiJGFuZHJvaWRfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIn5jaGFubmVsIjoidHdpdHRlciIsIiRpb3NfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIiR0d2l0dGVyX2Rlc2NyaXB0aW9uIjoiSGksIGl04oCZcyBBYWxpeWFoLiBJZiB5b3XigJl2ZSBmb2xsb3dlZCB0aGlzIGFjY291bnQgZm9yIGEgd2hpbGUsIHlvdSBrbm93IEnigJltIGEgcG9wIGN1bHR1cmUgd3JpdGVyLiBJIHdhbnRlZCB0byBnaXZlIGEgZGV0YWlsZWQgYnJlYWtkb3duIG9m4oCmIiwiK2RvbWFpbiI6ImxpbmsubWVkaXVtLmNvbSIsIitjbGlja190aW1lc3RhbXAiOjE2OTgyMzk5Mzl9">
+       <meta name="twitter:app:url:googleplay" content="medium://p/cfe664512e6e?_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1S8MLS43cQkr8HdJAgAIlW8TIwAAAA%3D%3D&amp;link_click_id=link-1240664001164186860-eyIkb2dfdGl0bGUiOiJIb3cgdG8gQmVjb21lIGEgUG9wIEN1bHR1cmUgRXhwZXJ0IiwiJGRlZXBsaW5rX3BhdGgiOiJwL2NmZTY2NDUxMmU2ZSIsIiR0d2l0dGVyX3NpdGUiOiJATWVkaXVtIiwifmNyZWF0aW9uX3NvdXJjZSI6MCwiJG9nX2Rlc2NyaXB0aW9uIjoiSGksIGl04oCZcyBBYWxpeWFoLiBJZiB5b3XigJl2ZSBmb2xsb3dlZCB0aGlzIGFjY291bnQgZm9yIGEgd2hpbGUsIHlvdSBrbm93IEnigJltIGEgcG9wIGN1bHR1cmUgd3JpdGVyLiBJIHdhbnRlZCB0byBnaXZlIGEgZGV0YWlsZWQgYnJlYWtkb3duIG9m4oCmIiwiJHR3aXR0ZXJfY2FyZCI6InN1bW1hcnlfbGFyZ2VfaW1hZ2UiLCIkb2dfaW1hZ2VfdXJsIjoiaHR0cHM6Ly9jZG4taW1hZ2VzLTEubWVkaXVtLmNvbS9tYXgvNjAwLzAqV0xpSzNhWmZocTNJbmx5bi5qcGciLCJ-ZmVhdHVyZSI6InNoYXJlX3Bvc3QiLCIkb2dfdHlwZSI6ImFydGljbGUiLCIkdHdpdHRlcl90aXRsZSI6IkhvdyB0byBiZWNvbWUgYSBQb3AgQ3VsdHVyZSBFeHBlcnQiLCIkb2dfYXBwX2lkIjoiNTQyNTk5NDMyNDcxMDE4IiwiK3VybCI6Imh0dHBzOi8vbGluay5tZWRpdW0uY29tL3FVc3c0RFZwT0RiIiwiJGRlc2t0b3BfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIiRpb3NfZGVlcGxpbmtfcGF0aCI6InAvY2ZlNjY0NTEyZTZlIiwiJGFuZHJvaWRfZGVlcGxpbmtfcGF0aCI6InAvY2ZlNjY0NTEyZTZlIiwifmlkIjoiMTI0MDY2NDAwMTE2NDE4Njg2MCIsIiRjYW5vbmljYWxfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIn5jYW1wYWlnbiI6IndlYl9zaGFyaW5nIiwiJGFuZHJvaWRfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIn5jaGFubmVsIjoidHdpdHRlciIsIiRpb3NfdXJsIjoiaHR0cHM6Ly9tZWRpdW0uY29tL3AvaG93LXRvLWJlY29tZS1hLXBvcC1jdWx0dXJlLWV4cGVydC1jZmU2NjQ1MTJlNmU_c291cmNlPXNvY2lhbC50dyIsIiR0d2l0dGVyX2Rlc2NyaXB0aW9uIjoiSGksIGl04oCZcyBBYWxpeWFoLiBJZiB5b3XigJl2ZSBmb2xsb3dlZCB0aGlzIGFjY291bnQgZm9yIGEgd2hpbGUsIHlvdSBrbm93IEnigJltIGEgcG9wIGN1bHR1cmUgd3JpdGVyLiBJIHdhbnRlZCB0byBnaXZlIGEgZGV0YWlsZWQgYnJlYWtkb3duIG9m4oCmIiwiK2RvbWFpbiI6ImxpbmsubWVkaXVtLmNvbSIsIitjbGlja190aW1lc3RhbXAiOjE2OTgyMzk5Mzl9">
+       <meta property="al:android:package" content="com.medium.reader">
+       <meta name="twitter:app:id:googleplay" content="com.medium.reader">
+       <meta property="al:android:app_name" content="Medium">
+       <meta name="twitter:app:name:googleplay" content="Medium">
+       <meta property="og:image" content="https://cdn-images-1.medium.com/max/600/0*WLiK3aZfhq3Inlyn.jpg">
+         <meta name="twitter:image:src" content="https://cdn-images-1.medium.com/max/600/0*WLiK3aZfhq3Inlyn.jpg">
+       <title>How to Become a Pop Culture Expert</title>
+       <meta property="og:title" content="How to Become a Pop Culture Expert">
+       <meta property="og:description" content="Hi, it&#x2019;s Aaliyah. If you&#x2019;ve followed this account for a while, you know I&#x2019;m a pop culture writer. I wanted to give a detailed breakdown of&#x2026;">
+       <meta property="fb:app_id" content="542599432471018">
+       <meta property="og:url" content="https://medium.com/p/how-to-become-a-pop-culture-expert-cfe664512e6e?source=social.tw">
+       <meta property="og:type" content="article">
+       <meta name="twitter:card" content="summary_large_image">
+       <meta name="twitter:app:country" content="US">
+       <meta name="twitter:title" content="How to become a Pop Culture Expert">
+       <meta name="twitter:description" content="Hi, it&#x2019;s Aaliyah. If you&#x2019;ve followed this account for a while, you know I&#x2019;m a pop culture writer. I wanted to give a detailed breakdown of&#x2026;">
+       <meta name="twitter:site" content="@Medium">
+   <script async src="https://cdn.ampproject.org/v0.js"></script><script async src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js" custom-element="amp-iframe"></script><script async src="https://cdn.ampproject.org/v0/amp-list-0.1.js" custom-element="amp-list"></script><script async src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js" custom-template="amp-mustache"></script><link rel="canonical" href="https://link.medium.com/qUsw4DVpODb"></head>
+   <body>
+     <div class="card center">
+       <div class="main-image"></div>
+       <div id="content-container">
+         <div class="app-title text-bold">Medium</div>
+         <div class="card-title text-light">How to Become a Pop Culture Expert</div>
+         <div class="app-content text-light">Hi, it&#x2019;s Aaliyah. If you&#x2019;ve followed this account for a while, you know I&#x2019;m a pop culture writer. I wanted to give a detailed breakdown of&#x2026;</div>
+       </div>
+       <div class="input-wrapper">
+         <div class="input-container">
+           <div class="input-label text-light">See this content immediately after install</div>
+           <div class="form-get-the-app">
+               <div class="app-icon">&#xA0;</div>
+             <amp-list src="https://link.medium.com/qUsw4DVpODb?__branch_amp_json=1" layout="flex-item">
+      <template type="amp-mustache" id="cta-template">
+        <a href="{{action}}" class="cta-button text-light">
+               Get The App
+             </a>
+      <amp-iframe id="branch-sdk" src="/amp-iframe-redirect?scheme_redirect={{scheme_redirect}}&redirect_strategy={{redirect_strategy}}&app_id=537717925675553508&has_app=false" sandbox="allow-scripts allow-top-navigation" height="11" layout="fixed-height" frameborder="0"></amp-iframe></template>
+    </amp-list>
+           </div>
+         </div>
+       </div>
+     </div>
+   </body>
+ </html>

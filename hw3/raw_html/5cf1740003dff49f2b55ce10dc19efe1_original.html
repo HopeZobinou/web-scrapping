@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.v="1.2.3",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",t=>{this.persisted=t.persisted}),window.addEventListener("DOMContentLoaded",()=>{this._preconnect3rdParties()}),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}_addUserInteractionListener(t){if(document.hidden){t._triggerListener();return}this.triggerEvents.forEach(e=>window.addEventListener(e,t.userEventHandler,{passive:!0})),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler)}_removeUserInteractionListener(){this.triggerEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!0})),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"onclick","rocket-onclick"),this._pendingClickStarted())}_onTouchMove(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this._pendingClickFinished()}_onTouchEnd(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(t){t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this._pendingClickFinished()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach(t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))})}_waitForPendingClicks(){return new Promise(t=>{this._isClickPending?this._pendingClickFinished=t:t()})}_pendingClickStarted(){this._isClickPending=!0}_pendingClickFinished(){this._isClickPending=!1}_renameDOMAttribute(t,e,r){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(r,event.target.getAttribute(e)),event.target.removeAttribute(e))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(e=>{if(e.hasAttribute("src")){let r=new URL(e.src).origin;r!==location.origin&&t.push({src:r,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this._batchInjectResourceHints(t,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(this),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._waitForPendingClicks().then(()=>{this._replayClicks()}),this._emptyTrash()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _transformScript(t){return new Promise((await this._littleBreath(),navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor)?e=>{let r=document.createElement("script");[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),r.setAttribute(e,t.nodeValue))}),t.text&&(r.text=t.text),r.hasAttribute("src")?(r.addEventListener("load",e),r.addEventListener("error",e)):(r.text=t.text,e());try{t.parentNode.replaceChild(r,t)}catch(i){e()}}:async e=>{function r(){t.setAttribute("data-rocket-status","failed"),e()}try{let i=t.getAttribute("data-rocket-type"),n=t.getAttribute("data-rocket-src");t.text,i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",function r(){t.setAttribute("data-rocket-status","executed"),e()}),t.addEventListener("error",r),n?(t.removeAttribute("data-rocket-src"),t.src=n):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}catch(s){r()}})}async _loadScriptsFromList(t){let e=t.shift();return e&&e.isConnected?(await this._transformScript(e),this._loadScriptsFromList(t)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(t,e){var r=document.createDocumentFragment();t.forEach(t=>{let i=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(i){let n=document.createElement("link");n.href=i,n.rel=e,"preconnect"!==e&&(n.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),r.appendChild(n),this.trash.push(n)}}),document.head.appendChild(r)}_delayEventListeners(t){let e={};function r(t,r){!function t(r){!e[r]&&(e[r]={originalFunctions:{add:r.addEventListener,remove:r.removeEventListener},eventsToRewrite:[]},r.addEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.add.apply(r,arguments)},r.removeEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.remove.apply(r,arguments)});function i(t){return e[r].eventsToRewrite.indexOf(t)>=0?"rocket-"+t:t}}(t),e[t].eventsToRewrite.push(r)}function i(t,e){let r=t[e];Object.defineProperty(t,e,{get:()=>r||function(){},set(i){t["rocket"+e]=r=i}})}r(document,"DOMContentLoaded"),r(window,"DOMContentLoaded"),r(window,"load"),r(window,"pageshow"),r(document,"readystatechange"),i(document,"onreadystatechange"),i(window,"onload"),i(window,"onpageshow")}_delayJQueryReady(t){let e;function r(r){if(r&&r.fn&&!t.allJQueries.includes(r)){r.fn.ready=r.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(r):document.addEventListener("rocket-DOMContentLoaded",()=>e.bind(document)(r)),r([])};let i=r.fn.on;r.fn.on=r.fn.init.prototype.on=function(){if(this[0]===window){function t(t){return t.split(" ").map(t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=t(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(e=>{let r=arguments[0][e];delete arguments[0][e],arguments[0][t(e)]=r})}return i.apply(this,arguments),this},t.allJQueries.push(r)}e=r}r(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){r(t)}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this._littleBreath();let t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){let t=new Map;document.write=document.writeln=function(e){let r=document.currentScript;r||console.error("WPRocket unable to document.write this: "+e);let i=document.createRange(),n=r.parentElement,s=t.get(r);void 0===s&&(s=r.nextSibling,t.set(r,s));let a=document.createDocumentFragment();i.setStart(a,0),a.appendChild(i.createContextualFragment(e)),n.insertBefore(a,s)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}_emptyTrash(){this.trash.forEach(t=>t.remove())}static run(){let t=new RocketLazyLoadScripts;t._addUserInteractionListener(t)}}RocketLazyLoadScripts.run();</script>
+	
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- This site is optimized with the Yoast SEO plugin v21.4 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Mariah Carey, a WordPress website example by BeautifulPress</title>
+	<meta name="description" content="The official website of actress, singer and entrepreneur Mariah Carey. A simple layout and straightforward navigation frame the glowing images that" />
+	<link rel="canonical" href="https://beautifulpress.net/website/mariah-carey/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Mariah Carey, a WordPress website example by BeautifulPress" />
+	<meta property="og:description" content="The official website of actress, singer and entrepreneur Mariah Carey. A simple layout and straightforward navigation frame the glowing images that" />
+	<meta property="og:url" content="https://beautifulpress.net/website/mariah-carey/" />
+	<meta property="og:site_name" content="BeautifulPress" />
+	<meta property="article:modified_time" content="2022-10-12T16:11:55+00:00" />
+	<meta property="og:image" content="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey-346x1024.png" />
+	<meta property="og:image:width" content="346" />
+	<meta property="og:image:height" content="1024" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@beautiful_press" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="1 minute" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://beautifulpress.net/website/mariah-carey/","url":"https://beautifulpress.net/website/mariah-carey/","name":"Mariah Carey, a WordPress website example by BeautifulPress","isPartOf":{"@id":"https://beautifulpress.net/#website"},"primaryImageOfPage":{"@id":"https://beautifulpress.net/website/mariah-carey/#primaryimage"},"image":{"@id":"https://beautifulpress.net/website/mariah-carey/#primaryimage"},"thumbnailUrl":"https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey.png","datePublished":"2022-10-16T15:53:00+00:00","dateModified":"2022-10-12T16:11:55+00:00","description":"The official website of actress, singer and entrepreneur Mariah Carey. A simple layout and straightforward navigation frame the glowing images that","breadcrumb":{"@id":"https://beautifulpress.net/website/mariah-carey/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://beautifulpress.net/website/mariah-carey/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://beautifulpress.net/website/mariah-carey/#primaryimage","url":"https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey.png","contentUrl":"https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey.png","width":2000,"height":5917},{"@type":"BreadcrumbList","@id":"https://beautifulpress.net/website/mariah-carey/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beautifulpress.net/"},{"@type":"ListItem","position":2,"name":"Websites","item":"https://beautifulpress.net/website/"},{"@type":"ListItem","position":3,"name":"Mariah Carey"}]},{"@type":"WebSite","@id":"https://beautifulpress.net/#website","url":"https://beautifulpress.net/","name":"BeautifulPress","description":"Discover top WordPress websites","publisher":{"@id":"https://beautifulpress.net/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://beautifulpress.net/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://beautifulpress.net/#organization","name":"BeautifulPress","url":"https://beautifulpress.net/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://beautifulpress.net/#/schema/logo/image/","url":"","contentUrl":"","caption":"BeautifulPress"},"image":{"@id":"https://beautifulpress.net/#/schema/logo/image/"},"sameAs":["https://twitter.com/beautiful_press","https://www.instagram.com/beautifulpress/","https://www.pinterest.fr/beautifulpresshq/"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//beautifulpress-6d6e.kxcdn.com' />
+
+<link href='https://beautifulpress-6d6e.kxcdn.com' rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="BeautifulPress &raquo; Feed" href="https://beautifulpress.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="BeautifulPress &raquo; Comments Feed" href="https://beautifulpress.net/comments/feed/" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.20.1 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script type="rocketlazyloadscript" data-rocket-src="//www.googletagmanager.com/gtag/js?id=G-KW4NEFWNSP"  data-cfasync="false" data-wpfc-render="false" async></script>
+			<script type="rocketlazyloadscript" data-cfasync="false" data-wpfc-render="false">
+				var mi_version = '8.20.1';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+				
+								var disableStrs = [
+										'ga-disable-G-KW4NEFWNSP',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+										__gtagTracker('config', 'G-KW4NEFWNSP', {"forceSSL":"true","anonymize_ip":"true","link_attribution":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<link data-minify="1" rel="stylesheet" type="text/css" href="https://beautifulpress-6d6e.kxcdn.com/wp-content/cache/min/1/lhy1azm.css?ver=1695157088"><style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link data-minify="1" rel='stylesheet' id='dce-animations-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/cache/min/1/wp-content/plugins/dynamic-content-for-elementor/assets/css/animations.css?ver=1695157088' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-includes/css/dist/block-library/style.min.css?ver=6.3.2' media='all' />
+<link data-minify="1" rel='stylesheet' id='mpp_gutenberg-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/cache/min/1/wp-content/plugins/metronet-profile-picture/dist/blocks.style.build.css?ver=1695157088' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--contrast: var(--contrast);--wp--preset--color--contrast-2: var(--contrast-2);--wp--preset--color--contrast-3: var(--contrast-3);--wp--preset--color--base: var(--base);--wp--preset--color--base-2: var(--base-2);--wp--preset--color--base-3: var(--base-3);--wp--preset--color--accent: var(--accent);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link data-minify="1" rel='stylesheet' id='wptls_style-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/cache/min/1/wp-content/plugins/taxonomy-list/assets/style.css?ver=1695157089' media='all' />
+<link rel='stylesheet' id='generate-style-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/themes/generatepress/assets/css/main.min.css?ver=3.3.1' media='all' />
+<style id='generate-style-inline-css'>
+body{background-color:#ffffff;color:#222222;}a{color:#33bc84;}a:hover, a:focus, a:active{color:#21876e;}.grid-container{max-width:800px;}.wp-block-group__inner-container{max-width:800px;margin-left:auto;margin-right:auto;}:root{--contrast:#222222;--contrast-2:#575760;--contrast-3:#b2b2be;--base:#f0f0f0;--base-2:#f7f8f9;--base-3:#ffffff;--accent:#1e73be;}:root .has-contrast-color{color:var(--contrast);}:root .has-contrast-background-color{background-color:var(--contrast);}:root .has-contrast-2-color{color:var(--contrast-2);}:root .has-contrast-2-background-color{background-color:var(--contrast-2);}:root .has-contrast-3-color{color:var(--contrast-3);}:root .has-contrast-3-background-color{background-color:var(--contrast-3);}:root .has-base-color{color:var(--base);}:root .has-base-background-color{background-color:var(--base);}:root .has-base-2-color{color:var(--base-2);}:root .has-base-2-background-color{background-color:var(--base-2);}:root .has-base-3-color{color:var(--base-3);}:root .has-base-3-background-color{background-color:var(--base-3);}:root .has-accent-color{color:var(--accent);}:root .has-accent-background-color{background-color:var(--accent);}body, button, input, select, textarea{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}body{line-height:1.5;}.entry-content > [class*="wp-block-"]:not(:last-child):not(.wp-block-heading){margin-bottom:1.5em;}.main-navigation .main-nav ul ul li a{font-size:14px;}.sidebar .widget, .footer-widgets .widget{font-size:17px;}h1{font-weight:bold;}h2{font-weight:bold;}h3{font-weight:bold;}@media (max-width:768px){h1{font-size:31px;}h2{font-size:27px;}h3{font-size:24px;}h4{font-size:22px;}h5{font-size:19px;}}.top-bar{background-color:#636363;color:#ffffff;}.top-bar a{color:#ffffff;}.top-bar a:hover{color:#303030;}.site-header{background-color:#ffffff;}.main-title a,.main-title a:hover{color:#222222;}.site-description{color:#757575;}.mobile-menu-control-wrapper .menu-toggle,.mobile-menu-control-wrapper .menu-toggle:hover,.mobile-menu-control-wrapper .menu-toggle:focus,.has-inline-mobile-toggle #site-navigation.toggled{background-color:rgba(0, 0, 0, 0.02);}.main-navigation,.main-navigation ul ul{background-color:#ffffff;}.main-navigation .main-nav ul li a, .main-navigation .menu-toggle, .main-navigation .menu-bar-items{color:#515151;}.main-navigation .main-nav ul li:not([class*="current-menu-"]):hover > a, .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus > a, .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"]) > a, .main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{color:#7a8896;background-color:#ffffff;}button.menu-toggle:hover,button.menu-toggle:focus{color:#515151;}.main-navigation .main-nav ul li[class*="current-menu-"] > a{color:#7a8896;background-color:#ffffff;}.navigation-search input[type="search"],.navigation-search input[type="search"]:active, .navigation-search input[type="search"]:focus, .main-navigation .main-nav ul li.search-item.active > a, .main-navigation .menu-bar-items .search-item.active > a{color:#7a8896;background-color:#ffffff;}.main-navigation ul ul{background-color:#eaeaea;}.main-navigation .main-nav ul ul li a{color:#515151;}.main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover > a,.main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus > a, .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"]) > a{color:#7a8896;background-color:#eaeaea;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a{color:#7a8896;background-color:#eaeaea;}.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .one-container .container, .separate-containers .paging-navigation, .inside-page-header{background-color:#ffffff;}.entry-title a{color:#222222;}.entry-title a:hover{color:#55555e;}.entry-meta{color:#595959;}.sidebar .widget{background-color:#ffffff;}.footer-widgets{background-color:#ffffff;}.footer-widgets .widget-title{color:#000000;}.site-info{color:#ffffff;background-color:#55555e;}.site-info a{color:#ffffff;}.site-info a:hover{color:#d3d3d3;}.footer-bar .widget_nav_menu .current-menu-item a{color:#d3d3d3;}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="tel"],input[type="number"],textarea,select{color:#666666;background-color:#fafafa;border-color:#cccccc;}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="number"]:focus,textarea:focus,select:focus{color:#666666;background-color:#ffffff;border-color:#bfbfbf;}button,html input[type="button"],input[type="reset"],input[type="submit"],a.button,a.wp-block-button__link:not(.has-background){color:#ffffff;background-color:#33BC84;}button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,a.button:hover,button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,a.button:focus,a.wp-block-button__link:not(.has-background):active,a.wp-block-button__link:not(.has-background):focus,a.wp-block-button__link:not(.has-background):hover{color:#ffffff;background-color:#21876E;}a.generate-back-to-top{background-color:rgba( 0,0,0,0.4 );color:#ffffff;}a.generate-back-to-top:hover,a.generate-back-to-top:focus{background-color:rgba( 0,0,0,0.6 );color:#ffffff;}:root{--gp-search-modal-bg-color:var(--base-3);--gp-search-modal-text-color:var(--contrast);--gp-search-modal-overlay-bg-color:rgba(0,0,0,0.2);}@media (max-width:768px){.main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{background:none;color:#515151;}}.nav-below-header .main-navigation .inside-navigation.grid-container, .nav-above-header .main-navigation .inside-navigation.grid-container{padding:0px 20px 0px 20px;}.site-main .wp-block-group__inner-container{padding:40px;}.separate-containers .paging-navigation{padding-top:20px;padding-bottom:20px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-40px;width:calc(100% + 80px);max-width:calc(100% + 80px);}.rtl .menu-item-has-children .dropdown-menu-toggle{padding-left:20px;}.rtl .main-navigation .main-nav ul li.menu-item-has-children > a{padding-right:20px;}@media (max-width:768px){.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header{padding:30px;}.site-main .wp-block-group__inner-container{padding:30px;}.inside-top-bar{padding-right:30px;padding-left:30px;}.inside-header{padding-right:30px;padding-left:30px;}.widget-area .widget{padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px;}.footer-widgets-container{padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px;}.inside-site-info{padding-right:30px;padding-left:30px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-30px;width:calc(100% + 60px);max-width:calc(100% + 60px);}.one-container .site-main .paging-navigation{margin-bottom:20px;}}/* End cached CSS */.is-right-sidebar{width:30%;}.is-left-sidebar{width:30%;}.site-content .content-area{width:100%;}@media (max-width:768px){.main-navigation .menu-toggle,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav,.main-navigation:not(.slideout-navigation):not(.toggled) .main-nav > ul,.has-inline-mobile-toggle #site-navigation .inside-navigation > *:not(.navigation-search):not(.main-nav){display:none;}.nav-align-right .inside-navigation,.nav-align-center .inside-navigation{justify-content:space-between;}.has-inline-mobile-toggle .mobile-menu-control-wrapper{display:flex;flex-wrap:wrap;}.has-inline-mobile-toggle .inside-header{flex-direction:row;text-align:left;flex-wrap:wrap;}.has-inline-mobile-toggle .header-widget,.has-inline-mobile-toggle #site-navigation{flex-basis:100%;}.nav-float-left .has-inline-mobile-toggle #site-navigation{order:10;}}
+.elementor-template-full-width .site-content{display:block;}
+</style>
+<link data-minify="1" rel='stylesheet' id='elementor-icons-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=1695157089' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1695157082' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6' media='all' />
+<link rel='stylesheet' id='elementor-post-5-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/elementor/css/post-5.css?ver=1695157083' media='all' />
+<link rel='stylesheet' id='dce-style-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/dynamic-content-for-elementor/assets/css/style.min.css?ver=2.8.0' media='all' />
+<link data-minify="1" rel='stylesheet' id='dashicons-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/cache/min/1/wp-includes/css/dashicons.min.css?ver=1695157089' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/elementor/css/custom-pro-frontend.min.css?ver=1695157090' media='all' />
+<link data-minify="1" rel='stylesheet' id='skin-beautiful-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/cache/min/1/wp-content/plugins/beautiful-posts-widget-skin/css/skin-beautiful.css?ver=1695157089' media='all' />
+<link rel='stylesheet' id='elementor-global-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/elementor/css/global.css?ver=1695157088' media='all' />
+<link rel='stylesheet' id='elementor-post-527-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/elementor/css/post-527.css?ver=1695157090' media='all' />
+<link rel='stylesheet' id='elementor-post-95-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/elementor/css/post-95.css?ver=1695157091' media='all' />
+<link rel='stylesheet' id='elementor-post-192-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/elementor/css/post-192.css?ver=1695157092' media='all' />
+<link rel='stylesheet' id='elementor-post-212-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/elementor/css/post-212.css?ver=1695157077' media='all' />
+<style id='rocket-lazyload-inline-css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}.wp-embed-responsive .wp-has-aspect-ratio .rll-youtube-player{position:absolute;padding-bottom:0;width:100%;height:100%;top:0;bottom:0;left:0;right:0}
+</style>
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=1695157089' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=1695157089' media='all' />
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.20.1' id='monsterinsights-frontend-script-js' defer></script>
+<script data-cfasync="false" data-wpfc-render="false" id='monsterinsights-frontend-script-js-extra'>var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/beautifulpress.net","hash_tracking":"false","v4_id":"G-KW4NEFWNSP"};</script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js' defer></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js' defer></script>
+<link rel="https://api.w.org/" href="https://beautifulpress.net/wp-json/" /><link rel="alternate" type="application/json" href="https://beautifulpress.net/wp-json/wp/v2/website/9327" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://beautifulpress.net/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.3.2" />
+<link rel='shortlink' href='https://beautifulpress.net/?p=9327' />
+<link rel="alternate" type="application/json+oembed" href="https://beautifulpress.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbeautifulpress.net%2Fwebsite%2Fmariah-carey%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://beautifulpress.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbeautifulpress.net%2Fwebsite%2Fmariah-carey%2F&#038;format=xml" />
+<meta name="generator" content="Elementor 3.16.3; features: e_dom_optimization, e_optimized_assets_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/08/beautifulpress-150x150.jpg" sizes="32x32" />
+<link rel="icon" href="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/08/beautifulpress-300x300.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/08/beautifulpress-300x300.jpg" />
+<meta name="msapplication-TileImage" content="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/08/beautifulpress-300x300.jpg" />
+		<style id="wp-custom-css">
+			h1, h2, h3, h4, h5, h6{
+	color:#0F5157;
+}
+
+#websites-listing article {
+	border : 1px solid #ededed;
+	background: white;
+	border-radius: 8px;
+	transition: box-shadow 300ms ease 0ms;
+}
+
+#websites-listing article .elementor-post__text {
+	padding: 0px 25px 25px 25px;
+}
+
+#websites-listing article:hover {
+	    box-shadow: 0px 2px 55px 0px rgb(0 0 0 / 15%);
+}
+
+
+
+#websites-listing .elementor-post__thumbnail {
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;	
+}
+
+.author {
+	margin-right : 5px;
+}
+
+/* Submit */
+
+.gform_wrapper .chosen-container{
+	font-size:17px;
+}
+
+.gform_wrapper .chosen-container-single .chosen-single,
+.gform_wrapper .chosen-container-multi .chosen-choices{
+	height:37px;
+	padding:5px 4px;
+}
+
+.gform_wrapper .chosen-container .chosen-results li{
+	padding: 8px 6px;
+}
+
+.gform_wrapper .gsection{
+	margin-bottom:0.75em;
+}
+
+.gform_wrapper h2.gsection_title{
+	margin-top:3em !important;
+}
+
+input[type=submit].gform_button,
+.wp-block-buttons .wp-block-button__link{
+	background:#33BC84;
+	font-weight:bold;
+	border-radius:6px;
+}
+
+input[type=submit].gform_button:hover,
+.wp-block-buttons .wp-block-button__link:hover{
+	background:#21876E;
+}
+
+/* Terms Archive Lists*/
+.term-archive{
+    margin:0;
+    list-style-type:none;
+    columns: 3;
+}
+
+.term-archive li{
+    padding-bottom:0.25em;
+    display:flex;
+}
+
+/* Hide custom theme button */
+
+.tax-theme.term-custom.term-172 .elementor-element-280e9069{
+	display:none;
+}
+
+		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+
+<body class="website-template-default single single-website postid-9327 wp-embed-responsive no-sidebar nav-float-right one-container header-aligned-left dropdown-hover featured-image-active elementor-default elementor-template-full-width elementor-kit-5 elementor-page-212 full-width-content" itemtype="https://schema.org/Blog" itemscope>
+	<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>		<div data-elementor-type="header" data-elementor-id="95" class="elementor elementor-95 elementor-location-header" data-elementor-post-type="elementor_library">
+								<header data-dce-background-color="#0F5157" class="elementor-section elementor-top-section elementor-element elementor-element-5dfd362f elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5dfd362f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-78298a58" data-id="78298a58" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1341695a dce_masking-none elementor-widget elementor-widget-image" data-id="1341695a" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://beautifulpress.net">
+							<img width="1500" height="200" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201500%20200'%3E%3C/svg%3E" class="attachment-full size-full wp-image-270" alt="BeautifulPress Logo" data-lazy-srcset="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh.png 1500w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh-300x40.png 300w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh-1024x137.png 1024w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh-768x102.png 768w" data-lazy-sizes="(max-width: 1500px) 100vw, 1500px" data-lazy-src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh.png" /><noscript><img width="1500" height="200" src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh.png" class="attachment-full size-full wp-image-270" alt="BeautifulPress Logo" srcset="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh.png 1500w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh-300x40.png 300w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh-1024x137.png 1024w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh-768x102.png 768w" sizes="(max-width: 1500px) 100vw, 1500px" /></noscript>								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c6282e" data-id="c6282e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-bcb0bca elementor-nav-menu__align-right elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="bcb0bca" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-background e--animation-fade">
+				<ul id="menu-1-bcb0bca" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3977"><a href="#" class="elementor-item elementor-item-anchor">Inspiration</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4011"><a href="https://beautifulpress.net/websites/art-culture/" class="elementor-sub-item">Art / Culture</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4010"><a href="https://beautifulpress.net/websites/architecture/" class="elementor-sub-item">Architecture</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4012"><a href="https://beautifulpress.net/websites/beauty/" class="elementor-sub-item">Beauty</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4013"><a href="https://beautifulpress.net/websites/blog-newspaper/" class="elementor-sub-item">Blog / Newspaper</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4014"><a href="https://beautifulpress.net/websites/branding/" class="elementor-sub-item">Branding</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4015"><a href="https://beautifulpress.net/websites/business-corporate/" class="elementor-sub-item">Business / Corporate</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4016"><a href="https://beautifulpress.net/websites/education/" class="elementor-sub-item">Education</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4017"><a href="https://beautifulpress.net/websites/events/" class="elementor-sub-item">Events</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4019"><a href="https://beautifulpress.net/websites/fashion/" class="elementor-sub-item">Fashion</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4020"><a href="https://beautifulpress.net/websites/food-drink/" class="elementor-sub-item">Food / Drink</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4021"><a href="https://beautifulpress.net/websites/games/" class="elementor-sub-item">Games</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4022"><a href="https://beautifulpress.net/websites/health/" class="elementor-sub-item">Health</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4023"><a href="https://beautifulpress.net/websites/hotel-accomodation/" class="elementor-sub-item">Hotel / Accomodation</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4024"><a href="https://beautifulpress.net/websites/institutional/" class="elementor-sub-item">Institutional</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4025"><a href="https://beautifulpress.net/websites/interior-design/" class="elementor-sub-item">Interior Design</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4027"><a href="https://beautifulpress.net/websites/marketing-branding/" class="elementor-sub-item">Marketing/Branding</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4028"><a href="https://beautifulpress.net/websites/mobile-app/" class="elementor-sub-item">Mobile / App</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4029"><a href="https://beautifulpress.net/websites/movie-tv/" class="elementor-sub-item">Movie / TV</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4030"><a href="https://beautifulpress.net/websites/music-sound/" class="elementor-sub-item">Music / Sound</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4032"><a href="https://beautifulpress.net/websites/ngos/" class="elementor-sub-item">NGOs</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4034"><a href="https://beautifulpress.net/websites/personal/" class="elementor-sub-item">Personal</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4035"><a href="https://beautifulpress.net/websites/photography/" class="elementor-sub-item">Photography</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4036"><a href="https://beautifulpress.net/websites/real-estate/" class="elementor-sub-item">Real Estate</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4038"><a href="https://beautifulpress.net/websites/service-small-business/" class="elementor-sub-item">Service / Small Business</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4039"><a href="https://beautifulpress.net/websites/sports/" class="elementor-sub-item">Sports</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4040"><a href="https://beautifulpress.net/websites/startups/" class="elementor-sub-item">Startups</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4044"><a href="https://beautifulpress.net/websites/wedding/" class="elementor-sub-item">Wedding</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4033"><a href="https://beautifulpress.net/websites/other/" class="elementor-sub-item">Other</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4041"><a href="https://beautifulpress.net/websites/technology/" class="elementor-sub-item">Technology</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4042"><a href="https://beautifulpress.net/websites/travel/" class="elementor-sub-item">Travel</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4043"><a href="https://beautifulpress.net/websites/web-graphic-design/" class="elementor-sub-item">Web / Graphic Design</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-9295"><a href="https://beautifulpress.net/blog/" class="elementor-item">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-785"><a href="https://beautifulpress.net/about/" class="elementor-item">About</a></li>
+<li class="bp-open-newsletter menu-item menu-item-type-custom menu-item-object-custom menu-item-3839"><a href="#" class="elementor-item elementor-item-anchor">Subscribe</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-bcb0bca" class="elementor-nav-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3977"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Inspiration</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4011"><a href="https://beautifulpress.net/websites/art-culture/" class="elementor-sub-item" tabindex="-1">Art / Culture</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4010"><a href="https://beautifulpress.net/websites/architecture/" class="elementor-sub-item" tabindex="-1">Architecture</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4012"><a href="https://beautifulpress.net/websites/beauty/" class="elementor-sub-item" tabindex="-1">Beauty</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4013"><a href="https://beautifulpress.net/websites/blog-newspaper/" class="elementor-sub-item" tabindex="-1">Blog / Newspaper</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4014"><a href="https://beautifulpress.net/websites/branding/" class="elementor-sub-item" tabindex="-1">Branding</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4015"><a href="https://beautifulpress.net/websites/business-corporate/" class="elementor-sub-item" tabindex="-1">Business / Corporate</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4016"><a href="https://beautifulpress.net/websites/education/" class="elementor-sub-item" tabindex="-1">Education</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4017"><a href="https://beautifulpress.net/websites/events/" class="elementor-sub-item" tabindex="-1">Events</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4019"><a href="https://beautifulpress.net/websites/fashion/" class="elementor-sub-item" tabindex="-1">Fashion</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4020"><a href="https://beautifulpress.net/websites/food-drink/" class="elementor-sub-item" tabindex="-1">Food / Drink</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4021"><a href="https://beautifulpress.net/websites/games/" class="elementor-sub-item" tabindex="-1">Games</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4022"><a href="https://beautifulpress.net/websites/health/" class="elementor-sub-item" tabindex="-1">Health</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4023"><a href="https://beautifulpress.net/websites/hotel-accomodation/" class="elementor-sub-item" tabindex="-1">Hotel / Accomodation</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4024"><a href="https://beautifulpress.net/websites/institutional/" class="elementor-sub-item" tabindex="-1">Institutional</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4025"><a href="https://beautifulpress.net/websites/interior-design/" class="elementor-sub-item" tabindex="-1">Interior Design</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4027"><a href="https://beautifulpress.net/websites/marketing-branding/" class="elementor-sub-item" tabindex="-1">Marketing/Branding</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4028"><a href="https://beautifulpress.net/websites/mobile-app/" class="elementor-sub-item" tabindex="-1">Mobile / App</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4029"><a href="https://beautifulpress.net/websites/movie-tv/" class="elementor-sub-item" tabindex="-1">Movie / TV</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4030"><a href="https://beautifulpress.net/websites/music-sound/" class="elementor-sub-item" tabindex="-1">Music / Sound</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4032"><a href="https://beautifulpress.net/websites/ngos/" class="elementor-sub-item" tabindex="-1">NGOs</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4034"><a href="https://beautifulpress.net/websites/personal/" class="elementor-sub-item" tabindex="-1">Personal</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4035"><a href="https://beautifulpress.net/websites/photography/" class="elementor-sub-item" tabindex="-1">Photography</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4036"><a href="https://beautifulpress.net/websites/real-estate/" class="elementor-sub-item" tabindex="-1">Real Estate</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4038"><a href="https://beautifulpress.net/websites/service-small-business/" class="elementor-sub-item" tabindex="-1">Service / Small Business</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4039"><a href="https://beautifulpress.net/websites/sports/" class="elementor-sub-item" tabindex="-1">Sports</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4040"><a href="https://beautifulpress.net/websites/startups/" class="elementor-sub-item" tabindex="-1">Startups</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4044"><a href="https://beautifulpress.net/websites/wedding/" class="elementor-sub-item" tabindex="-1">Wedding</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4033"><a href="https://beautifulpress.net/websites/other/" class="elementor-sub-item" tabindex="-1">Other</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4041"><a href="https://beautifulpress.net/websites/technology/" class="elementor-sub-item" tabindex="-1">Technology</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4042"><a href="https://beautifulpress.net/websites/travel/" class="elementor-sub-item" tabindex="-1">Travel</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-website-category menu-item-4043"><a href="https://beautifulpress.net/websites/web-graphic-design/" class="elementor-sub-item" tabindex="-1">Web / Graphic Design</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-9295"><a href="https://beautifulpress.net/blog/" class="elementor-item" tabindex="-1">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-785"><a href="https://beautifulpress.net/about/" class="elementor-item" tabindex="-1">About</a></li>
+<li class="bp-open-newsletter menu-item menu-item-type-custom menu-item-object-custom menu-item-3839"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">Subscribe</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-c2ba84d" data-id="c2ba84d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div data-dce-background-color="#33BC84" class="elementor-element elementor-element-249ad547 elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="249ad547" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-lg" href="https://beautifulpress.net/submit/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Submit</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</header>
+						</div>
+		
+	<div class="site grid-container container hfeed" id="page">
+				<div class="site-content" id="content">
+					<div data-elementor-type="single-post" data-elementor-id="212" class="elementor elementor-212 elementor-location-single post-9327 website type-website status-publish has-post-thumbnail hentry feature-full-width-layout feature-instagram-feed feature-parallax feature-slider feature-video theme-salient plugin-smash-balloon plugin-wpbakery font-dosis font-open-sans font-roboto font-source-code-pro website-category-music-sound" data-elementor-post-type="elementor_library">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-4fb3f08 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4fb3f08" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1c80e8d" data-id="1c80e8d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8bea25b elementor-widget__width-auto elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="8bea25b" data-element_type="widget" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Mariah Carey</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5b40ea1 elementor-widget elementor-widget-post-info" data-id="5b40ea1" data-element_type="widget" data-widget_type="post-info.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-inline-items elementor-icon-list-items elementor-post-info">
+								<li class="elementor-icon-list-item elementor-repeater-item-1fe99b3 elementor-inline-item" itemprop="about">
+													<span class="elementor-icon-list-text elementor-post-info__item elementor-post-info__item--type-terms">
+							<span class="elementor-post-info__item-prefix">in</span>
+										<span class="elementor-post-info__terms-list">
+				<a href="https://beautifulpress.net/websites/music-sound/" class="elementor-post-info__terms-list-item">Music / Sound</a>				</span>
+					</span>
+								</li>
+				</ul>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-82dd496 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="82dd496" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-999ce72" data-id="999ce72" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f1ce535 elementor-widget elementor-widget-theme-post-content" data-id="f1ce535" data-element_type="widget" data-widget_type="theme-post-content.default">
+				<div class="elementor-widget-container">
+			
+<p>The official website of actress, singer and entrepreneur Mariah Carey. A simple layout and straightforward navigation frame the glowing images that reflect Mariah&#8217;s glamorous style. The website features the artist&#8217;s latest songs and music videos, as well as her Instagram feed, and all her social media handles.</p>
+		</div>
+				</div>
+				<div class="elementor-element elementor-element-25bb10e elementor-widget elementor-widget-heading" data-id="25bb10e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Features</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f37ebcf elementor-widget elementor-widget-heading" data-id="f37ebcf" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<span class="elementor-heading-title elementor-size-default"><a href="https://beautifulpress.net/feature/full-width-layout/" rel="tag">Full-Width Layout</a><a href="https://beautifulpress.net/feature/instagram-feed/" rel="tag">Instagram Feed</a><a href="https://beautifulpress.net/feature/parallax/" rel="tag">Parallax</a><a href="https://beautifulpress.net/feature/slider/" rel="tag">Slider</a><a href="https://beautifulpress.net/feature/video/" rel="tag">Video</a></span>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-720ffed" data-id="720ffed" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-776cdd4 elementor-align-justify elementor-widget elementor-widget-button" data-id="776cdd4" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-lg" href="https://mariahcarey.com" target="_blank" rel="nofollow">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Visit website</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ef9ad38 elementor-widget elementor-widget-text-editor" data-id="ef9ad38" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Theme : <a href="https://beautifulpress.net/theme/salient/" rel="tag">Salient</a>						</div>
+				</div>
+				<div class="elementor-element elementor-element-3491cac elementor-widget elementor-widget-text-editor" data-id="3491cac" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Plugins : <a href="https://beautifulpress.net/plugin/smash-balloon/" rel="tag">Smash Balloon Social Photo Feed</a>, <a href="https://beautifulpress.net/plugin/wpbakery/" rel="tag">WPBakery</a>						</div>
+				</div>
+				<div class="elementor-element elementor-element-a37c7f7 elementor-widget elementor-widget-text-editor" data-id="a37c7f7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Fonts : <a href="https://beautifulpress.net/font/dosis/" rel="tag">Dosis</a>, <a href="https://beautifulpress.net/font/open-sans/" rel="tag">Open Sans</a>, <a href="https://beautifulpress.net/font/roboto/" rel="tag">Roboto</a>, <a href="https://beautifulpress.net/font/source-code-pro/" rel="tag">Source Code Pro</a>						</div>
+				</div>
+				<div class="elementor-element elementor-element-08d4ace elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="08d4ace" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-db38bc7 elementor-widget elementor-widget-heading" data-id="db38bc7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default"><a href="https://beautifulpress.net/go/bluehost" target="_blank" rel="sponsored">Need hosting? Go with Bluehost</a></p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d370bae elementor-widget elementor-widget-heading" data-id="d370bae" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default"><a href="https://wpsitter.com/?utm_source=beautifulpress&#038;utm_medium=link&#038;utm_campaign=single-website" target="_blank" rel="sponsored">Need WP help? Go to WPSitter</a></p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-be371a2 elementor-widget elementor-widget-heading" data-id="be371a2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default"><a href="https://beautifulpress.net/go/logology" target="_blank" rel="sponsored">Need a logo? Check Logology</a></p>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section data-dce-background-color="#F5F6FA" class="elementor-section elementor-top-section elementor-element elementor-element-071d83a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="071d83a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1f2637a" data-id="1f2637a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1de8560 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="1de8560" data-element_type="widget" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+																<a href="https://mariahcarey.com">
+							<img width="2000" height="5917" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202000%205917'%3E%3C/svg%3E" class="attachment-full size-full wp-image-9329" alt="" data-lazy-srcset="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey.png 2000w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey-101x300.png 101w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey-346x1024.png 346w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey-768x2272.png 768w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey-519x1536.png 519w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey-692x2048.png 692w" data-lazy-sizes="(max-width: 2000px) 100vw, 2000px" data-lazy-src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey.png" /><noscript><img width="2000" height="5917" src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey.png" class="attachment-full size-full wp-image-9329" alt="" srcset="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey.png 2000w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey-101x300.png 101w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey-346x1024.png 346w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey-768x2272.png 768w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey-519x1536.png 519w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/10/Mariah-Carey-692x2048.png 692w" sizes="(max-width: 2000px) 100vw, 2000px" /></noscript>								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section data-dce-background-color="#F5F6FA" class="elementor-section elementor-top-section elementor-element elementor-element-e362555 elementor-hidden-mobile elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile_extra elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e362555" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e2cd585" data-id="e2cd585" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-4db470e elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4db470e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-37bea67" data-id="37bea67" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-66984ac elementor-widget elementor-widget-heading" data-id="66984ac" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Related websites examples using <span>Salient</span></h2>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-25eac0b" data-id="25eac0b" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-28c2f97 related-website elementor-grid-3 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-widget elementor-widget-posts" data-id="28c2f97" data-element_type="widget" id="websites-listing" data-settings="{&quot;beautiful_columns&quot;:&quot;3&quot;,&quot;beautiful_columns_tablet&quot;:&quot;2&quot;,&quot;beautiful_columns_mobile&quot;:&quot;1&quot;,&quot;beautiful_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:35,&quot;sizes&quot;:[]},&quot;beautiful_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;beautiful_row_gap_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;beautiful_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.beautiful">
+				<div class="elementor-widget-container">
+					<div class="elementor-posts-container elementor-posts elementor-posts--skin-beautiful elementor-grid">
+				<article class="elementor-post elementor-grid-item post-8423 website type-website status-publish has-post-thumbnail hentry feature-animation feature-full-width-layout feature-icons feature-parallax feature-portfolio feature-whitespace theme-salient plugin-contact-form-7 plugin-social-warfare plugin-wp-rocket plugin-wpbakery font-titillium-web website-category-web-graphic-design">
+				<a class="elementor-post__thumbnail__link" href="https://beautifulpress.net/website/vu-revu/" tabindex="-1" >
+			<div class="elementor-post__thumbnail"><img width="768" height="2523" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%202523'%3E%3C/svg%3E" class="attachment-medium_large size-medium_large wp-image-8425" alt="" data-lazy-src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/07/Agence-Vu-Revu-768x2523.png" /><noscript><img width="768" height="2523" src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/07/Agence-Vu-Revu-768x2523.png" class="attachment-medium_large size-medium_large wp-image-8425" alt="" /></noscript></div>
+		</a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://beautifulpress.net/website/vu-revu/" >
+				Vu &#038; Revu			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					</div>
+		
+		<a class="elementor-post__read-more" href="https://beautifulpress.net/website/vu-revu/" aria-label="Read more about Vu &#038; Revu" tabindex="-1" >
+			See website →		</a>
+
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-8395 website type-website status-publish has-post-thumbnail hentry feature-ecommerce feature-full-width-layout feature-whitespace theme-salient plugin-woo-variation-gallery plugin-akismet plugin-contact-form-7 plugin-popup-anything-on-click plugin-redirection plugin-searchwp-live-ajax-search plugin-woocommerce plugin-wordfence plugin-wp-rocket plugin-wpbakery plugin-yoast-seo font-dinblack font-open-sans website-category-service-small-business">
+				<a class="elementor-post__thumbnail__link" href="https://beautifulpress.net/website/aponio-2/" tabindex="-1" >
+			<div class="elementor-post__thumbnail"><img width="768" height="3017" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%203017'%3E%3C/svg%3E" class="attachment-medium_large size-medium_large wp-image-8397" alt="" data-lazy-src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/07/APONIO-768x3017.png" /><noscript><img width="768" height="3017" src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/07/APONIO-768x3017.png" class="attachment-medium_large size-medium_large wp-image-8397" alt="" /></noscript></div>
+		</a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://beautifulpress.net/website/aponio-2/" >
+				Aponio			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					</div>
+		
+		<a class="elementor-post__read-more" href="https://beautifulpress.net/website/aponio-2/" aria-label="Read more about Aponio" tabindex="-1" >
+			See website →		</a>
+
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-8354 website type-website status-publish has-post-thumbnail hentry feature-ecommerce feature-faq feature-full-width-layout feature-one-page feature-parallax feature-signup-form feature-testimonials theme-salient plugin-contact-form-7 plugin-wp-seopress plugin-site-reviews plugin-wordfence plugin-wp-rocket plugin-wpbakery font-alegreya-sans font-roboto website-category-food-drink">
+				<a class="elementor-post__thumbnail__link" href="https://beautifulpress.net/website/bieres-bretonnes/" tabindex="-1" >
+			<div class="elementor-post__thumbnail"><img width="768" height="6445" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%206445'%3E%3C/svg%3E" class="attachment-medium_large size-medium_large wp-image-8356" alt="" data-lazy-src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/07/BièresBretonnes-768x6445.png" /><noscript><img width="768" height="6445" src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2022/07/BièresBretonnes-768x6445.png" class="attachment-medium_large size-medium_large wp-image-8356" alt="" /></noscript></div>
+		</a>
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://beautifulpress.net/website/bieres-bretonnes/" >
+				Bières Bretonnes			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					</div>
+		
+		<a class="elementor-post__read-more" href="https://beautifulpress.net/website/bieres-bretonnes/" aria-label="Read more about Bières Bretonnes" tabindex="-1" >
+			See website →		</a>
+
+				</div>
+				</article>
+				</div>
+
+
+		
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-10dbd42 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="10dbd42" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-96cac2d" data-id="96cac2d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-538865d elementor-widget elementor-widget-heading" data-id="538865d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Recomended WordPress resources</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-0b561ed elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0b561ed" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a82273e" data-id="a82273e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-b8d2132 elementor-cta--layout-image-above elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action" data-id="b8d2132" data-element_type="widget" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<a class="elementor-cta" href="https://beautifulpress.net/go/bluehost" rel="sponsored">
+							<div class="elementor-cta__content">
+									<div class="elementor-content-item elementor-cta__content-item elementor-cta__image">
+						<img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" class="attachment-medium size-medium wp-image-10069" alt="" data-lazy-srcset="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-300x300.png 300w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-1024x1024.png 1024w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-150x150.png 150w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-768x768.png 768w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-24x24.png 24w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-48x48.png 48w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-96x96.png 96w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting.png 1200w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-300x300.png" /><noscript><img width="300" height="300" src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-300x300.png" class="attachment-medium size-medium wp-image-10069" alt="" srcset="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-300x300.png 300w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-1024x1024.png 1024w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-150x150.png 150w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-768x768.png 768w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-24x24.png 24w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-48x48.png 48w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting-96x96.png 96w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/bluehost-hosting.png 1200w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>					</div>
+				
+									<h3 class="elementor-cta__title elementor-cta__content-item elementor-content-item">
+						Host your next WordPress website on Bluehost.					</h3>
+				
+				
+									<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item ">
+					<span class="elementor-cta__button elementor-button elementor-size-md">
+						Try Bluehost					</span>
+					</div>
+							</div>
+						</a>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e37787f" data-id="e37787f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-63c40b9 elementor-cta--layout-image-above elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action" data-id="63c40b9" data-element_type="widget" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<a class="elementor-cta" href="https://wpsitter.com/?utm_source=beautifulpress&#038;utm_medium=cta&#038;utm_campaign=wp-resources" rel="sponsored">
+							<div class="elementor-cta__content">
+									<div class="elementor-content-item elementor-cta__content-item elementor-cta__image">
+						<img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" class="attachment-medium size-medium wp-image-10070" alt="" data-lazy-srcset="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-300x300.png 300w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-1024x1024.png 1024w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-150x150.png 150w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-768x768.png 768w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-24x24.png 24w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-48x48.png 48w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-96x96.png 96w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter.png 1200w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-300x300.png" /><noscript><img width="300" height="300" src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-300x300.png" class="attachment-medium size-medium wp-image-10070" alt="" srcset="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-300x300.png 300w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-1024x1024.png 1024w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-150x150.png 150w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-768x768.png 768w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-24x24.png 24w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-48x48.png 48w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter-96x96.png 96w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/help-wpsitter.png 1200w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>					</div>
+				
+									<h3 class="elementor-cta__title elementor-cta__content-item elementor-content-item">
+						Ask for WordPress help to WPSitter and get support.					</h3>
+				
+				
+									<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item ">
+					<span class="elementor-cta__button elementor-button elementor-size-md">
+						Check WPSitter					</span>
+					</div>
+							</div>
+						</a>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e4a69a8" data-id="e4a69a8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d4544c9 elementor-cta--layout-image-above elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action" data-id="d4544c9" data-element_type="widget" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<a class="elementor-cta" href="https://beautifulpress.net/go/elementor" rel="sponsored">
+							<div class="elementor-cta__content">
+									<div class="elementor-content-item elementor-cta__content-item elementor-cta__image">
+						<img width="300" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E" class="attachment-medium size-medium wp-image-10071" alt="" data-lazy-srcset="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-300x300.png 300w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-1024x1024.png 1024w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-150x150.png 150w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-768x768.png 768w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-24x24.png 24w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-48x48.png 48w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-96x96.png 96w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr.png 1200w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-300x300.png" /><noscript><img width="300" height="300" src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-300x300.png" class="attachment-medium size-medium wp-image-10071" alt="" srcset="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-300x300.png 300w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-1024x1024.png 1024w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-150x150.png 150w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-768x768.png 768w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-24x24.png 24w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-48x48.png 48w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr-96x96.png 96w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/brush-elementpr.png 1200w" sizes="(max-width: 300px) 100vw, 300px" /></noscript>					</div>
+				
+									<h3 class="elementor-cta__title elementor-cta__content-item elementor-content-item">
+						Build an amazing WordPress website with Elementor.					</h3>
+				
+				
+									<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item ">
+					<span class="elementor-cta__button elementor-button elementor-size-md">
+						Get Elementor					</span>
+					</div>
+							</div>
+						</a>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+		
+	</div>
+</div>
+
+
+<div class="site-footer">
+			<div data-elementor-type="footer" data-elementor-id="192" class="elementor elementor-192 elementor-location-footer" data-elementor-post-type="elementor_library">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-d7e8203 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d7e8203" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-f245c67" data-id="f245c67" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1c0647f elementor-hidden-mobile_extra dce_masking-none elementor-widget elementor-widget-image" data-id="1c0647f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1500" height="200" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201500%20200'%3E%3C/svg%3E" class="attachment-full size-full wp-image-270" alt="BeautifulPress Logo" data-lazy-srcset="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh.png 1500w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh-300x40.png 300w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh-1024x137.png 1024w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh-768x102.png 768w" data-lazy-sizes="(max-width: 1500px) 100vw, 1500px" data-lazy-src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh.png" /><noscript><img width="1500" height="200" src="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh.png" class="attachment-full size-full wp-image-270" alt="BeautifulPress Logo" srcset="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh.png 1500w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh-300x40.png 300w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh-1024x137.png 1024w, https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/BeautifulPress-logo-wh-768x102.png 768w" sizes="(max-width: 1500px) 100vw, 1500px" /></noscript>															</div>
+				</div>
+				<div class="elementor-element elementor-element-46e947d elementor-widget elementor-widget-text-editor" data-id="46e947d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Discover the best WordPress<br />websites and creators, everyday.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-a87ca5d elementor-widget elementor-widget-heading" data-id="a87ca5d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Browse websites by</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-aca931b elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="aca931b" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-aca931b" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4322"><a href="https://beautifulpress.net/themes/" class="elementor-item">Themes</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4321"><a href="https://beautifulpress.net/plugins/" class="elementor-item">Plugins</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4319"><a href="https://beautifulpress.net/fonts/" class="elementor-item">Fonts</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4320"><a href="https://beautifulpress.net/features/" class="elementor-item">Features</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-aca931b" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4322"><a href="https://beautifulpress.net/themes/" class="elementor-item" tabindex="-1">Themes</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4321"><a href="https://beautifulpress.net/plugins/" class="elementor-item" tabindex="-1">Plugins</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4319"><a href="https://beautifulpress.net/fonts/" class="elementor-item" tabindex="-1">Fonts</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4320"><a href="https://beautifulpress.net/features/" class="elementor-item" tabindex="-1">Features</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-bf3d5f3" data-id="bf3d5f3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-be85473 elementor-widget elementor-widget-heading" data-id="be85473" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<span class="elementor-heading-title elementor-size-default">Latest additions</span>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1c86932 elementor-grid-1 elementor-posts--thumbnail-none elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="1c86932" data-element_type="widget" data-settings="{&quot;classic_columns&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:5,&quot;sizes&quot;:[]},&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;,&quot;classic_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;classic_row_gap_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;classic_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.classic">
+				<div class="elementor-widget-container">
+					<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+				<article class="elementor-post elementor-grid-item post-9763 website type-website status-publish has-post-thumbnail hentry feature-full-width-layout feature-minimal feature-one-page feature-portfolio feature-slider feature-whitespace theme-custom plugin-stop-user-enumeration font-diatype website-category-architecture website-category-interior-design">
+				<div class="elementor-post__text">
+				<p class="elementor-post__title">
+			<a href="https://beautifulpress.net/website/embece/" >
+				Embece			</a>
+		</p>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-9897 website type-website status-publish has-post-thumbnail hentry feature-blog feature-full-width-layout feature-icons feature-portfolio feature-slider feature-testimonials feature-video theme-divi plugin-complianz-gdpr plugin-google-site-kit plugin-supreme-modules-for-divi plugin-visual-portfolio plugin-wordfence plugin-wp-rocket plugin-yoast-seo font-futura website-category-service-small-business">
+				<div class="elementor-post__text">
+				<p class="elementor-post__title">
+			<a href="https://beautifulpress.net/website/activ-communication/" >
+				Activ&#8217; Communication			</a>
+		</p>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-9901 website type-website status-publish has-post-thumbnail hentry feature-animation feature-full-width-layout feature-one-page feature-parallax feature-portfolio theme-hello plugin-elementor plugin-jetpack plugin-jetpack-boost plugin-seo-by-rank-math plugin-google-site-kit font-fira website-category-personal website-category-web-graphic-design">
+				<div class="elementor-post__text">
+				<p class="elementor-post__title">
+			<a href="https://beautifulpress.net/website/juan-falibene/" >
+				Juan Falibene			</a>
+		</p>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-10035 website type-website status-publish has-post-thumbnail hentry feature-blog feature-ecommerce feature-faq feature-full-width-layout feature-minimal feature-portfolio theme-kadence plugin-akismet plugin-code-snippets plugin-elementor plugin-kadence-blocks plugin-mailchimp-for-woocommerce plugin-seo-by-rank-math plugin-wp-statistics font-jost font-kudrayshev website-category-web-graphic-design">
+				<div class="elementor-post__text">
+				<p class="elementor-post__title">
+			<a href="https://beautifulpress.net/website/her-creative-details/" >
+				Her creative details			</a>
+		</p>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-9699 website type-website status-publish has-post-thumbnail hentry feature-big-typography feature-custom-cursor feature-full-width-layout feature-minimal feature-parallax feature-portfolio feature-signup-form feature-slider feature-testimonials feature-whitespace theme-hello plugin-elementor plugin-yoast-seo font-futura-pt website-category-personal">
+				<div class="elementor-post__text">
+				<p class="elementor-post__title">
+			<a href="https://beautifulpress.net/website/anakaric-com/" >
+				Ana Karic			</a>
+		</p>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-10011 website type-website status-publish has-post-thumbnail hentry feature-full-width-layout feature-portfolio feature-slider feature-testimonials theme-bespoke plugin-yoast-seo font-lato font-playfair-display website-category-web-graphic-design">
+				<div class="elementor-post__text">
+				<p class="elementor-post__title">
+			<a href="https://beautifulpress.net/website/jonathan-brain/" >
+				Jonathan Brain			</a>
+		</p>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-9874 website type-website status-publish has-post-thumbnail hentry feature-full-width-layout feature-whitespace theme-custom plugin-google-site-kit plugin-sg-cachepress font-helvetica-neue font-montserrat website-category-business-corporate website-category-health">
+				<div class="elementor-post__text">
+				<p class="elementor-post__title">
+			<a href="https://beautifulpress.net/website/orange-grove-bio/" >
+				Orange Grove Bio			</a>
+		</p>
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-9996 website type-website status-publish has-post-thumbnail hentry feature-animation feature-full-width-layout feature-gallery feature-minimal feature-portfolio theme-custom plugin-sg-cachepress plugin-yoast-seo font-pp-mori website-category-web-graphic-design">
+				<div class="elementor-post__text">
+				<p class="elementor-post__title">
+			<a href="https://beautifulpress.net/website/cliff-studio/" >
+				Cliff Studio			</a>
+		</p>
+				</div>
+				</article>
+				</div>
+		
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-8bb2758" data-id="8bb2758" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-8f23523 elementor-widget elementor-widget-heading" data-id="8f23523" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">More info</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-aad6126 elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="aad6126" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-aad6126" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-533"><a href="https://beautifulpress.net/submit/" class="elementor-item">Submit websites</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4326"><a href="https://beautifulpress.net/about/" class="elementor-item">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-9296"><a href="https://beautifulpress.net/blog/" class="elementor-item">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-545"><a href="https://beautifulpress.net/contact/" class="elementor-item">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-539"><a href="https://beautifulpress.net/terms-and-conditions/" class="elementor-item">Terms and Conditions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-532"><a href="https://beautifulpress.net/privacy-policy/" class="elementor-item">Privacy Policy</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-aad6126" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-533"><a href="https://beautifulpress.net/submit/" class="elementor-item" tabindex="-1">Submit websites</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4326"><a href="https://beautifulpress.net/about/" class="elementor-item" tabindex="-1">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-9296"><a href="https://beautifulpress.net/blog/" class="elementor-item" tabindex="-1">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-545"><a href="https://beautifulpress.net/contact/" class="elementor-item" tabindex="-1">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-539"><a href="https://beautifulpress.net/terms-and-conditions/" class="elementor-item" tabindex="-1">Terms and Conditions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-532"><a href="https://beautifulpress.net/privacy-policy/" class="elementor-item" tabindex="-1">Privacy Policy</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-cde0507 elementor-widget elementor-widget-heading" data-id="cde0507" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">See also</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-de487e0 elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="de487e0" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-de487e0" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9371"><a target="_blank" rel="noopener" href="https://wpmarmite.com/en/" class="elementor-item">WPMarmite</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9372"><a target="_blank" rel="noopener" href="https://wpturbo.dev?utm_source=wpturbo&#038;utm_medium=link&#038;utm_campaign=footer" class="elementor-item">WPTurbo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10083"><a href="https://wpsitter.com/?utm_source=beautifulpress&#038;utm_medium=link&#038;utm_campaign=footer" class="elementor-item">WPSitter</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-de487e0" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9371"><a target="_blank" rel="noopener" href="https://wpmarmite.com/en/" class="elementor-item" tabindex="-1">WPMarmite</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9372"><a target="_blank" rel="noopener" href="https://wpturbo.dev?utm_source=wpturbo&#038;utm_medium=link&#038;utm_campaign=footer" class="elementor-item" tabindex="-1">WPTurbo</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10083"><a href="https://wpsitter.com/?utm_source=beautifulpress&#038;utm_medium=link&#038;utm_campaign=footer" class="elementor-item" tabindex="-1">WPSitter</a></li>
+</ul>			</nav>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5f9828d" data-id="5f9828d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6cbaf74 elementor-widget elementor-widget-heading" data-id="6cbaf74" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Get inspired</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-58388a7 elementor-widget elementor-widget-text-editor" data-id="58388a7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Subscribe and get <br />WordPress inspiration</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-25ab4c4 elementor-align-justify elementor-widget elementor-widget-button" data-id="25ab4c4" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-sm" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjUyNyIsInRvZ2dsZSI6ZmFsc2V9">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Get free WP inspiration</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a8e6c70 elementor-widget elementor-widget-heading" data-id="a8e6c70" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Let's connect</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f9ec289 e-grid-align-left elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="f9ec289" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-eb7f986" href="https://twitter.com/beautiful_press" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<i class="fab fa-twitter"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-56d7b6c" href="https://www.instagram.com/beautifulpress/" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest elementor-repeater-item-c1f5935" href="https://www.pinterest.com/beautifulpresshq" target="_blank">
+						<span class="elementor-screen-only">Pinterest</span>
+						<i class="fab fa-pinterest"></i>					</a>
+				</span>
+					</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1087b6a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1087b6a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c262637" data-id="c262637" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f4bafe7 elementor-widget elementor-widget-text-editor" data-id="f4bafe7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>2023 | BeautifulPress, a WordPress project by WPMarmite.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+		</div>
+
+<script type="rocketlazyloadscript" id="generate-a11y">!function(){"use strict";if("querySelector"in document&&"addEventListener"in window){var e=document.body;e.addEventListener("mousedown",function(){e.classList.add("using-mouse")}),e.addEventListener("keydown",function(){e.classList.remove("using-mouse")})}}();</script>		<div data-elementor-type="popup" data-elementor-id="527" class="elementor elementor-527 elementor-location-popup" data-elementor-settings="{&quot;open_selector&quot;:&quot;.bp-open-newsletter&quot;,&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:{&quot;exit_intent&quot;:&quot;yes&quot;},&quot;timing&quot;:{&quot;page_views&quot;:&quot;yes&quot;,&quot;logged_in&quot;:&quot;yes&quot;,&quot;times_times&quot;:2,&quot;times&quot;:&quot;yes&quot;,&quot;page_views_views&quot;:3,&quot;logged_in_users&quot;:&quot;all&quot;}}" data-elementor-post-type="elementor_library">
+								<section data-dce-background-image-url="https://beautifulpress-6d6e.kxcdn.com/wp-content/uploads/2021/02/beautifulpress-scaled.jpg" class="elementor-section elementor-top-section elementor-element elementor-element-0faa823 elementor-section-height-full elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="0faa823" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f430cb7" data-id="f430cb7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2b742d9 elementor-widget elementor-widget-heading" data-id="2b742d9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Discover top WordPress websites (in your inbox)</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1f3d385 elementor-widget elementor-widget-heading" data-id="1f3d385" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Subscribe to the BeautifulPress newsletter and get inspired by high quality WordPress websites</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-69ebad8 elementor-widget elementor-widget-spacer" data-id="69ebad8" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-544153b elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="544153b" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;dce_confirm_dialog_enabled&quot;:&quot;no&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;,&quot;label_icon_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;field_icon_size&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+					<form class="elementor-form" method="post" name="BP Newsletter">
+			<input type="hidden" name="post_id" value="527"/>
+			<input type="hidden" name="form_id" value="544153b"/>
+			<input type="hidden" name="referer_title" value="Mariah Carey, a WordPress website example by BeautifulPress" />
+
+							<input type="hidden" name="queried_id" value="9327"/>
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-">
+								<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100">
+												<label for="form-field-name" class="elementor-field-label elementor-screen-only">
+								Name							</label>
+														<input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Name">
+											</div>
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+												<label for="form-field-email" class="elementor-field-label elementor-screen-only">
+								Email							</label>
+														<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-lg  elementor-field-textual" placeholder="Email" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+					<button type="submit" class="elementor-button elementor-size-lg">
+						<span >
+															<span class=" elementor-button-icon">
+																										</span>
+																						<span class="elementor-button-text">Subscribe free</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-63ac486 elementor-widget elementor-widget-text-editor" data-id="63ac486" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>By subscribing to the newsletter, you consent to BeautifulPress, in its capacity as data controller, collecting your data in order to send you communications electronically. You may unsubscribe at any time. To exercise your right of access, rectification or deletion, please see <a href="https://beautifulpress.net/privacy-policy/" target="_blank" rel="noopener">our Privacy Policy</a>.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+		<link rel='stylesheet' id='dce-dynamic-visibility-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/dynamic-content-for-elementor/assets/css/dynamic-visibility.min.css?ver=2.8.0' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-fa-regular-css' href='https://beautifulpress-6d6e.kxcdn.com/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=1695157089' media='all' />
+<script data-minify="1" src='https://beautifulpress-6d6e.kxcdn.com/wp-content/cache/min/1/wp-content/plugins/metronet-profile-picture/js/mpp-frontend.js?ver=1669912693' id='mpp_gutenberg_tabs-js' defer></script>
+<script data-minify="1" src='https://beautifulpress-6d6e.kxcdn.com/wp-content/cache/min/1/wp-content/plugins/taxonomy-list/assets/script.js?ver=1669912693' id='wptls_script-js' defer></script>
+<script id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script id='rocket-preload-links-js-extra'>
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/beautifulpress.net","onHoverDelay":"100","rateThrottle":"3"};
+</script>
+<script id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<!--[if lte IE 11]>
+<script src='https://beautifulpress.net/wp-content/themes/generatepress/assets/js/classList.min.js?ver=3.3.1' id='generate-classlist-js'></script>
+<![endif]-->
+<script id='generate-menu-js-extra'>
+var generatepressMenu = {"toggleOpenedSubMenus":"1","openSubMenuLabel":"Open Sub-Menu","closeSubMenuLabel":"Close Sub-Menu"};
+</script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-content/themes/generatepress/assets/js/menu.min.js?ver=3.3.1' id='generate-menu-js' defer></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1' id='smartmenus-js' defer></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js' defer></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.16.1' id='elementor-pro-webpack-runtime-js' defer></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.16.3' id='elementor-webpack-runtime-js' defer></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.16.3' id='elementor-frontend-modules-js' defer></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js' defer></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js' defer></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1' id='wp-hooks-js'></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef' id='wp-i18n-js'></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/beautifulpress.net\/wp-admin\/admin-ajax.php","nonce":"3bfae6a1c0","urls":{"assets":"https:\/\/beautifulpress.net\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/beautifulpress.net\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/beautifulpress.net\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.16.1' id='elementor-pro-frontend-js' defer></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js' defer></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2' id='jquery-ui-core-js' defer></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":701,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":700,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":true},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.16.3","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"landing-pages":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/beautifulpress.net\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[],"dynamicooo":[]},"kit":{"viewport_mobile":700,"active_breakpoints":["viewport_mobile","viewport_mobile_extra","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":9327,"title":"Mariah%20Carey%2C%20a%20WordPress%20website%20example%20by%20BeautifulPress","excerpt":"","featuredImage":"https:\/\/beautifulpress.net\/wp-content\/uploads\/2022\/10\/Mariah-Carey-346x1024.png"}};
+</script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.16.3' id='elementor-frontend-js' defer></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.16.1' id='pro-elements-handlers-js' defer></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/dynamic-content-for-elementor/assets/js/settings.min.js?ver=2.8.0' id='dce-settings-js' defer></script>
+<script src='https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/dynamic-content-for-elementor/assets/js/fix-background-loop.min.js?ver=2.8.0' id='dce-fix-background-loop-js' defer></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://beautifulpress-6d6e.kxcdn.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt){var t='<img data-lazy-src="https://i.ytimg.com/vi_webp/ID/hqdefault.webp" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi_webp/ID/hqdefault.webp" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?'':'&'+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var e,t,p,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt),a[t].appendChild(e),p=e.querySelector('.play'),p.onclick=lazyLoadYoutubeIframe});</script>
+<script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode-wpr",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1698203758 -->

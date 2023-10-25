@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#" class="">
+	<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.v="1.2.3",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",t=>{this.persisted=t.persisted}),window.addEventListener("DOMContentLoaded",()=>{this._preconnect3rdParties()}),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}_addUserInteractionListener(t){if(document.hidden){t._triggerListener();return}this.triggerEvents.forEach(e=>window.addEventListener(e,t.userEventHandler,{passive:!0})),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler)}_removeUserInteractionListener(){this.triggerEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!0})),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"onclick","rocket-onclick"),this._pendingClickStarted())}_onTouchMove(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this._pendingClickFinished()}_onTouchEnd(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(t){t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this._pendingClickFinished()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach(t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))})}_waitForPendingClicks(){return new Promise(t=>{this._isClickPending?this._pendingClickFinished=t:t()})}_pendingClickStarted(){this._isClickPending=!0}_pendingClickFinished(){this._isClickPending=!1}_renameDOMAttribute(t,e,r){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(r,event.target.getAttribute(e)),event.target.removeAttribute(e))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(e=>{if(e.hasAttribute("src")){let r=new URL(e.src).origin;r!==location.origin&&t.push({src:r,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this._batchInjectResourceHints(t,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(this),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._waitForPendingClicks().then(()=>{this._replayClicks()}),this._emptyTrash()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _transformScript(t){return new Promise((await this._littleBreath(),navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor)?e=>{let r=document.createElement("script");[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),r.setAttribute(e,t.nodeValue))}),t.text&&(r.text=t.text),r.hasAttribute("src")?(r.addEventListener("load",e),r.addEventListener("error",e)):(r.text=t.text,e());try{t.parentNode.replaceChild(r,t)}catch(i){e()}}:async e=>{function r(){t.setAttribute("data-rocket-status","failed"),e()}try{let i=t.getAttribute("data-rocket-type"),n=t.getAttribute("data-rocket-src");t.text,i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",function r(){t.setAttribute("data-rocket-status","executed"),e()}),t.addEventListener("error",r),n?(t.removeAttribute("data-rocket-src"),t.src=n):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}catch(s){r()}})}async _loadScriptsFromList(t){let e=t.shift();return e&&e.isConnected?(await this._transformScript(e),this._loadScriptsFromList(t)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(t,e){var r=document.createDocumentFragment();t.forEach(t=>{let i=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(i){let n=document.createElement("link");n.href=i,n.rel=e,"preconnect"!==e&&(n.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),r.appendChild(n),this.trash.push(n)}}),document.head.appendChild(r)}_delayEventListeners(t){let e={};function r(t,r){!function t(r){!e[r]&&(e[r]={originalFunctions:{add:r.addEventListener,remove:r.removeEventListener},eventsToRewrite:[]},r.addEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.add.apply(r,arguments)},r.removeEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.remove.apply(r,arguments)});function i(t){return e[r].eventsToRewrite.indexOf(t)>=0?"rocket-"+t:t}}(t),e[t].eventsToRewrite.push(r)}function i(t,e){let r=t[e];Object.defineProperty(t,e,{get:()=>r||function(){},set(i){t["rocket"+e]=r=i}})}r(document,"DOMContentLoaded"),r(window,"DOMContentLoaded"),r(window,"load"),r(window,"pageshow"),r(document,"readystatechange"),i(document,"onreadystatechange"),i(window,"onload"),i(window,"onpageshow")}_delayJQueryReady(t){let e;function r(r){if(r&&r.fn&&!t.allJQueries.includes(r)){r.fn.ready=r.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(r):document.addEventListener("rocket-DOMContentLoaded",()=>e.bind(document)(r)),r([])};let i=r.fn.on;r.fn.on=r.fn.init.prototype.on=function(){if(this[0]===window){function t(t){return t.split(" ").map(t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=t(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(e=>{let r=arguments[0][e];delete arguments[0][e],arguments[0][t(e)]=r})}return i.apply(this,arguments),this},t.allJQueries.push(r)}e=r}r(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){r(t)}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this._littleBreath();let t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){let t=new Map;document.write=document.writeln=function(e){let r=document.currentScript;r||console.error("WPRocket unable to document.write this: "+e);let i=document.createRange(),n=r.parentElement,s=t.get(r);void 0===s&&(s=r.nextSibling,t.set(r,s));let a=document.createDocumentFragment();i.setStart(a,0),a.appendChild(i.createContextualFragment(e)),n.insertBefore(a,s)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}_emptyTrash(){this.trash.forEach(t=>t.remove())}static run(){let t=new RocketLazyLoadScripts;t._addUserInteractionListener(t)}}RocketLazyLoadScripts.run();</script>
+				
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+		
+<!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
+<title>Backup Migration Plugins: Simplifying WP Data Transfers 1</title>
+<meta name="description" content="Here, we will explore how backup migration plugins simplify the intricate process of transferring valuable WP data from one location to another."/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://bpcustomdev.com/backup-migration-plugins/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Backup Migration Plugins: Simplifying WP Data Transfers 1" />
+<meta property="og:description" content="Here, we will explore how backup migration plugins simplify the intricate process of transferring valuable WP data from one location to another." />
+<meta property="og:url" content="https://bpcustomdev.com/backup-migration-plugins/" />
+<meta property="og:site_name" content="BuddyPress Custom Dev" />
+<meta property="article:tag" content="WordPress Development" />
+<meta property="article:tag" content="WordPress Plugin" />
+<meta property="article:tag" content="WordPress Website" />
+<meta property="article:section" content="Plugins" />
+<meta property="og:image" content="https://bpcustomdev.com/wp-content/uploads/2023/10/Backup-Migration-Plugins.jpg" />
+<meta property="og:image:secure_url" content="https://bpcustomdev.com/wp-content/uploads/2023/10/Backup-Migration-Plugins.jpg" />
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="720" />
+<meta property="og:image:alt" content="Backup Migration Plugins" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="article:published_time" content="2023-10-11T12:45:20+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Backup Migration Plugins: Simplifying WP Data Transfers 1" />
+<meta name="twitter:description" content="Here, we will explore how backup migration plugins simplify the intricate process of transferring valuable WP data from one location to another." />
+<meta name="twitter:image" content="https://bpcustomdev.com/wp-content/uploads/2023/10/Backup-Migration-Plugins.jpg" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="shashank dubey" />
+<meta name="twitter:label2" content="Time to read" />
+<meta name="twitter:data2" content="7 minutes" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://bpcustomdev.com/#organization","name":"BP Custom Dev - Wbcom Designs","logo":{"@type":"ImageObject","@id":"https://bpcustomdev.com/#logo","url":"https://bpcustomdev.com/wp-content/uploads/2021/03/bg-logo-color-1.png","contentUrl":"https://bpcustomdev.com/wp-content/uploads/2021/03/bg-logo-color-1.png","caption":"BP Custom Dev - Wbcom Designs","inLanguage":"en","width":"250","height":"46"}},{"@type":"WebSite","@id":"https://bpcustomdev.com/#website","url":"https://bpcustomdev.com","name":"BP Custom Dev - Wbcom Designs","publisher":{"@id":"https://bpcustomdev.com/#organization"},"inLanguage":"en"},{"@type":"ImageObject","@id":"https://bpcustomdev.com/wp-content/uploads/2023/10/Backup-Migration-Plugins.jpg","url":"https://bpcustomdev.com/wp-content/uploads/2023/10/Backup-Migration-Plugins.jpg","width":"1280","height":"720","caption":"Backup Migration Plugins","inLanguage":"en"},{"@type":"WebPage","@id":"https://bpcustomdev.com/backup-migration-plugins/#webpage","url":"https://bpcustomdev.com/backup-migration-plugins/","name":"Backup Migration Plugins: Simplifying WP Data Transfers 1","datePublished":"2023-10-11T12:45:20+00:00","dateModified":"2023-10-11T12:45:20+00:00","isPartOf":{"@id":"https://bpcustomdev.com/#website"},"primaryImageOfPage":{"@id":"https://bpcustomdev.com/wp-content/uploads/2023/10/Backup-Migration-Plugins.jpg"},"inLanguage":"en"},{"@type":"Person","@id":"https://bpcustomdev.com/author/shashank/","name":"shashank dubey","description":"A WordPress enthusiast, Shashank is a writer, reader and loves exploring places worldwide. He believes in gathering knowledge and bringing it to constructive use. His motto in life in YOLO, You Only Live Once.","url":"https://bpcustomdev.com/author/shashank/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/8b95214f1bb74bf7e87cc55f09df229a?s=96&amp;d=retro&amp;r=g","url":"https://secure.gravatar.com/avatar/8b95214f1bb74bf7e87cc55f09df229a?s=96&amp;d=retro&amp;r=g","caption":"shashank dubey","inLanguage":"en"},"sameAs":["https://wbcomdesigns.com/"],"worksFor":{"@id":"https://bpcustomdev.com/#organization"}},{"@type":"BlogPosting","headline":"Backup Migration Plugins: Simplifying WP Data Transfers 1","keywords":"Backup Migration Plugins","datePublished":"2023-10-11T12:45:20+00:00","dateModified":"2023-10-11T12:45:20+00:00","author":{"@id":"https://bpcustomdev.com/author/shashank/","name":"shashank dubey"},"publisher":{"@id":"https://bpcustomdev.com/#organization"},"description":"Here, we will explore how backup migration plugins simplify the intricate process of transferring valuable WP data from one location to another.","name":"Backup Migration Plugins: Simplifying WP Data Transfers 1","@id":"https://bpcustomdev.com/backup-migration-plugins/#richSnippet","isPartOf":{"@id":"https://bpcustomdev.com/backup-migration-plugins/#webpage"},"image":{"@id":"https://bpcustomdev.com/wp-content/uploads/2023/10/Backup-Migration-Plugins.jpg"},"inLanguage":"en","mainEntityOfPage":{"@id":"https://bpcustomdev.com/backup-migration-plugins/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+
+<link rel="alternate" type="application/rss+xml" title="BuddyPress Custom Dev &raquo; Feed" href="https://bpcustomdev.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="BuddyPress Custom Dev &raquo; Comments Feed" href="https://bpcustomdev.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="BuddyPress Custom Dev &raquo; Backup Migration Plugins: Simplifying Your WordPress Data Transfers Comments Feed" href="https://bpcustomdev.com/backup-migration-plugins/feed/" />
+			<style id="filterable-portfolio-inline-style">
+				:root {
+					--portfolio-primary: #4cc1be;
+					--portfolio-on-primary: #000;
+				}
+			</style>
+			<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://bpcustomdev.com/wp-includes/css/dist/block-library/style.min.css?ver=6.3.2' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<link rel='stylesheet' id='filterable-portfolio-css' href='https://bpcustomdev.com/wp-content/plugins/filterable-portfolio/assets/css/frontend.css?ver=1.6.3' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--base: #ffffff;--wp--preset--color--contrast: #000000;--wp--preset--color--primary: #ef5455;--wp--preset--color--secondary: #007cba;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.227), 1rem);--wp--preset--font-size--medium: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.227), 1.125rem);--wp--preset--font-size--large: clamp(1.75rem, 1.75rem + ((1vw - 0.2rem) * 0.227), 1.875rem);--wp--preset--font-size--x-large: 2.25rem;--wp--preset--font-size--xx-large: clamp(4rem, 4rem + ((1vw - 0.2rem) * 10.909), 10rem);--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--preset--spacing--30: clamp(1.5rem, 5vw, 2rem);--wp--preset--spacing--40: clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem);--wp--preset--spacing--50: clamp(2.5rem, 8vw, 4.5rem);--wp--preset--spacing--60: clamp(3.75rem, 10vw, 7rem);--wp--preset--spacing--70: clamp(5rem, 5.25rem + ((1vw - 0.48rem) * 9.096), 8rem);--wp--preset--spacing--80: clamp(7rem, 14vw, 11rem);--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}body { margin: 0;--wp--style--global--content-size: 840px;--wp--style--global--wide-size: 1200px; }.wp-site-blocks { padding-top: var(--wp--style--root--padding-top); padding-bottom: var(--wp--style--root--padding-bottom); }.has-global-padding { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding :where(.has-global-padding) { padding-right: 0; padding-left: 0; }.has-global-padding > .alignfull { margin-right: calc(var(--wp--style--root--padding-right) * -1); margin-left: calc(var(--wp--style--root--padding-left) * -1); }.has-global-padding :where(.has-global-padding) > .alignfull { margin-right: 0; margin-left: 0; }.has-global-padding > .alignfull:where(:not(.has-global-padding)) > :where([class*="wp-block-"]:not(.alignfull):not([class*="__"]),p,h1,h2,h3,h4,h5,h6,ul,ol) { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding :where(.has-global-padding) > .alignfull:where(:not(.has-global-padding)) > :where([class*="wp-block-"]:not(.alignfull):not([class*="__"]),p,h1,h2,h3,h4,h5,h6,ul,ol) { padding-right: 0; padding-left: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 1.5rem; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child:first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child:last-child { margin-block-end: 0; }body { --wp--style--block-gap: 1.5rem; }:where(body .is-layout-flow)  > :first-child:first-child{margin-block-start: 0;}:where(body .is-layout-flow)  > :last-child:last-child{margin-block-end: 0;}:where(body .is-layout-flow)  > *{margin-block-start: 1.5rem;margin-block-end: 0;}:where(body .is-layout-constrained)  > :first-child:first-child{margin-block-start: 0;}:where(body .is-layout-constrained)  > :last-child:last-child{margin-block-end: 0;}:where(body .is-layout-constrained)  > *{margin-block-start: 1.5rem;margin-block-end: 0;}:where(body .is-layout-flex) {gap: 1.5rem;}:where(body .is-layout-grid) {gap: 1.5rem;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}body{background-color: var(--wp--preset--color--base);color: var(--wp--preset--color--contrast);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: 1.6;--wp--style--root--padding-top: var(--wp--preset--spacing--40);--wp--style--root--padding-right: var(--wp--preset--spacing--30);--wp--style--root--padding-bottom: var(--wp--preset--spacing--40);--wp--style--root--padding-left: var(--wp--preset--spacing--30);}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--contrast);text-decoration: underline;}a:where(:not(.wp-element-button)):hover{text-decoration: none;}a:where(:not(.wp-element-button)):focus{text-decoration: underline dashed;}a:where(:not(.wp-element-button)):active{color: var(--wp--preset--color--secondary);text-decoration: none;}h1, h2, h3, h4, h5, h6{font-weight: 400;line-height: 1.4;}h1{font-size: clamp(2.032rem, 2.032rem + ((1vw - 0.2rem) * 2.896), 3.625rem);line-height: 1.2;}h2{font-size: clamp(2.625rem, calc(2.625rem + ((1vw - 0.48rem) * 8.4135)), 3.25rem);line-height: 1.2;}h3{font-size: var(--wp--preset--font-size--x-large);}h4{font-size: var(--wp--preset--font-size--large);}h5{font-size: var(--wp--preset--font-size--medium);}h6{font-size: var(--wp--preset--font-size--medium);}.wp-element-button, .wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;border-width: 0;color: var(--wp--preset--color--contrast);font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.wp-element-button:visited, .wp-block-button__link:visited{color: var(--wp--preset--color--contrast);}.wp-element-button:hover, .wp-block-button__link:hover{background-color: var(--wp--preset--color--contrast);color: var(--wp--preset--color--base);}.wp-element-button:focus, .wp-block-button__link:focus{background-color: var(--wp--preset--color--contrast);color: var(--wp--preset--color--base);}.wp-element-button:active, .wp-block-button__link:active{background-color: var(--wp--preset--color--secondary);color: var(--wp--preset--color--base);}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-base-color{color: var(--wp--preset--color--base) !important;}.has-contrast-color{color: var(--wp--preset--color--contrast) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-background-color{background-color: var(--wp--preset--color--base) !important;}.has-contrast-background-color{background-color: var(--wp--preset--color--contrast) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-border-color{border-color: var(--wp--preset--color--base) !important;}.has-contrast-border-color{border-color: var(--wp--preset--color--contrast) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-xx-large-font-size{font-size: var(--wp--preset--font-size--xx-large) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}
+.wp-block-navigation{font-size: var(--wp--preset--font-size--small);}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;text-decoration: none;}
+.wp-block-navigation a:where(:not(.wp-element-button)):hover{text-decoration: underline;}
+.wp-block-navigation a:where(:not(.wp-element-button)):focus{text-decoration: underline dashed;}
+.wp-block-navigation a:where(:not(.wp-element-button)):active{text-decoration: none;}
+.wp-block-pullquote{border-width: 1px 0;border-style: solid;font-size: clamp(0.984em, 0.984rem + ((1vw - 0.2em) * 0.938), 1.5em);line-height: 1.3;margin-top: var(--wp--preset--spacing--40) !important;margin-bottom: var(--wp--preset--spacing--40) !important;}
+.wp-block-pullquote cite{font-size: var(--wp--preset--font-size--small);font-style: normal;text-transform: none;}
+.wp-block-post-author{font-size: var(--wp--preset--font-size--small);}
+.wp-block-post-content a:where(:not(.wp-element-button)){color: var(--wp--preset--color--secondary);}
+.wp-block-post-excerpt{font-size: var(--wp--preset--font-size--medium);}
+.wp-block-post-date{font-size: var(--wp--preset--font-size--small);font-weight: 400;}
+.wp-block-post-date a:where(:not(.wp-element-button)){text-decoration: none;}
+.wp-block-post-date a:where(:not(.wp-element-button)):hover{text-decoration: underline;}
+.wp-block-post-terms{font-size: var(--wp--preset--font-size--small);}
+.wp-block-post-title{font-weight: 400;margin-top: 1.25rem;margin-bottom: 1.25rem;}
+.wp-block-post-title a:where(:not(.wp-element-button)){text-decoration: none;}
+.wp-block-post-title a:where(:not(.wp-element-button)):hover{text-decoration: underline;}
+.wp-block-post-title a:where(:not(.wp-element-button)):focus{text-decoration: underline dashed;}
+.wp-block-post-title a:where(:not(.wp-element-button)):active{color: var(--wp--preset--color--secondary);text-decoration: none;}
+.wp-block-comments-title{font-size: var(--wp--preset--font-size--large);margin-bottom: var(--wp--preset--spacing--40);}
+.wp-block-comment-author-name a:where(:not(.wp-element-button)){text-decoration: none;}
+.wp-block-comment-author-name a:where(:not(.wp-element-button)):hover{text-decoration: underline;}
+.wp-block-comment-author-name a:where(:not(.wp-element-button)):focus{text-decoration: underline dashed;}
+.wp-block-comment-author-name a:where(:not(.wp-element-button)):active{color: var(--wp--preset--color--secondary);text-decoration: none;}
+.wp-block-comment-date{font-size: var(--wp--preset--font-size--small);}
+.wp-block-comment-date a:where(:not(.wp-element-button)){text-decoration: none;}
+.wp-block-comment-date a:where(:not(.wp-element-button)):hover{text-decoration: underline;}
+.wp-block-comment-date a:where(:not(.wp-element-button)):focus{text-decoration: underline dashed;}
+.wp-block-comment-date a:where(:not(.wp-element-button)):active{color: var(--wp--preset--color--secondary);text-decoration: none;}
+.wp-block-comment-edit-link{font-size: var(--wp--preset--font-size--small);}
+.wp-block-comment-reply-link{font-size: var(--wp--preset--font-size--small);}
+.wp-block-comments-pagination{margin-top: var(--wp--preset--spacing--40);}
+.wp-block-comments-pagination a:where(:not(.wp-element-button)){text-decoration: none;}
+.wp-block-query h2{font-size: var(--wp--preset--font-size--x-large);}
+.wp-block-query-pagination{font-size: var(--wp--preset--font-size--small);font-weight: 400;}
+.wp-block-query-pagination a:where(:not(.wp-element-button)){text-decoration: none;}
+.wp-block-query-pagination a:where(:not(.wp-element-button)):hover{text-decoration: underline;}
+.wp-block-quote{border-width: 1px;padding-right: var(--wp--preset--spacing--30);padding-left: var(--wp--preset--spacing--30);}
+.wp-block-quote cite{font-size: var(--wp--preset--font-size--small);font-style: normal;}
+.wp-block-site-title{font-size: var(--wp--preset--font-size--medium);font-weight: normal;line-height: 1.4;}
+.wp-block-site-title a:where(:not(.wp-element-button)){text-decoration: none;}
+.wp-block-site-title a:where(:not(.wp-element-button)):hover{text-decoration: underline;}
+.wp-block-site-title a:where(:not(.wp-element-button)):focus{text-decoration: underline dashed;}
+.wp-block-site-title a:where(:not(.wp-element-button)):active{color: var(--wp--preset--color--secondary);text-decoration: none;}
+</style>
+<link rel='stylesheet' id='elementor-icons-css' href='https://bpcustomdev.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.23.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://bpcustomdev.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.16.6' type='text/css' media='all' />
+<style id='elementor-frontend-inline-css' type='text/css'>
+.elementor-kit-4446{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-4776ecb5:#4054B2;--e-global-color-2185a79c:#23A455;--e-global-color-7cfb2414:#000;--e-global-color-2eb7d552:#FFF;--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-weight:500;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1330px;}.e-con{--container-max-width:1330px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-4446 e-page-transition{background-color:#FFBC7D;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}
+.elementor-8912 .elementor-element.elementor-element-58be45dc > .elementor-container{max-width:1040px;}.elementor-8912 .elementor-element.elementor-element-58be45dc:not(.elementor-motion-effects-element-type-background), .elementor-8912 .elementor-element.elementor-element-58be45dc > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(180deg, #0384DD 0%, #1534B1 100%);}.elementor-8912 .elementor-element.elementor-element-58be45dc{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:40px 0px 40px 0px;}.elementor-8912 .elementor-element.elementor-element-58be45dc > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-8912 .elementor-element.elementor-element-2b80f9b9 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:16px;}.elementor-8912 .elementor-element.elementor-element-2b80f9b9 > .elementor-element-populated, .elementor-8912 .elementor-element.elementor-element-2b80f9b9 > .elementor-element-populated > .elementor-background-overlay, .elementor-8912 .elementor-element.elementor-element-2b80f9b9 > .elementor-background-slideshow{border-radius:4px 4px 4px 4px;}.elementor-8912 .elementor-element.elementor-element-2b80f9b9 > .elementor-element-populated{box-shadow:0px 3px 12px 0px rgba(0,0,0,0.03);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-8912 .elementor-element.elementor-element-2b80f9b9 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-8912 .elementor-element.elementor-element-7e86c5da .elementor-heading-title{color:#ffffff;font-size:1rem;font-weight:500;text-transform:uppercase;letter-spacing:1px;}.elementor-8912 .elementor-element.elementor-element-7e86c5da > .elementor-widget-container{margin:0px 0px 20px 0px;}.elementor-8912 .elementor-element.elementor-element-463a493f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-bottom:calc(8px/2);}.elementor-8912 .elementor-element.elementor-element-463a493f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-top:calc(8px/2);}.elementor-8912 .elementor-element.elementor-element-463a493f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-right:calc(8px/2);margin-left:calc(8px/2);}.elementor-8912 .elementor-element.elementor-element-463a493f .elementor-icon-list-items.elementor-inline-items{margin-right:calc(-8px/2);margin-left:calc(-8px/2);}body.rtl .elementor-8912 .elementor-element.elementor-element-463a493f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{left:calc(-8px/2);}body:not(.rtl) .elementor-8912 .elementor-element.elementor-element-463a493f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{right:calc(-8px/2);}.elementor-8912 .elementor-element.elementor-element-463a493f .elementor-icon-list-icon i{color:#2B8BFF;transition:color 0.3s;}.elementor-8912 .elementor-element.elementor-element-463a493f .elementor-icon-list-icon svg{fill:#2B8BFF;transition:fill 0.3s;}.elementor-8912 .elementor-element.elementor-element-463a493f{--e-icon-list-icon-size:16px;--icon-vertical-offset:0px;}.elementor-8912 .elementor-element.elementor-element-463a493f .elementor-icon-list-icon{padding-right:0px;}.elementor-8912 .elementor-element.elementor-element-463a493f .elementor-icon-list-item > .elementor-icon-list-text, .elementor-8912 .elementor-element.elementor-element-463a493f .elementor-icon-list-item > a{font-size:0.875rem;line-height:1.5em;}.elementor-8912 .elementor-element.elementor-element-463a493f .elementor-icon-list-text{color:rgba(255,255,255,0.7);transition:color 0.3s;}.elementor-8912 .elementor-element.elementor-element-556ce8c > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:16px;}.elementor-8912 .elementor-element.elementor-element-556ce8c > .elementor-element-populated, .elementor-8912 .elementor-element.elementor-element-556ce8c > .elementor-element-populated > .elementor-background-overlay, .elementor-8912 .elementor-element.elementor-element-556ce8c > .elementor-background-slideshow{border-radius:4px 4px 4px 4px;}.elementor-8912 .elementor-element.elementor-element-556ce8c > .elementor-element-populated{box-shadow:0px 3px 12px 0px rgba(0,0,0,0.03);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-8912 .elementor-element.elementor-element-556ce8c > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-8912 .elementor-element.elementor-element-f9557ae .elementor-heading-title{color:#ffffff;font-size:1rem;font-weight:500;text-transform:uppercase;letter-spacing:1px;}.elementor-8912 .elementor-element.elementor-element-f9557ae > .elementor-widget-container{margin:0px 0px 20px 0px;}.elementor-8912 .elementor-element.elementor-element-1af23c0c .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-bottom:calc(8px/2);}.elementor-8912 .elementor-element.elementor-element-1af23c0c .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-top:calc(8px/2);}.elementor-8912 .elementor-element.elementor-element-1af23c0c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-right:calc(8px/2);margin-left:calc(8px/2);}.elementor-8912 .elementor-element.elementor-element-1af23c0c .elementor-icon-list-items.elementor-inline-items{margin-right:calc(-8px/2);margin-left:calc(-8px/2);}body.rtl .elementor-8912 .elementor-element.elementor-element-1af23c0c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{left:calc(-8px/2);}body:not(.rtl) .elementor-8912 .elementor-element.elementor-element-1af23c0c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{right:calc(-8px/2);}.elementor-8912 .elementor-element.elementor-element-1af23c0c .elementor-icon-list-icon i{color:#2B8BFF;transition:color 0.3s;}.elementor-8912 .elementor-element.elementor-element-1af23c0c .elementor-icon-list-icon svg{fill:#2B8BFF;transition:fill 0.3s;}.elementor-8912 .elementor-element.elementor-element-1af23c0c{--e-icon-list-icon-size:16px;--icon-vertical-offset:0px;}.elementor-8912 .elementor-element.elementor-element-1af23c0c .elementor-icon-list-icon{padding-right:0px;}.elementor-8912 .elementor-element.elementor-element-1af23c0c .elementor-icon-list-item > .elementor-icon-list-text, .elementor-8912 .elementor-element.elementor-element-1af23c0c .elementor-icon-list-item > a{font-size:0.875rem;line-height:1.5em;}.elementor-8912 .elementor-element.elementor-element-1af23c0c .elementor-icon-list-text{color:rgba(255,255,255,0.7);transition:color 0.3s;}.elementor-8912 .elementor-element.elementor-element-fba673f > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:16px;}.elementor-8912 .elementor-element.elementor-element-fba673f > .elementor-element-populated, .elementor-8912 .elementor-element.elementor-element-fba673f > .elementor-element-populated > .elementor-background-overlay, .elementor-8912 .elementor-element.elementor-element-fba673f > .elementor-background-slideshow{border-radius:4px 4px 4px 4px;}.elementor-8912 .elementor-element.elementor-element-fba673f > .elementor-element-populated{box-shadow:0px 3px 12px 0px rgba(0,0,0,0.03);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-8912 .elementor-element.elementor-element-fba673f > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-8912 .elementor-element.elementor-element-2bf764cd .elementor-heading-title{color:#ffffff;font-size:1rem;font-weight:500;text-transform:uppercase;letter-spacing:1px;}.elementor-8912 .elementor-element.elementor-element-2bf764cd > .elementor-widget-container{margin:0px 0px 20px 0px;}.elementor-8912 .elementor-element.elementor-element-36e5ed51 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-bottom:calc(8px/2);}.elementor-8912 .elementor-element.elementor-element-36e5ed51 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-top:calc(8px/2);}.elementor-8912 .elementor-element.elementor-element-36e5ed51 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-right:calc(8px/2);margin-left:calc(8px/2);}.elementor-8912 .elementor-element.elementor-element-36e5ed51 .elementor-icon-list-items.elementor-inline-items{margin-right:calc(-8px/2);margin-left:calc(-8px/2);}body.rtl .elementor-8912 .elementor-element.elementor-element-36e5ed51 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{left:calc(-8px/2);}body:not(.rtl) .elementor-8912 .elementor-element.elementor-element-36e5ed51 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{right:calc(-8px/2);}.elementor-8912 .elementor-element.elementor-element-36e5ed51 .elementor-icon-list-icon i{color:#2B8BFF;transition:color 0.3s;}.elementor-8912 .elementor-element.elementor-element-36e5ed51 .elementor-icon-list-icon svg{fill:#2B8BFF;transition:fill 0.3s;}.elementor-8912 .elementor-element.elementor-element-36e5ed51{--e-icon-list-icon-size:16px;--icon-vertical-offset:0px;}.elementor-8912 .elementor-element.elementor-element-36e5ed51 .elementor-icon-list-icon{padding-right:16px;}.elementor-8912 .elementor-element.elementor-element-36e5ed51 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-8912 .elementor-element.elementor-element-36e5ed51 .elementor-icon-list-item > a{font-size:0.875rem;line-height:1.5em;}.elementor-8912 .elementor-element.elementor-element-36e5ed51 .elementor-icon-list-text{color:rgba(255,255,255,0.7);transition:color 0.3s;}.elementor-8912 .elementor-element.elementor-element-766b289d > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:16px;}.elementor-8912 .elementor-element.elementor-element-6265385a .elementor-heading-title{color:#ffffff;font-size:1rem;font-weight:500;text-transform:uppercase;letter-spacing:1px;}.elementor-8912 .elementor-element.elementor-element-6265385a > .elementor-widget-container{margin:0px 0px 20px 0px;}.elementor-8912 .elementor-element.elementor-element-1c0a0a97 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-bottom:calc(8px/2);}.elementor-8912 .elementor-element.elementor-element-1c0a0a97 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-top:calc(8px/2);}.elementor-8912 .elementor-element.elementor-element-1c0a0a97 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-right:calc(8px/2);margin-left:calc(8px/2);}.elementor-8912 .elementor-element.elementor-element-1c0a0a97 .elementor-icon-list-items.elementor-inline-items{margin-right:calc(-8px/2);margin-left:calc(-8px/2);}body.rtl .elementor-8912 .elementor-element.elementor-element-1c0a0a97 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{left:calc(-8px/2);}body:not(.rtl) .elementor-8912 .elementor-element.elementor-element-1c0a0a97 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{right:calc(-8px/2);}.elementor-8912 .elementor-element.elementor-element-1c0a0a97 .elementor-icon-list-icon i{color:#2B8BFF;transition:color 0.3s;}.elementor-8912 .elementor-element.elementor-element-1c0a0a97 .elementor-icon-list-icon svg{fill:#2B8BFF;transition:fill 0.3s;}.elementor-8912 .elementor-element.elementor-element-1c0a0a97{--e-icon-list-icon-size:16px;--icon-vertical-offset:0px;}.elementor-8912 .elementor-element.elementor-element-1c0a0a97 .elementor-icon-list-icon{padding-right:16px;}.elementor-8912 .elementor-element.elementor-element-1c0a0a97 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-8912 .elementor-element.elementor-element-1c0a0a97 .elementor-icon-list-item > a{font-size:0.875rem;line-height:1.5em;}.elementor-8912 .elementor-element.elementor-element-1c0a0a97 .elementor-icon-list-text{color:rgba(255,255,255,0.7);transition:color 0.3s;}@media(max-width:767px){.elementor-8912 .elementor-element.elementor-element-58be45dc{padding:40px 0px 40px 0px;}.elementor-8912 .elementor-element.elementor-element-2b80f9b9{width:40%;}.elementor-8912 .elementor-element.elementor-element-7e86c5da{text-align:left;}.elementor-8912 .elementor-element.elementor-element-556ce8c{width:40%;}.elementor-8912 .elementor-element.elementor-element-f9557ae{text-align:left;}.elementor-8912 .elementor-element.elementor-element-fba673f{width:60%;}.elementor-8912 .elementor-element.elementor-element-2bf764cd{text-align:left;}.elementor-8912 .elementor-element.elementor-element-766b289d{width:100%;}.elementor-8912 .elementor-element.elementor-element-6265385a{text-align:left;}}@media(min-width:768px){.elementor-8912 .elementor-element.elementor-element-2b80f9b9{width:24.167%;}.elementor-8912 .elementor-element.elementor-element-556ce8c{width:25.833%;}}@media(max-width:1024px) and (min-width:768px){.elementor-8912 .elementor-element.elementor-element-2b80f9b9{width:18%;}.elementor-8912 .elementor-element.elementor-element-556ce8c{width:18%;}.elementor-8912 .elementor-element.elementor-element-fba673f{width:22%;}.elementor-8912 .elementor-element.elementor-element-766b289d{width:30%;}}
+</style>
+<link rel='stylesheet' id='swiper-css' href='https://bpcustomdev.com/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href='https://bpcustomdev.com/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.16.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wbcom-essential-elementor-css-css' href='https://bpcustomdev.com/wp-content/plugins/wbcom-essential/assets/css/wbcom-essential-elementor.css?ver=3.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wbcom-essential-icons-css' href='https://bpcustomdev.com/wp-content/plugins/wbcom-essential/assets/css/wb-icons.css?ver=3.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='reign_main_style-css' href='https://bpcustomdev.com/wp-content/themes/reign-theme/assets/css/main.min.css?ver=1698216134' type='text/css' media='all' />
+<style id='reign_main_style-inline-css' type='text/css'>
+:root{--reign-header-topbar-bg-color:#1d76da;--reign-header-topbar-text-color:#ffffff;--reign-header-topbar-text-hover-color:#153045;--reign-header-bg-color:#ffffff;--reign-header-nav-bg-color:#f5f5f5;--reign-title-tagline-typography:#153045;--reign-header-main-menu-font:#153045;--reign-header-main-menu-text-hover-color:#1d76da;--reign-header-main-menu-text-active-color:#1d76da;--reign-header-main-menu-bg-hover-color:#1d76da;--reign-header-main-menu-bg-active-color:#1d76da;--reign-header-sub-menu-bg-color:#ffffff;--reign-header-sub-menu-font:#153045;--reign-header-sub-menu-text-hover-color:#ffffff;--reign-header-sub-menu-bg-hover-color:#1d76da;--reign-header-icon-color:#153045;--reign-header-icon-hover-color:#153045;--reign-left-panel-bg-color:#ffffff;--reign-left-panel-toggle-color:#1d76da;--reign-left-panel-menu-font-color:#153045;--reign-left-panel-menu-hover-color:#1d76da;--reign-left-panel-menu-active-color:#1d76da;--reign-left-panel-menu-bg-hover-color:#1d76da;--reign-left-panel-menu-bg-active-color:#1d76da;--reign-left-panel-menu-icon-active-color:#ffffff;--reign-left-panel-tooltip-bg-color:#383a45;--reign-left-panel-tooltip-color:#ffffff;--reign-site-body-bg-color:#fafbfd;--reign-site-body-text-color:#515b67;--reign-site-sections-bg-color:#ffffff;--reign-site-secondary-bg-color:#f6f6f6;--reign-colors-theme:#1d76da;--reign-site-headings-color:#303030;--reign-site-link-color:#153045;--reign-site-link-hover-color:#1d76da;--reign-accent-color:#1d76da;--reign-accent-hover-color:#3c8ce6;--reign-site-button-text-color:#ffffff;--reign-site-button-text-hover-color:#ffffff;--reign-site-button-bg-color:#1d76da;--reign-site-button-bg-hover-color:#3c8ce6;--reign-site-border-color:#e3e3e3;--reign-site-hr-color:#e3e3e3;--reign-footer-widget-area-bg-color:#ffffff;--reign-footer-widget-title-color:#153045;--reign-footer-widget-text-color:#515b67;--reign-footer-widget-link-color:#153045;--reign-footer-widget-link-hover-color:#1d76da;--reign-footer-copyright-bg-color:#ffffff;--reign-footer-copyright-text-color:#153045;--reign-footer-copyright-link-color:#153045;--reign-footer-copyright-link-hover-color:#1d76da;--reign-form-text-color:#111111;--reign-form-background-color:#ffffff;--reign-form-border-color:#e3e3e3;--reign-form-placeholder-color:#666666;--reign-form-focus-text-color:#000000;--reign-form-focus-background-color:#fdfdfd;--reign-form-focus-border-color:#1d76da;--reign-form-focus-placeholder-color:#333333;}
+:root{--reign-global-border-radius:3px;--reign-global-button-radius:3px;--reign-global-form-radius:6px;}
+</style>
+<link rel='stylesheet' id='font-awesome-css' href='https://bpcustomdev.com/wp-content/themes/reign-theme/assets/font-awesome/css/fontawesome.min.css?ver=1698216134' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-font-css' href='https://bpcustomdev.com/wp-content/themes/reign-theme/assets/fonts/fonts.css?ver=1698216134' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://bpcustomdev.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://bpcustomdev.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://bpcustomdev.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-regular-css' href='https://bpcustomdev.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3' type='text/css' media='all' />
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+
+<!-- Google Analytics snippet added by Site Kit -->
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://www.googletagmanager.com/gtag/js?id=GT-NNQ7BVC' id='google_gtagjs-js' async></script>
+<script type="rocketlazyloadscript" id="google_gtagjs-js-after" data-rocket-type="text/javascript">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('set', 'linker', {"domains":["bpcustomdev.com"]} );
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-NNQ7BVC");
+</script>
+
+<!-- End Google Analytics snippet added by Site Kit -->
+<link rel="https://api.w.org/" href="https://bpcustomdev.com/wp-json/" /><link rel="alternate" type="application/json" href="https://bpcustomdev.com/wp-json/wp/v2/posts/9061" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://bpcustomdev.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.3.2" />
+<link rel='shortlink' href='https://bpcustomdev.com/?p=9061' />
+<link rel="alternate" type="application/json+oembed" href="https://bpcustomdev.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbpcustomdev.com%2Fbackup-migration-plugins%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://bpcustomdev.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbpcustomdev.com%2Fbackup-migration-plugins%2F&#038;format=xml" />
+<!-- start Simple Custom CSS and JS -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="08d857de-573a-4b16-a743-46cc8d9f046d";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script><!-- end Simple Custom CSS and JS -->
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+#masthead.site-header .main-navigation .primary-menu > li a {
+	letter-spacing: 2px;
+}
+body #masthead.site-header {
+	border-top:4px solid #0073aa;
+}
+.List-icons-nav .elementor-icon-list-item {
+	display: inline-block !important;
+	width: 49%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<!-- end Simple Custom CSS and JS -->
+<meta name="generator" content="Site Kit by Google 1.111.1" />			<style type="text/css">
+
+				.blog .wb-grid-view,
+				.archive .wb-grid-view {
+					width: calc(50% - 30px);
+				}
+
+				.masonry {
+					column-count: 2;
+				}
+
+				 {
+					color: #1d76da;
+				}
+				 {
+					background: #1d76da;
+				}
+				 {
+					border-color: #1d76da;
+				}
+				.rg-page-loader {
+					background: url(https://bpcustomdev.com/wp-content/themes/reign-theme/lib/images/loader-1.svg) center no-repeat #ffffff;
+				}
+
+				.lm-site-header-section .lm-header-banner {
+					height: 286px;
+				}
+
+			</style>
+			<style id="reign-custom-styles" type="text/css"></style>
+<meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="generator" content="Elementor 3.16.6; features: e_dom_optimization, e_optimized_assets_loading, additional_custom_breakpoints; settings: css_print_method-internal, google_font-enabled, font_display-auto">
+<link rel="icon" href="https://bpcustomdev.com/wp-content/uploads/2021/05/wbcom-logo-1-copy-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://bpcustomdev.com/wp-content/uploads/2021/05/wbcom-logo-1-copy-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://bpcustomdev.com/wp-content/uploads/2021/05/wbcom-logo-1-copy-300x300.png" />
+<meta name="msapplication-TileImage" content="https://bpcustomdev.com/wp-content/uploads/2021/05/wbcom-logo-1-copy-300x300.png" />
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript"></script>		<style type="text/css" id="wp-custom-css">
+			h1, h2, h3, h4, h5, h6,
+.elementor-button-link,
+.elementor-testimonial__name{
+	font-family: 'GT Walsheim Pro', sans-serif;
+}
+#masthead {
+    z-index: 99999;
+}
+.home .gform_wrapper .gform_footer {
+    padding:10px 0 !important;
+    margin: 0 !important;
+}
+body.home .gform_wrapper ul li.gfield {
+	margin-top: 0 !important;
+}
+.elementor-3299 .elementor-element.elementor-element-3311e82 .elementor-testimonial__content {
+    box-shadow: 0 8px 18px #ededed;
+    padding: 20px 20px 20px 20px;
+}
+
+.fa-sign-in:before {
+    content: "\f090" !important;
+}
+.main-navigation ul li>ul.sub-menu {
+    width: 226px;
+}
+
+/** Start Envato Elements CSS: Blocks (73-3-f64f7bd8e81de57bc1df72206fdbe45a) **/
+
+/* Newsletter Placeholder Text Alignment */
+.envato-kit-70-subscribe-form-inline .elementor-field-type-email input {
+	padding-left: 27px;
+}
+
+.envato-kit-70-review-mobile .elementor-testimonial{
+	flex-direction: column-reverse;
+}
+
+/** End Envato Elements CSS: Blocks (73-3-f64f7bd8e81de57bc1df72206fdbe45a) **/
+
+
+
+/** Start Envato Elements CSS: Blocks (141-3-1d55f1e76be9fb1a8d9de88accbe962f) **/
+
+.envato-kit-138-bracket .elementor-widget-container > *:before{
+	content:"[";
+	color:#ffab00;
+	display:inline-block;
+	margin-right:4px;
+	line-height:1em;
+	position:relative;
+	top:-1px;
+}
+
+.envato-kit-138-bracket .elementor-widget-container > *:after{
+	content:"]";
+	color:#ffab00;
+	display:inline-block;
+	margin-left:4px;
+	line-height:1em;
+	position:relative;
+	top:-1px;
+}
+
+/** End Envato Elements CSS: Blocks (141-3-1d55f1e76be9fb1a8d9de88accbe962f) **/
+
+.main-navigation ul{
+	text-align:right;
+}
+
+/* popup wpform button */
+
+.popupaoc-button:hover {
+    border-radius: 5px;
+    border: 1px solid #0073aa;
+    border-width: 2px 2px 2px 2px;
+    
+    color: #fff;
+    background: #0073aa;
+	 font-size: 16px; box-shadow: 3px 4px 19px -5px rgba(12,12,12,.8);
+}
+.popupaoc-button{
+	 box-shadow: 0 10px 6px -6px #777 !important;
+	 border-radius: 5px;
+    border: 1px solid #0073aa;
+    border-width: 2px 2px 2px 2px;
+       color: #fff;
+    background: #0073aa;
+	    font-weight: 500;
+    font-size: 15px;
+}
+
+/* popup form on home page */
+ * .paoc-popup-modal-cnt {
+    background-color: #ffffff91;
+    padding: 50px 20px 20px 20px;
+	 border-radius: 7px;
+}
+.paoc-popup-modal {
+	width: 30%;
+	border-radius: 7px;
+	box-shadow: 0 11px 15px -7px rgba(0,0,0,.2), 0 24px 38px 3px rgba(0,0,0,.14), 0 9px 46px 8px rgba(0, 0, 0, 0.3);
+   border: 2px solid #000;
+	background-color: #ffffffb5;}
+
+/* wp form submit button */
+div.wpforms-container-full .wpforms-form button[type=submit]{
+	border-radius: 5px;
+    box-shadow: 0 10px 6px -6px #777;
+    background-color: #0073AA;
+    border: 1px solid #0073aa;
+    color: #fff;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit]:hover
+{
+    background-color: #0073AA;
+    border: 1px solid #0073aa;
+    color: #fff;
+}
+/*home bp theme tab hero banner*/
+.elementor-74 .elementor-element.elementor-element-316ed8c5 {
+    z-index: 0;
+}
+/**/
+
+
+/* Update Css */
+.site-branding a img {
+    max-width: 250px;
+}
+.version-two .primary-menu > li a {
+    font-family: 'GT Walsheim Pro', sans-serif;
+}
+body.home #masthead.site-header {
+    max-width: 1300px;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+body.home #masthead.sticky.site-header {
+    max-width: 100%;
+	  margin:0;
+    border-radius: 0;
+}
+.main-navigation ul li>ul.sub-menu {
+    width: 300px;
+}
+.testimonials_group .swiper-slide:before{
+        background: #f39c13;
+    box-shadow: 0 21px 25px 0 rgb(161 98 0 / 20%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: -25px;
+    content: "\f10d";
+    font-family:'Font Awesome 5 Pro' !important;
+    font-size: 25px;
+    color:#fff;
+}
+.swiper-container {
+    padding-top: 30px;
+}
+.elementor-widget-testimonial-carousel .swiper-slide {
+    overflow: unset;
+}
+#quotation .gform_wrapper ul.gform_fields li.gfield {
+    padding:0 !important;
+	 margin:5px 0 0;
+}
+#quotation .gform_body input,
+#quotation .gform_body select{
+    margin: 0 !important;
+    padding:5px 10px;
+    font-size: 15px !important;
+    height: 40px !important;
+    border-radius: 5px !important;    text-transform: none;
+}
+#quotation label.gfield_label {
+    display: none !important;
+}
+#quotation .gform_wrapper textarea.small{
+     border-radius: 5px !important;padding:8px 10px !importan;
+     font-size: 15px !important;
+}
+#quotation .gform_footer.top_label {
+    padding: 0 !important;
+}
+#quotation input#gform_submit_button_3 {
+    border-radius: 100px;
+    padding: 10px 35px;
+}
+
+#plugin_slide .elementor-testimonial {
+    box-shadow: 0 0px 25px #efefef;
+    padding: 40px 18px;
+    align-content: center;
+    margin: 15px;
+    border-radius: 8px;
+    transition: all 0.3s;
+    text-align: center;
+}
+#plugin_slide.elementor-widget-reviews .elementor-testimonial__image {
+    display: block;
+    margin-bottom: 20px;
+}
+#plugin_slide.elementor-widget-reviews .elementor-testimonial__header {
+    display: block;
+}
+#plugin_slide.elementor-widget-reviews .elementor-testimonial__icon {
+    display: none !important;
+}
+#plugin_slide .elementor-testimonial:hover {
+    box-shadow: 0 0px 25px #e3e3e3;
+}
+div#newsleter_send .elementor-labels-above {
+    position: relative;
+}
+#newsleter_send .e-form__buttons {
+    position: absolute;
+    right:18px;
+    top: 4px;
+}
+.main-navigation li#menu-item-6574:last-child a {
+    font-size: 15px !important;
+    font-weight: 500;
+    text-transform: uppercase !important;
+    color: #FFFFFF !important;
+    background-color: #fe9900;
+    letter-spacing: 0.5px !important;
+    margin-left: 20px;
+    border-radius: 100px 100px 100px 100px;
+    padding: 13px 30px 13px 30px;
+    height: auto;
+    line-height: normal;
+}
+.shiftnav ul.shiftnav-menu li.menu-item.shiftnav-has-icon > .shiftnav-target > i.shiftnav-icon {
+    display: none;
+}
+.reign-header-icons-enable #shiftnav-toggle-main img.custom-logo {
+	min-width: 150px;
+}
+.elementor-widget-container, p {
+    line-height: 25px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 679px) {
+#newsleter_send .e-form__buttons {
+    position: unset;
+}
+
+	
+	
+}
+		</style>
+		<style id="kirki-inline-styles">{background-color:#f6f6f6;border-color:#e3e3e3;}body{font-family:Open Sans;font-size:16px;font-weight:400;letter-spacing:0px;line-height:22px;text-align:inherit;text-transform:none;}body, .peepso *:not(.fa):not(.fab):not(.fad):not(.fal):not(.far):not(.fas), .ps-lightbox *:not(.fa):not(.fab):not(.fad):not(.fal):not(.far):not(.fas), .ps-dialog *:not(.fa):not(.fab):not(.fad):not(.fal):not(.far):not(.fas), .ps-hovercard *:not(.fa):not(.fab):not(.fad):not(.fal):not(.far):not(.fas){font-family:Open Sans;}.site-branding .site-title a{font-size:36px;letter-spacing:0px;text-align:inherit;text-transform:none;}.site-description, body #masthead p.site-description{font-size:14px;text-align:inherit;text-transform:none;}#masthead.site-header .main-navigation .primary-menu > li a, #masthead .user-link-wrap .user-link, #masthead .psw-userbar__name>a{font-size:17px;letter-spacing:0.2px;text-align:inherit;text-transform:none;}#masthead.site-header .main-navigation .primary-menu > li .sub-menu li a, #masthead .user-profile-menu li > a{font-size:16px;letter-spacing:0px;text-align:left;text-transform:none;}h1{font-size:32px;letter-spacing:0px;line-height:48px;text-align:inherit;text-transform:none;}h2{font-size:24px;letter-spacing:0px;line-height:32px;text-align:inherit;text-transform:none;}h3{font-size:22px;letter-spacing:0px;line-height:30px;text-align:inherit;text-transform:none;}h4{font-size:20px;letter-spacing:0px;line-height:28px;text-align:inherit;text-transform:none;}h5{font-size:16px;letter-spacing:0px;line-height:24px;text-align:inherit;text-transform:none;}h6{font-size:12px;letter-spacing:0px;line-height:18px;text-align:inherit;text-transform:none;}blockquote, .wp-block-quote, .wp-block-quote p{font-size:14px;letter-spacing:0px;text-align:inherit;text-transform:none;}.container, .container-fluid, .reign-stretched_view .footer-wrap .container, .reign-stretched_view_no_title .footer-wrap .container, .reign-stretched_view .reign-header-top .container, .reign-stretched_view_no_title .reign-header-top .container, .reign-stretched_view .reign-fallback-header .container, .reign-stretched_view_no_title .reign-fallback-header .container, .reign-peepso-group.layout-full-width .ps-focus__cover-inner, .reign-peepso-group.layout-full-width .ps-focus__info, .reign-peepso-group.layout-full-width .ps-focus__menu-inner, .reign-peepso-profile.layout-full-width .ps-focus__cover-inner, .reign-peepso-profile.layout-full-width .ps-focus__info, .reign-peepso-profile.layout-full-width .ps-focus__menu-inner, .reign-peepso-profile.layout-full-width .ps-badgeos__list-wrapper{max-width:1300px;}.site-content .widget-area, .reign-both_sidebar aside#reign-sidebar-right, .reign-both_sidebar aside#reign-sidebar-left{max-width:28.125%;}.lm-site-header-section .lm-header-banner{background-color:#cccccc;}.lm-header-banner:after{background:rgba(38,38,38,0.6);}.lm-site-header-section .lm-header-banner h1.lm-header-title, .lm-breadcrumbs-wrapper #breadcrumbs li i, .lm-breadcrumbs-wrapper #breadcrumbs span, .lm-breadcrumbs-wrapper #breadcrumbs li strong, .lm-site-header-section .lm-header-banner{color:#ffffff;}.lm-breadcrumbs-wrapper #breadcrumbs li a, .lm-breadcrumbs-wrapper #breadcrumbs span a{color:#ffffff;}input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{color:#666666;}input:-moz-placeholder, input::-moz-placeholder, textarea:-moz-placeholder, textarea::-moz-placeholder{color:#666666;}input:-ms-input-placeholder, textarea:-ms-input-placeholder{color:#666666;}input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder{color:#333333;}input:focus:-moz-placeholder, input:focus::-moz-placeholder, textarea:focus:-moz-placeholder, textarea:focus::-moz-placeholder{color:#333333;}input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder{color:#333333;}footer div#reign-copyright-text .container{text-align:center;}footer div#reign-copyright-text{padding-top:20px;padding-right:0px;padding-bottom:20px;padding-left:0px;}footer .footer-wrap{padding-top:70px;padding-right:0px;padding-bottom:70px;padding-left:0px;}@media (min-width: 960px){ul.navbar-reign-panel li.menu-item a i, ul.navbar-reign-panel li.menu-item a img._mi{-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;}}/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4saVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4jaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4iaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4vaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVQUwaEQXjM.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4saVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4jaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4iaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4vaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVQUwaEQXjN_mQ.woff) format('woff');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://bpcustomdev.com/wp-content/fonts/open-sans/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVQUwaEQXjM.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style>			</head>
+	<body class="post-template-default single single-post postid-9061 single-format-standard wp-custom-logo logged-out group-blog reign-typo topbar-disable scrollup-position-right reign-mobile-header-icons-enable reign-sticky-sidebar header-v1 rg-header-top-bar single-post-default-layout reign-topbar-hide-mobile elementor-default elementor-kit-4446">
+								<div id="page" class="site">
+						<header id="masthead" class="site-header v2" role="banner">
+				
+										<div class="reign-fallback-header header-desktop version-two">
+	<div class="container">
+		<div class="wb-grid">
+			<div class="header-left no-gutter wb-grid-flex wb-grid-center wb-grid-space-between">
+				<div class="site-branding">
+				<div class="logo">
+				<a href="https://bpcustomdev.com/" class="custom-logo-link" rel="home" data-wpel-link="internal"><img width="2000" height="611" src="https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg.png" class="custom-logo" alt="BuddyPress Custom Dev" decoding="async" fetchpriority="high" srcset="https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg.png 2000w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-300x92.png 300w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-1024x313.png 1024w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-768x235.png 768w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-1536x469.png 1536w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-1200x367.png 1200w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-600x183.png 600w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-500x153.png 500w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>				</div>
+				</div>
+
+				<nav id="site-navigation" class="main-navigation" role="navigation">
+					<span class="menu-toggle wbcom-nav-menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+					<span></span>
+					<span></span>
+					<span></span>
+					</span>
+					<ul id="primary-menu" class="primary-menu"><li id="menu-item-6637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-6637"><a href="https://bpcustomdev.com/" data-wpel-link="internal">Home</a></li>
+<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="https://bpcustomdev.com/themes/" data-wpel-link="internal">Themes &#038; Solutions</a></li>
+<li id="menu-item-3861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3861"><a href="https://bpcustomdev.com/services/" data-wpel-link="internal">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-3869" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3869"><a href="https://bpcustomdev.com/custom-plugin-development/" data-wpel-link="internal">BuddyPress Plugin Development</a></li>
+	<li id="menu-item-3866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3866"><a href="https://bpcustomdev.com/buddypress-customization/" data-wpel-link="internal">BuddyPress Customization</a></li>
+	<li id="menu-item-3864" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3864"><a href="https://bpcustomdev.com/buddypress-theme-development/" data-wpel-link="internal">BuddyPress Theme Development</a></li>
+	<li id="menu-item-3867" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3867"><a href="https://bpcustomdev.com/migrate-to-buddypress/" data-wpel-link="internal">BuddyPress Migration</a></li>
+	<li id="menu-item-3865" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3865"><a href="https://bpcustomdev.com/third-party-integration/" data-wpel-link="internal">BuddyPress Third Party Integration</a></li>
+	<li id="menu-item-3868" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3868"><a href="https://bpcustomdev.com/social-network-with-paid-membership/" data-wpel-link="internal">BuddyPress Social Marketplace Integration</a></li>
+	<li id="menu-item-4025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4025"><a href="https://bpcustomdev.com/buddypress-gamification/" data-wpel-link="internal">BuddyPress Gamification</a></li>
+	<li id="menu-item-4026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4026"><a href="https://bpcustomdev.com/buddypress-lms-integration/" data-wpel-link="internal">BuddyPress LMS Integration</a>
+	<ul class="sub-menu">
+		<li id="menu-item-7283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7283"><a href="https://bpcustomdev.com/buddypress-learndash-integration/" data-wpel-link="internal">BuddyPress LearnDash Integration</a></li>
+		<li id="menu-item-7285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7285"><a href="https://bpcustomdev.com/buddypress-tutor-lms-integration/" data-wpel-link="internal">BuddyPress Tutor LMS Integration</a></li>
+		<li id="menu-item-7282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7282"><a href="https://bpcustomdev.com/buddypress-sensei-lms-integration/" data-wpel-link="internal">BuddyPress Sensei LMS Integration</a></li>
+		<li id="menu-item-7284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7284"><a href="https://bpcustomdev.com/buddypress-lifterlms-integration/" data-wpel-link="internal">BuddyPress LifterLMS Integration</a></li>
+	</ul>
+</li>
+	<li id="menu-item-4027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4027"><a href="https://bpcustomdev.com/buddypress-multisite-development/" data-wpel-link="internal">BuddyPress Multisite Development</a>
+	<ul class="sub-menu">
+		<li id="menu-item-7320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7320"><a href="https://bpcustomdev.com/buddypress-dokan-multivendor-integration/" data-wpel-link="internal">BuddyPress Dokan Multivendor  Integration</a></li>
+		<li id="menu-item-7321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7321"><a href="https://bpcustomdev.com/buddypress-wc-vendors-integration/" data-wpel-link="internal">BuddyPress WC Vendors Integration</a></li>
+		<li id="menu-item-7322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7322"><a href="https://bpcustomdev.com/buddypress-wcfm-marketplace-integration/" data-wpel-link="internal">BuddyPress WCFM Marketplace Integration</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-59"><a href="https://bpcustomdev.com/blog/" data-wpel-link="internal">Blog</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="https://bpcustomdev.com/plugins/" data-wpel-link="internal">Our Plugins</a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-77"><a href="https://bpcustomdev.com/contact/" data-wpel-link="internal">Contact</a>
+<ul class="sub-menu">
+	<li id="menu-item-3256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3256"><a href="https://bpcustomdev.com/free-guest-post-artticles/" data-wpel-link="internal">Guest Post</a></li>
+</ul>
+</li>
+<li id="menu-item-6574" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6574"><a href="https://wbcomdesigns.com/start-a-project/" data-wpel-link="external" rel="external noopener noreferrer">Get A Quote</a></li>
+</ul>				</nav>
+			</div>
+
+			<div class="header-right no-gutter wb-grid-flex wb-grid-center">
+							</div>
+		</div>
+	</div>
+</div>
+
+<div class="reign-fallback-header header-mobile">
+	<nav id="site-navigation" class="main-navigation reign-navbar-mobile" role="navigation" aria-label="Main menu">
+		<div class="container">
+						<div class="reign-nav-top-bar">
+				<div class="site-branding">
+					<div class="logo">
+						<a href="https://bpcustomdev.com/" class="custom-logo-link" rel="home" data-wpel-link="internal"><img width="2000" height="611" src="https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg.png" class="custom-logo" alt="BuddyPress Custom Dev" decoding="async" srcset="https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg.png 2000w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-300x92.png 300w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-1024x313.png 1024w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-768x235.png 768w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-1536x469.png 1536w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-1200x367.png 1200w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-600x183.png 600w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-500x153.png 500w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>					</div><!-- .logo -->
+				</div><!-- .site-branding -->
+
+				<button class="reign-toggler reign-toggler-left" type="button">
+					<span class="icon-bar bar1"></span>
+					<span class="icon-bar bar2"></span>
+					<span class="icon-bar bar3"></span>
+				</button>
+
+				<div class="navbar-menu-container">
+																<div class="site-branding">
+							<div class="logo">
+								<a href="https://bpcustomdev.com/" class="custom-logo-link" rel="home" data-wpel-link="internal"><img width="2000" height="611" src="https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg.png" class="custom-logo" alt="BuddyPress Custom Dev" decoding="async" srcset="https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg.png 2000w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-300x92.png 300w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-1024x313.png 1024w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-768x235.png 768w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-1536x469.png 1536w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-1200x367.png 1200w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-600x183.png 600w, https://bpcustomdev.com/wp-content/uploads/2023/09/cropped-wbcom-logo-transparent-1.jpg-500x153.png 500w" sizes="(max-width: 2000px) 100vw, 2000px" /></a>							</div><!-- .logo -->
+						</div><!-- .site-branding -->
+										<ul id="primary-menu" class="primary-menu navbar-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-6637"><a href="https://bpcustomdev.com/" data-wpel-link="internal">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="https://bpcustomdev.com/themes/" data-wpel-link="internal">Themes &#038; Solutions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3861"><a href="https://bpcustomdev.com/services/" data-wpel-link="internal">Services</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3869"><a href="https://bpcustomdev.com/custom-plugin-development/" data-wpel-link="internal">BuddyPress Plugin Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3866"><a href="https://bpcustomdev.com/buddypress-customization/" data-wpel-link="internal">BuddyPress Customization</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3864"><a href="https://bpcustomdev.com/buddypress-theme-development/" data-wpel-link="internal">BuddyPress Theme Development</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3867"><a href="https://bpcustomdev.com/migrate-to-buddypress/" data-wpel-link="internal">BuddyPress Migration</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3865"><a href="https://bpcustomdev.com/third-party-integration/" data-wpel-link="internal">BuddyPress Third Party Integration</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3868"><a href="https://bpcustomdev.com/social-network-with-paid-membership/" data-wpel-link="internal">BuddyPress Social Marketplace Integration</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4025"><a href="https://bpcustomdev.com/buddypress-gamification/" data-wpel-link="internal">BuddyPress Gamification</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4026"><a href="https://bpcustomdev.com/buddypress-lms-integration/" data-wpel-link="internal">BuddyPress LMS Integration</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7283"><a href="https://bpcustomdev.com/buddypress-learndash-integration/" data-wpel-link="internal">BuddyPress LearnDash Integration</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7285"><a href="https://bpcustomdev.com/buddypress-tutor-lms-integration/" data-wpel-link="internal">BuddyPress Tutor LMS Integration</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7282"><a href="https://bpcustomdev.com/buddypress-sensei-lms-integration/" data-wpel-link="internal">BuddyPress Sensei LMS Integration</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7284"><a href="https://bpcustomdev.com/buddypress-lifterlms-integration/" data-wpel-link="internal">BuddyPress LifterLMS Integration</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4027"><a href="https://bpcustomdev.com/buddypress-multisite-development/" data-wpel-link="internal">BuddyPress Multisite Development</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7320"><a href="https://bpcustomdev.com/buddypress-dokan-multivendor-integration/" data-wpel-link="internal">BuddyPress Dokan Multivendor  Integration</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7321"><a href="https://bpcustomdev.com/buddypress-wc-vendors-integration/" data-wpel-link="internal">BuddyPress WC Vendors Integration</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7322"><a href="https://bpcustomdev.com/buddypress-wcfm-marketplace-integration/" data-wpel-link="internal">BuddyPress WCFM Marketplace Integration</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-59"><a href="https://bpcustomdev.com/blog/" data-wpel-link="internal">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="https://bpcustomdev.com/plugins/" data-wpel-link="internal">Our Plugins</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-77"><a href="https://bpcustomdev.com/contact/" data-wpel-link="internal">Contact</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3256"><a href="https://bpcustomdev.com/free-guest-post-artticles/" data-wpel-link="internal">Guest Post</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6574"><a href="https://wbcomdesigns.com/start-a-project/" data-wpel-link="external" rel="external noopener noreferrer">Get A Quote</a></li>
+</ul>																								</div>
+
+				<div class="reign-user-toggler">
+									</div>
+
+				
+			</div><!-- .reign-nav-top-bar -->
+			<div class="reign-navbar-user">
+				
+<div class="search-wrap rg-icon-wrap">
+	<span class="rg-search-icon far fa-search"></span>
+	<div class="rg-search-form-wrap">
+		<span class="rg-search-close far fa-times-circle"></span>
+		<form role="search" method="get" class="search-form" action="https://bpcustomdev.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>	</div>
+</div>
+	<div class="rg-icon-wrap rg-login-btn-wrap">
+		<a href="https://bpcustomdev.com/" class="btn-login button" title="Login" data-wpel-link="internal">
+			Login<span class="far fa-sign-in"></span>
+		</a>
+	</div>
+				</div><!-- .reign-navbar-user -->
+					</div><!-- .container -->
+	</nav><!-- #site-navigation -->
+</div><!-- .header-mobile -->
+				
+							</header>
+							<div class="lm-site-header-section">
+		<div class="lm-header-banner">
+			<div class="lm-header-banner-overlay" style="background-image:url(https://bpcustomdev.com/wp-content/uploads/2023/10/Backup-Migration-Plugins.jpg);">
+			</div>
+			<div class="rg-sub-header-inner-section">
+				<div class="lm-header-title-wrapper container">
+					<h1 class="lm-header-title">Backup Migration Plugins: Simplifying Your WordPress Data Transfers</h1>				</div>
+									<div class="lm-breadcrumbs-wrapper">
+						<div class="container"><ul id="breadcrumbs" class="breadcrumbs"><li class="item-home"><a class="bread-link bread-home" href="https://bpcustomdev.com" title="Home" data-wpel-link="internal">Home</a></li><li class="separator separator-home"> <i class="far fa-angle-double-right"></i> </li><li class="item-cat"><a href="https://bpcustomdev.com/category/wordpress/" data-wpel-link="internal">WordPress</a></li><li class="separator"> <i class="far fa-angle-double-right"></i> </li><li class="item-current item-9061"><strong class="bread-current bread-9061" title="Backup Migration Plugins: Simplifying Your WordPress Data Transfers">Backup Migration Plugins: Simplifying Your WordPress Data Transfers</strong></li></ul></div>
+					</div>
+												</div>
+		</div>
+	</div>
+				    			<div id="content" class="site-content">
+				<div class="container"><div class="wb-grid">
+
+	<div class="content-wrapper">
+			<article id="post-9061" class="wb-grid-view post-9061 post type-post status-publish format-standard has-post-thumbnail hentry category-plugins category-wordpress tag-wordpress-development tag-wordpress-plugin tag-wordpress-website">
+
+					<div class="rg-post-meta-info-wrapper align-left">
+																<div class="post-meta-info">
+							<div class="entry-meta"><span class="byline"><a href="https://bpcustomdev.com/author/shashank/" rel="bookmark" data-wpel-link="internal"><img alt='' src='https://secure.gravatar.com/avatar/8b95214f1bb74bf7e87cc55f09df229a?s=55&#038;d=retro&#038;r=g' srcset='https://secure.gravatar.com/avatar/8b95214f1bb74bf7e87cc55f09df229a?s=110&#038;d=retro&#038;r=g 2x' class='avatar avatar-55 photo' height='55' width='55' loading='lazy' decoding='async'/></a><span class="author vcard"><a class="url fn n" href="https://bpcustomdev.com/author/shashank/" data-wpel-link="internal">shashank dubey</a></span><span class="posted-on"><a href="https://bpcustomdev.com/backup-migration-plugins/" rel="bookmark" data-wpel-link="internal"><time class="entry-date published updated" datetime="2023-10-11T12:45:20+00:00">October 11, 2023</time></a></span></span><span class="cat-links"><!--<i class="rg-category"></i>--><a href="https://bpcustomdev.com/category/plugins/" rel="category tag" data-wpel-link="internal">Plugins</a> <a href="https://bpcustomdev.com/category/wordpress/" rel="category tag" data-wpel-link="internal">WordPress</a></span></div>
+													</div>
+									</div>
+						
+    
+	<div class="rg-post-content">
+		
+		<div class="entry-content">
+			<p>In the fast-paced digital landscape, data is king, and the security of your website&#8217;s data is paramount. For WordPress website owners and developers, ensuring data integrity, security, and seamless migration between different hosts or domains is an ongoing concern. This is where backup and migration plugins step in as lifesavers. In this article, we will explore how backup migration plugins simplify the intricate process of transferring your valuable WordPress data from one location to another. Whether you&#8217;re a seasoned webmaster or a beginner, these tools can save you time, effort, and stress.</p>
+<p><a href="https://buddyxtheme.com/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img decoding="async" class="alignnone wp-image-8733 size-full" src="https://bpcustomdev.com/wp-content/uploads/2023/05/BuddyX-728x90-1.jpg" alt="BuddyX" width="728" height="90" srcset="https://bpcustomdev.com/wp-content/uploads/2023/05/BuddyX-728x90-1.jpg 728w, https://bpcustomdev.com/wp-content/uploads/2023/05/BuddyX-728x90-1-300x37.jpg 300w, https://bpcustomdev.com/wp-content/uploads/2023/05/BuddyX-728x90-1-600x74.jpg 600w, https://bpcustomdev.com/wp-content/uploads/2023/05/BuddyX-728x90-1-500x62.jpg 500w" sizes="(max-width: 728px) 100vw, 728px" /></a></p>
+<h2>The Need for Backup and Migration Plugins</h2>
+<ul>
+<li><strong>Data Safety Net:</strong> The digital world is fraught with unexpected events, from server crashes to hacking attempts. Without a reliable backup, the loss of your website&#8217;s data could be devastating. Backup plugins create a safety net, allowing you to restore your website to a previous working state when things go awry.</li>
+<li><strong>Website Migration:</strong> There are various reasons you might want to migrate your website – from changing hosting providers to rebranding your online presence. A backup and migration plugin streamlines this process, ensuring that your content, themes, and settings move smoothly to your new destination.</li>
+</ul>
+<h2>Exploring the Top Backup and Migration Plugins</h2>
+<h3>1. BackUpBuddy- Backup Migration Plugins</h3>
+<figure id="attachment_9064" aria-describedby="caption-attachment-9064" style="width: 800px" class="wp-caption alignnone"><img decoding="async" class="wp-image-9064" src="https://bpcustomdev.com/wp-content/uploads/2023/10/BackUpBuddy.png" alt="BackUpBuddy" width="800" height="376" srcset="https://bpcustomdev.com/wp-content/uploads/2023/10/BackUpBuddy.png 874w, https://bpcustomdev.com/wp-content/uploads/2023/10/BackUpBuddy-300x141.png 300w, https://bpcustomdev.com/wp-content/uploads/2023/10/BackUpBuddy-768x361.png 768w, https://bpcustomdev.com/wp-content/uploads/2023/10/BackUpBuddy-600x282.png 600w, https://bpcustomdev.com/wp-content/uploads/2023/10/BackUpBuddy-500x235.png 500w" sizes="(max-width: 800px) 100vw, 800px" /><figcaption id="caption-attachment-9064" class="wp-caption-text">Backup Migration Plugins</figcaption></figure>
+<p>In the ever-evolving digital landscape, data is the lifeblood of websites, and its protection is of paramount importance. <a href="https://ithemes.com/backupbuddy/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">BackUpBuddy</a> is a WordPress plugin that shines as a reliable and versatile solution for backup and migration needs. Whether you&#8217;re a website owner, developer, or digital professional, this plugin simplifies the often complex processes of data backup, restoration, and seamless migration.</p>
+<p><strong>Key Features:</strong></p>
+<ul>
+<li><strong>Effortless Backup and Restore:</strong> BackUpBuddy offers a straightforward process to create complete backups of your WordPress website. You can schedule backups to run at your preferred intervals, ensuring that your site&#8217;s data is continuously safeguarded. In case of unexpected issues or data loss, the restoration process is quick and uncomplicated.</li>
+<li><strong>Customizable Backup Profiles:</strong> The plugin allows you to create customizable backup profiles, enabling you to specify what to include in your backups. You can choose to back up your entire site, specific directories, databases, or even exclude certain files if needed.</li>
+</ul>
+<blockquote><p><strong>Also Read:</strong> <a href="https://bpcustomdev.com/best-table-of-contents-plugins-for-wordpress/" target="_blank" rel="noopener" data-wpel-link="internal">8 Best Table Of Contents Plugins For WordPress</a></p></blockquote>
+<h3>2. Jetpack- Backup Migration Plugins</h3>
+<p>Jetpack is a multifaceted WordPress plugin that offers an all-in-one solution for website management, including backup and migration. With its automated backup functionality, one-click restore options, and secure migration tools, Jetpack simplifies the essential tasks of safeguarding your website&#8217;s data and seamlessly transferring it to new servers or domains.</p>
+<p>In addition to its backup and migration features, Jetpack provides a range of security, performance, and engagement tools, making it a comprehensive package for users seeking an integrated approach to WordPress site management.</p>
+<p>With its real-time backup capabilities and unlimited storage, Jetpack ensures that your website&#8217;s data is not only protected but readily accessible for restoration in case of emergencies, offering peace of mind in the dynamic digital landscape.</p>
+<h3>3. WP STAGING- Backup Migration Plugins</h3>
+<figure id="attachment_9066" aria-describedby="caption-attachment-9066" style="width: 800px" class="wp-caption alignnone"><img decoding="async" class="wp-image-9066" src="https://bpcustomdev.com/wp-content/uploads/2023/10/WP-STAGING.png" alt="WP STAGING- Backup Migration Plugins" width="800" height="366" srcset="https://bpcustomdev.com/wp-content/uploads/2023/10/WP-STAGING.png 939w, https://bpcustomdev.com/wp-content/uploads/2023/10/WP-STAGING-300x137.png 300w, https://bpcustomdev.com/wp-content/uploads/2023/10/WP-STAGING-768x352.png 768w, https://bpcustomdev.com/wp-content/uploads/2023/10/WP-STAGING-600x275.png 600w, https://bpcustomdev.com/wp-content/uploads/2023/10/WP-STAGING-500x229.png 500w" sizes="(max-width: 800px) 100vw, 800px" /><figcaption id="caption-attachment-9066" class="wp-caption-text">Backup Migration Plugins</figcaption></figure>
+<p><a href="https://wordpress.org/plugins/wp-staging/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">WP STAGING</a> is a comprehensive all-in-one plugin designed for professionals, offering backup, staging, and duplication capabilities with incredible efficiency. Within seconds, it allows you to create an exact copy of your website, making it ideal for staging, backup, or development needs (the cloning and backup time varies depending on your website&#8217;s size).</p>
+<p>This tool establishes a clone of your website in a subfolder or subdomain (available in the Pro version) of your primary WordPress installation, ensuring that the cloned site includes a complete copy of your database.</p>
+<p>WP STAGING simplifies the process of pushing and migrating plugins and themes to your live site while also providing the means to create and upload backups to cloud providers. The tool operates discreetly, handling time-consuming database and file cloning and backup tasks in the background.</p>
+<h3>4. All-in-One WP Migration</h3>
+<p><a href="https://wordpress.org/plugins/all-in-one-wp-migration/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">All-in-One WP Migration</a> is a WordPress plugin that has earned its reputation as one of the most trusted and widely utilized tools for website migration since its introduction in 2013. With an extensive user base of over 60 million websites, this plugin is a testament to its reliability and effectiveness. What sets All-in-One WP Migration apart is its user-centric design, offering a wealth of user-friendly features that empower both novices and seasoned developers to migrate their WordPress websites with ease, even if they lack technical knowledge or experience.</p>
+<p>Whether you&#8217;re relocating your site to a new server or domain, this plugin simplifies the process, making it accessible to all, and has proven itself as a cornerstone tool in the WordPress ecosystem for hassle-free website migration.</p>
+<h3>5. BlogVault- Backup Migration Plugins</h3>
+<p><a href="https://blogvault.net/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">BlogVault</a> is a robust and comprehensive backup solution designed specifically for WordPress websites. With a focus on data protection and website security, BlogVault has gained a reputation as a reliable and user-friendly tool trusted by millions of users. This plugin simplifies the critical task of website backup, offering automated and real-time backups to ensure your WordPress data is safeguarded at all times.</p>
+<p>What sets BlogVault apart is its seamless approach to migration and website recovery. It simplifies the process of moving your site to new hosts or domains and offers one-click restoration, making it a valuable asset for website owners and developers. With its reliable performance and user-friendly interface, BlogVault is a go-to choice for WordPress website owners seeking an all-in-one solution for backup, migration, and security.</p>
+<h3>6. Snapshot- Backup Migration Plugins</h3>
+<p><a href="https://wpmudev.com/project/snapshot/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">Snapshot</a> is a dependable and user-friendly plugin tailored for WordPress website owners looking to ensure the safety and security of their online assets. Focusing on backup and restoration, Snapshot has emerged as a reliable tool trusted by a wide user base. This plugin streamlines the critical task of website backup, offering both scheduled and on-demand backup options to safeguard your WordPress data.</p>
+<p>Snapshot also shines when it comes to site recovery and migration, making the process of moving your website to new servers or domains a breeze. With its easy-to-use interface and seamless functionality, Snapshot is an excellent choice for website owners and developers seeking a straightforward yet powerful solution for WordPress website backup and recovery.</p>
+<h3>7. WPvivid- Backup Migration Plugins</h3>
+<figure id="attachment_9065" aria-describedby="caption-attachment-9065" style="width: 800px" class="wp-caption alignnone"><img decoding="async" loading="lazy" class="wp-image-9065" src="https://bpcustomdev.com/wp-content/uploads/2023/10/WPvivid-.png" alt="WPvivid" width="800" height="387" srcset="https://bpcustomdev.com/wp-content/uploads/2023/10/WPvivid-.png 1171w, https://bpcustomdev.com/wp-content/uploads/2023/10/WPvivid--300x145.png 300w, https://bpcustomdev.com/wp-content/uploads/2023/10/WPvivid--1024x496.png 1024w, https://bpcustomdev.com/wp-content/uploads/2023/10/WPvivid--768x372.png 768w, https://bpcustomdev.com/wp-content/uploads/2023/10/WPvivid--600x291.png 600w, https://bpcustomdev.com/wp-content/uploads/2023/10/WPvivid--500x242.png 500w" sizes="(max-width: 800px) 100vw, 800px" /><figcaption id="caption-attachment-9065" class="wp-caption-text">Backup Migration Plugins</figcaption></figure>
+<h3></h3>
+<p><a href="https://wpvivid.com/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">WPvivid</a> offers a suite of plugins designed to simplify and enhance various aspects of WordPress website management. With a focus on user-friendliness and efficiency, WPvivid plugins have gained recognition as valuable tools within the WordPress ecosystem. These plugins cover a wide array of functions, from backup and migration to optimization and security. Whether you need to protect your website&#8217;s data, enhance its performance, or streamline the migration process, WPvivid plugins provide a range of features to meet these needs.</p>
+<p>With a commitment to user satisfaction and an intuitive interface, WPvivid plugins are a trusted choice for WordPress website owners and developers looking to optimize their site&#8217;s functionality and security.</p>
+<h3>8. Duplicator &#8211; Backup Migration Plugins</h3>
+<figure id="attachment_9062" aria-describedby="caption-attachment-9062" style="width: 800px" class="wp-caption alignnone"><img decoding="async" loading="lazy" class="wp-image-9062" src="https://bpcustomdev.com/wp-content/uploads/2023/10/Duplicator.png" alt="Duplicator- Backup Migration Plugins" width="800" height="368" srcset="https://bpcustomdev.com/wp-content/uploads/2023/10/Duplicator.png 957w, https://bpcustomdev.com/wp-content/uploads/2023/10/Duplicator-300x138.png 300w, https://bpcustomdev.com/wp-content/uploads/2023/10/Duplicator-768x353.png 768w, https://bpcustomdev.com/wp-content/uploads/2023/10/Duplicator-600x276.png 600w, https://bpcustomdev.com/wp-content/uploads/2023/10/Duplicator-500x230.png 500w" sizes="(max-width: 800px) 100vw, 800px" /><figcaption id="caption-attachment-9062" class="wp-caption-text">Backup Migration Plugins</figcaption></figure>
+<p><a href="https://wordpress.org/plugins/duplicator/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">Duplicator</a> is a powerful and versatile WordPress plugin, recognized for its exceptional capabilities in website migration and backup. This plugin simplifies complex tasks, making it an invaluable asset for website owners and developers alike. Duplicator offers a comprehensive solution for creating website backups and facilitating site migrations with ease.</p>
+<p>Its core features include packaging entire websites, including databases, files, and themes, into a neat bundle for relocation, as well as scheduled backups and one-click restoration.</p>
+<p>Duplicator excels in automating the often time-consuming process of search and replacement for links and paths. Whether you&#8217;re transferring your site to a new host or domain, or simply safeguarding your data, Duplicator is a dependable, user-friendly choice for WordPress website management.</p>
+<blockquote><p><strong>Also Read:</strong> <a href="https://bpcustomdev.com/best-data-visualization-wordpress-plugins/" target="_blank" rel="noopener" data-wpel-link="internal">7 Best Data Visualization WordPress Plugins</a></p></blockquote>
+<h3>9. UpdraftPlus- Backup Migration Plugins</h3>
+<figure id="attachment_9063" aria-describedby="caption-attachment-9063" style="width: 800px" class="wp-caption alignnone"><img decoding="async" loading="lazy" class="wp-image-9063" src="https://bpcustomdev.com/wp-content/uploads/2023/10/The-World-s-Most-Trusted-WordPress-Backup-Plugin-UpdraftPlus.png" alt="UpdraftPlus- Backup Migration Plugins" width="800" height="322" srcset="https://bpcustomdev.com/wp-content/uploads/2023/10/The-World-s-Most-Trusted-WordPress-Backup-Plugin-UpdraftPlus.png 1253w, https://bpcustomdev.com/wp-content/uploads/2023/10/The-World-s-Most-Trusted-WordPress-Backup-Plugin-UpdraftPlus-300x121.png 300w, https://bpcustomdev.com/wp-content/uploads/2023/10/The-World-s-Most-Trusted-WordPress-Backup-Plugin-UpdraftPlus-1024x413.png 1024w, https://bpcustomdev.com/wp-content/uploads/2023/10/The-World-s-Most-Trusted-WordPress-Backup-Plugin-UpdraftPlus-768x310.png 768w, https://bpcustomdev.com/wp-content/uploads/2023/10/The-World-s-Most-Trusted-WordPress-Backup-Plugin-UpdraftPlus-1200x484.png 1200w, https://bpcustomdev.com/wp-content/uploads/2023/10/The-World-s-Most-Trusted-WordPress-Backup-Plugin-UpdraftPlus-600x242.png 600w, https://bpcustomdev.com/wp-content/uploads/2023/10/The-World-s-Most-Trusted-WordPress-Backup-Plugin-UpdraftPlus-500x202.png 500w" sizes="(max-width: 800px) 100vw, 800px" /><figcaption id="caption-attachment-9063" class="wp-caption-text">Backup Migration Plugins</figcaption></figure>
+<p><a href="https://updraftplus.com/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external">UpdraftPlus</a> is a comprehensive and versatile plugin designed to simplify the critical tasks of backup, restoration, and site cloning in the world of WordPress. With a large user base and a trusted reputation, UpdraftPlus is a go-to solution for website owners and developers. This plugin offers automated, scheduled backups, ensuring the safety of your WordPress data at all times.</p>
+<p>It also facilitates the process of website restoration, making it quick and straightforward. A standout feature of UpdraftPlus is its capacity for site cloning, which allows you to create exact duplicates of your website, useful for staging or development purposes. With its user-friendly interface and wide-ranging functionality, UpdraftPlus is a dependable choice for safeguarding your website and managing it efficiently in the dynamic digital landscape.</p>
+<p><a href="https://www.reigntheme.com/" target="_blank" rel="noopener external noreferrer" data-wpel-link="external"><img decoding="async" loading="lazy" class="alignnone wp-image-8732 size-full" src="https://bpcustomdev.com/wp-content/uploads/2023/05/reign-728x90-2.jpg" alt="reign" width="728" height="90" srcset="https://bpcustomdev.com/wp-content/uploads/2023/05/reign-728x90-2.jpg 728w, https://bpcustomdev.com/wp-content/uploads/2023/05/reign-728x90-2-300x37.jpg 300w, https://bpcustomdev.com/wp-content/uploads/2023/05/reign-728x90-2-600x74.jpg 600w, https://bpcustomdev.com/wp-content/uploads/2023/05/reign-728x90-2-500x62.jpg 500w" sizes="(max-width: 728px) 100vw, 728px" /></a></p>
+<h2>Conclusion on Backup Migration Plugins</h2>
+<p>In the dynamic world of website management, having reliable Backup Migration Plugins is akin to having an insurance policy for your digital assets. These tools ensure that you can bounce back from unexpected data loss and effortlessly transition your website to a new server or domain. Whether you&#8217;re a seasoned developer or a beginner, the convenience and peace of mind that these plugins offer are well worth exploring. So, consider integrating one of these top backup and migration plugins into your WordPress arsenal, and you&#8217;ll be well-prepared for the unexpected while maintaining the flexibility to grow and evolve your online presence.</p>
+<hr />
+<p><strong>Interesting Reads:</strong></p>
+<p><a href="https://bpcustomdev.com/best-knowledge-base-plugins-for-wordpress/" target="_blank" rel="noopener" data-wpel-link="internal">10 Best Knowledge Base Plugins For WordPress</a></p>
+<p><a href="https://bpcustomdev.com/best-wordpress-download-manager-plugins/" target="_blank" rel="noopener" data-wpel-link="internal">8 Best WordPress Download Manager Plugins Compared</a></p>
+<p><a href="https://bpcustomdev.com/best-wordpress-request-a-quote-plugins/" target="_blank" rel="noopener" data-wpel-link="internal">8 Best WordPress Request a Quote Plugins </a></p>
+
+			
+			
+		</div><!-- .entry-content -->
+	</div>
+
+    
+	<div class="rg-post-tags-wrapper"><span class="tag-links"><a href="https://bpcustomdev.com/tag/wordpress-development/" rel="tag" data-wpel-link="internal">WordPress Development</a><a href="https://bpcustomdev.com/tag/wordpress-plugin/" rel="tag" data-wpel-link="internal">WordPress Plugin</a><a href="https://bpcustomdev.com/tag/wordpress-website/" rel="tag" data-wpel-link="internal">WordPress Website</a></span></div></article><!-- #post-## -->
+				<div class="entry-author reign-author-info" itemprop="author" itemscope itemtype="http://schema.org/Person">
+					<div class="author-avatar" itemprop="image">
+							<img alt='shashank dubey' src='https://secure.gravatar.com/avatar/8b95214f1bb74bf7e87cc55f09df229a?s=150&#038;d=retro&#038;r=g' srcset='https://secure.gravatar.com/avatar/8b95214f1bb74bf7e87cc55f09df229a?s=300&#038;d=retro&#038;r=g 2x' class='avatar avatar-150 photo' height='150' width='150' loading='lazy' decoding='async'/>					</div>
+					<div class="author-info">
+						<h4 class="author-title"><span class="author-name" itemprop="name">shashank dubey</span></h4>
+						<div class="author-description" itemprop="description">A WordPress enthusiast, Shashank is a writer, reader and loves exploring places worldwide. He believes in gathering knowledge and bringing it to constructive use. His motto in life in YOLO, You Only Live Once.</div>
+					</div>
+					<div class="clear"></div>
+				</div><!-- /entry-author -->
+				
+			<!-- Load content share file -->
+				<div class="reign-social-box-wrap">
+		<div class="reign-social-box">
+			<ul class="reign-post-social-share">
+											<li>
+								<a class="btn-link btn-icon--left social-facebook" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fbpcustomdev.com%2Fbackup-migration-plugins%2F" onclick="javascript:window.open(this.href,&#039;&#039;, &#039;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600&#039;); return false;" target="_blank" title="Facebook" data-wpel-link="external" rel="external noopener noreferrer">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+														<li>
+								<a class="btn-link btn-icon--left social-twitter" href="https://twitter.com/share?url=https%3A%2F%2Fbpcustomdev.com%2Fbackup-migration-plugins%2F" onclick="javascript:window.open(this.href,&#039;&#039;, &#039;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600&#039;); return false;" target="_blank" title="Twitter" data-wpel-link="external" rel="external noopener noreferrer">
+									<i class="fab fa-twitter"></i>
+									</a>
+								</li>
+											</ul>
+		</div>
+	</div>
+	
+						<div class="reign-posts-nav">
+				<div class="reign-posts-nav-inner prev">
+										<a class="nav-link" href="https://bpcustomdev.com/dynamic-data-plugins/" data-wpel-link="internal">
+						<div class="reign-posts-nav-thumbnail">
+							<div class="prev">
+								<img width="80" height="80" src="https://bpcustomdev.com/wp-content/uploads/2023/10/Unlocking-the-Power-of-Dynamic-Data-Plugins-150x150.jpg" class="attachment-80x80 size-80x80 wp-post-image" alt="Unlocking the Power of Dynamic Data Plugins" decoding="async" loading="lazy" srcset="https://bpcustomdev.com/wp-content/uploads/2023/10/Unlocking-the-Power-of-Dynamic-Data-Plugins-150x150.jpg 150w, https://bpcustomdev.com/wp-content/uploads/2023/10/Unlocking-the-Power-of-Dynamic-Data-Plugins-370x370.jpg 370w" sizes="(max-width: 80px) 100vw, 80px" />							</div>
+						</div>
+						<div class="reign-posts-nav-wrap">
+							<div class="nav-prev">
+								Previous							</div>
+							<h4 class="nav-title">Unlocking the Power of Dynamic Data Plugins: A Comprehensive Guide</h4>
+						</div>
+					</a>
+									</div>
+				<div class="reign-posts-nav-inner next">
+										<a class="nav-link" href="https://bpcustomdev.com/essential-seo-plugins/" data-wpel-link="internal">
+						<div class="reign-posts-nav-wrap">
+							<div class="nav-next">
+								Next							</div>
+							<h4 class="nav-title">Boost Your Blog&#8217;s Performance with These Essential SEO Plugins</h4>
+						</div>
+						<div class="reign-posts-nav-thumbnail">
+							<div class="next">
+								<img width="80" height="80" src="https://bpcustomdev.com/wp-content/uploads/2023/10/Boost-Your-Blogs-Performance-with-These-Essential-SEO-Plugins-150x150.png" class="attachment-80x80 size-80x80 wp-post-image" alt="Boost Your Blog&#039;s Performance with These Essential SEO Plugins" decoding="async" loading="lazy" srcset="https://bpcustomdev.com/wp-content/uploads/2023/10/Boost-Your-Blogs-Performance-with-These-Essential-SEO-Plugins-150x150.png 150w, https://bpcustomdev.com/wp-content/uploads/2023/10/Boost-Your-Blogs-Performance-with-These-Essential-SEO-Plugins-370x370.png 370w" sizes="(max-width: 80px) 100vw, 80px" />							</div>
+						</div>
+					</a>
+									</div>
+			</div> <!-- .reign-posts-nav -->
+			
+<div id="comments" class="comments-area">
+
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/backup-migration-plugins/#respond" style="display:none;" data-wpel-link="internal">Cancel reply</a></small></h3><form action="https://bpcustomdev.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea placeholder="Comment *" id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input placeholder="Name *" id="author" name="author" type="text" value="" size="30" maxlength="245" required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input placeholder="Email *" id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input placeholder="Website" id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='9061' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="e85c2f5b57" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="9"/><script type="rocketlazyloadscript">document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	<p class="akismet_comment_form_privacy_notice">This site uses Akismet to reduce spam. <a href="https://akismet.com/privacy/" target="_blank" rel="nofollow noopener external noreferrer" data-wpel-link="external">Learn how your comment data is processed</a>.</p>
+</div><!-- #comments -->
+	</div>
+
+	<aside id="reign-sidebar-right" class="widget-area default" role="complementary">
+		<div class="widget-area-inner">
+			
+		<section id="recent-posts-2" class="widget widget_recent_entries">
+		<h4 class="widget-title"><span>Recent Posts</span></h4>
+		<ul>
+											<li>
+					<a href="https://bpcustomdev.com/mastering-content-output-tools/" data-wpel-link="internal">Mastering Content &#038; Output Tools: Strategies for Excellence</a>
+									</li>
+											<li>
+					<a href="https://bpcustomdev.com/performance-with-essential-performance-plugin/" data-wpel-link="internal">Optimize Your Website&#8217;s Performance with These Essential Performance Plugins</a>
+									</li>
+											<li>
+					<a href="https://bpcustomdev.com/elementor-addons/" data-wpel-link="internal">Elementor Addons: Elevate Your Website&#8217;s Performance with These Top Extensions</a>
+									</li>
+											<li>
+					<a href="https://bpcustomdev.com/top-hosting-services/" data-wpel-link="internal">Top Hosting Services: Finding the Perfect Platform for Your Website</a>
+									</li>
+											<li>
+					<a href="https://bpcustomdev.com/leveraging-ecommerce-tools-for-success/" data-wpel-link="internal">Optimizing Your Business: Leveraging eCommerce Tools for Success</a>
+									</li>
+					</ul>
+
+		</section><section id="media_image-2" class="widget widget_media_image"><h4 class="widget-title"><span>WordPress LMS Theme</span></h4><a href="https://bpcustomdev.com/learndash-theme-2/" target="_blank" rel="noopener" data-wpel-link="internal"><img width="1024" height="1024" src="https://bpcustomdev.com/wp-content/uploads/2023/07/LearnDash-Theme-1024x1024.jpg" class="image wp-image-8959  attachment-large size-large" alt="" decoding="async" style="max-width: 100%; height: auto;" title="WordPress LMS Theme" loading="lazy" srcset="https://bpcustomdev.com/wp-content/uploads/2023/07/LearnDash-Theme-1024x1024.jpg 1024w, https://bpcustomdev.com/wp-content/uploads/2023/07/LearnDash-Theme-300x300.jpg 300w, https://bpcustomdev.com/wp-content/uploads/2023/07/LearnDash-Theme-150x150.jpg 150w, https://bpcustomdev.com/wp-content/uploads/2023/07/LearnDash-Theme-675x675.jpg 675w, https://bpcustomdev.com/wp-content/uploads/2023/07/LearnDash-Theme-370x370.jpg 370w, https://bpcustomdev.com/wp-content/uploads/2023/07/LearnDash-Theme-500x500.jpg 500w, https://bpcustomdev.com/wp-content/uploads/2023/07/LearnDash-Theme-800x800.jpg 800w, https://bpcustomdev.com/wp-content/uploads/2023/07/LearnDash-Theme.jpg 1080w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></section><section id="categories-2" class="widget widget_categories"><h4 class="widget-title"><span>Categories</span></h4>
+			<ul>
+					<li class="cat-item cat-item-17"><a href="https://bpcustomdev.com/category/buddypress/" data-wpel-link="internal">BuddyPress</a>
+</li>
+	<li class="cat-item cat-item-393"><a href="https://bpcustomdev.com/category/buddypress-plugins/" data-wpel-link="internal">BuddyPress Plugins</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="https://bpcustomdev.com/category/buddypress-themes/" data-wpel-link="internal">BuddyPress Themes</a>
+</li>
+	<li class="cat-item cat-item-391"><a href="https://bpcustomdev.com/category/buddypress-tutorials/" data-wpel-link="internal">BuddyPress Tutorials</a>
+</li>
+	<li class="cat-item cat-item-1682"><a href="https://bpcustomdev.com/category/digital-marketing/" data-wpel-link="internal">Digital Marketing</a>
+</li>
+	<li class="cat-item cat-item-113"><a href="https://bpcustomdev.com/category/ecommerce-marketing/" data-wpel-link="internal">Ecommerce Marketing</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="https://bpcustomdev.com/category/learndash/" data-wpel-link="internal">LearnDash</a>
+</li>
+	<li class="cat-item cat-item-392"><a href="https://bpcustomdev.com/category/online-communities/" data-wpel-link="internal">Online Communities</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="https://bpcustomdev.com/category/plugins/" data-wpel-link="internal">Plugins</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://bpcustomdev.com/category/web-designing/" data-wpel-link="internal">Web Designing</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="https://bpcustomdev.com/category/wordpress/" data-wpel-link="internal">WordPress</a>
+</li>
+			</ul>
+
+			</section>		</div>
+	</aside>
+	
+</div></div></div><!-- #content -->
+		<div data-elementor-type="footer" data-elementor-id="8912" class="elementor elementor-8912 elementor-location-footer" data-elementor-post-type="elementor_library">
+								<section class="elementor-section elementor-top-section elementor-element elementor-element-58be45dc elementor-reverse-mobile elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="58be45dc" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+						<div class="elementor-container elementor-column-gap-wider">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-2b80f9b9 elementor-invisible" data-id="2b80f9b9" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:300}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7e86c5da elementor-widget elementor-widget-heading" data-id="7e86c5da" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Our Themes</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-463a493f elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="463a493f" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://wbcomdesigns.com/support/" data-wpel-link="external" rel="external noopener noreferrer">
+
+											<span class="elementor-icon-list-text">Help Center</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.facebook.com/groups/wbcomdesigns" data-wpel-link="external" rel="external noopener noreferrer">
+
+											<span class="elementor-icon-list-text">Community</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.facebook.com/groups/wbcomdesigns" data-wpel-link="external" rel="external noopener noreferrer">
+
+											<span class="elementor-icon-list-text">Forums</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://wbcomdesigns.com/blog-updates/" data-wpel-link="external" rel="external noopener noreferrer">
+
+											<span class="elementor-icon-list-text">Blog</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-556ce8c elementor-invisible" data-id="556ce8c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:300}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f9557ae elementor-widget elementor-widget-heading" data-id="f9557ae" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Useful Link</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1af23c0c elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="1af23c0c" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://wbcomdesigns.com/" data-wpel-link="external" rel="external noopener noreferrer">
+
+											<span class="elementor-icon-list-text">Home</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://wbcomdesigns.com/about-us/" data-wpel-link="external" rel="external noopener noreferrer">
+
+											<span class="elementor-icon-list-text">About</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://wbcomdesigns.com/our-services/" data-wpel-link="external" rel="external noopener noreferrer">
+
+											<span class="elementor-icon-list-text">Services</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://wbcomdesigns.com/plugins/" data-wpel-link="external" rel="external noopener noreferrer">
+
+											<span class="elementor-icon-list-text">Work</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://wbcomdesigns.com/contact/" data-wpel-link="external" rel="external noopener noreferrer">
+
+											<span class="elementor-icon-list-text">Contact</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-fba673f elementor-invisible" data-id="fba673f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:200}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2bf764cd elementor-widget elementor-widget-heading" data-id="2bf764cd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Follow Us</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-36e5ed51 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="36e5ed51" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://www.facebook.com/wbcomdesignscommunity/" data-wpel-link="external" rel="external noopener noreferrer">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-facebook-f"></i>						</span>
+										<span class="elementor-icon-list-text">wbcomdesignscommunity</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://twitter.com/wbcomdesigns" data-wpel-link="external" rel="external noopener noreferrer">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-twitter"></i>						</span>
+										<span class="elementor-icon-list-text">@wbcomdesigns</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.instagram.com/wbcomdesigns/" data-wpel-link="external" rel="external noopener noreferrer">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-instagram"></i>						</span>
+										<span class="elementor-icon-list-text">wbcomdesigns</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://www.linkedin.com/company/wbcom-designs/" data-wpel-link="external" rel="external noopener noreferrer">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-linkedin-in"></i>						</span>
+										<span class="elementor-icon-list-text">wbcomdesigns</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-766b289d elementor-invisible" data-id="766b289d" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:100}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6265385a elementor-widget elementor-widget-heading" data-id="6265385a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Contact Us</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1c0a0a97 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="1c0a0a97" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://wbcomdesigns.com" data-wpel-link="external" rel="external noopener noreferrer">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-map-marker-alt"></i>						</span>
+										<span class="elementor-icon-list-text">B2-21 Gomti Nagar<br>Lucknow, UP<br>India. P.O 226010</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="far fa-envelope-open"></i>						</span>
+										<span class="elementor-icon-list-text">support@wbcomdesigns.com</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+		</div><!-- #page -->
+
+<link rel='stylesheet' id='e-animations-css' href='https://bpcustomdev.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.16.6' type='text/css' media='all' />
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-content/plugins/filterable-portfolio/assets/js/frontend.js?ver=1.6.3' id='filterable-portfolio-js'></script>
+<script type="rocketlazyloadscript" id="rocket-browser-checker-js-after" data-rocket-type="text/javascript">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/bpcustomdev.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" id="rocket-preload-links-js-after" data-rocket-type="text/javascript">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-content/themes/reign-theme/assets/js/infinite-scroll.pkgd.min.js?ver=1698216134' id='reign-infinity-scroll-js-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-content/themes/reign-theme/assets/js/custom.js?ver=1698216134' id='reign-custom-nouveau-js-js'></script>
+<script type='text/javascript' id='wp-main-js-extra'>
+/* <![CDATA[ */
+var wp_main_js_obj = {"ajaxurl":"https:\/\/bpcustomdev.com\/wp-admin\/admin-ajax.php","reign_more_menu_enable":"","reign_ele_topbar":"","logged_in":"","topbar_mobile_disabled":"1","reign_rtl":"","single_activity_page":"","append_text":"[Read more]","excerpt_length":"200","theme_package_id":"legacy","reign_enable_scrollup":"","reign_scrollup_style":"style1","rg_blog_category_color":"cat_color_random"};
+var wp_main_param = {"activity_post_popup":"off"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-content/themes/reign-theme/assets/js/main.min.js?ver=1698216134' id='wp-main-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-includes/js/comment-reply.min.js?ver=6.3.2' id='comment-reply-js'></script>
+<script type="rocketlazyloadscript" defer data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1694640333' id='akismet-frontend-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.16.2' id='elementor-pro-webpack-runtime-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.16.6' id='elementor-webpack-runtime-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.16.6' id='elementor-frontend-modules-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1' id='wp-hooks-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef' id='wp-i18n-js'></script>
+<script type="rocketlazyloadscript" id="wp-i18n-js-after" data-rocket-type="text/javascript">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type="rocketlazyloadscript" id="elementor-pro-frontend-js-before" data-rocket-type="text/javascript">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/bpcustomdev.com\/wp-admin\/admin-ajax.php","nonce":"535c3c5307","urls":{"assets":"https:\/\/bpcustomdev.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/bpcustomdev.com\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/bpcustomdev.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.16.2' id='elementor-pro-frontend-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2' id='jquery-ui-core-js'></script>
+<script type="rocketlazyloadscript" id="elementor-frontend-js-before" data-rocket-type="text/javascript">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.16.6","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"landing-pages":true,"page-transitions":true,"notes":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/bpcustomdev.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":9061,"title":"Backup%20Migration%20Plugins%3A%20Simplifying%20WP%20Data%20Transfers%201","excerpt":"","featuredImage":"https:\/\/bpcustomdev.com\/wp-content\/uploads\/2023\/10\/Backup-Migration-Plugins-1024x576.jpg"}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.16.6' id='elementor-frontend-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://bpcustomdev.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.16.2' id='pro-elements-handlers-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript"></script>		<div class="reign-module reign-window-popup reign-close-popup" id="registration-login-form-popup" tabindex="-1" role="dialog"  data-id="registration-login-form-popup">
+			<div class="modal-dialog window-popup registration-login-form-popup" role="document" >
+				<div class="modal-content">
+					<div class="close icon-close reign-close-popup" id="reign-close-popup" data-id='registration-login-form-popup'>
+						<i class="far fa-times" id="reign-close-popup" data-id='registration-login-form-popup'></i>
+					</div>
+					<div class="modal-body no-padding ">
+							<div class="registration-login-form mb-0 formContainer selected-forms-login selected-forms-single selected-forms-single">
+	<!-- Nav tabs -->
+	
+	<div class="tab-content">
+					<div class="tab-pane active" id="login-panel-1829" role="tabpanel">
+				<div class="title h6">Login to your Account</div>
+
+<form data-handler="reign-signin-form" class="content reign-sign-form-login reign-sign-form" method="POST" action="https://bpcustomdev.com/wp-login.php">
+
+	<input class="simple-input" type="hidden" value="f5f9dd3d06" name="_ajax_nonce" />
+
+	<input class="simple-input" type="hidden" name="redirect_to" value="https://bpcustomdev.com/backup-migration-plugins"/>
+	<input class="simple-input" type="hidden" name="redirect" value="current"/>
+
+	
+	<ul class="reign-sign-form-messages"></ul>
+
+	<div class="row">
+		<div class="col">
+			<div class="form-group label-floating">
+				<label class="control-label">Username</label>
+				<input class="form-control simple-input" name="log" type="text">
+			</div>
+			<div class="form-group label-floating password-eye-wrap">
+				<label class="control-label">Your Password</label>
+				<a href="#" class="fa fa-fw fa-eye password-eye" tabindex="-1"></a>
+				<input class="form-control simple-input" name="pwd"  type="password">
+			</div>
+
+			<div class="remember">
+
+				<div class="checkbox">
+					<label>
+						<input name="rememberme" value="forever" type="checkbox">
+						Remember Me					</label>
+				</div>
+
+				
+				
+				<a href="https://bpcustomdev.com/wp-login.php?action=lostpassword" class="forgot" data-wpel-link="internal">Forgot my Password</a>
+
+			</div>
+
+			
+			<button type="submit" class="btn full-width registration-login-submit">
+				<span>Login</span>
+				<span class="icon-loader"></span>
+			</button>
+
+			
+					</div>
+	</div>
+</form>
+			</div>
+		
+			</div>
+</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+<script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode-wpr",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1698216134 -->
