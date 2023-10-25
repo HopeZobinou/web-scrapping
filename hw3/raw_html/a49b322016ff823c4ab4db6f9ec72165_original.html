@@ -1,0 +1,1090 @@
+
+<!DOCTYPE html>
+<html lang="en-US" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#674399"/>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://woocommerce.com/xmlrpc.php">
+<script src="https://use.typekit.net/ivy2obh.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<script>window._wca = window._wca || [];</script>
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v20.3 (Yoast SEO v20.3) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>High-Performance Order Storage - WooCommerce</title>
+	<link rel="canonical" href="https://woocommerce.com/document/high-performance-order-storage/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="High-Performance Order Storage - WooCommerce" />
+	<meta property="og:description" content="High-Performance Order Storage (HPOS)&nbsp;also previously known as “Custom Order Tables” is a solution that provides an easy-to-understand and solid database structure – specifically designed for eCommerce needs. It uses the WooCommerce CRUD design to store order data in custom tables – optimized for WooCommerce queries with minimal impact on the store’s performance.&nbsp; In January 2022, [&hellip;]" />
+	<meta property="og:url" content="https://woocommerce.com/document/high-performance-order-storage/" />
+	<meta property="og:site_name" content="WooCommerce" />
+	<meta property="article:publisher" content="https://www.facebook.com/woocommerce" />
+	<meta property="article:modified_time" content="2023-10-05T22:27:45+00:00" />
+	<meta property="og:image" content="https://woocommerce.com/wp-content/uploads/2023/10/New-Project-4.jpg?w=650" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@woocommerce" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="9 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://woocommerce.com/document/high-performance-order-storage/","url":"https://woocommerce.com/document/high-performance-order-storage/","name":"High-Performance Order Storage - WooCommerce","isPartOf":{"@id":"https://woocommerce.com/#website"},"primaryImageOfPage":{"@id":"https://woocommerce.com/document/high-performance-order-storage/#primaryimage"},"image":{"@id":"https://woocommerce.com/document/high-performance-order-storage/#primaryimage"},"thumbnailUrl":"https://woocommerce.com/wp-content/uploads/2023/10/New-Project-4.jpg?w=650","datePublished":"2022-10-11T11:58:36+00:00","dateModified":"2023-10-05T22:27:45+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://woocommerce.com/document/high-performance-order-storage/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://woocommerce.com/document/high-performance-order-storage/#primaryimage","url":"https://woocommerce.com/wp-content/uploads/2023/10/New-Project-4.jpg","contentUrl":"https://woocommerce.com/wp-content/uploads/2023/10/New-Project-4.jpg","width":806,"height":450,"caption":"Setting: Enable compatibility mode (synchronizes orders to the posts table)"},{"@type":"WebSite","@id":"https://woocommerce.com/#website","url":"https://woocommerce.com/","name":"WooCommerce","description":"The most customizable ecommerce platform for building your online business. Get started today for free.","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://woocommerce.com/search/?q={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//widgets.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="WooCommerce &raquo; Feed" href="https://woocommerce.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="WooCommerce &raquo; Comments Feed" href="https://woocommerce.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="WooCommerce &raquo; High-Performance Order Storage Comments Feed" href="https://woocommerce.com/document/high-performance-order-storage/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/woocommerce.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='all-css-0' href='https://woocommerce.com/_static/??-eJydkNtOAzEMRH+I1CqIqjwgviVxTImaxJGddNm/x+xqEReJ2+t45ow8MDWHXDvVDi2PU6oKEzNyKSRITkdQlNR6YrtcqEaW9wb4YDCUEISRcoRUIz3vUPUKfuhofi52U4hJO4xGLmTGs9GeCM88+hslVcwjkoIJq3txupyCeJlB+5xpV1L9JmG1jevS9xv7WkAxdXv8a+DzX0tmQitxm4ReOhSrnF3wxjoNL95S/wMJLbvZuNE14Tiw619BOlpj6e6RpbxSo9uUyLiOvyEfyv3+cHe8vjnsb48vzo/Tog==' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<style id='wp-parsely-recommendations-style-inline-css'>
+.parsely-recommendations-list-title{font-size:1.2em}.parsely-recommendations-list{list-style:none;padding:unset}.parsely-recommendations-cardbody{overflow:hidden;padding:.8em;text-overflow:ellipsis;white-space:nowrap}.parsely-recommendations-cardmedia{padding:.8em .8em 0}
+
+</style>
+<link rel='stylesheet' id='all-css-2' href='https://woocommerce.com/_static/??-eJydkcFuAyEMRH+oBKVVo+QQ9VscmACJgRX2drt/X7an7qUSPfgw8ryx5LHLZFJxPHuIfYjN8InAyCi6ExPTimYYgdx6yKkcnMiL/Qvvu996B7ladPNo7DuxS63WJ1F74+qeYonRhgB8TVwbzGfCMsLdQTo3yAgTa8ZEAUYhmnItiXgoQEDNRRNBvr+0v0hrG+Ln28amEkYoT0rdM3dTM/f2Y/bjAdSGINGtlkDcG13/dTamELmPwu+uf+Tr8XQ5v76dju/nb49zC4Q=' type='text/css' media='all' />
+<style id='elasticpress-facet-style-inline-css'>
+.widget_ep-facet input[type=search],.wp-block-elasticpress-facet input[type=search]{margin-bottom:1rem}.widget_ep-facet .searchable .inner,.wp-block-elasticpress-facet .searchable .inner{max-height:20em;overflow:scroll}.widget_ep-facet .term.hide,.wp-block-elasticpress-facet .term.hide{display:none}.widget_ep-facet .empty-term,.wp-block-elasticpress-facet .empty-term{opacity:.5;position:relative}.widget_ep-facet .empty-term:after,.wp-block-elasticpress-facet .empty-term:after{bottom:0;content:" ";display:block;left:0;position:absolute;right:0;top:0;width:100%;z-index:2}.widget_ep-facet .level-1,.wp-block-elasticpress-facet .level-1{padding-left:20px}.widget_ep-facet .level-2,.wp-block-elasticpress-facet .level-2{padding-left:40px}.widget_ep-facet .level-3,.wp-block-elasticpress-facet .level-3{padding-left:60px}.widget_ep-facet .level-4,.wp-block-elasticpress-facet .level-4{padding-left:5pc}.widget_ep-facet .level-5,.wp-block-elasticpress-facet .level-5{padding-left:75pt}.widget_ep-facet input[disabled],.wp-block-elasticpress-facet input[disabled]{cursor:pointer;opacity:1}.widget_ep-facet .term a,.wp-block-elasticpress-facet .term a{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative}.widget_ep-facet .term a:hover .ep-checkbox,.wp-block-elasticpress-facet .term a:hover .ep-checkbox{background-color:#ccc}.ep-checkbox{-webkit-box-align:center;-ms-flex-align:center;-ms-flex-negative:0;-webkit-box-pack:center;-ms-flex-pack:center;align-items:center;background-color:#eee;display:-webkit-box;display:-ms-flexbox;display:flex;flex-shrink:0;height:1em;justify-content:center;margin-right:.25em;width:1em}.ep-checkbox:after{border:solid #fff;border-width:0 .125em .125em 0;content:"";display:none;height:.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);width:.25em}.ep-checkbox.checked{background-color:#5e5e5e}.ep-checkbox.checked:after{display:block}
+
+</style>
+<link rel='stylesheet' id='all-css-4' href='https://woocommerce.com/_static/??-eJx1jtEKwjAMRX/IGKY45oP4LTULWmyT0mRM/95Zmfjia3Lu4eBcgFScxTFPUNJ0jWJoHCrdkFMwj1Qqm4Hww3GM5khmWJef8whFzQ0uSekO5s/Ets1RtguywR/3KiZtqH1EbQDrDbq/s0bPRJq/iRRqyyGd5B1SWXgOCUSXYsamXFPO+dT1x2G377vD8AI92FrZ' type='text/css' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--woo-purple-90: #271b3d;--wp--preset--color--woo-purple-60: #674399;--wp--preset--color--woo-purple-40: #966ccf;--wp--preset--color--woo-green: #73ae39;--wp--preset--color--woo-gray-background: #e6e6e6;--wp--preset--color--woo-gray-light: #f7f7f7;--wp--preset--color--woo-text-gray: #101517;--wp--preset--color--woo-white: #ffffff;--wp--preset--color--woo-black: #000000;--wp--preset--color--woo-lilac: #96588a;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--purple-header-gradient: linear-gradient(92.77deg, #533582 1.76%, #8b65c7 100%);--wp--preset--font-size--small: 14px;--wp--preset--font-size--medium: 16px;--wp--preset--font-size--large: clamp(18px, 1.125rem + ((1vw - 3.2px) * 0.234), 21px);--wp--preset--font-size--x-large: clamp(32px, 2rem + ((1vw - 3.2px) * 0.313), 36px);--wp--preset--font-size--x-x-x-large: clamp(52px, 3.25rem + ((1vw - 3.2px) * 1.563), 72px);--wp--preset--font-size--x-x-large: clamp(42px, 2.625rem + ((1vw - 3.2px) * 0.938), 54px);--wp--preset--font-size--paragraph-medium: clamp(16px, 1rem + ((1vw - 3.2px) * 0.156), 18px);--wp--preset--font-size--x-small: 12px;--wp--preset--font-family--system-fonts: 'Inter var',-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;;--wp--preset--font-family--proxima-nova: proxima-nova, var( --wp--preset--font-family--system-fonts, sans-serif );--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);--wp--preset--shadow--card: 0px 2px 8px rgba(0,0,0,.16);--wp--preset--shadow--card-hover: 0px 2px 24px rgba(0,0,0,.16);--wp--preset--shadow--menu: 4px 8px 16px rgba(0, 0, 0, 0.16);;--wp--custom--spacing-mobile: 24px;--wp--custom--spacing-desktop: 64px;--wp--custom--blog-post-width: 764px;--wp--custom--blog-archive-width: 1128px;}body { margin: 0;--wp--style--global--content-size: 1500px;--wp--style--global--wide-size: 1500px; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}body{background-color: #ffffff;color: var(--wp--preset--color--woo-text-gray);font-family: var(--wp--preset--font-family--system-fonts);font-size: var(--wp--preset--font-size--medium);padding-top: 0;padding-right: 0;padding-bottom: 0;padding-left: 0;}a:where(:not(.wp-element-button)){text-decoration: underline;}.wp-element-button, .wp-block-button__link{background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-woo-purple-90-color{color: var(--wp--preset--color--woo-purple-90) !important;}.has-woo-purple-60-color{color: var(--wp--preset--color--woo-purple-60) !important;}.has-woo-purple-40-color{color: var(--wp--preset--color--woo-purple-40) !important;}.has-woo-green-color{color: var(--wp--preset--color--woo-green) !important;}.has-woo-gray-background-color{color: var(--wp--preset--color--woo-gray-background) !important;}.has-woo-gray-light-color{color: var(--wp--preset--color--woo-gray-light) !important;}.has-woo-text-gray-color{color: var(--wp--preset--color--woo-text-gray) !important;}.has-woo-white-color{color: var(--wp--preset--color--woo-white) !important;}.has-woo-black-color{color: var(--wp--preset--color--woo-black) !important;}.has-woo-lilac-color{color: var(--wp--preset--color--woo-lilac) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-woo-purple-90-background-color{background-color: var(--wp--preset--color--woo-purple-90) !important;}.has-woo-purple-60-background-color{background-color: var(--wp--preset--color--woo-purple-60) !important;}.has-woo-purple-40-background-color{background-color: var(--wp--preset--color--woo-purple-40) !important;}.has-woo-green-background-color{background-color: var(--wp--preset--color--woo-green) !important;}.has-woo-gray-background-background-color{background-color: var(--wp--preset--color--woo-gray-background) !important;}.has-woo-gray-light-background-color{background-color: var(--wp--preset--color--woo-gray-light) !important;}.has-woo-text-gray-background-color{background-color: var(--wp--preset--color--woo-text-gray) !important;}.has-woo-white-background-color{background-color: var(--wp--preset--color--woo-white) !important;}.has-woo-black-background-color{background-color: var(--wp--preset--color--woo-black) !important;}.has-woo-lilac-background-color{background-color: var(--wp--preset--color--woo-lilac) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-woo-purple-90-border-color{border-color: var(--wp--preset--color--woo-purple-90) !important;}.has-woo-purple-60-border-color{border-color: var(--wp--preset--color--woo-purple-60) !important;}.has-woo-purple-40-border-color{border-color: var(--wp--preset--color--woo-purple-40) !important;}.has-woo-green-border-color{border-color: var(--wp--preset--color--woo-green) !important;}.has-woo-gray-background-border-color{border-color: var(--wp--preset--color--woo-gray-background) !important;}.has-woo-gray-light-border-color{border-color: var(--wp--preset--color--woo-gray-light) !important;}.has-woo-text-gray-border-color{border-color: var(--wp--preset--color--woo-text-gray) !important;}.has-woo-white-border-color{border-color: var(--wp--preset--color--woo-white) !important;}.has-woo-black-border-color{border-color: var(--wp--preset--color--woo-black) !important;}.has-woo-lilac-border-color{border-color: var(--wp--preset--color--woo-lilac) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-purple-header-gradient-gradient-background{background: var(--wp--preset--gradient--purple-header-gradient) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-x-x-x-large-font-size{font-size: var(--wp--preset--font-size--x-x-x-large) !important;}.has-x-x-large-font-size{font-size: var(--wp--preset--font-size--x-x-large) !important;}.has-paragraph-medium-font-size{font-size: var(--wp--preset--font-size--paragraph-medium) !important;}.has-x-small-font-size{font-size: var(--wp--preset--font-size--x-small) !important;}.has-system-fonts-font-family{font-family: var(--wp--preset--font-family--system-fonts) !important;}.has-proxima-nova-font-family{font-family: var(--wp--preset--font-family--proxima-nova) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: clamp(0.984em, 0.984rem + ((1vw - 0.2em) * 0.645), 1.5em);line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='all-css-6' href='https://woocommerce.com/_static/??-eJx1jUsOwjAMRC+EaxVEVRaIswTboIh8qtglyu0JqOxg9zR6M4N1AcrJJBkuYb37pEjB0wMsg1URg2vrzK5Fx4JOVawrqqjWgujQcYc/VtirYSXKEbZoiD791TezZF7J4CmJc9Hv3a18bH63L/E8Tqd5f5jG4/wCT+NHWw==' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='all-css-8' href='https://woocommerce.com/_static/??-eJytkt1uwyAMhV9oFKXTou5i2rOkxmuyBIywabS3n0ubKv2Rmk67QcL2+Tg2tmM0QEEwiI1D3nWB7UgE5D0mQBMTuQxi9hgcJbYNMwpbYC2DuDdfqYidYfkZkFeaeLELmQlLKLhGOgoX7Ak7192wfTYT/hslNtCbar2qrVe8erFD1+tZjN1opUWPxZZ1HYvd5uC0zHfhYekI6kizPlLQPC8SxWanV0eQtWEpDT/x2GlijxTLWj0itwNBv8z7TGBiI4Ip3BeeP3tu2hxHe7U6hVgShltKAuSe3J472PPWQIvQU5apy//i/mUbD4BT4KD59B9V/b5Zv9bV2+YXB/tTYg==' type='text/css' media='all' />
+<script id="wccom-feature-flags-js-before" type="text/javascript">
+var wccomFeatureFlags = {'csat_emails' : 1,'csat_scores' : 0,'wooexperts' : 1,'nux_free_trial' : 1};
+</script>
+<script id='WCPAY_ASSETS-js-extra'>
+var wcpayAssets = {"url":"https:\/\/woocommerce.com\/wp-content\/plugins\/woocommerce-payments\/dist\/"};
+</script>
+<script src='https://woocommerce.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1' id='wp-hooks-js'></script>
+<script src='https://stats.wp.com/w.js?ver=202343' id='woo-tracks-js'></script>
+<script id='newsletter-signup-block-script-js-extra'>
+var newsletterSignupBlock = {"nonce":"f59ca536fc"};
+</script>
+<script src='https://woocommerce.com/wp-content/themes/woo/dist/blocks/newsletter-signup.min.js?ver=2023-10-25_09:37' id='newsletter-signup-block-script-js'></script>
+<script id='slack-signup-block-script-js-extra'>
+var slackSignupBlock = {"nonce":"f59ca536fc"};
+</script>
+<script src='https://woocommerce.com/wp-content/themes/woo/dist/blocks/slack-signup.min.js?ver=2023-10-25_09:37' id='slack-signup-block-script-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.19' id='lodash-js'></script>
+<script id="lodash-js-after" type="text/javascript">
+window.lodash = _.noConflict();
+</script>
+<script src='https://woocommerce.com/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef' id='wp-i18n-js'></script>
+<script id="wp-i18n-js-after" type="text/javascript">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script src='https://woocommerce.com/wp-includes/js/dist/url.min.js?ver=8814d23f2d64864d280d' id='wp-url-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/api-fetch.min.js?ver=0fa4dabf8bf2c7adf21a' id='wp-api-fetch-js'></script>
+<script id="wp-api-fetch-js-after" type="text/javascript">
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://woocommerce.com/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "f59ca536fc" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "https://woocommerce.com/wp-admin/admin-ajax.php?action=rest-nonce";
+</script>
+<script src='https://woocommerce.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+<script id='jquery-blockui-js-extra'>
+var jquery_blockui_params = {"is_admin":""};
+</script>
+<script src='https://woocommerce.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.8.2.0' id='jquery-blockui-js'></script>
+<script id='js-cookie-js-extra'>
+var js_cookie_params = {"is_admin":""};
+</script>
+<script src='https://woocommerce.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.8.2.0' id='js-cookie-js'></script>
+<script id='woocommerce-js-extra'>
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","is_admin":""};
+</script>
+<script src='https://woocommerce.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=8.2.0' id='woocommerce-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/underscore.min.js?ver=1.13.4' id='underscore-js'></script>
+<script id='woothemes-tracks-events-js-extra'>
+var wteVars = {"ajaxurl":"https:\/\/woocommerce.com\/wp-admin\/admin-ajax.php","authenticated":""};
+</script>
+<script src='https://woocommerce.com/wp-content/plugins/woothemes-tracks/js/tracks-events.js?ver=2023-10-25_09:37' id='woothemes-tracks-events-js'></script>
+<script id='wccom-plugins-js-extra'>
+var WooCommerceAbTestConfig = {"config":{"aw_abandoned_cart_test_2":{"datestamp":"20200511","logged_out":true,"suspended":false,"allocations":{"email_sent":1,"no_email_sent":1}},"aw_smart_offers_purchased":{"datestamp":"20200826","logged_out":true,"suspended":false,"allocations":{"email_sent":1,"no_email_sent":1}},"aw_smart_offers_30_day_no_purchase":{"datestamp":"20200826","logged_out":true,"suspended":false,"allocations":{"email_sent":1,"no_email_sent":1}},"ratings_and_reviews_click_to_rate":{"datestamp":"20210514","logged_out":false,"suspended":false,"allocations":{"one_click_rate":1,"standard_rate":1}}}};
+var wccomGTMEE = {"productView":"","cartView":"","orderReceivedView":"","currencyCode":"USD","cart":[]};
+</script>
+<script src='https://woocommerce.com/wp-content/plugins/dist/wccom-plugins.min.js?ver=2023-10-25_09:37' id='wccom-plugins-js'></script>
+<script id='wcpv-frontend-scripts-js-extra'>
+var wcpv_registration_local = {"ajaxurl":"https:\/\/woocommerce.com\/wp-admin\/admin-ajax.php","ajaxRegistrationNonce":"0950fda8b0","success":"Your request has been submitted.  You will be contacted shortly.","found_single_error":"We found one error in this form:","found_multiple_errors":"We found the following errors in this form:"};
+</script>
+<script src='https://woocommerce.com/wp-content/plugins/woocommerce-product-vendors/assets/js/wcpv-frontend-scripts.min.js?ver=2.1.68' id='wcpv-frontend-scripts-js'></script>
+<script id='wccom-zendesk-chat-js-extra'>
+var wccomZendeskChat = {"enabled":"1","supportEnabled":"1","days":["monday","tuesday","wednesday","thursday","friday"],"startTime":"14:00","endTime":"22:00","documents":[0],"documentCategories":[],"pages":[0,"home-page"],"products":[0],"objectID":"18734001011382","objectType":"documentation","isHomePage":"","supportPages":[922222],"snippetId":"ze-snippet","snippetURL":"https:\/\/static.zdassets.com\/ekr\/snippet.js?key=a286e577-c6e9-4901-bf0b-d8af2a4fb94a","supportSnippetURL":"https:\/\/static.zdassets.com\/ekr\/snippet.js?key=787901b4-7b1e-4441-8c25-042e50f2367e","zendeskdJwt":null,"wpcomAccessToken":""};
+</script>
+<script src='https://woocommerce.com/wp-content/plugins/dist/wccom-plugins/zendesk-chat.min.js?ver=1.0.6' id='wccom-zendesk-chat-js'></script>
+<script defer src='https://stats.wp.com/s-202343.js' id='woocommerce-analytics-js'></script>
+<script id='bundlejs-js-extra'>
+var wccomSupportedLocales = {"en_US":{"name":"English (United States)","slug":"en-us"},"es_ES":{"name":"Espa\u00f1ol","slug":"es-es"},"fr_FR":{"name":"Fran\u00e7ais","slug":"fr-fr"},"pt_BR":{"name":"Portugu\u00eas (Brasil)","slug":"pt-br"},"it_IT":{"name":"Italiano","slug":"it-it"},"de_DE":{"name":"Deutsch","slug":"de-de"},"de_AT":{"name":"Deutsch (\u00d6sterreich)","slug":"de-at"},"nl_BE":{"name":"Nederlands (Belgi\u00eb)","slug":"nl-be"},"fr_BE":{"name":"Fran\u00e7ais (Belgique)","slug":"fr-be"},"nl_NL":{"name":"Nederlands","slug":"nl-nl"},"pl_PL":{"name":"Polski","slug":"pl-pl"},"pt_PT":{"name":"Portugu\u00eas","slug":"pt-pt"},"de_CH":{"name":"Deutsch (Schweiz)","slug":"de-ch"},"fr_CH":{"name":"Fran\u00e7ais (Suisse)","slug":"fr-ch"},"it_CH":{"name":"Italiano (Svizzera)","slug":"it-ch"},"zh_SG":{"name":"\u4e2d\u6587 (\u65b0\u52a0\u5761)","slug":"zh-sg"},"zh_HK":{"name":"\u4e2d\u6587 (\u9999\u6e2f)","slug":"zh-hk"}};
+var wccomUserPreference = "{\"language\":[],\"currency\":{\"enabled_currencies\":{\"USD\":{\"code\":\"USD\",\"symbol\":\"$\",\"name\":\"United States (US) dollar\"},\"AUD\":{\"code\":\"AUD\",\"symbol\":\"$\",\"name\":\"Australian dollar\"},\"CAD\":{\"code\":\"CAD\",\"symbol\":\"$\",\"name\":\"Canadian dollar\"},\"EUR\":{\"code\":\"EUR\",\"symbol\":\"\\u20ac\",\"name\":\"Euro\"},\"GBP\":{\"code\":\"GBP\",\"symbol\":\"\\u00a3\",\"name\":\"Pound sterling\"}},\"default_currency\":\"USD\",\"currency_symbol\":\"$\"}}";
+var wccomHeader = "{\"inAppPurchase\":false,\"siteBackUrl\":\"\",\"isNux\":false,\"cartValue\":0,\"cartUrl\":\"https:\\\/\\\/woocommerce.com\\\/cart\\\/\",\"isUserLoggedIn\":false,\"currentUser\":{\"firstName\":false,\"lastName\":false,\"email\":false},\"isCart\":false,\"isCheckout\":false,\"blogInfo\":{\"url\":\"https:\\\/\\\/woocommerce.com\",\"description\":\"The most customizable ecommerce platform for building your online business. Get started today for free.\",\"name\":\"WooCommerce\"}}";
+var wccomSearchSettings = {"algolia":{"applicationID":"EWMLW36CPJ","apiKey":"5c96947060b5e467ba415d8300d18057","userIdHash":"","context":{"country":"us","language":"en_US","defaultLanguage":"en_US","role":"visitor","cart_item":[]}}};
+</script>
+<script src='https://woocommerce.com/wp-content/themes/woo/dist/bundle.min.js?ver=2023-10-25_09:37' id='bundlejs-js'></script>
+<link rel="https://api.w.org/" href="https://woocommerce.com/wp-json/" /><link rel="alternate" type="application/json" href="https://woocommerce.com/wp-json/wp/v2/documentation/18734001011382" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://woocommerce.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.3.2" />
+<meta name="generator" content="WooCommerce 8.2.0" />
+<link rel='shortlink' href='https://woocommerce.com/?p=18734001011382' />
+<link rel="alternate" type="application/json+oembed" href="https://woocommerce.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwoocommerce.com%2Fdocument%2Fhigh-performance-order-storage%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://woocommerce.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwoocommerce.com%2Fdocument%2Fhigh-performance-order-storage%2F&#038;format=xml" />
+<script>
+	var wccom = window.wccom || {};
+	wccom.explat = {
+		ajaxUrl: 'https://woocommerce.com/wp-admin/admin-ajax.php',
+		nonce: 'a992d397d6'
+	};
+</script>	<style>img#wpstats{display:none}</style>
+		<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebPage","headline":"High-Performance Order Storage","url":"https:\/\/woocommerce.com\/document\/high-performance-order-storage\/"}</script>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="alternate" hreflang="es_ES" href="https://woocommerce.com/es-es/document/high-performance-order-storage" /><link rel="alternate" hreflang="de_DE" href="https://woocommerce.com/de-de/document/high-performance-order-storage" /><link rel="alternate" hreflang="de_CH" href="https://woocommerce.com/de-ch/document/high-performance-order-storage" /><link rel="alternate" hreflang="de_AT" href="https://woocommerce.com/de-at/document/high-performance-order-storage" /><link rel="alternate" hreflang="fr_FR" href="https://woocommerce.com/fr-fr/document/high-performance-order-storage" /><link rel="alternate" hreflang="fr_BE" href="https://woocommerce.com/fr-be/document/high-performance-order-storage" /><link rel="alternate" hreflang="fr_CH" href="https://woocommerce.com/fr-ch/document/high-performance-order-storage" /><link rel="alternate" hreflang="it_IT" href="https://woocommerce.com/it-it/document/high-performance-order-storage" /><link rel="alternate" hreflang="it_CH" href="https://woocommerce.com/it-ch/document/high-performance-order-storage" /><link rel="alternate" hreflang="nl_NL" href="https://woocommerce.com/nl-nl/document/high-performance-order-storage" /><link rel="alternate" hreflang="nl_BE" href="https://woocommerce.com/nl-be/document/high-performance-order-storage" /><link rel="alternate" hreflang="pl_PL" href="https://woocommerce.com/pl-pl/document/high-performance-order-storage" /><link rel="alternate" hreflang="pt_PT" href="https://woocommerce.com/pt-pt/document/high-performance-order-storage" /><link rel="alternate" hreflang="pt_BR" href="https://woocommerce.com/pt-br/document/high-performance-order-storage" /><link rel="alternate" hreflang="zh_SG" href="https://woocommerce.com/zh-sg/document/high-performance-order-storage" /><link rel="alternate" hreflang="zh_HK" href="https://woocommerce.com/zh-hk/document/high-performance-order-storage" /><link rel="alternate" hreflang="x-default" href="https://woocommerce.com/document/high-performance-order-storage" /><link rel="icon" href="https://woocommerce.com/wp-content/uploads/2023/08/cropped-Woo_Favicon.png?w=32" sizes="32x32" />
+<link rel="icon" href="https://woocommerce.com/wp-content/uploads/2023/08/cropped-Woo_Favicon.png?w=192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://woocommerce.com/wp-content/uploads/2023/08/cropped-Woo_Favicon.png?w=180" />
+<meta name="msapplication-TileImage" content="https://woocommerce.com/wp-content/uploads/2023/08/cropped-Woo_Favicon.png?w=270" />
+		<style type="text/css" id="wp-custom-css">
+			/* Tweak for https://woocommerce.com/brand-and-logo-guidelines 21 Sept 2021 */
+
+.wccom-collapsible-list--light-border .wccom-collapsible-list__item-heading {
+    border-top: 1px solid #dcdcde;
+}
+
+.wccom-collapsible-list--bottom-border {
+    border-bottom: 1px solid #c3c4c7;
+}
+
+.wccom-collapsible-list--bottom-border.wccom-collapsible-list--light-border {
+    border-bottom: 1px solid #dcdcde;
+}
+
+.wccom-banners__top {
+	margin: 0 auto;
+	max-width: 1600px;
+}
+
+.single-documentation .wccom-single-doc-content .wccom-card__title-link {
+	text-decoration: none;
+}
+
+.wccom-product-single .is-style-checkbox li {
+    list-style-type: none!important;
+    padding-left: 10px;
+    position: relative;
+	  margin-bottom: 10px;	
+}
+
+.wccom-product-single .is-style-checkbox li:before {
+    background-color: #533582;
+    background-size: cover;
+    content: "";
+    display: inline-block;
+    height: 20px;
+    left: -20px;
+    -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjIwIiB2aWV3Qm94PSIwIDAgMjAgMjAiIHdpZHRoPSIyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjAgMTBjMCA1LjUyMjcyNzMtNC40NzcyNzI3IDEwLTEwIDEwLTUuNTIyNzI3MjcgMC0xMC00LjQ3NzI3MjctMTAtMTAgMC01LjUyMjcyNzI3IDQuNDc3MjcyNzMtMTAgMTAtMTAgNS41MjI3MjczIDAgMTAgNC40NzcyNzI3MyAxMCAxMHptLTUuMjgwOTA5MS00LjIyNzI3MjczYy4yMDEwMDk4LS4yMDgzMjczNy40OTM2NjM5LS4zMDA5OTc5Mi43Nzc5NDg5LS4yNDYzNDE4NHMuNTIxNzEyMy4yNDkyMzkwNS42MzExNDIuNTE3MjUwOTNjLjEzODE1MzQuMzI5NzUwNzMuMDYxNDQ3MS43MTA0MDEtLjE5MzYzNjMuOTYwOTA5MDlsLTYuODgwMDAwMDUgNi45NDQ1NDU0NWMtLjMwNTIyMzczLjMwNzY4ODQtLjc5MjQ0OTgzLjMzODE2NDQtMS4xMzM2MzYzNi4wNzA5MDkxbC0zLjc4NDU0NTQ1LTIuOTUxODE4MmMtLjI0MjY4MjI3LS4xOTEyMTE4LS4zNjYxNzk3Ny0uNDk2NDg0Ni0uMzI0NzEwMjItLjgwMjY0OTUuMDQxNDY5NTUtLjMwNjE2NDguMjQxNzI0ODUtLjU2NzU4NTgxLjUyNjUyODQtLjY4NzM1MDQ4LjI4NDU0NTQ1LS4xMTcyNzI3My42MDkwOTA5MS0uMDcyNzI3MjcuODUxODE4MTguMTE4MTgxODJsMy4xODE4MTgxOCAyLjQ4NDU0NTQ2eiIgZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4KCg==);
+    mask-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjIwIiB2aWV3Qm94PSIwIDAgMjAgMjAiIHdpZHRoPSIyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjAgMTBjMCA1LjUyMjcyNzMtNC40NzcyNzI3IDEwLTEwIDEwLTUuNTIyNzI3MjcgMC0xMC00LjQ3NzI3MjctMTAtMTAgMC01LjUyMjcyNzI3IDQuNDc3MjcyNzMtMTAgMTAtMTAgNS41MjI3MjczIDAgMTAgNC40NzcyNzI3MyAxMCAxMHptLTUuMjgwOTA5MS00LjIyNzI3MjczYy4yMDEwMDk4LS4yMDgzMjczNy40OTM2NjM5LS4zMDA5OTc5Mi43Nzc5NDg5LS4yNDYzNDE4NHMuNTIxNzEyMy4yNDkyMzkwNS42MzExNDIuNTE3MjUwOTNjLjEzODE1MzQuMzI5NzUwNzMuMDYxNDQ3MS43MTA0MDEtLjE5MzYzNjMuOTYwOTA5MDlsLTYuODgwMDAwMDUgNi45NDQ1NDU0NWMtLjMwNTIyMzczLjMwNzY4ODQtLjc5MjQ0OTgzLjMzODE2NDQtMS4xMzM2MzYzNi4wNzA5MDkxbC0zLjc4NDU0NTQ1LTIuOTUxODE4MmMtLjI0MjY4MjI3LS4xOTEyMTE4LS4zNjYxNzk3Ny0uNDk2NDg0Ni0uMzI0NzEwMjItLjgwMjY0OTUuMDQxNDY5NTUtLjMwNjE2NDguMjQxNzI0ODUtLjU2NzU4NTgxLjUyNjUyODQtLjY4NzM1MDQ4LjI4NDU0NTQ1LS4xMTcyNzI3My42MDkwOTA5MS0uMDcyNzI3MjcuODUxODE4MTguMTE4MTgxODJsMy4xODE4MTgxOCAyLjQ4NDU0NTQ2eiIgZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4KCg==);
+    position: absolute;
+    top: 0px;
+    transform: scale(.9);
+    width: 20px
+}
+
+.single-product .gallery {
+  display: flex;
+}
+
+.single-product .gallery figure {
+  max-width: 260px;
+  margin-right:  20px;
+}
+
+.single-product .gallery img {
+  border: #DADADA 1px solid !important;
+  border-radius: 8px;
+}
+
+.wccom-accordion .wccom-accordion__header {
+  border-radius: 8px;
+}
+
+.borderless td:nth-of-type(1) {width:190px;}
+
+.borderless td {
+  border: 0px;
+}		</style>
+		</head>
+
+<body class="documentation-template-default single single-documentation postid-18734001011382 theme-woo woocommerce-no-js feature-3 documentation-high-performance-order-storage group-blog woocommerce-active user-geo-location-US us">
+	<script>dataLayer = JSON.parse( decodeURIComponent( "%5B%7B%22environment_Identifier%22%3A%22live%22%2C%22settings_ga_id%22%3A%22UA-25052016-1%22%2C%22page_pageName%22%3A%22%5C%2FHigh-Performance%20Order%20Storage%22%2C%22page_pageCategory%22%3A%22other%22%2C%22page_httpResponseCode%22%3A200%2C%22user_status%22%3A%22logged-out%22%2C%22user_ID%22%3A%22t_c30b25c7772c226c012ddc49a07ecc%22%7D%5D" ) );</script>		<!-- Google Tag Manager Consent -->
+		<script>
+			// Define dataLayer and the gtag function.
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+
+			( function() {
+				// Set consent preferences in GTM's data layer
+				const hasGDPRClass = document.body.classList.contains( 'gdpr' );
+				const adConsent = Cookies?.get( 'wccom_cookie_consent_advertising' );
+				const analyticsConsent = Cookies?.get( 'wccom_cookie_consent_analytics' );
+
+				gtag( 'consent', 'default', {
+					ad_storage: adConsent ? adConsent : ( hasGDPRClass ? 'denied' : 'granted' ),
+					analytics_storage: analyticsConsent ? analyticsConsent : 'granted',
+					functionality_storage: 'granted',
+					personalization_storage: 'granted',
+					security_storage: 'granted',
+				} );
+
+							} ) ();
+		</script>
+		<!-- End Google Tag Manager Consent -->
+		<!-- Google Tag Manager Container -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W64W8Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W64W8Q');</script>
+		<!-- End Google Tag Manager Container -->
+
+				<a class="skip-link screen-reader-text" href="#main-navigation">Skip to navigation</a>
+		<a class="skip-link screen-reader-text" href="#page">Skip to content</a>
+		
+	<header id="masthead" class="site-header" >
+				<div
+						class="wccom-comp-header wccom-component wccom-component--not-rendered" 			data-props="null"
+		>
+		</div>
+			</header><!-- #masthead -->
+
+		<main id="page" class="hfeed site">
+
+<div class="content wccom-docs-content">
+	
+	
+	<div class="primary">
+		<div id="wccom-docs-toc" class="wccom-docs-toc">
+			
+<div class="wccom-documentation-categories">
+	<label
+		class="wccom-documentation-category-mobile-toggle--label"
+	>
+		Technical Documentation	<button
+		class="wccom-documentation-category-mobile-toggle--button"
+		aria-label="Documentation list">
+	</button>
+	</label>
+	<ul class="documentation-category-list">
+		<li class="documentation_category">Technical Documentation<ul>
+			<li class="cat-item cat-item-32183 cat-has-children cat-has-children-unfolded">
+				<a
+					class=""
+					title="These resources contain documentation about features, libraries, extensions, and other pieces of WooCommerce architecture."
+					href="https://woocommerce.com/documentation/technical/reference/"
+					data-tracks=documentation_category_list_item_clicked
+					data-tracks-category-url="https://woocommerce.com/documentation/technical/reference/"
+				>
+					Reference
+				</a>
+				<button class="cat-toggle-children" aria-haspopup="true" aria-expanded="true"><span class="screen-reader-text">Expand</span></button>
+		<ul class='children'>
+
+			<li class="cat-item cat-item-29022 cat-has-children cat-has-children-unfolded">
+				<a
+					class=""
+					title="Snippets"
+					href="https://woocommerce.com/documentation/technical/reference/snippets/"
+					data-tracks=documentation_category_list_item_clicked
+					data-tracks-category-url="https://woocommerce.com/documentation/technical/reference/snippets/"
+				>
+					Snippets
+				</a>
+				<button class="cat-toggle-children" aria-haspopup="true" aria-expanded="true"><span class="screen-reader-text">Expand</span></button>
+			<ul class='children'>
+
+			<li class="cat-item cat-item-29028">
+				<a
+					class=""
+					title="Theming Snippets"
+					href="https://woocommerce.com/documentation/technical/reference/snippets/snippets-theming/"
+					data-tracks=documentation_category_list_item_clicked
+					data-tracks-category-url="https://woocommerce.com/documentation/technical/reference/snippets/snippets-theming/"
+				>
+					Theming Snippets
+				</a>
+				
+		</li>
+			<li class="cat-item cat-item-29021">
+				<a
+					class=""
+					title="Frontend Snippets"
+					href="https://woocommerce.com/documentation/technical/reference/snippets/frontend-snippets/"
+					data-tracks=documentation_category_list_item_clicked
+					data-tracks-category-url="https://woocommerce.com/documentation/technical/reference/snippets/frontend-snippets/"
+				>
+					Frontend Snippets
+				</a>
+				
+		</li>
+			<li class="cat-item cat-item-29025">
+				<a
+					class=""
+					title="General Snippets"
+					href="https://woocommerce.com/documentation/technical/reference/snippets/general-snippets/"
+					data-tracks=documentation_category_list_item_clicked
+					data-tracks-category-url="https://woocommerce.com/documentation/technical/reference/snippets/general-snippets/"
+				>
+					General Snippets
+				</a>
+				
+		</li>	</ul>
+</li></ul>
+</li>
+			<li class="cat-item cat-item-29023 cat-has-children cat-has-children-unfolded current-cat">
+				<a
+					class=""
+					title="Get help building custom Extensions for WooCommerce."
+					href="https://woocommerce.com/documentation/technical/extending/"
+					data-tracks=documentation_category_list_item_clicked
+					data-tracks-category-url="https://woocommerce.com/documentation/technical/extending/"
+				>
+					Extending
+				</a>
+				<button class="cat-toggle-children" aria-haspopup="true" aria-expanded="true"><span class="screen-reader-text">Expand</span></button>
+		</li>
+			<li class="cat-item cat-item-29024">
+				<a
+					class=""
+					title="Create custom Themes for WooCommerce with these resources."
+					href="https://woocommerce.com/documentation/technical/theming/"
+					data-tracks=documentation_category_list_item_clicked
+					data-tracks-category-url="https://woocommerce.com/documentation/technical/theming/"
+				>
+					Theming
+				</a>
+				
+		</li></ul></li>	</ul>
+</div>
+		</div>
+		<article class="content post wrap wccom-single-doc-content">
+				<ol class="wccom-docs-breadcrumb" aria-label="Breadcrumb">
+					<li class="wccom-docs-breadcumb-item">
+									<a href="https://woocommerce.com/documentation">
+								Documentation									</a>
+													/
+							</li>
+					<li class="wccom-docs-breadcumb-item">
+								High-Performance Order Storage											</li>
+			</ol>
+			<h1 id="doc-title" class="wccom-docs-title">High-Performance Order Storage</h1>
+			<div class="entry">
+				
+<p><a href="https://developer.woocommerce.com/2022/09/14/high-performance-order-storage-progress-report/">High-Performance Order Storage (HPOS)</a>&nbsp;also previously known as “Custom Order Tables” is a solution that provides an easy-to-understand and solid database structure – specifically designed for eCommerce needs. It uses the WooCommerce CRUD design to store order data in custom tables – optimized for WooCommerce queries with minimal impact on the store’s performance.&nbsp;</p>
+
+
+
+<p>In January 2022, we published the&nbsp;<a href="https://developer.woocommerce.com/2022/01/17/the-plan-for-the-woocommerce-custom-order-table/">initial plan for the Custom Order Tables feature</a>&nbsp;and since then, we’ve been working hard to bring the High-Performance Order Storage (HPOS) to WooCommerce Core. In May 2022, we invited you to&nbsp;<a href="https://developer.woocommerce.com/2022/05/16/call-for-early-testing-custom-order-table-migrations/">test the order migration process</a>&nbsp;and provide feedback on how our initial work performs on real stores of varied configurations.</p>
+
+
+
+<div class="wp-block-coblocks-alert" aria-label="Alert section"><p class="wp-block-coblocks-alert__text">From WooCommerce 8.2, released on October 2023,&nbsp;<a href="https://developer.woocommerce.com/2022/09/14/high-performance-order-storage-progress-report/">High-Performance Order Storage (HPOS)</a> is officially released under the stable flag and will be enabled by default for new installations.</p></div>
+
+
+
+<header class="toc-header"><h2 class="wp-block-heading" id="section-1"><a class="wccom-docs-anchor-links" href="#section-1">What’s New with High-Performance Order Storage?<span class="dashicons dashicons-admin-links"></span></a> </h2><a class="wccom-docs-top-link" href="#doc-title" title="Back to top">&uarr; Back to top</a></header>
+
+
+
+<p>Bringing High-Performance Order Storage (HPOS) to WooCommerce improves these three essential properties for eCommerce stores.&nbsp;</p>
+
+
+
+<ol>
+<li><strong>Scalability</strong></li>
+</ol>
+
+
+
+<p>The rise in the number of customers and customer orders increases the load on your store’s database – making it difficult to handle customer order requests and deliver a seamless user experience.</p>
+
+
+
+<p>With High-Performance Order Storage, you get dedicated tables for data like orders and order addresses and thus dedicated indexes which results in fewer read/write operations and fewer busy tables. This feature enables eCommerce stores of all shapes and sizes to scale their business to their maximum potential – without expert intervention.&nbsp;</p>
+
+
+
+<ol start="2">
+<li><strong>Reliability&nbsp;</strong></li>
+</ol>
+
+
+
+<p>High-Performance Order Storage makes implementing and restoring targeted data backup easier. You’ll no longer need to worry about losing orders, inventory numbers, or client information with reliable backup in these custom order tables. It’ll also facilitate implementing read/write locks and prevent race conditions.</p>
+
+
+
+<ol start="3">
+<li><strong>Simplicity&nbsp;</strong></li>
+</ol>
+
+
+
+<p>You no longer have to go through a single huge database to locate underlying data and WooCommerce entries.&nbsp;</p>
+
+
+
+<p>With High-Performance Order Storage, you can easily browse through the separate tables and easy-to-handle entries, independent of the table <code>_posts</code>, to find data or understand the table structure. It also lets you easily develop new plugins, implement designs for shops and products, and modify WooCommerce with more flexibility.</p>
+
+
+
+<header class="toc-header"><h2 class="wp-block-heading" id="section-2"><a class="wccom-docs-anchor-links" href="#section-2">Background<span class="dashicons dashicons-admin-links"></span></a> </h2><a class="wccom-docs-top-link" href="#doc-title" title="Back to top">&uarr; Back to top</a></header>
+
+
+
+<p>Before the release of version 8.2, WooCommerce relied on the&nbsp;<code>_post</code>&nbsp;and&nbsp;<code>_postmeta</code>&nbsp;table structures to store order information, which has served well over the years. </p>
+
+
+
+<p>However, High-Performance Order Storage introduces dedicated tables for data like orders and order addresses and thus dedicated indexes which results in fewer read/write operations and fewer busy tables.&nbsp;This feature enables eCommerce stores of all shapes and sizes to scale their business to their maximum potential – without expert intervention.&nbsp;</p>
+
+
+
+<p>The order data is synced from&nbsp;<code>_posts</code>&nbsp;and&nbsp;<code>_postmeta</code>&nbsp;table to four custom order tables:</p>
+
+
+
+<ol>
+<li><code>_wc_orders</code></li>
+
+
+
+<li><code>_wc_order_addresses</code></li>
+
+
+
+<li><code>_wc_order_operational_data</code></li>
+
+
+
+<li><code>_wc_orders_meta</code></li>
+</ol>
+
+
+
+<header class="toc-header"><h2 class="wp-block-heading" id="section-3"><a class="wccom-docs-anchor-links" href="#section-3">Enable High-Performance Order Storage<span class="dashicons dashicons-admin-links"></span></a> </h2><a class="wccom-docs-top-link" href="#doc-title" title="Back to top">&uarr; Back to top</a></header>
+
+
+
+<p>From WooCommerce 8.2, released on October 2023,&nbsp;HPOS is enabled by default for new installations. Existing stores can switch to the &#8220;High-Performance Order Storage&#8221; from &#8220;WordPress Posts Storage&#8221; by following the below steps.</p>
+
+
+
+<p>To activate High-Performance Order Storage, existing stores will first need to get both the posts and orders table in sync, which can be done by turning on the setting &#8220;<strong>Enable compatibility mode (synchronizes orders to the posts table)</strong>&#8220;.</p>
+
+
+
+<ol>
+<li>Navigate to <strong>WooCommerce &gt; Settings &gt; Advanced &gt; Features</strong></li>
+
+
+
+<li>Turn on the <strong>&#8220;Enable compatibility mode (synchronizes orders to the posts table)&#8221;</strong> setting.</li>
+
+
+
+<li>Once this setting is activated, background actions will be scheduled. 
+<ul>
+<li>The action <code>wc_schedule_pending_batch_process</code> checks whether there are orders that need to be backfilled.</li>
+
+
+
+<li>If there are, it schedules another action&nbsp;<code>wc_run_batch_process</code>&nbsp;that actually backfills the orders to post storage.</li>
+
+
+
+<li>You can either wait for these actions to run on their own, which should be quite soon, or you can go to <strong>WooCommerce &gt; Status &gt; Scheduled Actions</strong>, find the actions and click on the run button.</li>
+
+
+
+<li>The action will backfill 25 orders at a time, if there are more orders to be synced, then more actions will be scheduled as soon as the previous actions are completed.</li>
+</ul>
+</li>
+
+
+
+<li>After both tables are successfully synchronized, you&#8217;ll be able to select the option to switch to High-Performance Order Storage (HPOS). 
+<ul>
+<li>It is advisable to maintain compatibility mode for some time to ensure a seamless transition. In case of any issues, reverting to the post table can be done instantly.</li>
+</ul>
+</li>
+</ol>
+
+
+
+<div class="wp-block-jetpack-slideshow aligncenter" data-effect="slide"><div class="wp-block-jetpack-slideshow_container swiper-container"><ul class="wp-block-jetpack-slideshow_swiper-wrapper swiper-wrapper"><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img decoding="async" loading="lazy" width="806" height="450" alt="" class="wp-block-jetpack-slideshow_image wp-image-18734002665970" data-id="18734002665970" src="https://woocommerce.com/wp-content/uploads/2023/10/New-Project-4.jpg?w=650" srcset="https://woocommerce.com/wp-content/uploads/2023/10/New-Project-4.jpg 806w, https://woocommerce.com/wp-content/uploads/2023/10/New-Project-4.jpg?resize=620,346 620w, https://woocommerce.com/wp-content/uploads/2023/10/New-Project-4.jpg?resize=768,429 768w, https://woocommerce.com/wp-content/uploads/2023/10/New-Project-4.jpg?resize=650,363 650w, https://woocommerce.com/wp-content/uploads/2023/10/New-Project-4.jpg?resize=300,167 300w" sizes="(max-width: 806px) 100vw, 806px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Setting: Enable compatibility mode (synchronizes orders to the posts table)</figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img decoding="async" loading="lazy" width="806" height="450" alt="" class="wp-block-jetpack-slideshow_image wp-image-18734002665969" data-id="18734002665969" src="https://woocommerce.com/wp-content/uploads/2023/10/2.jpg?w=650" srcset="https://woocommerce.com/wp-content/uploads/2023/10/2.jpg 806w, https://woocommerce.com/wp-content/uploads/2023/10/2.jpg?resize=620,346 620w, https://woocommerce.com/wp-content/uploads/2023/10/2.jpg?resize=768,429 768w, https://woocommerce.com/wp-content/uploads/2023/10/2.jpg?resize=650,363 650w, https://woocommerce.com/wp-content/uploads/2023/10/2.jpg?resize=300,167 300w" sizes="(max-width: 806px) 100vw, 806px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Scheduled action: wc_schedule_pending_batch_process </figcaption></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img decoding="async" loading="lazy" width="806" height="450" alt="" class="wp-block-jetpack-slideshow_image wp-image-18734002665971" data-id="18734002665971" src="https://woocommerce.com/wp-content/uploads/2023/10/New-Project-5.jpg?w=650" srcset="https://woocommerce.com/wp-content/uploads/2023/10/New-Project-5.jpg 806w, https://woocommerce.com/wp-content/uploads/2023/10/New-Project-5.jpg?resize=620,346 620w, https://woocommerce.com/wp-content/uploads/2023/10/New-Project-5.jpg?resize=768,429 768w, https://woocommerce.com/wp-content/uploads/2023/10/New-Project-5.jpg?resize=650,363 650w, https://woocommerce.com/wp-content/uploads/2023/10/New-Project-5.jpg?resize=300,167 300w" sizes="(max-width: 806px) 100vw, 806px" /><figcaption class="wp-block-jetpack-slideshow_caption gallery-caption">Scheduled action: wc_run_batch_process</figcaption></figure></li></ul><a class="wp-block-jetpack-slideshow_button-prev swiper-button-prev swiper-button-white" role="button"></a><a class="wp-block-jetpack-slideshow_button-next swiper-button-next swiper-button-white" role="button"></a><a aria-label="Pause Slideshow" class="wp-block-jetpack-slideshow_button-pause" role="button"></a><div class="wp-block-jetpack-slideshow_pagination swiper-pagination swiper-pagination-white"></div></div></div>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p>Alternatively, you can also use the CLI command <code>wp wc cot sync</code> to copy orders from the posts table to the HPOS tables. This command will automatically identify the appropriate table for data transfer based on the authoritative table setting.</p>
+
+
+
+<p></p>
+
+
+
+<div class="wp-block-wccom-alert is-style-info" aria-label="Alert section of type info"><p class="wp-block-wccom-alert__title"><strong>Note:</strong> Turning the setting&nbsp;<code>Enable compatibility mode (synchronizes orders to the posts table)</code>&nbsp;off and on again will also schedule the backfill process again if needed.</p></div>
+
+
+
+<p></p>
+
+
+
+<header class="toc-header"><h2 class="wp-block-heading" id="section-4"><a class="wccom-docs-anchor-links" href="#section-4">Order Data Storage<span class="dashicons dashicons-admin-links"></span></a> </h2><a class="wccom-docs-top-link" href="#doc-title" title="Back to top">&uarr; Back to top</a></header>
+
+
+
+<p>You can switch between data stores freely to sync the data between the tables.</p>
+
+
+
+<ul>
+<li>If you select <strong>&#8220;WordPress Post Tables&#8221;</strong>, the system will save the order data within <code>_post</code> and <code>_postmeta</code> tables. The order tables are not utilized in this scenario.</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" loading="lazy" width="1560" height="528" src="https://woocommerce.com/wp-content/uploads/2023/10/image-18.png?w=650" alt="" class="wp-image-18734002666031" srcset="https://woocommerce.com/wp-content/uploads/2023/10/image-18.png 1560w, https://woocommerce.com/wp-content/uploads/2023/10/image-18.png?resize=620,210 620w, https://woocommerce.com/wp-content/uploads/2023/10/image-18.png?resize=768,260 768w, https://woocommerce.com/wp-content/uploads/2023/10/image-18.png?resize=650,220 650w, https://woocommerce.com/wp-content/uploads/2023/10/image-18.png?resize=1536,520 1536w, https://woocommerce.com/wp-content/uploads/2023/10/image-18.png?resize=300,102 300w, https://woocommerce.com/wp-content/uploads/2023/10/image-18.png?resize=958,324 958w" sizes="(max-width: 1560px) 100vw, 1560px" /></figure>
+
+
+
+<ul>
+<li>If you select <strong>&#8220;High-Performance Order Storage&#8221;</strong>, the system will save the order data within the new WooCommerce order tables</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" loading="lazy" width="1564" height="450" src="https://woocommerce.com/wp-content/uploads/2023/10/image-19.png?w=650" alt="" class="wp-image-18734002666034" srcset="https://woocommerce.com/wp-content/uploads/2023/10/image-19.png 1564w, https://woocommerce.com/wp-content/uploads/2023/10/image-19.png?resize=620,178 620w, https://woocommerce.com/wp-content/uploads/2023/10/image-19.png?resize=768,221 768w, https://woocommerce.com/wp-content/uploads/2023/10/image-19.png?resize=650,187 650w, https://woocommerce.com/wp-content/uploads/2023/10/image-19.png?resize=1536,442 1536w, https://woocommerce.com/wp-content/uploads/2023/10/image-19.png?resize=300,86 300w, https://woocommerce.com/wp-content/uploads/2023/10/image-19.png?resize=958,276 958w" sizes="(max-width: 1564px) 100vw, 1564px" /></figure>
+
+
+
+<ul>
+<li>If you select <strong>“WordPress Post Tables&#8221; </strong>and<strong> &#8220;Enable compatibility mode&#8221;</strong>, the system will sync the order data between the posts/postmeta and the WooCommerce order tables.</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" loading="lazy" width="1504" height="452" src="https://woocommerce.com/wp-content/uploads/2023/10/image-20.png?w=650" alt="" class="wp-image-18734002666044" srcset="https://woocommerce.com/wp-content/uploads/2023/10/image-20.png 1504w, https://woocommerce.com/wp-content/uploads/2023/10/image-20.png?resize=620,186 620w, https://woocommerce.com/wp-content/uploads/2023/10/image-20.png?resize=768,231 768w, https://woocommerce.com/wp-content/uploads/2023/10/image-20.png?resize=650,195 650w, https://woocommerce.com/wp-content/uploads/2023/10/image-20.png?resize=300,90 300w, https://woocommerce.com/wp-content/uploads/2023/10/image-20.png?resize=958,288 958w" sizes="(max-width: 1504px) 100vw, 1504px" /></figure>
+
+
+
+<header class="toc-header"><h2 class="wp-block-heading" id="section-5"><a class="wccom-docs-anchor-links" href="#section-5">Synchronization<span class="dashicons dashicons-admin-links"></span></a> </h2><a class="wccom-docs-top-link" href="#doc-title" title="Back to top">&uarr; Back to top</a></header>
+
+
+
+<p>When the &#8220;<strong>High-Performance Order Storage</strong>&#8221; and &#8220;<strong>Compatibility mode</strong>&#8221; are enabled, WooCommerce populates the HPOS tables with data from posts &amp; postmeta tables. The synchronization between the tables is <a href="https://developer.woocommerce.com/2022/09/29/high-performance-order-storage-backward-compatibility-and-synchronization/#synchronization">explained in detail in this document</a>.</p>
+
+
+
+<header class="toc-header"><h2 class="wp-block-heading" id="section-6"><a class="wccom-docs-anchor-links" href="#section-6">Incompatible Plugins<span class="dashicons dashicons-admin-links"></span></a> </h2><a class="wccom-docs-top-link" href="#doc-title" title="Back to top">&uarr; Back to top</a></header>
+
+
+
+<p>If you are using a plugin that is not compatible with High-Performance Order Storage, then the HPOS option will be disabled under <strong>WooCommerce &gt; Settings &gt; Advanced &gt; Features</strong>.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" loading="lazy" width="1574" height="638" src="https://woocommerce.com/wp-content/uploads/2023/10/image-21.png?w=650" alt="" class="wp-image-18734002666091" srcset="https://woocommerce.com/wp-content/uploads/2023/10/image-21.png 1574w, https://woocommerce.com/wp-content/uploads/2023/10/image-21.png?resize=620,251 620w, https://woocommerce.com/wp-content/uploads/2023/10/image-21.png?resize=768,311 768w, https://woocommerce.com/wp-content/uploads/2023/10/image-21.png?resize=650,263 650w, https://woocommerce.com/wp-content/uploads/2023/10/image-21.png?resize=1536,623 1536w, https://woocommerce.com/wp-content/uploads/2023/10/image-21.png?resize=300,122 300w, https://woocommerce.com/wp-content/uploads/2023/10/image-21.png?resize=958,388 958w" sizes="(max-width: 1574px) 100vw, 1574px" /></figure>
+
+
+
+<ul>
+<li>You can click on &#8220;<strong>View and manage</strong>&#8221; to review the list of incompatible plugins</li>
+
+
+
+<li>Or you can visit <code>https://example.com/wp-admin/plugins.php?plugin_status=incompatible_with_feature&amp;feature_id=custom_order_tables</code> to review the list of incompatible plugins (please replace <code>example.com</code> with your site domain)</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" loading="lazy" src="https://woocommerce.com/wp-content/uploads/2023/10/image-22.png?w=650" alt="" class="wp-image-18734002666238" style="width:647px;height:198px" width="647" height="198" srcset="https://woocommerce.com/wp-content/uploads/2023/10/image-22.png 2480w, https://woocommerce.com/wp-content/uploads/2023/10/image-22.png?resize=620,190 620w, https://woocommerce.com/wp-content/uploads/2023/10/image-22.png?resize=768,235 768w, https://woocommerce.com/wp-content/uploads/2023/10/image-22.png?resize=650,199 650w, https://woocommerce.com/wp-content/uploads/2023/10/image-22.png?resize=1536,469 1536w, https://woocommerce.com/wp-content/uploads/2023/10/image-22.png?resize=2048,626 2048w, https://woocommerce.com/wp-content/uploads/2023/10/image-22.png?resize=300,92 300w, https://woocommerce.com/wp-content/uploads/2023/10/image-22.png?resize=958,293 958w" sizes="(max-width: 647px) 100vw, 647px" /></figure>
+
+
+
+<div class="wp-block-coblocks-alert" aria-label="Alert section"><p class="wp-block-coblocks-alert__text"><strong>Note:</strong>&nbsp;If you are using a third-party extension that isn’t working&nbsp;properly with High-Performance Order Storage then please notify the developers of the extension and ask them to update their extension to add support for HPOS. It’s up to the extension developers to add support for HPOS. We have&nbsp;<a href="https://developer.woocommerce.com/2022/09/14/high-performance-order-storage-progress-report/">developer resources and documentation</a> available to help with their integration efforts.</p></div>
+
+
+
+<header class="toc-header"><h2 class="wp-block-heading" id="section-7"><a class="wccom-docs-anchor-links" href="#section-7">Disabling HPOS<span class="dashicons dashicons-admin-links"></span></a> </h2><a class="wccom-docs-top-link" href="#doc-title" title="Back to top">&uarr; Back to top</a></header>
+
+
+
+<p>If you encounter problems or if you need to continue working with plugins that are not yet compatible with HPOS, then we recommend temporarily switching back to <strong>WordPress posts storage</strong>.<br></p>
+
+
+
+<p>To do this, navigate to <strong>WooCommerce ▸ Settings ▸ Advanced ▸ Features</strong> and start by making sure that <strong>compatibility mode </strong>is enabled. If it was not already enabled, you may find you need to wait for some time while order data is synchronized across data-stores.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" loading="lazy" width="1806" height="614" src="https://woocommerce.com/wp-content/uploads/2023/10/hpos-feature-settings.png?w=650" alt="" class="wp-image-18734002672851" srcset="https://woocommerce.com/wp-content/uploads/2023/10/hpos-feature-settings.png 1806w, https://woocommerce.com/wp-content/uploads/2023/10/hpos-feature-settings.png?resize=620,211 620w, https://woocommerce.com/wp-content/uploads/2023/10/hpos-feature-settings.png?resize=768,261 768w, https://woocommerce.com/wp-content/uploads/2023/10/hpos-feature-settings.png?resize=650,221 650w, https://woocommerce.com/wp-content/uploads/2023/10/hpos-feature-settings.png?resize=1536,522 1536w, https://woocommerce.com/wp-content/uploads/2023/10/hpos-feature-settings.png?resize=300,102 300w, https://woocommerce.com/wp-content/uploads/2023/10/hpos-feature-settings.png?resize=958,326 958w" sizes="(max-width: 1806px) 100vw, 1806px" /></figure>
+
+
+
+<p>Once synchronization has completed, you can select <strong>WordPress posts storage (legacy)</strong> as your preferred option. You can also disable compatibility mode at this point. Once you are ready to re-enable HPOS, simply follow the instructions posted at the <a href="https://woocommerce.com/document/high-performance-order-storage/#section-3">start of this doc</a>. Finally, remember to save this page between changes! </p>
+
+
+
+<p>As noted earlier, we also strongly recommend reaching out to the support teams of any plugins that are incompatible, so they can take corrective action.</p>
+
+
+
+<header class="toc-header"><h2 class="wp-block-heading" id="section-8"><a class="wccom-docs-anchor-links" href="#section-8">Upgrading for Developers<span class="dashicons dashicons-admin-links"></span></a> </h2><a class="wccom-docs-top-link" href="#doc-title" title="Back to top">&uarr; Back to top</a></header>
+
+
+
+<p>If you or your team needs to update your store&#8217;s custom code, extension or anything related to HPOS, check out our <a href="https://github.com/woocommerce/woocommerce/wiki/High-Performance-Order-Storage-Upgrade-Recipe-Book">Upgrade Recipe Book</a> to find all the technical details.</p>
+
+
+
+<header class="toc-header"><h2 class="wp-block-heading" id="section-9"><a class="wccom-docs-anchor-links" href="#section-9">Frequently Asked Questions<span class="dashicons dashicons-admin-links"></span></a> </h2><a class="wccom-docs-top-link" href="#doc-title" title="Back to top">&uarr; Back to top</a></header>
+
+
+
+<header class="toc-header"><h3 class="wp-block-heading" id="section-10"><a class="wccom-docs-anchor-links" href="#section-10">I have an existing store but don’t want to enable HPOS. Do I have to?<span class="dashicons dashicons-admin-links"></span></a> </h3><a class="wccom-docs-top-link" href="#doc-title" title="Back to top">&uarr; Back to top</a></header>
+
+
+
+<p>No problem! While we do encourage everyone to switch to HPOS to enjoy the full benefits of a faster checkout experience for your customers, we understand that not everyone will want to try it right away. The feature is completely opt-in and you will be able to switch anytime.</p>
+
+
+
+<header class="toc-header"><h3 class="wp-block-heading" id="section-11"><a class="wccom-docs-anchor-links" href="#section-11">My favorite extension is incompatible with HPOS, what should I do?<span class="dashicons dashicons-admin-links"></span></a> </h3><a class="wccom-docs-top-link" href="#doc-title" title="Back to top">&uarr; Back to top</a></header>
+
+
+
+<p>We have been actively communicating about the upcoming HPOS change with our developer community. We have several blog posts, guides for how to update extensions in GitHub, and full documentation. Despite our best efforts to encourage extension developers to make the switch, some developers may not accommodate HPOS.&nbsp;If one of your extensions is incompatible, we strongly recommend that you reach out to the developer’s support team and ask them to make the update. You will continue to be able to use the extension without HPOS if you already have it installed.</p>
+
+
+
+<header class="toc-header"><h3 class="wp-block-heading" id="section-12"><a class="wccom-docs-anchor-links" href="#section-12">Can small businesses use HPOS or is it only meant for larger businesses?<span class="dashicons dashicons-admin-links"></span></a> </h3><a class="wccom-docs-top-link" href="#doc-title" title="Back to top">&uarr; Back to top</a></header>
+
+
+
+<p>Businesses of all sizes will benefit from High-Performance Order Storage.&nbsp;</p>
+
+
+
+<header class="toc-header"><h3 class="wp-block-heading" id="section-13"><a class="wccom-docs-anchor-links" href="#section-13">I have a high-volume store on WooCommerce. How does this impact my store?<span class="dashicons dashicons-admin-links"></span></a> </h3><a class="wccom-docs-top-link" href="#doc-title" title="Back to top">&uarr; Back to top</a></header>
+
+
+
+<p>Existing stores will not be migrated over to HPOS automatically. The feature is completely opt-in. You can enable HPOS by following the steps mentioned above.</p>
+
+
+
+<header class="toc-header"><h3 class="wp-block-heading" id="extension-x"><a class="wccom-docs-anchor-links" href="#extension-x">Are there any specific hosting requirements or limitations for using HPOS in WooCommerce?<span class="dashicons dashicons-admin-links"></span></a> </h3><a class="wccom-docs-top-link" href="#doc-title" title="Back to top">&uarr; Back to top</a></header>
+
+
+
+<p>There are no hosting restrictions. Any host that is able to run WordPress &amp; WooCommerce should have no trouble running HPOS, and it should even increase performance in a number of ways after it is enabled. You can visit <a href="https://woocommerce.com/document/server-requirements/">this link</a> for details on the server requirements needed for WooCommerce.</p>
+
+
+
+<p>For more technical insight, take a look at our&nbsp;<a href="https://developer.woocommerce.com/2022/10/11/hpos-upgrade-faqs/">developer blog FAQ</a>. </p>
+			</div>
+
+					<div
+						class="wccom-comp-docs-voting wccom-component wccom-component--not-rendered" 			data-props="{&quot;docID&quot;:18734001011382}"
+		>
+		</div>
+				</article>
+			<aside class="wccom-docs-sidebar-right">
+			<div class="wccom-docs-sticky">
+			
+							<h2 class="wccom-docs-jumps-header">
+					On this page				</h2>
+				<ul class="documentation-jumps">
+																	<li class="">
+							<a href="#section-1">
+								What’s New with High-Performance Order Storage?							</a>
+													</li>
+																	<li class="">
+							<a href="#section-2">
+								Background							</a>
+													</li>
+																	<li class="">
+							<a href="#section-3">
+								Enable High-Performance Order Storage							</a>
+													</li>
+																	<li class="">
+							<a href="#section-4">
+								Order Data Storage							</a>
+													</li>
+																	<li class="">
+							<a href="#section-5">
+								Synchronization							</a>
+													</li>
+																	<li class="">
+							<a href="#section-6">
+								Incompatible Plugins							</a>
+													</li>
+																	<li class="">
+							<a href="#section-7">
+								Disabling HPOS							</a>
+													</li>
+																	<li class="">
+							<a href="#section-8">
+								Upgrading for Developers							</a>
+													</li>
+																	<li class="parent">
+							<a href="#section-9">
+								Frequently Asked Questions							</a>
+															<ul class="children">
+																			<li>
+											<a href="#section-10">
+												I have an existing store but don’t want to enable HPOS. Do I have to?											</a>
+										</li>
+																			<li>
+											<a href="#section-11">
+												My favorite extension is incompatible with HPOS, what should I do?											</a>
+										</li>
+																			<li>
+											<a href="#section-12">
+												Can small businesses use HPOS or is it only meant for larger businesses?											</a>
+										</li>
+																			<li>
+											<a href="#section-13">
+												I have a high-volume store on WooCommerce. How does this impact my store?											</a>
+										</li>
+																			<li>
+											<a href="#extension-x">
+												Are there any specific hosting requirements or limitations for using HPOS in WooCommerce?											</a>
+										</li>
+																	</ul>
+													</li>
+									</ul>
+				</div>
+</div>
+
+	<!-- #Get Started -->
+	<div id="get-woocommerce" class="page-section-get-woocommerce">
+				<div
+						class="wccom-comp-cta wccom-component wccom-component--not-rendered" 			data-props="{&quot;title&quot;:&quot;WooCommerce&quot;,&quot;description&quot;:&quot;The most customizable ecommerce platform for building your online business.&quot;,&quot;buttonText&quot;:&quot;Get Started&quot;,&quot;buttonUrl&quot;:&quot;https:\/\/woocommerce.com\/start\/?nuxentrysource=footer_cta&quot;,&quot;style&quot;:&quot;reversed&quot;}"
+		>
+		</div>
+			</div><!-- /#Get Started -->
+
+	
+	<!-- .page-section-guarantee -->
+	<div id="guarantee" class="page-section-guarantee">
+		<div class="col-full">
+			<div class="guarantee-icon">
+				<ul>
+					<li><i class="fa fa-check-circle fa-3x"></i><span class="nav-text"> 30-day <strong><a href="https://woocommerce.com/refund-policy/">money-back guarantee</a></strong></span></li>
+				</ul>
+			</div>
+			<div class="support-icon">
+				<ul>
+					<li><i class="fa fa-life-ring fa-3x"></i><span class="nav-text"> <strong><a href="https://woocommerce.com/docs/">Support</a></strong> teams across the world</span></li>
+				</ul>
+			</div>
+			<div class="secure-icon">
+				<ul>
+					<li><i class="fa fa-lock fa-3x"></i><span class="nav-text"> <strong><a href="https://woocommerce.com/products/woocommerce-payments/">Safe and secure</a></strong> online payment</span></li>
+				</ul>
+			</div>
+		</div>
+	</div><!-- /.page-section-guarantee -->
+
+	
+</main><!-- /#page -->
+
+
+<footer id="footer" class="site-footer">
+	<div class="col-full">
+		
+	<h2 class="screen-reader-text">Footer Links</h2>
+
+	<div id="sitemap">
+
+			<div class="block"><h3>WooCommerce</h3><ul id="menu-footer-1" class="footer-nav"><li id="menu-item-48509" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48509"><a href="/about/" data-tracks="nav_menu_click" data-tracks-url="/about/" data-tracks-menu="Footer 1">About</a></li>
+<li id="menu-item-18734002148981" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18734002148981"><a href="https://woocommerce.com/newsroom/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/newsroom/" data-tracks-menu="Footer 1">Press</a></li>
+<li id="menu-item-8542129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8542129"><a href="https://woocommerce.com/trademark-guidelines/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/trademark-guidelines/" data-tracks-menu="Footer 1">Trademark Guidelines</a></li>
+<li id="menu-item-8542128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8542128"><a href="https://woocommerce.com/brand-and-logo-guidelines/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/brand-and-logo-guidelines/" data-tracks-menu="Footer 1">Brand and logo guidelines</a></li>
+<li id="menu-item-18734001022445" class="wccom-footer-menu-us-privacy menu-item menu-item-type-post_type menu-item-object-page menu-item-18734001022445"><a href="https://woocommerce.com/do-not-sell-or-share-my-personal-information/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/do-not-sell-or-share-my-personal-information/" data-tracks-menu="Footer 1">Do Not Sell or Share My Personal Information</a></li>
+<li id="menu-item-18734000737350" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000737350"><a href="https://woocommerce.com/contact-us/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/contact-us/" data-tracks-menu="Footer 1">Contact Us</a></li>
+</ul></div><div class="block"><h3>Sell</h3><ul id="menu-footer-2" class="footer-nav"><li id="menu-item-18734001816088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18734001816088"><a href="https://woocommerce.com/express/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/express/" data-tracks-menu="Footer 2">Woo for Merchants</a></li>
+<li id="menu-item-5683460" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5683460"><a href="https://woocommerce.com/payments/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/payments/" data-tracks-menu="Footer 2">Payments</a></li>
+<li id="menu-item-18734000898457" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18734000898457"><a href="https://woocommerce.com/customize/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/customize/" data-tracks-menu="Footer 2">No-Code Customization</a></li>
+<li id="menu-item-5839734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5839734"><a href="https://woocommerce.com/marketing/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/marketing/" data-tracks-menu="Footer 2">Marketing</a></li>
+<li id="menu-item-18734000737358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18734000737358"><a href="https://woocommerce.com/checkout-blocks/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/checkout-blocks/" data-tracks-menu="Footer 2">Checkout</a></li>
+<li id="menu-item-5683461" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5683461"><a href="https://woocommerce.com/products/shipping/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/products/shipping/" data-tracks-menu="Footer 2">Shipping</a></li>
+<li id="menu-item-3762849" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3762849"><a href="https://woocommerce.com/mobile/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/mobile/" data-tracks-menu="Footer 2">Mobile App</a></li>
+<li id="menu-item-18734000910771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18734000910771"><a href="https://woocommerce.com/enterprise-ecommerce/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/enterprise-ecommerce/" data-tracks-menu="Footer 2">Enterprise Ecommerce</a></li>
+<li id="menu-item-18734000737376" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000737376"><a href="https://woocommerce.com/products/jetpack/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/products/jetpack/" data-tracks-menu="Footer 2">Jetpack for WooCommerce</a></li>
+<li id="menu-item-18734000737379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000737379"><a href="https://woocommerce.com/create-a-paid-newsletter-with-woocommerce/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/create-a-paid-newsletter-with-woocommerce/" data-tracks-menu="Footer 2">Paid Newsletter Subscriptions</a></li>
+</ul></div><div class="block"><h3>Extensions & Themes</h3><ul id="menu-footer-5" class="footer-nav"><li id="menu-item-18734000737381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000737381"><a href="https://woocommerce.com/products/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/products/" data-tracks-menu="Footer 5">All Extensions</a></li>
+<li id="menu-item-18734000737382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000737382"><a href="https://woocommerce.com/product-category/themes/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/product-category/themes/" data-tracks-menu="Footer 5">All Themes</a></li>
+<li id="menu-item-18734000737383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000737383"><a href="https://woocommerce.com/product-category/woocommerce-extensions/?orderby=date&#038;paged=1" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/product-category/woocommerce-extensions/?orderby=date&amp;paged=1" data-tracks-menu="Footer 5">New</a></li>
+<li id="menu-item-18734000737384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000737384"><a href="https://woocommerce.com/woocommerce-essentials/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/woocommerce-essentials/" data-tracks-menu="Footer 5">Essentials</a></li>
+<li id="menu-item-18734000737386" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000737386"><a href="https://woocommerce.com/collections/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/collections/" data-tracks-menu="Footer 5">Collections</a></li>
+<li id="menu-item-18734000737387" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000737387"><a href="https://woocommerce.com/product-category/woocommerce-extensions/developed-by-woo/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/product-category/woocommerce-extensions/developed-by-woo/" data-tracks-menu="Footer 5">Developed by Woo</a></li>
+</ul></div><div class="block"><h3>Build</h3><ul id="menu-footer-3" class="footer-nav"><li id="menu-item-18734000737391" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000737391"><a href="https://woocommerce.com/wordpress-ecommerce/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/wordpress-ecommerce/" data-tracks-menu="Footer 3">Woo for Developers</a></li>
+<li id="menu-item-18734000737392" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000737392"><a href="https://developer.woocommerce.com/" data-tracks="nav_menu_click" data-tracks-url="https://developer.woocommerce.com/" data-tracks-menu="Footer 3">Developer Resources</a></li>
+<li id="menu-item-18734000737393" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000737393"><a href="https://woocommerce.com/partner-program/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/partner-program/" data-tracks-menu="Footer 3">Build Stores — Become a WooExpert</a></li>
+<li id="menu-item-18734000737394" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000737394"><a href="https://woocommerce.com/develop-woocommerce/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/develop-woocommerce/" data-tracks-menu="Footer 3">Build Products — Extensions, SaaS, Themes</a></li>
+</ul></div><div class="block"><h3>Resources</h3><ul id="menu-footer-4" class="footer-nav"><li id="menu-item-18734000744110" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000744110"><a href="https://woocommerce.com/blog/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/blog/" data-tracks-menu="Footer 4">Blog</a></li>
+<li id="menu-item-18734000744112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000744112"><a href="https://woocommerce.com/documentation" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/documentation" data-tracks-menu="Footer 4">Documentation</a></li>
+<li id="menu-item-18734000744117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000744117"><a href="https://woocommerce.com/woocommerce-list-sign/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/woocommerce-list-sign/" data-tracks-menu="Footer 4">Email Newsletter</a></li>
+<li id="menu-item-18734000744118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000744118"><a href="/my-account/contact-support/" data-tracks="nav_menu_click" data-tracks-url="/my-account/contact-support/" data-tracks-menu="Footer 4">Support</a></li>
+<li id="menu-item-18734000744120" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000744120"><a href="https://woocommerce.com/showcase/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/showcase/" data-tracks-menu="Footer 4">Customer Showcase</a></li>
+<li id="menu-item-3977629" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3977629"><a href="https://woocommerce.com/customizations/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/customizations/" data-tracks-menu="Footer 4">Hire an Expert Agency</a></li>
+<li id="menu-item-18734000744122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000744122"><a href="https://woocommerce.com/customer-success/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/customer-success/" data-tracks-menu="Footer 4">Customer Success</a></li>
+<li id="menu-item-18734000744131" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000744131"><a href="https://woocommerce.com/support-policy/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/support-policy/" data-tracks-menu="Footer 4">Support Policy</a></li>
+<li id="menu-item-18734000744132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18734000744132"><a href="https://woocommerce.com/refund-policy/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/refund-policy/" data-tracks-menu="Footer 4">Refund Policy</a></li>
+<li id="menu-item-2439936" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2439936"><a href="https://woocommerce.com/customer-research/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/customer-research/" data-tracks-menu="Footer 4">Participate in Customer Research</a></li>
+<li id="menu-item-18734001361296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18734001361296"><a href="https://woocommerce.com/accessibility-statement-for-woocommerce/" data-tracks="nav_menu_click" data-tracks-url="https://woocommerce.com/accessibility-statement-for-woocommerce/" data-tracks-menu="Footer 4">Accessibility</a></li>
+</ul></div>	</div>
+
+		</div><!-- .col-full -->
+	<div id="social-legal-auto">
+		<div class="col-full">
+			<div id="social-legal" class="footer-social-legal">
+				<div class="follow-buttons">
+					<a class="twitter" href="http://www.twitter.com/woocommerce" target="_blank"><span class="screen-reader-text">Twitter</span></a>
+					<a class="facebook" href="http://www.facebook.com/woocommerce" target="_blank"><span class="screen-reader-text">Facebook</span></a>
+					<a class="instagram" href="http://www.instagram.com/woocommerce" target="_blank"><span class="screen-reader-text">Instagram</span></a>
+					<a class="rss" href="http://feeds.feedburner.com/WooThemes" target="_blank"><span class="screen-reader-text">Blog feed</span></a>
+				</div>
+
+				<p class="copyright">
+					<strong>Copyright WooCommerce 2023</strong><br>
+					<a href="https://wordpress.com/tos/">Terms &amp; Conditions</a> <a class="privacy-policy" href="https://automattic.com/privacy/" target="_blank">Privacy Policy</a> <a class="privacy-policy-california" href="https://automattic.com/privacy/?utm_medium=automattic_referred&utm_source=wccom_footer#us-privacy-laws" target="_blank">Privacy Notice for California Users</a>
+				</p>
+
+				<div class="automattic">
+					<a href="https://www.automattic.com/" target="_blank">An Automattic company</a>
+				</div>
+			</div>
+		</div>
+	</div><!-- /#social-legal-auto -->
+</footer><!-- /#footer -->
+
+
+<script>var prl_page_cache_test=1698239589;</script>			<script type="text/javascript">
+				// coupon
+				var $coupon_form = jQuery('.woocommerce-checkout form.woocommerce-form-coupon');
+				var $coupon_info = jQuery('div.woocommerce-form-coupon-toggle > .woocommerce-info');
+				$coupon_info.removeClass('woocommerce-info');
+				var $coupon_toggle = jQuery('.woocommerce-checkout div.woocommerce-form-coupon-toggle');
+				$coupon_toggle.insertAfter('table.woocommerce-checkout-review-order-table');
+				$coupon_form.insertAfter($coupon_toggle);
+
+				// errors
+				jQuery(document).on('checkout_error updated_checkout', function() {
+					jQuery('form.woocommerce-checkout').children('.woocommerce-error').prependTo('#customer_details');
+				});
+
+				// login
+				var $login_notice = jQuery('.woocommerce-checkout a.showlogin').parent('.woocommerce-info');
+				var $login_form = $login_notice.next('form.login');
+				$login_notice.prependTo('#customer_details').addClass('login-notice');
+				$login_form.insertAfter($login_notice);
+				jQuery( document.body ).on( 'click', 'a.showlogin', function() {
+					jQuery( '.create-account' ).toggle();
+				});
+
+				// other notices
+				var $notice = jQuery('.woocommerce-checkout .woocommerce').children('.woocommerce-message');
+				$notice.prependTo('#customer_details');
+			</script>
+						<script type="text/javascript">
+				window.addEventListener(
+					'DOMContentLoaded',
+					function () {
+						return wccom.fireTracksEvent( 'documentation_viewed', {"has_banner":"0","documentation":"document\/high-performance-order-storage","_via_ref":"https:\/\/woocommerce.com\/document\/high-performance-order-storage\/","current_url":"https:\/\/woocommerce.com\/document\/high-performance-order-storage\/"});
+					},
+				);
+			</script>
+						<script type="text/javascript">
+			var $mcGoal = {'settings':{'uuid':'2c1434dc56f9506bf3c3ecd21','dc':'us8'}};
+			(function() {
+			var sp = document.createElement('script'); sp.type = 'text/javascript'; sp.async = true; sp.defer = true;
+			sp.src = ('https:' == document.location.protocol ? 'https://s3.amazonaws.com/downloads.mailchimp.com' : 'http://downloads.mailchimp.com') + '/js/goal.min.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sp, s);
+			})();
+			</script>
+				<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<style id='jetpack-block-slideshow-inline-css'>
+.wp-block-jetpack-slideshow{margin-bottom:1.5em;position:relative}.wp-block-jetpack-slideshow [tabindex="-1"]:focus{outline:0}.wp-block-jetpack-slideshow.wp-amp-block>.wp-block-jetpack-slideshow_container{opacity:1}.wp-block-jetpack-slideshow.wp-amp-block.wp-block-jetpack-slideshow__autoplay .wp-block-jetpack-slideshow_button-play,.wp-block-jetpack-slideshow.wp-amp-block.wp-block-jetpack-slideshow__autoplay.wp-block-jetpack-slideshow__autoplay-playing .wp-block-jetpack-slideshow_button-pause{display:block}.wp-block-jetpack-slideshow.wp-amp-block.wp-block-jetpack-slideshow__autoplay.wp-block-jetpack-slideshow__autoplay-playing .wp-block-jetpack-slideshow_button-play{display:none}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_container{opacity:0;overflow:hidden;width:100%}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_container.wp-swiper-initialized{opacity:1}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_container.swiper-container{display:block}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_container .wp-block-jetpack-slideshow_slide,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_container .wp-block-jetpack-slideshow_swiper-wrapper{line-height:normal;margin:0;padding:0}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_container ul.wp-block-jetpack-slideshow_swiper-wrapper{display:flex}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_slide{display:flex;height:100%;width:100%}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_slide figure{align-items:center;display:flex;height:100%;justify-content:center;margin:0;position:relative;width:100%}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_slide figure .wp-block-jetpack-slideshow_image{pointer-events:none;-webkit-user-select:none;user-select:none}.wp-block-jetpack-slideshow.alignfull .wp-block-jetpack-slideshow_image,.wp-block-jetpack-slideshow.alignwide .wp-block-jetpack-slideshow_image{max-width:unset;-o-object-fit:cover;object-fit:cover;width:100vw}.wp-block-jetpack-slideshow .swiper-container-fade .wp-block-jetpack-slideshow_slide:not(.swiper-slide-active){opacity:0!important}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_image{display:block;height:auto;max-height:100%;max-width:100%;-o-object-fit:contain;object-fit:contain;width:auto}.wp-block-jetpack-slideshow .amp-carousel-button,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-next,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-pause,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-play,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-prev{background-color:#fff;background-position:50%;background-repeat:no-repeat;background-size:contain;border:0;border-radius:4px;box-shadow:none;height:30px;margin:-14px 0 0;opacity:.5;padding:0;transition:opacity .5s ease-out;width:28px}.wp-block-jetpack-slideshow .amp-carousel-button:focus,.wp-block-jetpack-slideshow .amp-carousel-button:hover,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-next:focus,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-next:hover,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-pause:focus,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-pause:hover,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-play:focus,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-play:hover,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-prev:focus,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-prev:hover{background-color:#fff;opacity:1}.wp-block-jetpack-slideshow .amp-carousel-button:focus,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-next:focus,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-pause:focus,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-play:focus,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-prev:focus{outline:thin dotted #fff;outline-offset:-4px}.wp-block-jetpack-slideshow .amp-carousel-button{margin:0}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-next,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-prev{display:none}.wp-block-jetpack-slideshow .swiper-button-next:after,.wp-block-jetpack-slideshow .swiper-button-prev:after,.wp-block-jetpack-slideshow .swiper-container-rtl .swiper-button-next:after,.wp-block-jetpack-slideshow .swiper-container-rtl .swiper-button-prev:after{content:""}.wp-block-jetpack-slideshow .amp-carousel-button-next,.wp-block-jetpack-slideshow .swiper-button-next.swiper-button-white,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-next,.wp-block-jetpack-slideshow.swiper-container-rtl .swiper-button-prev.swiper-button-white,.wp-block-jetpack-slideshow.swiper-container-rtl .wp-block-jetpack-slideshow_button-prev{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSI+PG1hc2sgaWQ9ImEiIHdpZHRoPSI4IiBoZWlnaHQ9IjEyIiB4PSI4IiB5PSI2IiBtYXNrLXR5cGU9ImFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNOC41OTggMTYuNTkgMTMuMTU2IDEyIDguNTk4IDcuNDEgMTAuMDAxIDZsNS45NyA2LTUuOTcgNi0xLjQwMy0xLjQxWiIvPjwvbWFzaz48ZyBtYXNrPSJ1cmwoI2EpIj48cGF0aCBmaWxsPSIjMDAwIiBkPSJNLjM0NCAwaDIzLjg4MnYyNEguMzQ0eiIvPjwvZz48L3N2Zz4=)}.wp-block-jetpack-slideshow .amp-carousel-button-prev,.wp-block-jetpack-slideshow .swiper-button-prev.swiper-button-white,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-prev,.wp-block-jetpack-slideshow.swiper-container-rtl .swiper-button-next.swiper-button-white,.wp-block-jetpack-slideshow.swiper-container-rtl .wp-block-jetpack-slideshow_button-next{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNCIgZmlsbD0ibm9uZSI+PG1hc2sgaWQ9ImEiIHdpZHRoPSI5IiBoZWlnaHQ9IjEyIiB4PSI4IiB5PSI2IiBtYXNrLXR5cGU9ImFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTYuMjA3IDE2LjU5IDExLjY1IDEybDQuNTU3LTQuNTlMMTQuODA0IDZsLTUuOTcgNiA1Ljk3IDYgMS40MDMtMS40MVoiLz48L21hc2s+PGcgbWFzaz0idXJsKCNhKSI+PHBhdGggZmlsbD0iIzAwMCIgZD0iTS41NzkgMGgyMy44ODJ2MjRILjU3OXoiLz48L2c+PC9zdmc+)}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-pause,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-play{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M6 19h4V5H6v14zm8-14v14h4V5h-4z'/%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3C/svg%3E");display:none;margin-top:0;position:absolute;right:10px;top:10px;z-index:1}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_autoplay-paused .wp-block-jetpack-slideshow_button-pause,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-play{background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3C/svg%3E")}.wp-block-jetpack-slideshow[data-autoplay=true] .wp-block-jetpack-slideshow_button-pause{display:block}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_caption.gallery-caption{background-color:rgba(0,0,0,.5);bottom:0;box-sizing:border-box;color:#fff;cursor:text;left:0;margin:0!important;max-height:100%;opacity:1;padding:.75em;position:absolute;right:0;text-align:initial;z-index:1}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_caption.gallery-caption a{color:inherit}.wp-block-jetpack-slideshow[data-autoplay=true] .wp-block-jetpack-slideshow_caption.gallery-caption{max-height:calc(100% - 68px)}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-bullets,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-custom{bottom:0;display:flex;gap:8px;justify-content:flex-start;line-height:24px;padding:10px 0 2px;position:relative}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-bullets .swiper-pagination-bullet,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-custom .swiper-pagination-bullet{background:currentColor;color:currentColor;height:8px;opacity:.5;transform:scale(.75);transition:opacity .25s,transform .25s;vertical-align:top;width:8px}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-bullets .swiper-pagination-bullet:focus,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-bullets .swiper-pagination-bullet:hover,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-custom .swiper-pagination-bullet:focus,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-custom .swiper-pagination-bullet:hover{opacity:1}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-bullets .swiper-pagination-bullet:focus,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-custom .swiper-pagination-bullet:focus{outline:thin dotted;outline-offset:0}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-bullets .swiper-pagination-bullet-active,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-bullets .swiper-pagination-bullet[selected],.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-custom .swiper-pagination-bullet-active,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-custom .swiper-pagination-bullet[selected]{background-color:currentColor;opacity:1;transform:scale(1)}.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-bullets .swiper-pagination-simple,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_pagination.swiper-pagination-custom .swiper-pagination-simple{font-size:14px;line-height:16px;text-align:left;width:100%}.wp-block-jetpack-slideshow_pagination.amp-pagination{text-align:center}.wp-block-jetpack-slideshow_pagination.amp-pagination .swiper-pagination-bullet{border:0;border-radius:100%;display:inline-block;margin:0 4px;padding:0}@media(min-width:600px){.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-next,.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_button-prev{display:block}}.is-email .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_container{height:auto;opacity:1;overflow:visible;width:auto}.is-email .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_container ul.wp-block-jetpack-slideshow_swiper-wrapper,.is-email .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_slide figure{display:block;margin-bottom:12px}.is-email .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_container ul.wp-block-jetpack-slideshow_swiper-wrapper,.is-email .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_slide{list-style:none;margin-left:auto;margin-right:auto}.is-email .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_slide{display:inline-block;height:auto;margin-left:2%!important;margin-right:2%!important;vertical-align:top;width:42%}.is-email .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_caption.gallery-caption{background-color:transparent;bottom:auto;color:inherit;padding-top:0;position:relative;right:auto}
+</style>
+<link rel='stylesheet' id='all-css-2' href='https://woocommerce.com/wp-content/themes/woo/dist/wccom-comp-docs-voting.min.css?m=1698236158g' type='text/css' media='all' />
+<script src='https://woocommerce.com/wp-includes/js/dist/vendor/react.min.js?ver=18.2.0' id='react-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.2.0' id='react-dom-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/deprecated.min.js?ver=73ad3591e7bc95f4777a' id='wp-deprecated-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/dom.min.js?ver=845eabf47b55af03adfa' id='wp-dom-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/escape-html.min.js?ver=03e27a7b6ae14f7afaa6' id='wp-escape-html-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/element.min.js?ver=ed1c7604880e8b574b40' id='wp-element-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/is-shallow-equal.min.js?ver=20c2b06ecf04afb14fee' id='wp-is-shallow-equal-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/keycodes.min.js?ver=3460bd0fac9859d6886c' id='wp-keycodes-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/priority-queue.min.js?ver=422e19e9d48b269c5219' id='wp-priority-queue-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/compose.min.js?ver=9424edf50a26435105c0' id='wp-compose-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/private-apis.min.js?ver=c7aedd57ea3c9b334e7d' id='wp-private-apis-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/redux-routine.min.js?ver=0be1b2a6a79703e28531' id='wp-redux-routine-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/data.min.js?ver=1504e29349b8a9d1ae51' id='wp-data-js'></script>
+<script id="wp-data-js-after" type="text/javascript">
+( function() {
+	var userId = 0;
+	var storageKey = "WP_DATA_USER_" + userId;
+	wp.data
+		.use( wp.data.plugins.persistence, { storageKey: storageKey } );
+} )();
+</script>
+<script src='https://woocommerce.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-registry.js?ver=ecaf398656735e56f2d30eafc248ef35' id='wc-blocks-registry-js'></script>
+<script id="wc-settings-js-before" type="text/javascript">
+var wcSettings = wcSettings || JSON.parse( decodeURIComponent( '%7B%22shippingCostRequiresAddress%22%3Afalse%2C%22adminUrl%22%3A%22https%3A%5C%2F%5C%2Fwoocommerce.com%5C%2Fwp-admin%5C%2F%22%2C%22countries%22%3A%7B%22AF%22%3A%22Afghanistan%22%2C%22AX%22%3A%22%5Cu00c5land%20Islands%22%2C%22AL%22%3A%22Albania%22%2C%22DZ%22%3A%22Algeria%22%2C%22AS%22%3A%22American%20Samoa%22%2C%22AD%22%3A%22Andorra%22%2C%22AO%22%3A%22Angola%22%2C%22AI%22%3A%22Anguilla%22%2C%22AQ%22%3A%22Antarctica%22%2C%22AG%22%3A%22Antigua%20and%20Barbuda%22%2C%22AR%22%3A%22Argentina%22%2C%22AM%22%3A%22Armenia%22%2C%22AW%22%3A%22Aruba%22%2C%22AU%22%3A%22Australia%22%2C%22AT%22%3A%22Austria%22%2C%22AZ%22%3A%22Azerbaijan%22%2C%22BS%22%3A%22Bahamas%22%2C%22BH%22%3A%22Bahrain%22%2C%22BD%22%3A%22Bangladesh%22%2C%22BB%22%3A%22Barbados%22%2C%22BY%22%3A%22Belarus%22%2C%22PW%22%3A%22Belau%22%2C%22BE%22%3A%22Belgium%22%2C%22BZ%22%3A%22Belize%22%2C%22BJ%22%3A%22Benin%22%2C%22BM%22%3A%22Bermuda%22%2C%22BT%22%3A%22Bhutan%22%2C%22BO%22%3A%22Bolivia%22%2C%22BQ%22%3A%22Bonaire%2C%20Saint%20Eustatius%20and%20Saba%22%2C%22BA%22%3A%22Bosnia%20and%20Herzegovina%22%2C%22BW%22%3A%22Botswana%22%2C%22BV%22%3A%22Bouvet%20Island%22%2C%22BR%22%3A%22Brazil%22%2C%22IO%22%3A%22British%20Indian%20Ocean%20Territory%22%2C%22BN%22%3A%22Brunei%22%2C%22BG%22%3A%22Bulgaria%22%2C%22BF%22%3A%22Burkina%20Faso%22%2C%22BI%22%3A%22Burundi%22%2C%22KH%22%3A%22Cambodia%22%2C%22CM%22%3A%22Cameroon%22%2C%22CA%22%3A%22Canada%22%2C%22CV%22%3A%22Cape%20Verde%22%2C%22KY%22%3A%22Cayman%20Islands%22%2C%22CF%22%3A%22Central%20African%20Republic%22%2C%22TD%22%3A%22Chad%22%2C%22CL%22%3A%22Chile%22%2C%22CN%22%3A%22China%22%2C%22CX%22%3A%22Christmas%20Island%22%2C%22CC%22%3A%22Cocos%20%28Keeling%29%20Islands%22%2C%22CO%22%3A%22Colombia%22%2C%22KM%22%3A%22Comoros%22%2C%22CG%22%3A%22Congo%20%28Brazzaville%29%22%2C%22CD%22%3A%22Congo%20%28Kinshasa%29%22%2C%22CK%22%3A%22Cook%20Islands%22%2C%22CR%22%3A%22Costa%20Rica%22%2C%22HR%22%3A%22Croatia%22%2C%22CU%22%3A%22Cuba%22%2C%22CW%22%3A%22Cura%26ccedil%3Bao%22%2C%22CY%22%3A%22Cyprus%22%2C%22CZ%22%3A%22Czech%20Republic%22%2C%22DK%22%3A%22Denmark%22%2C%22DJ%22%3A%22Djibouti%22%2C%22DM%22%3A%22Dominica%22%2C%22DO%22%3A%22Dominican%20Republic%22%2C%22EC%22%3A%22Ecuador%22%2C%22EG%22%3A%22Egypt%22%2C%22SV%22%3A%22El%20Salvador%22%2C%22GQ%22%3A%22Equatorial%20Guinea%22%2C%22ER%22%3A%22Eritrea%22%2C%22EE%22%3A%22Estonia%22%2C%22SZ%22%3A%22Eswatini%22%2C%22ET%22%3A%22Ethiopia%22%2C%22FK%22%3A%22Falkland%20Islands%22%2C%22FO%22%3A%22Faroe%20Islands%22%2C%22FJ%22%3A%22Fiji%22%2C%22FI%22%3A%22Finland%22%2C%22FR%22%3A%22France%22%2C%22GF%22%3A%22French%20Guiana%22%2C%22PF%22%3A%22French%20Polynesia%22%2C%22TF%22%3A%22French%20Southern%20Territories%22%2C%22GA%22%3A%22Gabon%22%2C%22GM%22%3A%22Gambia%22%2C%22GE%22%3A%22Georgia%22%2C%22DE%22%3A%22Germany%22%2C%22GH%22%3A%22Ghana%22%2C%22GI%22%3A%22Gibraltar%22%2C%22GR%22%3A%22Greece%22%2C%22GL%22%3A%22Greenland%22%2C%22GD%22%3A%22Grenada%22%2C%22GP%22%3A%22Guadeloupe%22%2C%22GU%22%3A%22Guam%22%2C%22GT%22%3A%22Guatemala%22%2C%22GG%22%3A%22Guernsey%22%2C%22GN%22%3A%22Guinea%22%2C%22GW%22%3A%22Guinea-Bissau%22%2C%22GY%22%3A%22Guyana%22%2C%22HT%22%3A%22Haiti%22%2C%22HM%22%3A%22Heard%20Island%20and%20McDonald%20Islands%22%2C%22HN%22%3A%22Honduras%22%2C%22HK%22%3A%22Hong%20Kong%22%2C%22HU%22%3A%22Hungary%22%2C%22IS%22%3A%22Iceland%22%2C%22IN%22%3A%22India%22%2C%22ID%22%3A%22Indonesia%22%2C%22IR%22%3A%22Iran%22%2C%22IQ%22%3A%22Iraq%22%2C%22IE%22%3A%22Ireland%22%2C%22IM%22%3A%22Isle%20of%20Man%22%2C%22IL%22%3A%22Israel%22%2C%22IT%22%3A%22Italy%22%2C%22CI%22%3A%22Ivory%20Coast%22%2C%22JM%22%3A%22Jamaica%22%2C%22JP%22%3A%22Japan%22%2C%22JE%22%3A%22Jersey%22%2C%22JO%22%3A%22Jordan%22%2C%22KZ%22%3A%22Kazakhstan%22%2C%22KE%22%3A%22Kenya%22%2C%22KI%22%3A%22Kiribati%22%2C%22KW%22%3A%22Kuwait%22%2C%22KG%22%3A%22Kyrgyzstan%22%2C%22LA%22%3A%22Laos%22%2C%22LV%22%3A%22Latvia%22%2C%22LB%22%3A%22Lebanon%22%2C%22LS%22%3A%22Lesotho%22%2C%22LR%22%3A%22Liberia%22%2C%22LY%22%3A%22Libya%22%2C%22LI%22%3A%22Liechtenstein%22%2C%22LT%22%3A%22Lithuania%22%2C%22LU%22%3A%22Luxembourg%22%2C%22MO%22%3A%22Macao%22%2C%22MG%22%3A%22Madagascar%22%2C%22MW%22%3A%22Malawi%22%2C%22MY%22%3A%22Malaysia%22%2C%22MV%22%3A%22Maldives%22%2C%22ML%22%3A%22Mali%22%2C%22MT%22%3A%22Malta%22%2C%22MH%22%3A%22Marshall%20Islands%22%2C%22MQ%22%3A%22Martinique%22%2C%22MR%22%3A%22Mauritania%22%2C%22MU%22%3A%22Mauritius%22%2C%22YT%22%3A%22Mayotte%22%2C%22MX%22%3A%22Mexico%22%2C%22FM%22%3A%22Micronesia%22%2C%22MD%22%3A%22Moldova%22%2C%22MC%22%3A%22Monaco%22%2C%22MN%22%3A%22Mongolia%22%2C%22ME%22%3A%22Montenegro%22%2C%22MS%22%3A%22Montserrat%22%2C%22MA%22%3A%22Morocco%22%2C%22MZ%22%3A%22Mozambique%22%2C%22MM%22%3A%22Myanmar%22%2C%22NA%22%3A%22Namibia%22%2C%22NR%22%3A%22Nauru%22%2C%22NP%22%3A%22Nepal%22%2C%22NL%22%3A%22Netherlands%22%2C%22NC%22%3A%22New%20Caledonia%22%2C%22NZ%22%3A%22New%20Zealand%22%2C%22NI%22%3A%22Nicaragua%22%2C%22NE%22%3A%22Niger%22%2C%22NG%22%3A%22Nigeria%22%2C%22NU%22%3A%22Niue%22%2C%22NF%22%3A%22Norfolk%20Island%22%2C%22KP%22%3A%22North%20Korea%22%2C%22MK%22%3A%22North%20Macedonia%22%2C%22MP%22%3A%22Northern%20Mariana%20Islands%22%2C%22NO%22%3A%22Norway%22%2C%22OM%22%3A%22Oman%22%2C%22PK%22%3A%22Pakistan%22%2C%22PS%22%3A%22Palestinian%20Territory%22%2C%22PA%22%3A%22Panama%22%2C%22PG%22%3A%22Papua%20New%20Guinea%22%2C%22PY%22%3A%22Paraguay%22%2C%22PE%22%3A%22Peru%22%2C%22PH%22%3A%22Philippines%22%2C%22PN%22%3A%22Pitcairn%22%2C%22PL%22%3A%22Poland%22%2C%22PT%22%3A%22Portugal%22%2C%22PR%22%3A%22Puerto%20Rico%22%2C%22QA%22%3A%22Qatar%22%2C%22RE%22%3A%22Reunion%22%2C%22RO%22%3A%22Romania%22%2C%22RU%22%3A%22Russia%22%2C%22RW%22%3A%22Rwanda%22%2C%22ST%22%3A%22S%26atilde%3Bo%20Tom%26eacute%3B%20and%20Pr%26iacute%3Bncipe%22%2C%22BL%22%3A%22Saint%20Barth%26eacute%3Blemy%22%2C%22SH%22%3A%22Saint%20Helena%22%2C%22KN%22%3A%22Saint%20Kitts%20and%20Nevis%22%2C%22LC%22%3A%22Saint%20Lucia%22%2C%22SX%22%3A%22Saint%20Martin%20%28Dutch%20part%29%22%2C%22MF%22%3A%22Saint%20Martin%20%28French%20part%29%22%2C%22PM%22%3A%22Saint%20Pierre%20and%20Miquelon%22%2C%22VC%22%3A%22Saint%20Vincent%20and%20the%20Grenadines%22%2C%22WS%22%3A%22Samoa%22%2C%22SM%22%3A%22San%20Marino%22%2C%22SA%22%3A%22Saudi%20Arabia%22%2C%22SN%22%3A%22Senegal%22%2C%22RS%22%3A%22Serbia%22%2C%22SC%22%3A%22Seychelles%22%2C%22SL%22%3A%22Sierra%20Leone%22%2C%22SG%22%3A%22Singapore%22%2C%22SK%22%3A%22Slovakia%22%2C%22SI%22%3A%22Slovenia%22%2C%22SB%22%3A%22Solomon%20Islands%22%2C%22SO%22%3A%22Somalia%22%2C%22ZA%22%3A%22South%20Africa%22%2C%22GS%22%3A%22South%20Georgia%5C%2FSandwich%20Islands%22%2C%22KR%22%3A%22South%20Korea%22%2C%22SS%22%3A%22South%20Sudan%22%2C%22ES%22%3A%22Spain%22%2C%22LK%22%3A%22Sri%20Lanka%22%2C%22SD%22%3A%22Sudan%22%2C%22SR%22%3A%22Suriname%22%2C%22SJ%22%3A%22Svalbard%20and%20Jan%20Mayen%22%2C%22SE%22%3A%22Sweden%22%2C%22CH%22%3A%22Switzerland%22%2C%22SY%22%3A%22Syria%22%2C%22TW%22%3A%22Taiwan%22%2C%22TJ%22%3A%22Tajikistan%22%2C%22TZ%22%3A%22Tanzania%22%2C%22TH%22%3A%22Thailand%22%2C%22TL%22%3A%22Timor-Leste%22%2C%22TG%22%3A%22Togo%22%2C%22TK%22%3A%22Tokelau%22%2C%22TO%22%3A%22Tonga%22%2C%22TT%22%3A%22Trinidad%20and%20Tobago%22%2C%22TN%22%3A%22Tunisia%22%2C%22TR%22%3A%22Turkey%22%2C%22TM%22%3A%22Turkmenistan%22%2C%22TC%22%3A%22Turks%20and%20Caicos%20Islands%22%2C%22TV%22%3A%22Tuvalu%22%2C%22UG%22%3A%22Uganda%22%2C%22UA%22%3A%22Ukraine%22%2C%22AE%22%3A%22United%20Arab%20Emirates%22%2C%22GB%22%3A%22United%20Kingdom%20%28UK%29%22%2C%22US%22%3A%22United%20States%20%28US%29%22%2C%22UM%22%3A%22United%20States%20%28US%29%20Minor%20Outlying%20Islands%22%2C%22UY%22%3A%22Uruguay%22%2C%22UZ%22%3A%22Uzbekistan%22%2C%22VU%22%3A%22Vanuatu%22%2C%22VA%22%3A%22Vatican%22%2C%22VE%22%3A%22Venezuela%22%2C%22VN%22%3A%22Vietnam%22%2C%22VG%22%3A%22Virgin%20Islands%20%28British%29%22%2C%22VI%22%3A%22Virgin%20Islands%20%28US%29%22%2C%22WF%22%3A%22Wallis%20and%20Futuna%22%2C%22EH%22%3A%22Western%20Sahara%22%2C%22YE%22%3A%22Yemen%22%2C%22ZM%22%3A%22Zambia%22%2C%22ZW%22%3A%22Zimbabwe%22%7D%2C%22currency%22%3A%7B%22code%22%3A%22USD%22%2C%22precision%22%3A2%2C%22symbol%22%3A%22%24%22%2C%22symbolPosition%22%3A%22left%22%2C%22decimalSeparator%22%3A%22.%22%2C%22thousandSeparator%22%3A%22%2C%22%2C%22priceFormat%22%3A%22%251%24s%252%24s%22%7D%2C%22currentUserId%22%3A0%2C%22currentUserIsAdmin%22%3Afalse%2C%22homeUrl%22%3A%22https%3A%5C%2F%5C%2Fwoocommerce.com%5C%2F%22%2C%22locale%22%3A%7B%22siteLocale%22%3A%22en_US%22%2C%22userLocale%22%3A%22en_US%22%2C%22weekdaysShort%22%3A%5B%22Sun%22%2C%22Mon%22%2C%22Tue%22%2C%22Wed%22%2C%22Thu%22%2C%22Fri%22%2C%22Sat%22%5D%7D%2C%22dashboardUrl%22%3A%22https%3A%5C%2F%5C%2Fwoocommerce.com%5C%2Fmy-account%5C%2F%22%2C%22orderStatuses%22%3A%7B%22pending%22%3A%22Pending%20payment%22%2C%22processing%22%3A%22Processing%22%2C%22on-hold%22%3A%22On%20hold%22%2C%22completed%22%3A%22Completed%22%2C%22cancelled%22%3A%22Cancelled%22%2C%22refunded%22%3A%22Refunded%22%2C%22failed%22%3A%22Failed%22%2C%22checkout-draft%22%3A%22Draft%22%7D%2C%22placeholderImgSrc%22%3A%22https%3A%5C%2F%5C%2Fwoocommerce.com%5C%2Fwp-content%5C%2Fplugins%5C%2Fwoocommerce%5C%2Fassets%5C%2Fimages%5C%2Fplaceholder.png%22%2C%22productsSettings%22%3A%7B%22cartRedirectAfterAdd%22%3Atrue%7D%2C%22siteTitle%22%3A%22WooCommerce%22%2C%22storePages%22%3A%7B%22myaccount%22%3A%7B%22id%22%3A18553%2C%22title%22%3A%22Account%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fwoocommerce.com%5C%2Fmy-account%5C%2F%22%7D%2C%22shop%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%2C%22cart%22%3A%7B%22id%22%3A18552%2C%22title%22%3A%22Cart%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fwoocommerce.com%5C%2Fcart%5C%2F%22%7D%2C%22checkout%22%3A%7B%22id%22%3A18545%2C%22title%22%3A%22Checkout%22%2C%22permalink%22%3A%22https%3A%5C%2F%5C%2Fwoocommerce.com%5C%2Fcheckout%5C%2F%22%7D%2C%22privacy%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%2C%22terms%22%3A%7B%22id%22%3A0%2C%22title%22%3A%22%22%2C%22permalink%22%3Afalse%7D%7D%2C%22wcAssetUrl%22%3A%22https%3A%5C%2F%5C%2Fwoocommerce.com%5C%2Fwp-content%5C%2Fplugins%5C%2Fwoocommerce%5C%2Fassets%5C%2F%22%2C%22wcVersion%22%3A%228.2.0%22%2C%22wpLoginUrl%22%3A%22https%3A%5C%2F%5C%2Fwoocommerce.com%5C%2Fwp-login.php%22%2C%22wpVersion%22%3A%226.3.2%22%2C%22collectableMethodIds%22%3A%5B%5D%2C%22admin%22%3A%7B%22wccomHelper%22%3A%7B%22isConnected%22%3Atrue%2C%22connectURL%22%3A%22https%3A%5C%2F%5C%2Fwoocommerce.com%5C%2Fwp-admin%5C%2Fadmin.php%3Fpage%3Dwc-addons%26section%3Dhelper%26wc-helper-disconnect%3D1%26wc-helper-nonce%3D81598765ac%22%2C%22userEmail%22%3A%22ezinne.ihenetu%40automattic.com%22%2C%22userAvatar%22%3A%22https%3A%5C%2F%5C%2Fsecure.gravatar.com%5C%2Favatar%5C%2F180ce4d382b2bfb9804a72505e5df84e%3Fs%3D48%26d%3Dmm%26r%3Dg%22%2C%22storeCountry%22%3A%22US%22%2C%22inAppPurchaseURLParams%22%3A%7B%22wccom-site%22%3A%22https%3A%5C%2F%5C%2Fwoocommerce.com%22%2C%22wccom-back%22%3A%22%252Fdocument%252Fhigh-performance-order-storage%252F%22%2C%22wccom-woo-version%22%3A%228.2.0%22%2C%22wccom-connect-nonce%22%3A%228cfa658935%22%7D%7D%2C%22_feature_nonce%22%3A%22379eaa3179%22%2C%22alertCount%22%3A%220%22%2C%22visibleTaskListIds%22%3A%5B%22extended%22%5D%7D%7D' ) );
+</script>
+<script src='https://woocommerce.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-settings.js?ver=b31b6165ac2a07ada0ff536d52b1466d' id='wc-settings-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/data-controls.min.js?ver=fe4ccc8a1782ea8e2cb1' id='wp-data-controls-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/html-entities.min.js?ver=36a4a255da7dd2e1bf8e' id='wp-html-entities-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/notices.min.js?ver=38e88f4b627cf873edd0' id='wp-notices-js'></script>
+<script id="wc-blocks-middleware-js-before" type="text/javascript">
+			var wcBlocksMiddlewareConfig = {
+				storeApiNonce: '812b8fed19',
+				wcStoreApiNonceTimestamp: '1698239588'
+			};
+			
+</script>
+<script src='https://woocommerce.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-middleware.js?ver=208988bfef8a0a939e506218fc806a2b' id='wc-blocks-middleware-js'></script>
+<script src='https://woocommerce.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-data.js?ver=6279193027a1b903984715859dfcbaab' id='wc-blocks-data-store-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca' id='wp-dom-ready-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/a11y.min.js?ver=7032343a947cfccf5608' id='wp-a11y-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/primitives.min.js?ver=b90ba9340ccd8dae04b5' id='wp-primitives-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/warning.min.js?ver=4acee5fc2fd9a24cefc2' id='wp-warning-js'></script>
+<script src='https://woocommerce.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/blocks-checkout.js?ver=cb1e22af331a53010b79e1484a5344bd' id='wc-blocks-checkout-js'></script>
+<script src='https://woocommerce.com/wp-content/plugins/dist/wccom-plugins/cart/discounted-renewal-notice/frontend.min.js?ver=2023-10-25_09:37' id='cart-discounted-renewal-notice-frontend-js'></script>
+<script src='https://woocommerce.com/wp-content/plugins/coblocks/dist/js/coblocks-animation.js?ver=2.22.10' id='coblocks-animation-js'></script>
+<script id='coblocks-lightbox-js-extra'>
+var coblocksLigthboxData = {"closeLabel":"Close Gallery","leftLabel":"Previous","rightLabel":"Next"};
+</script>
+<script src='https://woocommerce.com/wp-content/plugins/coblocks/dist/js/coblocks-lightbox.js?ver=2.22.10' id='coblocks-lightbox-js'></script>
+<script id='wc-add-to-cart-js-extra'>
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/woocommerce.com\/cart\/","is_cart":"","cart_redirect_after_add":"yes","is_admin":""};
+</script>
+<script src='https://woocommerce.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=8.2.0' id='wc-add-to-cart-js'></script>
+<script src='https://woocommerce.com/wp-content/plugins/woocommerce-order-source-attribution/assets/js/sourcebuster.min.js?ver=0.1.0' id='sourcebuster-js-js'></script>
+<script id='woocommerce-order-attribute-source-js-js-extra'>
+var wc_order_attribute_source_params = {"lifetime":"6","session":"30","ajaxurl":"https:\/\/woocommerce.com\/wp-admin\/admin-ajax.php","prefix":"wc_order_source_attribution_","allowTracking":"no"};
+</script>
+<script src='https://woocommerce.com/wp-content/plugins/woocommerce-order-source-attribution/assets/js/woocommerce-order-attribute-source.js?ver=0.1.0' id='woocommerce-order-attribute-source-js-js'></script>
+<script src='https://woocommerce.com/wp-content/plugins/woocommerce-order-source-attribution/assets/js/wccom-integration.js?ver=0.1.0' id='wccom-integration-js-js'></script>
+<script id='wc-prl-main-js-extra'>
+var wc_prl_params = {"version":"2.2.2","tracking_enabled":"no","shopping_session_seconds":"86400","clicks_max_cookie_num":"250","recently_views_max_cookie_num":"100","ajax_add_to_cart":"yes","script_debug":"no"};
+</script>
+<script src='https://woocommerce.com/wp-content/plugins/woocommerce-product-recommendations/assets/js/frontend/wc-prl-main.min.js?ver=2.2.2' id='wc-prl-main-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4' id='moment-js'></script>
+<script id="moment-js-after" type="text/javascript">
+moment.updateLocale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+</script>
+<script src='https://woocommerce.com/wp-includes/js/dist/date.min.js?ver=505e060585ac0f4b6cb6' id='wp-date-js'></script>
+<script id="wp-date-js-after" type="text/javascript">
+wp.date.setSettings( {"l10n":{"locale":"en_US","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"meridiem":{"am":"am","pm":"pm","AM":"AM","PM":"PM"},"relative":{"future":"%s from now","past":"%s ago"},"startOfWeek":1},"formats":{"time":"g:i a","date":"F j, Y","datetime":"F j, Y g:i a","datetimeAbbreviated":"M j, Y g:i a"},"timezone":{"offset":2,"string":"","abbr":""}} );
+</script>
+<script src='https://woocommerce.com/wp-includes/js/dist/rich-text.min.js?ver=477e6aed00daeb0e4ab6' id='wp-rich-text-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/components.min.js?ver=0f16bd3719000192197f' id='wp-components-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/dist/viewport.min.js?ver=1fbef8175bb335c5603b' id='wp-viewport-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/backbone.min.js?ver=1.4.1' id='backbone-js'></script>
+<script id='wp-api-request-js-extra'>
+var wpApiSettings = {"root":"https:\/\/woocommerce.com\/wp-json\/","nonce":"f59ca536fc","versionString":"wp\/v2\/"};
+</script>
+<script src='https://woocommerce.com/wp-includes/js/api-request.min.js?ver=6.3.2' id='wp-api-request-js'></script>
+<script src='https://woocommerce.com/wp-includes/js/wp-api.min.js?ver=6.3.2' id='wp-api-js'></script>
+<script src='https://woocommerce.com/wp-content/themes/woo/dist/commons-wccom-components~wccom-home-components.min.js?ver=2023-10-25_09:37' id='commons-wccom-components~wccom-home-components.min-js'></script>
+<script id='wccom-components-js-extra'>
+var wccomMainNavigation = "[{\"id\":18734001807882,\"title\":\"Sell\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"#\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"#\",\"items\":[{\"id\":18734001807883,\"title\":\"Woo for Merchants\",\"description\":\"Woo Express offers everything you need to launch a store in days and keep it growing for years\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/express\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/express\\\/\",\"items\":[]},{\"id\":18734001807884,\"title\":\"Payments\",\"description\":\"Accept payments and manage transactions right from your dashboard with WooPayments\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/payments\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/payments\\\/\",\"items\":[]},{\"id\":18734001807885,\"title\":\"Shipping\",\"description\":\"Save time and money with WooCommerce Shipping\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/products\\\/shipping\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/products\\\/shipping\\\/\",\"items\":[]},{\"id\":18734001807886,\"title\":\"No-Code Customization\",\"description\":\"Create exactly the store you want without touching a line of code\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/customize\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/customize\\\/\",\"items\":[]},{\"id\":18734001807887,\"title\":\"Woo for Developers\",\"description\":\"Build powerful ecommerce solutions with our open, WordPress-based platform\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/wordpress-ecommerce\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/wordpress-ecommerce\\\/\",\"items\":[]},{\"id\":18734001807888,\"title\":\"Optimized Checkout\",\"description\":\"Increase conversion with a customized checkout experience\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/checkout-blocks\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/checkout-blocks\\\/\",\"items\":[]},{\"id\":18734001807889,\"title\":\"Marketing\",\"description\":\"Build your brand and reach more shoppers with content marketing, SEO tools, and up-sells\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/marketing\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/marketing\\\/\",\"items\":[]},{\"id\":18734001807890,\"title\":\"Mobile App\",\"description\":\"Manage your business on the go\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/mobile\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/mobile\\\/\",\"items\":[]},{\"id\":18734001807891,\"title\":\"Woo for Enterprise\",\"description\":\"Next-level customization and advanced features for established merchants\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/enterprise-ecommerce\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/enterprise-ecommerce\\\/\",\"items\":[]},{\"id\":18734002439650,\"title\":\"Multi-Channel Ecommerce\",\"description\":\"Find new audiences and increase sales by selling across multiple channels\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"https:\\\/\\\/woocommerce.com\\\/multi-channel-ecommerce\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"https:\\\/\\\/woocommerce.com\\\/multi-channel-ecommerce\\\/\",\"items\":[]}]},{\"id\":18734001807892,\"title\":\"Extensions\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"#\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"#\",\"items\":[{\"id\":18734001807893,\"title\":\"Woo Marketplace\",\"description\":\"Find everything you need to enhance your store and grow your sales\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/products\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/products\\\/\",\"items\":[]},{\"id\":18734001807894,\"title\":\"Extensions\",\"description\":\"Grow your business with hundreds of free and paid extensions\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/\",\"items\":[]},{\"id\":18734001807895,\"title\":\"Themes\",\"description\":\"Quickly build a beautiful store with one of our professionally designed themes\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/themes\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/themes\\\/\",\"items\":[]},{\"id\":18734001807896,\"title\":\"Collections\",\"description\":\"Explore curated extension collections tailored for different business needs\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/collections\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/collections\\\/\",\"items\":[]},{\"id\":18734002665161,\"title\":\"Black Friday Guide\",\"description\":\"Prepare your store for Black Friday and Cyber Monday\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/black-friday-merchant-guide\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/black-friday-merchant-guide\\\/\",\"items\":[]},{\"id\":18734001807897,\"title\":\"Category\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"#\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"#\",\"items\":[]},{\"id\":18734001807898,\"title\":\"All Extensions\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/\",\"items\":[]},{\"id\":18734001807899,\"title\":\"New\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/?orderby=date&amp;paged=1\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/?orderby=date&#038;paged=1\",\"items\":[]},{\"id\":18734001807900,\"title\":\"Developed by Woo\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/developed-by-woo\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/developed-by-woo\\\/\",\"items\":[]},{\"id\":18734001807901,\"title\":\"Free\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/?categoryIds=1029\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/?categoryIds=1029\",\"items\":[]},{\"id\":18734001807902,\"title\":\"Payments\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"#\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"#\",\"items\":[{\"id\":18734001807903,\"title\":\"All Payments\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/payment-gateways\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/payment-gateways\\\/\",\"items\":[]},{\"id\":18734001807904,\"title\":\"Payment Processors &#038; Gateways\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/payment-gateways\\\/online-payments\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/payment-gateways\\\/online-payments\",\"items\":[]},{\"id\":18734001807905,\"title\":\"Wallets &#038; Buy Now Pay Later\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/payment-gateways\\\/wallets\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/payment-gateways\\\/wallets\\\/\",\"items\":[]},{\"id\":18734001807907,\"title\":\"In-Person Payments &#038; POS\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/payment-gateways\\\/in-person-payments\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/payment-gateways\\\/in-person-payments\",\"items\":[]},{\"id\":18734001807909,\"title\":\"Crypto Payments\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/payment-gateways\\\/crypto-payments\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/payment-gateways\\\/crypto-payments\",\"items\":[]},{\"id\":18734002465561,\"title\":\"Payment Management\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"https:\\\/\\\/woocommerce.com\\\/product-category\\\/woocommerce-extensions\\\/payment-gateways\\\/payment-management\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"https:\\\/\\\/woocommerce.com\\\/product-category\\\/woocommerce-extensions\\\/payment-gateways\\\/payment-management\",\"items\":[]}]},{\"id\":18734001807910,\"title\":\"Merchandising\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"#\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"#\",\"items\":[{\"id\":18734001807911,\"title\":\"All Merchandising\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\",\"items\":[]},{\"id\":18734001807912,\"title\":\"B2B\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/b2b\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/b2b\\\/\",\"items\":[]},{\"id\":18734001807913,\"title\":\"Bookings and Appointments\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/bookings-and-appointments\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/bookings-and-appointments\",\"items\":[]},{\"id\":18734001807914,\"title\":\"Bundles\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/bundles\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/bundles\",\"items\":[]},{\"id\":18734001807915,\"title\":\"Gifts\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/gifts\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/gifts\",\"items\":[]},{\"id\":18734001807916,\"title\":\"Order Options\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/order-options\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/order-options\",\"items\":[]},{\"id\":18734001807917,\"title\":\"Pricing\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/pricing\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/pricing\",\"items\":[]},{\"id\":18734001807918,\"title\":\"Product Display\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/product-display\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/product-display\",\"items\":[]},{\"id\":18734001807919,\"title\":\"Product Options\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/product-options\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/product-options\",\"items\":[]},{\"id\":18734001807920,\"title\":\"Product Variations\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/product-variations\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/product-variations\",\"items\":[]},{\"id\":18734001807921,\"title\":\"Subscriptions\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/subscriptions-merchandising\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/merchandising\\\/subscriptions-merchandising\",\"items\":[]}]},{\"id\":18734001807922,\"title\":\"Store Content and Customizations\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"#\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"#\",\"items\":[{\"id\":18734001807923,\"title\":\"All Store Content and Customizations\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/store-content-and-customizations\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/store-content-and-customizations\",\"items\":[]},{\"id\":18734001807924,\"title\":\"Cart and Checkout Features\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/store-content-and-customizations\\\/cart-and-checkout-features\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/store-content-and-customizations\\\/cart-and-checkout-features\",\"items\":[]},{\"id\":18734001807925,\"title\":\"Search and Navigation\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/store-content-and-customizations\\\/search-and-navigation\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/store-content-and-customizations\\\/search-and-navigation\",\"items\":[]},{\"id\":18734001807926,\"title\":\"International and Localization\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/store-content-and-customizations\\\/international-and-localization\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/store-content-and-customizations\\\/international-and-localization\",\"items\":[]},{\"id\":18734001807927,\"title\":\"Product Images and Media\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/store-content-and-customizations\\\/product-images-and-media\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/store-content-and-customizations\\\/product-images-and-media\",\"items\":[]},{\"id\":18734001807928,\"title\":\"Store Page Enhancements\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/store-content-and-customizations\\\/store-page-enhancements\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/store-content-and-customizations\\\/store-page-enhancements\",\"items\":[]}]},{\"id\":18734001807929,\"title\":\"Shipping, Delivery, and Fulfillment\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"#\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"#\",\"items\":[{\"id\":18734001807930,\"title\":\"All Shipping, Delivery, and Fulfillment\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/shipping-delivery-and-fulfillment\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/shipping-delivery-and-fulfillment\",\"items\":[]},{\"id\":18734001807931,\"title\":\"Shipping Rates at Checkout\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/shipping-delivery-and-fulfillment\\\/shipping-rates-at-checkout\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/shipping-delivery-and-fulfillment\\\/shipping-rates-at-checkout\",\"items\":[]},{\"id\":18734001807932,\"title\":\"Label Printing\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/shipping-delivery-and-fulfillment\\\/label-printing\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/shipping-delivery-and-fulfillment\\\/label-printing\",\"items\":[]},{\"id\":18734001807933,\"title\":\"Delivery Options and Enhancements\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/shipping-delivery-and-fulfillment\\\/delivery-options-and-enhancements\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/shipping-delivery-and-fulfillment\\\/delivery-options-and-enhancements\",\"items\":[]},{\"id\":18734001807934,\"title\":\"Inventory and Order Management\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/shipping-delivery-and-fulfillment\\\/inventory-and-order-management\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/shipping-delivery-and-fulfillment\\\/inventory-and-order-management\",\"items\":[]},{\"id\":18734001807935,\"title\":\"Fulfillment and Dropshipping\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/shipping-delivery-and-fulfillment\\\/fulfillment-and-dropshipping\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/shipping-delivery-and-fulfillment\\\/fulfillment-and-dropshipping\",\"items\":[]}]},{\"id\":18734001807936,\"title\":\"Marketing\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"#\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"#\",\"items\":[{\"id\":18734001807937,\"title\":\"All Marketing\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\",\"items\":[]},{\"id\":18734001807938,\"title\":\"Email\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/email-marketing-extensions\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/email-marketing-extensions\",\"items\":[]},{\"id\":18734001807939,\"title\":\"Sales Channels\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/sales-channels\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/sales-channels\",\"items\":[]},{\"id\":18734001807940,\"title\":\"CRM\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/crm-marketing-extensions\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/crm-marketing-extensions\",\"items\":[]},{\"id\":18734001807941,\"title\":\"Automation\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/automation\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/automation\",\"items\":[]},{\"id\":18734001807944,\"title\":\"Advertising and Promotions\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/advertising-and-promotions\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/advertising-and-promotions\",\"items\":[]},{\"id\":18734001807945,\"title\":\"Reporting and Analytics\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/reporting-and-analytics\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/reporting-and-analytics\",\"items\":[]},{\"id\":18734001807946,\"title\":\"Social\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/social\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/social\",\"items\":[]},{\"id\":18734001807947,\"title\":\"SEO and SEM\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/seo-and-sem\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/marketing-extensions\\\/seo-and-sem\",\"items\":[]}]},{\"id\":18734001807948,\"title\":\"Conversion\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"#\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"#\",\"items\":[{\"id\":18734001807949,\"title\":\"All Conversion\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/conversion\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/conversion\",\"items\":[]},{\"id\":18734001807950,\"title\":\"Promotions\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/conversion\\\/promotions-conversion\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/conversion\\\/promotions-conversion\",\"items\":[]},{\"id\":18734001807951,\"title\":\"Upsells and Cross-sells\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/conversion\\\/upsells-and-cross-sells\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/conversion\\\/upsells-and-cross-sells\",\"items\":[]},{\"id\":18734001807952,\"title\":\"Customer Feedback\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/conversion\\\/customer-feedback\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/conversion\\\/customer-feedback\",\"items\":[]},{\"id\":18734001807953,\"title\":\"Recovering Orders\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/conversion\\\/recovering-orders\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/conversion\\\/recovering-orders\",\"items\":[]},{\"id\":18734001807954,\"title\":\"Store Alerts\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/conversion\\\/store-alerts\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/conversion\\\/store-alerts\",\"items\":[]},{\"id\":18734001807955,\"title\":\"Rewards and Loyalty\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/conversion\\\/rewards-and-loyalty\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/conversion\\\/rewards-and-loyalty\",\"items\":[]}]},{\"id\":18734001807956,\"title\":\"Customer Service\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"#\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"#\",\"items\":[{\"id\":18734001807957,\"title\":\"Support\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/customer-service-2\\\/support\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/customer-service-2\\\/support\",\"items\":[]},{\"id\":18734001807958,\"title\":\"Live Chat\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/customer-service-2\\\/live-chat\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/customer-service-2\\\/live-chat\",\"items\":[]},{\"id\":18734001807959,\"title\":\"Managing Customers\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/customer-service-2\\\/managing-customers\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/customer-service-2\\\/managing-customers\",\"items\":[]},{\"id\":18734001807960,\"title\":\"Post-Purchase Services\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/customer-service-2\\\/post-purchase-services\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/customer-service-2\\\/post-purchase-services\",\"items\":[]},{\"id\":18734001807961,\"title\":\"Customer Accounts\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/customer-service-2\\\/customer-accounts\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/customer-service-2\\\/customer-accounts\",\"items\":[]}]},{\"id\":18734001807962,\"title\":\"Store Management\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"#\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"#\",\"items\":[{\"id\":18734001807963,\"title\":\"All Store Management\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\",\"items\":[]},{\"id\":18734001807964,\"title\":\"Order Management\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/order-management\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/order-management\",\"items\":[]},{\"id\":18734001807965,\"title\":\"Business Insights\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/business-insights\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/business-insights\",\"items\":[]},{\"id\":18734001807966,\"title\":\"Policy and Security\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/policy-and-security\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/policy-and-security\",\"items\":[]},{\"id\":18734001807967,\"title\":\"Admin and Notifications\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/admin-notifications\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/admin-notifications\",\"items\":[]},{\"id\":18734001807968,\"title\":\"Accounting\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/accounting-extensions\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/accounting-extensions\",\"items\":[]},{\"id\":18734001807969,\"title\":\"Sales Tax and Duties\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/sales-tax-and-duties\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/sales-tax-and-duties\",\"items\":[]},{\"id\":18734001807970,\"title\":\"Import and Export\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/import-and-export\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/import-and-export\",\"items\":[]},{\"id\":18734001807971,\"title\":\"Point of sale\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/point-of-sale\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/operations\\\/point-of-sale\",\"items\":[]},{\"id\":18734001807972,\"title\":\"Merchant Financing\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/product-category\\\/woocommerce-extensions\\\/payment-gateways\\\/merchant-financing\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/product-category\\\/woocommerce-extensions\\\/payment-gateways\\\/merchant-financing\",\"items\":[]}]}]},{\"id\":18734001807973,\"title\":\"Resources\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"#\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"#\",\"items\":[{\"id\":18734001807974,\"title\":\"Blog\",\"description\":\"Get regular tips, tricks and ecommerce inspiration from the Woo team\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/blog\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/blog\\\/\",\"items\":[]},{\"id\":18734001807975,\"title\":\"Guides\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"#\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"#\",\"items\":[{\"id\":18734002440043,\"title\":\"How to Build an Online Store on WooCommerce\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/document\\\/build-online-store\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/document\\\/build-online-store\\\/\",\"items\":[]},{\"id\":18734001807977,\"title\":\"How to Start an Online Business\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/posts\\\/how-to-start-an-online-business\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/posts\\\/how-to-start-an-online-business\\\/\",\"items\":[]},{\"id\":18734001807978,\"title\":\"Omnichannel Commerce\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/intro-to-omnichannel-ebook\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/intro-to-omnichannel-ebook\\\/\",\"items\":[]},{\"id\":18734001807980,\"title\":\"Email Marketing\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/woocommerce-email-marketing\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/woocommerce-email-marketing\\\/\",\"items\":[]},{\"id\":18734001807981,\"title\":\"A Guide to Shipping for Ecommerce Stores\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/posts\\\/ecommerce-shipping-solutions-guide\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/posts\\\/ecommerce-shipping-solutions-guide\\\/\",\"items\":[]},{\"id\":18734001807982,\"title\":\"GDPR\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/gdpr\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/gdpr\\\/\",\"items\":[]},{\"id\":18734001807983,\"title\":\"CBD Store Owners\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/sell-cbd-online\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/sell-cbd-online\\\/\",\"items\":[]},{\"id\":18734001807984,\"title\":\"How to Sell Internationally\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/posts\\\/global-ecommerce-business-success-guide\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/posts\\\/global-ecommerce-business-success-guide\\\/\",\"items\":[]}]},{\"id\":18734001807985,\"title\":\"Documentation\",\"description\":\"Discover guides, tutorials, and technical resources for WooCommerce\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/docs\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/docs\\\/\",\"items\":[]},{\"id\":18734001807986,\"title\":\"Customer Showcase\",\"description\":\"See how merchants and developers are using Woo to create beautiful, successful stores\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/showcase\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/showcase\\\/\",\"items\":[]},{\"id\":18734001807987,\"title\":\"Hire an Expert\",\"description\":\"Get help building or customizing your store from one of our trusted WooExpert agencies\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/customizations\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/customizations\\\/\",\"items\":[]},{\"id\":18734001807976,\"title\":\"WooCommerce Hosting\",\"description\":\"Find trusted hosting solutions for your Woo store\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/hosting-solutions\\\/\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/hosting-solutions\\\/\",\"items\":[]}]},{\"id\":18734001807988,\"title\":\"Enterprise Ecommerce\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"\\\/enterprise-ecommerce\\\/?woosource=nav_menu_click\",\"data-tracks-menu\":\"WCCOM Primary Menu\"},\"link\":\"\\\/enterprise-ecommerce\\\/?woosource=nav_menu_click\",\"items\":[]}]";
+var wccomSecondaryNavigation = "[{\"id\":18734001808150,\"title\":\"Develop on Woo\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"https:\\\/\\\/woocommerce.com\\\/wordpress-ecommerce\\\/\",\"data-tracks-menu\":\"WCCOM Header Top Menu\"},\"link\":\"https:\\\/\\\/woocommerce.com\\\/wordpress-ecommerce\\\/\",\"items\":[]},{\"id\":18734001808143,\"title\":\"Hire an Expert\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"https:\\\/\\\/partners.woocommerce.com\\\/English\\\/marketplace\\\/\",\"data-tracks-menu\":\"WCCOM Header Top Menu\"},\"link\":\"https:\\\/\\\/partners.woocommerce.com\\\/English\\\/marketplace\\\/\",\"items\":[]},{\"id\":18734001808152,\"title\":\"Get Support\",\"description\":\"\",\"attributes\":{\"data-tracks\":\"nav_menu_click\",\"data-tracks-url\":\"https:\\\/\\\/woocommerce.com\\\/my-account\\\/contact-support\\\/\",\"data-tracks-menu\":\"WCCOM Header Top Menu\"},\"link\":\"https:\\\/\\\/woocommerce.com\\\/my-account\\\/contact-support\\\/\",\"items\":[]}]";
+var wccomMenuLocations = "{\"mainNavigation\":{\"location\":\"wccom_primary_nav\",\"menu_id\":32363},\"secondaryNavigation\":{\"location\":\"wccom_top_nav\",\"menu_id\":32364}}";
+var wccomMainMenuAds = "{\"extensions\":[{\"menuId\":\"18734001807962\",\"productId\":3220291,\"productName\":\"WooCommerce Tax\",\"productUrl\":\"https:\\\/\\\/woocommerce.com\\\/products\\\/tax\\\/\",\"productType\":\"extension\",\"shortDescription\":\"Automatically calculate how much sales tax should be collected for WooCommerce orders \\u2014 by city, country, or state \\u2014 at checkout.\",\"vendorName\":\"WooCommerce\",\"imageAppIcon\":\"https:\\\/\\\/woocommerce.com\\\/wp-content\\\/uploads\\\/2018\\\/06\\\/Woo-Tax-Marketplace-Icon-160x160-1.png\",\"reviewsData\":{\"rating\":4.4,\"numberOfReviews\":8,\"shouldShowReviews\":false}},{\"menuId\":\"18734001807956\",\"productId\":6142928,\"productName\":\"Customize My Account for WooCommerce\",\"productUrl\":\"https:\\\/\\\/woocommerce.com\\\/products\\\/customize-my-account-for-woocommerce\\\/\",\"productType\":\"extension\",\"shortDescription\":\"Easily allows you to add any number of custom my account endpoints( tabs ) and content. You can sort the tabs as per the priority and even customize the design via the build-in style customizer panel.\",\"vendorName\":\"ThemeGrill\",\"imageAppIcon\":\"https:\\\/\\\/woocommerce.com\\\/wp-content\\\/uploads\\\/2020\\\/07\\\/customize-my-account-product-icon-80X80.png\",\"reviewsData\":{\"rating\":3,\"numberOfReviews\":3,\"shouldShowReviews\":false}},{\"menuId\":\"18734001807948\",\"productId\":466854,\"productName\":\"WooCommerce Checkout Add-Ons\",\"productUrl\":\"https:\\\/\\\/woocommerce.com\\\/products\\\/woocommerce-checkout-add-ons\\\/\",\"productType\":\"extension\",\"shortDescription\":\"Highlight relevant products, offers like free shipping and other up-sells during checkout. \",\"vendorName\":\"SkyVerge\",\"imageAppIcon\":\"https:\\\/\\\/woocommerce.com\\\/wp-content\\\/uploads\\\/2015\\\/06\\\/skyverge-wc-icon-b2vhw6.png\",\"reviewsData\":{\"rating\":5,\"numberOfReviews\":9,\"shouldShowReviews\":false}},{\"menuId\":\"18734001807936\",\"productId\":18734000336353,\"productName\":\"Grow Your Business on TikTok\",\"productUrl\":\"https:\\\/\\\/woocommerce.com\\\/products\\\/tiktok-for-woocommerce\\\/\",\"productType\":\"extension\",\"shortDescription\":\"\\r\\n\\r\\nSync your catalog, create TikTok ads to showcase &amp; sell your products, and install the TikTok Pixel and Events API (server-to-server connection) to fuel performance and measure results at scale!\\r\\n\\r\\nDirectly from your dashboard, you can create advertising campaigns to promote your product sales, generate leads, and reach over one billion global users.\\r\\n\\r\\n\",\"vendorName\":\"TikTok for Business\",\"imageAppIcon\":\"https:\\\/\\\/woocommerce.com\\\/wp-content\\\/uploads\\\/2022\\\/04\\\/tt2.jpg\",\"reviewsData\":{\"rating\":3.5,\"numberOfReviews\":27,\"shouldShowReviews\":true}},{\"menuId\":\"18734001807929\",\"productId\":18734,\"productName\":\"ShipStation for WooCommerce\",\"productUrl\":\"https:\\\/\\\/woocommerce.com\\\/products\\\/shipstation-integration\\\/\",\"productType\":\"extension\",\"shortDescription\":\"Ship your WooCommerce orders with confidence, save on top carriers, and automate your processes with ShipStation.\",\"vendorName\":\"WooCommerce\",\"imageAppIcon\":\"https:\\\/\\\/woocommerce.com\\\/wp-content\\\/uploads\\\/2012\\\/08\\\/woo-Shipstation-xqap96.png\",\"reviewsData\":{\"rating\":3.9,\"numberOfReviews\":9,\"shouldShowReviews\":false}},{\"menuId\":\"18734001807922\",\"productId\":3202901,\"productName\":\"WooCommerce Multi-Currency\",\"productUrl\":\"https:\\\/\\\/woocommerce.com\\\/products\\\/multi-currency\\\/\",\"productType\":\"extension\",\"shortDescription\":\"Multi-currency support for WooCommerce. The exchange rate can be set up manually or automatically. The plugin can automatically get customer's geolocation and display the price in the customer country's currency.\",\"vendorName\":\"TIV.NET INC.\",\"imageAppIcon\":\"https:\\\/\\\/woocommerce.com\\\/wp-content\\\/uploads\\\/2018\\\/06\\\/multi-currency-for-woocommerce-icon-160x160-1.png\",\"reviewsData\":{\"rating\":3.5,\"numberOfReviews\":15,\"shouldShowReviews\":true}},{\"menuId\":\"18734001807910\",\"productId\":27147,\"productName\":\"Woo Subscriptions\",\"productUrl\":\"https:\\\/\\\/woocommerce.com\\\/products\\\/woocommerce-subscriptions\\\/\",\"productType\":\"extension\",\"shortDescription\":\"Let customers subscribe to your products or services and pay on a weekly, monthly or annual basis.\",\"vendorName\":\"WooCommerce\",\"imageAppIcon\":\"https:\\\/\\\/woocommerce.com\\\/wp-content\\\/uploads\\\/2012\\\/09\\\/Woo_Subscriptions_icon-marketplace-160x160-1.png\",\"reviewsData\":{\"rating\":3.3,\"numberOfReviews\":66,\"shouldShowReviews\":false}},{\"menuId\":\"18734001807902\",\"productId\":178481,\"productName\":\"Authorize.net, a Visa solution\",\"productUrl\":\"https:\\\/\\\/woocommerce.com\\\/products\\\/authorize-net\\\/\",\"productType\":\"extension\",\"shortDescription\":\"Online payments leader Authorize.net, a Visa Solution, helps thousands of businesses simplify payments by offering more solutions, more support, and more strength to stand on.\",\"vendorName\":\"SkyVerge\",\"imageAppIcon\":\"https:\\\/\\\/woocommerce.com\\\/wp-content\\\/uploads\\\/2013\\\/04\\\/wooCommerceLogos_anet-2.png\",\"reviewsData\":{\"rating\":4.4,\"numberOfReviews\":63,\"shouldShowReviews\":true}}],\"themes\":[],\"blogPosts\":[]}";
+</script>
+<script id="wccom-components-js-before" type="text/javascript">
+var wccom = window.wccom || {};wccom.storeAPI = {"nonce":"812b8fed19"};
+</script>
+<script src='https://woocommerce.com/wp-content/themes/woo/dist/wccom-components.min.js?ver=2023-10-25_09:37' id='wccom-components-js'></script>
+<script src='https://woocommerce.com/wp-content/plugins/dist/wccom-plugins/docs/assets/docs.min.js?ver=2023-10-25_09:37' id='wccom-documentation-js-js'></script>
+<script src='https://woocommerce.com/wp-content/themes/woo/dist/wccom-product.min.js?ver=2023-10-25_09:37' id='wccom-product-js'></script>
+<script defer src='https://stats.wp.com/e-202343.js' id='jetpack-stats-js'></script>
+<script id="jetpack-stats-js-after" type="text/javascript">
+_stq = window._stq || [];
+_stq.push([ "view", {v:'ext',blog:'113771570',post:'18734001011382',tz:'2',srv:'woocommerce.com',hp:'vip',j:'1:12.6.2'} ]);
+_stq.push([ "clickTrackerInit", "113771570", "18734001011382" ]);
+</script>
+<script id='jetpack-block-slideshow-js-extra'>
+var Jetpack_Block_Assets_Base_Url = {"url":"https:\/\/woocommerce.com\/wp-content\/mu-plugins\/jetpack-12.6\/_inc\/blocks\/"};
+</script>
+<script src='https://woocommerce.com/wp-content/mu-plugins/jetpack-12.6/_inc/blocks/slideshow/view.js?minify=false&#038;ver=12.6.2' id='jetpack-block-slideshow-js'></script>
+<script src='https://woocommerce.com/wp-content/themes/woo/dist/wccom-comp-docs-voting.min.js?ver=2023-10-25_09:37' id='wccom-comp-docs-voting-js'></script>
+		<script type="text/javascript"
+			src="https://refer.wordpress.com/wp-content/themes/refer-wordpress/assets/js/referrals.min.js"
+			data-vendor="67386" data-endpoint="https://refer.wordpress.com/clicks/"></script>
+		
+<script defer id="bilmur" data-provider="wpvip.com" data-service="go" src="https://s0.wp.com/wp-content/js/bilmur.min.js?m=202343"></script>
+		<div
+						class="wccom-comp-privacy-banner wccom-component wccom-component--not-rendered" 			data-props="[]"
+		>
+		</div>
+		
+</body>
+</html>

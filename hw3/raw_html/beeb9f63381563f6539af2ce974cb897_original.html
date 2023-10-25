@@ -1,0 +1,1392 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Seasonal Confusion | Wednesday Blog by Seán Thomas Kane</title>
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://wednesdayblog.org/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://s2.wp.com/wp-content/themes/pub/twentytwelve/js/html5.js?ver=3.7.0" type="text/javascript"></script>
+<![endif]-->
+<script type="text/javascript">
+  WebFontConfig = {"google":{"families":["PT+Sans:r:latin,latin-ext","PT+Sans:r,i,b,bi:latin,latin-ext"]},"api_url":"https:\/\/fonts-api.wp.com\/css"};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://s0.wp.com/wp-content/plugins/custom-fonts/js/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><style id="jetpack-custom-fonts-css">.wf-active .site-header h1{font-family:"PT Sans",sans-serif;font-style:normal;font-weight:400}.wf-active body, .wf-active body.custom-font-enabled{font-size:18.2px;font-family:"PT Sans",sans-serif}.wf-active .site-header h2{font-size:16.9px;font-family:"PT Sans",sans-serif}.wf-active .main-navigation li, .wf-active nav[role="navigation"].main-small-navigation li{font-size:15.6px}.wf-active .entry-header .comments-link{font-size:16.9px}.wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6{font-family:"PT Sans",sans-serif;font-style:normal;font-weight:400}.wf-active .entry-header .entry-title{font-weight:400;font-style:normal}.wf-active .comment-content h1, .wf-active .entry-content h1{font-style:normal;font-weight:400}.wf-active .comment-content h2, .wf-active .entry-content h2{font-style:normal;font-weight:400}.wf-active .comment-content h3, .wf-active .entry-content h3{font-style:normal;font-weight:400}.wf-active .comment-content h4, .wf-active .entry-content h4{font-style:normal;font-weight:400}.wf-active .comment-content h5, .wf-active .entry-content h5{font-style:normal;font-weight:400}.wf-active .comment-content h6, .wf-active .entry-content h6{font-style:normal;font-weight:400}.wf-active article.format-image footer h1{font-weight:400;font-style:normal}.wf-active article.format-image footer h2{font-style:normal;font-weight:400}.wf-active article.format-link header{font-weight:400;font-style:normal}.wf-active .comments-title{font-weight:400;font-style:normal}.wf-active .comments-area article header h4{font-weight:400;font-style:normal}.wf-active #respond h3#reply-title{font-style:normal;font-weight:400}.wf-active .entry-header .entry-title{font-style:normal;font-weight:400}</style>
+<meta name='robots' content='max-image-preview:large' />
+
+<!-- Async WordPress.com Remote Login -->
+<script id="wpcom_remote_login_js">
+var wpcom_remote_login_extra_auth = '';
+function wpcom_remote_login_remove_dom_node_id( element_id ) {
+	var dom_node = document.getElementById( element_id );
+	if ( dom_node ) { dom_node.parentNode.removeChild( dom_node ); }
+}
+function wpcom_remote_login_remove_dom_node_classes( class_name ) {
+	var dom_nodes = document.querySelectorAll( '.' + class_name );
+	for ( var i = 0; i < dom_nodes.length; i++ ) {
+		dom_nodes[ i ].parentNode.removeChild( dom_nodes[ i ] );
+	}
+}
+function wpcom_remote_login_final_cleanup() {
+	wpcom_remote_login_remove_dom_node_classes( "wpcom_remote_login_msg" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_validate" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_js" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_iframe" );
+	wpcom_remote_login_remove_dom_node_id( "wpcom_request_access_styles" );
+}
+
+// Watch for messages back from the remote login
+window.addEventListener( "message", function( e ) {
+	if ( e.origin === "https://r-login.wordpress.com" ) {
+		var data = {};
+		try {
+			data = JSON.parse( e.data );
+		} catch( e ) {
+			wpcom_remote_login_final_cleanup();
+			return;
+		}
+
+		if ( data.msg === 'LOGIN' ) {
+			// Clean up the login check iframe
+			wpcom_remote_login_remove_dom_node_id( "wpcom_remote_login_key" );
+
+			var id_regex = new RegExp( /^[0-9]+$/ );
+			var token_regex = new RegExp( /^.*|.*|.*$/ );
+			if (
+				token_regex.test( data.token )
+				&& id_regex.test( data.wpcomid )
+			) {
+				// We have everything we need to ask for a login
+				var script = document.createElement( "script" );
+				script.setAttribute( "id", "wpcom_remote_login_validate" );
+				script.src = '/remote-login.php?wpcom_remote_login=validate'
+					+ '&wpcomid=' + data.wpcomid
+					+ '&token=' + encodeURIComponent( data.token )
+					+ '&host=' + window.location.protocol
+					+ '//' + window.location.hostname
+					+ '&postid=6526'
+					+ '&is_singular=1';
+				document.body.appendChild( script );
+			}
+
+			return;
+		}
+
+		// Safari ITP, not logged in, so redirect
+		if ( data.msg === 'LOGIN-REDIRECT' ) {
+			window.location = 'https://wordpress.com/log-in?redirect_to=' + window.location.href;
+			return;
+		}
+
+		// Safari ITP, storage access failed, remove the request
+		if ( data.msg === 'LOGIN-REMOVE' ) {
+			var css_zap = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } @media screen and ( max-width: 782px ) { html { margin-top: 0 !important; } * html body { margin-top: 0 !important; } }';
+			var style_zap = document.createElement( 'style' );
+			style_zap.type = 'text/css';
+			style_zap.appendChild( document.createTextNode( css_zap ) );
+			document.body.appendChild( style_zap );
+
+			var e = document.getElementById( 'wpcom_request_access_iframe' );
+			e.parentNode.removeChild( e );
+
+			document.cookie = 'wordpress_com_login_access=denied; path=/; max-age=31536000';
+
+			return;
+		}
+
+		// Safari ITP
+		if ( data.msg === 'REQUEST_ACCESS' ) {
+			console.log( 'request access: safari' );
+
+			// Check ITP iframe enable/disable knob
+			if ( wpcom_remote_login_extra_auth !== 'safari_itp_iframe' ) {
+				return;
+			}
+
+			// If we are in a "private window" there is no ITP.
+			var private_window = false;
+			try {
+				var opendb = window.openDatabase( null, null, null, null );
+			} catch( e ) {
+				private_window = true;
+			}
+
+			if ( private_window ) {
+				console.log( 'private window' );
+				return;
+			}
+
+			var iframe = document.createElement( 'iframe' );
+			iframe.id = 'wpcom_request_access_iframe';
+			iframe.setAttribute( 'scrolling', 'no' );
+			iframe.setAttribute( 'sandbox', 'allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-top-navigation-by-user-activation' );
+			iframe.src = 'https://r-login.wordpress.com/remote-login.php?wpcom_remote_login=request_access&origin=' + encodeURIComponent( data.origin ) + '&wpcomid=' + encodeURIComponent( data.wpcomid );
+
+			var css = 'html { -webkit-transition: margin-top 1s; transition: margin-top 1s; } /* 9001 */ html { margin-top: 46px !important; } * html body { margin-top: 46px !important; } @media screen and ( max-width: 660px ) { html { margin-top: 71px !important; } * html body { margin-top: 71px !important; } #wpcom_request_access_iframe { display: block; height: 71px !important; } } #wpcom_request_access_iframe { border: 0px; height: 46px; position: fixed; top: 0; left: 0; width: 100%; min-width: 100%; z-index: 99999; background: #23282d; } ';
+
+			var style = document.createElement( 'style' );
+			style.type = 'text/css';
+			style.id = 'wpcom_request_access_styles';
+			style.appendChild( document.createTextNode( css ) );
+			document.body.appendChild( style );
+
+			document.body.appendChild( iframe );
+		}
+
+		if ( data.msg === 'DONE' ) {
+			wpcom_remote_login_final_cleanup();
+		}
+	}
+}, false );
+
+// Inject the remote login iframe after the page has had a chance to load
+// more critical resources
+window.addEventListener( "DOMContentLoaded", function( e ) {
+	var iframe = document.createElement( "iframe" );
+	iframe.style.display = "none";
+	iframe.setAttribute( "scrolling", "no" );
+	iframe.setAttribute( "id", "wpcom_remote_login_key" );
+	iframe.src = "https://r-login.wordpress.com/remote-login.php"
+		+ "?wpcom_remote_login=key"
+		+ "&origin=aHR0cHM6Ly93ZWRuZXNkYXlibG9nLm9yZw%3D%3D"
+		+ "&wpcomid=52504556"
+		+ "&time=1698239427";
+	document.body.appendChild( iframe );
+}, false );
+</script>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//fonts-api.wp.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Wednesday Blog by Seán Thomas Kane &raquo; Feed" href="https://wednesdayblog.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Wednesday Blog by Seán Thomas Kane &raquo; Comments Feed" href="https://wednesdayblog.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Wednesday Blog by Seán Thomas Kane &raquo; Seasonal Confusion Comments Feed" href="https://wednesdayblog.org/2023/10/11/seasonal-confusion/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s2.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1677072837i&ver=6.4-beta3-56826"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='https://s0.wp.com/_static/??-eJytzMsKwjAQheEXshmjUnUhPkuTDjHt5EJmUunbW4oiqEuXP+fwwT03NkXBKBBqk6k6HxkGlNzZ8dnANUJIfSVkKEidYN/kxPJRyjJv4LdIfsS3u9bX/fV1dUmDxS1LQZh0q05Kg6meejCUVsCUrszAMhP+A5IbhhW6hotuz0d90PvddngAVTxpnQ==&cssminify=yes' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify {
+	text-align:justify;
+}
+.wp-block-cover__image-background.has-parallax {
+	background-size: cover;
+}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='https://s0.wp.com/_static/??-eJyVjV0OwiAQBi8kEKrR+mA8C4UN2br8hAVNby8mprEvGh8n+82semSB0VJzwGpmFcChAYIAsW4gk1mgCAJv7CIDRmmZd+qb3m+fvJFsivW1ydQ8Rla+dZygeDFRsrceg5qNvYn+NrUqfEGnuC4E/yeKqRg9/9BtemuD1KPUgjFkAlHgLg/KIdd1IdbQNVz0cdTjfhjOp/kJMmh7kg==&cssminify=yes' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-4-1' href='https://s1.wp.com/_static/??/wp-content/mu-plugins/core-compat/wp-mediaelement.css,/wp-content/mu-plugins/wpcom-bbpress-premium-themes.css?m=1432920480j&cssminify=yes' type='text/css' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--blue: #21759b;--wp--preset--color--dark-gray: #444;--wp--preset--color--medium-gray: #9f9f9f;--wp--preset--color--light-gray: #e6e6e6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--albert-sans: 'Albert Sans';--wp--preset--font-family--alegreya: Alegreya;--wp--preset--font-family--arvo: Arvo;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda';--wp--preset--font-family--cabin: Cabin;--wp--preset--font-family--chivo: Chivo;--wp--preset--font-family--commissioner: Commissioner;--wp--preset--font-family--cormorant: Cormorant;--wp--preset--font-family--courier-prime: 'Courier Prime';--wp--preset--font-family--crimson-pro: 'Crimson Pro';--wp--preset--font-family--dm-mono: 'DM Mono';--wp--preset--font-family--dm-sans: 'DM Sans';--wp--preset--font-family--domine: Domine;--wp--preset--font-family--eb-garamond: 'EB Garamond';--wp--preset--font-family--epilogue: Epilogue;--wp--preset--font-family--figtree: Figtree;--wp--preset--font-family--fira-sans: 'Fira Sans';--wp--preset--font-family--fraunces: Fraunces;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono';--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans';--wp--preset--font-family--inter: Inter;--wp--preset--font-family--josefin-sans: 'Josefin Sans';--wp--preset--font-family--jost: Jost;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville';--wp--preset--font-family--libre-franklin: 'Libre Franklin';--wp--preset--font-family--literata: Literata;--wp--preset--font-family--lora: Lora;--wp--preset--font-family--merriweather: Merriweather;--wp--preset--font-family--montserrat: Montserrat;--wp--preset--font-family--newsreader: Newsreader;--wp--preset--font-family--nunito: Nunito;--wp--preset--font-family--open-sans: 'Open Sans';--wp--preset--font-family--overpass: Overpass;--wp--preset--font-family--petrona: Petrona;--wp--preset--font-family--piazzolla: Piazzolla;--wp--preset--font-family--playfair-display: 'Playfair Display';--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans';--wp--preset--font-family--poppins: Poppins;--wp--preset--font-family--raleway: Raleway;--wp--preset--font-family--roboto-slab: 'Roboto Slab';--wp--preset--font-family--roboto: Roboto;--wp--preset--font-family--rubik: Rubik;--wp--preset--font-family--sora: Sora;--wp--preset--font-family--source-sans-pro: 'Source Sans Pro';--wp--preset--font-family--source-serif-pro: 'Source Serif Pro';--wp--preset--font-family--space-mono: 'Space Mono';--wp--preset--font-family--texturina: Texturina;--wp--preset--font-family--work-sans: 'Work Sans';--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-6-1' href='https://s2.wp.com/wp-content/mu-plugins/verbum/dist/index.css?m=1698170411i&cssminify=yes' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-fonts-css' href='https://fonts-api.wp.com/css?family=Open+Sans%3A400italic%2C700italic%2C400%2C700&#038;subset=latin%2Clatin-ext&#038;display=fallback' media='all' />
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-8-1' href='https://s2.wp.com/_static/??-eJzTLy/QTc7PK0nNK9EvyUjNTS3WLyhN0i8pBwpUAsmcslT94pLKnFS95OJiHX0iVAPV6Sfl5CdnF4O02OfaGpqZWhoYmhuYmmUBAC/rKK8=&cssminify=yes' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css' href='https://s2.wp.com/wp-content/themes/pub/twentytwelve/css/ie.css?m=1423935238i&#038;ver=20150214' media='all' />
+<![endif]-->
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-10-1' href='https://s0.wp.com/wp-content/themes/pub/twentytwelve/style-wpcom.css?m=1509660268i&cssminify=yes' type='text/css' media='all' />
+<style id='jetpack_facebook_likebox-inline-css'>
+.widget_facebook_likebox {
+	overflow: hidden;
+}
+
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-12-1' href='https://s1.wp.com/_static/??-eJzTLy/QTc7PK0nNK9HPLdUtyClNz8wr1k9PzdfNyU9OLMnMz0Ph6KblJGYW6SUXF+voY9dalJqUk58OZKbrA1UhcUGa7HNtDU1MLU1MLMwNTbIAmkQtqg==&cssminify=yes' type='text/css' media='all' />
+<style id='jetpack-global-styles-frontend-style-inline-css'>
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-14-1' href='https://s0.wp.com/_static/??-eJyNjcsKAjEMRX/IGgbGyizET5HYhrZjmhTTIv69D9yIG3f3wOUcuDUXVDpJhzpc45GKGKzUG4bLh8GGQNU4mAws45Uixnh/zyJpG8w28LfoVCSAaSjIjjWpfcGPrGeqz2yeIbGekV+HYz1Mftn73bxMfn0AuUhIbg==&cssminify=yes' type='text/css' media='all' />
+<script id='jetpack_related-posts-js-extra'>
+var related_posts_js_options = {"post_heading":"h4"};
+</script>
+<script id='media-video-jwt-bridge-js-extra'>
+var videopressAjax = {"ajaxUrl":"https:\/\/sthosdkane.wordpress.com\/wp-admin\/admin-ajax.php","bridgeUrl":"\/wp-content\/mu-plugins\/jetpack-plugin\/sun\/jetpack_vendor\/automattic\/jetpack-videopress\/build\/lib\/token-bridge.js","post_id":"6526"};
+</script>
+<script id='wpcom-actionbar-placeholder-js-extra'>
+var actionbardata = {"siteID":"52504556","postID":"6526","siteURL":"https:\/\/wednesdayblog.org","xhrURL":"https:\/\/wednesdayblog.org\/wp-admin\/admin-ajax.php","nonce":"f9af2e29b5","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https:\/\/s0.wp.com\/wp-content\/js\/wpcom-proxy-request.js?ver=20211021","shortlink":"https:\/\/wp.me\/p3yiPG-1Hg","i18n":{"followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/read\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar"}};
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s2.wp.com/_static/??-eJx9kF1OxDAMhC9E1ouQCjwgjrLKj6ncTZxgO4XeniAVtCDYJ2us0Xxjw1tzsbIhGywKpQbK6Lqi+HnsHPFLPSx6Axe+0l3LfSZWWNCaj+ddg3aGE3GE0CknEMzeMLlW1fSnOhTi37mDL9lck/q+XWGuKKEXSBv7QtHl6hPKl3/Ac0+on2HLa0fZ9nEJ/NfkCs0ySv7V7vrV++q0Iqcq4LvV4s0ofptXSliboOr+nUwBrJ6RXRBKMw7gc3m6nR7vp7vjw3RcPgDDGpqs'></script>
+<script id="rlt-proxy-js-after" type="text/javascript">
+	window.addEventListener( 'DOMContentLoaded', function() {
+		rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+	} );
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sthosdkane.wordpress.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://wednesdayblog.org/2023/10/11/seasonal-confusion/" />
+<link rel='shortlink' href='https://wp.me/p3yiPG-1Hg' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Fwednesdayblog.org%2F2023%2F10%2F11%2Fseasonal-confusion%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Fwednesdayblog.org%2F2023%2F10%2F11%2Fseasonal-confusion%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Seasonal Confusion" />
+<meta property="og:url" content="https://wednesdayblog.org/2023/10/11/seasonal-confusion/" />
+<meta property="og:description" content="This week on the &#8220;Wednesday Blog,&#8221; I have a bone to pick with the weather." />
+<meta property="article:published_time" content="2023-10-11T12:44:30+00:00" />
+<meta property="article:modified_time" content="2023-10-11T12:44:30+00:00" />
+<meta property="og:site_name" content="Wednesday Blog by Seán Thomas Kane" />
+<meta property="og:image" content="https://sthosdkane.files.wordpress.com/2023/10/pexels-photo-1585892.jpeg?w=1200" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="800" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<meta name="twitter:creator" content="@sthosdkane" />
+<meta name="twitter:site" content="@sthosdkane" />
+<meta name="twitter:text:title" content="Seasonal Confusion" />
+<meta name="twitter:image" content="https://sthosdkane.files.wordpress.com/2023/10/pexels-photo-1585892.jpeg?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel='openid.server' href='https://wednesdayblog.org/?openidserver=1' />
+<link rel='openid.delegate' href='https://wednesdayblog.org/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://wednesdayblog.org/osd.xml" title="Wednesday Blog by Seán Thomas Kane" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#c5ece5" />
+		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="Wednesday Blog by Seán Thomas Kane" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="New Posts on Wednesdays" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://wednesdayblog.org/feed/;icon-uri=https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=16" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="description" content="This week on the &quot;Wednesday Blog,&quot; I have a bone to pick with the weather." />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #c5ece5; }
+</style>
+	<style type="text/css" id="custom-colors-css">.menu-toggle,
+input[type="submit"],
+li.bypostauthor cite span {
+	background-color: rgba(225, 225, 225, .9);
+	background-image: -moz-linear-gradient(top, rgba(244, 244, 244, .8), rgba(230, 230, 230, .8));
+	background-image: -ms-linear-gradient(top, rgba(244, 244, 244, .8), rgba(230, 230, 230, .8));
+	background-image: -webkit-linear-gradient(top, rgba(244, 244, 244, .8), rgba(230, 230, 230, .8));
+	background-image: -o-linear-gradient(top, rgba(244, 244, 244, .8), rgba(230, 230, 230, .8));
+	background-image: linear-gradient(top, rgba(244, 244, 244, .8), rgba(230, 230, 230, .8));
+}
+.menu-toggle:hover,
+.menu-toggle:focus,
+input[type="submit"]:hover {
+	background-color: rgba(235, 235, 235, .9);
+	background-image: -moz-linear-gradient(top, rgba(249, 249, 249, .8), rgba(235, 235, 235, .8));
+	background-image: -ms-linear-gradient(top, rgba(249, 249, 249, .8), rgba(235, 235, 235, .8));
+	background-image: -webkit-linear-gradient(top, rgba(249, 249, 249, .8), rgba(235, 235, 235, .8));
+	background-image: -o-linear-gradient(top, rgba(249, 249, 249, .8), rgba(235, 235, 235, .8));
+	background-image: linear-gradient(top, rgba(249, 249, 249, .8), rgba(235, 235, 235, .8));
+}
+.menu-toggle:active,
+.menu-toggle.toggled-on,
+input[type="submit"]:active,
+input[type="submit"].toggled-on {
+	background-color: rgba(225, 225, 225, .9);
+	background-image: -moz-linear-gradient(top, rgba(235, 235, 235, .8), rgba(225, 225, 225, .8));
+	background-image: -ms-linear-gradient(top, rgba(235, 235, 235, .8), rgba(225, 225, 225, .8));
+	background-image: -webkit-linear-gradient(top, rgba(235, 235, 235, .8), rgba(225, 225, 225, .8));
+	background-image: -o-linear-gradient(top, rgba(235, 235, 235, .8), rgba(225, 225, 225, .8));
+	background-image: linear-gradient(top, rgba(235, 235, 235, .8), rgba(225, 225, 225, .8));
+}
+.site { background-color: #fff;}
+.site { background-color: rgba( 255, 255, 255, 0.95 );}
+body.custom-background-empty { background-color: #fff;}
+body.custom-background-empty { background-color: rgba( 255, 255, 255, 0.95 );}
+body.custom-background-empty { background-color: #fff;}
+body.custom-background-empty { background-color: rgba( 255, 255, 255, 0.9 );}
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea { background-color: #fff;}
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea { background-color: rgba( 255, 255, 255, 0.4 );}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="url"], textarea:focus { background-color: #fff;}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="url"], textarea:focus { background-color: rgba( 255, 255, 255, 0.9 );}
+.menu-toggle, input[type="submit"], li.bypostauthor cite span { border-color: #d2d2d2;}
+.menu-toggle, input[type="submit"], li.bypostauthor cite span { border-color: rgba( 210, 210, 210, 0.8 );}
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea { border-color: #ccc;}
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], textarea { border-color: rgba( 204, 204, 204, 0.4 );}
+.comments-area article header cite a { color: #444;}
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul, .main-navigation li ul li a { border-color: #000;}
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul, .main-navigation li ul li a { border-color: rgba( 0, 0, 0, 0.1 );}
+#author-info { border-color: #000;}
+#author-info { border-color: rgba( 0, 0, 0, 0.1 );}
+footer[role="contentinfo"] { border-color: #000;}
+footer[role="contentinfo"] { border-color: rgba( 0, 0, 0, 0.1 );}
+article.sticky .featured-post { border-color: #000;}
+article.sticky .featured-post { border-color: rgba( 0, 0, 0, 0.1 );}
+pre, table, td, hr { border-color: #000;}
+pre, table, td, hr { border-color: rgba( 0, 0, 0, 0.1 );}
+.site-content article { border-color: #000;}
+.site-content article { border-color: rgba( 0, 0, 0, 0.1 );}
+.archive-header, .page-header { border-color: #000;}
+.archive-header, .page-header { border-color: rgba( 0, 0, 0, 0.1 );}
+.template-home .widget-area { border-color: #000;}
+.template-home .widget-area { border-color: rgba( 0, 0, 0, 0.1 );}
+body { background-color: #c5ece5;}
+.menu-toggle, input[type="submit"], li.bypostauthor cite span { background-color: #c5ece5;}
+.menu-toggle, input[type="submit"], li.bypostauthor cite span { background-color: rgba( 197, 236, 229, 0.1 );}
+article.format-aside .aside { background-color: #c5ece5;}
+article.format-aside .aside { background-color: rgba( 197, 236, 229, 0.1 );}
+article.format-aside .aside { border-color: #c5ece5;}
+article.format-aside .aside { border-color: rgba( 197, 236, 229, 0.3 );}
+article.format-link header, article.format-quote .entry-content blockquote { background-color: #c5ece5;}
+article.format-link header, article.format-quote .entry-content blockquote { background-color: rgba( 197, 236, 229, 0.1 );}
+</style>
+<link rel="icon" href="https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=32" sizes="32x32" />
+<link rel="icon" href="https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=180" />
+<meta name="msapplication-TileImage" content="https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=270" />
+</head>
+
+<body class="post-template-default single single-post postid-6526 single-format-standard custom-background wp-embed-responsive customizer-styles-applied custom-font-enabled single-author">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header">
+				<hgroup>
+			<h1 class="site-title"><a href="https://wednesdayblog.org/" title="Wednesday Blog by Seán Thomas Kane" rel="home">Wednesday Blog by Seán Thomas Kane</a></h1>
+			<h2 class="site-description">New Posts on Wednesdays</h2>
+		</hgroup>
+
+		<nav id="site-navigation" class="main-navigation">
+			<button class="menu-toggle">Menu</button>
+			<a class="assistive-text" href="#content" title="Skip to content">Skip to content</a>
+			<div class="menu-main-menu-container"><ul id="menu-main-menu" class="nav-menu"><li id="menu-item-3206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3206"><a href="https://wednesdayblog.org/">Home</a></li>
+<li id="menu-item-6403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6403"><a href="https://wednesdayblog.org/wednesday-blog/">Wednesday Blog</a>
+<ul class="sub-menu">
+	<li id="menu-item-6400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6400"><a href="https://wednesdayblog.org/ghosts-in-the-wind/">Ghosts in the Wind</a></li>
+	<li id="menu-item-6163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6163"><a href="https://wednesdayblog.org/wednesday-blog-archive/">Wednesday Blog Archive</a></li>
+</ul>
+</li>
+<li id="menu-item-4632" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4632"><a href="https://www.sthosdkane.com/">Professional Website</a></li>
+<li id="menu-item-4504" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4504"><a href="https://wednesdayblog.org/web-design/">Web Design</a></li>
+<li id="menu-item-4387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4387"><a href="https://wednesdayblog.org/books/">Books</a></li>
+<li id="menu-item-5849" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5849"><a href="https://linktr.ee/sthosdkane">Linktree</a></li>
+<li id="menu-item-5901" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5901"><a href="https://wednesdayblog.org/links/">Links</a></li>
+</ul></div>		</nav><!-- #site-navigation -->
+
+						<a href="https://wednesdayblog.org/"><img src="https://sthosdkane.files.wordpress.com/2013/05/cropped-1163_10200260660941815_506987985_n1.jpg" class="header-image" width="960" height="250" alt="" /></a>
+			</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+			
+				
+	<article id="post-6526" class="post-6526 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized tag-autumn tag-change tag-fall tag-seasons tag-sean-kane tag-sean-thomas-kane tag-weather tag-wednesday-blog">
+				<header class="entry-header">
+			<img width="624" height="416" src="https://sthosdkane.files.wordpress.com/2023/10/pexels-photo-1585892.jpeg?w=624" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" srcset="https://sthosdkane.files.wordpress.com/2023/10/pexels-photo-1585892.jpeg?w=624 624w, https://sthosdkane.files.wordpress.com/2023/10/pexels-photo-1585892.jpeg?w=1248 1248w, https://sthosdkane.files.wordpress.com/2023/10/pexels-photo-1585892.jpeg?w=150 150w, https://sthosdkane.files.wordpress.com/2023/10/pexels-photo-1585892.jpeg?w=300 300w, https://sthosdkane.files.wordpress.com/2023/10/pexels-photo-1585892.jpeg?w=768 768w, https://sthosdkane.files.wordpress.com/2023/10/pexels-photo-1585892.jpeg?w=1024 1024w" sizes="(max-width: 624px) 100vw, 624px" data-attachment-id="6530" data-permalink="https://wednesdayblog.org/2023/10/11/seasonal-confusion/pexels-photo-1585892/" data-orig-file="https://sthosdkane.files.wordpress.com/2023/10/pexels-photo-1585892.jpeg" data-orig-size="1880,1253" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="brown leafed tree selective focus photography" data-image-description="" data-image-caption="&lt;p&gt;Photo by Lina Kivaka on &lt;a href=&quot;https://www.pexels.com/photo/brown-leafed-tree-selective-focus-photography-1585892/&quot; rel=&quot;nofollow&quot;&gt;Pexels.com&lt;/a&gt;&lt;/p&gt;
+" data-medium-file="https://sthosdkane.files.wordpress.com/2023/10/pexels-photo-1585892.jpeg?w=300" data-large-file="https://sthosdkane.files.wordpress.com/2023/10/pexels-photo-1585892.jpeg?w=625" />
+						<h1 class="entry-title">Seasonal Confusion</h1>
+										<div class="comments-link">
+					<a href="https://wednesdayblog.org/2023/10/11/seasonal-confusion/#comments">1 Reply</a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+				<div class="wp-block-jetpack-podcast-player is-default" id="jetpack-podcast-player-block-6526-2">
+		<section
+			class="jetpack-podcast-player "
+			style=""
+		>
+			
+<div class="jetpack-podcast-player__header">
+	<div class="jetpack-podcast-player__current-track-info">
+					<div class="jetpack-podcast-player__cover">
+				<img class="jetpack-podcast-player__cover-image" src="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/19918924/19918924-1638503254894-deaa7df42002c.jpg" alt="" />
+			</div>
+		
+		
+<h2 id="jetpack-podcast-player-block-6526-2__title" class="jetpack-podcast-player__title">
+	<span
+		class="jetpack-podcast-player__current-track-title "
+		style=""	>
+		Seasonal Confusion<a
+				class="jetpack-podcast-player__track-title-link"
+				href="https://podcasters.spotify.com/pod/show/sean-thomas-kane/episodes/Seasonal-Confusion-e2ae27q"
+				target="_blank"
+				rel="noopener noreferrer nofollow"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+					<path d="M15.6 7.2H14v1.5h1.6c2 0 3.7 1.7 3.7 3.7s-1.7 3.7-3.7 3.7H14v1.5h1.6c2.8 0 5.2-2.3 5.2-5.2 0-2.9-2.3-5.2-5.2-5.2zM4.7 12.4c0-2 1.7-3.7 3.7-3.7H10V7.2H8.4c-2.9 0-5.2 2.3-5.2 5.2 0 2.9 2.3 5.2 5.2 5.2H10v-1.5H8.4c-2 0-3.7-1.7-3.7-3.7zm4.6.9h5.3v-1.5H9.3v1.5z" />
+				</svg>
+			</a>
+			</span>
+
+			<span class="jetpack-podcast-player--visually-hidden"> &#8211; </span>
+
+		<span class="jetpack-podcast-player__podcast-title">
+			<a
+			class="jetpack-podcast-player__link"
+			href="https://www.sthosdkane.com/"
+			target="_blank"
+			rel="noopener noreferrer nofollow"
+		>
+			Wednesday Blog by Seán Thomas Kane		</a>
+		</span>
+	</h2>
+	</div>
+
+		<div
+		id="jetpack-podcast-player-block-6526-2__track-description"
+		class="jetpack-podcast-player__track-description"
+	>
+		This week on the Wednesday Blog, I have a bone to pick with the weather.
+&#8212;
+Click here to support the Wednesday Blog: <a href="https://www.patreon.com/sthosdkane" rel="nofollow">https://www.patreon.com/sthosdkane</a>
+
+&#8212; 
+
+Support this podcast: <a href="https://podcasters.spotify.com/pod/show/sean-thomas-kane/support" rel="nofollow">https://podcasters.spotify.com/pod/show/sean-thomas-kane/support</a>	</div>
+	
+	<div class="jetpack-podcast-player__audio-player">
+		<div class="jetpack-podcast-player--audio-player-loading"></div>
+	</div>
+</div>
+					</section>
+				<script type="application/json">{"attributes":{"url":"https:\/\/anchor.fm\/s\/77527430\/podcast\/rss","selectedEpisodes":[{"guid":"caa456f7-b240-4839-98cc-9a1c1b0bb7cc"}],"itemsToShow":1,"showCoverArt":true,"showEpisodeTitle":true,"showEpisodeDescription":true},"title":"Wednesday Blog by Se\u00e1n Thomas Kane","description":"This podcast is a broadcasted version of Se\u00e1n Kane's Wednesday Blog. Covering topics from history to natural history, astronomy, and language, the Wednesday Blog offers listeners a thoughtful reflection in the middle of each week. Support this podcast: https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support","link":"https:\/\/www.sthosdkane.com\/","cover":"https:\/\/d3t3ozftmdmh3i.cloudfront.net\/production\/podcast_uploaded\/19918924\/19918924-1638503254894-deaa7df42002c.jpg","tracks":[{"id":"podcast-track-1","link":"https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/episodes\/Seasonal-Confusion-e2ae27q","src":"https:\/\/anchor.fm\/s\/77527430\/podcast\/play\/77055674\/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-11%2F350635810-44100-2-aff6045bee22d.m4a","type":"audio\/x-m4a","description":"This week on the\u00a0Wednesday Blog, I have a bone to pick with the weather.\n---\nClick here to support the Wednesday Blog: https:\/\/www.patreon.com\/sthosdkane\n\n--- \n\nSupport this podcast: https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support","description_html":"<p>This week on the\u00a0<em>Wednesday Blog<\/em>, I have a bone to pick with the weather.<\/p>\n<p>---<\/p>\n<p>Click here to support the <em>Wednesday Blog<\/em>: <a href=\"https:\/\/www.patreon.com\/sthosdkane\" target=\"_blank\" rel=\"noopener noreferer\">https:\/\/www.patreon.com\/sthosdkane<\/a><\/p>\n\n--- \n\nSupport this podcast: <a href=\"https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support\" rel=\"payment\">https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support<\/a>","title":"Seasonal Confusion","image":"https:\/\/d3t3ozftmdmh3i.cloudfront.net\/production\/podcast_uploaded\/19918924\/19918924-1638503254894-deaa7df42002c.jpg","guid":"caa456f7-b240-4839-98cc-9a1c1b0bb7cc","publish_date":"2023-10-11T03:38:42+00:00","duration":"06:32"}],"playerId":"jetpack-podcast-player-block-6526-2"}</script>
+			</div>
+	
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-3 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button has-custom-width wp-block-button__width-50 has-custom-font-size has-medium-font-size"><a class="wp-block-button__link has-text-align-center wp-element-button" href="https://www.patreon.com/sthosdkane" target="_blank" rel="noreferrer noopener">Click Here to Support the <em>Wednesday Blog</em></a></div>
+</div>
+
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>This week on the&nbsp;<em>Wednesday Blog</em>, I have a bone to pick with the weather.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots" />
+
+
+
+<p>I wouldn&#8217;t be a good Midwesterner, nor even a good human being, if I didn&#8217;t always have the weather as a fall back conversation topic. There&#8217;s always something going on out there to comment on. This week I&#8217;m befuddled by the sudden shifting of the moment from a prolonged summertime heat that lasted throughout September to a sudden crisp Fall chill which made the date, now in the second week of this month, all the clearer to me.</p>
+
+
+
+<p>My own human surprise at the sudden change of weather might best be described with a mechanical being, in this case the idea that&nbsp;<em>Star Trek</em>&#8216;s android Lieutenant Commander Data had a functioning internal chronometer that kept him accurate to the nanosecond. Yet that chronometer could be turned off if he wanted, though before that was suggested to him, Data hadn&#8217;t ever considered the possibility. I&#8217;ve had my odd week where I&#8217;ve lost track of time, whether due to sickness or exhaustion. So, to come to this week and be caught unaware that the warm days of Summer are truly behind us when they seemed interminable in Kansas City struck me harder to believe than I expected.</p>
+
+
+
+<p>In my current situation this means that I&#8217;m closer now to Thanksgiving than the start of this Fall Semester when I began my new and current job teaching middle schoolers. It also means that the late Fall deadlines that I have for written submissions are indeed closer than they may have initially appeared. We passed by the usual markers of the changing of the seasons, and I recognized them as I watched them go by; yet I think because I haven&#8217;t spent a full year in Kansas City since 2019 I found myself unassuming when the hot days continued even as the Sun began to set sooner over the Great Plains to our west, venturing ever as it does each day towards the Rockies, Deserts, and Pacific beyond.</p>
+
+
+
+<p>On Monday, my photo app reminded me that 4 years ago this week I made my first trip home after the big move east to Binghamton, and in the pictures featuring my beloved and dearly missed dog Noel in my arms I&#8217;m wearing the same sort of woolen sweater I&#8217;d usually don when indoors throughout the Winter. So, even in that moment when my seasonal expectations were still attuned to Kansas City&#8217;s climate, by now I&#8217;d be far colder than I am today.</p>
+
+
+
+<p>It&#8217;s curious considering that I was told to expect earlier winters when I was in Binghamton, yet even there I only began to don my winter coat by about the first week of October. It seems reasonable to assume then that all of this is due to changes in our climate, a topic I&#8217;ve written about a great deal in this blog of late. What strikes me the most about 2023 has been the stability of our climate over most of the past four months. My suspicion long term is that the extreme heat we experienced in the late Summer, which drove my students indoors for recess for a week, and the extreme cold we felt around Christmas last year will become our new normal. I hope then, that we can adjust properly to this new normal, both in our energy use and in our ways of living throughout the changing seasons. I grew up knowing Winter to be long, cold, and snowy, Spring to be stormy, Summer to be long, hot, and dry, and Fall to be of crisp with occasional storms. Now though, the frosts of Winter &#8220;come pale, meager, and cold&#8221; to quote Henry Purcell&#8217;s&nbsp;<em>The Fairie Queen</em>, for far longer in a mirror to the lengthening Summer heat. Should I be fortunate enough to have children, my lived wisdom of the seasons may prove useless to them in their own brave new world. Certainly, the moderation which brought my ancestors to this middle bit of the North American continent is fast fading from view.</p>
+
+
+
+<p>My seasonal confusion is in part born out of how fast my life is moving at this moment, juggling three jobs and trying to maintain my research all at the same time. Still, as I feel the crisp air filter in while writing this, I am eager to see another Fall arrive like all the others I&#8217;ve known.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-4 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button has-custom-width wp-block-button__width-50 has-custom-font-size has-medium-font-size"><a class="wp-block-button__link has-text-align-center wp-element-button" href="https://www.patreon.com/sthosdkane" target="_blank" rel="noreferrer noopener">Click Here to Support the <em>Wednesday Blog</em></a></div>
+</div>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-email"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon" href="mailto:?subject=%5BShared%20Post%5D%20Seasonal%20Confusion&body=https%3A%2F%2Fwednesdayblog.org%2F2023%2F10%2F11%2Fseasonal-confusion%2F&share=email" target="_blank" title="Click to email a link to a friend" data-email-share-error-title="Do you have email set up?" data-email-share-error-text="If you&#039;re having problems sharing via email, you might not have email set up for your browser. You may need to create a new email yourself." data-email-share-nonce="5065b8bdef" data-email-share-track-url="https://wednesdayblog.org/2023/10/11/seasonal-confusion/?share=email"><span>Email</span></a></li><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-6526" class="share-twitter sd-button share-icon" href="https://wednesdayblog.org/2023/10/11/seasonal-confusion/?share=twitter" target="_blank" title="Click to share on Twitter" ><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-6526" class="share-facebook sd-button share-icon" href="https://wednesdayblog.org/2023/10/11/seasonal-confusion/?share=facebook" target="_blank" title="Click to share on Facebook" ><span>Facebook</span></a></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-6526" class="share-linkedin sd-button share-icon" href="https://wednesdayblog.org/2023/10/11/seasonal-confusion/?share=linkedin" target="_blank" title="Click to share on LinkedIn" ><span>LinkedIn</span></a></li><li class="share-print"><a rel="nofollow noopener noreferrer" data-shared="" class="share-print sd-button share-icon" href="https://wednesdayblog.org/2023/10/11/seasonal-confusion/#print" target="_blank" title="Click to print" ><span>Print</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-52504556-6526-653913c3c8658' data-src='//widgets.wp.com/likes/index.html?ver=20230906#blog_id=52504556&amp;post_id=6526&amp;origin=sthosdkane.wordpress.com&amp;obj_id=52504556-6526-653913c3c8658&amp;domain=wednesdayblog.org' data-name='like-post-frame-52504556-6526-653913c3c8658' data-title='Like or Reblog'><h3 class='sd-title'>Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="https://wednesdayblog.org/category/uncategorized/" rel="category tag">Uncategorized</a> and tagged <a href="https://wednesdayblog.org/tag/autumn/" rel="tag">Autumn</a>, <a href="https://wednesdayblog.org/tag/change/" rel="tag">Change</a>, <a href="https://wednesdayblog.org/tag/fall/" rel="tag">Fall</a>, <a href="https://wednesdayblog.org/tag/seasons/" rel="tag">Seasons</a>, <a href="https://wednesdayblog.org/tag/sean-kane/" rel="tag">Seán Kane</a>, <a href="https://wednesdayblog.org/tag/sean-thomas-kane/" rel="tag">Seán Thomas Kane</a>, <a href="https://wednesdayblog.org/tag/weather/" rel="tag">Weather</a>, <a href="https://wednesdayblog.org/tag/wednesday-blog/" rel="tag">Wednesday Blog</a> on <a href="https://wednesdayblog.org/2023/10/11/seasonal-confusion/" title="06.44" rel="bookmark"><time class="entry-date" datetime="2023-10-11T06:44:30-06:00">11 October 2023</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://wednesdayblog.org/author/seanthomaskane/" title="View all posts by seanthomaskane" rel="author">seanthomaskane</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
+				<nav class="nav-single">
+					<h3 class="assistive-text">Post navigation</h3>
+					<span class="nav-previous"><a href="https://wednesdayblog.org/2023/10/04/historic-range/" rel="prev"><span class="meta-nav">&larr;</span> Historic Range</a></span>
+					<span class="nav-next"><a href="https://wednesdayblog.org/2023/10/18/on-the-cannibals/" rel="next">On the Cannibals <span class="meta-nav">&rarr;</span></a></span>
+				</nav><!-- .nav-single -->
+
+				
+<div id="comments" class="comments-area">
+
+	
+			<h2 class="comments-title">
+			1 thought on &ldquo;<span>Seasonal Confusion</span>&rdquo;		</h2>
+
+		<ol class="commentlist">
+				<li class="comment even thread-even depth-1" id="li-comment-2980">
+		<article id="comment-2980" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt='' src='https://0.gravatar.com/avatar/fa3b4a7af293c0968357a51beda373389318c8a529aaee4481502773060e33f3?s=44&#038;d=identicon&#038;r=G' srcset='https://0.gravatar.com/avatar/fa3b4a7af293c0968357a51beda373389318c8a529aaee4481502773060e33f3?s=44&#038;d=identicon&#038;r=G 1x, https://0.gravatar.com/avatar/fa3b4a7af293c0968357a51beda373389318c8a529aaee4481502773060e33f3?s=66&#038;d=identicon&#038;r=G 1.5x, https://0.gravatar.com/avatar/fa3b4a7af293c0968357a51beda373389318c8a529aaee4481502773060e33f3?s=88&#038;d=identicon&#038;r=G 2x, https://0.gravatar.com/avatar/fa3b4a7af293c0968357a51beda373389318c8a529aaee4481502773060e33f3?s=132&#038;d=identicon&#038;r=G 3x, https://0.gravatar.com/avatar/fa3b4a7af293c0968357a51beda373389318c8a529aaee4481502773060e33f3?s=176&#038;d=identicon&#038;r=G 4x' class='avatar avatar-44' height='44' width='44' loading='lazy' decoding='async' /><cite><b class="fn">Mary Ann</b> </cite><a href="https://wednesdayblog.org/2023/10/11/seasonal-confusion/#comment-2980"><time datetime="2023-10-11T08:14:45-06:00">11 October 2023 at 08.14</time></a>			</header><!-- .comment-meta -->
+
+				
+				
+			<section class="comment-content comment">
+				<p>Another amazing reflection, Sean, and May the arrival of Fall bring you some beautiful surprises.<br />
+Mary Ann</p>
+							</section><!-- .comment-content -->
+
+				<div class="reply">
+				<a rel='nofollow' class='comment-reply-link' href='https://wednesdayblog.org/2023/10/11/seasonal-confusion/?replytocom=2980#respond' data-commentid="2980" data-postid="6526" data-belowelement="comment-2980" data-respondelement="respond" data-replyto="Reply to Mary Ann" aria-label='Reply to Mary Ann'>Reply</a> <span>&darr;</span>				</div><!-- .reply -->
+			</article><!-- #comment-## -->
+				</li><!-- #comment-## -->
+		</ol><!-- .commentlist -->
+
+		
+		
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2023/10/11/seasonal-confusion/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://wednesdayblog.org/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+
+
+<div id="comment-form__verbum" class="transparent"></div><div class="verbum-form-meta"><input type='hidden' name='comment_post_ID' value='6526' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+
+			<input type="hidden" name="highlander_comment_nonce" id="highlander_comment_nonce" value="2af5612f3d" /></div><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="f7b9a92d2e" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="105"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	
+</div><!-- #comments .comments-area -->
+
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+			<div id="secondary" class="widget-area" role="complementary">
+						<aside id="block-5" class="widget widget_block">
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="patreon.com/sthosdkane" target="_blank" rel="noreferrer noopener">Click Here to Support the Wednesday Blog</a></div>
+</div>
+</aside><aside id="block-6" class="widget widget_block">				<div
+			class="wp-block-newspack-blocks-homepage-articles  wpnbha show-image image-aligntop ts-4 is-3 is-landscape  has-text-align-left"
+			style=""
+			>
+			<div data-posts data-current-post-id="6526">
+									<h2 class="article-section-title">
+						<span>Recent Releases</span>
+					</h2>
+								
+	<article data-post-id="6537"
+		class="tag-des-cannibales tag-hamas tag-israel tag-israeli-defence-force tag-just-war tag-michel-de-montaigne tag-on-the-cannibals tag-sean-kane tag-sean-thomas-kane tag-skepticism tag-war tag-war-on-terror tag-wars-of-religion tag-wednesday-blog category-politics category-wednesday-blog type-post post-has-image"
+				>
+							<figure class="post-thumbnail">
+								<a href="https://wednesdayblog.org/2023/10/18/on-the-cannibals/" rel="bookmark" tabindex="-1" aria-hidden="true">
+												<img width="800" height="600" src="https://sthosdkane.files.wordpress.com/2023/10/portrait_of_michel_de_montaigne_circa_unknown.jpg?w=800&amp;h=600&amp;crop=1" class="attachment-newspack-article-block-landscape-medium size-newspack-article-block-landscape-medium wp-post-image" alt="On the Cannibals" decoding="async" loading="lazy" data-hero-candidate="1" srcset="https://sthosdkane.files.wordpress.com/2023/10/portrait_of_michel_de_montaigne_circa_unknown.jpg?w=800&amp;h=600&amp;crop=1 800w, https://sthosdkane.files.wordpress.com/2023/10/portrait_of_michel_de_montaigne_circa_unknown.jpg?w=150&amp;h=113&amp;crop=1 150w, https://sthosdkane.files.wordpress.com/2023/10/portrait_of_michel_de_montaigne_circa_unknown.jpg?w=300&amp;h=225&amp;crop=1 300w, https://sthosdkane.files.wordpress.com/2023/10/portrait_of_michel_de_montaigne_circa_unknown.jpg?w=768&amp;h=576&amp;crop=1 768w" sizes="(max-width: 800px) 100vw, 800px" data-attachment-id="6540" data-permalink="https://wednesdayblog.org/2023/10/18/on-the-cannibals/portrait_of_michel_de_montaigne_circa_unknown/" data-orig-file="https://sthosdkane.files.wordpress.com/2023/10/portrait_of_michel_de_montaigne_circa_unknown.jpg" data-orig-size="800,1092" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Portrait_of_Michel_de_Montaigne,_circa_unknown" data-image-description="" data-image-caption="" data-medium-file="https://sthosdkane.files.wordpress.com/2023/10/portrait_of_michel_de_montaigne_circa_unknown.jpg?w=220" data-large-file="https://sthosdkane.files.wordpress.com/2023/10/portrait_of_michel_de_montaigne_circa_unknown.jpg?w=625" />												</a>
+				
+							</figure><!-- .featured-image -->
+		
+		<div class="entry-wrapper">
+			<h3 class="entry-title"><a href="https://wednesdayblog.org/2023/10/18/on-the-cannibals/" rel="bookmark">On the Cannibals</a></h3>						<p>This week on the &#8220;Wednesday Blog,&#8221; looking back to a Renaissance philosopher to try and make sense of the present.</p>
+				<div class="entry-meta">
+					<a href="https://wednesdayblog.org/author/seanthomaskane/"><img alt='' src='https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=48&#038;d=identicon&#038;r=G' srcset='https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=48&#038;d=identicon&#038;r=G 1x, https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=72&#038;d=identicon&#038;r=G 1.5x, https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=96&#038;d=identicon&#038;r=G 2x, https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=144&#038;d=identicon&#038;r=G 3x, https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a>						<span class="byline">
+							<span class="author-prefix">by</span> <span class="author vcard"><a class="url fn n" href="https://wednesdayblog.org/author/seanthomaskane/">seanthomaskane</a></span>						</span><!-- .author-name -->
+						<time class="entry-date published updated" datetime="2023-10-18T09:36:25-06:00">18 October 2023</time>				</div><!-- .entry-meta -->
+					</div><!-- .entry-wrapper -->
+	</article>
+
+		
+	<article data-post-id="6511"
+		class="tag-an-gorta-mor tag-anthropocene tag-betty-meggers tag-colonial-legacies tag-colorado tag-denver tag-denver-art-museum tag-denver-museum-of-nature-and-science tag-great-hunger tag-historic-range tag-irish-potato-famine tag-mountain-lion tag-old-west tag-puma tag-ross-park-zoo tag-sean-kane tag-sean-thomas-kane tag-sneezing-across-the-west tag-wednesday-blog category-history category-wednesday-blog type-post post-has-image"
+				>
+							<figure class="post-thumbnail">
+								<a href="https://wednesdayblog.org/2023/10/04/historic-range/" rel="bookmark" tabindex="-1" aria-hidden="true">
+												<img width="1200" height="900" src="https://sthosdkane.files.wordpress.com/2023/10/img_2380.png?w=1200&amp;h=900&amp;crop=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="Historic Range" decoding="async" loading="lazy" data-hero-candidate="1" srcset="https://sthosdkane.files.wordpress.com/2023/10/img_2380.png?w=1200&amp;h=900&amp;crop=1 1200w, https://sthosdkane.files.wordpress.com/2023/10/img_2380.png?w=2400&amp;h=1800&amp;crop=1 2400w, https://sthosdkane.files.wordpress.com/2023/10/img_2380.png?w=150&amp;h=113&amp;crop=1 150w, https://sthosdkane.files.wordpress.com/2023/10/img_2380.png?w=300&amp;h=225&amp;crop=1 300w, https://sthosdkane.files.wordpress.com/2023/10/img_2380.png?w=768&amp;h=576&amp;crop=1 768w, https://sthosdkane.files.wordpress.com/2023/10/img_2380.png?w=1024&amp;h=768&amp;crop=1 1024w" sizes="(max-width: 1200px) 100vw, 1200px" data-attachment-id="6513" data-permalink="https://wednesdayblog.org/2023/10/04/historic-range/img_2380/" data-orig-file="https://sthosdkane.files.wordpress.com/2023/10/img_2380.png" data-orig-size="4032,3024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="IMG_2380" data-image-description="" data-image-caption="" data-medium-file="https://sthosdkane.files.wordpress.com/2023/10/img_2380.png?w=300" data-large-file="https://sthosdkane.files.wordpress.com/2023/10/img_2380.png?w=625" />												</a>
+				
+							</figure><!-- .featured-image -->
+		
+		<div class="entry-wrapper">
+			<h3 class="entry-title"><a href="https://wednesdayblog.org/2023/10/04/historic-range/" rel="bookmark">Historic Range</a></h3>						<p>This week on the &#8220;Wednesday Blog,&#8221; why our conversations about ecology and culture are grounded in loss.</p>
+				<div class="entry-meta">
+					<a href="https://wednesdayblog.org/author/seanthomaskane/"><img alt='' src='https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=48&#038;d=identicon&#038;r=G' srcset='https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=48&#038;d=identicon&#038;r=G 1x, https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=72&#038;d=identicon&#038;r=G 1.5x, https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=96&#038;d=identicon&#038;r=G 2x, https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=144&#038;d=identicon&#038;r=G 3x, https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a>						<span class="byline">
+							<span class="author-prefix">by</span> <span class="author vcard"><a class="url fn n" href="https://wednesdayblog.org/author/seanthomaskane/">seanthomaskane</a></span>						</span><!-- .author-name -->
+						<time class="entry-date published" datetime="2023-10-04T00:00:00-06:00">4 October 2023</time><time class="updated" datetime="2023-10-04T19:18:07-06:00">4 October 2023</time>				</div><!-- .entry-meta -->
+					</div><!-- .entry-wrapper -->
+	</article>
+
+		
+	<article data-post-id="6505"
+		class="tag-american-history tag-john-quincy-adams tag-partisan-politics tag-sean-kane tag-sean-thomas-kane tag-servant-leader tag-united-states-history tag-us-politics tag-wednesday-blog category-history category-politics category-wednesday-blog type-post post-has-image"
+				>
+							<figure class="post-thumbnail">
+								<a href="https://wednesdayblog.org/2023/09/27/the-power-of-personality/" rel="bookmark" tabindex="-1" aria-hidden="true">
+												<img width="1200" height="900" src="https://sthosdkane.files.wordpress.com/2023/09/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdiyltexl2xyl3ntaxroc25ucgdinzawmdiymmmxlwltywdllmpwzw.jpg?w=1200&amp;h=900&amp;crop=1" class="attachment-newspack-article-block-landscape-large size-newspack-article-block-landscape-large wp-post-image" alt="The Power of&nbsp;Personality" decoding="async" loading="lazy" data-hero-candidate="1" srcset="https://sthosdkane.files.wordpress.com/2023/09/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdiyltexl2xyl3ntaxroc25ucgdinzawmdiymmmxlwltywdllmpwzw.jpg?w=1200&amp;h=900&amp;crop=1 1200w, https://sthosdkane.files.wordpress.com/2023/09/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdiyltexl2xyl3ntaxroc25ucgdinzawmdiymmmxlwltywdllmpwzw.jpg?w=150&amp;h=113&amp;crop=1 150w, https://sthosdkane.files.wordpress.com/2023/09/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdiyltexl2xyl3ntaxroc25ucgdinzawmdiymmmxlwltywdllmpwzw.jpg?w=300&amp;h=225&amp;crop=1 300w, https://sthosdkane.files.wordpress.com/2023/09/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdiyltexl2xyl3ntaxroc25ucgdinzawmdiymmmxlwltywdllmpwzw.jpg?w=768&amp;h=576&amp;crop=1 768w, https://sthosdkane.files.wordpress.com/2023/09/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdiyltexl2xyl3ntaxroc25ucgdinzawmdiymmmxlwltywdllmpwzw.jpg?w=1024&amp;h=768&amp;crop=1 1024w" sizes="(max-width: 1200px) 100vw, 1200px" data-attachment-id="6508" data-permalink="https://wednesdayblog.org/2023/09/27/the-power-of-personality/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdiyltexl2xyl3ntaxroc25ucgdinzawmdiymmmxlwltywdllmpwzw/" data-orig-file="https://sthosdkane.files.wordpress.com/2023/09/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdiyltexl2xyl3ntaxroc25ucgdinzawmdiymmmxlwltywdllmpwzw.jpg" data-orig-size="1300,1718" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;rawpixel.com&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;John Quincy Adams\n\nMore:\n\n Original public domain image from &lt;a href=\&quot;https:\/\/www.si.edu\/object\/john-quincy-adams:npg_NPG.2017.110\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener noreferrer\&quot;&gt;Smithsonian&lt;\/a&gt;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="John Quincy Adams" data-image-description="&lt;p&gt;John Quincy Adams&lt;/p&gt;
+&lt;p&gt;More:&lt;/p&gt;
+&lt;p&gt; Original public domain image from &lt;a href=&quot;https://www.si.edu/object/john-quincy-adams:npg_NPG.2017.110&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Smithsonian&lt;/a&gt;&lt;/p&gt;
+" data-image-caption="" data-medium-file="https://sthosdkane.files.wordpress.com/2023/09/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdiyltexl2xyl3ntaxroc25ucgdinzawmdiymmmxlwltywdllmpwzw.jpg?w=227" data-large-file="https://sthosdkane.files.wordpress.com/2023/09/chjpdmf0zs9sci9pbwfnzxmvd2vic2l0zs8ymdiyltexl2xyl3ntaxroc25ucgdinzawmdiymmmxlwltywdllmpwzw.jpg?w=625" />												</a>
+				
+							</figure><!-- .featured-image -->
+		
+		<div class="entry-wrapper">
+			<h3 class="entry-title"><a href="https://wednesdayblog.org/2023/09/27/the-power-of-personality/" rel="bookmark">The Power of&nbsp;Personality</a></h3>						<p>This week on the Wednesday Blog, a look back 200 years to another time of great political change in the United States.</p>
+				<div class="entry-meta">
+					<a href="https://wednesdayblog.org/author/seanthomaskane/"><img alt='' src='https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=48&#038;d=identicon&#038;r=G' srcset='https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=48&#038;d=identicon&#038;r=G 1x, https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=72&#038;d=identicon&#038;r=G 1.5x, https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=96&#038;d=identicon&#038;r=G 2x, https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=144&#038;d=identicon&#038;r=G 3x, https://2.gravatar.com/avatar/e92d82eea8cd9b98fadc47e158423c8c9ab2275c70daa8478ffbed6dcadbaf09?s=192&#038;d=identicon&#038;r=G 4x' class='avatar avatar-48' height='48' width='48' loading='lazy' decoding='async' /></a>						<span class="byline">
+							<span class="author-prefix">by</span> <span class="author vcard"><a class="url fn n" href="https://wednesdayblog.org/author/seanthomaskane/">seanthomaskane</a></span>						</span><!-- .author-name -->
+						<time class="entry-date published updated" datetime="2023-09-27T06:21:13-06:00">27 September 2023</time>				</div><!-- .entry-meta -->
+					</div><!-- .entry-wrapper -->
+	</article>
+
+					</div>
+			
+		</div>
+				</aside><aside id="block-3" class="widget widget_block">	<div class="wp-block-jetpack-podcast-player is-default" id="jetpack-podcast-player-block-6526-6">
+		<section
+			class="jetpack-podcast-player "
+			style=""
+		>
+			
+<div class="jetpack-podcast-player__header">
+	<div class="jetpack-podcast-player__current-track-info">
+					<div class="jetpack-podcast-player__cover">
+				<img class="jetpack-podcast-player__cover-image" src="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/19918924/19918924-1638503254894-deaa7df42002c.jpg" alt="" />
+			</div>
+		
+		
+<h2 id="jetpack-podcast-player-block-6526-6__title" class="jetpack-podcast-player__title">
+	<span
+		class="jetpack-podcast-player__current-track-title "
+		style=""	>
+		Birdsong<a
+				class="jetpack-podcast-player__track-title-link"
+				href="https://podcasters.spotify.com/pod/show/sean-thomas-kane/episodes/Birdsong-e2aib74"
+				target="_blank"
+				rel="noopener noreferrer nofollow"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+					<path d="M15.6 7.2H14v1.5h1.6c2 0 3.7 1.7 3.7 3.7s-1.7 3.7-3.7 3.7H14v1.5h1.6c2.8 0 5.2-2.3 5.2-5.2 0-2.9-2.3-5.2-5.2-5.2zM4.7 12.4c0-2 1.7-3.7 3.7-3.7H10V7.2H8.4c-2.9 0-5.2 2.3-5.2 5.2 0 2.9 2.3 5.2 5.2 5.2H10v-1.5H8.4c-2 0-3.7-1.7-3.7-3.7zm4.6.9h5.3v-1.5H9.3v1.5z" />
+				</svg>
+			</a>
+			</span>
+
+			<span class="jetpack-podcast-player--visually-hidden"> - </span>
+
+		<span class="jetpack-podcast-player__podcast-title">
+			<a
+			class="jetpack-podcast-player__link"
+			href="https://www.sthosdkane.com/"
+			target="_blank"
+			rel="noopener noreferrer nofollow"
+		>
+			Wednesday Blog by Seán Thomas Kane		</a>
+		</span>
+	</h2>
+	</div>
+
+		<div
+		id="jetpack-podcast-player-block-6526-6__track-description"
+		class="jetpack-podcast-player__track-description"
+	>
+		This week on the Wednesday Blog, I extol the virtues of listening to our bedfellows in nature.
+---
+Click here to support the Wednesday Blog: https://www.patreon.com/sthosdkane
+
+--- 
+
+Support this podcast: https://podcasters.spotify.com/pod/show/sean-thomas-kane/support	</div>
+	
+	<div class="jetpack-podcast-player__audio-player">
+		<div class="jetpack-podcast-player--audio-player-loading"></div>
+	</div>
+</div>
+						<ol class="jetpack-podcast-player__tracks">
+									
+<li
+	class="jetpack-podcast-player__track is-active"
+	style=""
+>
+	<a
+		class="jetpack-podcast-player__track-link jetpack-podcast-player__link"
+		href="https://podcasters.spotify.com/pod/show/sean-thomas-kane/episodes/Birdsong-e2aib74"
+		role="button"
+		aria-current="track"	>
+		<span class="jetpack-podcast-player__track-status-icon"></span>
+		<span class="jetpack-podcast-player__track-title">Birdsong</span>
+		<time class="jetpack-podcast-player__track-duration">04:54</time>
+	</a>
+</li>
+									
+<li
+	class="jetpack-podcast-player__track"
+	style=""
+>
+	<a
+		class="jetpack-podcast-player__track-link jetpack-podcast-player__link"
+		href="https://podcasters.spotify.com/pod/show/sean-thomas-kane/episodes/On-the-Cannibals-e2aib62"
+		role="button"
+			>
+		<span class="jetpack-podcast-player__track-status-icon"></span>
+		<span class="jetpack-podcast-player__track-title">On the Cannibals</span>
+		<time class="jetpack-podcast-player__track-duration">10:22</time>
+	</a>
+</li>
+									
+<li
+	class="jetpack-podcast-player__track"
+	style=""
+>
+	<a
+		class="jetpack-podcast-player__track-link jetpack-podcast-player__link"
+		href="https://podcasters.spotify.com/pod/show/sean-thomas-kane/episodes/Seasonal-Confusion-e2ae27q"
+		role="button"
+			>
+		<span class="jetpack-podcast-player__track-status-icon"></span>
+		<span class="jetpack-podcast-player__track-title">Seasonal Confusion</span>
+		<time class="jetpack-podcast-player__track-duration">06:32</time>
+	</a>
+</li>
+									
+<li
+	class="jetpack-podcast-player__track"
+	style=""
+>
+	<a
+		class="jetpack-podcast-player__track-link jetpack-podcast-player__link"
+		href="https://podcasters.spotify.com/pod/show/sean-thomas-kane/episodes/Historic-Range-e2a4ono"
+		role="button"
+			>
+		<span class="jetpack-podcast-player__track-status-icon"></span>
+		<span class="jetpack-podcast-player__track-title">Historic Range</span>
+		<time class="jetpack-podcast-player__track-duration">12:12</time>
+	</a>
+</li>
+									
+<li
+	class="jetpack-podcast-player__track"
+	style=""
+>
+	<a
+		class="jetpack-podcast-player__track-link jetpack-podcast-player__link"
+		href="https://podcasters.spotify.com/pod/show/sean-thomas-kane/episodes/The-Power-of-Personality-e29r6gf"
+		role="button"
+			>
+		<span class="jetpack-podcast-player__track-status-icon"></span>
+		<span class="jetpack-podcast-player__track-title">The Power of Personality</span>
+		<time class="jetpack-podcast-player__track-duration">06:56</time>
+	</a>
+</li>
+							</ol>
+					</section>
+				<script type="application/json">{"attributes":{"url":"https:\/\/anchor.fm\/sean-thomas-kane","selectedEpisodes":[],"itemsToShow":5,"showCoverArt":true,"showEpisodeTitle":true,"showEpisodeDescription":true},"title":"Wednesday Blog by Se\u00e1n Thomas Kane","description":"This podcast is a broadcasted version of Se\u00e1n Kane's Wednesday Blog. Covering topics from history to natural history, astronomy, and language, the Wednesday Blog offers listeners a thoughtful reflection in the middle of each week. Support this podcast: https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support","link":"https:\/\/www.sthosdkane.com\/","cover":"https:\/\/d3t3ozftmdmh3i.cloudfront.net\/production\/podcast_uploaded\/19918924\/19918924-1638503254894-deaa7df42002c.jpg","tracks":[{"id":"podcast-track-2","link":"https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/episodes\/Birdsong-e2aib74","src":"https:\/\/anchor.fm\/s\/77527430\/podcast\/play\/77195940\/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-14%2F351073032-44100-2-d4c62bbb2f068.m4a","type":"audio\/x-m4a","description":"This week on the\u00a0Wednesday Blog, I extol the virtues of listening to our bedfellows in nature.\n---\nClick here to support the Wednesday Blog: https:\/\/www.patreon.com\/sthosdkane\n\n--- \n\nSupport this podcast: https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support","description_html":"<p>This week on the\u00a0<em>Wednesday Blog<\/em>, I extol the virtues of listening to our bedfellows in nature.<\/p>\n<p>---<\/p>\n<p>Click here to support the <em>Wednesday Blog<\/em>: <a href=\"https:\/\/www.patreon.com\/sthosdkane\" target=\"_blank\" rel=\"noopener noreferer\">https:\/\/www.patreon.com\/sthosdkane<\/a><\/p>\n\n--- \n\nSupport this podcast: <a href=\"https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support\" rel=\"payment\">https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support<\/a>","title":"Birdsong","image":"https:\/\/d3t3ozftmdmh3i.cloudfront.net\/production\/podcast_uploaded\/19918924\/19918924-1638503254894-deaa7df42002c.jpg","guid":"736d8197-1dd2-4805-8f8a-a567222b7804","publish_date":"2023-10-25T05:00:00+00:00","duration":"04:54"},{"id":"podcast-track-3","link":"https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/episodes\/On-the-Cannibals-e2aib62","src":"https:\/\/anchor.fm\/s\/77527430\/podcast\/play\/77195906\/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-14%2F351072922-44100-2-0ef880a8e49a6.m4a","type":"audio\/x-m4a","description":"This week on the\u00a0Wednesday Blog, looking back to a Renaissance philosopher to try and make sense of the present.\n---\nClick here to support the Wednesday Blog: https:\/\/www.patreon.com\/sthosdkane\n\n--- \n\nSupport this podcast: https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support","description_html":"<p>This week on the\u00a0<em>Wednesday Blog<\/em>, looking back to a Renaissance philosopher to try and make sense of the present.<\/p>\n<p>---<\/p>\n<p>Click here to support the <em>Wednesday Blog<\/em>: <a href=\"https:\/\/www.patreon.com\/sthosdkane\" target=\"_blank\" rel=\"noopener noreferer\">https:\/\/www.patreon.com\/sthosdkane<\/a><\/p>\n\n--- \n\nSupport this podcast: <a href=\"https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support\" rel=\"payment\">https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support<\/a>","title":"On the Cannibals","image":"https:\/\/d3t3ozftmdmh3i.cloudfront.net\/production\/podcast_uploaded\/19918924\/19918924-1638503254894-deaa7df42002c.jpg","guid":"296190ac-c6ce-4355-a0be-616e28250111","publish_date":"2023-10-18T05:00:00+00:00","duration":"10:22"},{"id":"podcast-track-4","link":"https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/episodes\/Seasonal-Confusion-e2ae27q","src":"https:\/\/anchor.fm\/s\/77527430\/podcast\/play\/77055674\/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-11%2F350635810-44100-2-aff6045bee22d.m4a","type":"audio\/x-m4a","description":"This week on the\u00a0Wednesday Blog, I have a bone to pick with the weather.\n---\nClick here to support the Wednesday Blog: https:\/\/www.patreon.com\/sthosdkane\n\n--- \n\nSupport this podcast: https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support","description_html":"<p>This week on the\u00a0<em>Wednesday Blog<\/em>, I have a bone to pick with the weather.<\/p>\n<p>---<\/p>\n<p>Click here to support the <em>Wednesday Blog<\/em>: <a href=\"https:\/\/www.patreon.com\/sthosdkane\" target=\"_blank\" rel=\"noopener noreferer\">https:\/\/www.patreon.com\/sthosdkane<\/a><\/p>\n\n--- \n\nSupport this podcast: <a href=\"https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support\" rel=\"payment\">https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support<\/a>","title":"Seasonal Confusion","image":"https:\/\/d3t3ozftmdmh3i.cloudfront.net\/production\/podcast_uploaded\/19918924\/19918924-1638503254894-deaa7df42002c.jpg","guid":"caa456f7-b240-4839-98cc-9a1c1b0bb7cc","publish_date":"2023-10-11T03:38:42+00:00","duration":"06:32"},{"id":"podcast-track-5","link":"https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/episodes\/Historic-Range-e2a4ono","src":"https:\/\/anchor.fm\/s\/77527430\/podcast\/play\/76751032\/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-9-4%2F349674181-44100-2-b364b0c05d0c9.m4a","type":"audio\/x-m4a","description":"This week on the\u00a0Wednesday Blog, why our conversations about ecology and culture are grounded in loss.\n---\nClick here to support the Wednesday Blog: https:\/\/www.patreon.com\/sthosdkane\n\n--- \n\nSupport this podcast: https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support","description_html":"<p>This week on the\u00a0<em>Wednesday Blog<\/em>, why our conversations about ecology and culture are grounded in loss.<\/p>\n<p>---<\/p>\n<p>Click here to support the <em>Wednesday Blog<\/em>: <a href=\"https:\/\/www.patreon.com\/sthosdkane\" target=\"_blank\" rel=\"noopener noreferer\">https:\/\/www.patreon.com\/sthosdkane<\/a><\/p>\n\n--- \n\nSupport this podcast: <a href=\"https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support\" rel=\"payment\">https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support<\/a>","title":"Historic Range","image":"https:\/\/d3t3ozftmdmh3i.cloudfront.net\/production\/podcast_uploaded\/19918924\/19918924-1638503254894-deaa7df42002c.jpg","guid":"b8bde216-ea83-4821-816e-134fe3adaf5b","publish_date":"2023-10-04T03:02:01+00:00","duration":"12:12"},{"id":"podcast-track-6","link":"https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/episodes\/The-Power-of-Personality-e29r6gf","src":"https:\/\/anchor.fm\/s\/77527430\/podcast\/play\/76437455\/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-8-27%2F348700866-44100-2-42afb0654976d.m4a","type":"audio\/x-m4a","description":"This week on the\u00a0Wednesday Blog, a look back 200 years to another time of great political change in the United States.\n---\nClick here to support the Wednesday Blog: https:\/\/www.patreon.com\/sthosdkane\n\n--- \n\nSupport this podcast: https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support","description_html":"<p>This week on the\u00a0<em>Wednesday Blog<\/em>, a look back 200 years to another time of great political change in the United States.<\/p>\n<p>---<\/p>\n<p>Click here to support the <em>Wednesday Blog<\/em>: <a href=\"https:\/\/www.patreon.com\/sthosdkane\" target=\"_blank\" rel=\"noopener noreferer\">https:\/\/www.patreon.com\/sthosdkane<\/a><\/p>\n\n--- \n\nSupport this podcast: <a href=\"https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support\" rel=\"payment\">https:\/\/podcasters.spotify.com\/pod\/show\/sean-thomas-kane\/support<\/a>","title":"The Power of Personality","image":"https:\/\/d3t3ozftmdmh3i.cloudfront.net\/production\/podcast_uploaded\/19918924\/19918924-1638503254894-deaa7df42002c.jpg","guid":"23e793a6-dd7b-45a4-80f4-3504d8201ae7","publish_date":"2023-09-27T03:51:44+00:00","duration":"06:56"}],"playerId":"jetpack-podcast-player-block-6526-6"}</script>
+			</div>
+	</aside><aside id="blog_subscription-2" class="widget widget_blog_subscription jetpack_subscription_widget"><h3 class="widget-title"><label for="subscribe-field">Follow Blog via Email</label></h3>
+
+			<div class="wp-block-jetpack-subscriptions__container">
+			<form
+				action="https://subscribe.wordpress.com"
+				method="post"
+				accept-charset="utf-8"
+				data-blog="52504556"
+				data-post_access_level="everybody"
+				id="subscribe-blog"
+			>
+				<p>Enter your email address to follow this blog and receive notifications of new posts by email.</p>
+				<p id="subscribe-email">
+					<label
+						id="subscribe-field-label"
+						for="subscribe-field"
+						class="screen-reader-text"
+					>
+						Email Address:					</label>
+
+					<input
+							type="email"
+							name="email"
+							
+							style="width: 95%; padding: 1px 10px"
+							placeholder="Email Address"
+							value=""
+							id="subscribe-field"
+							required
+						/>				</p>
+
+				<p id="subscribe-submit"
+									>
+					<input type="hidden" name="action" value="subscribe"/>
+					<input type="hidden" name="blog_id" value="52504556"/>
+					<input type="hidden" name="source" value="https://wednesdayblog.org/2023/10/11/seasonal-confusion/"/>
+					<input type="hidden" name="sub-type" value="widget"/>
+					<input type="hidden" name="redirect_fragment" value="subscribe-blog"/>
+					<input type="hidden" id="_wpnonce" name="_wpnonce" value="89bc0eb43d" />					<button type="submit"
+													class="wp-block-button__link"
+																	>
+						Follow					</button>
+				</p>
+			</form>
+							<div class="wp-block-jetpack-subscriptions__subscount">
+					Join 298 other subscribers				</div>
+						</div>
+			
+</aside><aside id="search-3" class="widget widget_search"><h3 class="widget-title">Search</h3><form role="search" method="get" id="searchform" class="searchform" action="https://wednesdayblog.org/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></aside><aside id="facebook-likebox-5" class="widget widget_facebook_likebox"><h3 class="widget-title"><a href="https://www.facebook.com/SeanThomasKane/">Seán Thomas Kane, Author</a></h3>		<div id="fb-root"></div>
+		<div class="fb-page" data-href="https://www.facebook.com/SeanThomasKane/" data-width="340"  data-height="432" data-hide-cover="false" data-show-facepile="true" data-tabs="false" data-hide-cta="false" data-small-header="false">
+		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/SeanThomasKane/"><a href="https://www.facebook.com/SeanThomasKane/">Seán Thomas Kane, Author</a></blockquote></div>
+		</div>
+		</aside>		</div><!-- #secondary -->
+		</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+									<a href="https://wordpress.com/?ref=footer_custom_svg" title="Create a website or blog at WordPress.com" rel="nofollow"><svg style="fill: currentColor; position: relative; top: 1px;" width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-labelledby="title" role="img">
+				<desc id="title">Create a website or blog at WordPress.com</desc>
+				<path d="M12.5225848,4.97949746 C13.0138466,5.87586309 13.2934037,6.90452431 13.2934037,7.99874074 C13.2934037,10.3205803 12.0351007,12.3476807 10.1640538,13.4385638 L12.0862862,7.88081544 C12.4453251,6.98296834 12.5648813,6.26504621 12.5648813,5.62667922 C12.5648813,5.39497674 12.549622,5.17994084 12.5225848,4.97949746 L12.5225848,4.97949746 Z M7.86730089,5.04801561 C8.24619178,5.02808979 8.58760099,4.98823815 8.58760099,4.98823815 C8.9267139,4.94809022 8.88671369,4.44972248 8.54745263,4.46957423 C8.54745263,4.46957423 7.52803983,4.54957381 6.86996227,4.54957381 C6.25158863,4.54957381 5.21247202,4.46957423 5.21247202,4.46957423 C4.87306282,4.44972248 4.83328483,4.96816418 5.17254589,4.98823815 C5.17254589,4.98823815 5.49358462,5.02808979 5.83269753,5.04801561 L6.81314716,7.73459399 L5.43565839,11.8651647 L3.14394256,5.04801561 C3.52312975,5.02808979 3.86416859,4.98823815 3.86416859,4.98823815 C4.20305928,4.94809022 4.16305906,4.44972248 3.82394616,4.46957423 C3.82394616,4.46957423 2.80475558,4.54957381 2.14660395,4.54957381 C2.02852925,4.54957381 1.88934333,4.54668493 1.74156477,4.54194422 C2.86690406,2.83350881 4.80113651,1.70529256 6.99996296,1.70529256 C8.638342,1.70529256 10.1302017,2.33173369 11.2498373,3.35765419 C11.222726,3.35602457 11.1962815,3.35261718 11.1683554,3.35261718 C10.5501299,3.35261718 10.1114609,3.89113285 10.1114609,4.46957423 C10.1114609,4.98823815 10.4107217,5.42705065 10.7296864,5.94564049 C10.969021,6.36482346 11.248578,6.90326506 11.248578,7.68133501 C11.248578,8.21992476 11.0413918,8.84503256 10.7696866,9.71584277 L10.1417574,11.8132391 L7.86730089,5.04801561 Z M6.99996296,14.2927074 C6.38218192,14.2927074 5.78595654,14.2021153 5.22195356,14.0362644 L7.11048207,8.54925635 L9.04486267,13.8491542 C9.05760348,13.8802652 9.07323319,13.9089317 9.08989995,13.9358945 C8.43574834,14.1661896 7.73285573,14.2927074 6.99996296,14.2927074 L6.99996296,14.2927074 Z M0.706448182,7.99874074 C0.706448182,7.08630113 0.902152921,6.22015756 1.25141403,5.43749503 L4.25357806,13.6627848 C2.15393732,12.6427902 0.706448182,10.4898387 0.706448182,7.99874074 L0.706448182,7.99874074 Z M6.99996296,0.999 C3.14016476,0.999 0,4.13905746 0,7.99874074 C0,11.8585722 3.14016476,14.999 6.99996296,14.999 C10.8596871,14.999 14,11.8585722 14,7.99874074 C14,4.13905746 10.8596871,0.999 6.99996296,0.999 L6.99996296,0.999 Z" id="wordpress-logo-simplified-cmyk" stroke="none" fill=“currentColor” fill-rule="evenodd"></path>
+			</svg></a>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!--  -->
+<script src='//0.gravatar.com/js/hovercards/hovercards.min.js?ver=202343aeb24331352c11f5446dd670d75325a3c4e3b8a6bd7f92ee1c88f8b8636d4d9c' id='grofiles-cards-js'></script>
+<script id='wpgroho-js-extra'>
+var WPGroHo = {"my_hash":""};
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240i'></script>
+
+	<script>
+		// Initialize and attach hovercards to all gravatars
+		( function() {
+			function init() {
+				if ( typeof Gravatar === 'undefined' ) {
+					return;
+				}
+
+				if ( typeof Gravatar.init !== 'function' ) {
+					return;
+				}
+
+				Gravatar.profile_cb = function ( hash, id ) {
+					WPGroHo.syncProfileData( hash, id );
+				};
+
+				Gravatar.my_hash = WPGroHo.my_hash;
+				Gravatar.init(
+					'body',
+					'#wp-admin-bar-my-account',
+					{
+						i18n: {
+							'Edit your profile': 'Edit your profile',
+							'View profile': 'View profile',
+							'Sorry, we are unable to load this Gravatar profile.': 'Sorry, we are unable to load this Gravatar profile.',
+							'Sorry, we are unable to load this Gravatar profile. Please check your internet connection.': 'Sorry, we are unable to load this Gravatar profile. Please check your internet connection.',
+						},
+					}
+				);
+			}
+
+			if ( document.readyState !== 'loading' ) {
+				init();
+			} else {
+				document.addEventListener( 'DOMContentLoaded', init );
+			}
+		} )();
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-7c031375355275eca4dfda47b24a532b">
+	</div>
+	<div class="grofile-hash-map-b85579e9c9acb77c3b097212ce5957e5">
+	</div>
+	</div>
+	<div id="actionbar" style="display: none;"
+			class="actnbr-pub-twentytwelve actnbr-has-follow">
+		<ul>
+								<li class="actnbr-btn actnbr-hidden">
+						<a class="actnbr-action actnbr-actn-comment" href="https://wednesdayblog.org/2023/10/11/seasonal-confusion/#comments">
+							<svg class="gridicon gridicons-comment" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M12 16l-5 5v-5H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v9c0 1.1-.9 2-2 2h-7z"/></g></svg>							<span>Comment						</span>
+						</a>
+					</li>
+									<li class="actnbr-btn actnbr-hidden">
+								<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Follow</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Following</span>
+		</a>
+							<div class="actnbr-popover tip tip-top-left actnbr-notice" id="follow-bubble">
+							<div class="tip-arrow"></div>
+							<div class="tip-inner actnbr-follow-bubble">
+															<ul>
+											<li class="actnbr-sitename">
+			<a href="https://wednesdayblog.org">
+				<img alt='' src='https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=50' srcset='https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=50 1x, https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=75 1.5x, https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=100 2x, https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=150 3x, https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=200 4x' class='avatar avatar-50' height='50' width='50' />				Wednesday Blog by Seán Thomas Kane			</a>
+		</li>
+										<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
+																						<div class="actnbr-follow-count">Join 112 other followers</div>
+																					<div>
+										<input type="email" name="email" placeholder="Enter your email address" class="actnbr-email-field" aria-label="Enter your email address" />
+										</div>
+										<input type="hidden" name="action" value="subscribe" />
+										<input type="hidden" name="blog_id" value="52504556" />
+										<input type="hidden" name="source" value="https://wednesdayblog.org/2023/10/11/seasonal-confusion/" />
+										<input type="hidden" name="sub-type" value="actionbar-follow" />
+										<input type="hidden" id="_wpnonce" name="_wpnonce" value="89bc0eb43d" />										<div class="actnbr-button-wrap">
+											<button type="submit" value="Sign me up">
+												Sign me up											</button>
+										</div>
+									</form>
+									<li class="actnbr-login-nudge">
+										<div>
+											Already have a WordPress.com account? <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Fwednesdayblog.org%252F2023%252F10%252F11%252Fseasonal-confusion%252F">Log in now.</a>										</div>
+									</li>
+								</ul>
+															</div>
+						</div>
+					</li>
+							<li class="actnbr-ellipsis actnbr-hidden">
+				<svg class="gridicon gridicons-ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M7 12c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zm12-2c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-7 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2z"/></g></svg>				<div class="actnbr-popover tip tip-top-left actnbr-more">
+					<div class="tip-arrow"></div>
+					<div class="tip-inner">
+						<ul>
+									<li class="actnbr-sitename">
+			<a href="https://wednesdayblog.org">
+				<img alt='' src='https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=50' srcset='https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=50 1x, https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=75 1.5x, https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=100 2x, https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=150 3x, https://sthosdkane.files.wordpress.com/2022/07/cropped-wednesday-blog-anchor-art.jpg?w=200 4x' class='avatar avatar-50' height='50' width='50' />				Wednesday Blog by Seán Thomas Kane			</a>
+		</li>
+								<li class="actnbr-folded-customize">
+								<a href="https://sthosdkane.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fsthosdkane.wordpress.com%2F2023%2F10%2F11%2Fseasonal-confusion%2F">
+									<svg class="gridicon gridicons-customize" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z"/></g></svg>									<span>Customize</span>
+								</a>
+							</li>
+																<li class="actnbr-folded-follow">
+												<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Follow</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Following</span>
+		</a>
+										</li>
+																	<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li>
+									<li class="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fr-login.wordpress.com%2Fremote-login.php%3Faction%3Dlink%26back%3Dhttps%253A%252F%252Fwednesdayblog.org%252F2023%252F10%252F11%252Fseasonal-confusion%252F">Log in</a></li>
+																	<li class="actnbr-shortlink"><a href="https://wp.me/p3yiPG-1Hg">Copy shortlink</a></li>
+																	<li class="flb-report">
+										<a href="http://en.wordpress.com/abuse/?report_url=https://wednesdayblog.org/2023/10/11/seasonal-confusion/" target="_blank">
+											Report this content										</a>
+									</li>
+																	<li class="actnbr-reader">
+										<a href="https://wordpress.com/read/blogs/52504556/posts/6526">
+											View post in Reader										</a>
+									</li>
+																	<li class="actnbr-subs">
+										<a href="https://subscribe.wordpress.com/">Manage subscriptions</a>
+									</li>
+																		<li class="actnbr-fold"><a href="">Collapse this bar</a></li>
+															</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+<script>
+window.addEventListener( "load", function( event ) {
+	var link = document.createElement( "link" );
+	link.href = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20231025";
+	link.type = "text/css";
+	link.rel = "stylesheet";
+	document.head.appendChild( link );
+
+	var script = document.createElement( "script" );
+	script.src = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20231025";
+	script.defer = true;
+	document.body.appendChild( script );
+} );
+</script>
+
+	
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/wednesdayblog.org\/2023\/10\/11\/seasonal-confusion\/":6526};
+	</script>
+				<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-2' href='https://s0.wp.com/_static/??-eJxNzdsKwyAQBNAfql3SSyAPpZ9SrIpsNLuSXSv9+94i9HFm4Ay0YhyTBlJYqim5RiSBOWixLm0ZpBLckBzcM7skUNg7K/qe7TOs8MDQ9k5kB39ap4JHRYpGmXNC7WRZ2QOFJt+fzfUo+vmIprCo/GrT+etyGcZpPA6nw3maX+0wRUk=&cssminify=yes' type='text/css' media='all' />
+<style id='core-block-supports-inline-css'>
+.wp-container-3.wp-container-3{justify-content:center;}.wp-container-4.wp-container-4{justify-content:center;}
+</style>
+<script id='jetpack-facebook-embed-js-extra'>
+var jpfbembed = {"appid":"249643311490","locale":"en_US"};
+</script>
+<script id='mediaelement-js-extra'>
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive","audioShortcodeLibrary":"mediaelement","videoShortcodeLibrary":"mediaelement"};
+</script>
+<script id="verbum-settings-js-before" type="text/javascript">
+window.VerbumComments = {"Log in or provide your name and email to leave a reply.":"Log in or provide your name and email to leave a reply.","Receive web and mobile notifications for posts on this site.":"Receive web and mobile notifications for posts on this site.","Name":"Name","Email (address never made public)":"Email (address never made public)","Website (optional)":"Website (optional)","Leave a reply. (log in optional)":"Leave a reply. (log in optional)","Log in to leave a reply.":"Log in to leave a reply.","Logged in via %s":"Logged in via %s","Log out":"Log out","Email":"Email","(Address never made public)":"(Address never made public)","Instantly":"Instantly","Daily":"Daily","Reply":"Reply","WordPress":"WordPress","Weekly":"Weekly","Notify me of new posts":"Notify me of new posts","Email me new posts":"Email me new posts","Email me new comments":"Email me new comments","Cancel":"Cancel","Write a comment\u2026":"Write a Comment...","Website":"Website","Optional":"Optional","siteId":52504556,"mustLogIn":false,"requireNameEmail":true,"commentRegistration":false,"connectURL":"https:\/\/sthosdkane.wordpress.com\/public.api\/connect\/?action=request&domain=wednesdayblog.org","logoutURL":"https:\/\/sthosdkane.wordpress.com\/wp-login.php?action=logout&_wpnonce=c4a991c559","homeURL":"https:\/\/wednesdayblog.org\/","subscribeToBlog":true,"subscribeToComment":true,"isJetpackCommentsLoggedIn":false,"jetpackUsername":"","jetpackUserId":0,"jetpackSignature":"","jetpackAvatar":"https:\/\/0.gravatar.com\/avatar\/?s=96&amp;d=identicon&amp;r=G","enableBlocks":false}
+</script>
+<script id="mediaelement-core-js-before" type="text/javascript">
+var mejsL10n = {"language":"en","strings":{"mejs.download-file":"Download File","mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen":"Fullscreen","mejs.play":"Play","mejs.pause":"Pause","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.live-broadcast":"Live Broadcast","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s0.wp.com/_static/??-eJyVj9FqwzAMRX9orlgLLXso+5ThxGqqxJI9W07J31cdLQS2QvdikHWOdAWX7PokiqLAzeXYBpIKkSas8N2w4dlLiFg2Y30Dg0n62II1xwp9YjbRFcxx2TDJA3pM1DOyobl1oBf7WOyNM95c8TMNXin9klYxRtTs++leQ20CXxYATr7HLqXJIXcY/orGGMhjRP6ZuCqcnWPz/GInrRK/5jINxSs+EwNVhRklpHJr5RSXE8VoDBZ9RSo4oLFeU3GliRL/d9cd/+Tj+/7jsN9ud7vDeAVu6rW0'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-includes/js/dist/vendor/lodash.min.js?m=1690990124i&#038;ver=4.17.19' id='lodash-js'></script>
+<script id="lodash-js-after" type="text/javascript">
+window.lodash = _.noConflict();
+</script>
+<script src='https://s1.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/vendors/react.min.js?m=1697141320i&#038;ver=18' id='react-js'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/vendors/react-dom.min.js?m=1697141320i&#038;ver=18' id='react-dom-js'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/dom-ready/index.min.js?m=1697141320i&#038;ver=8ef91b5d96d5175674de' id='wp-dom-ready-js'></script>
+<script id="wp-dom-ready-js-after" type="text/javascript">
+wp.galleryBlockV2Enabled = true
+</script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/hooks/index.min.js?m=1697141320i&#038;ver=700a21be8955e3eb9568' id='wp-hooks-js'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/i18n/index.min.js?m=1697141320i&#038;ver=f5a63315d8d2f363ce59' id='wp-i18n-js'></script>
+<script id="wp-i18n-js-after" type="text/javascript">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/a11y/index.min.js?m=1697141320i&#038;ver=e877cd603c6fb8d5a4ad' id='wp-a11y-js'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/deprecated/index.min.js?m=1697141320i&#038;ver=54a81782c7e67f7d5dbe' id='wp-deprecated-js'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/dom/index.min.js?m=1697141320i&#038;ver=22a1382183a9f1df486c' id='wp-dom-js'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/escape-html/index.min.js?m=1697141320i&#038;ver=8514c67d158be39ab130' id='wp-escape-html-js'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/element/index.min.js?m=1697141320i&#038;ver=3beb66ad7bc3364627c2' id='wp-element-js'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/is-shallow-equal/index.min.js?m=1697141320i&#038;ver=83d1da2d013996a24adb' id='wp-is-shallow-equal-js'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/keycodes/index.min.js?m=1697141320i&#038;ver=8030aaaf7773139022ac' id='wp-keycodes-js'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/priority-queue/index.min.js?m=1697141320i&#038;ver=973d01b458326bc1f15d' id='wp-priority-queue-js'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/compose/index.min.js?m=1697141320i&#038;ver=da82f6f75e3ba3f58e5f' id='wp-compose-js'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/private-apis/index.min.js?m=1697141320i&#038;ver=a1d0bb49c8447e437fd1' id='wp-private-apis-js'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/redux-routine/index.min.js?m=1697141320i&#038;ver=0d46a0fe2818e3910cb6' id='wp-redux-routine-js'></script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/data/index.min.js?m=1697141320i&#038;ver=9855a0f7bc9043bd90fe' id='wp-data-js'></script>
+<script id="wp-data-js-after" type="text/javascript">
+( function() {
+	var userId = 0;
+	var storageKey = "WP_DATA_USER_" + userId;
+	wp.data
+		.use( wp.data.plugins.persistence, { storageKey: storageKey } );
+} )();
+</script>
+<script crossorigin='anonymous' src='https://s0.wp.com/wp-content/plugins/gutenberg-core/v16.8.1/build/primitives/index.min.js?m=1697141320i&#038;ver=f6bc37c29a140d8696f9' id='wp-primitives-js'></script>
+<script id='jetpack-block-podcast-player-js-extra'>
+var Jetpack_Block_Assets_Base_Url = {"url":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/jetpack-plugin\/sun\/_inc\/blocks\/"};
+var Jetpack_Block_Assets_Base_Url = {"url":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/jetpack-plugin\/sun\/_inc\/blocks\/"};
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s0.wp.com/_static/??/wp-content/mu-plugins/jetpack-plugin/sun/_inc/blocks/podcast-player/view.js,/wp-content/mu-plugins/akismet-3.0/_inc/akismet-frontend.js?m=1697048679j'></script>
+<script src='https://s2.wp.com/wp-content/plugins/editing-toolkit-plugin/prod/newspack-blocks/dist/blog-posts-block-view.min.js?m=1696314259i&#038;ver=393f62086867e1668b9b' id='blog-posts-block-view-js'></script>
+<script id='sharing-js-js-extra'>
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s2.wp.com/wp-content/mu-plugins/jetpack-plugin/sun/_inc/build/sharedaddy/sharing.min.js?m=1685112397i'></script>
+<script id="sharing-js-js-after" type="text/javascript">
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-twitter' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-twitter' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-facebook' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-facebook' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-linkedin' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-linkedin' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+						return false;
+					}
+				} );
+			} )();
+</script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<iframe src='https://widgets.wp.com/likes/master.html?ver=20230906#ver=20230906&amp;origin=https://wednesdayblog.org' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+	<div id='likes-other-gravatars'>
+		<div class="likes-text">
+			<span>%d</span> bloggers like this:		</div>
+		<ul class="wpl-avatars sd-like-gravatars"></ul>
+	</div>
+
+		<script src="//stats.wp.com/w.js?63" defer></script> <script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'52504556','blog_tz':'-6','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'52504556','v':'wpcom','tz':'-6','user_id':'0','post':'6526','subd':'sthosdkane'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1mNzc2NTVTamdsd0xoLz9RQkM2K298TXY9bERQMXc2MjhEaVZfb2wwakRoSj0mUkp1THptM1NdbkV1WjZIcU9mVWQmPUIvMlN6Jk8wW3NYVEJ3dWZOWExuWD9VNTEucGVsfEdudndPUHpBZkFZSlEyY0ZvWWVnPVFCdkNGLXRYYUJNSEF5cVJZZmRdXVdHV2NjQWhheVlHMEt3SltJb1hfeno2Z1VBM0IuRkdQYzBudyssdU92Nlc1WlMvXTNydGEzcElfcEhWVzF6YTA5dnwtMUNZWnpJQnYlZWp5Ym9DNGlFNkc3MDR5ND1GMHZdXUlSX0V6W01kXWkydyVac0FYfEhDJWJpM0h8bUVbQ0plenlFNUpiTUZDP0taSjA4NGxCL21HSHIxalRYak1rZC5MfCVRNEhqNkplbnlPUFA2LGtOSCVQ'}]);
+_stq.push([ 'clickTrackerInit', '52504556', '6526' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+<script>
+(function() {
+	'use strict';
+
+	const fetches = {};
+	const promises = {};
+	const urls = {
+		'verbum': 'https://s2.wp.com/wp-content/mu-plugins/verbum/dist/index.js?m=1698170411i&ver=1698170411'
+	};
+	const loaders = {
+		'verbum': () => {
+			fetchExternalScript('verbum');
+			promises['verbum'] = promises['verbum'] || loadWPScript('verbum');
+			return promises['verbum'];
+		},
+		
+	};
+	const scriptExtras = {
+		
+	};
+
+	window.WP_Enqueue_Dynamic_Script = {
+		loadScript: (handle) => {
+			if (!loaders[handle]) {
+				console.error('WP_Enqueue_Dynamic_Script: unregistered script `' + handle + '`.');
+			}
+			return loaders[handle]();
+		}
+	};
+
+	function fetchExternalScript(handle) {
+		if (!urls[handle]) {
+			return Promise.resolve();
+		}
+
+		fetches[handle] = fetches[handle] || fetch(urls[handle], { mode: 'no-cors' });
+		return fetches[handle];
+	}
+
+	function runExtraScript(handle, type, index) {
+		const id = 'wp-enqueue-dynamic-script:' + handle + ':' + type + ':' + (index + 1);
+		const template = document.getElementById(id);
+		if (!template) {
+			return Promise.reject();
+		}
+
+		const script = document.createElement( 'script' );
+		script.innerHTML = template.innerHTML;
+		document.body.appendChild( script );
+		return Promise.resolve();
+	}
+
+	function loadExternalScript(handle) {
+		if (!urls[handle]) {
+			return Promise.resolve();
+		}
+
+		return fetches[handle].then(() => {
+			return new Promise((resolve, reject) => {
+				const script = document.createElement('script');
+				script.onload = () => resolve();
+				script.onerror = (e) => reject(e);
+				script.src = urls[handle];
+				document.body.appendChild(script);
+			});
+		});
+	}
+
+	function loadExtra(handle, pos) {
+		const count = (scriptExtras[handle] && scriptExtras[handle][pos]) || 0;
+		let promise = Promise.resolve();
+
+		for (let i = 0; i < count; i++) {
+			promise = promise.then(() => runExtraScript(handle, pos, i));
+		}
+
+		return promise;
+	}
+
+	function loadWPScript(handle) {
+		return loadExtra(handle, 'before')
+			.then(() => loadExternalScript(handle))
+			.then(() => loadExtra(handle, 'after'));
+	}
+} )();
+</script>
+</body>
+</html>

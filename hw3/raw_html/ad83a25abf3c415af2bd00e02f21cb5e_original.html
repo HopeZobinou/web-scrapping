@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: https://ogp.me/ns#">
+<head>
+  <link rel="preload" href="https://raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/dist/assets/main-1682eab5.css" as="style" />
+  <link rel="preload" href="https://raiolanetworks.es/blog/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=6.5.3" as="style" />  
+  <link rel="preload" href="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/bg-hexagonos-laterales.svg" as="image" fetchpriority="high" />
+  <link rel="preload" href="https://raiolanetworks.es/blog/wp-includes/js/jquery/jquery.min.js?ver=3.7.0" as="script" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="profile" href="https://gmpg.org/xfn/11">
+  
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- Optimización en motores de búsqueda por Rank Math PRO -  https://rankmath.com/ -->
+<title>Cómo crear una base de datos MySQL / MariaDB en cPanel</title>
+<meta name="description" content="Desde cPanel podremos crear una base de datos MySQL o MariaDB sin conocimientos técnicos avanzados, aunque debemos seguir un proceso específico."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://raiolanetworks.es/blog/crear-base-de-datos-mysql-mariadb-cpanel/" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Cómo crear una base de datos MySQL / MariaDB en cPanel" />
+<meta property="og:description" content="Desde cPanel podremos crear una base de datos MySQL o MariaDB sin conocimientos técnicos avanzados, aunque debemos seguir un proceso específico." />
+<meta property="og:url" content="https://raiolanetworks.es/blog/crear-base-de-datos-mysql-mariadb-cpanel/" />
+<meta property="og:site_name" content="Raiola Networks" />
+<meta property="article:publisher" content="https://www.facebook.com/RaiolaNetworks/" />
+<meta property="article:author" content="https://www.facebook.com/afontelasanchez/" />
+<meta property="article:section" content="cPanel" />
+<meta property="fb:app_id" content="629784180410444" />
+<meta property="og:image" content="https://cdn.raiolanetworks.es/blog/wp-content/uploads/cpanel-5.png" />
+<meta property="og:image:secure_url" content="https://cdn.raiolanetworks.es/blog/wp-content/uploads/cpanel-5.png" />
+<meta property="og:image:width" content="700" />
+<meta property="og:image:height" content="700" />
+<meta property="og:image:alt" content="base de datos cpanel" />
+<meta property="og:image:type" content="image/png" />
+<meta property="article:published_time" content="2023-04-11T19:53:46+02:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Cómo crear una base de datos MySQL / MariaDB en cPanel" />
+<meta name="twitter:description" content="Desde cPanel podremos crear una base de datos MySQL o MariaDB sin conocimientos técnicos avanzados, aunque debemos seguir un proceso específico." />
+<meta name="twitter:site" content="@RaiolaNetworks" />
+<meta name="twitter:creator" content="@RaiolaNetworks" />
+<meta name="twitter:image" content="https://cdn.raiolanetworks.es/blog/wp-content/uploads/cpanel-5.png" />
+<meta name="twitter:label1" content="Escrito por" />
+<meta name="twitter:data1" content="Alvaro Fontela" />
+<meta name="twitter:label2" content="Tiempo de lectura" />
+<meta name="twitter:data2" content="3 minutos" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"image":{"@id":"https://cdn.raiolanetworks.es/blog/wp-content/uploads/cpanel-5.png"},"headline":"C\u00f3mo crear una base de datos MySQL / MariaDB en cPanel","description":"Desde cPanel podremos crear una base de datos MySQL o MariaDB sin conocimientos t\u00e9cnicos avanzados, aunque debemos seguir un proceso espec\u00edfico.","keywords":"base de datos cpanel","@type":"Article","author":{"@type":"Person","name":"Alvaro Fontela"},"datePublished":"2023-04-11T19:53:46+02:00","dateModified":"2023-04-11T19:53:46+02:00","name":"C\u00f3mo crear una base de datos MySQL / MariaDB en cPanel","articleSection":"Soporte y Ayuda, cPanel","@id":"https://raiolanetworks.es/blog/crear-base-de-datos-mysql-mariadb-cpanel/#schema-1950297","isPartOf":{"@id":"https://raiolanetworks.es/blog/crear-base-de-datos-mysql-mariadb-cpanel/#webpage"},"publisher":{"@id":"https://raiolanetworks.es/blog/#organization"},"inLanguage":"es","mainEntityOfPage":{"@id":"https://raiolanetworks.es/blog/crear-base-de-datos-mysql-mariadb-cpanel/#webpage"}},{"@type":"Organization","@id":"https://raiolanetworks.es/blog/#organization","name":"Raiola Networks","sameAs":["https://www.facebook.com/RaiolaNetworks/","https://twitter.com/RaiolaNetworks"],"logo":{"@type":"ImageObject","@id":"https://raiolanetworks.es/blog/#logo","url":"https://cdn.raiolanetworks.es/blog/wp-content/uploads/logo-raiola.svg","contentUrl":"https://cdn.raiolanetworks.es/blog/wp-content/uploads/logo-raiola.svg","caption":"Raiola Networks","inLanguage":"es"}},{"@type":"WebSite","@id":"https://raiolanetworks.es/blog/#website","url":"https://raiolanetworks.es/blog","name":"Raiola Networks","publisher":{"@id":"https://raiolanetworks.es/blog/#organization"},"inLanguage":"es"},{"@type":"ImageObject","@id":"https://cdn.raiolanetworks.es/blog/wp-content/uploads/cpanel-5.png","url":"https://cdn.raiolanetworks.es/blog/wp-content/uploads/cpanel-5.png","width":"700","height":"700","inLanguage":"es"},{"@type":"BreadcrumbList","@id":"https://raiolanetworks.es/blog/crear-base-de-datos-mysql-mariadb-cpanel/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://raiolanetworks.es/","name":"Inicio"}},{"@type":"ListItem","position":"2","item":{"@id":"https://raiolanetworks.es/blog/","name":"Blog"}},{"@type":"ListItem","position":"3","item":{"@id":"https://raiolanetworks.es/blog/soporte-y-ayuda/","name":"Soporte y Ayuda"}},{"@type":"ListItem","position":"4","item":{"@id":"https://raiolanetworks.es/blog/soporte-y-ayuda/cpanel/","name":"cPanel"}},{"@type":"ListItem","position":"5","item":{"@id":"https://raiolanetworks.es/blog/crear-base-de-datos-mysql-mariadb-cpanel/","name":"C\u00f3mo crear una base de datos MySQL / MariaDB en cPanel"}}]},{"@type":"WebPage","@id":"https://raiolanetworks.es/blog/crear-base-de-datos-mysql-mariadb-cpanel/#webpage","url":"https://raiolanetworks.es/blog/crear-base-de-datos-mysql-mariadb-cpanel/","name":"C\u00f3mo crear una base de datos MySQL / MariaDB en cPanel","datePublished":"2023-04-11T19:53:46+02:00","dateModified":"2023-04-11T19:53:46+02:00","isPartOf":{"@id":"https://raiolanetworks.es/blog/#website"},"primaryImageOfPage":{"@id":"https://cdn.raiolanetworks.es/blog/wp-content/uploads/cpanel-5.png"},"inLanguage":"es","breadcrumb":{"@id":"https://raiolanetworks.es/blog/crear-base-de-datos-mysql-mariadb-cpanel/#breadcrumb"}},{"@type":"Person","@id":"https://raiolanetworks.es/blog/autor/alvaro/","name":"Alvaro Fontela","description":"Alvaro Fontela es consultor WordPress especializado en WPO y rendimiento web, adem\u00e1s de co-fundador y CEO de Raiola Networks.","url":"https://raiolanetworks.es/blog/autor/alvaro/","image":{"@type":"ImageObject","@id":"https://cdn.raiolanetworks.es/blog/wp-content/uploads/alvarofontela-e1694169315712.jpg","url":"https://cdn.raiolanetworks.es/blog/wp-content/uploads/alvarofontela-e1694169315712.jpg","caption":"Alvaro Fontela","inLanguage":"es"},"sameAs":["https://alvarofontela.com","https://www.facebook.com/afontelasanchez/"],"worksFor":{"@id":"https://raiolanetworks.es/blog/#organization"}},{"@type":"BlogPosting","headline":"C\u00f3mo crear una base de datos MySQL / MariaDB en cPanel","keywords":"base de datos cpanel","datePublished":"2023-04-11T19:53:46+02:00","dateModified":"2023-04-11T19:53:46+02:00","articleSection":"Soporte y Ayuda, cPanel","author":{"@id":"https://raiolanetworks.es/blog/autor/alvaro/","name":"Alvaro Fontela"},"publisher":{"@id":"https://raiolanetworks.es/blog/#organization"},"description":"Desde cPanel podremos crear una base de datos MySQL o MariaDB sin conocimientos t\u00e9cnicos avanzados, aunque debemos seguir un proceso espec\u00edfico.","name":"C\u00f3mo crear una base de datos MySQL / MariaDB en cPanel","@id":"https://raiolanetworks.es/blog/crear-base-de-datos-mysql-mariadb-cpanel/#richSnippet","isPartOf":{"@id":"https://raiolanetworks.es/blog/crear-base-de-datos-mysql-mariadb-cpanel/#webpage"},"image":{"@id":"https://cdn.raiolanetworks.es/blog/wp-content/uploads/cpanel-5.png"},"inLanguage":"es","mainEntityOfPage":{"@id":"https://raiolanetworks.es/blog/crear-base-de-datos-mysql-mariadb-cpanel/#webpage"}}]}</script>
+<!-- /Plugin Rank Math WordPress SEO -->
+
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/raiolanetworks.es\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='main-css' href='https://raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/dist/assets/main-1682eab5.css' media='all' />
+<link rel='stylesheet' id='cmplz-general-css' href='https://raiolanetworks.es/blog/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=6.5.5' media='all' />
+<link rel='stylesheet' id='raiola-theme-enligtherjs-style-css' href='https://raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/components/enligtherjs/enlighterjs.min.css?ver=6.3.2' media='all' />
+<script src='https://raiolanetworks.es/blog/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+<script src='https://raiolanetworks.es/blog/wp-content/plugins/pixelyoursite-super-pack/dist/scripts/public.js?ver=4.0.2' id='pys_sp_public_js-js'></script>
+<script type="text/plain" data-service="general" data-category="marketing" data-cmplz-src='https://raiolanetworks.es/blog/wp-content/plugins/pixelyoursite-pro/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3' id='js-cookie-pys-js'></script>
+<script type="text/plain" data-service="general" data-category="marketing" data-cmplz-src='https://raiolanetworks.es/blog/wp-content/plugins/pixelyoursite-pro/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=6.3.2' id='jquery-bind-first-js'></script>
+<script type="text/plain" data-service="general" data-category="marketing" data-cmplz-src='https://raiolanetworks.es/blog/wp-content/plugins/pixelyoursite-pro/dist/scripts/vimeo.min.js?ver=6.3.2' id='vimeo-js'></script>
+<script id='pys-js-extra'>
+var pysOptions = {"staticEvents":{"facebook":{"init_event":[{"delay":0,"type":"static","name":"PageView","eventID":"a1bca8a3-4d7c-4bee-ac82-82beef6dd0a2","pixelIds":["302903466875025"],"params":{"post_category":"Soporte y Ayuda, cPanel","page_title":"C\u00f3mo crear una base de datos MySQL \/ MariaDB en cPanel","post_type":"post","post_id":84423,"plugin":"PixelYourSite","event_url":"raiolanetworks.es\/blog\/crear-base-de-datos-mysql-mariadb-cpanel\/","user_role":"guest"},"e_id":"init_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}]}},"dynamicEvents":{"automatic_event_internal_link":{"tiktok":{"delay":0,"type":"dyn","name":"ClickButton","pixelIds":["CIE5VQ3C77UDF7B2J8QG"],"params":[],"e_id":"automatic_event_internal_link","ids":[],"hasTimeWindow":false,"timeWindow":0,"eventID":"","woo_order":"","edd_order":""},"facebook":{"delay":0,"type":"dyn","name":"InternalClick","eventID":"48a82cc9-a35a-40b2-9b3a-c684e49088c5","pixelIds":["302903466875025"],"params":{"page_title":"C\u00f3mo crear una base de datos MySQL \/ MariaDB en cPanel","post_type":"post","post_id":84423,"plugin":"PixelYourSite","event_url":"raiolanetworks.es\/blog\/crear-base-de-datos-mysql-mariadb-cpanel\/","user_role":"guest"},"e_id":"automatic_event_internal_link","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_outbound_link":{"tiktok":{"delay":0,"type":"dyn","name":"ClickButton","pixelIds":["CIE5VQ3C77UDF7B2J8QG"],"params":[],"e_id":"automatic_event_outbound_link","ids":[],"hasTimeWindow":false,"timeWindow":0,"eventID":"","woo_order":"","edd_order":""},"facebook":{"delay":0,"type":"dyn","name":"OutboundClick","eventID":"2f72a96a-6858-47ee-bb79-f6f1d26c1f70","pixelIds":["302903466875025"],"params":{"page_title":"C\u00f3mo crear una base de datos MySQL \/ MariaDB en cPanel","post_type":"post","post_id":84423,"plugin":"PixelYourSite","event_url":"raiolanetworks.es\/blog\/crear-base-de-datos-mysql-mariadb-cpanel\/","user_role":"guest"},"e_id":"automatic_event_outbound_link","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_form":{"tiktok":{"delay":0,"type":"dyn","name":"SubmitForm","pixelIds":["CIE5VQ3C77UDF7B2J8QG"],"params":[],"e_id":"automatic_event_form","ids":[],"hasTimeWindow":false,"timeWindow":0,"eventID":"","woo_order":"","edd_order":""},"facebook":{"delay":0,"type":"dyn","name":"Form","eventID":"d440a7ec-0743-4da4-8fe5-9189c2ad81f0","pixelIds":["302903466875025"],"params":{"page_title":"C\u00f3mo crear una base de datos MySQL \/ MariaDB en cPanel","post_type":"post","post_id":84423,"plugin":"PixelYourSite","event_url":"raiolanetworks.es\/blog\/crear-base-de-datos-mysql-mariadb-cpanel\/","user_role":"guest"},"e_id":"automatic_event_form","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_download":{"tiktok":{"delay":0,"type":"dyn","name":"Download","extensions":["","doc","exe","js","pdf","ppt","tgz","zip","xls"],"pixelIds":["CIE5VQ3C77UDF7B2J8QG"],"params":[],"e_id":"automatic_event_download","ids":[],"hasTimeWindow":false,"timeWindow":0,"eventID":"","woo_order":"","edd_order":""},"facebook":{"delay":0,"type":"dyn","name":"Download","extensions":["","doc","exe","js","pdf","ppt","tgz","zip","xls"],"eventID":"dced1b6c-d0ff-43b5-85c0-4b49960d8ced","pixelIds":["302903466875025"],"params":{"page_title":"C\u00f3mo crear una base de datos MySQL \/ MariaDB en cPanel","post_type":"post","post_id":84423,"plugin":"PixelYourSite","event_url":"raiolanetworks.es\/blog\/crear-base-de-datos-mysql-mariadb-cpanel\/","user_role":"guest"},"e_id":"automatic_event_download","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_video":{"facebook":{"delay":0,"type":"dyn","name":"WatchVideo","eventID":"23ff1963-0f3f-4d22-9b9a-b03f08472a33","pixelIds":["302903466875025"],"params":{"page_title":"C\u00f3mo crear una base de datos MySQL \/ MariaDB en cPanel","post_type":"post","post_id":84423,"plugin":"PixelYourSite","event_url":"raiolanetworks.es\/blog\/crear-base-de-datos-mysql-mariadb-cpanel\/","user_role":"guest"},"e_id":"automatic_event_video","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_tel_link":{"facebook":{"delay":0,"type":"dyn","name":"TelClick","eventID":"9a8967c1-b1b4-4114-9bfd-1d5482372c0a","pixelIds":["302903466875025"],"params":{"page_title":"C\u00f3mo crear una base de datos MySQL \/ MariaDB en cPanel","post_type":"post","post_id":84423,"plugin":"PixelYourSite","event_url":"raiolanetworks.es\/blog\/crear-base-de-datos-mysql-mariadb-cpanel\/","user_role":"guest"},"e_id":"automatic_event_tel_link","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_email_link":{"facebook":{"delay":0,"type":"dyn","name":"EmailClick","eventID":"0fd19f29-04e9-4b94-bd7a-beda6a6c3738","pixelIds":["302903466875025"],"params":{"page_title":"C\u00f3mo crear una base de datos MySQL \/ MariaDB en cPanel","post_type":"post","post_id":84423,"plugin":"PixelYourSite","event_url":"raiolanetworks.es\/blog\/crear-base-de-datos-mysql-mariadb-cpanel\/","user_role":"guest"},"e_id":"automatic_event_email_link","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_comment":{"facebook":{"delay":0,"type":"dyn","name":"Comment","eventID":"ec22f13b-73ae-4adb-885c-761b48d42937","pixelIds":["302903466875025"],"params":{"page_title":"C\u00f3mo crear una base de datos MySQL \/ MariaDB en cPanel","post_type":"post","post_id":84423,"plugin":"PixelYourSite","event_url":"raiolanetworks.es\/blog\/crear-base-de-datos-mysql-mariadb-cpanel\/","user_role":"guest"},"e_id":"automatic_event_comment","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}},"automatic_event_adsense":{"facebook":{"delay":0,"type":"dyn","name":"AdSense","eventID":"2c1c3b14-751e-4f36-993e-8707c6c950ac","pixelIds":["302903466875025"],"params":{"page_title":"C\u00f3mo crear una base de datos MySQL \/ MariaDB en cPanel","post_type":"post","post_id":84423,"plugin":"PixelYourSite","event_url":"raiolanetworks.es\/blog\/crear-base-de-datos-mysql-mariadb-cpanel\/","user_role":"guest"},"e_id":"automatic_event_adsense","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}}},"triggerEvents":[],"triggerEventTypes":[],"tiktok":{"pixelIds":["CIE5VQ3C77UDF7B2J8QG"],"serverApiEnabled":false,"advanced_matching":[],"hide_pixels":[]},"facebook":{"pixelIds":["302903466875025"],"advancedMatchingEnabled":true,"advancedMatching":[],"removeMetadata":false,"wooVariableAsSimple":false,"serverApiEnabled":true,"wooCRSendFromServer":false,"send_external_id":true,"hide_pixels":[]},"debug":"","siteUrl":"https:\/\/raiolanetworks.es\/blog","ajaxUrl":"https:\/\/raiolanetworks.es\/blog\/wp-admin\/admin-ajax.php","ajax_event":"184731ab01","trackUTMs":"1","trackTrafficSource":"1","user_id":"0","enable_lading_page_param":"1","cookie_duration":"7","enable_event_day_param":"1","enable_event_month_param":"1","enable_event_time_param":"1","enable_remove_target_url_param":"1","enable_remove_download_url_param":"1","visit_data_model":"first_visit","last_visit_duration":"60","enable_auto_save_advance_matching":"1","advance_matching_fn_names":["","first_name","first-name","first name","name"],"advance_matching_ln_names":["","last_name","last-name","last name"],"advance_matching_tel_names":["","phone","tel"],"enable_success_send_form":"","enable_automatic_events":"1","enable_event_video":"1","ajaxForServerEvent":"1","gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"tiktok_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"externalID_disabled_by_api":false,"facebook_prior_consent_enabled":true,"tiktok_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":true,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_tiktok_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_google_ads_consent_category":"marketing","cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"consent_magic_integration_enabled":false},"cookie":{"disabled_all_cookie":false,"disabled_advanced_form_data_cookie":false,"disabled_landing_page_cookie":false,"disabled_first_visit_cookie":false,"disabled_trafficsource_cookie":false,"disabled_utmTerms_cookie":false,"disabled_utmId_cookie":false},"automatic":{"enable_youtube":true,"enable_vimeo":true,"enable_video":true},"woo":{"enabled":false},"edd":{"enabled":false}};
+</script>
+<script type="text/plain" data-service="general" data-category="marketing" data-cmplz-src='https://raiolanetworks.es/blog/wp-content/plugins/pixelyoursite-pro/dist/scripts/public.bundle.js?ver=9.10.6.1' id='pys-js'></script>
+<link rel="https://api.w.org/" href="https://raiolanetworks.es/blog/wp-json/" /><link rel="alternate" type="application/json" href="https://raiolanetworks.es/blog/wp-json/wp/v2/posts/84423" /><link rel="alternate" type="application/json+oembed" href="https://raiolanetworks.es/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fraiolanetworks.es%2Fblog%2Fcrear-base-de-datos-mysql-mariadb-cpanel%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://raiolanetworks.es/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fraiolanetworks.es%2Fblog%2Fcrear-base-de-datos-mysql-mariadb-cpanel%2F&#038;format=xml" />
+<style>.cmplz-hidden{display:none!important;}</style>
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to automatic -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var dataLayer_content = {"pagePostType":"post","pagePostType2":"single-post","pageCategory":["cpanel","soporte-y-ayuda"],"pagePostAuthor":"Alvaro Fontela"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script data-cfasync="false">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WTVT7PK');
+</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel="icon" href="https://cdn.raiolanetworks.es/blog/wp-content/uploads/favicon-1.ico" sizes="32x32" />
+<link rel="icon" href="https://cdn.raiolanetworks.es/blog/wp-content/uploads/favicon-1.ico" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://cdn.raiolanetworks.es/blog/wp-content/uploads/favicon-1.ico" />
+<meta name="msapplication-TileImage" content="https://cdn.raiolanetworks.es/blog/wp-content/uploads/favicon-1.ico" />
+
+  
+  <link rel="icon" href="https://raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/favicon.ico" sizes="32x32" />
+  <link rel="icon" href="https://raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/favicon.ico" sizes="192x192" />
+  <link rel="apple-touch-icon" href="https://raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/favicon.ico" />
+  <meta name="msapplication-TileImage" content="https://raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/favicon.ico" />
+</head>
+<body data-cmplz=1 class="post-template-default single single-post postid-84423 single-format-standard wp-custom-logo h-auto">
+
+
+<!-- GTM Container placement set to automatic -->
+<!-- Google Tag Manager (noscript) -->
+				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTVT7PK" height="0" width="0" style="display:none;visibility:hidden" aria-hidden="true"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<main class="w-full h-auto block relative">
+<div
+ class="flex overflow-hidden md:hidden lg:hidden xl:hidden justify-between items-center fixed pl-2 pr-2 pt-3 pb-3 top-0 z-50 w-full h-auto bg-[#196ca1]"
+ id="optionsMenu">
+ <button class="md:hidden lg:hidden xl:hidden block p-2 sm:hover:bg-yellow-500 ml-2" id="btnResponsiveMenu"
+   name="responsiveMenu">
+   <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/menu.webp"  fetchpriority="high" alt="menu" class="h-[20px] w-[20px]" width="20" height="20">
+ </button>
+ <div class="flex justify-center items-center">
+   <button type="button" name="busquedaGeneral" id="btnBusquedaGeneral" class="border-none mr-2">
+     <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/search.webp"  fetchpriority="high" alt="buscar" class="h-6" width="24" height="24" />
+   </button>
+   <span data-sitio="bWFpbHRvOmluZm9AcmFpb2xhbmV0d29ya3MuZXM=" name="enlaceEmail" id="lkEmailRaiola" class="estilo-ira mr-2 ml-2">
+     <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icon-email-white.webp"  fetchpriority="high" alt="email" class="h-6" width="24" height="24" />
+   </span>
+   <span data-sitio="dGVsOiszNCA5ODIgNzcgNjAgODE=" name="enlaceLlamar" id="lkTelefono" class="estilo-ira mr-2 ml-2">
+     <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icon-phone-white.webp"  fetchpriority="high" alt="telefono" class="h-6" width="24" height="24" />
+   </span>
+   <span data-sitio="aHR0cHM6Ly9yYWlvbGFuZXR3b3Jrcy5lcy9jbGllbnRlcy8=" name="enlaceContacto" id="lkContactanos" class="estilo-ira mr-2 ml-2">
+     <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icon-user-white.webp"  fetchpriority="high" alt="contacto" class="h-6" width="24" height="24" />
+   </span>
+ </div>
+</div>
+<header id="header"
+ class="w-full h-auto bg-gradient-to-r from-[#0ab1e4] to-[#2276b2] flex justify-center items-center z-40 relative md:relative shadow-md xl:shadow-none lg:shadow-none md:shadow-none sm:shadow-none md:py-0 py-3">
+ <div class="w-full h-[40px] absolute -z-10 left-0 top-0 hidden xl:flex lg:flex md:flex" style="background-image: linear-gradient(130deg,#196ca1 50%,rgba(255,255,255,0) 0%);">
+   <div class="w-1 overflow-hidden inline-block -mt-6 -right-0 absolute">
+     <div class=" h-16 bg-[#1693ca] rotate-45 transform origin-bottom-left"></div>
+   </div>
+ </div>
+ <div id="content" class="w-[1140px] relative">
+  <div id="custom-header">
+   <div id="top"
+     class="hidden xl:flex lg:flex md:flex flex-row-reverse xl:flex-row lg:flex-row justify-between items-center text-[13px]">
+     <div
+       class="relative flex justify-center lg:justify-center xl:justify-center items-center xl:w-1/2 lg:w-2/2 md:w-2/2 sm:w-2/2 before:content-[*] pr-6 pt-0.5 pb-0.5">
+       <ul
+         class="flex justify-between text-white z-10  min-w-0 xl:min-w-[550px] lg:min-w-[550px] tracking-[-0.2px] leading-none">
+         <li class="p-2 text-[1em] xl:flex lg:flex items-center font-light">
+            <span class="elemento-ira" data-sitio="dGVsOiszNCA5ODIgNzcgNjAgODE=" name="enlaceLlamanos" id="lkAyuda"> ¿Necesitas ayuda? Llámanos +34 982 77
+             60
+             81</span>
+           &nbsp;&nbsp;|&nbsp;&nbsp;
+             <span class="elemento-ira" data-sitio="bWFpbHRvOmluZm9AcmFpb2xhbmV0d29ya3MuZXM=" name="enlaceEnvianosUnEmail"
+             id="lkEnviarEmail">info@raiolanetworks.es</span>
+         </li>
+         <li class="hidden justify-start items-center pt-2 pr-1 pl-0 pb-2 lg:flex xl:flex text-sm">
+           <a name="enlaceTwitter" id="lkTwitter" target="_blank" rel="me" href="https://twitter.com/RaiolaNetworks" class="mr-2">
+            <i class="fab fa-twitter"></i>
+           </a>
+           <a name="enlaceLinkedIn" id="lkLinkedIn" target="_blank" rel="me" href="https://es.linkedin.com/company/raiola-networks"
+             class="mr-2">
+             <i class="fab fa-linkedin"></i>
+           </a>
+           <a name="enlaceFacebook" id="lkFacebook" target="_blank" rel="me" href="https://www.facebook.com/RaiolaNetworks/" class="mr-2">
+            <i class="fab fa-facebook"></i>
+           </a>
+           <a name="enlaceInstagram" id="lkInstagram" target="_blank" rel="me" href="https://www.instagram.com/raiolanetworks.es/"
+             class="mr-2">
+             <i class="fab fa-instagram"></i>
+           </a>
+           <a name="enlaceYoutube" id="lkYoutube" target="_blank" rel="me" href="https://www.youtube.com/user/RaiolaNetworks" class="mr-2">
+             <i class="fab fa-youtube"></i>
+           </a>
+           <a name="enlaceTikTok" id="lkTikTok" target="_blank" rel="me" href="https://www.tiktok.com/@raiolanetworks">
+             <i class="fab fa-tiktok"></i>
+           </a>
+         </li>
+       </ul>
+     </div>
+     <div class="flex xl:justify-center lg:justify-center justify-end items-center w-auto xl:ml-0 lg:ml-0 ml-[20%] pt-1">
+       <button type="button" id="btnSearch" aria-label="Buscar" name="busquedaGeneral" class="mr-3 border-none text-white buscar">
+		 <i aria-hidden="true" class="fas fa-search pr-[5px]"></i>
+	   </button>
+       <span class="elemento-ira bg-sky-700 text-xs mt-1 text-white pt-1.5 pb-2 pl-2 pr-2 duration-300 flex justify-center items-center hover:bg-[#e7b04f] hover:text-white py-[6px] px-[10px]" data-sitio="aHR0cHM6Ly9yYWlvbGFuZXR3b3Jrcy5lcy9jbGllbnRlcy8=" name="areaDeCliente" id="lkAreaDeClientes">
+       <i aria-hidden="true" class="fas fa-user pr-[5px]"></i>
+       Área de clientes</span>
+     </div>
+     </div>
+   </div>
+   <div id="bottom"
+     class="flex flex-wrap-reverse xl:flex-nowrap lg:flex-nowrap xl:justify-between lg:justify-between justify-center items-center text-base px-4 md:py-2 py-0.5">
+     <div id="logo"
+       class="mt-14 md:mt-0 flex xl:justify-end lg:justify-end justify-center items-center mr-0 w-full md:w-[15%]">
+       <a href="https://raiolanetworks.es/" name="inicioPagina" id="lkInicioPagina">
+         <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/logo-raiola.svg"  alt="logo raiola" class="h-10 duration-500" width="200"
+           height="37" id="logoRaiola" class="w-[200px]">
+       </a>
+     </div>
+     <nav id="nav"
+    class="xl:block lg:block md:block hidden sm:relative md:relative lg:relative xl:relative sm:top-0 md:top-0 lg:top-0 xl:top-0 fixed top-14 justify-center xl:justify-end lg:justify-end items-center xl:text-white lg:text-white md:text-white sm:text-white text-[0.82em] font-bold xl:w-auto lg:w-auto w-full xl:bg-transparent lg:bg-transparent md:bg-transparent sm:bg-transparent bg-white pt-1.5 pb-1.5 font-normal"
+    style="color: inherit !important;">
+
+    <ul class="xl:flex lg:flex md:flex block font-extra text-[1em] xl:w-auto lg:w-auto md:w-auto w-full">
+        <!--dominios y ssl-->
+        <li class="group m-1 relative">
+            <span id="lkDominiosYSSL" class="nav-btn-apply">
+                Dominios y SSL
+                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/arrow-down.webp"  alt="" class="h-2 ml-1 brightness-0 md:brightness-100" width="8"
+                    height="8">
+            </span>
+            <!--submenu: dominio y certificados ssl-->
+            <div class="absolute xl:pt-2 lg:pt-2 md:pt-2 pt-0 group-hover:block hidden top-full mt-0 z-10 w-full">
+                <ol id="submenuDominioSSL" class="nav-submenu-simple-apply container-menu w-full md:w-[200px]">
+                    <li class="inline-block w-full mb-2">
+                        <a href="https://raiolanetworks.es/dominios/" name="enlaceDominios" id="lkEnlaceDominios"
+                            class="flex justify-start items-center pt-2 pb-2 pl-3 pr-3 rounded-md bg-blue-50 text-sm hover:bg-blue-100 font-bold boton4">
+                            <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-dominios.svg"  loading="lazy" alt="dominios"
+                                class="h-5 mr-2" width="20" height="20">
+                            Dominios
+                        </a>
+                    </li>
+                    <li class="inline-block w-full">
+                        <a href="https://raiolanetworks.es/certificados-ssl/" name="enlaceCertificadosSSL"
+                            id="lkCertificadosSSL"
+                            class="flex justify-start items-center pt-2 pb-2 pl-3 pr-3 rounded-md bg-blue-50 text-sm hover:bg-blue-100 font-bold boton4">
+                            <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-certificado-ssl.svg"  loading="lazy"
+                                alt="certificado SSL" class="h-6 mr-2" width="24" height="24">
+                            Certificados SSL
+                        </a>
+                    </li>
+                </ol>
+            </div>
+        </li>
+        <!--hosting-->
+        <li class="group m-1 relative">
+            <span id="lkHosting" class="nav-btn-apply">
+                <div class="w-5 overflow-hidden top-1 absolute left-10 -rotate-90 group-hover:inline-block hidden">
+                    <div class="nav-arrow-apply"></div>
+                </div>
+                Hosting
+                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/arrow-down.webp"  alt="" class="h-2 ml-1 brightness-0 md:brightness-100" width="8"
+                    height="8">
+            </span>
+            <!--submenu: hosting-->
+            <div id="submenuHosting" class="nav-submenu-apply container-menu">
+                <div class="hidden xl:block lg:block w-full md:w-[300px] p-2 md:p-5">
+                    <span
+                        class="text-[11px] text-blue-700 uppercase font-semibold">¿Qué hosting elegir?</span>
+                    <p class="mt-3 mb-3 text-xs font-semibold">
+                        Podemos asesorarte. Te haremos algunas preguntas sobre tu proyecto y te recomendaremos el mejor hosting para ti.
+                    </p>
+                    <div class="flex justify-start items-center mb-3">
+                        <a href="https://raiolanetworks.es/contacto/" name="enlaceContactaConUnComercial"
+                            id="lkContactaConUnComercial"
+                            class="pt-3 pb-3 pl-4 pr-4 text-[10px] font-semibold text-white uppercase shadow-sm bg-yellow-500 rounded-md">
+                            Contacta con un comercial
+                        </a>
+                    </div>
+                    <div class="flex">
+                        <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/hosting-elegir.svg"  loading="lazy" alt="elegir hosting"
+                            class="w-full h-[120px]" height="120" width="100%">
+                    </div>
+                </div>
+                <div class="block w-full md:w-[300px] p-2 md:p-5">
+                    <span class="text-[11px] text-blue-700  uppercase font-semibold">
+                        Hosting general
+                    </span>
+                    <ol class="block mt-4">
+                        <li class="inline-block w-full mb-2">
+                            <a href="https://raiolanetworks.es/hosting-web/" name="enlaceHostings" id="lkHostings"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-blue-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-hosting.svg"  loading="lazy" alt="hosting"
+                                    class="h-5 mr-2" width="20" height="20">
+                                Hosting
+                            </a>
+                        </li>
+                        <li class="inline-block w-full mb-2">
+                            <a href="https://raiolanetworks.es/hosting-reseller/" name="enlaceHostingsReseller"
+                                id="lkHostingsReseller"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-blue-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-hosting.svg"  loading="lazy"
+                                    alt="hosting reseller" class="h-5 mr-2" width="20" height="20">
+                                Hosting Reseller
+                            </a>
+                        </li>
+                        <li class="inline-block w-full mb-2">
+                            <a href="https://raiolanetworks.es/hosting-seo/" name="enlaceHostingsSEO" id="lkHostingsSEO"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-blue-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-hosting.svg"  loading="lazy"
+                                    alt="hosting SEO" class="h-5 mr-2" width="20" height="20">
+                                Hosting SEO
+                            </a>
+                        </li>
+                        <li class="inline-block w-full mb-2">
+                            <a href="https://raiolanetworks.es/hosting-elastico/" name="enlaceHostingsElastico"
+                                id="lkHostingsElastico"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-blue-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-hosting.svg"  loading="lazy"
+                                    alt="hosting elastico" class="h-5 mr-2" width="20" height="20">
+                                Hosting Elástico
+                            </a>
+                        </li>
+                        <li class="inline-block w-full">
+                            <a href="https://raiolanetworks.es/hosting-correo/" name="enlaceHostingsCorreo"
+                                id="lkHostingsCorreo"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-blue-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-hosting.svg"  loading="lazy"
+                                    alt="hosting correo" class="h-5 mr-2" width="20" height="20">
+                                Hosting Correo
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+                <div class="block w-full md:w-[300px] p-2 md:p-5">
+                    <span
+                        class="text-[11px] text-blue-700  uppercase font-semibold">Hosting específico</span>
+                    <ol class="block mt-4">
+                        <li class="inline-block w-full mb-2">
+                            <a href="https://raiolanetworks.es/hosting-wordpress/" name="enlaceHostingsWorpress"
+                                id="lkHostingsWorpress"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-blue-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-wordpress.svg"  loading="lazy"
+                                    alt="hosting WordPress" class="h-5 mr-2" width="20" height="20">
+                                Hosting WordPress
+                            </a>
+                        </li>
+                        <li class="inline-block w-full mb-2">
+                            <a href="https://raiolanetworks.es/hosting-joomla/" name="enlaceHostingsJoomla"
+                                id="lkHostingsJoomla"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-blue-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-joomla.svg"  loading="lazy"
+                                    alt="hosting joomla" class="h-5 mr-2" width="20" height="20">
+                                Hosting Joomla
+                            </a>
+                        </li>
+                        <li class="inline-block w-full mb-2">
+                            <a href="https://raiolanetworks.es/hosting-prestashop/" name="enlaceHostingsPrestashop"
+                                id="lkHostingsPrestashop"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-blue-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-prestashop.svg"  loading="lazy"
+                                    alt="hosting prestashop" class="h-5 mr-2" width="20" height="20">
+                                Hosting PrestaShop
+                            </a>
+                        </li>
+                        <li class="inline-block w-full mb-2">
+                            <a href="https://raiolanetworks.es/hosting-drupal/" name="enlaceHostingsDrupal"
+                                id="lkHostingsDrupal"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-blue-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-drupal.svg"  loading="lazy"
+                                    alt="hoting drupal" class="h-5 mr-2" width="20" height="20">
+                                Hosting Drupal
+                            </a>
+                        </li>
+                        <li class="inline-block w-full">
+                            <a href="https://raiolanetworks.es/hosting-magento/" name="enlaceHostingsMagento"
+                                id="lkHostingsMagento"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-blue-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/logo-magento.svg"  loading="lazy"
+                                    alt="hosting magento" class="h-5 mr-2" width="20" height="20">
+                                Hosting Magento
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </li>
+        <!--servidores y vps-->
+        <li class="group m-1 relative">
+            <span id="lkServidoresVPS" class="nav-btn-apply">
+                <div
+                    class="xl:left-10 left-10 w-5 overflow-hidden top-1 absolute -rotate-90 group-hover:inline-block hidden">
+                    <div class="nav-arrow-apply"></div>
+                </div>
+                Servidores VPS
+                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/arrow-down.webp"  alt="" class="h-2 ml-1 brightness-0 md:brightness-100"
+                    width="8" height="8">
+            </span>
+            <!--submenu: servidores y vps-->
+            <div id="submenuServidoresVPS" class="nav-submenu-apply container-menu">
+                <div class="xl:block lg:block hidden w-full md:w-[300px] p-2 md:p-5">
+                    <span
+                        class="text-[11px] text-blue-700 uppercase font-semibold">¿Qué VPS elegir?</span>
+                    <p class="mt-3 mb-3 text-xs font-semibold">
+                        Podemos asesorarte. Te haremos algunas preguntas sobre tu proyecto y te recomendaremos el mejor servidor VPS para ti.
+                    </p>
+                    <div class="flex justify-start items-center mb-3">
+                        <a href="https://raiolanetworks.es/contacto/" name="enlaceContactoComercial"
+                            id="lkContactoComercial"
+                            class="pt-3 pb-3 pl-4 pr-4 text-[10px] text-white font-semibold uppercase shadow-sm bg-yellow-500 rounded-md">
+                            Contacta con un comercial</a>
+                    </div>
+                    <div class="flex">
+                        <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/img-menu-contacta.svg"  loading="lazy" alt="contacta"
+                            class="w-full h-[120px]" width="100%" height="120">
+                    </div>
+                </div>
+                <div class="block w-full md:w-[300px] p-2 md:p-5">
+                    <span class="text-[11px] text-blue-700 uppercase font-semibold">Nuestros VPS</span>
+                    <ol class="block mt-4">
+                        <li class="inline-block w-full mb-2">
+                            <a href="https://raiolanetworks.es/servidores-vps/" name="enlaceServidoresVPS"
+                                id="lkServidoresVPS"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-sky-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-vps.svg"  loading="lazy"
+                                    alt="servidores vps" class="h-5 mr-2" width="20" height="20">
+                                Servidores VPS
+                            </a>
+                        </li>
+                        <li class="inline-block w-full mb-2">
+                            <a href="https://raiolanetworks.es/servidores-vps-optimizados/"
+                                name="enlaceServidoresVPSOptimizados" id="lkServidoresVPSOptimizados"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-sky-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-vps.svg"  loading="lazy"
+                                    alt="servidores vps optimizados" class="h-5 mr-2" width="20" height="20">
+                                Servidores VPS optimizados
+                            </a>
+                        </li>
+                        <li class="inline-block w-full mb-2">
+                            <a href="https://raiolanetworks.es/servidores-vps-administrados/"
+                                name="enlaceServidoresVpsAdministrados" id="lkServidoresVpsAdministrados"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-sky-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-vps.svg"  loading="lazy"
+                                    alt="servidores vps administrados" class="h-5 mr-2" width="20"
+                                    height="20">
+                                Servidores VPS administrados
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+                <div class="block w-full md:w-[300px] p-2 md:p-5">
+                    <span class="text-[11px] text-blue-700 uppercase font-semibold">VPS ESPECÍFICOS</span>
+                    <ol class="block mt-4">
+                        <li class="inline-block w-full mb-2">
+                            <a href="https://raiolanetworks.es/servidores-vps-cpanel/"
+                                name="enlaceServidoresVpsConCpanel" id="lkServidoresVpsConCpanel"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-sky-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-vps.svg"  alt="servidores vps con cpanel"
+                                    class="h-5 mr-2" width="20" height="20">
+                                Servidores VPS con cPanel
+                            </a>
+                        </li>
+                        <li class="inline-block w-full mb-2">
+                            <a href="https://raiolanetworks.es/servidores-vps-plesk/"
+                                name="enlaceServidoresVpsConPlesk" id="lkServidoresVpsConPlesk"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-sky-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-vps.svg"  alt="servidores vps con plesk"
+                                    class="h-5 mr-2" width="20" height="20">
+                                Servidores VPS con Plesk
+                            </a>
+                        </li>
+                        <li class="inline-block w-full mb-2">
+                            <a href="https://raiolanetworks.es/servidores-vps-wordpress/"
+                                name="enlaceServidoresVpsConWordPress" id="lkServidoresVpsConWordPress"
+                                class="flex justify-start items-center w-full rounded-md bg-blue-50 pt-2 pb-2 pl-3.5 pr-3.5 text-gray-500 font-bold hover:bg-sky-200">
+                                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-vps.svg"  alt="servidores vps con wordpress"
+                                    class="h-5 mr-2" width="20" height="20">
+                                Servidores VPS con WordPress
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </li>
+        <!--servidores dedicados-->
+        <li class="m-1">
+            <a href="https://raiolanetworks.es/servidores-dedicados/" name="enlaceServidoresDedicados"
+                id="lkServidoresDedicados" class="nav-btn-apply">
+                servidores dedicados
+            </a>
+        </li>
+        <!--servicios-->
+        <li class="m-1 relative group">
+            <span name="enlaceServicios" id="lkServicios" class="nav-btn-apply">
+                servicios
+                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/arrow-down.webp"  alt="" class="h-2 ml-1 brightness-0 md:brightness-100"
+                    width="8" height="8">
+            </span>
+            <!--submenu: servicios-->
+            <div
+                class="absolute xl:pt-2 lg:pt-2 md:pt-2 pt-0 group-hover:block hidden top-full mt-0 z-10 left-0 lg:left-[-10rem] w-full">
+                <ol id="submenuServicios" class="nav-submenu-simple-apply container-menu w-[300px]">
+                    <li class="inline-block w-full mb-2">
+                        <a href="https://raiolanetworks.es/servicios-para-wordpress/" name="enlaceServicioWordpress"
+                            id="lkServicioWordpress"
+                            class="flex justify-start items-center pt-2 pb-2 pl-3 pr-3 rounded-md bg-blue-100 text-xs hover:bg-blue-200 font-bold">
+                            <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-wordpress.svg"  loading="lazy"
+                                alt="servicios para WordPress" class="h-6 mr-2" width="24" height="24">
+                            Servicios para WordPress
+                        </a>
+                    </li>
+                    <li class="inline-block w-full">
+                        <a href="https://raiolanetworks.es/administracion-de-servidores-linux/"
+                            name="enlaceAdministracionServidoresLinux" id="lkAdministracionServidoresLinux"
+                            class="flex justify-start items-center pt-2 pb-2 pl-3 pr-3 rounded-md bg-blue-100 text-xs hover:bg-blue-200 font-bold">
+                            <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/icono-linux.svg"  loading="lazy"
+                                alt="administracion para linux" class="h-6 mr-2" width="24" height="24">
+                            Administración de servidores Linux
+                        </a>
+                    </li>
+                </ol>
+            </div>
+        </li>
+        <!--blog-->
+        <li class="m-1 relative">
+            <a href="https://raiolanetworks.es/blog/" name="enlaceBlog" id="lkBlog" class="nav-btn-apply">
+                Blog
+            </a>
+        </li>
+        <!--contacto-->
+        <li class="m-1 relative">
+            <a href="https://raiolanetworks.es/contacto/" name="enlaceContacto" id="lkContactoNav"
+                class="nav-btn-apply">
+                contacto
+            </a>
+        </li>
+    </ul>
+</nav>
+    
+   </div>
+ </div>
+
+</header>
+<!--section: page-->
+ <section id="page" class="flex justify-center pt-0 md:pt-16 pb-20 pl-3 pr-3 z-20 relative">
+   <div
+    class="bg-none1 bg-[url('https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/bg-hexagonos-laterales.svg')] bg-contain bg-repeat-y opacity-50 absolute top-0 w-full h-full -z-10">
+  </div>  <!--main content-->
+  <div class="block sm:block lg:flex md:block xl:flex w-full max-w-full xl:w-[1158px] bg-transparent z-90 relative gap-12 max-w-[1140px]">
+        <div id="content" class="content-apply">
+
+        <!--nav de articulos-->
+        <nav id="navArticles" class="w-auto h-auto mt-2 mb-4">
+            <ul id="custom-menu-cat"
+                class="grid xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-1 grid-cols-1 gap-0 justify-start items-center text-center w-full h-auto text-[14.4px] leading-[1.4] border-solid border-2 border-sky-600">
+                	<li class="cat-item cat-item-91"><a href="https://raiolanetworks.es/blog/soporte-y-ayuda/">Soporte y Ayuda</a>
+<ul class='children'>
+	<li class="cat-item cat-item-2436"><a href="https://raiolanetworks.es/blog/soporte-y-ayuda/cpanel/">cPanel</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-279"><a href="https://raiolanetworks.es/blog/sysadmin/">Sysadmin</a>
+</li>
+	<li class="cat-item cat-item-2437"><a href="https://raiolanetworks.es/blog/temas-tecnicos-web/">Temas técnicos sobre webs</a>
+<ul class='children'>
+	<li class="cat-item cat-item-2410"><a href="https://raiolanetworks.es/blog/temas-tecnicos-web/wpo/">WPO</a>
+</li>
+	<li class="cat-item cat-item-2416"><a href="https://raiolanetworks.es/blog/temas-tecnicos-web/seguridad-web/">Seguridad web</a>
+</li>
+	<li class="cat-item cat-item-2428"><a href="https://raiolanetworks.es/blog/temas-tecnicos-web/desarrollo-web/">Desarrollo web</a>
+</li>
+	<li class="cat-item cat-item-2429"><a href="https://raiolanetworks.es/blog/temas-tecnicos-web/cms/">Gestores de contenidos CMS</a>
+</li>
+	<li class="cat-item cat-item-2438"><a href="https://raiolanetworks.es/blog/temas-tecnicos-web/instalacion-configuracion/">Instalaciones y configuraciones</a>
+</li>
+	<li class="cat-item cat-item-2439"><a href="https://raiolanetworks.es/blog/temas-tecnicos-web/problemas-errores/">Problemas y errores</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-20"><a href="https://raiolanetworks.es/blog/wordpress/">WordPress</a>
+<ul class='children'>
+	<li class="cat-item cat-item-2440"><a href="https://raiolanetworks.es/blog/wordpress/wpo-wordpress/">WPO para WordPress</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://raiolanetworks.es/blog/wordpress/desarrollo-web-wordpress/">Desarrollo web para WordPress</a>
+</li>
+	<li class="cat-item cat-item-2441"><a href="https://raiolanetworks.es/blog/wordpress/seguridad-wordpress/">Seguridad para WordPress</a>
+</li>
+	<li class="cat-item cat-item-2411"><a href="https://raiolanetworks.es/blog/wordpress/themes-wordpress/">Themes para WordPress</a>
+</li>
+	<li class="cat-item cat-item-2412"><a href="https://raiolanetworks.es/blog/wordpress/plugins-wordpress/">Plugins para WordPress</a>
+</li>
+	<li class="cat-item cat-item-2414"><a href="https://raiolanetworks.es/blog/wordpress/woocommerce/">WooCommerce</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-281"><a href="https://raiolanetworks.es/blog/marketing/">Marketing digital</a>
+<ul class='children'>
+	<li class="cat-item cat-item-2418"><a href="https://raiolanetworks.es/blog/marketing/marketing-contenidos/">Marketing de contenidos</a>
+</li>
+	<li class="cat-item cat-item-2423"><a href="https://raiolanetworks.es/blog/marketing/redes-sociales/">Redes sociales</a>
+</li>
+	<li class="cat-item cat-item-2424"><a href="https://raiolanetworks.es/blog/marketing/email-marketing/">Email Marketing</a>
+</li>
+	<li class="cat-item cat-item-2432"><a href="https://raiolanetworks.es/blog/marketing/diseno-ux-ui/">Diseño y UX/UI</a>
+</li>
+	<li class="cat-item cat-item-2413"><a href="https://raiolanetworks.es/blog/marketing/seo/">SEO</a>
+</li>
+</ul>
+</li>
+
+            </ul>
+        </nav>
+
+        <nav class="rank-math-breadcrumb breadcrumb-count"><p><a href="https://raiolanetworks.es/">Inicio</a><span class="separator"> &gt; </span><a href="https://raiolanetworks.es/blog/">Blog</a><span class="separator"> &gt; </span><a href="https://raiolanetworks.es/blog/soporte-y-ayuda/">Soporte y Ayuda</a><span class="separator"> &gt; </span><a href="https://raiolanetworks.es/blog/soporte-y-ayuda/cpanel/">cPanel</a><span class="separator"> &gt; </span><span class="last">Cómo crear una base de datos MySQL / MariaDB en cPanel</span></p></nav>
+        <!--start: content detail article-->
+        <section id="detailArticle" class="block mb-10">
+            <!--them Nº1-->
+            <article class="block w-full h-auto md:my-10 mt-3 mb-10">
+                <h1 class="titulo-sombra xl:text-4xl lg:text-4xl md:text-4xl text-2xl text-[#212121] ">
+                    Cómo crear una base de datos MySQL / MariaDB en cPanel</h1>
+                <div
+                    class="pl-5 pr-5 mt-7 mb-7 border border-solid border-gray-300 bg-gray-100 flex justify-between items-center font-normal flex-wrap">
+                    <label for=""
+                        class="catego1 uppercase tracking-wide text-[11px] font-normal">Categoría: <small
+                            class="normal-case text-[11px] font-normal text-black no-underline">
+                                                            <a href="https://raiolanetworks.es/blog/soporte-y-ayuda/cpanel/"
+                                    class="text-black no-underline visited:text-black">cPanel</a>
+                                                            <a href="https://raiolanetworks.es/blog/soporte-y-ayuda/"
+                                    class="text-black no-underline visited:text-black">Soporte y Ayuda</a>
+                                                    </small></label>
+                    <label for="" class="uppercase tracking-wide text-[11px] font-normal">Fecha:
+                        <small class="normal-case text-[11px] font-normal">11/04/2023</small></label>
+                </div>
+                <p data-pm-slice="1 1 []">Aunque la <strong>creación y gestión de bases de datos MySQL y <a href="https://raiolanetworks.es/blog/mariadb-vs-mysql-diferencias/">MariaDB</a></strong> es una de las funcionalidades base de <strong>cualquier panel de control para hosting</strong>, en <a href="https://raiolanetworks.es/blog/manual-completo-de-cpanel-para-usuarios-con-videotutoriales/">cPanel</a> debemos seguir un proceso específico cuando creamos la base de datos para el <a href="https://raiolanetworks.es/blog/conocer-el-cms-y-las-tecnologias-que-utiliza-una-web/">CMS</a> que necesitamos instalar. Precisamente, en este artículo vamos a enseñar cómo crear correctamente una base de datos MySQL o MariaDB en cPanel.</p>
+<p>Hablamos de <strong>bases de datos MySQL y Maria DB</strong> porque <strong>MariaDB es un fork de MySQL</strong> y es prácticamente igual. Aunque hay muchos proveedores, como es nuestro caso <strong>en Raiola Networks, que ya usamos MariaDB en todos nuestros servidores</strong>, otros muchos siguen usando <a href="https://raiolanetworks.es/blog/mysql-que-es-y-para-que-sirve/"><strong>MySQL</strong></a> aunque no ofrece ninguna ventaja.</p>
+<p>Pero vamos a empezar a tratar el tema objeto del post. Para crear una nueva base de datos en cPanel debemos ir a la sección «Bases de datos» y pulsar sobre el icono «Bases de datos MySQL».<br />
+Aunque el motor de base de datos sea MariaDB, pondrá MySQL porque la integración de cPanel es para MySQL, aunque es compatible con MariaDB.</p>
+<p><img  decoding="async" loading="lazy" class="size-large wp-image-84424 aligncenter"  src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb1-1024x745.png"  alt="hosting mysql cpanel " width="800" height="582" srcset="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb1-1024x745.png 1024w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb1-300x218.png 300w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb1-768x559.png 768w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb1.png 1423w" sizes="(max-width: 800px) 100vw, 800px" title="Cómo crear una base de datos MySQL / MariaDB en cPanel 1"></p>
+<p>En la siguiente pantalla podremos realizar todo el proceso, el problema es que es muy larga y no puedo explicarla toda en una captura, así que vamos a ir paso a paso.</p>
+<p>Empezaremos poniéndole un nombre a la base de datos nueva y después pulsamos el botón «Crear base de datos»:</p>
+<p><img  decoding="async" loading="lazy" class="size-large wp-image-84425 aligncenter"  src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb2-1024x855.png"  alt="hosting base de datos mariadb mysql" width="800" height="668" srcset="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb2-1024x855.png 1024w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb2-300x250.png 300w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb2-768x641.png 768w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb2.png 1380w" sizes="(max-width: 800px) 100vw, 800px" title="Cómo crear una base de datos MySQL / MariaDB en cPanel 2"></p>
+<p>Lo que aparece antes del campo donde debes especificar el nombre de la base de datos es el prefijo, que es el nombre de tu cuenta de cPanel en el servidor. Este prefijo forma parte del nombre de la base de datos. El nombre de la base de datos es totalmente personal: elige el que quieras, pero no lo hagas muy largo, ya que puede dar errores.</p>
+<p>En este caso, he creado la base de datos «baseejemplo», pero el nombre real de la base de datos para ser usado en una aplicación web es «cucalyog_baseejemplo», es decir, el prefijo y el nombre unidos por un guion bajo.</p>
+<p><img  decoding="async" loading="lazy" class="size-large wp-image-84426 aligncenter"  src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb3-1024x855.png"  alt="hosting mysql cpanel database" width="800" height="668" srcset="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb3-1024x855.png 1024w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb3-300x250.png 300w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb3-768x641.png 768w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb3.png 1380w" sizes="(max-width: 800px) 100vw, 800px" title="Cómo crear una base de datos MySQL / MariaDB en cPanel 3"></p>
+<p>Como puedes ver en la captura anterior, justo para la base de datos que acabamos de crear no hay «Usuarios con privilegios», así que debemos crearlos.</p>
+<p>Bajamos un poco más por la pantalla y podremos ver unos campos donde añadir un nuevo usuario. Recuerda que, en este caso, el prefijo también forma parte del nombre del usuario.</p>
+<p><img  decoding="async" loading="lazy" class="size-large wp-image-84427 aligncenter"  src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb4-1024x855.png"  alt="base de datos cpanel hosting" width="800" height="668" srcset="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb4-1024x855.png 1024w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb4-300x250.png 300w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb4-768x641.png 768w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb4.png 1380w" sizes="(max-width: 800px) 100vw, 800px" title="Cómo crear una base de datos MySQL / MariaDB en cPanel 4"></p>
+<p>Debes especificar un nombre de usuario, el que quieras, aunque no puede ser muy largo. Y, finalmente, una contraseña que te recomiendo que sea cuanto más difícil mejor, incluso <strong>mejor aún si es generada automáticamente con el generador de contraseñas de cPanel</strong>.</p>
+<p>Después de crear el usuario, nos aparecerá en el listado o tabla que encontraremos en la misma pantalla abajo de todo:</p>
+<p><img  decoding="async" loading="lazy" class="size-large wp-image-84428 aligncenter"  src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb5-1024x855.png"  alt="hosting linux bases de datos MySQL" width="800" height="668" srcset="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb5-1024x855.png 1024w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb5-300x250.png 300w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb5-768x641.png 768w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb5.png 1380w" sizes="(max-width: 800px) 100vw, 800px" title="Cómo crear una base de datos MySQL / MariaDB en cPanel 5"></p>
+<p>Ahora debemos añadir el nuevo usuario a la nueva base de datos que hemos creado antes. En otras palabras, vamos a asignarle permisos al nuevo usuario para que tenga el control de la base de datos que hemos creado.</p>
+<p>Simplemente, debemos ir a estos desplegables y seleccionar en el de arriba el usuario y en el de abajo la base de datos correspondiente:</p>
+<p><img  decoding="async" loading="lazy" class="size-large wp-image-84429 aligncenter"  src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb6-1024x855.png"  alt="hosting bases de datos mysql" width="800" height="668" srcset="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb6-1024x855.png 1024w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb6-300x250.png 300w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb6-768x641.png 768w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb6.png 1380w" sizes="(max-width: 800px) 100vw, 800px" title="Cómo crear una base de datos MySQL / MariaDB en cPanel 6"></p>
+<p>Cuando lo tengamos, pulsamos el botón «Añadir» y esto nos lleva a una pantalla donde podremos asignar los permisos al usuario para acceder a la base de datos.</p>
+<p><img  decoding="async" loading="lazy" class="size-large wp-image-84430 aligncenter"  src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb7-1024x855.png"  alt="usuario bases de datos cpanel hosting" width="800" height="668" srcset="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb7-1024x855.png 1024w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb7-300x250.png 300w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb7-768x641.png 768w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb7.png 1380w" sizes="(max-width: 800px) 100vw, 800px" title="Cómo crear una base de datos MySQL / MariaDB en cPanel 7"></p>
+<p>Marcamos todas las casillas o directamente la casilla «Todos los privilegios» y, posteriormente, pulsamos el botón «Realizar cambios».</p>
+<p>Después de esto podremos salir a la pantalla de «Bases de datos MySQL» y tendremos ya la base de datos creada con el «Usuario con privilegios» asignado:</p>
+<p><img  decoding="async" loading="lazy" class="size-large wp-image-84431 aligncenter"  src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb8-1024x855.png"  alt="hosting base de datos mysql" width="800" height="668" srcset="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb8-1024x855.png 1024w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb8-300x250.png 300w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb8-768x641.png 768w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb8.png 1380w" sizes="(max-width: 800px) 100vw, 800px" title="Cómo crear una base de datos MySQL / MariaDB en cPanel 8"></p>
+<p>Y con esto ya estaría. Ya podemos configurar nuestra nueva base de datos en la aplicación web que necesitemos, como en un WordPress que vayamos a instalar.</p>
+<p>Si necesitamos acceder a la base de datos, en cPanel siempre podemos hacerlo a través de <strong><a href="https://raiolanetworks.es/blog/utilizar-phpmyadmin-en-cpanel/">phpMyAdmin</a></strong>, al que podremos acceder también desde la sección «Bases de datos».</p>
+<p><img  decoding="async" loading="lazy" class="size-large wp-image-84432 aligncenter"  src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb9-1024x855.png"  alt="hosting cpanel base de datos mysql" width="800" height="668" srcset="https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb9-1024x855.png 1024w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb9-300x250.png 300w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb9-768x641.png 768w, https://cdn.raiolanetworks.es/blog/wp-content/uploads/crearbasededatosmysqlmariadb9.png 1380w" sizes="(max-width: 800px) 100vw, 800px" title="Cómo crear una base de datos MySQL / MariaDB en cPanel 9"></p>
+<p>Y hasta aquí el proceso para crear una nueva base de datos en cPanel, con su nuevo usuario correspondiente.</p>
+<p>Si tienes alguna duda y eres cliente de algún <a href="https://raiolanetworks.es/hosting-web/"><strong>hosting con cPanel de Raiola Networks</strong></a>, <strong>puedes contactar con el departamento de soporte 24/7 mediante teléfono o ticket</strong>.</p>
+
+
+
+            </article>
+
+            <!--Author (s)-->
+            <div
+                class="b-autor mt-20 xl:w-[92%] lg:w-[92%] md:w-[92%] w-full m-auto xl:flex lg:flex block justify-center items-center pt-5 pb-5 pl-7 pr-7 border border-solid border-gray-300 bg-gray-100">
+                <img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/alvarofontela-e1694169315712.jpg" alt="Alvaro Fontela" loading="lazy"
+                    class=" xl:mr-4 xl:-ml-16 xl:mt-0 xl:mb-0 lg:mr-4 lg:-ml-16 lg:mt-0 lg:mb-0 md:mr-4 md:-ml-16 md:mt-0 md:mb-16 mb-4 ml-auto mr-auto -mt-16 w-[90px] h-[90px] md:h-[110px] md:w-[110px]">
+                <div class="block ml-4 text-center md:text-left">
+
+                                            <a href="https://raiolanetworks.es/blog/autor/alvaro/" name="enlaceAuthor"
+                            class="n-link text-[20.8px] font-normal hover:text-gray-400 pt-2 pb-2 text-black">
+                            Alvaro Fontela
+                        </a>
+                    
+                    <p class="block leading-relaxed text-[15px] text-gray-700 mt-1">
+                        Mi nombre es <b>Alvaro Fontela</b>, soy <b>consultor Wordpress</b> y blogger activo desde hace años. CEO y co-Fundador de <b>Raiola Networks</b>, escribiendo sobre WordPress, hosting y WPO en este blog desde 2014.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--other articles-->
+        <section class="b-relacionados block mt-10">
+            <p class="font-medium text-[22px] text-sky-700">Artículos relacionados</p>
+            <p class="text-sm font-light">
+                Si te ha gustado este post, aquí tienes otros que pueden ser de tu interés. ¡No dejes de aprender!
+            </p>
+            <div id="otherArticle" class="w-auto mt-10 mb-">
+                <div id="contentOtherArticles"
+                    class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 mb-3 mt-3">
+                                            <a href="https://raiolanetworks.es/blog/imunify-360-hosting-cpanel/" name="Imunify 360 en hosting cPanel"
+                            class="block">
+                            <img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/Imunify-360-en-hosting-cPanel-169x169.png" alt="Imunify 360 en hosting cPanel"
+                                class="w-full h-[full] xl:w-[240px] rounded-xl" width="169" height="169"
+                                loading="lazy">
+                            <span class="pt-4 inline-block text-sm text-center text-[#e7b04f] font-black underline"
+                                style="text-decoration-color: #0077b4;">
+                                Imunify 360 en hosting cPanel
+                            </span>
+                        </a>
+                                            <a href="https://raiolanetworks.es/blog/comprobar-recursos-hosting-cpanel-cloudlinux/" name="Comprobar los recursos utilizados en un hosting cPanel con CloudLinux"
+                            class="block">
+                            <img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/recursoscpanelcloudlinux-169x169.png" alt="Comprobar los recursos utilizados en un hosting cPanel con CloudLinux"
+                                class="w-full h-[full] xl:w-[240px] rounded-xl" width="169" height="169"
+                                loading="lazy">
+                            <span class="pt-4 inline-block text-sm text-center text-[#e7b04f] font-black underline"
+                                style="text-decoration-color: #0077b4;">
+                                Comprobar los recursos utilizados en un hosting cPanel con CloudLinux
+                            </span>
+                        </a>
+                                            <a href="https://raiolanetworks.es/blog/utilizar-phpmyadmin-en-cpanel/" name="Utilizar phpMyAdmin en cPanel"
+                            class="block">
+                            <img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/cpanel-9-169x169.png" alt="Utilizar phpMyAdmin en cPanel"
+                                class="w-full h-[full] xl:w-[240px] rounded-xl" width="169" height="169"
+                                loading="lazy">
+                            <span class="pt-4 inline-block text-sm text-center text-[#e7b04f] font-black underline"
+                                style="text-decoration-color: #0077b4;">
+                                Utilizar phpMyAdmin en cPanel
+                            </span>
+                        </a>
+                                            <a href="https://raiolanetworks.es/blog/como-actualizar-version-php-wordpress/" name="Cómo actualizar la versión de PHP en WordPress"
+                            class="block">
+                            <img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/actualizarversionphp-169x169.png" alt="Cómo actualizar la versión de PHP en WordPress"
+                                class="w-full h-[full] xl:w-[240px] rounded-xl" width="169" height="169"
+                                loading="lazy">
+                            <span class="pt-4 inline-block text-sm text-center text-[#e7b04f] font-black underline"
+                                style="text-decoration-color: #0077b4;">
+                                Cómo actualizar la versión de PHP en WordPress
+                            </span>
+                        </a>
+                                    </div>
+            </div>
+        </section>
+    </div>
+    <!--other content-->
+    <!--other content-->
+<aside class="z-90 w-auto pl-3 pr-3 sm:w-auto lg:w-[340px] xl:w-[340px]" id="otherContent">
+    <form class="flex w-full scale-100" id="formSearch" action="/" method="GET">
+        <input
+            class="h-auto w-full rounded-l-md border-b border-l border-t border-solid border-gray-600 pl-4 pr-3 text-[1em] font-normal text-gray-600 placeholder-gray-500 outline-none"
+            id="" name="s" type="search" placeholder="Buscar en el blog...">
+        <button class="flex w-14 items-center justify-center rounded-r-md bg-yellow-500 p-3" id="btnBuscarEnBlog"
+            name="buscarEnElBlog" type="submit">
+            <img  class="h-4"  src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/search.webp"  alt="buscar" width="16"
+                height="16">
+        </button>
+    </form>
+    <div class="btnTeGustaElBlog relative mt-[15px] block w-full cursor-pointer items-center justify-between bg-gradient-to-r from-sky-500 to-sky-600 px-4 py-2.5 text-center font-bold text-white md:block md:px-3 lg:block xl:flex"
+    id="cardSuscribete" name="enlaceTeGustaElBlog">
+    <img  class="absolute left-2 z-0 h-auto w-auto opacity-20"  src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/email-white.webp" 
+        alt="" width="50px" height="50px">
+    <div class="flex w-full items-center justify-between">
+        <div class="max-w-none px-2 text-left md:max-w-[64%] md:text-center">
+            <p class="z-10 text-[18.5px] leading-5">¿Te gusta el blog?</p>
+            <span class="mt-1 block text-[10px] font-normal leading-tight">Apúntate al boletín y te
+                enviaremos los mejores artículos una vez al mes</span>
+        </div>
+        <div>
+            <span
+                class="z-20 ml-1 mt-0 block w-full rounded bg-[#e7b04f] px-3.5 py-2 text-[12px] font-normal uppercase shadow-lg transition duration-300 ease-out xl:w-auto">
+                Suscríbete
+            </span>
+        </div>
+    </div>
+
+</div>
+<a class="relative mt-[15px] flex w-full items-center justify-between bg-gradient-to-r from-sky-500 to-sky-600 pb-3 pl-4 pr-4 pt-3 font-medium text-white"
+    id="cardHosting" name="enlaceHostingSSD" href="https://raiolanetworks.es/hosting-web/">
+    <p class="z-10 m-0 w-[70%] p-0 text-[18.5px] leading-none text-white md:w-[50%]">HOSTING SSD desde
+        <b class="m-0 p-0 text-[#e7b04f]">8,95
+            &euro;</b></p>
+    <small class="z-20 m-0 block w-auto p-0 text-[0.95em] uppercase text-white">
+        Haz clic aquí
+        <img  class="m-auto h-4"  src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/ico-cursor.svg"  alt="" width="16"
+            height="16">
+    </small>
+</a>
+<div class="relative mt-[15px] flex w-full items-center justify-between border-4 border-solid border-sky-500 bg-white px-4 py-2.5 font-bold text-sky-500 md:px-3"
+    id="cardContacta">
+
+    <div class="flex w-full items-center justify-between">
+
+        <div class="w-full max-w-none px-2 md:max-w-[64%]">
+            <p class="z-10 text-left text-[18.5px] leading-5">¿Te ayudamos?</p>
+            <span class="mt-1 block text-left text-[10px] font-normal leading-tight">Escríbenos si tienes dudas o
+                necesitas una solución específica</span>
+        </div>
+
+        <div>
+            <a class="z-20 ml-1 mt-0 block w-full rounded bg-[#e7b04f] px-3.5 py-2 text-[12px] font-normal uppercase text-white shadow-lg transition duration-300 ease-out xl:w-auto"
+                id="lkContacta" name="enlaceContacta" href="https://raiolanetworks.es/contacto/">
+                Contactar
+            </a>
+        </div>
+
+    </div>
+</div>
+
+    <!--Featured articles : dynamic-->
+    <article class="mt-[30px] block bg-white p-5 shadow-2xl">
+        <p class="mb-5 w-full text-center text-[0.9rem] font-bold uppercase text-sky-700">
+            Posts destacados</p>
+                    <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 underline hover:text-yellow-500"
+                name="articulosDestacados" href="https://raiolanetworks.es/blog/memoria-ram-usada-memoria-ram-libre-linux/">
+                <picture class="contents"><img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/memoriaramlinux-1.png?width=50&height=50&aspect_ratio=1:1" alt="Ver la memoria RAM usada y la memoria RAM libre en Linux" class="rounded-md hover:bg-gray-100 flex justify-center items-center w-[50px] h-[50px] mr-3" loading="lazy"></picture>                <span class="text-yellow-500">Ver la memoria RAM usada y la memoria RAM libre en Linux</span>
+            </a>
+                    <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 underline hover:text-yellow-500"
+                name="articulosDestacados" href="https://raiolanetworks.es/blog/plan-de-comunicacion/">
+                <picture class="contents"><img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/como-elaborar-tu-plan-de-comunicacion.png?width=50&height=50&aspect_ratio=1:1" alt="¿Cómo elaborar tu plan de comunicación?" class="rounded-md hover:bg-gray-100 flex justify-center items-center w-[50px] h-[50px] mr-3" loading="lazy"></picture>                <span class="text-yellow-500">¿Cómo elaborar tu plan de comunicación?</span>
+            </a>
+                    <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 underline hover:text-yellow-500"
+                name="articulosDestacados" href="https://raiolanetworks.es/blog/galeria-de-imagenes-web/">
+                <picture class="contents"><img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/Galeria-de-fotos-Destacada.jpg?width=50&height=50&aspect_ratio=1:1" alt="Crea una galería de imágenes para tu web" class="rounded-md hover:bg-gray-100 flex justify-center items-center w-[50px] h-[50px] mr-3" loading="lazy"></picture>                <span class="text-yellow-500">Crea una galería de imágenes para tu web</span>
+            </a>
+                    <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 underline hover:text-yellow-500"
+                name="articulosDestacados" href="https://raiolanetworks.es/blog/error-502-bad-gateway/">
+                <picture class="contents"><img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/error-502.png?width=50&height=50&aspect_ratio=1:1" alt="Qué es el error 502 (Bad Gateway) y cómo se soluciona" class="rounded-md hover:bg-gray-100 flex justify-center items-center w-[50px] h-[50px] mr-3" loading="lazy"></picture>                <span class="text-yellow-500">Qué es el error 502 (Bad Gateway) y cómo se soluciona</span>
+            </a>
+                    <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 underline hover:text-yellow-500"
+                name="articulosDestacados" href="https://raiolanetworks.es/blog/error-403-forbidden/">
+                <picture class="contents"><img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/error-403-acceso-denegado-o-prohibido.png?width=50&height=50&aspect_ratio=1:1" alt="Error 403: Acceso denegado o prohibido" class="rounded-md hover:bg-gray-100 flex justify-center items-center w-[50px] h-[50px] mr-3" loading="lazy"></picture>                <span class="text-yellow-500">Error 403: Acceso denegado o prohibido</span>
+            </a>
+                    <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 underline hover:text-yellow-500"
+                name="articulosDestacados" href="https://raiolanetworks.es/blog/configurar-correo-outlook/">
+                <picture class="contents"><img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/icono-outlook.png?width=50&height=50&aspect_ratio=1:1" alt="Cómo configurar tu correo en Outlook: ayuda paso a paso" class="rounded-md hover:bg-gray-100 flex justify-center items-center w-[50px] h-[50px] mr-3" loading="lazy"></picture>                <span class="text-yellow-500">Cómo configurar tu correo en Outlook: ayuda paso a paso</span>
+            </a>
+        
+    </article>
+    <!--Featured authors : dynamic-->
+    <article class="mt-[30px] block bg-white p-5 shadow-2xl">
+        <span class="mb-5 flex w-full justify-center text-center text-[0.9rem] font-bold uppercase text-sky-700"><a
+                href="https://raiolanetworks.es/blog/autores/">Autores destacados</a><img  class="ml-2"
+                 src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/ico-estrella.svg"  alt="Icono de estrellas"
+                loading="lazy" width="20" height="39"></span>
+                    <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 text-yellow-500 underline"
+                name="autores" href="https://raiolanetworks.es/blog/autor/alvaro/">
+                <img class="mr-3 flex h-[50px] w-[50px] items-center justify-center rounded-md hover:bg-gray-100"
+                    src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/alvarofontela-e1694169315712.jpg?width=50&height=50&aspect_ratio=1:1"
+                    alt="Alvaro Fontela" loading="lazy" />
+                <span class="text-yellow-500">Alvaro Fontela</span>
+            </a>
+                    <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 text-yellow-500 underline"
+                name="autores" href="https://raiolanetworks.es/blog/autor/andrea/">
+                <img class="mr-3 flex h-[50px] w-[50px] items-center justify-center rounded-md hover:bg-gray-100"
+                    src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/andrea-barreiro.jpeg?width=50&height=50&aspect_ratio=1:1"
+                    alt="Andrea Barreiro" loading="lazy" />
+                <span class="text-yellow-500">Andrea Barreiro</span>
+            </a>
+                    <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 text-yellow-500 underline"
+                name="autores" href="https://raiolanetworks.es/blog/autor/david/">
+                <img class="mr-3 flex h-[50px] w-[50px] items-center justify-center rounded-md hover:bg-gray-100"
+                    src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/david-suarez.jpg?width=50&height=50&aspect_ratio=1:1"
+                    alt="David Suárez" loading="lazy" />
+                <span class="text-yellow-500">David Suárez</span>
+            </a>
+                    <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 text-yellow-500 underline"
+                name="autores" href="https://raiolanetworks.es/blog/autor/jesusma/">
+                <img class="mr-3 flex h-[50px] w-[50px] items-center justify-center rounded-md hover:bg-gray-100"
+                    src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/jesusmagana.png?width=50&height=50&aspect_ratio=1:1"
+                    alt="Jesus Magaña" loading="lazy" />
+                <span class="text-yellow-500">Jesus Magaña</span>
+            </a>
+        
+    </article>
+    <!--Last Commented Post : dynamic-->
+    <article class="mt-[30px] block bg-white p-5 shadow-2xl">
+        <span
+            class="mb-5 w-full text-center text-[0.9rem] font-bold uppercase text-sky-700">Últimos artículos comentados
+        </span>
+                                    <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 text-yellow-500 underline"
+                    name="lastPosts" href="https://raiolanetworks.es/blog/imunify-360-hosting-cpanel/">
+                    <picture class="contents"><img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/Imunify-360-en-hosting-cPanel.png?width=50&height=50&aspect_ratio=1:1" alt="Imunify 360 en hosting cPanel" class="rounded-md hover:bg-gray-100 flex justify-center items-center w-[50px] h-[50px] mr-3" loading="lazy"></picture>                    <span class="text-yellow-500">Imunify 360 en hosting cPanel</span>
+                </a>
+                            <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 text-yellow-500 underline"
+                    name="lastPosts" href="https://raiolanetworks.es/blog/utilizar-phpmyadmin-en-cpanel/">
+                    <picture class="contents"><img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/cpanel-9.png?width=50&height=50&aspect_ratio=1:1" alt="Utilizar phpMyAdmin en cPanel" class="rounded-md hover:bg-gray-100 flex justify-center items-center w-[50px] h-[50px] mr-3" loading="lazy"></picture>                    <span class="text-yellow-500">Utilizar phpMyAdmin en cPanel</span>
+                </a>
+                            <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 text-yellow-500 underline"
+                    name="lastPosts" href="https://raiolanetworks.es/blog/redireccionar-dominio-subdominio-cpanel/">
+                    <picture class="contents"><img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/cpanel-6.png?width=50&height=50&aspect_ratio=1:1" alt="Cómo redireccionar un dominio o subdominio en cPanel" class="rounded-md hover:bg-gray-100 flex justify-center items-center w-[50px] h-[50px] mr-3" loading="lazy"></picture>                    <span class="text-yellow-500">Cómo redireccionar un dominio o subdominio en cPanel</span>
+                </a>
+                            <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 text-yellow-500 underline"
+                    name="lastPosts" href="https://raiolanetworks.es/blog/instalar-cpanel-whm-centos-cloudlinux/">
+                    <picture class="contents"><img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/comoinstalarcpanelprincipal.png?width=50&height=50&aspect_ratio=1:1" alt="Como instalar cPanel &#038; WHM en CentOS o CloudLinux" class="rounded-md hover:bg-gray-100 flex justify-center items-center w-[50px] h-[50px] mr-3" loading="lazy"></picture>                    <span class="text-yellow-500">Como instalar cPanel &amp; WHM en CentOS o CloudLinux</span>
+                </a>
+                            <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 text-yellow-500 underline"
+                    name="lastPosts" href="https://raiolanetworks.es/blog/desbloquear-ip-en-el-firewall-cpanel/">
+                    <picture class="contents"><img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/desbloquearip.png?width=50&height=50&aspect_ratio=1:1" alt="Desbloquear IP en un hosting con cPanel" class="rounded-md hover:bg-gray-100 flex justify-center items-center w-[50px] h-[50px] mr-3" loading="lazy"></picture>                    <span class="text-yellow-500">Desbloquear IP en un hosting con cPanel</span>
+                </a>
+                            <a class="flex-start-apply mb-4 mt-4 h-auto w-full text-[13px] font-bold leading-4 text-yellow-500 underline"
+                    name="lastPosts" href="https://raiolanetworks.es/blog/manual-completo-de-cpanel-para-usuarios-con-videotutoriales/">
+                    <picture class="contents"><img src="https://cdn.raiolanetworks.es/blog/wp-content/uploads/img-manual-completo-cpanel.png?width=50&height=50&aspect_ratio=1:1" alt="Manual completo de cPanel para usuarios (con vídeotutoriales)" class="rounded-md hover:bg-gray-100 flex justify-center items-center w-[50px] h-[50px] mr-3" loading="lazy"></picture>                    <span class="text-yellow-500">Manual completo de cPanel para usuarios (con vídeotutoriales)</span>
+                </a>
+                    
+    </article>
+
+    <!--services VPS: information-->
+    <div class="block top-20 max-w-[280px] sticky bottom-auto top-[60px] h-[300px] py-[30px] text-white" id="floatOnScroll">
+      <article
+        class="mt-[30px] mb-[30px] lg:mt-[-15px] block bg-gradient-to-r from-[#10a3d8] to-[#139bd2] pt-6 pb-8 pl-6 pr-6 shadow-2xl text-white">
+        <div class="p-2 text-xl font-bold text-center w-full text-white">Servidores VPS</div>
+        <span class="inline-block w-full text-center text-sm tracking-tight mb-2">
+          Obtén fiabilidad y rendimiento en un entorno dedicado.
+        </span>
+        <img  decoding="async"  src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/animacion-servidores-vps.webp"  alt="servidores VPS" loading="lazy" class="w-[150px] h-[130px] m-auto">
+        <span class="inline-block w-full text-center p-2 mt-1 mb-1">
+          De
+          <b class="text-2xl">14,95&euro;</b> / mes
+        </span>
+        <div class="flex justify-center items-center">
+          <a href="https://raiolanetworks.es/servidores-vps/"
+            class="pt-1.5 pb-1.5 pl-4 pr-4 uppercase m-auto bg-yellow-500 hover:bg-white hover:text-black duration-300 rounded-[3px] shadow-md text-[13px] font-semibold">Información</a>
+        </div>
+      </article>
+    </div>
+
+</aside>
+
+
+  </div>
+  <script>
+    if(document.getElementById("formSearch2") !== null){
+        document.getElementById("formSearch").style.display = "none";
+    }
+  </script>
+</section>
+<section>
+   
+				    <!--section: comments-->
+ <section class="relative z-20 block justify-center bg-[#eaf4fb]" id="comments">
+     <div class="w-full bg-[#bedff3] p-5">
+         <span
+             class="m-auto pl-5 pr-5 text-start text-xl font-bold text-sky-600 sm:pr-44 md:pr-44 lg:w-[1158px] lg:pr-44 xl:w-[1158px] xl:pr-44">
+             Tenemos 0                  comentarios
+                  en "Cómo crear una base de datos MySQL / MariaDB en cPanel"
+         </span>
+     </div>
+     <div class="m-auto block w-full pb-28 pl-8 pr-8 pt-10 xl:w-[1158px]">
+                  <div class="mt-14 block border-t border-solid border-gray-300 pb-8 pt-8">
+             <!--
+        <h1 class="text-md font-bold uppercase text-sky-700">
+          Deja una respuesta
+        </h1>
+        <span class="inline-block text-gray-700">
+          Tu dirección de correo electrónico no será publicada. Los campos obligatorios están marcados con *
+        </span>
+        -->
+             	<div id="respond" class="comment-respond">
+		<span id="reply-title" class="comment-reply-title text-[#2276b2] text-base font-bold uppercase">Deja una respuesta <small><a rel="nofollow" id="cancel-comment-reply-link" href="/blog/crear-base-de-datos-mysql-mariadb-cpanel/#respond" style="display:none;">Cancelar la respuesta</a></small></span><form action="https://raiolanetworks.es/blog/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Tu dirección de correo electrónico no será publicada.</span> <span class="required-field-message">Los campos obligatorios están marcados con <span class="required">*</span></span></p><p class="comment-form-comment"><label for="comment">Comentario <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p><p class="comment-form-author"><label for="author">Nombre <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required /></p>
+<p class="comment-form-email"><label for="email">Correo electrónico <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required /></p>
+<p class="comment-form-url"><label for="url">Web</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Publicar el comentario" /> <input type='hidden' name='comment_post_ID' value='84423' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>
+<!-- Honeypot Antispam plugin v.1.0.4 wordpress.org/plugins/honeypot-antispam/ -->
+		<p class="antispam-group antispam-group-q" style="clear: both;">
+			<label>Current ye@r <span class="required">*</span></label>
+			<input type="hidden" name="antspm-a" class="antispam-control antispam-control-a" value="2023" />
+			<input type="text" name="antspm-q" class="antispam-control antispam-control-q" value="1.0.4" autocomplete="off" />
+		</p>
+		<p class="antispam-group antispam-group-e" style="display: none;">
+			<label>Leave this field empty</label>
+			<input type="text" name="antspm-e-email-url-website" class="antispam-control antispam-control-e" value="" autocomplete="off" />
+		</p>
+</form>	</div><!-- #respond -->
+	
+
+         </div>
+     </div>
+ </section>
+
+			    </section><!--  -->
+<style>
+.path-animation path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  stroke: white;
+  fill: none;
+  animation: path-animation 5s ease-in-out forwards;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  stroke-width: 7px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: .3s;
+}
+
+svg.path-animation {
+    position: absolute;
+    top: 7%;
+    left: 76%;
+    /* width: calc(100% + 20px); */
+    height: calc(100% + 25px);
+    transform: translate(-50%,-50%);
+    overflow: visible;
+}
+
+@media (max-width: 768px) {
+  svg.path-animation {
+    top: -17%;
+    width: calc(100% + -214px);
+}
+}
+
+@keyframes  path-animation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+</style>
+
+ <section id="suscribete"
+ class="relative flex justify-center items-center pt-12 pb-14 z-20 bg-transparent" style="background-image: linear-gradient(130deg, #0ab1e4 45%, #0f2977);">
+ <div
+   class="bg-[url('../images/bg-footer-hexagonos.svg')] bg-cover bg-center bg-repeat-none opacity-100 absolute top-0 w-full h-full">
+ </div>
+ <div class="w-[1140px] block relative">
+   <div id="contentTop"
+     class="block justify-between items-center sm:block xl:flex lg:flex md:flex">
+     <div id="text" class="block text-center text-white pl-7 pr-3 xl:text-start md:text-start lg:text-start">
+       <p class="xl:text-[2.4em] md:text-[1.6em] lg:text-[2em] sm:text-[1.4em] text-[20.8px] m-0 p-0 font-light tracking-wide leading-none mb-5">
+       ¿Vienes de otro proveedor?</p>
+       <div
+         class="flex justify-center md:justify-start lg:justify-start xl:justify-start items-center text-sm xl:text-2xl md:text-xl lg:text-lg font-extralight">
+          <div class="mb-5 w-full text-[#e7b04f] relative">
+            <div class="footer1 mt-[-15px] mb-[15px] mx-0">
+              <span class="text-center md:text-left text-[22.4px] font-light block">
+                <span class="text-white relative text-[12.8px] md:text-[22.4px]">¡Ningún problema! Te migramos</span>
+                  <span> <!--Le quite la propiedad path-animation-->
+                    <span class="font-light text-[12.8px] md:text-[22.4px]">gratis y sin cortes</span>
+                    <svg class="path-animation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none">
+                      <path d="M7.7,145.6C109,125,299.9,116.2,401,121.3c42.1,2.2,87.6,11.8,87.3,25.7"></path>
+                    </svg>
+                  </span>
+              </span>
+            </div>
+          </div>
+       </div>
+       <div class="flex justify-center items-center">
+         <a href="https://raiolanetworks.es/hosting-web/" name="enlaceNuevoPlan"
+           class="btn-visited text-[13px] font-medium text-center uppercase pt-4 pb-4 xl:ml-32 md:ml-32 lg:ml-32 sm:ml-0 w-[200px] rounded shadow-xl bg-[#e7b04f] text-white duration-500 hover:bg-white hover:text-black">
+           Elige tu nuevo plan
+         </a>
+       </div>
+     </div>
+     <div id="img"
+       class="flex justify-center items-center h-auto w-auto relative mt-9 mr-25 xl:-mt-32 xl:mr-25 md:-mt-32 lg:-mt-32 sm:mt-9">
+       <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/footer-cohete-1.svg"  alt="cohete raiola" class="w-[70%] md:w-[380px]" loading="lazy" width="380" height="380">
+     </div>
+   </div>
+   <div class="separador1 mb-5 w-full"><div class="mt-10 mb-0 mx-0 px-[15px]"><div class="text-center pt-[5px] pb-[5px] flex"><span class="separador-i w-full my-0 mx-auto flex"></span></div></div></div>
+   <nav id="navSuscribete" class="block justify-between items-start mt-0 md:mt-10 mb-2 pt-3 pb-3 xl:flex md:flex lg:flex">
+    <div id="nav1" class="block p-3 max-w-[370px] md:max-w-[300px] m-auto xl:m-0 md:m-0 lg:m-0">
+      <div class="relative block mb-[15px]">
+         <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/logo-raiola.svg"  alt="logo raiola networks" class="h-6 w-full md:w-auto" loading="lazy" width="100%" height="24">
+      </div>
+      <div class="flex md:block" style="align-items: baseline;">
+        <div class="pr-[30px] md:pr-0">
+          <ul class="mt-2 block w-[160px] text-white text-[13px]">
+            <li class="inline-flex justify-start items-start mb-3">
+              <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/location.webp"  alt="icono ubicacion" class="h-3 mt-1 mr-2" loading="lazy"  width="12" height="12">
+              Avenida de Magoi nº66 Semisótano Derecha 27002 Lugo España
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="text-white text-[13px]">
+            <li class="inline-flex justify-start items-start">
+              <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/phone-white.webp"  alt="icono telefono" class="h-3 mt-1 mr-2" loading="lazy" width="12" height="12">
+              +34 982 77 60 81
+            </li>
+            <li class="inline-flex justify-start items-start mb-3">
+              <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/email-white.webp"  alt="icono email" class="h-3 mt-1 mr-2" loading="lazy" width="12" height="12">
+              info@raiolanetworks.es
+            </li>
+            <li class="inline-flex justify-start items-start">
+              <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/user.webp"  alt="icono datos" class="h-4 mt-1 mr-1" loading="lazy" width="16" height="16">
+              <div class="block">
+                <span class="w-full flex">CIF: B27453489</span>
+                <span class="w-full flex">VAT: ESB27453489</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="nav2" class="block p-3 max-w-[300px] m-auto xl:m-0 md:m-0 lg:m-0 text-center md:text-left">
+      
+       
+       <div class="relative block text-white">
+    <p class="text-[0.9em] font-bold uppercase">Acerca de</p>
+</div>
+
+<ul class="block w-[160px] text-white text-xs font-light leading-loose footer-custom">
+    <li class="inline-flex w-full mb-0.5">
+      <a href="/infraestructura-servidores-red/" name="enlaceNuestraInfrestructura" id="enlaceNuestraInfrestructura" class="w-full flex py-1.5 md:py-0">
+         Nuestra infraestructura
+      </a>
+    </li>
+    <li class="inline-flex w-full mb-0.5">
+      <a href="/equipo/" name="enlaceEquipo" id="enlaceEqiupo" class="w-full flex py-1.5 md:py-0">
+        Equipo
+      </a>
+    </li>
+    
+    <li class="inline-flex w-full mb-0.5">
+      <a href="/empleo/" name="enlaceTrabajaEnRaiola" id="lkTrabajaEnRaiola" class="w-full flex py-1.5 md:py-0">
+        Trabaja en Raiola
+      </a>
+    </li>
+    <li class="inline-flex w-full mb-0.5">
+      <a href="/afiliados/" name="enlaceAfiliados" id="lkAfiliados" class="w-full flex py-1.5 md:py-0">
+        Afiliados
+      </a>
+    </li>
+    <li class="inline-flex w-full mb-0.5">
+      <a href="/kit-de-prensa/" name="enlaceKitDePrensa" id="lkKitDePrensa" class="w-full flex py-1.5 md:py-0">
+        Kit de prensa
+      </a>
+    </li>
+    <li class="inline-flex w-full mb-0.5">
+      <a href="/opiniones/" name="enlaceOpiniones" id="lkOpiniones" class="w-full flex py-1.5 md:py-0">
+        Opiniones
+      </a>
+    </li>
+    <li class="inline-flex w-full mb-0.5">
+      <span data-sitio="L2NsaWVudGVzLw" name="enlaceAccedeATuCuenta" id="lkAccedeATuCuenta" class="elemento-ira w-full block">
+        Accede a tu cuenta
+      </span>
+    </li>
+    <li class="inline-flex w-full mb-0.5">
+      <a href="/contacto/" name="enlaceContacto" id="lkContacto" class="w-full flex py-1.5 md:py-0">
+        Contacto
+      </a>
+    </li>
+    <li class="inline-flex w-full">
+      <a href="/blog/autores/" name="enlaceAutoresDeBlog" id="lkAutoresDeBlog" class="w-full flex py-1.5 md:py-0">
+        Autores del blog
+      </a>
+    </li>
+  </ul>       
+     </div>
+     <div id="nav3" class="block p-3 max-w-[300px] m-auto xl:m-0 md:m-0 lg:m-0 text-center md:text-left">
+        <div class="relative block text-white">
+    <p class="text-[0.9em] font-bold uppercase">Información</p>
+  </div>
+  <ul class="block w-[160px] text-white text-xs font-light leading-loose footer-custom">
+    <li class="inline-flex w-full mb-0.5">
+      <a href="https://raiolanetworks.es/migraciones/" name="enlaceMigraciones" id="lkMigraciones" class="w-full flex py-1.5 md:py-0">
+        Migraciones
+      </a>
+    </li>
+    <li class="inline-flex w-full mb-0.5">
+      <a href="https://raiolanetworks.es/cual-es-mi-ip/" name="enlaceCualEsMiIp" id="lkCualEsMiIp" class="w-full flex py-1.5 md:py-0">
+        Cuál es mi IP
+      </a>
+    </li>
+    <li class="inline-flex w-full mb-0.5">
+      <a href="https://raiolanetworks.es/aviso-legal/" name="enlaceAvisoLegal" id="lkAvisoLegal" class="w-full flex py-1.5 md:py-0">
+        Aviso legal
+      </a>
+    </li>
+    <li class="inline-flex w-full mb-0.5">
+      <a href="https://raiolanetworks.es/terminos-de-uso/" name="enlaceKitTerminosCondiciones" id="lkKitTerminosCondiciones" class="w-full flex py-1.5 md:py-0">
+        Términos de uso
+      </a>
+    </li>
+    <li class="inline-flex w-full mb-0.5">
+      <a href="https://raiolanetworks.es/politica-de-privacidad/" name="enlacePoliticaDePrivacidad" id="lkPoliticaDePrivacidad" class="w-full flex py-1.5 md:py-0">
+        Política de privacidad
+      </a>
+    </li>
+    <li class="inline-flex w-full mb-0.5">
+      <a href="https://raiolanetworks.es/politica-de-cookies/" name="enlacePoliticaDeCookies" id="lkPoliticaDeCookies" class="w-full flex py-1.5 md:py-0">
+        Política de cookies
+      </a>
+    </li>
+    <li class="inline-flex w-full mb-0.5">
+      <a href="https://raiolanetworks.es/rmcgalicia/" name="enlaceRMC" id="lkRMC" class="w-full flex py-1.5 md:py-0">
+        RMC Galicia
+      </a>
+    </li>
+    <li class="inline-flex w-full">
+      <a href="https://raiolanetworks.es/blackfriday/" name="enlaceBlackFridayHosting" id="lkBlackFridayHosting" class="w-full flex py-1.5 md:py-0">
+        BlackFriday Hosting
+      </a>
+    </li>
+  </ul>       
+     </div>
+     <form id="nav4" class="block pt-3 pl-3 pb-3 pr-4 max-w-[300px] m-auto xl:m-0 md:m-0 lg:m-0">
+       <div class="relative block text-white">
+         <p class="text-[0.9em] font-bold uppercase text-center md:text-left">Suscríbete al boletín</p>
+       </div>
+       <ul class="mt-1 block w-auto text-white text-[18px] min-w-[150px]">
+         <li class="inline-flex w-full mb-4">
+           <small>Recibe ofertas, novedades y mucho más:</small>
+         </li>
+         <li class="w-full mb-2">
+           <input type="text" name="email" id="txtEmail" placeholder="¿Cuál es tu email?"
+             class="rounded-md pt-2.5 pb-2.5 pl-4 pr-4 text-xs w-full outline-none text-[#767676]" required>
+            <span class="alerta-roja mt-2" id="denyMail" style="display:none;" role="alert">Este campo es obligatorio.</span>
+         </li>
+         <li class="block cursor-pointer pl-2 pr-2 mb-2">
+           <small class="text-xs" id="moreInformationData"><b class="text-[15px]">+</b>
+           Información básica sobre protección de datos:
+           </small>
+           <!--more information for suscribete-->
+           <div class="hidden shadow bg-white rounded overflow-hidden mt-2" id="informationData">
+             <article class="block w-full p-3 text-[10px] text-black odd:bg-gray-300 even:bg-gray-200">
+               <div class="uppercase mb-1 text-[10px]">
+               RESPONSABLE:
+               </div>
+               <p class="leading-normal text-[10px]">
+                 <b>RAIOLA NETWORKS, S.L.</b> C.I.F.: B27453489 Avda de Magoi, 66, Semisótano, Dcha., 27002 Lugo
+                 (Lugo)
+                 <br>Telefono: +34 982776081
+                 <br>e-mail: info@raiolanetworks.es
+               </p>
+             </article>
+             <article class="block w-full p-3 text-[10px] text-black odd:bg-gray-300 even:bg-gray-200">
+               <div class="uppercase mb-1 text-[10px]">
+               RESPONSABLE:
+               </div>
+               <p class="leading-normal text-[10px]">
+                 <b>RAIOLA NETWORKS, S.L.</b> C.I.F.: B27453489 Avda de Magoi, 66, Semisótano, Dcha., 27002 Lugo
+                 (Lugo)
+                 <br>Telefono: +34 982776081
+                 <br>e-mail: info@raiolanetworks.es
+               </p>
+             </article>
+             <article class="block w-full p-3 text-[10px] text-black odd:bg-gray-300 even:bg-gray-200">
+               <div class="uppercase mb-1 text-[10px]">
+               RESPONSABLE:
+               </div>
+               <p class="leading-normal text-[10px]">
+                 <b>RAIOLA NETWORKS, S.L.</b> C.I.F.: B27453489 Avda de Magoi, 66, Semisótano, Dcha., 27002 Lugo
+                 (Lugo)
+                 <br>Telefono: +34 982776081
+                 <br>e-mail: info@raiolanetworks.es
+               </p>
+             </article>
+           </div>
+         </li>
+         <li class="inline-flex justify-start items-center w-full mb-2">
+           <input type="checkbox" name="conditionsAndPrivatyPolicy" id="conditionsAndPrivatyPolicy"
+             class="h-4 border-solid border-gray-300 border-2 mr-2">
+           <label for="conditionsAndPrivatyPolicy" class="text-[12px]" required="required">
+           Has leído y aceptas la <a href="/politica-de-privacidad/" name="enlacePoliticaPrivacidad" id="lkPoliticaPrivacidad"
+               class="underline  text-yellow-500"> Política de privacidad</a>
+               <b class="text-red-500 ml-2">*</b>
+           </label>
+         </li>
+         <li class="inline-flex w-full mb-2 pt-3 pb-3">
+           <button
+             class="p-3 w-full text-[13px] text-center text-white font-bold uppercase rounded bg-yellow-500 shadow duration-500 hover:bg-white hover:text-black"
+             name="quieroSuscribirme" id="btnSuscribirme" type="submit">
+             Quiero suscribirme
+           </button>
+         </li>
+         <div class="alerta-roja" id="denySub" style="display:none;" role="alert">Ha ocurrido un error. Vuelve a intentarlo.</div>
+         <div class="alerta-verde" id="acceptSub" style="display:none;" role="alert">¡Gracias por suscribirte al boletín!</div>
+       </ul>
+     </form>
+   </nav>
+  <div class="separador1 mb-5 w-full"><div class="mt-10 mb-0 mx-0 px-[15px]"><div class="text-center pt-[5px] pb-[5px] flex"><span class="separador-i w-full my-0 mx-auto flex"></span></div></div></div>
+  <section class="mt-0 w-full relative mb-[-30px]">
+    <div class="max-w-[1140px] flex mx-auto relative">
+      <div class="w-full relative flex">
+        <div class="justify-center p-2.5 flex relative w-full flex-wrap content-start">
+          <div class="w-auto mb-0 max-w-full text-center relative">
+            <div class="mr-5 ml-0 my-0">
+              <a href="https://www.ripe.net/membership/indices/data/es.raiolanetworks.html" target="_blank" class="inline-block">
+                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/logo-ripe-ncc.png"  loading="lazy" width="296" height="69" class="w-full h-[35px] inline-block align-middle" alt="Ripe NCC">
+              </a>
+            </div>
+          </div>
+          <div class="w-auto max-w-full text-center relative">
+            <div>
+              <a href="https://www.peeringdb.com/net/28752" target="_blank" class="inline-block">
+                <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/logo-peeringdb.png"  loading="lazy" width="296" height="69" class="w-full h-[35px] align-middle inline-block max-w-full" alt="PeeringDB">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+</section>
+  <footer id="footer" class="bg-[#0e428b] flex justify-center items-center pt-4 pb-4">
+    <div
+      class="p-5 xl:w-[1158px] md:[1158px] lg:w-[1158px] w-full md:flex lg:flex xl:flex block justify-between items-center text-white font-bold">
+      <a href="https://www.google.com/search?hl=es&gl=es&q=Raiola+Networks,+Avenida+de+Magoi+66+Semisotano,+Derecha,+Lugo&ludocid=16634892292014558050&#lrd=0xd31ce8176dbc497:0xe6db026776694b62,1,,,"
+        id="content1" class="block justify-center items-center w-auto">
+        <p class="flex w-full justify-center xl:justify-start items-center">Verificada por
+          <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/google.svg"  alt="google" class="ml-2 h-5" width="60" height="20">
+        </p>
+        <div class="flex w-full justify-center xl:justify-start items-center text-sm">
+          <b>4.8/5</b>
+          <span class="evaluaciones-google text-[15.5px] ml-[5px] font-normal underline">1740 reseñas</span>
+          <div id="stars" class="flex justify-start items-center">
+            <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/start-color.webp"  alt="estrella" loading="lazy" width="14" height="14"><img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/start-color.webp"  alt="estrella" loading="lazy" width="14" height="14"><img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/start-color.webp"  alt="estrella" loading="lazy" width="14" height="14"><img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/start-color.webp"  alt="estrella" loading="lazy" width="14" height="14"><img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/start-half.webp"  alt="estrella" loading="lazy" width="14" height="14">          </div>
+        </div>
+      </a>
+      <div id="content2" class="flex justify-center items-center font-normal xl:m-auto lg:m-auto md:m-auto mt-5 mb-5">
+        <small class="tracking-3 text-xs">Los precios mostrados no incluyen IVA</small>
+      </div>
+      <div id="content3" class="flex justify-center items-center">
+        <ul class="flex">
+          <li class="text-md font-bold inline-flex mr-3">
+            ¡Síguenos!
+          </li>
+          <li class="text-sm font-bold inline-flex mr-3">
+            <a href="https://twitter.com/RaiolaNetworks" name="enlaceTwitter" id="lkTwitterFooter" rel="me">
+              <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/twitter-white.webp"  alt="twitter" class="h-7" loading="lazy" width="28" height="28">
+            </a>
+          </li>
+          <li class="text-sm font-bold inline-flex mr-3">
+            <a href="https://es.linkedin.com/company/raiola-networks" name="enlaceLinkedInid" id="lkLinkedInFooter" rel="me">
+              <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/linkedin-white.webp"  alt="linkedin" class="h-6" loading="lazy" width="24" height="24">
+            </a>
+          </li>
+          <li class="text-sm font-bold inline-flex mr-3">
+            <a href="https://www.facebook.com/RaiolaNetworks/" name="enlaceFacebookFooter" id="lkFacebookFooter" rel="me">
+              <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/facebook-white.webp"  alt="facebook" class="h-7" loading="lazy" width="28" height="28">
+            </a>
+          </li>
+          <li class="text-sm font-bold inline-flex mr-3">
+            <a href="https://www.instagram.com/raiolanetworks.es/" name="enlaceInstagramFooter"
+              id="lkInstagramFooter" rel="me">
+              <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/instagram-white.webp"  alt="instagram" class="h-7" loading="lazy" width="28" height="28">
+            </a>
+          </li>
+          <li class="text-sm font-bold inline-flex mr-3">
+            <a href="https://www.youtube.com/user/RaiolaNetworks" name="enlaceYoutubeFooter" id="lkYoutubeFooter" rel="me">
+              <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/youtube-white.webp"  alt="youtube" class="h-7" loading="lazy" width="28" height="28">
+            </a>
+          </li>
+          <li class="text-sm font-bold inline-flex mr-3">
+            <a href="https://www.tiktok.com/@raiolanetworks" name="enlaceTikTokFooter" id="lkTikTokFooter" rel="me">
+              <img   src="https://cdn.raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/images/tiktok-white.webp"  alt="tiktok" class="h-7" loading="lazy" width="28" height="28">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!--search-->
+  <section
+    class="fixed top-0 left-0 w-screen h-screen z-50 hidden justify-center items-center bg-gray-100 opacity-[0.9]"
+    id="contentSearch">
+    <form action="#" class="flex justify-content items-center w-4/6 h-auto relative">
+      <input type="text" placeholder="Buscar" name="s" id="search"
+        class="w-full text-center bg-transparent outline-none text-5xl border-b-2 border-gray-300 pt-3 pb-5 ">
+    </form>
+    <button class="text-2xl text-black font-bold absolute right-5" name="cerrarBusqueda"
+      id="btnCloseSearch" class="border-0 pr-[25px]" style="font-family: 'Roboto', sans-serif;">x</button>
+  </section>
+</main>
+
+
+
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+<div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner cmplz-hidden banner-1 optin cmplz-bottom cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"></div>
+		<div class="cmplz-title" id="cmplz-header-1-optin">Gestionar el consentimiento de las cookies</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="close-dialog">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optin">Utilizamos cookies propias y de terceros para obtener información estadística, mostrar publicidad personalizada a través del análisis de tu navegación, así como para interactuar en redes sociales. Si continúas navegando, consideramos que aceptas nuestra</div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Funcional</span>
+							<span class='cmplz-always-active'>
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox"
+										   id="cmplz-functional-optin"
+										   data-category="cmplz_functional"
+										   class="cmplz-consent-checkbox cmplz-functional"
+										   size="40"
+										   value="1"/>
+									<label class="cmplz-label" for="cmplz-functional-optin" tabindex="0"><span class="screen-reader-text">Funcional</span></label>
+								</span>
+								Siempre activo							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">El almacenamiento o acceso técnico es estrictamente necesario para el propósito legítimo de permitir el uso de un servicio específico explícitamente solicitado por el abonado o usuario, o con el único propósito de llevar a cabo la transmisión de una comunicación a través de una red de comunicaciones electrónicas.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-preferences" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Preferencias</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-preferences-optin"
+									   data-category="cmplz_preferences"
+									   class="cmplz-consent-checkbox cmplz-preferences"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-preferences-optin" tabindex="0"><span class="screen-reader-text">Preferencias</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">El almacenamiento o acceso técnico es necesario para la finalidad legítima de almacenar preferencias no solicitadas por el abonado o usuario.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-statistics" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Estadísticas</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-statistics-optin"
+									   data-category="cmplz_statistics"
+									   class="cmplz-consent-checkbox cmplz-statistics"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-statistics-optin" tabindex="0"><span class="screen-reader-text">Estadísticas</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">El almacenamiento o acceso técnico que es utilizado exclusivamente con fines estadísticos.</span>
+					<span class="cmplz-description-statistics-anonymous">El almacenamiento o acceso técnico que se utiliza exclusivamente con fines estadísticos anónimos. Sin un requerimiento, el cumplimiento voluntario por parte de tu Proveedor de servicios de Internet, o los registros adicionales de un tercero, la información almacenada o recuperada sólo para este propósito no se puede utilizar para identificarte.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-marketing-optin"
+									   data-category="cmplz_marketing"
+									   class="cmplz-consent-checkbox cmplz-marketing"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-marketing-optin" tabindex="0"><span class="screen-reader-text">Marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">El almacenamiento o acceso técnico es necesario para crear perfiles de usuario para enviar publicidad, o para rastrear al usuario en una web o en varias web con fines de marketing similares.</span>
+				</div>
+			</details>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Administrar opciones</a>
+		<a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Gestionar los servicios</a>
+		<a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Gestionar {vendor_count} proveedores</a>
+		<a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/">Leer más sobre estos propósitos</a>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Aceptar todas</button>
+		<button class="cmplz-btn cmplz-deny">Denegar</button>
+		<button class="cmplz-btn cmplz-view-preferences">Ver preferencias</button>
+		<button class="cmplz-btn cmplz-save-preferences">Guardar preferencias</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Ver preferencias</a>
+			</div>
+
+	<div class="cmplz-links cmplz-documents">
+		<a class="cmplz-link cookie-statement" href="#" data-relative_url="">{title}</a>
+		<a class="cmplz-link privacy-statement" href="#" data-relative_url="">{title}</a>
+		<a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a>
+			</div>
+
+</div>
+</div>
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1">Gestionar consentimiento</button>
+
+</div><noscript><img height="1" width="1" style="display: none;" src="https://www.facebook.com/tr?id=302903466875025&ev=PageView&noscript=1&eid=302903466875025a1bca8a3-4d7c-4bee-ac82-82beef6dd0a2&cd%5Bpost_category%5D=Soporte+y+Ayuda%2C+cPanel&cd%5Bpage_title%5D=C%C3%B3mo+crear+una+base+de+datos+MySQL+%2F+MariaDB+en+cPanel&cd%5Bpost_type%5D=post&cd%5Bpost_id%5D=84423&cd%5Bplugin%5D=PixelYourSite&cd%5Bevent_url%5D=raiolanetworks.es%2Fblog%2Fcrear-base-de-datos-mysql-mariadb-cpanel%2F&cd%5Buser_role%5D=guest" alt=""></noscript>
+<script src='https://raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/dist/assets/main-80ac4ee7.js' id='main-js'></script>
+<script src='https://raiolanetworks.es/blog/wp-content/plugins/honeypot-antispam/js/honeypot-antispam.js?ver=1.0.4' id='honeypot-antispam-script-js'></script>
+<script src='https://raiolanetworks.es/blog/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.18.1' id='gtm4wp-form-move-tracker-js'></script>
+<script id='control_cat_button-js-extra'>
+var WPVars = {"clicks":"1"};
+</script>
+<script src='https://raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/js/app.js' id='control_cat_button-js'></script>
+<script src='https://raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/components/enligtherjs/enlighterjs.min.js' id='raiola-theme-enligtherjs-js'></script>
+<script src='https://raiolanetworks.es/blog/wp-content/themes/raiola-theme-blog/js/articulo_detalle.js?ver=3.1.1' id='raiola-theme-scripts-single-js'></script>
+<script src='https://raiolanetworks.es/blog/wp-includes/js/comment-reply.min.js?ver=6.3.2' id='comment-reply-js'></script>
+<script id='cmplz-cookiebanner-js-extra'>
+var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"","banner_version":"3391","version":"6.5.5","store_consent":"","do_not_track_enabled":"","consenttype":"optin","region":"eu","geoip":"","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https:\/\/raiolanetworks.es\/blog\/wp-json\/complianz\/v1\/","locale":"lang=es&locale=es_ES","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"16","cookie_path":"\/blog\/","categories":{"statistics":"estad\u00edsticas","marketing":"m\u00e1rketing"},"tcf_active":"","placeholdertext":"Haz clic para aceptar las cookies de {category} y permitir este contenido","aria_label":"Haz clic para aceptar las cookies de {category} y permitir este contenido","css_file":"https:\/\/raiolanetworks.es\/blog\/wp-content\/uploads\/complianz\/css\/banner-{banner_id}-{type}.css?v=3391","page_links":{"eu":{"cookie-statement":{"title":"Pol\u00edtica de cookies","url":"https:\/\/raiolanetworks.es\/politica-de-cookies\/"},"privacy-statement":{"title":"Declaraci\u00f3n de privacidad","url":"https:\/\/raiolanetworks.es\/politica-de-privacidad\/"}}},"tm_categories":"1","forceEnableStats":"","preview":"","clean_cookies":""};
+</script>
+<script defer src='https://raiolanetworks.es/blog/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=6.5.5' id='cmplz-cookiebanner-js'></script>
+<script src='https://raiolanetworks.es/blog/wp-content/plugins/complianz-gdpr/cookiebanner/js/migrate.min.js?ver=6.5.5' id='cmplz-migrate-js'></script>
+
+<script>
+EnlighterJS.init('pre', 'code.highlightme', {
+  language : 'javascript',
+  theme: 'dracula',
+  indent : 2
+});
+</script>
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=7fabfdbc-69a2-444f-a0fb-172beeea56e2"> </script>
+</body>
+</html>
+
+
+<!-- Page cached by LiteSpeed Cache 5.7 on 2023-10-25 15:18:13 -->

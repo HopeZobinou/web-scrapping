@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+<head>
+<title>Drupalとは？第 10 回 Drupal の標準クエリビルダー Views の使い方 | Drupalの使い方や活用情報はANNAI</title>
+
+<script>
+      (function(w,d,s,l,i) {
+        w[l]=w[l] || [];
+        w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PHVR8TT');
+    </script>
+
+<meta charset="utf-8" />
+<meta name="description" content="今回は Drupal 9 の目玉機能の一つ、Views について説明します。Views を使うとプログラミングなしで、管理画面から様々なコンテンツの抽出や表示が可能になります。この機能は他の CMS とDrupal を比較した場合に挙げられる代表的な強みです。" />
+<meta name="abstract" content="今回は Drupal 9 の目玉機能の一つ、Views について説明します。Views を使うとプログラミングなしで、管理画面から様々なコンテンツの抽出や表示が可能になります。この機能は他の CMS とDrupal を比較した場合に挙げられる代表的な強みです。" />
+<meta name="keywords" content="Drupal, 開発, CMS, エンタープライズ, マーケティングオートメーション, DKAN, オープンデータ, 制作, Mautic, ANNAI, アンナイ" />
+<meta name="geo.placename" content="JAPAN" />
+<meta name="geo.region" content="JA" />
+<link rel="canonical" href="https://annai.co.jp/drupal/9/beginner/views" />
+<meta property="og:site_name" content="第 10 回 Drupal の標準クエリビルダー Views の使い方 | ANNAI（アンナイ）" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://annai.co.jp/drupal/9/beginner/views" />
+<meta property="og:title" content="第 10 回 Drupal の標準クエリビルダー Views の使い方 | ANNAIマガジン" />
+<meta property="og:description" content="今回は Drupal 9 の目玉機能の一つ、Views について説明します。Views を使うとプログラミングなしで、管理画面から様々なコンテンツの抽出や表示が可能になります。この機能は他の CMS とDrupal を比較した場合に挙げられる代表的な強みです。" />
+<meta property="og:image" content="https://annai.co.jp/sites/default/files/2021-03/d9kouzalogo_7.png" />
+<meta property="og:image:url" content="https://annai.co.jp/sites/default/files/2021-03/d9kouzalogo_7.png" />
+<meta property="og:image:secure_url" content="https://annai.co.jp/sites/default/files/2021-03/d9kouzalogo_7.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="fb:pages" content="519771154833800" />
+<meta property="fb:app_id" content="1639191249739153" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="第 10 回 Drupal の標準クエリビルダー Views の使い方 | ANNAIマガジン" />
+<meta name="twitter:site" content="@ANNAIInc" />
+<meta name="twitter:description" content="今回は Drupal 9 の目玉機能の一つ、Views について説明します。Views を使うとプログラミングなしで、管理画面から様々なコンテンツの抽出や表示が可能になります。この機能は他の CMS とDrupal を比較した場合に挙げられる代表的な強みです。" />
+<meta name="twitter:image:height" content="315" />
+<meta name="twitter:image" content="https://annai.co.jp/sites/default/files/2021-03/d9kouzalogo_7.png" />
+<meta name="twitter:image:width" content="851" />
+<meta name="twitter:image:alt" content="第 10 回 Drupal の標準クエリビルダー Views の使い方" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/annai2017/images/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_-RKDPIbFRYxYxciFhB_9LIwyHhY6vIChud930sqF6r4.css" />
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/monokai-sublime.min.css" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.1.1/7.x-3.x/drupal-bootstrap.min.css" integrity="sha512-nrwoY8z0/iCnnY9J1g189dfuRMCdI5JBwgvzKvwXC4dZ+145UNBUs+VdeG/TUuYRqlQbMlL4l8U3yT7pVss9Rg==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.1.1/8.x-3.x/drupal-bootstrap.min.css" integrity="sha512-jM5OBHt8tKkl65deNLp2dhFMAwoqHBIbzSW0WiRRwJfHzGoxAFuCowGd9hYi1vU8ce5xpa5IGmZBJujm/7rVtw==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.2.0/7.x-3.x/drupal-bootstrap.min.css" integrity="sha512-U2uRfTiJxR2skZ8hIFUv5y6dOBd9s8xW+YtYScDkVzHEen0kU0G9mH8F2W27r6kWdHc0EKYGY3JTT3C4pEN+/g==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.2.0/8.x-3.x/drupal-bootstrap.min.css" integrity="sha512-JXQ3Lp7Oc2/VyHbK4DKvRSwk2MVBTb6tV5Zv/3d7UIJKlNEGT1yws9vwOVUkpsTY0o8zcbCLPpCBG2NrZMBJyQ==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.3.1/7.x-3.x/drupal-bootstrap.min.css" integrity="sha512-ZbcpXUXjMO/AFuX8V7yWatyCWP4A4HMfXirwInFWwcxibyAu7jHhwgEA1jO4Xt/UACKU29cG5MxhF/i8SpfiWA==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.3.1/8.x-3.x/drupal-bootstrap.min.css" integrity="sha512-kTMXGtKrWAdF2+qSCfCTa16wLEVDAAopNlklx4qPXPMamBQOFGHXz0HDwz1bGhstsi17f2SYVNaYVRHWYeg3RQ==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.4.0/8.x-3.x/drupal-bootstrap.min.css" integrity="sha512-tGFFYdzcicBwsd5EPO92iUIytu9UkQR3tLMbORL9sfi/WswiHkA1O3ri9yHW+5dXk18Rd+pluMeDBrPKSwNCvw==" crossorigin="anonymous" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_I0T6RUOwaKB2kdUCqQ3SBYLjE1jc2Ij9rvv2iIJg9K8.css" />
+</head>
+<body class="path-node page-node-type-drupal-article has-glyphicons">
+
+<noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHVR8TT" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+<a href="#main-content" class="visually-hidden focusable skip-link">
+メインコンテンツに移動
+</a>
+<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+<header class="navbar navbar-inverse container" id="navbar" role="banner">
+<div class="header-top">
+<div class="region region-logo">
+<a class="logo navbar-btn pull-left" href="/" title="ホーム" rel="home">
+<img src="/themes/custom/annai2017/images/logo-header.svg" alt="ANNAI ロゴ" />
+</a>
+</div>
+<div class="region region-language">
+<nav role="navigation" aria-labelledby="block-header-sub-navigation-module-menu" id="block-header-sub-navigation-module">
+<h2 class="visually-hidden" id="block-header-sub-navigation-module-menu">ヘッダーサブナビゲーション</h2>
+<ul class="menu menu--header-sub-navigation-module nav">
+<li class="first">
+<a href="/about" title="会社案内" data-drupal-link-system-path="node/638">会社案内</a>
+</li>
+<li>
+<a href="/pressroom" title="お知らせ" data-drupal-link-system-path="pressroom">お知らせ</a>
+</li>
+<li>
+<a href="/community" title="Drupalコミュニティへの貢献" data-drupal-link-system-path="node/1137">Drupalコミュニティへの貢献</a>
+</li>
+<li class="last">
+<a href="/contact" title="お問い合わせ" data-drupal-link-system-path="node/1151">お問い合わせ</a>
+</li>
+</ul>
+</nav>
+<div class="language-switcher-language-url block block-language block-language-blocklanguage-content clearfix" id="block-language-switcher" role="navigation">
+<ul class="links"><li hreflang="ja" data-drupal-link-system-path="node/1312" class="ja is-active"><a href="/drupal/9/beginner/views" class="language-link is-active" hreflang="ja" data-drupal-link-system-path="node/1312">日本語</a></li></ul>
+</div>
+<div class="search-block-form block block-search block-search-form-block" data-drupal-selector="search-block-form" id="block-search-block" role="search">
+<h2 class="visually-hidden">検索フォーム</h2>
+<form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+<div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+<label for="edit-keys" class="control-label sr-only">検索</label>
+<div class="input-group"><input title="検索したいキーワードを入力してください。" data-drupal-selector="edit-keys" class="form-search form-control" placeholder="検索" type="search" id="edit-keys" name="keys" value size="15" maxlength="128" data-toggle="tooltip" /><span class="input-group-btn"><button type="submit" value="検索" class="button js-form-submit form-submit btn-primary btn icon-only"><span class="sr-only">検索</span><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span></button></span></div>
+</div>
+<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+</form>
+</div>
+</div>
+</div>
+<div class="header-nav">
+<div class="region region-navigation">
+<div id="block-main-navigation" class="block block-superfish block-superfishmain-module clearfix">
+<nav role="navigation">
+<ul id="superfish-main-module" class="menu sf-menu sf-main-module sf-horizontal sf-style-none">
+<li id="main-module-annai-menu-linkmain-services" class="sf-depth-1 menuparent"><a href="#services" title="サービス" class="sf-depth-1 menuparent">サービス</a><ul><li id="main-module-annai-menu-linkmain-services-kaizen" class="sf-depth-2 sf-no-children"><a href="/service/kaizen" title="KAIZEN ANNAI" class="sf-depth-2">KAIZEN ANNAI</a></li></ul></li><li id="main-module-annai-menu-linkmain-want" class="sf-depth-1 sf-no-children"><a href="/want" title="やりたいこと" class="sf-depth-1">やりたいこと</a></li><li id="main-module-annai-menu-linkmain-drupal" class="sf-depth-1 menuparent"><a href="/drupal" title="どこよりも詳しいDrupal解説" class="sf-depth-1 menuparent">どこよりも詳しいDrupal解説</a><ul><li id="main-module-annai-menu-linkmain-beginner" class="sf-depth-2 sf-no-children"><a href="/drupal/9/beginner" title="Drupal 9初心者講座" class="sf-depth-2">Drupal 9初心者講座</a></li><li id="main-module-annai-menu-linkmain-drupal-under" class="sf-depth-2 sf-no-children"><a href="/drupal" title="Drupalとは？ - Drupalの特徴・強み・仕組み" class="sf-depth-2">Drupalとは？ - Drupalの特徴・強み・仕組み</a></li><li id="main-module-annai-menu-linkmain-drupal-under-about" class="sf-depth-2 sf-no-children"><a href="/drupal#drupal-about" title="Drupal：柔軟・安全・パワフルなオープンソース CMS" class="sf-depth-2">Drupal：柔軟・安全・パワフルなオープンソース CMS</a></li><li id="main-module-annai-menu-linkmain-drupal-under-can" class="sf-depth-2 sf-no-children"><a href="/drupal#drupal-can" title="Drupalの特徴とできること" class="sf-depth-2">Drupalの特徴とできること</a></li><li id="main-module-annai-menu-linkmain-drupal-under-strong" class="sf-depth-2 sf-no-children"><a href="/drupal#drupal-strong" title="Drupalの強み" class="sf-depth-2">Drupalの強み</a></li><li id="main-module-annai-menu-linkmain-drupal-under-structure" class="sf-depth-2 sf-no-children"><a href="/drupal#drupal-structure" title="Drupalの仕組み コア、拡張モジュール、テーマについて" class="sf-depth-2">Drupalの仕組み コア、拡張モジュール、テーマについて</a></li><li id="main-module-annai-menu-linkmain-drupal-under-install" class="sf-depth-2 sf-no-children"><a href="/drupal#drupal-install" title="Drupalのインストール方法" class="sf-depth-2">Drupalのインストール方法</a></li><li id="main-module-annai-menu-linkmain-drupal-under-distribution" class="sf-depth-2 sf-no-children"><a href="/drupal#drupal-distribution" title="Drupalのディストリビューション" class="sf-depth-2">Drupalのディストリビューション</a></li><li id="main-module-annai-menu-linkmain-drupal-under-for-beginner" class="sf-depth-2 sf-no-children"><a href="/drupal#drupal9-beginner" title="Drupalをもっと知りたい方へ「Drupal9初心者講座」" class="sf-depth-2">Drupalをもっと知りたい方へ「Drupal9初心者講座」</a></li><li id="main-module-annai-menu-linkmain-drupal-theme-guide" class="sf-depth-2 sf-no-children"><a href="/drupal#d9theming-guide" title="Drupalテーマ作成ガイド」" class="sf-depth-2">Drupalテーマ作成ガイド</a></li><li id="main-module-annai-menu-linkmain-drupal-under-comparison-cms" class="sf-depth-2 sf-no-children"><a href="/drupal#comparison-cms" title="Drupalと他のCMSとの比較" class="sf-depth-2">Drupalと他のCMSとの比較</a></li><li id="main-module-annai-menu-linkmain-drupal-under-security" class="sf-depth-2 sf-no-children"><a href="/drupal#security" title="Drupalとセキュリティー" class="sf-depth-2">Drupalとセキュリティー</a></li><li id="main-module-annai-menu-linkmain-drupal-under-install-2" class="sf-depth-2 sf-no-children"><a href="/drupal#install" title="Drupalのインストール" class="sf-depth-2">Drupalのインストール</a></li><li id="main-module-annai-menu-linkmain-drupal-under-multilingual" class="sf-depth-2 sf-no-children"><a href="/drupal#multilingual" title="Drupalの多言語対応" class="sf-depth-2">Drupalの多言語対応</a></li><li id="main-module-annai-menu-linkmain-drupal-under-usecase" class="sf-depth-2 sf-no-children"><a href="/drupal#usecase" title="Drupal導入事例" class="sf-depth-2">Drupal導入事例</a></li></ul></li><li id="main-module-annai-menu-linkmain-article" class="sf-depth-1 sf-no-children"><a href="/article" title="ANNAIマガジン" class="sf-depth-1">ANNAIマガジン</a></li><li id="main-module-annai-menu-linkmain-community" class="sf-depth-1 sf-no-children"><a href="/community" title="Drupalコミュニティへの貢献" class="sf-depth-1">Drupalコミュニティへの貢献</a></li><li id="main-module-annai-menu-linkmain-portfolio" class="sf-depth-1 sf-no-children"><a href="/portfolio" title="実績紹介" class="sf-depth-1">実績紹介</a></li><li id="main-module-annai-menu-linkmain-recruit" class="sf-depth-1 menuparent"><a href="#recruit" title="採用情報" class="sf-depth-1 menuparent">採用情報</a><ul><li id="main-module-annai-menu-linkmain-recruit-under-fulltime" class="sf-depth-2 sf-no-children"><a href="/recruit" title="正社員募集" class="sf-depth-2">正社員募集</a></li><li id="main-module-annai-menu-linkmain-recruit-under-partner" class="sf-depth-2 sf-no-children"><a href="/partner" title="パートナー募集" class="sf-depth-2">パートナー募集</a></li></ul></li><li id="main-module-annai-menu-linkmain-about" class="sf-depth-1 sf-no-children"><a href="/about" title="会社案内" class="sf-depth-1">会社案内</a></li><li id="main-module-annai-menu-linkmain-pressroom" class="sf-depth-1 sf-no-children"><a href="/pressroom" title="お知らせ" class="sf-depth-1">お知らせ</a></li><li id="main-module-annai-menu-linkmain-contact" class="sf-depth-1 sf-no-children"><a href="/contact" title="お問い合わせ" class="sf-depth-1">お問い合わせ</a></li>
+<li id="main-module-annai-menu-linkmain-search" class="sf-depth-1 sf-no-children"><form class="search-block-form" data-drupal-selector="search-block-form" action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+<div class="form-item js-form-item form-type-search js-form-type-search form-item-keys js-form-item-keys form-no-label form-group">
+<label for="edit-keys" class="control-label sr-only">検索</label>
+<div class="input-group"><input title="検索したいキーワードを入力してください。" data-drupal-selector="edit-keys" class="form-search form-control" placeholder="検索" type="search" id="edit-keys" name="keys" value size="15" maxlength="128" data-toggle="tooltip" /><span class="input-group-btn"><button type="submit" value="検索" class="button js-form-submit form-submit btn-primary btn icon-only"><span class="sr-only">検索</span><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span></button></span></div>
+</div>
+<div class="form-actions form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-actions" id="edit-actions"></div>
+</form>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</header>
+<div role="main" class="main-container js-quickedit-main-content">
+<div class="highlighted"> <div class="region region-highlighted">
+<div class="views-element-container block block-views block-views-blockcontent-title-block-1 clearfix" id="block-views-block-content-title-block-1">
+<div class="form-group"><div class="view view-content-title view-id-content_title view-display-id-block_1 js-view-dom-id-83ef43d809bdeb9ca2c33e4e09199ff509c7eb016a7713f047a9a4898adf27d7">
+</div>
+</div>
+</div>
+<div id="block-drupal-beginner-title-sub-9" class="block block-block-content block-block-content32472872-9c27-4e14-8198-005dd9fa4a09 clearfix">
+<div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><h1>Drupal 初心者講座</h1>
+</div>
+</div>
+<h1 class="page-header">
+<span>第 10 回 Drupal の標準クエリビルダー Views の使い方</span>
+</h1>
+<div data-drupal-messages-fallback class="hidden"></div>
+</div>
+</div>
+<div class="container wrapper">
+<article class="main-contents-right">
+<a id="main-content"></a>
+<div class="region region-content">
+<article data-history-node-id="1312" class="drupal-article node node--type-drupal-article node--view-mode-full ds-1col clearfix">
+<div class="content">
+<div class="views-element-container form-group"><div class="wrap-relation view view-annai-magazine view-id-annai_magazine view-display-id-block_4 js-view-dom-id-6ccc6e1ef8276cb591098e596f35262633a38d596d6bdae06035429479045ab8">
+<div class="view-content">
+<div class="author-date"><div class="editor">
+<div class="created-date"><i class="fa fa-calendar" aria-hidden="true"></i><span>投稿日：2021年03月22日　　<br class="mobile-only">更新日：2022年10月05日</span></div>
+<div class="user-picture-name">
+<span class="picture"><img alt="ANNAI株式会社の写真" src="/sites/default/files/styles/30_30/public/pictures/fblogo_02_360.png.webp?itok=MsN7kP3i" width="30" height="30" loading="lazy" typeof="Image" class="img-responsive" />
+</span>
+<span class="name">ANNAI株式会社</span>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+<div class="author-date">
+<h1>
+第 10 回 Drupal の標準クエリビルダー Views の使い方
+</h1>
+</div>
+<div class="eyecatch-img">
+<img loading="lazy" src="/sites/default/files/styles/annai_magazine_eyecatch/public/2021-03/d9kouzalogo_7.png.webp?itok=Hd7BdpP3" width="850" height="313" alt="第 10 回 Drupal の標準クエリビルダー Views の使い方" typeof="foaf:Image" class="img-responsive" />
+</div>
+<div id="sticky-anchor"></div>
+<div class="toc-js" id="toc-js-node-1312" data-selectors="h2, h3, h4" data-container=".toc-target" data-prefix="toc" data-list-type="ul" data-back-to-top="0" data-back-to-top-label="Back to top" data-smooth-scrolling="1" data-scroll-to-offset="0" data-highlight-on-scroll="1" data-highlight-offset="100" data-sticky="0" data-sticky-offset="0">
+<div class="toc-title h2">この記事の目次</div>
+<nav role="navigation" aria-label="この記事の目次"></nav>
+</div>
+<div class="greeting">
+<div class="views-element-container form-group"><div class="wrap-relation view view-annai-magazine view-id-annai_magazine view-display-id-block_8 js-view-dom-id-e757c18f53fb99779a4030003cbe9208c7ee30278862993f134e9169463a53b0">
+</div>
+</div>
+</div>
+<article class="drupal-article">
+<div class="field--name-body toc-target">
+<h2>はじめに</h2>
+<p>CMS を使った Web サイトの構築では、管理しているコンテンツの中から特定の条件に一致するものを抽出し、適切な形式で表示する機能が必要になります。一般にこうした処理は、サイト固有の要件に基づいて個別に作り込む必要がありますが、これをプログラミングなしで、管理画面から行えるようにする仕組みが Views です。今回は、この Views の機能を紹介します。</p>
+<h2>CMSとクエリー</h2>
+<p>CMS を利用したサイト構築においては、管理しているコンテンツの中から場面に応じて必要なものを選択し、適切な形で表示する必要があります。たとえば、弊社のトップページにある ANNAI マガジンの新着一覧は、記事の中から作成日時が新しいものを順に 3 件抽出し、日付、アイキャッチ画像、タイトル、作成者、記事リンク等を適切なスタイルで並べた形になっています。記事は日々更新され追加されていきますから、常に最新の一覧を表示するには、記事コンテンツのクエリーを発行し、動的な結果を表示する必要があります。</p>
+<p class="text-align-center"><span style="font-size:12pt; font-variant:normal; white-space:pre-wrap"><span style="font-family:Arial"><span style="color:#3c3c3c"><span style="background-color:#ffffff"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none"><span style="border:none"><span style="display:inline-block"><span style="overflow:hidden"><span style="width:624px"><span style="height:751px"><img height="751" src="https://lh6.googleusercontent.com/KoQ4BpT3p9dvhw_mjb0WxEHwmGG9eO5XyeKE09xubtHkv0B-mcyoAdnEcve_N7UZSD47GtyMkWEpFEJmZImT9kodsBXApj1N2jPJiPqIkodR4YRoG1KRYlTcGSE8JGCKBQRr1gyN" width="624" /></span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p class="text-align-center"><strong>コンテンツのクエリーに基づく動的な表示の例</strong></p>
+<p>Drupal でこうした機能を担うものが Views です。一般に、データベースへの問い合わせには SQL（構造化クエリー言語）が使われますが、Views を利用すれば、このクエリーを管理画面の UI 上で定義することができます。また Views には、コンテンツを抽出する機能だけでなく、その結果を加工する機能（後述します）も含まれています。コンテンツの抽出条件を加工処理をまとめて 1 つの設定（ビュー）として保存しておき、必要に応じて繰り返し呼び出すことができるのです。</p>
+<h2>Views の使用例</h2>
+<p>ここでは、Views の概要を知っていただくため、最も基本的な次の設定項目について簡単な使用例を紹介します。</p>
+<div class="table-responsive">
+<table class="table"><tbody><tr><th>フォーマット</th>
+<td>クエリーの結果を表示する形式を指定する。</td>
+</tr><tr><th>フィールド</th>
+<td>表示される個々のデータ項目です。</td>
+</tr><tr><th>フィルター</th>
+<td>結果を抽出するための条件です。</td>
+</tr><tr><th>並べ替え基準</th>
+<td>Views の結果として表示される項目の表示順を決定します。</td>
+</tr></tbody></table></div>
+<p>例として「自動車」というコンテンツタイプを用意しました。標準で用意されるタイトルと本文に加えて、車種（タクソノミー）、色、定員、写真といったフィールドを定義してあります。この 「自動車」 コンテンツのサンプルが 10 件登録されているという想定で、Views の定義（ビュー）を作ってコンテンツを抽出する例を見ていくことにしましょう。</p>
+<p>まず、新しいビューを 1 つ定義します。ビューを作成するときには、対象とするコンテンツタイプを指定することができます。ここでは当然 「自動車」を指定しておきます。</p>
+<img alt="image2" data-entity-type="file" data-entity-uuid="7df8ea19-8088-4a24-89d9-2153d3e8950c" src="/sites/default/files/inline-images/Image_2_4.png" class="align-center" width="638" height="434" loading="lazy" /><p class="text-align-center"><strong>ビューの新規作成</strong></p>
+<p>他の設定は初期値のまま先へ進むと、次のような構成で新しいビューが作成されます。</p>
+<img alt="image3" data-entity-type="file" data-entity-uuid="b428c810-785b-41be-bfd1-564310b58d49" src="/sites/default/files/inline-images/Image_3_5.png" class="align-center" width="365" height="501" loading="lazy" /><p class="text-align-center"><strong>初期状態のビュー管理画面</strong></p>
+<p>Views の管理画面にはプレビュー機能があり、各種パラメータを変更しながらビューの出力結果を確認できます。いま作成したビューでは、サンプルコンテンツの一覧が次のようにプレビュー表示されます。</p>
+<img alt="image4" data-entity-type="file" data-entity-uuid="9b822c00-6546-4c74-9a0b-eb1ef599d64e" src="/sites/default/files/inline-images/Image_4_4.png" class="align-center" width="231" height="541" loading="lazy" /><p class="text-align-center"><strong>作成したビューのプレビュー出力</strong></p>
+<p>以下、設定を変えながらプレビューの変化を見ていきましょう。</p>
+<h2>フォーマット</h2>
+<p>まず、タイトルの下にある「フォーマット」から見ていきましょう。これは、抽出したコンテンツの出力形式を決める設定です。初期状態では「フォーマットなしの一覧」と「フィールド」という設定値になっています。前者は結果として出力される一覧のマークアップを指定するもので、具体的には div 要素として出力されることを意味しています。たとえば、この設定を「HTMLリスト」に変えると、div ではなく ul 配下の li 要素に変わり、プレビューを見るとリスト形式になるのがわかります。</p>
+<img alt="image5" data-entity-type="file" data-entity-uuid="49409ec8-b833-48f3-b8fe-f1c533e3f326" src="/sites/default/files/inline-images/Image_5_3.png" class="align-center" width="246" height="252" loading="lazy" /><p class="text-align-center"><strong>フォーマットを「HTMLリスト」にした場合</strong></p>
+<p>あるいは、「テーブル」 に変えると、表形式に変わります。</p>
+<img alt="image6" data-entity-type="file" data-entity-uuid="2f0554c7-2596-48b7-b525-629fa7f4085a" src="/sites/default/files/inline-images/Image_6_3.png" class="align-center" width="220" height="459" loading="lazy" /><p class="text-align-center"><strong>フォーマットを「テーブル」にした場合</strong></p>
+<p>出力のマークアップが簡単に変えられることがわかりますね。なお「フォーマット」 の下にある「表示」という項目は各行の中身を指定する設定で、初期値の「フィールド」を指定した場合、Views 側で出力行のフィールド（要素）を制御できるようになります。次に、このフィールドを操作してみましょう。</p>
+<h2>フィールド</h2>
+<p>初期状態で設定されたフィールドはタイトルだけでした。これに本文、定員、色、車種、写真といった「自動車」コンテンツタイプのフィールドを追加してみましょう。フォーマットはテーブルのままなので、各フィールドは表の列として追加されます。</p>
+<img alt="image7" data-entity-type="file" data-entity-uuid="805d7827-5385-4904-bf92-a07c9af377a8" src="/sites/default/files/inline-images/Image_7_1.png" class="align-center" width="850" height="563" loading="lazy" /><p class="text-align-center"><strong>フィールドを追加した結果</strong></p>
+<p>うーん、写真がやや大きすぎて他の列が窮屈ですね。こういう場合は、画像の出力スタイルを変更すると良いでしょう。Drupal では「サムネイル」 (100x100 ピクセル）という画像スタイルが標準で用意されているので、フィールド設定でこれを指定してみます。</p>
+<img alt="image8" data-entity-type="file" data-entity-uuid="167790ee-65f0-4ef4-b568-ba9f5e00ae1d" src="/sites/default/files/inline-images/Image_8_0.png" class="align-center" width="204" height="128" loading="lazy" /><p> </p>
+<p class="text-align-center"><strong>フィールドの画像スタイルを設定する</strong></p>
+<p>画像が小さくなり、表全体のバランスが改善されました。</p>
+<img alt="image9" data-entity-type="file" data-entity-uuid="7c44e415-7e92-40ef-b4af-2ab3dd65295b" src="/sites/default/files/inline-images/Image_9_0.png" class="align-center" width="850" height="536" loading="lazy" /><p class="text-align-center"><strong>画像スタイルを調整した後</strong></p>
+<p>このように、Views では各フィールドの出力を加工できます。上記は画像スタイルの変更でしたが、他にも、各行の出力を別のマークアップで置き換える、その中で別フィールドの値を参照して埋め込む、出力テキストを一定の文字数で切り落とす、等々さまざまなオプションが用意されています。</p>
+<h2>フィルタ</h2>
+<p>次にフィルタを追加してみましょう。フィルタとはコンテンツの抽出条件を指定するもので、特定の条件に一致するものだけを表示することができます。たとえば、「車種」フィールドをフィルタの条件に追加し、その値が「トラック」と「重機」のいずれかであるものだけを抽出してみましょう。</p>
+<img alt="image10" data-entity-type="file" data-entity-uuid="c54d795e-50a0-4dc7-8e68-f7d22e7cda07" src="/sites/default/files/inline-images/Image_10.png" class="align-center" width="508" height="317" loading="lazy" /><p class="text-align-center"><strong>フィルタ条件で「車種」を重機とトラックのいずれかに指定する</strong></p>
+<p>そうすると、指定した結果に出力される自動車は重機とトラックだけになり、他のバスや乗用車、バイク等は表示されなくなります。</p>
+<img alt="image11" data-entity-type="file" data-entity-uuid="1aa07cc7-440d-4cdf-9825-f8ef4a2580f4" src="/sites/default/files/inline-images/Image_11.png" class="align-center" width="850" height="422" loading="lazy" /><p class="text-align-center"><strong>「車種」を重機とトラックのいずれかに指定した結果</strong></p>
+<p>また、フィルタの指定は固定的に設定するだけでなく、ユーザーに選択肢を提示し、条件を直接選択してもらうことも可能です。</p>
+<img alt="exposed filter による対話的な条件指定" data-entity-type="file" data-entity-uuid="e9fe4ab4-667a-4f85-be56-6ee5cc069480" src="/sites/default/files/inline-images/Image_12.png" class="align-center" width="850" height="349" loading="lazy" /><p class="text-align-center"><strong>exposed filter </strong><strong>による対話的な条件指定</strong></p>
+<p>この機能は "exposed filter（外部設置フィルター）" と呼ばれています。これを利用すれば、数回のクリックで簡単なコンテンツ検索画面を作ることができます。</p>
+<h2>並び替え基準</h2>
+<p>最後に一覧の表示順序を設定しておきましょう。初期設定ではコンテンツの投稿日時の降順になっています。たとえば、これを乗車定員の降順に変えてみます。</p>
+<img alt="並び替え基準に「定員」フィールドの降順を追加する" data-entity-type="file" data-entity-uuid="62232a3b-abef-4353-a1b9-7234e35683ae" src="/sites/default/files/inline-images/Image_13.png" class="align-center" width="433" height="215" loading="lazy" /><p class="text-align-center"><strong>並び替え基準に「定員」フィールドの降順を追加する</strong></p>
+<p>フィルタと同様、並び替え基準も複数指定できます。基準が複数ある場合は、上位の項目が優先的に適用されるので、乗車定員を最上位に設定することで定員順の表示に変わります。</p>
+<img alt="並び替え基準に定員フィールドを追加した結果" data-entity-type="file" data-entity-uuid="11e90f34-a67e-41e6-9e99-5e18cbc735b0" src="/sites/default/files/inline-images/Image_14.png" class="align-center" width="850" height="447" loading="lazy" /><p class="text-align-center"><strong>並び替え基準に定員フィールドを追加した結果</strong></p>
+<p>人が多く乗れる順に、自動車コンテンツを一覧表示することができました。このように、コンテンツの属性を自由に指定して表示順序を制御することも簡単です。</p>
+<h2>ディスプレイ</h2>
+<p>以上、Views の基本機能として、コンテンツのクエリーと出力の加工をプログラミングなしで行う例をご覧いただきました。ところで、こうして定義したビューの出力は、実際にどのような形で利用するのでしょう。この利用形態を指定するものが「ディスプレイ」です。具体的には、ページ、ブロック、フィードなどのディスプレイがあり、同じビューをそれぞれの異なる形で出力させることができます。</p>
+<img alt="ディスプレイの設定" data-entity-type="file" data-entity-uuid="ce722bd6-e6a1-4fd4-bac3-99dc4f3c7238" src="/sites/default/files/inline-images/Image_15.png" class="align-center" width="304" height="231" loading="lazy" /><p class="text-align-center"><strong>ディスプレイの設定</strong></p>
+<p>たとえば、「ページ」ディスプレイを設定すると、固有の URL を持つページとして結果が出力されます。同じビューに「ブロック」ディスプレイを追加すると、任意のリージョンに埋め込めるブロックとして結果を出力することも可能です。Drupal では、この他にも、添付、エンベッド、エンティティ参照といったディスプレイが用意されており、用途に応じた形でビューの出力を利用できるようになっています。</p>
+<h2>実際にやってみよう</h2>
+<p>Views の強力な機能がわかると、実際に使ってみたくなりませんか？</p>
+<p>具体的な操作方法を含めた使い方は、Think IT の連載記事で詳しく解説しています。ビューの新規作成から、各種設定、ディスプレイの追加、検索機能の実装など、各手順をステップバイステップ方式で実習できますので、記事を見ながら、ぜひ実際に操作して、Views のパワーに触れてみてください。</p>
+<ul><li><a href="https://thinkit.co.jp/article/10077" target="_blank">【Drupal 8入門】Viewsによるコンテンツ一覧ページの作成（前編）―Viewsの概念と基本的な使い方</a></li>
+<li><a href="https://thinkit.co.jp/article/10078" target="_blank">【Drupal 8入門】Viewsによるコンテンツ一覧ページの作成（後編）―AJAXページャーや検索機能の実装</a></li>
+</ul><h2>まとめ</h2>
+<p>今回は、Drupal のクエリービルダである Views の機能を紹介しました。プログラムコードを利用したクエリーに比べて次のような利点を挙げることができます。</p>
+<ul><li>コーディングがいらない： SQL やプログラム言語を知らない人でもコンテンツのクエリーを実装できる。</li>
+<li>安全性： 脆弱性の検証が行われているモジュールのコードで出力が生成される。</li>
+<li>複数の利用形態： 1 つのビューをページ、ブロック、フィードなど複数の形態で利用できる。</li>
+<li>検索機能： exposed filter を利用して検索フォームを簡単に実装できる。</li>
+</ul><p>これ以外にも、他のモジュールとの連携でフォーマット、フィールド、フィルタ等を拡張できることや、コンテキストフィルタと呼ばれる URL パラメータによる制御、リレーションを利用した高度なクエリーを実現できること等も大きな強みです。こうした機能を活用することで、サイトの構築やメンテナンスをより効率的に行うことができるでしょう。</p>
+<p>最初は少し難しく見えるかもしれませんが、上で紹介した基本を押さえてしまえば、後は少しずつ探求していけると思います。ぜひご自分の手を動かして体験してみてください。</p>
+<p>次回は、Views 以外の方法でコンテンツのクエリーを行う方法について、他の CMS の例とも比較しながら考察してみたいと思います。</p>
+</div>
+</article>
+<div class="field field--name-dynamic-block-fieldnode-link-to-kaizen-under-article field--type-ds field--label-hidden field--item"><div class="views-element-container form-group"><div class="wrap-relation view view-annai-magazine view-id-annai_magazine view-display-id-block_9 js-view-dom-id-71ae500493e2f9ce8ab243630917cdf0d8e5b46ba2b59b8befcd926ec02c5567">
+</div>
+</div>
+</div>
+<div class="field field--name-field-banner field--type-entity-reference field--label-hidden field--items">
+<div class="field--item">
+<div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div> </div>
+<div class="image text-align-center"><a href="/recruit" id="bottom_recruit_image"><img alt="フッターの採用情報" height="360" src="/sites/default/files/inline-images/ANNAI_FB_0111.jpeg" width="820" /></a></div>
+<div class="image"> </div>
+</div>
+</div>
+</div>
+<div class="list-tag">
+<ul>
+<li>
+<a href="/article/drupal/drupal9-beginner-course" hreflang="ja">Drupal9初心者講座</a></li>
+<li>
+<a href="/article/drupal/customize" hreflang="ja">カスタマイズ</a></li>
+<li>
+<a href="/article/drupal/what-is-drupal" hreflang="ja">Drupalとは？</a></li>
+<li>
+<a href="/article/drupal/usage" hreflang="ja">使い方</a></li>
+<li>
+<a href="/article/drupal/beginner" hreflang="ja">初心者向け情報</a></li>
+<li>
+<a href="/article/drupal/development" hreflang="ja">開発者向け情報</a></li>
+<li>
+<a href="/article/drupal9" hreflang="ja">Drupal 9</a></li>
+<li>
+<a href="/article/drupal/info" hreflang="ja">Drupal</a></li>
+<li>
+<a href="/article/drupal/info2" hreflang="ja">ドゥルーパル</a></li>
+<li>
+<a href="/article/drupal/info3" hreflang="ja">ドルーパル</a></li>
+</ul>
+</div>
+<div class="views-element-container form-group"><div class="wrap-relation view view-annai-magazine view-id-annai_magazine view-display-id-block_2 js-view-dom-id-9f671c6acbd71f006c3d1a3ffe20f5c59895097f679e8acef2757cfb6508803e">
+<div class="view-content">
+<div class="wrap-author"><div class="views-field views-field-edit-user"><span class="field-content"></span></div><div class="views-field views-field-nothing"><span class="field-content"><div class="row">
+<div class="col-md-3"><img alt="ANNAI株式会社の写真" src="/sites/default/files/pictures/fblogo_02_360.png" typeof="Image" class="img-responsive" />
+</div>
+<div class="col-md-9">
+<h3 class="authtor_name">この記事を書いた人: ANNAI株式会社</h3>
+<p>ANNAIは、2009年からDrupal専門のWebシステム開発会社として、世界規模で展開するグローバル企業や大学・自治体を中心に数多くのWebソリューションを提供。<br/>
+CoreやModuleのコントリビューターなど、Drupalエキスパートが多数在籍。国内ユーザーコミュニティへも積極的にコミットし、定期的なセミナーの等の開催を通じて、オープンソース技術の普及や海外コミュニティとの緊密な連携を図っている。<br/>
+Webシステムの企画・開発〜デザイン、クラウド運用までをワンストップで提供する他、Drupalのコーディングを評価する"Audit業務"や最適なモジュールの調査・選定等、幅広いコンサルティングを行っている。Drupalアソシエーション公式パートナー。</p>
+</div>
+</div></span></div></div>
+</div>
+</div>
+</div>
+<h2 class="block-title field-label-above">関連コンテンツ</h2>
+<div class="views-element-container form-group"><div class="wrap-relation view view-annai-magazine view-id-annai_magazine view-display-id-block_3 js-view-dom-id-55bc79a28a2f9114a8e8d5e42a7f3a46aef2e92e002a232d32aa044c1071dcd4">
+<div class="view-content">
+<div class="list-relation">
+<ul>
+<li><a href="/drupal/9/beginner/extra-information" hreflang="ja">第 16 回 Drupal をもっと知りたい方に向けた各種情報</a></li>
+<li><a href="/drupal/9/beginner/module" hreflang="ja">第 15 回 Drupal の拡張モジュールの選定と使い方</a></li>
+<li><a href="/drupal/9/beginner/theming" hreflang="ja">第 14 回 Drupal のテーマシステムについて</a></li>
+<li><a href="/drupal/9/beginner/comparing-with-other-cms" hreflang="ja">第 13 回 Drupal の権限設定と WordPress や Movable Type との比較</a></li>
+<li><a href="/drupal/9/beginner/multilingual" hreflang="ja">第 12 回 Drupal の多言語機能と他の CMS やサービスとの比較</a></li>
+<li><a href="/drupal/9/beginner/comparison-of-query-builder" hreflang="ja">第 11 回 Drupal と他の CMS のクエリビルダー機能を比較</a></li>
+<li><a href="/drupal/9/beginner/block-system" hreflang="ja">第 9 回 Drupal のブロックシステム</a></li>
+<li><a href="/drupal/9/beginner/comparison-of-drupal-with-other-cms" hreflang="ja">第 8 回 コンテンツ管理における Drupal と他の CMS との比較</a></li>
+<li><a href="/drupal/9/beginner/using-vocabulary-and-taxonomy" hreflang="ja">第 7 回 Drupal のボキャブラリとタクソノミーの使い方</a></li>
+<li><a href="/drupal/9/beginner/publishing-article" hreflang="ja">第 6 回 Drupal にコンテンツを投稿してみる</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="block-drupal9chuxinzhejiangzuohatsukunanha" class="block block-block-content block-block-content315ddad1-43e0-48c0-b1fd-64e1a1afdf1a clearfix">
+<div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><h2 class="title-line">Drupal 9初心者講座バックナンバー</h2>
+<ul class="wrap-large-content beginner-course-list"><li><span class="image"><a class="is-active" href="/drupal/9/beginner"><img alt="Drupal 9初心者講座" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a> </span> <span class="text"> <a class="is-active" href="/drupal/9/beginner">Drupal 9 初心者講座について</a> </span></li>
+<li><span class="image"><a href="/drupal/9/beginner/history-of-drupal"><img alt="第1回 歴史に見るDrupal のDNA" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a> </span> <span class="text"> <a data-drupal-link-system-path="node/1293" href="/drupal/9/beginner/history-of-drupal">第 1 回 歴史に見る Drupal の DNA</a> </span></li>
+<li><span class="image"><a href="/drupal/9/beginner/drupal-is-framework-or-cms"><img alt="第 2 回 Drupal はフレームワークか？CMS か？他の CMS との比較" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a></span> <span class="text"> <a href="/drupal/9/beginner/drupal-is-framework-or-cms">第 2 回 Drupal はフレームワークか？CMS か？他の CMS との比較</a> </span></li>
+<li><span class="image"><a href="/drupal/9/beginner/feature-of-drupal"><img alt="第 3 回 Drupal の特徴" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a></span> <span class="text"> <a href="/drupal/9/beginner/feature-of-drupal">第 3 回 Drupal の特徴</a> </span></li>
+<li><span class="image"><a href="/drupal/9/beginner/installing-drupal-1"><img alt="第 4 回 Drupal 9 のインストール (1)" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a></span> <span class="text"> <a href="/drupal/9/beginner/installing-drupal-1">第 4 回 Drupal 9 のインストール (1)</a> </span></li>
+<li><span class="image"><a href="/drupal/9/beginner/installing-drupal-2"><img alt="第 5 回 Drupal 9 のインストール (2)" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a></span> <span class="text"><a href="/drupal/9/beginner/installing-drupal-2">第 5 回 Drupal 9 のインストール (2)</a></span></li>
+<li><span class="image"><a href="/drupal/9/beginner/publishing-article"><img alt="第 6 回 Drupal にコンテンツを投稿してみる" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a></span> <span class="text"><a href="/drupal/9/beginner/publishing-article">第 6 回 Drupal にコンテンツを投稿してみる</a></span></li>
+<li><span class="image"><a href="/drupal/9/beginner/using-vocabulary-and-taxonomy"><img alt="第 7 回 Drupal のボキャブラリとタクソノミーの使い方" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a></span> <span class="text"><a href="/drupal/9/beginner/using-vocabulary-and-taxonomy">第 7 回 Drupal のボキャブラリとタクソノミーの使い方</a></span></li>
+<li><span class="image"><a href="/drupal/9/beginner/comparison-of-drupal-with-other-cms"><img alt="第 8 回 コンテンツ管理における Drupal と他の CMS との比較" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a></span> <span class="text"><a href="/drupal/9/beginner/comparison-of-drupal-with-other-cms">第 8 回 コンテンツ管理における Drupal と他の CMS との比較</a></span></li>
+<li><span class="image"><a href="/drupal/9/beginner/block-system"><img alt="第 9 回 Drupal のブロックシステム" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a></span> <span class="text"><a href="/drupal/9/beginner/block-system">第 9 回 Drupal のブロックシステム</a></span></li>
+<li><span class="image"><a href="/drupal/9/beginner/views"><img alt="第 10 回 Drupal の標準クエリビルダー Views の使い方" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a></span> <span class="text"><a href="/drupal/9/beginner/views">第 10 回 Drupal の標準クエリビルダー Views の使い方</a></span></li>
+<li><span class="image"><a href="/drupal/9/beginner/comparison-of-query-builder"><img alt="第 11 回 Drupal と他の CMS のクエリビルダー機能を比較" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a></span> <span class="text"><a href="/drupal/9/beginner/comparison-of-query-builder">第 11 回 Drupal と他の CMS のクエリビルダー機能を比較</a></span></li>
+<li><span class="image"><a href="/drupal/9/beginner/multilingual"><img alt="第 12 回 Drupal の多言語機能と他の CMS やサービスとの比較" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a><a href="/drupal/9/beginner/multilingual"> </a></span><span class="text"><a href="/drupal/9/beginner/multilingual">第 12 回 Drupal の多言語機能と他の CMS やサービスとの比較</a></span></li>
+<li><span class="image"><a href="/drupal/9/beginner/comparing-with-other-cms"><img alt="第 13 回 Drupal の権限設定と WordPress や Movable Type との比較" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a> </span> <span class="text"><a href="/drupal/9/beginner/comparing-with-other-cms">第 13 回 Drupal の権限設定と WordPress や Movable Type との比較</a></span></li>
+<li><span class="image"><a href="/drupal/9/beginner/themging"><img alt="第 14 回 Drupal のテーマシステムについて" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a></span> <span class="text"><a href="/drupal/9/beginner/theming">第 14 回 Drupal のテーマシステムについて</a></span></li>
+<li><span class="image"><a href="/drupal/9/beginner/module"><img alt="第 15 回 Drupal の拡張モジュールの選定と使い方" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a></span> <span class="text"><a href="/drupal/9/beginner/module">第 15 回 Drupal の拡張モジュールの選定と使い方</a></span></li>
+<li><span class="image"><a href="/drupal/9/beginner/extra-information"><img alt="第 16 回 Drupal をもっと知りたい方に向けた各種情報" data-entity-type="file" data-entity-uuid="b1ff363f-2308-4411-952d-4062b01c294f" src="/sites/default/files/inline-images/d9kouzalogo.png" width="850" height="313" loading="lazy" /></a></span> <span class="text"><a href="/drupal/9/beginner/extra-information">第 16 回 Drupal をもっと知りたい方に向けた各種情報</a></span></li>
+</ul></div>
+</div>
+</div>
+</article>
+<aside class="sidebar-first" role="complementary">
+<div class="region region-sidebar-first">
+<nav role="navigation" aria-labelledby="block-drupal-9-beginner-menu" id="block-drupal-9-beginner">
+<h2 id="block-drupal-9-beginner-menu">Drupal 9初心者講座</h2>
+<ul class="menu menu--drupal-9-beginner-module nav">
+<li class="first">
+<a href="/drupal/9/beginner" title="Drupal 9 初心者講座について" data-drupal-link-system-path="node/1513">Drupal 9 初心者講座について</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/history-of-drupal" title="第 1 回 歴史に見る Drupal の DNA" data-drupal-link-system-path="node/1509">第 1 回 歴史に見る Drupal の DNA</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/drupal-is-framework-or-cms" title="第 2 回 Drupal はフレームワークか？CMS か？他の CMS との比較" data-drupal-link-system-path="node/1510">第 2 回 Drupal はフレームワークか？CMS か？他の CMS との比較</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/feature-of-drupal" title="第 3 回 Drupal の特徴" data-drupal-link-system-path="node/1511">第 3 回 Drupal の特徴</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/installing-drupal-1" title="第 4 回 Drupal 9 のインストール (1)" data-drupal-link-system-path="node/1512">第 4 回 Drupal 9 のインストール (1)</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/installing-drupal-2" title="第 5 回 Drupal 9 のインストール (2)" data-drupal-link-system-path="node/1514">第 5 回 Drupal 9 のインストール (2)</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/publishing-article" title="第 6 回 Drupal にコンテンツを投稿してみる" data-drupal-link-system-path="node/1515">第 6 回 Drupal にコンテンツを投稿してみる</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/using-vocabulary-and-taxonomy" title="第 7 回 Drupal のボキャブラリとタクソノミーの使い方" data-drupal-link-system-path="node/1299">第 7 回 Drupal のボキャブラリとタクソノミーの使い方</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/comparison-of-drupal-with-other-cms" title="第 8 回 コンテンツ管理における Drupal と他の CMS との比較" data-drupal-link-system-path="node/1301">第 8 回 コンテンツ管理における Drupal と他の CMS との比較</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/block-system" title="第 9 回 Drupal のブロックシステム" data-drupal-link-system-path="node/1311">第 9 回 Drupal のブロックシステム</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/views" title="第 10 回 Drupal の標準クエリビルダー Views の使い方" data-drupal-link-system-path="node/1312" class="is-active">第 10 回 Drupal の標準クエリビルダー Views の使い方</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/comparison-of-query-builder" title="第 11 回 Drupal と他の CMS のクエリビルダー機能を比較" data-drupal-link-system-path="node/1314">第 11 回 Drupal と他の CMS のクエリビルダー機能を比較</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/multilingual" title="第 12 回 Drupal の多言語機能と他の CMS やサービスとの比較" data-drupal-link-system-path="node/1319">第 12 回 Drupal の多言語機能と他の CMS やサービスとの比較</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/comparing-with-other-cms" title="第 13 回 Drupal の権限設定と WordPress や Movable Type との比較" data-drupal-link-system-path="node/1325">第 13 回 Drupal の権限設定と WordPress や Movable Type との比較</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/themging" title="第 14 回 Drupal のテーマシステムについて">第 14 回 Drupal のテーマシステムについて</a>
+</li>
+<li>
+<a href="/drupal/9/beginner/module" title="第 15 回 Drupal の拡張モジュールの選定と使い方" data-drupal-link-system-path="node/1329">第 15 回 Drupal の拡張モジュールの選定と使い方</a>
+</li>
+<li class="last">
+<a href="/drupal/9/beginner/extra-information" title="第 16 回 Drupal をもっと知りたい方に向けた各種情報" data-drupal-link-system-path="node/1338">第 16 回 Drupal をもっと知りたい方に向けた各種情報</a>
+</li>
+</ul>
+</nav>
+</div>
+</aside>
+</div>
+</div>
+<footer class="footer" role="contentinfo">
+<div class="region region-footer">
+<div id="block-gongtongfutsuta" class="block block-block-content block-block-contenta297e28a-1fc3-44db-843a-d9e8f640590b clearfix">
+<div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><section class="wrap-footer-contact"><div class="container">
+<h2>ウェブサイトに関することならお気軽にご相談ください</h2>
+<div class="contact-download">
+<div class="col-wrap">
+<h3>お問い合わせ</h3>
+<p>お見積のご依頼や詳しい内容のご相談、取材などに関することはお問い合わせをご利用ください。</p>
+<a class="btn btn-default" href="/contact">お問い合わせする</a></div>
+</div>
+</div>
+</section><div class="wrap-footer-nav">
+<div class="container footer-navi">
+<div class="footer-navi-link"><a href="/service/kaizen"><img alt="KAIZEN ANNAIロゴ" height="21" src="/themes/custom/kaizen/images/logo-kaizen.svg" width="250" /></a>
+<p><a href="/service/kaizen">10年以上の実績を持つDrupal専門会社によるコンサルティング、診断、開発、保守管理サービス KAIZEN ANNAI</a></p>
+</div>
+
+<div class="footer-navi-list">
+<ul class="footer-navi-list-item"><li><a href="/service/kaizen">得意なこと</a></li>
+<li><a href="/want">やりたいこと</a></li>
+</ul><ul class="footer-navi-list-item"><li><a href="/drupal">どこよりも詳しいDrupal解説</a></li>
+<li><a href="/drupal/9/beginner">Drupal9初心者講座</a></li>
+<li><a href="/article">ANNAIマガジン</a></li>
+</ul><ul class="footer-navi-list-item"><li><a href="/portfolio">実績紹介</a></li>
+<li><a href="/recruit">採用情報</a>
+<ul><li><a href="/recruit">正社員募集</a></li>
+<li><a href="/partner">パートナー募集</a></li>
+</ul></li>
+</ul><ul class="footer-navi-list-item"><li><a href="/about">会社案内</a></li>
+<li><a href="/pressroom">プレスルーム</a></li>
+<li><a href="/community">コミュニティへの貢献</a></li>
+<li><a href="/contact">お問い合わせ</a></li>
+<li><a href="/privacy">プライバシーポリシー</a></li>
+</ul></div>
+</div>
+
+<p class="copyright">Copyright © 2017 ANNAI Inc. All rights reserved.</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/1312","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"ja"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"statistics":{"data":{"nid":"1312"},"url":"\/core\/modules\/statistics\/statistics.php"},"superfish":{"superfish-main-module":{"id":"superfish-main-module","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","autoArrows":false},"plugins":{"touchscreen":{"behaviour":"1","mode":"always_active"},"smallscreen":{"mode":"window_width","breakpoint":993,"accordionButton":"0","expandText":"\u5c55\u958b","collapseText":"\u6298\u308a\u305f\u305f\u3080","title":"ANNAI\/KAIZEN \u5171\u901a\u30ca\u30d3\u30b2\u30fc\u30b7\u30e7\u30f3"},"supposition":true,"supersubs":true}}},"ajaxTrustedUrl":{"\/search\/node":true},"user":{"uid":0,"permissionsHash":"034a37b451a40a9aeaafe13a7e3c57e5bdc77e7aae679bc0ea0dc7f0c8c7f555"}}</script>
+<script src="/sites/default/files/js/js_Tg61RJMAsMggJ9j8-2mrbT-JGi2txN3Un2EzmB9RXWI.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script>
+<script src="/sites/default/files/js/js_aoH7MvYeFCoUlrRjvQSssJ69fTR_I3E3WNeQPSY7XTw.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+<script src="/sites/default/files/js/js_c9ac0pCoSAb7yAHjp3hDJW4JQvsdJAHkV_hAjhGLSDo.js"></script>
+</body>
+</html>

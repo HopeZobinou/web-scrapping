@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Facebook sharing meta tags -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Leader DAO | Rewarding Leaders, Through Smart AI"
+    />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="images/feature.jpg" />
+    <meta
+      property="og:site_name"
+      content="Leader DAO | Rewarding Leaders, Through Smart AI"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter sharing meta tags -->
+    <meta
+      name="twitter:title"
+      content="Leader DAO | Rewarding Leaders, Through Smart AI"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="images/feature.jpg" />
+
+    <meta name="description" content="" />
+
+    <title>Leader DAO | Rewarding Leaders, Through Smart AI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Unbounded&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="/images/favicon.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/ui.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+  </head>
+  <body>
+    <div class="loading animate">
+      <div class="load-content">
+        <div class="loading-container">
+          <div class="counter" id="counter"></div>
+          <div class="load-message">[ Loading... ]</div>
+        </div>
+        <div class="progress w-70">
+          <div class="load-bar">
+            <div class="load"></div>
+            <div class="load-bg"></div>
+          </div>
+        </div>
+        <div class="w-15 d-flex f-justify-center">
+          <img src="/images/loader.gif" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="demo" data-preserve-aspect-ratio="xMidYMid slice">
+        <lottie-player
+          class="lottie-player"
+          src="/video/body.json"
+          background="transparent"
+        ></lottie-player>
+      </div>
+      <header class="clearfix">
+        <div class="container d-flex f-align-center f-justify-between">
+          <a href="/" class="logo">
+            <img src="/images/logo.svg" alt="logo" title="LeaderDAO.AI" />
+          </a>
+          <ul class="nav">
+            <li class="nav-logo"><img src="/images/logo.svg" alt="" /></li>
+            <li><a href="#first" class="active mobile-nav-item">Home</a></li>
+            <li><a href="#what" class="mobile-nav-item">What is it?</a></li>
+            <li><a href="#how" class="mobile-nav-item">How it works</a></li>
+            <li><a href="#roadmap" class="mobile-nav-item">Roadmap</a></li>
+            <li><a href="#fifth" class="mobile-nav-item">Team</a></li>
+          </ul>
+        </div>
+        <div id="nav-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </header>
+
+      <section
+        class="first container-wide d-flex animate"
+        id="first"
+        data-id="first"
+        data-index="1"
+      >
+        <div class="container d-flex f-align-center mix-blend-lighten z-9">
+          <div class="hero-title w-50">
+            <h1
+              class="p-relative animate-elem animate-fadeIn animate-slideFromBottom animate-delay-03"
+            >
+              Rewarding Leaders, Through
+              <span class="color-secondary">Smart Ai</span>
+            </h1>
+            <p
+              class="w-max-500 animate-elem animate-fadeIn animate-slideFromBottom animate-delay-05"
+            >
+              The community-driven DAO and go-to-market platform, where members
+              make informed decisions with the power of Al and the assurity of
+              augmented bonding curves.
+            </p>
+            <div class="powered">
+              <img src="/images/powered-by.svg" alt="Powered by PolygonZKEVM" />
+            </div>
+          </div>
+          <div
+            class="hero-img w-50 d-flex f-justify-center animate-elem animate-fadeIn animate-scale-from-big animate-delay-05"
+          >
+            <video
+              autoplay=""
+              loop=""
+              default=""
+              muted=""
+              preload="auto "
+              playsinline=""
+            >
+              <source src="/video/hero.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="bg-video animate-elem animate-fadeIn animate-delay-02">
+          <video
+            autoplay=""
+            loop=""
+            default=""
+            muted=""
+            preload="auto "
+            playsinline=""
+          >
+            <source src="/video/bg-loop.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+
+      <section
+        class="second container-wide d-flex animate"
+        id="second"
+        data-id="second"
+        data-index="2"
+      >
+        <div class="container d-flex f-align-center f-justify-center z-9">
+          <div
+            class="w-50 d-flex f-justify-center f-align-center f-dir-col"
+            id="what"
+          >
+            <h2
+              class="text-center animate-elem animate-fadeIn animate-slideFromBottom animate-delay-02"
+            >
+              What is <span class="color-secondary">LeaderDAO.AI?</span>
+            </h2>
+            <img
+              src="/images/dots.svg"
+              alt=""
+              width="50"
+              class="mb-30 nimate-elem animate-fadeIn animate-slideFromBottom animate-delay-04"
+            />
+            <p
+              class="text-center big-type animate-elem animate-fadeIn animate-slideFromBottom animate-delay-04"
+            >
+              LeaderDAO.Al is the community-driven DAO and decentralized
+              fundraising platform, allowing members access to new and existing
+              projects. Our Al aids decision making by assisting in the
+              detection of previously undiscovered opportunities and risks. Our
+              augmented bonding curve offers continuous funding for projects,
+              while adding an additional layer of protection and value for
+              investors.
+            </p>
+            <p
+              class="small-type border-outline p-20 text-center cta-text animate-elem animate-fadeIn p-relative animate-slideFromBottom animate-delay-04"
+            >
+              <strong>
+                Members use LeaderDAO.AIâs native token ($LDAO) to obtain
+                votes:</strong
+              >
+              <br />
+              Votes can be used to select ANY token on the open market that
+              LeaderDAO.Al members collectively desire to receive as their
+              staking reward. Votes are also used to support soon-to-be listed
+              tokens and secure allocations in proportion to the amount of $LDAO
+              staked.
+            </p>
+            <img
+              src="/images/logo-mark.svg"
+              alt=""
+              width="50"
+              class="mt-30 animate-elem animate-fadeIn animate-slideFromBottom animate-delay-06"
+            />
+          </div>
+        </div>
+        <div class="bg-video animate-elem animate-fadeIn animate-delay-02">
+          <video
+            autoplay=""
+            loop=""
+            default=""
+            muted=""
+            preload="auto "
+            playsinline=""
+          >
+            <source src="/video/section-2-bg.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+
+      <section
+        class="third container-wide d-flex animate"
+        id="third"
+        data-id="third"
+        data-index="3"
+      >
+        <div
+          class="container d-flex f-align-center f-justify-between z-9 mix-blend-lighten"
+        >
+          <div class="w-40" id="how">
+            <h2
+              class="animate-elem animate-fadeIn animate-slideFromBottom animate-delay-02"
+            >
+              How It Works.
+            </h2>
+            <h3
+              class="color-secondary animate-elem animate-fadeIn animate-slideFromBottom animate-delay-04"
+            >
+              ALL PROTOCOL FEES GO TOWARDS REWARDING LEADERS.
+            </h3>
+            <img
+              src="/images/dots.svg"
+              alt=""
+              width="50"
+              class="mb-30 nimate-elem animate-fadeIn animate-slideFromBottom animate-delay-04"
+            />
+            <p
+              class="animate-elem animate-fadeIn animate-slideFromBottom animate-delay-03"
+            >
+              The protocol fees from staking, unstaking and the go-to-market
+              platform are pooled, with the pool being used for various
+              functions such as veLDAO staking rewards and to purchase the
+              primary token LDAO. As members vote for the projects they want to
+              see on top of the Leaderboard, the LeaderDAO.Al community grows
+              with external communities joining in to influence the outcome.
+            </p>
+            <div
+              class="mt-50 animate-elem animate-fadeIn p-relative animate-slideFromBottom animate-delay-05"
+            >
+              <a href="" class="btn btn-dark mr-10">Get $LDAO </a>
+              <span class="coming-soon">*Coming soon</span>
+            </div>
+          </div>
+          <div
+            class="third-img w-50 d-flex f-justify-center animate-elem animate-fadeIn animate-scale-from-big animate-delay-05"
+          >
+            <video
+              autoplay=""
+              loop=""
+              default=""
+              muted=""
+              preload="auto "
+              playsinline=""
+            >
+              <source src="/video/how.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <div class="bg-video animate-elem animate-fadeIn animate-delay-02">
+          <video
+            autoplay=""
+            loop=""
+            default=""
+            muted=""
+            preload="auto "
+            playsinline=""
+          >
+            <source src="/video/bg-loop.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+
+      <section
+        class="fourth roadmap container-wide animate horizontal-scroll"
+        id="fourth"
+        data-id="fourth"
+        data-index="4"
+      >
+        <div class="z-9 horizontal-scroll__inner">
+          <div
+            class="first-roadmap p-relative animate-elem animate-fadeIn animate-slideFromBottom"
+          >
+            <h2>Roadmap</h2>
+          </div>
+          <div
+            class="roadmap-col animate-elem animate-fadeIn animate-scale-from-big"
+            id="roadmap"
+          >
+            <span class="phase">Phase 1</span>
+            <div class="roadmap-item-title road-3">
+              <h4>TOKEN GENERATION AND V.1 LAUNCHES</h4>
+            </div>
+            <ul>
+              <li>The $LDAO token is created and launched to the public.</li>
+              <li>
+                A limited time, single sided $LDAO staking program is released
+                and available to token holders.
+              </li>
+              <li>
+                Release of the initial go-to-market platform. Allowing for
+                selected projects to be listed on the LeaderDAO.AI platform.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="roadmap-col animate-elem animate-fadeIn animate-scale-from-big animate-delay-02"
+          >
+            <span class="phase">Phase 2</span>
+            <div class="roadmap-item-title road-2">
+              <h4>LAUNCH OF THE DAO & LEADERBOARD</h4>
+            </div>
+            <ul>
+              <li>
+                Community members can stake their $LDAO tokens and mint veLDAO
+                to vote via the Leaderboard for the token they wish to claim for
+                the weekly reward.
+              </li>
+              <li>
+                The longer staking periods allow users to mint veLDAO with
+                leverage. veLDAO can vote on governance proposals that help
+                shape the direction of the protocol and will become increasingly
+                decentralized over time.
+              </li>
+              <li>
+                veLDAO permits community members to vote on governance proposals
+                that help shape the direction of the protocol and will become
+                increasingly decentralized over time.
+              </li>
+              <li>
+                LeaderDAO.AI members have an initial goal to amass a community
+                of strong supporters that can attract projects looking for
+                community support in return for tokens devoted solely to
+                LeaderDAO.AI members.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="roadmap-col animate-elem animate-fadeIn animate-scale-from-big animate-delay-04"
+          >
+            <span class="phase">Phase 3</span>
+            <div class="roadmap-item-title road-1">
+              <h4>AI ANALYTICS & DECENTRALIZED GO-TO-MARKET</h4>
+            </div>
+            <ul>
+              <li>
+                LeaderDAO.AI launches the community-driven go-to-market
+                platform, attracting projects seeking resources and access to
+                its platform.
+              </li>
+              <li>
+                Our AI analytics information system will allow members to make
+                informed decisions using big data and artificial intelligence.
+              </li>
+              <li>
+                LeaderDAO.AI members are encouraged to vet every project they
+                wish to participate in thoroughly. This will give more
+                information when determining project support.
+              </li>
+              <li>
+                Members are granted a tier status based on the amount of veLDAO
+                held.
+              </li>
+              <li>
+                Staking $LDAO allows members to secure allocations for upcoming
+                projects that will be brought to the market.
+              </li>
+              <li>
+                LeaderPools are created based on the need for the project. Once
+                the pool is filled, the project can initiate the TGE, and
+                members receive the projectâs token.
+              </li>
+            </ul>
+          </div>
+          <div
+            class="roadmap-col animate-elem animate-fadeIn animate-scale-from-big animate-delay-04"
+          >
+            <span class="phase">Phase 4</span>
+            <div class="roadmap-item-title road-1">
+              <h4>LeaderDAO.AI V2 (ABC)</h4>
+            </div>
+            <ul>
+              <li>
+                LeaderDAO.AI will deliver a new flagship version of its
+                go-to-market platform, utilizing augmented token bonding curves
+                (ABC) while maintaining all AI functionalities.
+              </li>
+              <li>
+                Bonding curves serve as an excellent framework for crafting
+                incentive structures, particularly to benefit early participants
+                who invest when the curve is at its lowest point.
+              </li>
+              <li>
+                Our ABC model emphasises community growth, value stabilisation,
+                and sustainable scalability, ensuring a harmonious alignment of
+                stakeholder incentives.
+              </li>
+              <li>
+                This specialized crowdsourcing model allows for projects to
+                receive continuous funding for ventures and provides initial
+                investors (Hatchers) with additional opportunities.
+              </li>
+            </ul>
+          </div>
+          <div class="roadmap-col last-col"></div>
+        </div>
+        <div class="bg-video animate-elem animate-fadeIn animate-delay-02">
+          <video
+            autoplay=""
+            loop=""
+            default=""
+            muted=""
+            preload="auto "
+            playsinline=""
+          >
+            <source src="/video/bg-loop.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+
+      <section
+        class="fifth team container-wide animate p-relative d-flex f-dir-col f-justify-around"
+        id="fifth"
+        data-id="fifth"
+        data-index="5"
+      >
+        <h2
+          class="text-center animate-elem animate-fadeIn animate-slideFromBottom animate-delay-02 z-9"
+        >
+          Team
+        </h2>
+        <div
+          class="container team-container d-flex f-align-center f-justify-around z-9"
+        >
+          <div class="team-left">
+            <div
+              class="team-member-large text-center animate-elem animate-fadeIn p-relative animate-slideFromBottom"
+            >
+              <img src="/images/eduardo.png" alt="" class="avatar" />
+              <div class="team-bio">
+                <h4>Eduardo Moreira</h4>
+                <strong class="mb-10">Principal Founding Technologist</strong>
+                <p class="m-0">
+                  Eduardo Moreira, is a globally accomplished programming expert
+                  with a 20-year software management career. He has vast
+                  experience working with decentralized technologies like
+                  Ethereum and Polkadot. With an MBA and various technical
+                  skills, he transforms market disruptions into opportunities.
+                </p>
+                <a
+                  href="https://www.linkedin.com/in/itdirectoreduardomoreira/"
+                  target="_blank"
+                  ><img src="/images/linked-in.svg" alt="" class="linked"
+                /></a>
+              </div>
+            </div>
+            <div
+              class="team-member-large text-center animate-elem animate-fadeIn p-relative animate-slideFromBottom"
+            >
+              <img src="/images/thomas.png" alt="" class="avatar" />
+              <div class="team-bio">
+                <h4>Thomas Wood</h4>
+                <strong class="mb-10">Chief A.I. Scientist</strong>
+                <p class="m-0">
+                  Thomas Wood, is a distinguished NLP expert from Cambridge. He
+                  has been shaping the AI and ML landscape for over a decade.
+                  With impactful contributions at Tesco and the NHS, his
+                  expertise in advanced ML systems is widely acknowledged and
+                  respected.
+                </p>
+                <a href="https://www.linkedin.com/in/woodthom" target="_blank"
+                  ><img src="/images/linked-in.svg" alt="" class="linked"
+                /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-right">
+            <div
+              class="team-member text-center animate-elem animate-fadeIn p-relative animate-slideFromBottom"
+            >
+              <img src="/images/jose.png" alt="" class="avatar" />
+              <h4>Jose Perez</h4>
+              <strong>Director of Technology</strong>
+              <a
+                href="https://www.linkedin.com/in/jose-perez-530a99a6/"
+                target="_blank"
+                ><img src="/images/linked-in.svg" alt="" class="linked"
+              /></a>
+            </div>
+            <div
+              class="team-member text-center animate-elem animate-fadeIn p-relative animate-slideFromBottom"
+            >
+              <img src="/images/oscar.png" alt="" class="avatar" />
+              <h4>Oscar Lugo</h4>
+              <strong>Director of Product Design</strong>
+              <a
+                href="https://www.linkedin.com/in/oscar-lugo-112800210/"
+                target="_blank"
+                ><img src="/images/linked-in.svg" alt="" class="linked"
+              /></a>
+            </div>
+            <div
+              class="team-member text-center animate-elem animate-fadeIn p-relative animate-slideFromBottom"
+            >
+              <img src="/images/emerson.png" alt="" class="avatar" />
+              <h4>Emerson Warhman</h4>
+              <strong>Chief Code Strategist</strong>
+              <a
+                href="https://www.linkedin.com/in/emersonwarhman/"
+                target="_blank"
+                ><img src="/images/linked-in.svg" alt="" class="linked"
+              /></a>
+            </div>
+
+            <div
+              class="team-member text-center animate-elem animate-fadeIn p-relative animate-slideFromBottom"
+            >
+              <img src="/images/brian.png" alt="" class="avatar" />
+              <h4>Bryan Feinberg</h4>
+              <strong>Advisor</strong>
+              <a
+                href="https://www.linkedin.com/in/platodataintellligence"
+                target="_blank"
+                ><img src="/images/linked-in.svg" alt="" class="linked"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-small partners">
+          <img src="/images/amplify.png" alt="" />
+          <img src="/images/orion.png" alt="" />
+          <img src="/images/holochain.png" alt="" />
+          <img src="/images/nhs.png" alt="" />
+          <img src="/images/tesco.png" alt="" />
+        </div>
+
+        <div
+          class="copyright container z-9 d-flex f-align-center f-justify-between p-relative animate-elem animate-fadeIn animate-slideFromBottom animate-delay-06"
+        >
+          <div class="d-flex f-align-start">
+            <div class="mr-10">
+              <a href="https://t.me/leaderdaoai" target="_blank"
+                ><img src="/images/telegram.svg" alt="Telegram"
+              /></a>
+            </div>
+            <div class="mr-10">
+              <a href="https://t.me/leaderdaoaiannouncements" target="_blank"
+                ><img src="/images/telegram.svg" alt="Telegram"
+              /></a>
+            </div>
+            <div class="mr-10">
+              <a href="https://twitter.com/leaderdao_ai" target="_blank"
+                ><img src="/images/twitter.svg" alt="Twitter"
+              /></a>
+            </div>
+            <div class="mr-10">
+              <a href="https://medium.com/@LeaderDAO.AI" target="_blank"
+                ><img src="/images/medium.svg" alt="Medium"
+              /></a>
+            </div>
+            <div>
+              <a href="https://www.gitbook.com/" target="_blank"
+                ><img src="/images/gtibook.svg" alt="Gitbook"
+              /></a>
+            </div>
+          </div>
+          <div class="logo-footer d-flex f-align-center f-justify-center">
+            <a href="#"> <img src="/images/logo.svg" alt="" /></a>
+          </div>
+
+          <div class="d-flex f-justify-end">
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="bg-video animate-elem animate-fadeIn animate-delay-02">
+          <video
+            autoplay=""
+            loop=""
+            default=""
+            muted=""
+            preload="auto "
+            playsinline=""
+          >
+            <source src="/video/bg-loop.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
