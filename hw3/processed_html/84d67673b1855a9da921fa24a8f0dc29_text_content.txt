@@ -1,0 +1,323 @@
+
+
+
+
+Talk:Magnesium Green - Bioblast
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cookies help us deliver our services. By using our services, you agree to our use of cookies. More information
+
+
+
+
+
+
+
+
+
+
+
+🔍 MitoPedia
+
+Overview
+MitoPedia alert
+Concepts
+MiP and biochemistry
+Methods
+O2k and HRR
+
+
+
+
+🌐 MitoGlobal
+
+👫 EBEC 2024
+MiP 2023
+Bioblast 2022
+MiPsociety
+MitoGlobal Events
+Gentle Science
+
+
+
+
+🔓 Bioenerg Commun
+
+Bioenergetics Communications
+BEC editorial
+MitoFit Preprints
+
+
+
+
+💫 Oroboros Ecosystem
+
+O2k-Publications
+O2k-Events
+O2k-Network
+🛠 O2k-Open Support
+
+
+
+
+🛒 Oroboros Marketplace
+
+Products, purchase, contact 🡕
+
+
+
+
+
+
+
+
+
+
+
+
+Page
+
+View source
+History
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Log in
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Talk:Magnesium Green
+
+From BioblastJump to:navigation, search
+
+
+
+Contents
+
+1 O2k-Network discussion forum: Magnesium Green (2023-10-10)
+
+1.1 Question
+
+
+2 Use of Magnesium Green 5N hexapotassium salt to measure ADP-ATP exchange rates
+
+2.1 Application of technique:  Online fluorescence measurement of ADP-ATP exchange
+2.2 Validation of the technique
+2.3 A kinetic assay of mitochondrial ADP-ATP exchange rate mediated by the adenine nucleotide translocase
+
+
+3 MgG Signal and output
+4 Mg green concentrations
+5 Mg2+ calibration experiment
+6 Popular Bioblast page
+
+
+O2k-Network discussion forum: Magnesium Green (2023-10-10)
+Question
+Upon titration of MgCl2 to a medium containing MgG, the fluorescence signal typically increases, as MgG fluoresces when bound to Mg2+. The medium used was a modified version of MiR05, prepared without MgCl2. However, after some successful experiments, virtually no increase in fluorescence signal upon titration of MgCl2 could be detected anymore. This happened:
+using a batch of medium with which the calibration previously worked as expected
+with freshly prepared batches of media, using the same or different stocks of chemicals than used in the first (successful) experiments.
+with modified MiR05 without MgCl2 nor EGTA
+in the presence or absence of sample
+with different batches of MgG
+performing injections with Hamilton syringes or adding the chemicals to the media with pipettes
+The researcher also did not find a reason for any eventual contamination with Ca2+ or EDTA. Malfunctioning of the Fluo-Module was also excluded.
+Use of Magnesium Green 5N hexapotassium salt to measure ADP-ATP exchange rates
+
+
+
+Chinopoulos C (2013) Use of Magnesium Green 5N hexapotassium salt to measure ADP-ATP exchange rates. Mitochondr Physiol Network 2013-02-14.
+
+
+Chinopoulos C (2013) MiPNet
+Abstract: Edited by Fasching M and Gnaiger E.
+
+• O2k-Network Lab: HU Budapest Chinopoulos C
+
+Labels: MiParea: Respiration, Instruments;methods 
+
+
+Preparation: Isolated mitochondria 
+Regulation: ATP, ADP 
+
+HRR: Oxygraph-2k, O2k-Fluorometer, O2k-Protocol 
+
+
+Application of technique:  Online fluorescence measurement of ADP-ATP exchange
+[Mg2+]f determination from Magnesium Green (MgG) fluorescence in the extramitochondrial volume of isolated mitochondria and conversion to ADP-ATP exchange rate: Add mitochondria to 2 ml of an incubation medium of your choice. Including the adenylate kinase inhibitor Ap5A into the medium is essential; Mg2+, which is present in the assay medium, activates adenylate kinase. Ap5A is a potent inhibitor of adenylate kinase. MgG fluorescence can be recorded in a fluorometer, using 506 nm and 530 nm excitation and emission wavelengths, respectively. MgG exhibits an extremely high quantum yield  (EM[MgG]=75,000 M-1*cm-1). At the end of each experiment, minimum fluorescence (Fmin) can be measured after addition of 4 mM EDTA, followed by the recording of maximum fluorescence (Fmax) elicited by addition of 20 mM MgCl2. Free Mg2+ concentration, [Mg2+]f, is calculated from the equation: [Mg2+]f = (Kd(F-Fmin)/(Fmax-F))-0.055 mM, assuming a Kd of 0.9 mM for the MgG-Mg2+ complex. The correction term -0.055 mM is empirical, and possibly reflects chelation of other ions by EDTA that have an affinity for MgG, and alter its fluorescence. This term is needed to obtain a reliable Mg2+ estimate, as determined from calibration experiments using solutions with known, stepwise increasing, Mg2+ concentrations. ADP-ATP exchange rate is estimated using the recently described method by our laboratory [1], exploiting the differential affinity of ADP and ATP to Mg2+. The rate of ATP appearing in the medium following addition of ADP to energized mitochondria (or vice versa in case of de-energized mitochondria), is calculated from the measured rate of change in free extramitochondrial [Mg2+]f using standard binding equations. The assay is designed such that the ANT is the sole mediator of changes in [Mg2+]f in the extramitochondrial volume, as a result of ADP-ATP exchange [1]. For the calculation of [ATP] or [ADP] from [Mg2+]f, the apparent Kd values should be estimated as described in [1].
+
+
+Validation of the technique
+
+In order be sure that the calibrated MgG signal is converted correctly to ADP-ATP exchange rate, the following 4 check-points should be sought:
+After calibration of the MgG signal to [Mg2+]f, the initial [Mg2+]f value must be equal to that added in the cuvette by the experimenter; (i.e. did you add 1 mM MgCl2 in the cuvette? Then your calibrated MgG signal must start from 1 mM free Mg2+).
+After addition of ADP (or ATP) to the medium, the [Mg2+]f value must drop to the expected level, after estimating the Kd of ADP (or ATP) for Mg2+; (i.e. if you estimated Kd of ADP for Mg2+ as 0.906 mM, the addition of 2 mM ADP to 1 mM Mg2+ leads to a [Mg2+]f of 0.3939 mM).
+After conversion on the calibrated [Mg2+]f to ADP, ATP level must start from “0”, if no ATP was already present in the medium, prior to adding ADP to mitochondria.
+The ADP-ATP exchange rate must be completely sensitive to carboxyatractyloside, a specific blocker of the ANT.
+
+
+[1] Chinopoulos C, Vajda S, Csanady L, Mandi M, Mathe K, Adam-Vizi V (2009) A novel kinetic assay of mitochondrial ATP-ADP exchange rate mediated by the ANT. Biophys J 96:2490-2504.
+
+
+A kinetic assay of mitochondrial ADP-ATP exchange rate mediated by the adenine nucleotide translocase
+» Manual by Christos Chinopoulos: "Follow the links appearing on the left, starting from the top. The 'core' of the method is outlined in the Buffers, chemicals, Kds determination of ADP, ATP to Mg2+, and Conversion of [Mg2+]free to [ATP]. However, it is advisable to go through all of the links, if you wish to understand what you will be actually doing."
+For ion binding constants of the ATP-system as a function of pH, temperature, and ion composition, see: Gnaiger E, Wyss M (1994) Chemical forces in the cell: Calculation for the ATP system. In: What is Controlling Life? (Gnaiger E, Gellerich FN, Wyss M, eds) Modern Trends in BioThermoKinetics 3. Innsbruck Univ Press:207-12. - »Bioblast link«
+
+
+MgG Signal and output
+Signal: The O2k-Fluo LED2-Module is operated through the  amperometric (Amp)-Channel of the O2k, with electric current (ampere  [A]) as the primary signal.
+Output: The focus of the output with Magnesium Green is on  Type B: Flow, flux, rate.
+
+
+Mg green concentrations
+used by OROBOROS for testing:
+stock: 2 mM
+in chamber: 2 µM
+
+Mg2+ calibration experiment
+The following calibration experiment was performed with a medium contaminated with Ca2+. Ca2+ impurities are a particular problem because a.) Mg green binds stronger to Ca2+ than to Mg2+ and b.) Ca2+ impurities are very common. The Ca2+ impurities were complexed by an EGTA titration before the Mg2+ calibration, without (in this case) negative effects on the Mg2+ performance.
+
+O2k with  O2k-Fluo LED2-Module, Fluorescence-Sensor Blue, and Filter Set MgG / CaG
+LED intensity: Amp polarisation voltage = 100 mV, Amp Gain = 1000, data sampling interval = 2 s, 37°C
+medium: as described by C Chinopoulos, see  main article page for references.
+Titrations:
+
+Mg green 2 µL 2 mM --> 2 µM
+EGTA titration: 3 * (5 µl 20 mM --> 50 µM)  until very small changes in signal
+DTPA 2 µl 20 mM -->20 µM
+10 * ( 4 µl MgCl2 0.1 M --> 0.2 mM)
+EDTA 16 µl 500 mM --> 4 mM
+EDTA 2 µl 500 mM --> 0.5 mM: no further change
+MgCl2 80 µl 1 M --> 40 mM
+MgCl2 20 µl 1 M --> 10 mM: no further change
+
+(To allow performance tests a substance mimicking light scattering of  typical samples was added to the medium, however this is not relevant  for the results presented here.)
+The addition of a very small concentration of either EDTA or DTPA in the beginning of the experiment is suggested by the produced of the fluorophores (for all similar fluorophores) to remove traces of transition metal cations.
+
+Shown in the DatLab graph is the original raw voltage as  recoded by the fluorescence sensor and the Mg2+ concentration. For  calibration determining KD and slope) and plotting the calculated Mg  concentration  (via the experimental scripting function of DatLab) the  following relation was used
+
+[Mg2+] =  Kd * ( F- Fmin) / (Fmac -F) + intercept
+
+with
+F .......Fluorescence signal
+Fmin..... minimal fluorescence signal, free Mg2+ concentration  = 0, established by excess EDTA
+Fmax .....maximal fluorescence signal, fluorophore indicator saturated with Mg2+, established by excess of MgCl2
+
+
+
+The determined KD value (1.8 mM) is influenced by the presence of both Ca2+ and EGTA. However, by using the the determined KD value the linearity of the calculated Mg2+ concentration is still very good. Significant concentrations of free Ca2+ have to be avoided to due the strong binding to Mg green. Concentrations of EDTA or DTPA should be kept as small as possible because the will reduce the free Mg2+ concentration to a different degree at low and high Mg2+ concentrations. A medium that is as Ca2+ free possible should be used as a matter of principle, even if this example shows that good results may be be obtained even in the presence of heavy  Ca2+ contamination.
+In this example all Mg concentration from 0.2 mM to 2 mM as input into the calibration calculation. However, in a real experiment for the calculation of KD only those magnesium concentrations should be used that cover the concentration range observed in the experiment.
+Fasching Mario 10:34, 17 March 2015 (CET)
+
+
+
+Popular Bioblast page
+Magnesium green has been accessed more than
+10,000 times (2017-01-24)
+5,000 times (2015-09-16)
+
+
+
+Retrieved from "https://wiki.oroboros.at/index.php?title=Talk:Magnesium_Green&oldid=242732"
+
+
+
+
+Category: Publications
+
+
+
+
+
+
+
+
+
+
+
+
+Tools
+
+What links here
+Related changes
+Special pages
+Printable version
+Permanent link
+Page information
+
+Page formsAdd referenceAdd abstractMitoPedia termHelp
+
+
+
+
+
+
+
+
+
+ This page was last edited on 10 October 2023, at 17:00.
+This page has been accessed 6,966 times.
+
+
+
+Privacy policy
+About Bioblast
+Disclaimers
+
+
+
+
+
+
+
+
+
+
+
+
+

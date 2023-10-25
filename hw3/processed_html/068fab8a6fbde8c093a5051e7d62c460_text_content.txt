@@ -1,0 +1,1089 @@
+
+
+
+
+
+Image Gallery – Lightbox Gallery, Responsive Photo Gallery, Masonry Gallery – WordPress plugin | WordPress.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+Log InRegister 
+
+
+
+
+
+
+
+WordPress.org
+
+
+ 
+
+
+
+
+
+
+
+NewsShowcaseHostingExtendThemesPluginsPatternsBlocksOpenverse ↗︎LearnLearn WordPressDocumentationForumsDevelopersWordPress.tv ↗︎CommunityMake WordPressPhoto DirectoryFive for the FutureWordCamp ↗︎Meetups ↗︎Job Board ↗︎AboutAbout WordPressEnterpriseGutenberg ↗︎Swag Store ↗︎Get WordPress
+
+
+
+
+
+
+
+
+
+
+
+Search in WordPress.org
+
+
+
+
+
+
+
+
+
+		Get WordPress	
+
+
+
+
+
+Plugins
+
+
+
+
+My Favorites
+Beta Testing
+Developers
+
+Search for:
+
+
+
+Search plugins
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+Download
+
+Image Gallery – Lightbox Gallery, Responsive Photo Gallery, Masonry Gallery
+By A WP Life
+
+
+
+
+
+
+
+
+Details
+Reviews
+
+Installation
+
+Development
+
+
+Support
+
+
+
+
+
+Description
+Image Gallery – The best responsive masonry light box gallery plugin.
+Image Gallery is one of the easiest plugins to use, even if you are new in WordPress. You can publish photo gallery into any Page or Post in your website with unlimited photos. It is the best plugin among WordPress gallery plugins, You can create the most beautiful Photo or Image gallery in a few minutes and enjoy the result.
+Just add images, write titles for each image, The plugin allows you to make your website attractive and good-looking. The plugin is full of effects which help to attract the attention of visitors and just give elegance to your site. It is a modern solution with a pure coding standards.
+Image Gallery is based on the bootstrap framework. you can Add unlimited images on your blog site, light box image preview layout, it also provides isotope effect to adjust your image size according to screen resolution.
+Using [IMG-Gal id=38] shortcode, You can use multiple gallery short codes on multiple pages and posts to display various images galleries.
+The plugin is responsive, simple, beautiful, easy and powerful WordPress plugin with Lightbox style. Create a gallery using custom post type and use shortcode to publish your gallery anywhere in WordPress. It is a modern and necessary tool to build a photo albums for your websites and pages.
+Check Free Image Gallery Plugin Demo – Click Here
+Check Premium Image Gallery Plugin Demo – Click Here
+Upgrade To Image Gallery Premium Plugin – Click Here
+How to use Image Gallery Plugin?
+Download & install the plugin into your site. After successful installation of the plugin go to plugins “DOC” menu for help and instructions.
+
+Image Gallery is an advanced plugin with a list of tools and options for adding and editing images for different views. This is a fully responsive plugin. The product includes plugin for adding image galleries and albums to posts and pages, as well as multiple widgets. You can add images, providing detailed gallery descriptions and tags, organize the galleries into different photo albums.
+The responsive photo gallery allows to upload unlimited number of pictures and create as many photo albums as you need. Want to include videos? The plugin comes with audio and video support, that will enable you to create a YouTube & Vimeo video galleries quick and easy.
+The free gallery plugin is one of the most feature rich plugins out there. With number of gallery views, including Gallery Carousel, Instagram Gallery, Thumbnail Gallery, Facebook Gallery and others, the image photo gallery plugin is a top gallery plugin choice.
+GALLERY PRO FEATURES AND DEMO
+
+Demo for Lite and Pro Version
+
+Image gallery Premium
+Gallery Thumbnail Order
+Image Link Url
+Masonry Gallery
+Blue Imp Light Box Gallery
+Pop Trox Light Box Gallery
+Viewer Light Box Gallery
+Bootstrap 3 Light Box Gallery
+LD Light box Gallery
+2D Transitions Effects
+Shadow and Glow Transitions Effects
+Hide image Spacing
+Get Premium Version
+
+
+Get Premium Version With More Features
+
+Image gallery
+Easy & Simple
+Responsive Gallery
+Grid Gallery
+Masonry Gallery
+Link Gallery
+Multiple Column Layouts
+Bootstrap 3.3.6 Based
+30 Hover Effect 
+5 Light Box Pop-up Style
+Image Title
+Gallery in post, page & widget
+SEO Friendly Gallery
+Thumbnail Size & Quality Setting
+Navigation Error in Lightbox Preview
+Images Order Setting Like Ascending, Descending & Shuffle
+Simple & User-Friendly Custom Plugin Dashboard
+Create Unlimited Galleries With Unlimited Images
+Custom CSS
+Easy To Implement Anywhere Into WordPress
+Easily Customization
+Fast, Friendly & Quality Support
+
+
+Screenshots
+Image Gallery On WebsiteGrid Gallery With Six ColumnsGallery Into Sidebar WidgetWidget Gallery With Multiple Columns ExampleGrid Gallery Six Columns Without Spacing & BorderGrid Gallery With Spacing & BorderGrid Gallery Six Columns With Spacing & Border Same Size ThumbnailsMasonry Gallery Four ColumnsMasonry Gallery Four Columns With Spacing & BorderMasonry Gallery Three Columns With Spacing & BorderMasonry Gallery Two Columns With Spacing & Border
+
+Installation
+Install  New Image Gallery either via the WordPress.org plugin directory or by uploading the files to your server.
+After activating New Image Gallery plugin, go to plugin menu.
+Login into WordPress admin dashboard. Go to menu: New Image Gallery –> Add Image Gallery
+Create gallery & configure settings and save.
+Copy shortcode and paste shortcode into any Page / Post. And view page for gallery output.
+That’s it. You’re ready to go!
+
+FAQ
+Have any queries?
+Please post your question on plugin support forum
+https://wordpress.org/support/plugin/new-image-gallery/
+
+
+Recommended Plugins
+
+
+The following are other recommended plugins by the author:
+
+Portfolio Filter Gallery – The Gallery Plugin to create awesome Portfolio Filter Gallery Plugin in minutes. 
+
+Buy Premium Plugin – Click Here
+
+Media Slider – The Media Slider Plugin to create Media / Video Slider Gallery Plugin in minutes. 
+
+Buy Premium Plugin – Click Here
+
+Best Weather Effect Plugin – Very Simple And Easy To Design Your Sites With Multiple Effects.
+
+Buy Premium Plugin – Click Here
+
+Best Grid Gallery Plugin – Easy Grid Gallery Widget – Displaying your image in Page & Post widget/sidebar area with very easy.Allows you to customize it to looking exactly what you want.
+
+Buy Premium Plugin – Click Here
+
+Social Media Plugin – Display your Social Media Plugin into Widget/Sidebar in WordPress site with very easily.
+
+Buy Premium Plugin – Click Here
+
+Photo Gallery Plugin – Displays all  Photo Gallery, Video Gallery, Link Gallery, Map Gallery into WordPress in just a few seconds.
+
+Buy Premium Plugin – Click Here
+
+Slider Plugin – Fully Responsive Slider Gallery For WordPress ,You can Show Slider Into Page/Post & Widget/Sidebar By Generate Shortcode.
+
+Buy Premium Plugin – Click Here
+
+Contact Form – Contact Form Widget Shortcode Plugin For WordPress.
+
+Buy Premium Plugin – Click Here
+
+Best Responsive Slider Plugin – Fully Responsive Light Weight Easy Powerful WordPress Slider Slideshow Plugin.
+
+Buy Premium Plugin – Click Here
+
+Video Gallery Plugin – The Best Responsive video gallery For WordPress.
+
+Buy Premium Plugin – Click Here
+
+
+Facebook Like Share Follow Button – Display your Facebook Like Share Follow Button Plugin into Page/Post & Widget/Sidebar in WordPress sites with very easily.
+
+
+Facebook Like Box Plugin – Facebook Light Box Plugin For WordPress
+
+
+
+
+
+Reviews
+
+
+
+ 
+
+
+ lgbt
+
+
+hasokeh
+June 26, 2023
+
+
+lgbt özentileri
+
+
+
+
+ 
+
+
+ Simple and best masonry gallery layout plugin
+
+
+Alex Z
+March 31, 2023
+
+
+Thanks!
+
+
+
+
+ 
+
+
+ super plugin pro galerie
+
+
+radeklahoda
+November 22, 2022
+
+
+cool!!
+
+
+
+
+ 
+
+
+ Excellent solution
+
+
+Jack Yan
+June 14, 2022
+
+
+I used all sorts of different sites for posting random images that didn't fit with my blog, but after negative experiences with them, I found the New Image Gallery at the end of 2020. What a relief! I'm now in charge of my own space, and the plug-in is very easy to use. I really don't need Instagram or Tumblr—I get more visitors to my blog anyway. Some earlier updates didn't work perfectly but the bugs appear to be resolved quickly with new versions, and I heard back from the developer to address my concerns really quickly on this site. Highly recommended!
+
+
+
+
+ 
+
+
+ No swiping on touch screens, tabs, or phones no double tap to zoom
+
+
+Rob
+September 14, 2021
+
+
+Hello,
+
+I like the look of the plugin. Functionality is ok, but could use improvement in touch screen capabilities (swiping images) and ability to double tap to zoom image to full-resolution. Any taps on image currently close the image and move to next image.
+
+
+
+
+ 
+
+
+ Great Plugin
+
+
+nicholaspatterson075
+March 4, 2021
+
+
+Great Plugin
+
+
+
+
+			Read all 34 reviews		
+
+Contributors & Developers
+“Image Gallery – Lightbox Gallery, Responsive Photo Gallery, Masonry Gallery” is open source software. The following people have contributed to this plugin.Contributors
+
+
+ 
+					A WP Life				
+
+
+“Image Gallery – Lightbox Gallery, Responsive Photo Gallery, Masonry Gallery” has been translated into 1 locale. Thank you to the translators for their contributions.Translate “Image Gallery – Lightbox Gallery, Responsive Photo Gallery, Masonry Gallery” into your language.Interested in development?Browse the code, check out the SVN repository, or subscribe to the development log by RSS.
+
+Changelog
+1.4.2
+
+Tested For WordPress 6.3.2
+
+1.4.1
+
+Tested For WordPress 6.3.1
+
+1.4.0
+
+Tested For WordPress 6.2.2
+
+1.3.9
+
+Tested For WordPress 6.2.1
+Fixed veriable bugs.
+
+1.3.8
+
+Tested For WordPress 6.2
+
+1.3.7
+
+Tested For WordPress 6.1.1
+
+1.3.6
+
+Tested For WordPress 6.1.1.
+Fixed veriable bugs.
+
+1.3.5
+
+Tested For WordPress 6.0.3.
+Fixed coding bugs.
+
+1.3.4
+
+wordpress security issues fixed
+
+1.3.3
+
+Enhancements: tested for WordPress 6.0.1
+
+1.3.2
+
+Enhancements: tested for WordPress 6.0
+
+1.3.1
+
+Enhancements: tested for WordPress 5.9.3
+
+1.3.0
+
+Enhancements: tested for WordPress 5.9
+
+1.2.9
+
+Enhancements: tested for WordPress 5.8.2
+wordpress security issues fixed
+
+1.2.8
+
+Added Alt tag feature.
+
+1.2.7
+
+Enhancements: tested for WordPress 5.8.1
+
+1.2.6
+
+security issues fixed.
+
+1.2.5
+
+Bug Fix: miner issue fixed.
+
+1.2.4
+
+Enhancements: tested for WordPress 5.7.2
+
+1.2.3
+
+Enhancements: tested for WordPress 5.7.1
+
+1.2.2
+
+Enhancements: tested for WordPress 5.7
+Enhancements: Image Loop Setting Added.
+
+1.2.1
+
+Enhancements: tested for WordPress 5.6.2
+Enhancements: Ld Lightbox Added.
+Bug Fix: Lightbox arrow issue fixed.
+
+1.2
+
+Enhancements: tested for WordPress 5.6.1
+Bug Fix: Lightbox arrow issue fixed.
+
+1.1.9
+
+Enhancements: tested for WordPress 5.6
+Bug Fix: Lightbox error and miner issue fixed.
+
+1.1.8
+
+Enhancements: tested for WordPress 5.5.3
+Bug Fix: miner issue fixed.
+
+1.1.7
+
+Enhancements: tested for WordPress 5.5.3
+
+1.1.6
+
+Enhancements: tested for WordPress 5.5.1
+
+1.1.5
+
+Enhancements: tested for WordPress 5.5
+Bug Fix: miner issue fixed.
+
+1.1.4
+
+Bug Fix: Dynamic gallery random image lightbox broken fixed
+
+1.1.3
+
+Bug Fix: Multiple galleries on same page will be dynamic now
+
+1.1.2
+
+Enhancements: Light box library updated to latest
+Enhancements: Multiple galleries on same page will be dynamic now
+Enhancements: tested for WordPress 5.4.1
+
+1.1.1
+
+Enhancements: tested for WordPress 5.3.2
+
+1.1.0
+
+Enhancements: tested for WordPress 5.3.2
+
+1.0.12
+
+Enhancements: tested for WordPress 5.3
+Additional changes: setting layout and bootstrap library update.
+
+1.0.9
+
+Enhancements: tested for WordPress 5.2.3
+
+1.0.8
+
+Enhancements: tested for WordPress 5.2.2
+Bug Fix: None.
+Additional changes: None.
+
+1.0.7
+
+Enhancements: tested for WordPress 5.2.2
+Bug Fix: None.
+Additional changes: None.
+
+1.0.6
+
+Enhancements: tested for WordPress 5.2.2
+Bug Fix: None.
+Additional changes: None.
+
+1.0.5
+
+Enhancements: tested for WordPress 5.2.1
+Bug Fix: None.
+Additional changes: None.
+
+1.0.4
+
+Enhancements: tested for WordPress 5.2.1
+Bug Fix: None.
+Additional changes: None.
+
+1.0.3
+
+Enhancements: tested for WordPress 5.1.1
+Bug Fix: None.
+Additional changes: None.
+
+1.0.2
+
+Enhancements: tested for WordPress 5.0.3
+Bug Fix: Multiple lightbox open with multiple gallery issue solved.
+Additional changes: None.
+
+1.0.1
+
+Enhancements: tested for WordPress 5.0.3
+Bug Fix: Fixed
+Additional changes: None.
+
+1.0.0
+
+Enhancements: tested for WordPress 5.0.3
+Bug Fix: Fixed
+Additional changes: None.
+
+0.5.2
+
+Enhancements: tested for WordPress 5.0.3
+Bug Fix: Fixed
+Additional changes: None.
+
+0.5.1
+
+Enhancements: tested for WordPress 5.0.2
+Bug Fix: Fixed
+Additional changes: None.
+
+0.5.0
+
+Enhancements: tested for WordPress 5.0.2
+Bug Fix: No
+Additional changes: None.
+
+0.4.9
+
+Enhancements: tested for WordPress 5.0.1
+Bug Fix: No
+Additional changes: None.
+
+0.4.8
+
+Enhancements: tested for WordPress 4.9.8
+Bug Fix: No
+Additional changes: Custome shortcode copy function added.
+
+0.4.7
+
+Enhancements: tested for WordPress 4.9.8
+Bug Fix: No
+Additional changes: Update link.
+
+0.4.6
+
+Enhancements: tested for WordPress 4.9.8
+Bug Fix: typos fix
+Additional changes: demo link changed.
+
+0.4.5
+
+Enhancements: tested for WordPress 4.9.8
+Bug Fix: typos fix
+Additional changes: plugin is translation ready
+
+0.4.4
+
+Enhancements: tested for WordPress 4.9
+Bug Fix: None
+Additional changes: yes, Added Featured Page.
+
+0.4.3
+
+Enhancements: tested for WordPress 4.9
+Bug Fix: None
+Additional changes: yes, Added theme menu.
+
+Feature Enhancements: Version 0.4.2
+* Enhancements: None
+* Bug Fix: Fixed
+* Additional changes: None
+Feature Enhancements: Version 0.4.1
+* Enhancements: None
+* Bug Fix: Fixed
+* Additional changes: None
+Feature Enhancements: Version 0.4.0
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.3.9
+* Enhancements: Tested Upto New version 4.8.1
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.3.8
+* Enhancements: Tested upto 4.8 version
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.3.7
+* Enhancements: Tested upto 4.8 version
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.3.6
+* Enhancements: Tested upto 4.8 version
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.3.5
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: Yes, Add title settings with thumbnail
+Feature Enhancements: Version 0.3.4
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.3.3
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.3.2
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.3.1
+* Enhancements: Compatible For New Version
+* Bug Fix: Yes, Set Add New image icon’s css
+* Additional changes: None
+Feature Enhancements: Version 0.3.0
+* Enhancements: Compatible For New Version
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.2.12
+* Enhancements: Compatible For New Version
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.2.11
+* Enhancements: Compatible For New Version
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.2.10
+* Enhancements: Compatible For New Version
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.2.9
+* Enhancements: Compatible For New Version
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.2.8
+* Enhancements: Compatible For New Version
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.2.7
+* Enhancements: Compatible For New Version
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.2.6
+* Enhancements: Compatible For New Version
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.2.5
+* Enhancements: Compatible For New Version
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.2.4
+* Enhancements: Compatible For New Version
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.2.2
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.2.1
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.2.0
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.1.10
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.1.9
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.1.8
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.1.7
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.1.6
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.1.5
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: Yes, user interface layout chang
+Feature Enhancements: Version 0.1.4
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.1.3.2
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.1.3.1
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.1.3
+* Enhancements: None
+* Bug Fix: yes, fixed overflow of images in light-box.
+* Additional changes: None
+Feature Enhancements: Version 0.1.2
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.1.1
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.1.0
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.0.9
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.0.8
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.0.7
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.0.6
+* Enhancements: None
+* Bug Fix: Spelling issues Fixed
+* Additional changes: None
+Feature Enhancements: Version 0.0.5
+* Enhancements: None
+* Bug Fix: Image Overlapping Fixed
+* Additional changes: None
+Feature Enhancements: Version 0.0.4
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: Working On Latest Version
+Feature Enhancements: Version 0.0.3
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+Feature Enhancements: Version 0.0.2
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: Typos
+Feature Enhancements: Version 0.0.1
+* Enhancements: None
+* Bug Fix: None
+* Additional changes: None
+
+
+
+
+
+Commercial Plugin
+
+This plugin is free but offers additional paid commercial upgrades or support.
+
+
+Meta
+
+
+				Version: 1.4.2 
+
+				Last updated: 5 days ago 
+
+				Active installations: 6,000+ 
+
+					WordPress Version:					
+						3.0 or higher					
+
+
+					Tested up to: 6.3.2 
+
+					Languages: 
+							See all 2						
+
+
+
+								Close							
+
+English (US) and Russian.
+
+Translate into your language 
+
+
+ 
+Tags: image gallerylightbox galleryportfolio galleryresponsive gallerywordpress photo gallery
+
+Advanced View 
+
+Ratings See all
+
+ 
+
+
+
+5 stars
+
+
+
+25
+
+
+
+
+4 stars
+
+
+
+3
+
+
+
+
+3 stars
+
+
+
+2
+
+
+
+
+2 stars
+
+
+
+1
+
+
+
+
+1 star
+
+
+
+3
+
+
+
+
+Log in to submit a review.
+
+Contributors
+
+
+ 
+					A WP Life				
+
+
+Support Issues resolved in last two months:
+
+
+
+
+
+					1 out of 1				
+
+
+View support forum
+
+Donate
+Would you like to support the advancement of this plugin?
+
+
+					Donate to this plugin				
+
+ 
+
+
+
+
+
+
+
+About
+News
+Hosting
+Privacy
+
+
+Showcase
+Themes
+Plugins
+Patterns
+
+
+Learn
+Documentation
+Developers
+WordPress.tv ↗
+
+
+Get Involved
+Donate ↗
+Swag Store ↗
+WordCamp ↗
+
+
+WordPress.com ↗
+Matt ↗
+bbPress ↗
+BuddyPress ↗
+
+
+
+
+
+
+
+
+WordPress.org
+
+
+ 
+
+
+
+
+WordPress.org
+
+
+
+ 
+
+
+
+Visit our Facebook page
+Visit our X (formerly Twitter) account
+Visit our Instagram account
+Visit our LinkedIn account
+Visit our YouTube channel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

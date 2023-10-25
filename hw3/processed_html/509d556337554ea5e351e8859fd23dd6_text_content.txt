@@ -1,0 +1,580 @@
+ 
+
+
+
+
+
+
+
+Adult Videochat Business Setup - PaidVideoChat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+Features
+
+HTML5 Videochat
+Start Expert Consulting Site
+Random Videochat Match
+Psychic Reading Pay Per Minute
+Adult Videochat Business
+Cam Model Site
+Feature Overview
+Billing Payment Gateways
+Performer Dashboard
+Pay Per View (PPV)
+Video Conference
+Video Calls PPM
+Gifts and Donation Goals
+Paid Video Questions and Messages
+Chat Modes
+Multi Model Show
+Studios
+Backend Features
+Why WordPress?
+WooCommerce
+BuddyPress / BuddyBoss
+Quick Setup Tutorial
+Customize
+
+
+Demo
+Order
+Contact
+
+F.A.Q.
+Submit Ticket
+
+
+ 
+
+Home
+Features
+
+HTML5 Videochat
+Start Expert Consulting Site
+Random Videochat Match
+Psychic Reading Pay Per Minute
+Adult Videochat Business
+Cam Model Site
+Feature Overview
+Billing Payment Gateways
+Performer Dashboard
+Pay Per View (PPV)
+Video Conference
+Video Calls PPM
+Gifts and Donation Goals
+Paid Video Questions and Messages
+Chat Modes
+Multi Model Show
+Studios
+Backend Features
+Why WordPress?
+WooCommerce
+BuddyPress / BuddyBoss
+Quick Setup Tutorial
+Customize
+
+
+Demo
+Order
+Contact
+
+F.A.Q.
+Submit Ticket
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Adult Videochat Business Setup
+
+
+
+
+
+
+
+
+
+VideoWhisper provides technical solutions exclusively, not site content. The solutions do not come pre-loaded with any content. You will be running own business, on own domain, with own content and users. Each business needs to implement own content policy, own legal compliance procedures and own business services (i.e. billing gateways), compatible with the content type and activity.
+This solution can be used/configured to run sites on various themes including adult paid videochat / adult cam models. Building an adult videochat site involves specific features and legal compliance requirements specific to adult oriented goods and services.Site owner is fully responsible for site content, terms and operation and should take all steps required for legal compliance, depending on business and user jurisdiction. Each website uses own domain.Solution does not come with content (user data, pictures, videos). Content and users are not monitored, reviewed by solution providers or host. Content and activity depends on the business operating the solution, its terms/policies/procedures.
+Adult Videochat Turnkey Features
+
+HTML5 Videochat web application, pure HTML5 (works in latest browers including mobiles without need for downloads, plugins, Flash)
+
+1 way to many live video streaming (presale chat), in public lobby with chat, tips/gifts, gift goals
+2 way videochat, in private (1 to 1) shows with request/approve interaction or previously setup calls
+paid videochat: pay per minute in group / private calls with grace time, custom cost per minute
+live wallet balance, tips/gifts with multiple customizable options, gift images, customizable donation goals, per room
+Lovense browser/extension integration: notify API on tips to activate toy
+scalable WebRTC & RTMP to HLS relayed streaming with Wowza SE (reliable and scalable to many clients, independent of broadcaster upload connection)
+support for P2P WebRTC with STUN/TURN for best latency in private shows
+supports external broadcasting with OBS w. SnapCamera effects, iOS/Android GoCoder
+supports pushing live streams to external RTMP platforms (like Twitch, YouTube, Facebook) – presale live sessions
+random videochat with Next button to quickly move to different performer room
+chat with emoticons,  audio/video recorded messages, file uploads
+dark mode / lights on (each user can toggle interface mode live at runtime), picture in picture mode, minimal interface mode
+
+
+custom registrations as performer/creator/artist, client/fan, studio/business (custom) with performer/studio verification documents and approval
+live room list (AJAX updated with live performers), filters as menu or dropdowns (categories, online status, custom filters)
+custom subscription tiers per author for premium content access (digital assets: videos, pictures, documents, posts, live shows)
+social activity feed BuddyPress/BuddyBoss integration, automated friending on subscription
+paid video questions/messages (text + video recordings + files), paid on answer
+eCommerce integration with WooCommerce for buying token packages, selling digital or physical products
+multiple billing options including CCBill, Stripe, Skrill, NetBilling, BitPay, 2CO, PayU with WooCommerce / MyCred
+
+Tour: Adult Videochat Site Solution
+How Does this Work?HTML5 Videochat InterfaceLive DemosGet Started
+
+Please do not post offensive or adult content in the live demos because that’s agains the Terms of Use for VideoWhisper websites and demos. These are just demos and do not implement performer verification, content approval or monitorization procedures as their purpose is to demonstrate the solution features and technical capabilities. These restrictions do not apply if you run own website on own domain and implement compliance procedures. VideoWhisper provides the technical solution, not content or content related services.
+
+Adult Site Features / Requirements / Setup
+After setting up PaidVideochat – PPV Live Webcams solution, additional steps are usually required for a site with adult content.
+
+Billing / Payment GatewayAdult sites are considered high risk for processing, similar to sites that involve nutraceuticals, firearms, CBD.Depending on your site theme, you should register with a billing site suitable for your content niche. You may need to check with processor site first, to prevent getting your account frozen or terminated because of selling content that is not permitted by their terms. Most processors don’t accept high risk content: your site should use payment processors that explicitly allow high risk adult content.
+
+CCBill plugin for WooCommerce
+Authorize for WooCommerce premium add-on
+Verotel / BitsafePay / CardBilling FlexPay plugin for WooCommerce
+CardPay for WooCommerce provides processing for multiple High Risk categories
+USAePay for WooCommerce
+USAePay for WooCommerce premium add-on
+NMI (Network Merchants) PCI for WooCommerce available in free and commercial versions
+Paxum for WooCommerce (may be outdated)
+
+* WooCommerce gateways are supported with TeraWallet plugin. As WooCommerce requires processing of orders, use a plugin like Autocomplete WooCommerce Orders to automatically do Processing to Completed.* VideoWhisper provides technical solutions (not content) and does not have direct experience with high risk processors. You will need to perform due diligence for the additional services you will use, specific to your business, beyond the scope of this technical solution. + Some other regular gateways may also process certain high risk categories including adult but you need to check with their support first.Special approval, fees, procedures may be required for high risk categories.+ Payouts: For adult websites you can explore these manual payout options listed by major adult operators: ACH, SEPA, International Wire Transfer, Crypto, Directa24, PagoMundo, Paxum, CosmoPayment, ePayService, WebMoney, Skrill, Check by Mail.Account records must be configured for performers to provide payout details and balances must be adjusted on payouts depending on wallet.Some services like Skrill, Paxum provide mass payout / payment features, based on a payout list with users you need to pay. VideoWhisper developers can evaluate and implement code to generate such lists automatically from backend, on request, for extra, depending on exact requirements and specifications.Manual crypto payouts can be implemented by purchasing crypto from a reputable exchange (from website income) and sending directly to user wallets.
+ 
+Q: What about Paypal? Paypal is supported both by MyCred & TeraWallet but their policy does not allow specific types of content including sexually oriented goods and services.Paypal does not ussually accept adult related content.Receiving payments for such sites against their policy can result in your account being frozen or terminated.
+
+Domain: Although you can register any domain with own details, using offensive & explicit words / expressions can result in issues with other services providers like search engines, mail servers, ad networks, billing processors that may automatically block your website. 
+Lovense browser/extension integration: notify API on tips to activate toy .Performer needs the Lovense Browser or Extension to integrate with own toy.
+Model Verification & ApprovalVerify performers / models before allowing their content publicly accessible. Solution includes an verification & approval system for performers/models:
+
+Configure verification information required from Live Webcams : Settings > Account Records in backend.
+If necessary, include extra instructions in Performer Dashboard, from Settings > Performer, like requirement to send certain documents to an email address or link to a page with detailed instructions.
+Also set Enable Performers Without Verification: No , so performers can only setup webcam listings and go live after approval. Same for Studios if enabled.
+Review and approve users from Live Webcams : User Approve . Approval info is also available for each users in the Users page in backend.
+
+
+For all site visitors, an age verification / confirmation plugin should be deployed to prompt for age verification on first access, to prevent access of users that don’t have legal age.
+Site should contain specific Terms of Use requesting users to refrain from illegal behavior, accessing without age and location requirments and a Privacy Policy that meets legal requirements.
+GeoFencing: Countries, regions where Pornography and Streaming of Adult Content is illegal should be blocked.In example: Most Middle East, Guyana, Bangladesh, India, South Korea, Saudi Arabia, Botswana, Nigeria, Sudan,  Egypt, Afghanistan, Pakistan, Turkmenistan, Burma.Solution includes geofencing capabilities at site level (editable from GeoFencing tab in settings) and webcam level (editable by performer from dashboard for own webcam).This is based on GeoIP available with suggested turnkey hosting and bundles.Warning: Geofencing by IP does not provide 100% accuracy. Also, certain users may use VPN or proxy services to access trough other locations (requires some technical skills and resources). Interdictions should also be enforced by site terms, additional verifications and processing of reports.
+Adult sites should also include compliance and a page with details for 18 U.S.C. 2257 compliance. The model must be over 18 and will need to comply with Title 18 USC s. 2257, which requires the compilation and maintenance of individual age records relating to the performances, if any actual or simulated sexual activity is occurring (including the display of the genitals or pubic area).
+Content Moderation features also include moderator roles and content reporting / support system:
+
+Moderator Roles
+
+Moderator roles can be configured from plugin settings, Moderator tab, to actively moderate activity on site including live chats.
+Moderators can access group chats (including paid) silently and kick users. Moderators don’t generate client charges and can’t trigger paid features like private requests, tips. Restrictions like geofencing, location bans, access lists do not apply to moderator roles.
+Moderator roles are also supported by MicroPayments plugin for paid content. Moderators can access content without paying, to review for compliance.
+
+
+Report Features
+
+The Live Support Tickets & Contact Forms plugin enables site users to report content or any issues.
+Supports showing a Report button on content pages, including rooms, videos, pictures and other custom post types.
+Allows users to contact site support to report any incidents.
+
+
+
+
+
+
+ 
+
+
+Webcam models list: AJAX listing with live webcam previews, filters, search, reviews, sorting.
+ 
+Performer goes online. HTML5 Videochat application can load in full page mode with advanced interface: chat, camera, user list, room options.
+ 
+Client view: Users can also quickly move to a different performer room (random videochat) with Next button
+Client can request a pay per minute private 2 way video call to provider. Performer can accept or decline and remain in public group chat.
+HTML5 private 2 way webcam video call. Pay per minute.
+Video on Demand by Membership
+Listing menu: current group chat mode, call options: video / audio / text with different token pricing, paid question, room profile.
+
+ 
+
+
+Legal Compliance
+Legal compliance depends on each project’s terms, content and jurisdiction. Website should respect legal requirements for your business jurisdiction and also for all users that will be accepted on site.
+These are some generic compliance suggestions, not legal advise.Before starting such business, seek legal advise from a professional consultant.
+ 
+Some considerations related to US legal requirements related to adult websites (seek professional legal advise before starting such site):
+Compliance of Federal Law requiring Maintenance of Record
+Federal law, specifically Title 18 USC s. 2257 & 2257A, requires that any publication of actual or simulated sexually explicit conduct be supported by specific categories of performer records, maintained in a particular manner. While these statutes are the subject of a legal challenge, the obligations currently exist. Any 2257 records keeping protocol should be developed in close consultation with legal counsel. By way of summary, the records must include:
+
+a 2257 compliance form (containing the model’s legal name, address, date of birth, stage names or aliases, and the date of original production of the content);
+a legible copy of the model’s picture identification card;
+ a list of all URL’s associated with the performance; and
+ a copy of the content. For live webcam networks, this last category can be addressed by maintaining a representative sample of the model’s content, sufficient to identify the model. The records must be maintained by any producer, which is broadly defined in the law to include websites that publish the content. The location of the records must be disclosed on the website, in a specific manner, and inspections allowed if requested by the Attorney General. Failure to comply with this statute is a federal felony carrying fines and imprisonment.
+
+18 U.S. Code § 2257A. Record keeping requirements for simulated sexual conduct
+(a) Whoever produces any book, magazine, periodical, film, videotape, digital image, digitally- or computer-manipulated image of an actual human being, picture, or other matter that —(1) contains 1 or more visual depictions of simulated sexually explicit conduct; and(2) is produced in whole or in part with materials which have been mailed or shipped in interstate or foreign commerce, or is shipped or transported or is intended for shipment or transportation in interstate or foreign commerce;shall create and maintain individually identifiable records pertaining to every performer portrayed in such a visual depiction.(b)Any person to whom subsection (a) applies shall, with respect to every performer portrayed in a visual depiction of simulated sexually explicit conduct—(1) ascertain, by examination of an identification document containing such information, the performer’s name and date of birth, and require the performer to provide such other indicia of his or her identity as may be prescribed by regulations;(2) ascertain any name, other than the performer’s present and correct name, ever used by the performer including maiden name, alias, nickname, stage, orprofessional name; and(3) record in the records required by subsection (a) the information required by paragraphs (1) and (2) and such other identifying information as may be prescribedby regulation.(c) Any person to whom subsection (a) applies shall maintain the records required by this section at their business premises, or at such other place as the Attorney General may by regulation prescribe and shall make such records available to the Attorney General for inspection at all reasonable times.(d)(1) No information or evidence obtained from records required to be created or maintained by this section shall, except as provided in this section, directly or indirectly, be used as evidence against any person with respect to any violation of law.(2) Paragraph (1) shall not preclude the use of such information or evidence in a prosecution or other action for a violation of this chapter or chapter 71, or for a violation of any applicable provision of law with respect to the furnishing of false information.(e)(1) Any person to whom subsection (a) applies shall cause to be affixed to every copy of any matter described in subsection (a)(1) in such manner and in such formas the Attorney General shall by regulations prescribe, a statement describing where the records required by this section with respect to all performers depicted in that copy of the matter may be located. In this paragraph, the term “copy” includes every page of a website on which matter described in subsection (a) appears.(2) If the person to whom subsection (a) applies is an organization the statement required by this subsection shall include the name, title, and business address of the individual employed by such organization responsible for maintaining the records required by this section.
+Section 230 of the Communications Decency Act
+Section 230(c)(1) of the Communications Decency Act of 1996, codified at 47 U.S.C. § 230, provides immunity from liability for providers and users of an “interactive computer service” who publish information provided by third-party users:Under this law “no provider or user of an interactive computer service shall be treated as the publisher or speaker of any information provided by another information content provider.” Therefore, you as a publisher of content are, even otherwise, not responsible for any content that is published by the models located outside the US.
+Performers must not be Minors
+18 U.S.C. § 2422(b) prohibits the use of a computer by an adult to send messages on the Internet to “persuade and entice” a person under 18 years of age to engage in sexual activity that constitutes a criminal offense.18 U.S.C. § 2422(b)(b) Whoever, using the mail or any facility or means of interstate or foreign commerce, or within the special maritime and territorial jurisdiction of the United States knowinglypersuades, induces, entices, or coerces any individual who has not attained the age of 18 years, to engage in prostitution or any sexual activity for which any person can be charged with a criminal offense, or attempts to do so, shall be fined under this title and imprisoned not less than 10 years or for life. Therefore, you need to ensure that all models are 18 years or old.
+Consent Forms must be signed
+You also need to ensure that every model signs a consent form giving you her written consent for her performance.
+18 U.S.C. § 1801.(a) Whoever, in the special maritime and territorial jurisdiction of the United States, has the intent to capture an image of a private area of an individual without their consent, and knowingly does so under circumstances in which the individual has a reasonable expectation of privacy, shall be fined under this title or imprisoned not more than one year, or both.
+ 
+Disclaimer: Depending on each project contents and jurisdiction, additional steps or site features may be required for legal compliance, beyond standard capabilities implemented by this software. After receiving professional legal advise, software developers can evaluate additional compliance features that can be implemented (for additional fees).This can includes special tools for verification/confirmation of user identity and agreement, reporting abusive content and users.
+
+  
+
+
+
+
+
+
+
+
+
+Paid Videochat .com PaidVideochat is a turnkey ppv video chat script providing all features required to run a pay per minute live webcams site.
+Solution is developed by VideoWhisper - Video Communications - lead provider of web and mobile applications for live streaming, video chat, conferencing, presentations, recording, video on demand. 
+
+ 
+
+
+
+ Features Demo Order
+
+ 
+
+
+
+
+
+
+
+
+
+
+Copyrights PaidVideoChat.com @2015-2021 . All rights reserved.
+
+
+
+
+
+
+
+
+
+
+
+We are using cookies to give you the best experience on our website.
+You can find out more about which cookies we are using or switch them off in settings.
+
+
+
+Accept
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Close GDPR Cookie Settings
+
+
+
+
+
+
+ 
+
+
+Privacy Overview
+
+
+
+
+Strictly Necessary Cookies
+
+
+
+
+Powered by  GDPR Cookie Compliance
+
+ 
+
+
+
+
+
+
+
+
+Privacy Overview
+
+This website uses cookies so that we can provide you with the best user experience possible. Cookie information is stored in your browser and performs functions such as recognising you when you return to our website and helping our team to understand which sections of the website you find most interesting and useful.
+You can adjust all of your cookie settings by navigating the tabs on the left hand side.
+
+
+
+
+
+Strictly Necessary Cookies
+
+Strictly Necessary Cookie should be enabled at all times so that we can save your preferences for cookie settings.
+
+
+
+
+Enable or Disable Cookies
+
+
+
+
+
+
+
+
+
+
+If you disable this cookie, we will not be able to save your preferences. This means that every time you visit this website you will need to enable or disable cookies again.
+
+
+
+
+
+
+
+
+
+
+
+
+Enable All
+Save Changes
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

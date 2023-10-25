@@ -1,0 +1,490 @@
+
+
+
+
+
+
+
+
+
+
+
+State of the Woo 2023: WooCommerce Highlights AI-Powered Future and Continued Core Blockification – WP Tavern
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NewsOpinionPluginsThemesEventsForumsPodcastContactSearchSearch
+
+
+
+
+
+
+
+Search
+
+
+
+Cancel
+
+
+
+
+
+
+
+October 10, 2023
+Sarah Gooding
+State of the Woo 2023: WooCommerce Highlights AI-Powered Future and Continued Core Blockification
+
+WooSesh 2023, the virtual conference for WooCommerce store builders, kicked off today with the State of the Woo address. This year’s theme is “Next Generation Commerce,” featuring advances across the e-commerce industry, as well as WooCommerce core and the wider ecosystem of tools and payment integrations. 
+WooCommerce CEO Paul Maiorana began the presentation with a few stats on Woo’s growth in 2023:
+
+4.4M+ live websites currently using WooCommerce (StoreLeads.app Woo usage)
+33% of the top 1 million online store are powered by Woo 
+8.9% of the internet is powered by Woo (W3Techs)
+270M+ Woo downloads to date (WooCommerce internal data)
+908 products in the Marketplace
+66 languages supported
+
+Maiorana highlighted a few e-commerce trends the company is watching, including the expansion of chatbots, on-site search, and AR. WooCommerce is seeing more merchants attracting non-local buyers through cross-boarder selling strategies, with high-growth stores focused on expanding across countries, languages, channels, and payment methods. Maiorana said customers are now expecting seamless experiences across devices and store must be fast, smooth, and intuitive from screen to screen.
+Maiorana also shared insights from WooExperts, officially endorsed WooCommerce agencies, who are seeing an increase in merchants embracing multi-channel selling, diversified payment options, and immersive buying experience that leverage AI, AR, virtual try-ons, and 3D images.
+
+
+The State of the Woo featured several milestones WooCommerce logged this year. WooCommerce Payments is now available in 38 countries. WooPay, the gateway’s opt-in single-click cross-site checkout experience, is out of beta. WooCommerce has also continued expanding its payment integrations covering more geographies and localized payment methods. The company recently launched TikTok for WooCommerce as a new integration to help merchants improve conversion by selling directly via TikTok Shop.
+WooExperts onboarded 88 new agencies, who are ambassadors for Woo, building enterprise projects at scale. They are also invited to collaborate with WooCommerce on technical planning.
+WooCommerce core has crossed several important milestones in 2023, including making High-Performance Order Storage (HPOS), more commonly known as custom order tables, the default on version 8.2. This major overhaul delivers significant performance gains and makes databases more scalable.
+The full blockification of WooCommerce core is on the way a new product management experience using the Blocks API. It was auto-enabled for a subset of new stores in 7.9, released in July, and will be enabled for more stores as soon as WooCommerce adds variable product management support.
+Block-based order confirmation is next on the roadmap, and block-based cart and checkout will soon be the default, as WooCommerce is working closely with partners to increase extension support.
+Woo Express: More AI-Powered Features Coming Soon
+
+During today’s WooSesh keynote, WooCommerce also highlighted a few milestones for Woo Express, the all-in-one WooCommerce plan hosted on WordPress.com. The product launched in 2023 as “Woo’s biggest bet ever.” It kicked off in September 2022, launched free trials in April 2023, and had 1,000 paying customers as of July 2023.
+The team demonstrated the new onboarding flow and store personalization experience. Woo Express’ current priorities are making store setup easier with an AI-driven assistant to guide merchants through setup and growing stores, along with offering smart recommendations to drive more revenue, based on store analytics. The product defaults to a block-based theme, cart, and checkout. It includes the Woo AI plugin for early feedback.
+Woo Express is currently only available on WordPress.com, but WooCommerce representatives said what its features will also be surfaced in Woo core. The product is being used as a proving ground for the next phases of product development.
+
+
+WooSesh will be live again tomorrow with more sessions on using AI tools for support, creating effective landing pages, using Amazon Pay, shipping trends, case studies, and more. Registration is free but the sessions must be viewed live. The sessions will be recorded and published to WPSessions after the live event has ended, available with a subscription.
+Category: E-Commerce, NewsTags: Woo Express, woocommerceShare this:Click to share on Twitter (Opens in new window)Click to share on Mastodon (Opens in new window)Click to share on Facebook (Opens in new window)Click to share on Telegram (Opens in new window)Click to share on WhatsApp (Opens in new window)Click to share on Pocket (Opens in new window)Click to share on Reddit (Opens in new window)Click to email a link to a friend (Opens in new window)Like thisLike Loading…
+
+2
+
+
+
+		2 responses to “State of the Woo 2023: WooCommerce Highlights AI-Powered Future and Continued Core Blockification”	
+
+
+
+
+
+
+
+
+
+ Stephen Vaughan says: 
+
+October 11, 2023 at 4:21 AM 
+
+
+Looking at the new block version, it’s not too bad. It looks like variations is now included but needs a bit more work with adding details like stock, pricing and shipping details. The action for this needs to happen within the UI for each item and not with a browser based alert box at the top of the screen. The other thing I would suggest is making the fields more defined, more like this form here for comments on WPTavern. And perhaps there is just too much background white/white space. Trust me, when you are in the throws of a lot of data entry you need the UI to help you focus and not the glare of a white page.
+I hope the good people are reading this because finding somewhere convenient to send proper feed back seems scarce with tech companies these days. Just spent 10 precious minuts looking. And before you mention gitHub, as we say in Ireland, couldn’t be arsed looking for the correct link.
+Create forum topic from comment
+
+Loading…
+
+
+
+Reply 
+
+
+
+
+
+ Jarosław Morawski says: 
+
+October 16, 2023 at 5:05 AM 
+
+
+Oh, we are reading, Stephen. I’m Jarek, the designer working on the new product editing experience. Thank you so much for sharing your thoughts!
+Next time, you can use the in-product feedback form to make sure we’ll get it. You can access it through the bar fixed at the bottom of the screen or using the … button in the top right corner.
+Regarding variations, everything you mentioned is in the works. Managing stock, pricing, and shipping details will become easier thanks to a dedicated variation details screen. We’ll also add contextual actions so that you can edit these details directly in the variations table and save a few clicks.
+You can follow our progress on GitHub. This link will let you view all active issues related to the new product editing UX: https://github.com/woocommerce/woocommerce/issues?q=is%3Aissue+is%3Aopen+label%3A%22focus%3A+new+product+ux%22
+As for the visual design, it’s still in flux and tightly linked to what’s happening on the WordPress side of things (https://make.wordpress.org/core/2023/07/12/admin-design/). We’ll adopt the new wp-admin visual language as soon as it’s crystalized, but we welcome feedback anytime.
+Do you mind sharing what you mean by “more defined fields”? Do you think that the white space in the form affects your focus? If you could design the perfect form for your use case, what would it look like?
+Again, thank you so much for taking the time to write this comment (and look us up on GitHub!). Happy to answer any other questions about the new product form.
+Create forum topic from comment
+
+Loading…
+
+
+
+Reply 
+
+
+
+
+
+
+
+
+
+Leave a Reply Cancel replyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ Notify me of follow-up comments by email. Notify me of new posts by email. 
+
+ Join the discussion via emailGet only replies to your comment, the best of the rest, as well as a daily recap of all comments on this post. No more than a few emails daily, which you can reply to/unsubscribe from directly from your inbox.Δ 
+This site uses Akismet to reduce spam. Learn how your comment data is processed.
+
+
+
+You may also like
+Do the Woo: A New Podcast for WooCommerce Store OwnersMarch 10, 2016The New Woo Adopts Gutenberg Components, User Interface Driven by ReactOctober 18, 2018Easily Show When WooCommerce Items Are New, On Sale, or Sold Out With Woo StickersDecember 4, 2014
+
+
+Newsletter
+Subscribe Via Email
+Enter your email address to subscribe to this blog and receive notifications of new posts by email.
+
+
+
+
+
+
+
+
+								Email Address							
+
+
+
+
+
+
+
+
+ 
+								Submit							
+
+
+
+
+
+
+
+
+
+
+
+
+
+About WP Tavern
+WordPress Tavern is a website about all things WordPress. We cover news and events, write plugin and theme reviews, and talk about key issues within the WordPress ecosystem…
+
+
+
+HomeAboutArchiveWrite For UsAsk the Bartender
+
+
+Twitter
+Facebook
+Instagram
+
+
+
+
+© All Rights Reserved. Powered by WordPress, hosted by Pressable 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Loading Comments...
+
+
+
+ 
+
+
+Write a Comment...
+
+
+
+
+Email (Required)
+
+
+
+Name (Required)
+
+
+
+Website
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%d bloggers like this:
+
+
+

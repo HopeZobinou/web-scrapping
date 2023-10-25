@@ -1,0 +1,816 @@
+
+
+
+
+
+
+
+
+
+
+
+	Association of COVID-19 severity with nasopharyngeal fungal colonization and interleukin-17 induction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            We use cookies to enhance your experience. By continuing to browse this site you agree to our use of cookies.
+                            More info.
+                        
+
+
+Accept
+Cookie Settings
+
+
+
+
+
+
+
+                            By clicking "Allow All" you agree to the storing of cookies on your device to enhance site navigation,
+                            analyse site usage and support us in providing free open access scientific content.
+                            More info.
+                        
+
+
+
+Allow All
+Reject All
+Cookie Settings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+
+
+
+
+
+
+
+
+Menu
+
+
+
+
+
+
+
+Medical Home
+Life Sciences Home
+
+
+
+
+
+Become a Member
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+Medical Home
+Life Sciences Home
+About
+COVID-19
+News
+Health A-Z
+Drugs
+Medical Devices
+Interviews
+White Papers
+More...
+MediKnowledge
+Newsletters
+Health & Personal Care
+eBooks
+Contact
+Meet the Team
+Advertise
+Search
+
+Become a Member
+
+
+My Account
+
+
+Logoff
+
+
+
+Top Health Categories
+
+
+
+
+Coronavirus Disease COVID-19
+
+Artificial Intelligence
+
+Mpox
+
+Allergies
+
+Alzheimer's & Dementia
+
+Arthritis & Rheumatology
+
+Breast Cancer
+
+
+
+
+
+Cold, Flu & Cough
+
+Diet & Nutrition
+
+Eating Disorders
+
+Eye Health
+
+Gastrointestinal Health
+
+Heart Disease
+
+High Blood Pressure
+
+
+
+
+
+Lung Cancer
+
+Mental Health
+
+Pregnancy
+
+Type 1 Diabetes
+
+Type 2 Diabetes
+
+Sexual Health
+
+Sleep
+
+View Health A-Z
+
+
+
+
+
+×Top Health Categories
+
+Coronavirus Disease COVID-19
+Gastrointestinal Health
+Artificial Intelligence
+Heart Disease
+Mpox
+High Blood Pressure
+Allergies
+Lung Cancer
+Alzheimer's & Dementia
+Mental Health
+Arthritis & Rheumatology
+Pregnancy
+Breast Cancer
+Type 1 Diabetes
+Cold, Flu & Cough
+Type 2 Diabetes
+Diet & Nutrition
+Sexual Health
+Eating Disorders
+Sleep
+Eye Health
+ 
+
+
+View Health A-Z
+
+
+
+Medical Home
+Life Sciences Home
+About
+News
+Life Sciences A-Z
+White Papers
+Lab Equipment
+Interviews
+Newsletters
+Webinars
+More...
+eBooks
+Contact
+Meet the Team
+Advertise
+Search
+
+Become a Member
+
+
+My Account
+
+
+Logoff
+
+
+
+
+White Papers
+MediKnowledge
+Newsletters
+Health & Personal Care
+eBooks
+Contact
+Meet the Team
+Advertise
+Search
+
+
+Webinars
+eBooks
+Contact
+Meet the Team
+Advertise
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Association of COVID-19 severity with nasopharyngeal fungal colonization and interleukin-17 induction
+
+
+
+Download PDF Copy
+
+
+
+
+
+
+
+
+
+By Pooja Toshniwal PahariaOct 28 2022Reviewed by Danielle Ellis, B.Sc.
+In a recent study posted to the medRxiv* preprint server, researchers evaluated the concurrent colonization of fungi in the nasopharynx of severe coronavirus disease 2019 (COVID-19) patients. They explored antifungal immunity pathways by analyzing data from their previous study comprising patients with acute SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) infections.
+
+Study: Severe COVID-19 is associated with fungal colonization of the nasopharynx and potent induction of IL-17 responses in the nasal epithelium. Image Credit: Kateryna Kon/Shutterstock
+*Important notice:  medRxiv publishes preliminary scientific reports that are not peer-reviewed and, therefore, should not be regarded as conclusive, guide clinical practice/health-related behavior, or treated as established information.
+Background
+Studies have reported fungal infections as severe COVID-19 infection complications; however, the fungal colonization frequency and their association with immunological responses among SARS-CoV-2-positive patients have not been well-characterized and warrant further investigation.
+The authors of the present study previously performed single-cell ribonucleic acid-sequencing (scRNA-seq) analysis to characterize the upper respiratory tract (URT) microenvironment in SARS-CoV-2 infections and showed profoundly lowered interferon (IFN) type I and III levels in the URT, in a directly proportional relationship with COVID-19 severity. The samples were classified based on meta-transcriptomic taxonomical classification and the reference NCBI (national center for biotechnology information) database.
+About the study
+In the present cross-sectional study, researchers characterized the clinical characteristics of 56 (out of 58) previous study participants and identified those with severe SARS-CoV-2 infections and concomitant Candida species-derived transcript detection within URT [tracheal and nasopharyngeal (NP)] samples.
+The study comprised 15, 35, and six healthy individuals, acute COVID-19 patients, and SARS-CoV-2-negative intubated patients, respectively. NP swab specimens obtained from the participants were subjected to scRNA-seq analysis to determine the cellular composition of the nasal epithelium. COVID-19 patient samples were obtained within nine days of hospitalization, estimated to be within 14 days of the initial respiratory symptoms.
+In addition to the previous study data, data of matched ETA (endotracheal aspirates obtained from four severe COVID-19 patients were analyzed. Almost all Candida-positive ETA or NP samples were obtained within seven days of hospitalization. Most (six out of eight) were intubated for ≥1.0 days, of which five had received corticosteroids for ≥1.0 days before sample collection.
+Patients were clinically evaluated for fungal infections among three COVID-19 patients with high Candida spp. abundance, as identified previously by meta-transcriptomics. Further, the team investigated whether the nasal tissues of such individuals showed reactive or aberrant or reactive IL-17 expression. The expression of interleukins (IL)- 1β, 4, and 17A, and IFN-α, g genes was evaluated. Nasal epithelial cells were examined for transcriptomic signatures consistent with the cytokine levels.
+
+
+
+
+
+Results
+Severe COVID-19 patients consistently expressed greater IL-17A-induced gene expression and serological 1,3-β-D-glucan levels (prompting micafungin antifungal treatment) compared to mild or moderate COVID-19 patients and healthy individuals. Significant expression of antifungal inflammatory cascades was observed in URT epithelial tissues of severe SARS-CoV-2 infection patients, even among those lacking detectable genomic material from fungal pathogenic organisms.
+Related StoriesCan a low-carb, anti-inflammatory diet be the answer to long COVID woes?IL-17: The molecule that could revolutionize autoimmune and cancer treatmentsWhat were the reasons for COVID-19 vaccine refusal in Hong Kong?Candida albicans was the second most abundant (six NP samples) microbe after SARS-CoV-2 in the study cohort. In addition, elevated Candida dubliniensis and Candida glabrata expression were observed in four and two NP samples of severe COVID-19 patients, respectively. In addition, C. albicans was detected in almost all (except one) ETA samples of individuals with severe SARS-CoV-2 infections, and all C. albicans-positive ETA samples showed C. dubliniensis positivity.
+Candida spp. reads were only detected among severe COVID-19 patients with mechanical ventilation and intubation requirements. RNA-seq results correlated generally with those of ETA aspirates. The findings indicated a significant clinical concern for hospitalized severe COVID-19 patients for Candida infection testing. 28-day death rates among COVID-19 patients were comparable between Candida spp. positive vs. negative individuals.
+Almost all Candida-positive COVID-19 patients had a T2DM (type II diabetes mellitus) history, and eight patients were hypertensive. Across participants, IL-17A gene exposure enhanced the expression of genes involved in keratinization [small proline-rich protein (SPRR)-2G, 2E and 2F], neutrophil, lymphocytes, and monocyte chemoattraction [chemokine (C-C motif) ligand 20 (CCL-20), C-X-C motif chemokine ligand (CXCL)-1, 2, and 3], and inflammatory S100(calcium-binding protein)-A7, A8 factors.
+IL-17A-induced genes [SAA-1 (serum amyloid A1), SAA-2, SAT-1 (spermidine/spermine N1-acetyltransferase 1, LCN-2 (lipocalin 2), GLUL (glutamate-ammonia ligase) and S100A8] were upregulated significantly among nasal epithelial cells of severe SARS-CoV-2 infection patients. Of interest, the team did not observe a greater abundance of IL-17A genes module among severe SARS-CoV-2 infection patients with Candida species than those without the fungal organisms.
+Likewise, there were no significant differences observed in IFN-induced genes between participants with the presence and absence of detectable Candida species. Participants with elevated IFNα-induced gene abundance in the nasal epithelium did not show IL17A-induced gene upregulation. The findings showed that IL-17A-stimulated gene induction in nasal mucosa denoted a feature shared among severe SARS-CoV-2 infection patients and showed a correlation with the lack of robust IFN-induced antiviral immune responses.
+Overall, the study findings showed IL-17 stimulation was partially driven by Candida species colonization and blunted type I/III IFN signaling as a common feature of severe SARS-CoV-2 infections.
+*Important notice:  medRxiv publishes preliminary scientific reports that are not peer-reviewed and, therefore, should not be regarded as conclusive, guide clinical practice/health-related behavior, or treated as established information.
+
+
+
+Journal reference:
+Preliminary scientific report. 
+Ziegler, C. et al. (2022) "Severe COVID-19 is associated with fungal colonization of the nasopharynx and potent induction of IL-17 responses in the nasal epithelium". medRxiv.  doi: 10.1101/2022.10.25.22281528. https://www.medrxiv.org/content/10.1101/2022.10.25.22281528v1
+
+
+
+
+
+
+Posted in: Medical Science News | Medical Research News | Disease/Infection News
+Tags: Antifungal, B Cell, Biotechnology, Calcium, Candida, Candida Albicans, Cell, Chemokine, Coronavirus, Coronavirus Disease COVID-19, covid-19, CXCL-8, Cytokine, Diabetes, Diabetes Mellitus, Frequency, fungi, Gene, Gene Expression, Genes, Genomic, immunity, Interferon, Interleukin, Ligand, Ligase, Monocyte, Nasopharyngeal, Proline, Protein, Respiratory, Ribonucleic Acid, RNA, SARS, SARS-CoV-2, Severe Acute Respiratory, Severe Acute Respiratory Syndrome, Syndrome, Transcriptomics
+
+
+
+
+
+
+
+
+
+
+
+Comments (0)
+
+
+
+Written byPooja Toshniwal PahariaDr. based clinical-radiological diagnosis and management of oral lesions and conditions and associated maxillofacial disorders.
+
+
+
+Download PDF Copy
+
+
+
+
+
+
+
+Citations Please use one of the following formats to cite this article in your essay, paper or report:APAToshniwal Paharia, Pooja Toshniwal Paharia. (2022, October 28). Association of COVID-19 severity with nasopharyngeal fungal colonization and interleukin-17 induction. News-Medical. Retrieved on October 25, 2023 from https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx.MLAToshniwal Paharia, Pooja Toshniwal Paharia. "Association of COVID-19 severity with nasopharyngeal fungal colonization and interleukin-17 induction". News-Medical. 25 October 2023. <https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx>.ChicagoToshniwal Paharia, Pooja Toshniwal Paharia. "Association of COVID-19 severity with nasopharyngeal fungal colonization and interleukin-17 induction". News-Medical. https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx. (accessed October 25, 2023).HarvardToshniwal Paharia, Pooja Toshniwal Paharia. 2022. Association of COVID-19 severity with nasopharyngeal fungal colonization and interleukin-17 induction. News-Medical, viewed 25 October 2023, https://www.news-medical.net/news/20221028/Association-of-COVID-19-severity-with-nasopharyngeal-fungal-colonization-and-interleukin-17-induction.aspx.
+
+
+Suggested Reading
+Kids with Omicron non-infectious after three days, vaccination status irrelevantLong-term lung issues and lower quality of life plague COVID-19 survivors, new study warnsIs it time to rethink COVID-19 boosters? New study dives into variant-specific vaccinesAssessing COVID-19 vaccine effectiveness against long COVIDCOVID-19 tied to elevated risk of benign prostatic hyperplasia complicationsCOVID-19 increases Alzheimer's riskModerna's updated COVID-19 vaccine for Autumn 2023 outperforms in cost and clinical impactLow serotonin levels observed in long COVID and other viral infections
+
+
+Comments
+
+
+
+
+
+        The opinions expressed here are the views of the writer and do not necessarily reflect the views and opinions of News Medical.
+    
+
+
+
+
+
+Cancel reply to comment
+
+
+
+
+
+
+Post a new comment
+
+
+Login
+ 
+ 
+
+
+
+
+(Logout)
+
+
+
+
+
+Quirky Comment Title
+
+
+
+
+
+
+Post
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TrendingStories
+LatestInterviews
+Top HealthArticles
+
+
+
+Mediterranean diet and exercise: A powerful combo for transforming body compositionDecoding schizophrenia: insights and impacts from genetic discoveriesLow serotonin levels observed in long COVID and other viral infectionsIs adult ADHD associated with an increased risk of dementia?Short course of induction chemotherapy can reduce cervical cancer relapse and death by 35%
+
+
+
+
+Sphere Fluidics' Expansion and Vision
+Rob Trainor
+In this interview, Rob Trainor, the Vice President of Operations at Sphere Fluidics, sits down for an insightful conversation detailing the completion of Sphere Fluidics' new state-of-the-art facilities and the strategic decisions behind their office move and rebranding.
+
+
+
+
+
+
+
+Common challenges when seeking market access for rare disease therapies
+Donovan Quill
+In this interview, News Medical speaks to Donovan Quill, Executive Vice President of Growth &
+Strategy at AscellaHealth about the recurring challenges met when seeking market access for rare disease
+therapies.
+
+
+
+
+
+
+
+Shaping the Future of Therapeutics with 3D Imaging Mass Cytometry
+Laura Kuett
+In this interview conducted at SLAS EU 2023 in Brussels, Belgium, we spoke to Laura Kuett, a Ph.D. student in Systems Biology, about the promise of 3D Imaging Mass Cytometry.
+
+
+
+
+
+
+
+
+Building Resilience: the Neurobiology of Mental WellbeingThe Science Behind Why Mosquitoes Prefer to Bite Certain PeopleWegovy: A Breakthrough in Weight Loss?Vaping vs. Smoking: Is One Really Safer Than the Other?Unlocking the Secrets of Blue Zones: A Blueprint for Longevity and Health
+
+
+
+
+
+
+
+Latest NewsCalifornia expands paid sick days and boosts health worker wagesSphere Fluidics' Expansion and VisionOmicron's edge: boosters pressure SARS-CoV-2 to adapt and evolveBrain clues in the battle against long COVID: study pinpoints neuroinflammationUK Biobank reveals: Mediterranean diet might be the key to combating 32 chronic diseases!
+
+
+
+
+
+Newsletters you may be interested in
+
+
+
+
+
+
+COVID-19
+
+                        (Subscribe or Preview)
+                    
+
+
+
+
+
+
+
+Respiratory Diseases
+
+                        (Subscribe or Preview)
+                    
+
+
+
+
+
+
+
+Genetics
+
+                        (Subscribe or Preview)
+                    
+
+
+
+
+See all Newsletters »
+
+
+
+
+
+
+
+
+
+
+
+
+
+Medical Links
+
+
+Medical Home
+COVID-19
+News
+Health A-Z
+White Papers
+Thought Leaders
+Insights
+MediKnowledge Series
+Health & Personal Care
+Medical Devices
+Drugs
+eBooks
+
+
+
+
+Life Sciences Links
+
+
+Life Sciences Home
+News
+Lab Instruments & Equipment
+Life Sciences A-Z
+White Papers
+Thought Leaders
+Insights
+Webinars
+eBooks
+
+
+
+
+Other Useful Links
+
+
+About
+Meet the Team
+Search
+Newsletters
+Sitemap
+Advertise
+Contact
+Terms & Conditions
+Privacy & Cookie Policy
+
+
+
+
+Other AZoNetwork Sites
+
+
+AZoM
+AZoNano
+AZoCleantech
+AZoOptics
+AZoRobotics
+AZoSensors
+AZoMining
+AZoQuantum
+AZoBuild
+AZoLifeSciences
+AZoAi
+
+
+
+
+
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+
+Twitter
+
+
+
+
+
+LinkedIn
+
+
+
+
+
+
+
+                                                  
+                                                        News-Medical.Net provides this medical information service in accordance
+                                                        with these terms and conditions.
+                                                        Please note that medical information found
+                                                        on this website is designed to support, not to replace the relationship
+                                                        between patient and physician/doctor and the medical advice they may provide.
+                                                  
+                                                  
+
+                                            
+
+
+
+                                                    Update Your Privacy Preferences
+                                                
+
+Last Updated: Wednesday 25 Oct 2023
+
+
+
+News-Medical.net - An AZoNetwork Site
+Owned and operated by AZoNetwork, © 2000-2023
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            You might also like...
+                            
+×
+
+
+
+Intranasal vaccination: A potent one-time solution for comprehensive COVID-19 immunity
+
+
+
+

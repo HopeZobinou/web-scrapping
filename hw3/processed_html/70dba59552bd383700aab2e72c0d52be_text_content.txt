@@ -1,0 +1,1477 @@
+
+
+
+
+
+How to Find and Fix Broken Links in WordPress (Step by Step)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Skip to primary navigation Skip to main content Skip to primary sidebarWPBeginner - WordPress Tutorials for BeginnersBlogCategories Beginners Guide
+News
+Opinion
+Showcase
+Themes
+Tutorials
+WordPress Plugins
+Popular Posts
+How to Choose the Best Domain Registrar (Compared)24 Must Have WordPress Plugins for Websites (Expert Pick)How to Install Google Analytics in WordPress for Beginners6 Best Business Phone Services for Small Businesses
+
+
+Start HereStarter Guides How to Start a Blog
+Create a Website
+Start an Online Store
+Best Website Builder
+Email Marketing
+WordPress Hosting
+WordPress SEO
+Speed up WordPress
+WordPress Security
+Best Blogging Platform
+Register Domain Name
+Setup Business Email
+Helpful Resources
+WordPress Video Tutorials WPBeginner’s WordPress 101 video tutorials will teach you how to create and manage your own site(s) for FREE.WPBeginner Facebook Group Get our WordPress experts and community of 80,000+ smart website owners (it's free).WordPress Glossary WPBeginner’s WordPress Glossary lists and explain the most commonly used terms in WordPress tutorials.
+
+Deals Bluehost Coupon
+SiteGround Coupon
+WP Engine Coupon
+HostGator Coupon
+Domain.com Coupon
+Constant Contact Coupon
+Nextiva Coupon
+Hostinger Coupon
+View All Deals »
+
+ProductsOur Products WPForms
+All in One SEO
+OptinMonster
+MonsterInsights
+SeedProd
+WP Mail SMTP
+Smash Balloon
+SearchWP
+PushEngage
+TrustPulse
+Free Tools
+Business Name Generator Get business name ideas for your new website or project.WordPress Theme Detector Free tool that helps you see which theme a specific WordPress site is using.Free Keyword Generator Keyword research easy. Get 300+ keyword ideas about your topic from Google.21+ Free Business Tools See all other free business tools our team has created.
+
+#TrendingBest Of Best Free Blog Themes
+Best Multipurpose Themes
+Best Website Ideas
+Best Contact Form Plugins
+Best Backup Plugins
+Best Page Builder Plugins
+Best Virtual Phone Apps
+Best Membership Plugins
+Best SEO Plugins
+Best WooCommerce Plugins
+Best Live Chat Software
+Best Managed Hosting
+How Tos
+How to Add Keywords and Meta Descriptions in WordPressHow to Get a Free SSL Certificate for Your WordPress Website (Beginner’s Guide)What is a Blog and How is it Different from a Website? (Explained)Beginner’s Guide: What is a Domain Name and How Do Domains Work?How to Learn WordPress for Free in a Week (or Less)How to Install WordPress – Complete WordPress Installation Tutorial900+ Free WordPress Video Tutorials
+
+
+Follow us:
+Beginner's Guide for WordPress
+/
+Start your WordPress Blog in minutes
+Choosing the Best  WordPress HostingHow to Easily  Install WordPressRecommended  WordPress PluginsView all Guides
+WPBeginner»Blog»Plugins»How to Find and Fix Broken Links in WordPress (Step by Step)How to Find and Fix Broken Links in WordPress (Step by Step)
+Last updated on September 26th, 2023 by Editorial Staff | Reviewed by: Syed Balkhi | Reader DisclosureDisclosure: Our content is reader-supported. This means if you click on some of our links, then we may earn a commission. See how WPBeginner is funded, why it matters, and how you can support us. Here's our editorial process.
+
+
+
+
+
+                    Shares                
+
+
+                227            
+
+
+
+
+
+
+
+
+
+                Share            
+
+
+
+
+
+
+
+
+
+
+                Tweet            
+
+
+
+
+
+
+
+
+
+
+                Share            
+
+
+
+
+
+
+
+
+
+
+                Facebook Messenger            
+
+
+
+
+
+
+
+
+
+WhatsApp
+
+
+
+
+
+
+
+
+
+Email
+
+
+ 
+
+Everyone agrees that broken links are bad for user experience. But did you know that broken links can significantly hurt your WordPress SEO rankings?
+Yes, it’s proven that having broken internal links on your website negatively impacts SEO.
+In this article, we will show you how to easily find and fix broken links in WordPress so that you can improve your user experience and SEO rankings.
+
+What Is a Broken Link?
+A broken link, also known as a dead link, is a link that no longer works.
+Broken links can happen for many reasons, but the most common reason is when a page is either deleted or moved to a different location, which causes the server to show a ‘404 not found’ error message.
+On WordPress sites, broken links typically occur when moving a site to a new domain name or when deleting a post or page without proper redirection.
+Sometimes, broken links can also happen due to a typo, and they can go unnoticed for months, if not years.
+This is why it’s extremely important to regularly monitor broken links on your WordPress website and fix them so you can keep them from hurting your SEO rankings.
+In this guide, we will share the top 5 methods to find broken links in WordPress. After that, we will show you an easy way to fix those broken links.
+Here’s a table of contents for easy navigation:
+Finding Broken Links in WordPress Using Broken Link Checker (Quick & Easy)Finding Broken Links Using Semrush (Full Site Audit)Finding Broken Links Using Ahrefs (Complete Backlink Profile)Finding Broken Links Using MonsterInsights (Advanced Tracking)Finding Broken Links in WordPress Using Google Search Console (Free)How to Properly Fix Broken Links in WordPressBonus: Our Best Guides on Internal Links
+Ready? Let’s get started.
+Method 1: Finding Broken Links in WordPress Using Broken Link Checker (Quick & Easy)
+The Broken Link Checker plugin by AIOSEO is an essential tool for making sure all of the links on your WordPress site are functioning correctly. 
+It regularly scans for broken links on your website, including internal and external links that result in a 404 error.
+Unlike some other broken link checker plugins, it’s built as a SaaS service, so it won’t slow your website down. It also won’t be blocked by managed WordPress hosting companies like WP Engine because it uses an external private server to ping for broken links.
+First, you will need to install and activate the Broken Link Checker plugin. For more details, see our step-by-step guide on how to install a WordPress plugin.
+
+Note: The free version of Broken Link Checker allows you to scan up to 200 internal links. You can upgrade to the Pro version to scan more internal and external links.  
+
+Upon activation, the Broken Link Checker Setup Wizard will start automatically to help you set up your account.
+
+On the next page, you can choose to create a free account or connect to a plan that you already purchased.
+To create a new free account, simply click the ‘Create a Free Account’ button. You will need to fill in your name, email address, and phone number. You will also need to enter your credit card details so you can be upgraded when you go over the free 200 link limit.
+
+If you already purchased the Pro version, then you can click on the ‘Connect to an Existing Account’ button. You will be asked to sign in to your account, and then you can click the ‘Connect’ link next to your plan.
+The plugin will now start working in the background to find links in your posts, pages, and custom post types.
+You can go to the ‘Broken’ tab to view the full report. The links are categorized into broken, redirects, and dismissed.
+
+If you have been running your WordPress blog for a long time, then this report will include broken links to third-party websites as well.
+You can quickly fix any broken links right inside of the plugin by clicking the ‘Edit URL’ link. Or, you can remove the link by clicking ‘Unlink.’ Once you are finished, don’t forget to click the ‘Update’ button.
+
+Broken Link Checker will also give you ‘Status Details’ about each link when you click the Information ⓘ icon.
+The information displayed includes how long the link has been broken, its HTTP status code, response headers, and more.
+
+The plugin’s Settings tab lets you control which post types (posts, pages, custom post types) and statuses (published, draft) you want to monitor or exclude. 
+Broken Link Checker by AIOSEO will automatically scan your site every 3 days, so you won’t have to worry about broken links in the future. 
+Method 2: Finding Broken Links Using Semrush (Full Site Audit)
+Semrush is one of the best SEO tools on the market. It allows you to easily monitor your website’s SEO rankings and overall health.
+It also includes a powerful site audit tool that crawls your website to find common errors and prepare a detailed report for you.
+First, you will need to sign up for a Semrush account.
+It is a paid service, but they offer a limited free account that allows you to crawl up to 100 pages on one domain name. Paid plan limits start from 100,000 pages a month.
+Once you are logged in, you need to click on the ‘Site Audit’ link from the left menu.
+This will bring you to the Site Audit page. From here, click on the ‘Create project’ button at the top to add your website.
+
+You will be asked to enter the domain name you want to audit, and then you need to click the ‘Create project’ button.
+After that, you will be asked to configure the site audit settings.
+
+Semrush will now begin crawling your website for the site audit. This may take a few minutes, depending on how many pages you selected for the crawl.
+Once finished, you can click on your domain under the ‘Site Audit’ section to view your report.
+
+Notice that the number of broken links is written in blue. That’s because it’s a link you can click to see more information.
+You will see a list of broken links found on the crawled pages of your domain.
+
+You can now click on the ‘Export’ button at the top right corner of the screen to download your crawl report. You will need it when fixing broken links on your website. 
+Method 3: Finding Broken Links Using Ahrefs (Complete Backlink Profile)
+Ahrefs is an excellent all-in-one SEO tool for marketers, businesses, and SEO professionals. It offers detailed SEO insights into your own website or any of your competitors.
+You can use it for keyword research, competition analysis, organic and paid keyword ideas, and site health monitoring, including broken links. With the Site Explorer tool, you will get a complete backlink profile of your website.
+First, you will need to sign up for an Ahrefs account. Note that it is a paid service.
+Once you are logged into your Ahref’s dashboard, you need to enter your domain name into the ‘Site Explorer’ tool.
+
+The Site Explorer tool will now crawl your website to prepare reports. This may take some time, depending on how much content you have on your website.
+Once it is finished, you will see an overview of your Site Explorer results. From here, you need to click on the Pages » Best by links menu and then sort your report by 404 status.
+
+You can now export your report in CSV format to find and fix the broken links on your WordPress website.
+Method 4: Finding Broken Links Using MonsterInsights (Advanced Tracking)
+MonsterInsights is the best analytics solution for WordPress. It automatically tracks broken links and 404 errors on your website by using Google Analytics.
+Using the plugin, you can set up Google Analytics without editing code. It also lets you set up link and button click tracking, eCommerce tracking, author tracking, and more.
+To start, you will need to sign up for a Google Analytics account and connect it with your WordPress website using MonsterInsights. For more details, you can follow our detailed guide on how to install Google Analytics in WordPress.
+
+Note: MonsterInsights is a premium WordPress plugin, but we will be using the free version for this tutorial. However, you can upgrade to its Pro version for advanced tracking features, dashboard reports, popular posts features, and more.
+
+Once MonsterInsights is active on your website, the plugin will start to track broken links and show you a report in Google Analytics. However, it might take up to 24 hours before you see any data.
+To find broken links, you need to create an Exploration report in Google Analytics. This will take information about your broken links from MonsterInsights and display them in a list.
+Once you log in to Google Analytics, you will need to navigate to the ‘Explore’ tab and choose a Blank report.
+
+Now, under Exploration Name, you can type a name for the report, such as ‘Broken Links’.
+Next, you need to click the ‘+’ button next to Dimensions.
+
+You will see a full list of the available dimensions for your report.
+You need to search for the ‘Page title’ dimension and check its box. After that, you should do the same thing for the ‘Page path + query string’ dimension.
+
+Once you’ve done that, just click the ‘Import’ button at the top right of the screen.
+Next, you need to import a metric. This time, you should click on the ‘+’ button next to Metrics and import the Sessions metric.
+
+Now, you can add the items you imported to your report.
+First, you need to drag both Dimensions to the Rows box in the second column. After that, drag the Sessions metric to the Values box.
+
+Next, scroll the second column down to the Filters section.
+You need to click the box that says ‘Drop or select dimension or metric’. After that, click on ‘Page title’ from the menu.
+
+Now, under Conditions, you need to select ‘contains’ from the dropdown menu and then type the page title for your website’s 404 page, such as ‘Page not found’.
+
+Tip: If you are not sure of the title of your website’s 404 page, then type a random URL after your domain name, such as https://example.com/xyz and then check your browser’s tab for the title.
+
+
+Once you’ve done that, you can click the ‘Apply’ link.
+On the right of the page, you will now see a report of all of the 404 errors that occurred during the report’s time frame. However, in most cases, the ‘Page page + query string’ column will be cut off so that you can’t see the full URL.
+
+To see the URLs, you will need to download the data. Simply click the ‘Download’ icon at the top right of the page.
+When you view the downloaded data, you will see that most of the URLs look like this:
+/404.html?page=/error-page-url/&from=http://example.com/page/
+The part of the URL that shows your broken links comes after ?page=. In the example above, this is https://example.com/error-page-url.
+The part of the URL that shows the page containing the broken link comes after &from=. In the example, this is http://example.com/page/.
+You can use this information to fix the broken links. We show you how to do that in the last section of this article.
+To see this report in the future, simply visit the ‘Explore’ tab in Google Analytics.
+Method 5: Finding Broken Links in WordPress Using Google Search Console (Free)
+Google Search Console is a free tool offered by Google to help webmasters manage their sites’ visibility in search results. It also notifies you about errors, including 404 errors that are caused by a broken link.
+First, you will need to set up Google Search Console for your website. For step-by-step setup instructions, see our ultimate Google Search Console guide.
+After you have logged in to your Google Search Console account, just click on the ‘Pages’ link from the left menu.
+
+Next, make sure the box next to ‘Not indexed’ is checked.
+This will make sure that you will see any 404 errors that were encountered by users when visiting your website.
+
+When you scroll down to the section titled ‘Why pages aren’t indexed’, you will see one reason listed as ‘Not found (404)’.
+When you click on this item, you will see a list of all broken links that caused a 404 error.
+
+How to Properly Fix Broken Links in WordPress
+We have shown you 5 different methods to find broken links in WordPress. Now, let’s talk about how to easily fix broken links in WordPress.
+The best way to fix a broken link is to redirect it to another page.
+For example, if you moved the contents of an article to a different address, then you will need to redirect it to the newer article.
+Similarly, if an article does not exist anymore, then you will want to point users to a similar page that is closely related to the contents of the old article.
+You can do this by setting up 301 redirects.
+The easiest way to fix broken links and set up redirection is by using the All in One SEO (AIOSEO) plugin for WordPress. It offers a powerful redirection manager that helps you track 404 error pages and create 301 redirects.
+
+Note: We will be using the AIOSEO Pro version because it includes the redirection manager addon and offers multiple types of redirections.
+
+First, you will need to install and activate the AIOSEO Pro plugin. For more details, see our step-by-step guide on how to install a WordPress plugin.
+Upon activation, you need to visit the All in One SEO » Redirects page and then click the ‘Activate Redirects’ button.
+
+Next, you will need to go to the ‘Settings’ tab under Redirects and enable 404 logs. You can find the option in the ‘Logs’ section.
+AIOSEO will also let you set the time period to record your 404 logs using the dropdown menu. We suggest that you select no longer than one month for smooth and optimal performance.
+
+After that, go ahead and click the ‘Save Changes’ button.
+You will now see a ‘404 Logs’ tab appear in the Redirects section in AIOSEO. Go ahead and click on the tab.
+When you first enable the 404 logs option, there will be no data on this page. The plugin will only start to monitor and record 404 pages after enabling the settings.
+However, once it’s active, AIOSEO will show a list of broken links on your website under the ‘URL’ column. It will also show you how many people visited the link under the ‘Hits’ column and the last accessed date.
+
+You can now click the ‘Add Redirect’ button for any broken link you want to fix. When you click the button, you’ll see redirection options for your 404 error URL.
+Simply enter the Target URL where you’d like to redirect your visitors and select ‘301 Moved Permanently’ as the redirection type from the dropdown menu. Once you’ve done that, you should click the ‘Add Redirect’ button.
+
+You can now test this by visiting the old broken link, and you will be redirected to the new page.
+Just repeat the process for all broken links on your website.
+For more information, see our guide on how to set up redirects in WordPress for beginners.
+Bonus: Our Best Guides on Internal Links
+Now that you have found and fixed the broken links on your WordPress site, you may be wondering about other ways to use internal links to improve your site’s SEO. Here are our best guides on internal links:
+
+Beginner’s Guide on How to Add a Link in WordPress
+Internal Linking for SEO: The Ultimate Guide of Best Practices
+Best Internal Linking Plugins for WordPress (Automatic + Manual)
+How to Easily Update URLs When Moving Your WordPress Site
+How to Get Google Sitelinks for Your WordPress Site
+
+We hope this article helped you learn how to easily find and fix broken links in WordPress. You may also want to see our guide on how to set up an SEO-friendly URL structure and our expert pick of the best internal linking plugins for WordPress.
+If you liked this article, then please subscribe to our YouTube Channel for WordPress video tutorials. You can also find us on Twitter and Facebook.
+
+
+
+
+
+
+                    Shares                
+
+
+                227            
+
+
+
+
+
+
+
+
+
+                Share            
+
+
+
+
+
+
+
+
+
+
+                Tweet            
+
+
+
+
+
+
+
+
+
+
+                Share            
+
+
+
+
+
+
+
+
+
+
+                Facebook Messenger            
+
+
+
+
+
+
+
+
+
+WhatsApp
+
+
+
+
+
+
+
+
+
+Email
+
+
+ 
+
+Popular on WPBeginner Right Now!12+ Things You MUST DO Before Changing WordPress ThemesRevealed: Why Building an Email List is so Important Today (6 Reasons)How to Start a Podcast (and Make it Successful) in 2023How to Easily Move Your Blog from WordPress.com to WordPress.orgDisclosure: Our content is reader-supported. This means if you click on some of our links, then we may earn a commission. See how WPBeginner is funded, why it matters, and how you can support us. Here's our editorial process.About the Editorial Staff Editorial Staff at WPBeginner is a team of WordPress experts led by Syed Balkhi with over 16 years of experience in WordPress, Web Hosting, eCommerce, SEO, and Marketing. Started in 2009, WPBeginner is now the largest free WordPress resource site in the industry and is often referred to as the Wikipedia for WordPress.
+The Ultimate WordPress ToolkitGet FREE access to our toolkit - a collection of WordPress related products and resources that every professional should have!Download NowReader Interactions59 CommentsLeave a Reply
+
+
+
+
+Ethan Plunkett says 
+Apr 1, 2022 at 11:05 am 
+
+Heads up.  Google search console’s 404 links only include broken internal links (back to your site) and will not detect broken outgoing links to other sites.
+
+Reply
+
+
+
+
+
+
+WPBeginner Support says 
+Apr 4, 2022 at 9:37 am 
+
+Correct, thank you for sharing that information!
+
+Reply
+Admin
+
+
+
+
+
+
+
+
+
+ian Kush says 
+Mar 5, 2021 at 2:31 am 
+
+You Rock! Thanks for making it easy
+
+Reply
+
+
+
+
+
+
+WPBeginner Support says 
+Mar 5, 2021 at 9:51 am 
+
+Glad our guide was helpful   
+
+Reply
+Admin
+
+
+
+
+
+
+
+
+
+Yash says 
+Jul 18, 2020 at 5:34 am 
+
+I am using broken link check WordPress plugin. Is it possible to check broken link for custom buttons?
+Please help me.
+
+Reply
+
+
+
+
+
+
+WPBeginner Support says 
+Jul 22, 2020 at 1:34 pm 
+
+It should check those links as well
+
+Reply
+Admin
+
+
+
+
+
+
+
+
+
+Imran says 
+Jun 6, 2020 at 4:16 pm 
+
+This article was super helpful in solving 404 errors on our website as we switched from joomla to wordpress, thank you so much, now our website is doing great.
+
+Reply
+
+
+
+
+
+
+WPBeginner Support says 
+Jun 8, 2020 at 3:37 pm 
+
+Glad our guide was helpful   
+
+Reply
+Admin
+
+
+
+
+
+
+
+
+
+Raaz shrestha says 
+Nov 11, 2019 at 9:59 pm 
+
+Thanks for the great stuff on link broken. The article were amazing. It not just only shows to find the broken link but the way you give the solution for the problem is always the best part.
+
+Reply
+
+
+
+
+
+
+WPBeginner Support says 
+Nov 12, 2019 at 10:10 am 
+
+You’re welcome, glad you’ve found our content helpful   
+
+Reply
+Admin
+
+
+
+
+
+
+
+
+
+Riky Fahri Hasibuan says 
+Nov 11, 2019 at 8:01 pm 
+
+This is what i’m looking for! i have 301 redirecy plugin in my website but i have no idea how to use it properly.
+thank you so much for this useful tutorial.
+
+Reply
+
+
+
+
+
+
+WPBeginner Support says 
+Nov 12, 2019 at 10:09 am 
+
+You’re welcome, glad our tutorial could be helpful   
+
+Reply
+Admin
+
+
+
+
+
+
+
+
+
+Carol Mankin says 
+Jun 6, 2019 at 4:12 am 
+
+Thanks for sharing this blog. Your blog is very informative regarding broken websites. The points you shared, are very useful for broken website repair services. It is important that everyone must follow some good tips for their broken website.
+
+Reply
+
+
+
+
+
+
+WPBeginner Support says 
+Jun 6, 2019 at 11:01 am 
+
+Thank you, glad our content could be helpful   
+
+Reply
+Admin
+
+
+
+
+
+
+
+
+
+Janie says 
+Sep 12, 2018 at 10:04 pm 
+
+I installed this plug in and it says no broken links detected. I cannot imagine that is accurate because the site is big and definitely has some broken links. Do I need to reconfigure something to get it to run accurately?
+
+Reply
+
+
+
+
+
+
+Greg says 
+Jun 27, 2018 at 3:10 pm 
+
+Thank you for this great post !
+Do you know how to bulk export broken links with this plug-in ?
+Or maybe, if you have one in stock, even a MySQL request could be used to export them within phpmyadmin.
+Cheers   
+
+Reply
+
+
+
+
+
+
+Christopher says 
+May 19, 2018 at 12:09 pm 
+
+Can Yoast Seo handle the same function of the broken link checker?
+
+Reply
+
+
+
+
+
+
+WPBeginner Support says 
+May 21, 2018 at 4:15 pm 
+
+No it doesn’t.
+
+Reply
+Admin
+
+
+
+
+
+
+
+EFETACK says 
+Jan 2, 2019 at 11:25 pm 
+
+Well, I have just read that Yoast SEO has this function, too. It detects and corrects broken links, even directly from Google Console, if wanted, and with a easy button in tool bar, but only Premium version. So have to pay for it.
+I am wondering, if I can keep trusting you guys, seeing that you don’t answer to all questions here, and also how can you review a plugin when it is not updated for over a year???
+In WP > install New Plugin > the thumbnail is even missing of this plugin.
+Wow.
+
+Reply
+
+
+
+
+
+
+WPBeginner Support says 
+Jan 3, 2019 at 1:55 pm 
+
+Thank you for your feedback, we are working on improving our answers to comments. For clarification, this article was updated in August, we will certainly look into updating articles such as this one as we find they need updates so thank you for letting us know that we should look into this article.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Andrzej says 
+Feb 12, 2018 at 8:58 pm 
+
+One question: The best solution is unlinking or dismiss broken links?
+
+Reply
+
+
+
+
+
+
+Sine Thieme says 
+Nov 28, 2017 at 11:27 am 
+
+I’m pretty sure I already know the answer but I’ll ask anyway: This is just for self-hosted sites on WordPress.org, not WordPress.com, correct? Is there ANY way to check broken links on a WordPress.com blog? I am in the process of converting from Blogger and I have over 700 blog posts that ALL have internal links. In other words, a big pain. I suppose I’ll eventually have to manually fix them in any case, but seeing the broken links would give me a priority of which ones to fix first.
+
+Reply
+
+
+
+
+
+
+WPBeginner Support says 
+Nov 28, 2017 at 1:57 pm 
+
+Hi Sine Thieme, 
+Yes, this is for WordPress.org websites. We will suggest that you export your blog posts in XML format using the built in WordPress.com export tool. After that you can use an advanced text editor like Notepad++ or TextWrangler (for Mac), use simple search and replace tool in the editor to replace old blogger URLs with your WordPress.com URLs.
+
+Reply
+Admin
+
+
+
+
+
+
+
+
+
+SeLoRe says 
+Nov 19, 2017 at 5:56 pm 
+
+After I activate that plugin I got error.
+The plugin generated 1690 characters of unexpected output during activation. If you notice “headers already sent” messages, problems with syndication feeds or other issues, try deactivating or removing this plugin.
+
+Reply
+
+
+
+
+
+
+Janie says 
+Dec 18, 2016 at 11:03 am 
+
+Hi-
+I use Link Cloaker and it seems that Broken Link Checker is not picking up the links that are not good because those bad links are directed to my homepage.  I don’t want those links to be directed to my homepage.  I want them to come up as broken so I can fix them.  
+How can this be fixed?
+Thanks
+
+Reply
+
+
+
+
+
+
+MASI says 
+Oct 16, 2016 at 5:36 am 
+
+How can fix incoming broken back-links?
+
+Reply
+
+
+
+
+
+
+John Okosun says 
+Mar 10, 2018 at 5:03 am 
+
+You can fix that by performing a 301 redirection.
+So whenever such a link is access from another site, your site simply redirects the person to a new URL.
+A plugin for this is redirection WordPress plugin
+Hope that helps.
+
+Reply
+
+
+
+
+
+
+
+
+AbbeyLashly says 
+Jul 19, 2016 at 10:15 am 
+
+I have tried this solution, but didnt work for me my website is thank you.
+
+Reply
+
+
+
+
+
+
+WPBeginner Support says 
+Jul 19, 2016 at 12:43 pm 
+
+Did you get an error?
+
+Reply
+Admin
+
+
+
+
+
+
+
+
+
+Mazid Chowdhury says 
+Nov 10, 2015 at 8:38 am 
+
+I was really able to solve my broken links through this article. Thanks to the author.
+
+Reply
+
+
+
+
+
+
+Ravi says 
+Dec 24, 2014 at 1:42 pm 
+
+Thanks! I’m running Broken Link Checker now to fix dozens of broken links on my site. My google organic search traffic plummeted this year after moving to a new domain…and wasn’t sure why. I think broken links is the reason (just realizing a lot of my old posts are busted). 
+Has anyone had direct experience with improved google ranking SEO after fixing broken links? What was the before/after result? 
+
+Reply
+
+
+
+
+
+
+Rick says 
+Oct 2, 2017 at 2:47 pm 
+
+I’ve been using broken link checker for a while at this domain. After fixing them, seems fairly frequently, I need to do so again, say a few weeks after fixing a bunch.
+
+Reply
+
+
+
+
+
+
+
+
+TJ says 
+Jun 15, 2014 at 12:45 am 
+
+I do not recommend this plugin. It is a serious CPU hog that will slow down your site and possibly use up your CPU allocation. A number of host providers have banned it. If you want to check your links you are better off running an app from your computer to check run an external check.
+
+Reply
+
+
+
+
+
+
+WPBeginner Staff says 
+May 14, 2014 at 4:08 pm 
+
+Yes it does and it is not recommended to use it too often. 
+
+Reply
+
+
+
+
+
+
+Arieon Maison says 
+May 13, 2014 at 11:50 pm 
+
+Just wondering if the plugin have some effect with the speed of the site.
+
+Reply
+
+
+
+
+
+
+Arieon Maison says 
+May 13, 2014 at 11:42 pm 
+
+Does the plugin will slow the site?
+
+Reply
+
+
+
+
+
+
+Jeanne Melanson says 
+Apr 30, 2014 at 7:39 pm 
+
+Very helpful advice, thank you.  Now I know what to do with my broken links.  Cheers!
+
+Reply
+
+
+
+
+
+
+kamal singh says 
+Dec 7, 2013 at 6:51 am 
+
+Thanks For Sharing this Great Plugins
+
+Reply
+
+
+
+
+
+
+abhishek taneja says 
+Oct 7, 2013 at 5:23 am 
+
+I found 34 broken links in my blog..Thanks for sharing this article , it has been useful for me
+
+Reply
+
+
+
+
+
+
+Saurabh says 
+Aug 29, 2013 at 2:37 pm 
+
+Is there any plugin available for the Blogger site??
+
+Reply
+
+
+
+
+
+
+Editorial Staff says 
+Aug 30, 2013 at 6:52 am 
+
+None that we’re aware of.
+
+Reply
+Admin
+
+
+
+
+
+
+
+
+
+Amy says 
+Aug 29, 2013 at 1:18 pm 
+
+Broken Link Checker has been very handy for me – but what is that Green Tab (shown in this post’s last screenshot and is there any way to hide it?
+This is extremely confusing for clients and I find it even worse than sidebar ads.
+Any ideas on how to manage this? Thanks!
+
+Reply
+
+
+
+
+
+
+Editorial Staff says 
+Aug 30, 2013 at 6:55 am 
+
+Unfortunately, no way to get rid of it without editing the plugin (at least that is our understanding). You can always contact the plugin author and make a suggestion.
+
+Reply
+Admin
+
+
+
+
+
+
+
+
+
+Corey says 
+Aug 28, 2013 at 3:57 pm 
+
+What do you do if it tells you that some links are broken but they are not? I went to the pages and double checked the link and it works fine.
+
+Reply
+
+
+
+
+
+
+Bongo says 
+Aug 26, 2013 at 4:32 am 
+
+Sounds useful, i wish it was around a year ago…
+
+Reply
+
+
+
+
+
+
+Stijn says 
+Aug 26, 2013 at 4:16 am 
+
+Used BLC in the past. It’s good to use from time to time, but creates a lot of bloat in your database. That’s probably because of my massive post archive.
+
+Reply
+
+
+
+
+
+
+Mike says 
+Sep 12, 2013 at 3:42 am 
+
+STUN, did the same on my site…over 6,000 posts. However after running the WP-Optimize plugin, the database was nice and clean again.
+
+Reply
+
+
+
+
+
+
+
+
+Iris says 
+Aug 26, 2013 at 3:00 am 
+
+This will improve my work, a lot.
+
+Reply
+
+
+
+
+
+
+Peter Gerwing says 
+Aug 25, 2013 at 10:58 pm 
+
+I use wpengine.. This is what they have to say about:
+“There’s another class of plugins that we disallow simply because they cause a high load on our servers or create an unnatural number of MySQL queries.
+Broken Link Checker — Overwhelms even our robust caching layer with an inordinate amount of HTTP requests.”
+On their hosting service it is a disallowed plugn!
+“wpengine” reccommends:
+To track traffic in a more scalable manner, both the stats module in Automattic’s Jetpack plugin and Google Analytics work wonderfully.
+
+Reply
+
+
+
+
+
+
+chathu says 
+Aug 29, 2013 at 12:52 pm 
+
+Yes Same here. I have VPS with 1.5GB RAM. This plugin slowdown my blog.
+
+Reply
+
+
+
+
+
+
+Editorial Staff says 
+Aug 30, 2013 at 6:54 am 
+
+You’re not suppose to keep the plugin on. Use it during your spring clean up (like every 6 months). Turn it on. Check if everything is good, and then delete it.
+
+Reply
+Admin
+
+
+
+
+
+
+
+
+
+
+
+Jeannette Paladino says 
+Aug 25, 2013 at 1:24 pm 
+
+I use Broken Link Checker and it is very useful. But why would you disable the plugin after using it the first time? I receive notifications every few days that the plugin has found a couple of more broken links. Usually, because when an a site I linked to has shut down, or the link has become corrupted or a blogger removed a post, —  any number of reasons. It is not helpful for SEO — or to your visitors — when they click on a bad click. I believe Broken Link Checker should be active all the time.
+
+Reply
+
+
+
+
+
+
+Ian says 
+Aug 25, 2013 at 5:19 am 
+
+Really realistic and useful.
+
+Reply
+
+
+
+
+
+
+Martin Velthuizen says 
+Aug 24, 2013 at 8:49 am 
+
+Thank you for letting us know about this great plugin! Started to use it on some website right away.
+I don’t understand why I should disable the plugin after initial use and wait 6 months to run it manually again. It appears to me that I can leave it Active, and it will check the links automatically every so many hours and send me a mail if it has found a broken link. Much better, isn’t it?
+Thanks in advance for your opinion on this.
+
+Reply
+
+
+
+
+
+
+WPBeginner Support says 
+Sep 10, 2013 at 9:30 pm 
+
+It is but running a script so many times particularly the one that keeps checking all your posts can be resource incentive on your website.
+
+Reply
+Admin
+
+
+
+
+
+
+
+
+
+E.S. Ivy says 
+Aug 23, 2013 at 9:30 am 
+
+I want to finish seeting up my .org site first, but as I’m moving from .com this will be a great tool! Thank you!
+
+Reply
+
+
+
+
+
+
+Monica says 
+Aug 23, 2013 at 9:29 am 
+
+I installed the Broken Link Checker plugin a few months ago and immediately following the installation my site crashed.  I would love to have it but I am afraid to install it again.
+
+Reply
+
+
+
+
+
+
+Frans says 
+Sep 15, 2013 at 6:05 pm 
+
+I had the same problem, I had to delete the plugin by FTP, because the rest of my screen was whit and it was nog possible to active or deactive it.
+Sad, because in my other site it worked well, both site are on the same server.
+
+Reply
+
+
+
+
+
+
+WPBeginner Support says 
+Sep 17, 2013 at 5:41 pm 
+
+You can temporarily switch to a default WordPress theme like twenty twelve and then activate the plugin. If it works you can then check for broken links, fix them, and then revert back to your own theme.
+
+Reply
+Admin
+
+
+
+
+
+
+
+ 
+Leave A Reply Cancel replyThanks for choosing to leave a comment. Please keep in mind that all comments are moderated according to our comment policy, and your email address will NOT be published. Please Do NOT use keywords in the name field. Let's have a personal and meaningful conversation.Name * 
+Email * 
+Comment * 
+Don't subscribe
+All
+Replies to my comments
+ Notify me of followup comments via e-mail. You can also subscribe without commenting. 
+
+Δ 
+Primary SidebarOver 2,000,000+ Readers
+	Get fresh content from WPBeginner
+
+
+Featured WordPress Plugins	
+
+WPCodeEasy Code Snippets Plugin for WordPress.  View this plugin 
+
+
+The Ultimate WordPress ToolkitGet FREE access to our toolkit - a collection of WordPress related products and resources that every professional should have!Download NowI need help with … 
+Starting a  Blog
+WordPress  SEO
+WordPress  Performance
+WordPress  Errors
+WordPress  Security
+Building an  Online Store
+
+
+
+
+ Search
+
+
+
+
+ Latest  Posts	
+
+How to Sell Furniture Online – The Ultimate Guide for Beginners6 Best WordPress SMTP Plugins (Expert Pick)How to Stop Spam Registrations on your WordPress Membership SiteHow to Easily Lazy Load Comments in WordPress (No Code Method)WebP vs. PNG vs. JPEG: The Best Image Format for WordPress 
+
+
+
+ Useful  WordPress Guides	
+
+
+30 “Proven” Ways to Make Money Online Blogging with WordPressHow Much Does It Really Cost to Build a WordPress Website?Free Recording: WordPress Workshop for BeginnersWhich is the Best WordPress Popup Plugin? (Comparison)5 Best WordPress Ecommerce Plugins ComparedHow to Create an Email Newsletter the RIGHT WAY (Step by Step)How to Properly Move Your Blog from WordPress.com to WordPress.orgHow to Properly Move WordPress to a New Domain Without Losing SEOHow to Switch from Blogger to WordPress without Losing RankingsHow to Properly Switch From Wix to WordPress (Step by Step)How to Properly Move from Squarespace to WordPressHow to Move WordPress to a New Host or Server With No DowntimeBest WooCommerce Hosting (Comparison)The Truth About Shared WordPress Web HostingWhen Do You Really Need Managed WordPress Hosting?HostGator Review - An Honest Look at Speed & UptimeSiteGround Reviews from 4,975 Users & Our ExpertsBluehost Review from Real Users + Performance StatsWhy You Should Start Building an Email List Right AwayWhy is WordPress Free? What are the Costs? What is the Catch?What’s the Difference Between Domain Name and Web Hosting (Explained)WordPress.com vs WordPress.org – Which is Better? (Comparison Chart)How to Properly Move WordPress from HTTP to HTTPS (Beginner’s Guide)How to Code a Website (Complete Beginner’s Guide) 
+
+
+
+Deals & Coupons (view all)EngineThemes CouponGet 20% OFF on EngineThemes beautiful WordPress themes collection.Visual Composer CouponGet 20% OFF on Visual Composer WordPress page builder plugin.Featured in 
+About WPBeginner®
+
+			WPBeginner is a free WordPress resource site for Beginners. WPBeginner was founded in July 2009 by Syed Balkhi.
+			The main goal of this site is to provide high quality WordPress tutorials and other training resources to help people learn WordPress and improve their websites.		
+
+			Join our team:			
+				We are Hiring!			
+
+
+Follow us:
+ 
+
+
+Site Links
+
+
+
+						About Us					
+
+
+
+						Contact Us					
+
+
+
+						FTC Disclosure					
+
+
+
+						Privacy Policy					
+
+
+
+						Terms of Service					
+
+
+
+						Free Blog Setup					
+
+
+
+						Free Business Tools					
+
+
+
+						Growth Fund					
+
+
+
+
+Our Sites
+
+
+
+						OptinMonster					
+
+
+
+						WPForms					
+
+
+
+						MonsterInsights					
+
+
+
+						WP Mail SMTP					
+
+
+
+						All in One SEO					
+
+
+
+						Smash Balloon					
+
+
+
+						SeedProd					
+
+
+
+						Nameboy					
+
+
+
+						RafflePress					
+
+
+
+						PushEngage					
+
+
+
+						Duplicator					
+
+
+
+						AffiliateWP					
+
+
+
+						Easy Digital Downloads					
+
+
+
+						WP Simple Pay					
+
+
+
+						SearchWP					
+
+
+
+						WP Charitable					
+
+
+
+ 
+
+
+				Copyright © 2009 - 2023 WPBeginner LLC. All Rights Reserved. WPBeginner® is a registered trademark.			
+
+				Managed by Awesome Motive | WordPress hosting by SiteGround 
+
+
+I need help with…
+
+
+
+ Search
+
+
+Popular searches: 
+Starting a Blog
+WordPress SEO
+WordPress Performance
+WordPress Errors
+WordPress Security
+Building an Online Store
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
