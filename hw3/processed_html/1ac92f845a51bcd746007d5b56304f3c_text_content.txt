@@ -1,0 +1,714 @@
+
+
+
+
+
+
+
+
+
+
+
+#94 – Birgit Olzem and Jill Binder on Creating a Diverse and Sustainable WordPress Community – WP Tavern
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NewsOpinionPluginsThemesEventsForumsPodcastContactSearchSearch
+
+
+
+
+
+
+
+Search
+
+
+
+Cancel
+
+
+
+
+
+
+
+
+October 11, 2023
+Nathan Wrigley
+#94 – Birgit Olzem and Jill Binder on Creating a Diverse and Sustainable WordPress Community
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Jukebox					
+#94 – Birgit Olzem and Jill Binder on Creating a Diverse and Sustainable WordPress Community
+
+
+
+
+Play Episode
+
+
+Pause Episode
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mute/Unmute Episode
+
+
+Rewind 10 Seconds
+
+1x
+
+Fast Forward 30 seconds
+
+
+
+00:00
+/
+
+00:50:04
+
+
+
+
+
+Subscribe
+Share
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								Apple Podcasts							
+
+
+								Stitcher							
+
+
+								Google Podcasts							
+
+
+								Spotify							
+
+
+
+						RSS Feed					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					Share				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					Link				
+
+
+
+
+
+
+
+					Embed				
+
+
+
+
+
+
+
+
+Download file | Play in new window | Duration: 00:50:04 | Recorded on October 11, 2023Subscribe: Apple Podcasts | Stitcher | Google Podcasts | Spotify
+
+
+
+Transcript
+[00:00:00] Nathan Wrigley: Welcome to the Jukebox podcast from WP Tavern. My name is Nathan Wrigley.
+Jukebox is a podcast which is dedicated to all things WordPress. The people, the events, the plugins, the blocks, the themes, and in this case, diversity in the WordPress community.
+If you’d like to subscribe to the podcast, you can do that by searching for WP Tavern in your podcast player of choice. Or by going to WPTavern.com forward slash feed forward slash podcast. And you can copy that URL into most podcast players.
+If you have a topic that you’d like us to feature on the podcast, I’m keen to hear from you, and hopefully get you, or your idea, featured on the show. Head to WPTavern.com forward slash contact forward slash jukebox, and use the form there.
+So on the podcast today, we have Birgit Olzem and Jill Binder.
+Birgit Olzem is a WordPress enthusiast who juggles diverse roles, and advocates for mental health awareness, diversity and unsung contributors. A proud mother and grandmother, she also consults on personal branding and explore surface pattern design. Birgit champions the WordPress community, as you’ll hear, in many ways.
+Jill Binder is the founder and CEO of Diverse In Tech. She leads the diverse speaker training group in the wordpress.org community team, which encourages people from underrepresented groups to speak at WordPress events. She helped organize the first BuddyCamp, and for three years, co-organized WordCamp Vancouver.
+Jill and Birgit join me today to discuss the importance of diversity, equity, inclusion, and belonging, D E I B for short, within the WordPress community.
+They share valuable insights regarding their efforts to create a more global and inclusive WordPress ecosystem. This includes the formation of a new working group on the make WordPress Slack account, and the use of GitHub project boards to track tasks and ideas.
+We talk about the need for unity within the community, the significance of diverse perspectives, and the importance of effective communication.
+We also get into Jill’s experience, organizing a training program for the Vancouver meetup. Emphasizing the importance of understanding the specific needs of different communities.
+We explore the concept of sustainability within the WordPress community, addressing the financial support and resources necessary to retain and support active contributors.
+Throughout the episode, both Jill and Birgit stress the importance of inclusivity, creating a welcoming environment, and providing opportunities for underrepresented voices to participate and contribute.
+If you’ve been wanting to know more about how to make the WordPress community more diverse and welcoming, this episode is for you.
+In some places, the audio is a little choppy, so apologies for that, but it really is more than listable.
+If you’re interested in finding out more, you can find all of the links in the show notes by heading to WPTavern.com forward slash podcast, where you’ll find all the other episodes as well.
+And so without further delay, I bring you Birgit Olzem and Jill Binder.
+I am joined on the podcast today by Birgit Olzem and Jill Binder. Hello.
+[00:04:11] Jill Binder: Hi there.
+[00:04:12] Birgit Olzem: Hello.
+[00:04:13] Nathan Wrigley: It is absolutely lovely to have you both on the show today. We’re going to get into an interesting topic. It really isn’t something that we’ve touched for a very long time. A new initiative, perhaps not a new initiative, new initiative for an old problem shall we say. And we’re going to talk about that.
+But before we begin the podcast and talk about the subject at hand, I think it would be important to give you both an opportunity to introduce yourself. Obviously we’re talking about a WordPress community issue today.
+Be nice to know a little bit about your involvement in the WordPress community. Perhaps a little bit about your backstory, which companies you work for? Anything really. And let’s start with Birgit, shall we?
+[00:04:53] Birgit Olzem: Yeah thank you Nathan. Thank you very much for giving us the room to talk about this amazing topic.
+So I’m from Germany and as a listener here I struggle a bit. But I’m a mom of five children, well almost grown up children. And I used WordPress since its first release. I was always curious how things work. I’m always curious looking behind the scenes, and I want to know how things are building up. I’ve contributed to WordPress for over a decade now. I was at my first WordCamp in 2010 and since then I’m totally invested into the WordPress community.
+And as my friend Carole Olinger always cites, ” we came for the software and stayed for the people”. And I am a people person, and I love to connect people with each other. And I try to help people to find their way and their path on a big journey. And so that’s why I’m so invested into the WordPress community because we are building a great software environment, not just software at all, but also the people around it.
+I’m currently a freelancer, and not sponsored to contribute to WordPress yet, but I’d like to. I’m currently part of the new contributor mentorship program, with the cohort in July as a mentor. And I had a great mentee from Austria so we tried also the localised mentorship program.
+We are also currently organising WordCamp Germany at the time of this recording. We’re in the middle of August. WordCamp Germany will happen in October this year in my hometown, in a small hometown in Germany, Western Germany. So yeah. I will also be part of a female and non binary release squad for WordPress 6.4 as a cohort member for the test team. And besides that I’m locale manager for the de.wordpress.org site and organising also polyglots, and publishing posts on de.wordpress.org news, and do a lot of stuff.
+[00:07:05] Nathan Wrigley: Yeah that was going to be what I was going to say. You do a lot of stuff. That really is a remarkable litany. I know that everybody that uses WordPress realises that there’s a lot of people in the background doing bits and pieces, but that is quite the laundry list of achievement. So from me to you, thank you for all of the different things that you do. That’s pretty remarkable. Okay, Jill.
+[00:07:29] Jill Binder: How do I follow that? I don’t know.
+[00:07:32] Nathan Wrigley: Yeah. So it’s your turn. Basically the same question, just give us a little bit of a backstory about yourself and WordPress and so on.
+[00:07:39] Jill Binder: Sure thing. So I’m Jill Binder and I’m the lead of the diverse speaker training group, #wpdiversity. I was a web developer from 2011 to 2018 ish. And what happened is I was a co organiser for WordCamp Vancouver 2013 and we had hardly any women and people from other underrepresented groups apply to speak at our WordCamp. And that started me on a whole journey. I found out we weren’t the only ones who had the issue. I asked other groups you know, how do you get more applications? And they’re like, you had seven? That’s amazing.
+So in Vancouver we wound up solving the problem for us. We created a workshop that gathered as many women and non binary and other genders in the room who wanted to join, which was a full room. And we went through the myths of what it is to be a, well let me back up a second.
+So we wound up solving the problem for us in Vancouver. We created a workshop and we based the workshop around the issue that we were having which is, when we would ask people if they would apply to speak at our WordCamp they would say, oh well I don’t even know what I would talk about. Or I’m not good enough in anything to give a talk, I’m not an expert.
+So we created a workshop that answers both those questions. It busts through the myth of what it is to be the speaker at the front of the stage. And it goes through, helps people find a topic, and having a whole room of people saying yes, I want to hear you talk about that topic. Goes a huge way in helping people overcome any obstacles they have to wanting to speak.
+We had so much success with that other cities ran it, and it was so successful that in late 2017 Andrea Middleton asked if I would create this group. And I found that it was totally my purpose and passion. And now since 2019 this has been my full time job. This is what I do. Half for WordPress, half for other companies.
+The company that I have now is called diversein.tech. That’s the website. That’s what I do. Currently in WordPress I’m sponsored by Automattic and by Green Geeks to do this work.
+[00:09:47] Nathan Wrigley: Thank you so much. I feel that we should just lay the groundwork a little bit, because for many people, myself I think included, the discussion around diversity, I find it difficult sometimes to get my hands on that, and to know who we’re talking about and who we’re trying to push this message out to.
+So could you just lay the groundwork for, well I guess in Jill’s case, she’s just described how she came up with this training program for the Vancouver meetup and so on. So you obviously had some sort of handle there as what you thought was going wrong, because if you’re going to create training materials, you must have some idea of what was the problem and what the solution was to that.
+Could you just describe the problem? Because there’s bound to be people listening to this who will be just thinking, okay interesting podcast but I need more data, more information about who these people are.
+[00:10:37] Jill Binder: Yeah that’s a great question. So the way that we think about it is, each region has people who are well represented. In North America that’s typically straight, cisgender, meaning same gender now as they were at birth. Male, white, able bodied people. And basically everybody else is underrepresented.
+That’s specific to North America. So North America we’ve got ethnicity, race, neurodivergence, different physical abilities, age, different genders, that’s kind of typically who the underrepresented is.
+And I have learned a lot over the last couple of years that in other parts of the world there are different underrepresented groups. So there might be religion, different spoken languages, different countries that people come from, culture, caste, class, et cetera. Birgit, do you want to add anything to that?
+[00:11:31] Birgit Olzem: You put it in the right word and as you said, especially in European countries, but also Asian, African. Australia for instance, you are more difficult to find their BIPOC people on the stage. And when you go to Asia, colored people are more in the lower represented.
+But as Jill already said, diversity is not only race or gender, but also I think diversity is a bit broader as well. Like how we think. And this is influenced by where we are born into and where we are born at. So everyone shares and brings into an own perspective.
+And also the perspective itself is also diversity. When we bring not only people of a kind of label into the community, but also allowing different perspectives and diverse perspectives. Learn from this.
+[00:12:29] Jill Binder: 100% to what Birgit just said. Part of the whole reason that I’ve gotten so passionate about this is because of the different perspectives that different people bring into the communities.
+You know most of my work is around the people on stage and by having different voices on stage we bring in ideas that help bring in more of that kind of person. So make it more inclusive. As well as bring in ideas that wind up benefiting everyone. So for example, closed captioning used to be for people with hearing impairments, limited hearing. But it winds up being great for everyone, you know. Somebody has a crying baby, can’t hear, they’re on the bus, they’re watching something at work, winds up helping everybody.
+[00:13:09] Nathan Wrigley: Thank you for that. Yeah really interesting. So one piece that I just took out of that was that the location that you are on the planet might have a very significant effect on the work that you would be doing. So you described the scenario in North America and then you know we heard about all the different parts of the world.
+I’m really interested in that because I’m guessing that in the future, the materials that you’re going to provide, the bits and pieces that you’re hoping to promote, would be encouraging that. You’re not in this scenario trying to have a one template fits all. It’s more of a, look here’s the underlying things that need to be thought about. Now go and figure out what the jigsaw puzzle of life in your part of the world is like. And then work through what it is that you’re going to do based upon where you are.
+[00:14:00] Birgit Olzem: Yeah exactly. When you see it, not everyone has the privilege of a fast internet connection, for instance. We have contributors in a region where they are depending on mobile cell phones, and are only contributing on a mobile phone. I heard a story that someone was contributing on an old mobile phone with an old internet access browser and was able to do that, but with a hard effort.
+When you see the difference in culture, and where the people come from it influences us like that a lot. And the template that you mentioned, we can’t bring a one fits all solution. As you already said. We want to invite our contributors, or people who are interested into contributing, to find their own mission but also their values. What is diversity for their community, for their tribe? What is diversity? What makes their event diverse? What makes their contributing team diverse?
+When we see also our contributing teams in the global WordPress community, we have the makewordpress.org teams but we have also local communities with their own Make teams. What is the diversity for them? How can they include people? How can open the gate for new contributors, for instance? Maybe Jill might add something on this.
+[00:15:26] Jill Binder: In the team that I’ve been working in, it’s a pretty mature team at this point. And so we have completely refined materials, and we have already helped 100 cities in 50 countries around the world with these issues. And we’re actually now at three programs. One is the diverse speakers. One is actually placing underrepresented speakers at events. But the other one is creating more inclusive, and welcoming and diverse events.
+And so for that first and last one we have set materials, and we’ve basically generalised, and we’ve made it, for our material, we’ve made it like people of underrepresented groups and we’ve just kind of boxed them in. I’m really excited for Birgit’s work that is going to make it more customised for the other things in the project. And maybe even bring some of that into the work that my team is doing.
+But we also just added in some content into our organising inclusive and diverse events workshop to help people define what is diversity in their own region. And to compare what we think it is with actual data of, you know in Vancouver I’m like, okay I’m pretty sure that we want to reach out to more of the black community. And I look at the data and find oh the black community is tiny.
+We don’t want to forget about the black community, but we have to remember actually, there’s a lot of Asian, South Asian, East Asian and so if they’re not showing up to our events and not speaking at our stages, what is going on? But I also want to say I’m not an organiser in Vancouver right now, so I’m not actually having a say in it. It’s just an example in my workshop.
+[00:17:00] Nathan Wrigley: One curious thing that’s just popped into my head, as a result of what you’ve both been saying, we will get very much onto how WordPress is doing with all of this throughout the globe. But one thing that occurs to me is that, I guess as members of the WordPress community, let’s hope that we’re behind everything that you’ve just said, all of us. But there has been in the past sort of little disagreements within the WordPress community. Where people have raised concerns about a particular event which is happening over there. And maybe they’ve looked at the speaker lineup and they’ve been unhappy with the different faces that are in that list and all of that.
+But what you’ve just said is really important because we need to be mindful that if the teams in those different locations have different requirements, if you like around diversity, that’s just something we be mindful of.
+[00:17:48] Birgit Olzem: Exactly, especially this particular discussion sparked my idea, or brought this onto the surface of what was boiling for several years now. Our first attempt to start a global diversity team was in 2018. Germany started a kind of umbrella group awareness team for the WordCamps in Germany.
+But also we thought already about to create some global working group to connect all teams. And this idea sparked and growed over several years now. And the pandemic also showed us where we have issues, and where we are struggling to stay connected with our community and with the people around us.
+But also it opened the gate for new contributors and finding new ways to communicate with each other. But we still have to learn and grow much better. But I think it’s not only bringing diverse people into it and discuss and judge people about how they are pronouncing something if they are not a native speaker in English, for instance.
+Especially written communication is hard to understand. And when you are not a native English speaking person you’re trying to find the right words to express your thought on it. And someone else put on his or hers or theirs filter on. And there’s an expression in German that you have a different listening ear and a different filter when you read something online. And you have only one channel, input channel, into your understanding where you can digest information.
+And when we are seeing each other’s face in-person meeting, we have the full surrounding, like hearing, seeing, feeling. And text is very condensed and it’s difficult to understand ideas and concepts and written word. Especially in heated discussions on platforms with limited characters for instance.
+And as I said, it is really important that we stay open minded and instead of calling out, calling in. And contact the person first on one on one level. And ask, hey I see an issue, this is what I feel about, what is your thinking about it? And what can we do about it? Before we’re calling out something in public, for instance.
+It’s one thing which fuels a better inclusion feeling, and belonging feeling into the community. Instead of pointing a finger to someone, or a group of people for wrongdoing. Because everyone has an own value system and own experience. Instead of asking what is their different culture.
+And as you said, every event has an individual setting, an individual group around it, that needs to fulfill other requirements and legal requirements for instance. So we can’t ask for a gender or more details on personal level, for instance, in Germany. Because we have to obey the GDPR regulations. How we can collect data, and how can we work with this data. So it is really helpful when we also create documents to showcase how diverse our global community is. To educate our community members who are also willing to learn how different and diverse we are.
+[00:21:32] Nathan Wrigley: I think it’s a really amazing time that we live in, but it’s also full of so many tripwires and pitfalls. Because we are, well I don’t really know if the term we are the first generation. But certainly in the last 20 years, we’re the first generations of human beings that have been able to communicate with people really straightforwardly at any point in the globe.
+So all of a sudden we’re thrown into the mix of, okay I can see Australian things and I can see Cambodian things and I can see Mexican things and American things. And you are going to bring the prejudice, for want of a better word, the things that you have been brought up with. I guess some of that is going to be transferred into your expectations of what those things are.
+And it was lovely, the language that you use there. Because again, a new experiment that we’re running globally I guess is the whole social media thing. And one of the outcomes I have seen of that, is that it is very easy to adopt a tone that doesn’t, well that seems perhaps more aggressive than you may have intended. This truncated little portion of texts that you’ve got. Sometimes you don’t manage to be perhaps as polite as you wanted, and so on and so forth. So there’s an awful lot in there.
+But one of the things that I took out of that Birgit, was the need to, if you have something to say, and if you have something that you’d like to be changed. A good way to go about that is to think about saying, okay this is what I think, and here’s my suggestion, but not to sort of put the boot down and say you need to be doing in this way. That does seem to be a more wholesome and straightforward way of going about it. And Jill, I’m conscious that you didn’t get a chance to add anything to that.
+[00:23:12] Jill Binder: Birgit said it perfectly.
+[00:23:14] Nathan Wrigley: Great. Okay a completely different question. Slightly off piste from the topic that we’re covering directly. I just wonder, broadly, how does WordPress do in this sphere? Because it feels from the outside, or from the inside that, on the whole the WordPress community, which is fairly unique, it spans all the globe, it’s got thousands of people involved in it. It’s pretty unique and it’s very often a fairly philanthropic thing, people giving up their time and all of that kind of stuff.
+How does WordPress compare? I feel like this might be a question for Jill, given that she’s been looking around elsewhere. But Birgit perhaps it is for you as well. How do we compare to other industries? Other, yeah, industries is probably the best word I’ve got. Are we really behind in all of this, or are we at the vanguard, or are we just sort of somewhere in the middle?
+[00:24:04] Jill Binder: So I don’t have official data and I don’t actually know. But anecdotally from what I’ve seen, at least in the open source world, so looking at, I don’t want to name the other ones specifically. In the open source world, which is what WordPress is part of, WordPress tends to be more diverse overall. And we also have the resources to put into working on this issue.
+So WordPress tends to have an easier entry point, at least when I started doing this work back in 2011, 2013 ish, when I was thinking about this a lot. Such that anybody no matter their level of education, no matter their background, can jump into it, start creating blog posts. Then start wanting to tweak the CSS a little. Start coding, and then next thing you know the person is a full blown web dev agency, and so starting is easier.
+And then there’s this amazing, rich community of people to help teach, that people can learn from. And now we’ve got even more robust systems with Learn WordPress where there’s official, easy to grasp, knowledge on all things WordPress. And so our community tends to be more diverse from that standpoint.
+When I started my work the issue was, well our audience is diverse, but the people on stage are not. And now we’re looking more at contributors and Birgit can maybe talk more about that. But it’s definitely an issue with our contributors as well. So we’re anecdotally, unofficially, I would say we are ahead of the curve, but there’s so much more curve to get over.
+[00:25:55] Nathan Wrigley: I like that expression. We’re ahead of the curve but there’s lots more curve. Birgit, anything to add?
+[00:26:00] Birgit Olzem: Jill already said it nicely, and I just want to add my personal experience. When I was visiting open source events, WordPress was not the focus. And I heard a lot that the WordPress community is the most welcoming community over several years now. And I love that we improve. We are eager to improve our efforts to be more welcoming again.
+Jill mentioned the learn.wordpress.org platform, for instance. On my last WordPress Community Summit in 2014, I was part of the early years of the training team of the WordPress community. And to see how this evolved over the year, that we have a pillar into our WordPress community to educate our user base but also our contributors.
+The recent experience from the mentorship program was very helpful to digest and to evaluate where we have to improve, or where we can improve our ways into contributing. But as Jill mentioned it is easy to contribute to WordPress. The entry way has a lower barrier.
+But I think we have a big challenge to keep active contributors, and over a long term. Because I saw a lot of people burning out over the years, including myself. Over contributing to such an open source system in a higher amount of hours putting into it, for instance. I’m talking for the people who are more maintaining WordPress instead of contributing occasionally. I think there’s a lot of room for improvement to support and also create a sustainable social sustainability into our WordPress community.
+And I see the social component, social sustainable component and also a big pillar into the DEIB proposal I wrote, to make sure that active contributors who are investing more than 10 hours, for instance, are well funded, who need to be funded, and who asked to be funded.
+We have a great base of contributors who are already sponsored, or have the ability during their work time to contribute to WordPress. And there are people, for instance like me who are a freelancer, who invests on private time and has no financial backing. But also needs to decide, do I need to make client work to fill my fridge, or do I contribute to WordPress?
+I always have the struggle to maintain my time, for instance. And I think this experience translates also to the initiatives to create a sustainable WordPress community and keep contributors active, not losing that. I guess I went a bit away from it, but I think you get what I want to say.
+[00:29:04] Nathan Wrigley: Yeah, thank you. So I think we painted a reasonably good picture of what the issue at hand here is. Okay let’s pivot slightly and change the direction, because I feel like we’ve laid the groundwork pretty well there for what is going on, and what we would like to change. As I say, let’s move it on and let’s talk about the things that you are both involved with, amongst others I’m sure, to help change this.
+So one of the things, I’m going to use the acronym first, it’s DEIB. That stands for diversity, equity, inclusion, and belonging. Now we’re going to be referring to that. I’ll try to use those words instead of the acronym because it’s probably going to be a lot easier.
+The idea here is that there’s going to be a team put together. Maybe the team is already in existence and fully fledged. But I just want to flesh out what the things are that you’re hoping to tackle with that. Now as luck would have it, both Birgit and Jill, they have both been very helpful in providing me with some show notes to this episode. And there’s a bunch of links in those show notes which will provide an awful lot of context.
+So it’s links in all sorts of direction, explaining what the philosophy is, how it’s going to be achieved, how you can get involved, all of those kinds of things. So if at any point you’re curious about that, pause the podcast, search for this episode on WP Tavern and then come back and you’ll have more context to the discussion at hand.
+In the show notes you’ve put five key messages down. I’ll just run through them quickly now. The first one is diversity is strength. The second one is inclusion means everyone. Third one, unified efforts, bigger impacts. Fourth one, shared responsibility. And the fifth one, call to action. Now I don’t know who wants to take this first, but I’m guessing they’re the underpinnings.
+It looks like it’s going to be Birgit who’s going to take this first. I’m guessing these are the underpinnings. I don’t know if you want to just take them in the round or do them one at a time. But maybe we should talk through what those individual pieces are for, and why it’s been distilled to those five key messages.
+[00:31:10] Birgit Olzem: Thank you Nathan. Yeah, I was thinking about to find the really key messages to digest the information better because it’s a very, very complex topic. Diversity, equity, inclusion and belonging is a mouthful to speak for many people, but the meaning behind it. Diversity, it’s not a buzzword.
+As we already said, you need to have diverse perspectives, diverse input, that a sustainable WordPress can grow and grow much better and more sturdy. Imagine you’re buying a house, you need strong basement where you put your house on. Diversity brings the strengths to keep the house sturdy and build the pillar.
+And inclusion is, for my instance, you’re inviting people and lowering the barrier to come into your house and celebrate a party with you. Work with you on the house building. And that’s also translated to the unified efforts. If you are building a house you need more people that only, you can’t build it on your own. So the more people the better impact you have.
+But also when you see shared responsibility, no one in the WordPress community has the weight of all decisions on their shoulder. It’s a team effort, and everyone takes a part of the responsibility. So you don’t have to put the weight of the world on your shoulders alone, you can share the responsibility with others.
+My perspective, and also what I was proposing with the team, the global team, is that everyone can contribute to that. We in the WordPress community have more diversity, more equity, and more inclusion, and everyone feels belonging to the WordPress community.
+It’s late in the day for me. I’m struggling for words. I apologise to our listeners and it’s a very important message and I invite everyone to read the proposal. It’s a long proposal, and I also digested it from seven pages down to four pages. But it’s full of information and so please read it when you have time and find your personal key points also in it.
+[00:33:33] Nathan Wrigley: I will copy and paste the exact phrasing of your five key messages there because I just paraphrased them very quickly, but there’s more in depth. And as I said, all of the links will be provided. So Jill, I think you might have something to add to that.
+[00:33:45] Jill Binder: I just want to add that Birgit’s proposal is brilliant and yes you should read it, audience members of this podcast. The only things that I’ll add is that I’m going to add another link to the show notes on an article that I wrote called, why is diversity important to WordPress and your local community?
+And that’s specifically to do with you know, why do we care about this for meetups and WordCamps? Whereas Birgit is talking about overall all contributing groups, why is it important? So, if anybody is wondering for the specific niche of events, I’ll add a link for people to read there.
+[00:34:23] Nathan Wrigley: Great thank you for that. What’s the status of this team at the moment? So we’re recording this right in the middle of August 2023. I don’t know the status, whether this is an official team, whether it’s become an official part of the WordPress project. Maybe it’s an aspirational thing at the moment. So just let’s clarify that for everybody.
+[00:34:44] Birgit Olzem: Yeah at the current status we have already managed to create a new Slack channel on a Make WordPress Slack account. It’s called deib-working-group, and everyone is invited to join. And we also have GitHub project board to track tasks, ideas, et cetera, where we can work together on this big topic.
+It’s a long term project and we are in the very first beginning to make it more global, and incorporate the current pillars, like WP Diversity initiative. Like the speaker support group.
+But also the sustainability team which was officially announced during WordCamp Europe this year. So where also the social sustainability is also part of the sustainability team. And with the upcoming WordPress Community Summit, we are also running a session about the diversity, equity, inclusion and belonging team efforts. My hope is that we get an official team sooner than later, so that we can form a team and start working on the key objectives.
+[00:36:05] Nathan Wrigley: I have a question surrounding the second of your bullet points, which is inclusion means everyone. And I just want to get some context nailed down here. And I’m going to read what you said, because I think it sums it up beautifully. Inclusion means everyone. So that’s clarifying the D E I B, the acronym we’ve been mentioning, efforts aren’t about favouring some over others, but ensuring that everyone has equal opportunity and feels welcomed.
+And I guess that’s the crucial point, isn’t it? The intention here isn’t to have some sort of tick list of things which must be achieved at every event, and it must look like this, and sound like this, and be written in this. It’s more about making sure that everybody, well, I say it’s. Is it more about just laying the groundwork, making sure that everybody knows that they are welcome, and hoping that they feel welcomed enough to show up and then contribute, and make it their own, and feel that they’re part of the whole thing?
+So again, it’s not a tick list of things which must be done. It’s more, well, here’s what we would like to have happen. Let’s just make it an open, welcoming space, make sure that everybody understands that it’s open and welcoming and therefore, we hope, that they will show up. I may have misrepresented that, but if I haven’t, I will be happy with myself.
+[00:37:24] Jill Binder: This is sort of my area of stuff. It’s a great question. I love this question. We’ll just make it open and welcoming and people will show up. There’s a lot of things that, we see the world through our own lens, and there’s a lot of things that we don’t think about.
+So we make it open welcoming for ourselves, and don’t think about things for other people. For example, for my first few years of participating with Meetup and WordCamp Vancouver, our events were held in an amazing space on a third floor, up three flights of really rickety stairs.
+And even me, as a mostly able bodied person still hated those stairs, and we excluded a lot of people from our community. But it was such a beautiful space, and we were getting it for free and so nobody really questioned it. When we held our first speaker workshop for underrepresented members of our community, I insisted we have to find a space with elevators.
+And then I suggested that, and then we wound up having people with wheelchairs, walkers, people who’d never come out to our events before attend that event. And then I asked if we could move all of our meetups there, and we did. So, it’s just a simple little thing that, try to make it welcoming. There’s a lot of things we don’t think about.
+People might be thinking, well, what can I do? How can I learn how to do this? Oh, well, I’m so glad to tell you there’s a workshop on Learn that you can watch. The workshop on Learn, the name of it there is, creating more diverse and inclusive WordPress spaces. I think that’s what it’s called. But also I am putting together all of my knowledge and material into one spot. And I’m going to have a link to it there. So, that along with some other articles that people should read to learn more about what can we do. It’s all going to be there, the short link is tiny.cc/wpdiversity. And that links to a page in our WordPress handbook. And so it goes through like mindset, community, spaces, allyship, et cetera. Lots of great info.
+[00:39:25] Nathan Wrigley: I guess the whole premise of, I don’t know because I don’t know, that’s what you’re tackling really, isn’t it? You are saying, well, if you don’t know, here’s how to know. Here’s a bunch of stuff that you can access. It’s all online. We know you’re in the WordPress community. Very likely you have access to a computer, so you can read these things. So here it is.
+[00:39:45] Jill Binder: Yeah, yeah.
+[00:39:46] Nathan Wrigley: That, kind of excuse, I guess, going forward of, I don’t know, because I don’t know, becomes a little bit more difficult to maintain. If you don’t know, here’s the resources, go and have a look, educate yourself in those things, and hopefully in the future, we can have a more diverse WordPress than we do currently.
+I have asked all of the things that I wish to ask. However, I’m keen to let you just take the floor. If there’s something that you wish to mention or something that I just neglected to ask.
+[00:40:16] Birgit Olzem: Yeah, I just want to add something on my mind. It’s the part of the digital accessibility. It’s also part of the diversity, equity, inclusion and belonging. Especially for people with, I don’t want to focus on that, but for instance, people who are are in a neurodivergent spectrum. Accessing information, digesting information, understand how to contribute to GitHub, for instance. It can be a barrier contributing to Slack. It’s also a barrier.
+I learned that Slack is not that accessible as it should be, for instance. But also the WordPress backend itself, complies not yet to digital accessibility. That is something we also want to think about, and also to understand that there are barriers. An able person don’t think of it, because as Jill also said, everyone has, looks through their own lens.
+That’s the aim also of this initiative, to bring all Make teams to one table. Ask question, how can we improve, and where are the blind spots we also have? Because everyone has a blind spot. Where we very not aware, be aware of what someone might be hindering someone to access the community, access the software itself.
+And, I think that is something we need to focus on. To have also this in mind. Not only the visible disabilities, for instance, like a wheelchair or someone with a cane. I’m circling a bit to events.
+Events need to be also inclusive for people with neurodivergent spectrum. Where they can find some quiet room, but also attendees who need to take some breaks in between walking distances. When I attend to a WordCamp, I need to overcome distances. I need to take sitting breaks in between, because I need to catch my breath, especially after I got COVID two years ago. It’s difficult for me to navigate through a large venue, to come from spot A to spot B, without taking a break in between. And we need to take this also into consideration when we are looking for event venues.
+My key message on it, we have a lot of good material already gathered, but it’s freckled around the community handbooks. I imagine to have a central place where we can guide and have a kind of a contributor or user journey, and a learning path. Where can willing people or contributors find the information easier? Currently, it’s all over, spread over every head book and, yeah, creating a central place to find this information.
+[00:43:15] Nathan Wrigley: Could I ask Birgit, where currently, I know you’ve just said that it’s spread all over the place, if somebody having listened to this podcast, their interest is piqued and you would have just one memorable thing, memorable place, where you would send them to a page or a contact form or whatever it may be. What would be in your mind, the quickest way to get involved and express your interest in all of this?
+[00:43:39] Birgit Olzem: As I said, it’s currently difficult to tackle this specifically because there is no central place yet.
+[00:43:46] Jill Binder: I have a suggestion of where to point people to. Birgit, I’ll ask if agree, but I think the Slack channel might be kind of a easy first.
+[00:43:57] Birgit Olzem: Yes. Yeah.
+[00:43:58] Nathan Wrigley: Okay. So that is most certainly going to be linked in the show, and I will make sure that that’s in there. I’m conscious Jill that I asked Birgit if there was anything that she wanted to say. So I’ll pass the torch to you. Did we miss anything? Was there anything that you thought we failed to discuss?
+[00:44:13] Jill Binder: Things that I will add are that I’m really excited about Birgit’s proposal and Birgit’s new group. I feel like this is something that we’ve needed for a long time. And to have somebody as passionate and driven as Birgit behind it to see it through is so amazing.
+You know, the work that I’m doing with events is just one small piece of the puzzle. One of the things that I’ve said all along is when we get more people on stage, magic things happen, like they become contributors, they help out more with the project.
+And pre pandemic we had systems in place for that to happen, and post pandemic we haven’t really had that anymore. And so Birgit’s group is going to be one of the things that is going to help with that. And her group to have diversity considered in all of our Make teams, is going to be just incredible. It’s going to be so vital for our work. And I’m so excited it’s happening. And I’m really honored that the events work, the diverse speaker training group, is going to be able to basically be a piece of this bigger picture that Birgit is putting together.
+[00:45:21] Nathan Wrigley: One of the nice things about doing this podcast is getting to meet wonderful people, doing wonderful things. And I kind of feel this is a really important, really interesting, really meaningful, impactful work. So full bravo to the pair of you, and anyone else who is in fact touching this.
+I’m sure there’s more people that we could thank, as well. And Birgit’s nodding her head. So yeah, the answer to that is yes. But, I have you two on the call. So I’m thanking you. Really amazing stuff.
+Very final question. A very brief one. If somebody wants to reach out to you personally, A, is that possible? And B, what’s your preferred method for them reaching out? I guess it could be a, an email address or a website, or a social media handle, whatever you like.
+[00:46:06] Jill Binder: Can I add, not just me, but our group as well. There’s a few links I wanted to mention for our work. So to read up more on the diverse speaker training group, as well as to get all of our resources that I am, in August right now, currently putting together before I’m away for a few months starting in September, and I want to make sure the community has all of the resources there.
+They can all be found at tiny.cc/wpdiversity. And this is going to answer things like how do you achieve more diversity inclusion at your WordCamps? And how do you actually get that diverse speaker lineup? And also being able to hold our workshops for your local communities. So holding our diverse speaker workshop, which we’ve renamed to, how to own your expertise and find a topic to speak on. As well as holding the how to create a diverse and inclusive WordPress event.
+And so that’s all at tiny.cc/wpdiversity. I also invite people to join our Slack channel, which is purely around supporting the underrepresented voices in WordPress to speak at events. Which is diverse-speaker-support. I will make sure it’s in the show notes.
+And also to mention that the first part of my break is not an entire break. I’m still holding two big events, speaker workshop for women in India is happening September, the weekend of September 23rd, Saturday and Sunday morning in India time.
+And also a women, both of them are for WordPress, a women in WordPress Speaker Workshop, for Latin America that we’re holding in San Jose, Costa Rica, in person. Except that I’m unable to travel myself, so my head on a giant screen. It’s worked out very well when we’ve done this previously, along with a Spanish translator, and that’s happening November 11th in person for everyone but me.
+And to reach me, I won’t really be available from September to December of this year, but I would love if people go ahead and follow me on social media, and I might post some of my adventures from my break. And of course, more diversity knowledge when I come back, and maybe some things while I’m on break too if I want to put things out into the world. On Twitter, LinkedIn and Mastodon.social, I am Jill Binder on all three.
+[00:48:22] Nathan Wrigley: Thank you very much. And Birgit.
+[00:48:25] Birgit Olzem: Yeah. Thank you. And I’m kind of a sad little face for Jill leaving us for a sabbatical. But I’m also very grateful that Jill has opportunity to take a break after a long, long work in the WordPress project. And I’m very thankful for the groundwork you did already. Yeah, thank you.
+When someone wants to reach me, I’m always with my handle coachbirgit on all socials. Also on my personal website coachbirgit.com. And I’m really inviting everyone to join our Slack channel to discuss and contribute to the initiative on, dib-working-group on a Making WordPress Slack account.
+[00:49:10] Nathan Wrigley: Jill Binder, Birgit Olzem, thank you so much for chatting to me on the podcast today. I really appreciate it.
+[00:49:17] Jill Binder: Thank you.
+[00:49:18] Birgit Olzem: Thank you. Bye.
+
+On the podcast today we have Birgit Olzem and Jill Binder.
+Birgit Olzem is a WordPress enthusiast who juggles diverse roles and advocates for mental health awareness, diversity, and unsung contributors. A proud mother and grandmother, she also consults on personal branding and explores surface pattern design. Birgit champions the WordPress community, as you’ll hear, in many ways.
+Jill Binder is the Founder and CEO of Diverse in Tech. She leads the Diverse Speaker Training Group in the WordPress.org Community Team, which encourages people from underrepresented groups to speak at WordPress events. She helped organise the first BuddyCamp, and for three years co-organised WordCamp Vancouver.
+Jill and Birgit join me today to discuss the importance of diversity, equity, inclusion, and belonging (DEIB for short) within the WordPress community.
+They share valuable insights regarding their efforts to create a more global and inclusive WordPress ecosystem. This includes the formation of a new working group on the Make WordPress Slack account and the use of GitHub project boards to track tasks and ideas.
+We talk about the need for unity within the community, the significance of diverse perspectives, and the importance of effective communication.
+We also get into Jill’s experience organising a training program for the Vancouver Meetup, emphasising the importance of understanding the specific needs of different communities.
+We explore the concept of sustainability within the WordPress community, addressing the financial support and resources necessary to retain and support active contributors.
+Throughout the episode both Jill and Birgit stress the importance of inclusivity, creating a welcoming environment, and providing opportunities for underrepresented voices to participate and contribute.
+If you’ve been wanting to know more about how to make the WordPress community more diverse and welcoming, this episode is for you.
+In some places the audio is a little choppy, so apologies for that, but it really is more than listenable.
+5 key messages mentioned in the podcast.
+
+Diversity is Strength: Emphasize that diversity isn’t just a buzzword; it’s the backbone of innovation and progress, especially in collaborative spaces like the WordPress community.
+Inclusion Means Everyone: Clarify that DEIB efforts aren’t about favoring some over others, but ensuring everyone has equal opportunity and feels welcomed.
+Unified Efforts, Bigger Impact: Talk about the importance of consolidating individual initiatives for a broader, more cohesive impact on the WordPress ecosystem.
+Shared Responsibility: It’s not just up to a single group or team to promote DEIB; it’s a collective responsibility of the entire community.
+Call to Action: Everyone can and should play a role in fostering DEIB in the WordPress community. Get involved, offer support, and be part of the change.
+
+Useful links provided by Birgit and Jill.
+
+Diversity, Equity and Inclusion Statement: https://make.wordpress.org/handbook/diversity-equity-and-inclusion-in-wordpress/
+DEIB team proposal: https://make.wordpress.org/project/2023/07/13/proposal-for-establishing-a-make-diversity-equity-inclusion-and-belonging-deib-team-within-the-wordpress-community/
+Quicklink to the Diverse Speaker Training Group (#WPDiversity) https://tiny.cc/wpdiversity
+For tasks of the working-group: DEIB-Issue-Tracker and the related project board
+Slack channel for the DEIB working group: #deib-working-group
+Slack channel to support underrepresented speakers in WP: #diverse-speaker-support
+WP Briefing Podcast: Episode 13: Cherishing WordPress Diversity
+
+Other links mentioned in the podcast.
+Contributor Mentorship Program
+WordCamp Germany
+WordCamp Vancouver
+Diverse in Tech website
+Learn WordPress
+Why is diversity important — To WordPress and YOUR local community?
+WordPress Community Summit
+Jill’s Twitter
+Birgit’s Twitter
+Birgit’s website
+Share this:Click to share on Twitter (Opens in new window)Click to share on Mastodon (Opens in new window)Click to share on Facebook (Opens in new window)Click to share on Telegram (Opens in new window)Click to share on WhatsApp (Opens in new window)Click to share on Pocket (Opens in new window)Click to share on Reddit (Opens in new window)Click to email a link to a friend (Opens in new window)Like thisLike Loading…
+ 
+iTunes
+
+RSS
+
+
+Pocket Casts
+
+Stitcher
+
+
+Google Play
+
+
+Download
+
+
+
+
+
+
+
+Tagged
+diversity podcast
+
+Previous Episode: #93 – Piermario Orecchioni on How and Why WordPress Gets Translated
+Next Episode: #95 – Pooja Derashri on Diversity, Equity, Inclusion, and Belonging in WordPress
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+
+
+
+Leave a Reply Cancel replyYour email address will not be published. Required fields are marked *Comment * Name * 
+Email * 
+Website 
+ Notify me of new posts by email. 
+
+ Join the discussion via emailGet only replies to your comment, the best of the rest, as well as a daily recap of all comments on this post. No more than a few emails daily, which you can reply to/unsubscribe from directly from your inbox.Δ 
+This site uses Akismet to reduce spam. Learn how your comment data is processed.
+
+
+
+
+
+
+
+
+Listen to more episodes
+
+#94 – Birgit Olzem and Jill Binder on Creating a Diverse and Sustainable WordPress Community
+October 11, 2023
+
+#93 – Piermario Orecchioni on How and Why WordPress Gets Translated
+October 4, 2023
+
+#92 – Juliette Reinders Folmer on When Contributions Need to Be Paid
+September 27, 2023
+
+#91 – Vagelis Papaioannou on How to Learn to Use WordPress and Help With Events
+September 20, 2023
+
+
+
+Related Reads
+#95 – Pooja Derashri on Diversity, Equity, Inclusion, and Belonging in WordPressOctober 18, 2023#10 – What’s in WordPress 5.9, and What Is Openverse?December 2, 2021#29 – Remkus de Vries on How WordCamp Europe Got StartedJune 8, 2022
+
+
+
+
+Latest Podcast
+
+#95 – Pooja Derashri on Diversity, Equity, Inclusion, and Belonging in WordPress
+On the podcast today we have Pooja Derashri. Pooja is a co-founder of WPVibes, a plugin development company based in India. Pooja shares her insights on the importance of diversity, equity, inclusion, and belonging within the WordPress community, and explores how you don’t need to be a coder to be a part of the community…Listen Now
+
+
+
+
+
+Newsletter
+Subscribe Via Email
+Enter your email address to subscribe to this blog and receive notifications of new posts by email.
+
+
+
+
+
+
+
+								Type your email…							
+
+
+
+
+
+
+
+
+ 
+								Submit							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About WP Tavern
+WordPress Tavern is a website about all things WordPress. We cover news and events, write plugin and theme reviews, and talk about key issues within the WordPress ecosystem…
+
+
+
+HomeAboutArchiveWrite For UsAsk the Bartender
+
+
+Twitter
+Facebook
+Instagram
+
+
+
+
+© All Rights Reserved. Powered by WordPress, hosted by Pressable 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%d bloggers like this:
+
+
+
+
