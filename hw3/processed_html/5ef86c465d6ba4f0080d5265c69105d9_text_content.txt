@@ -1,0 +1,335 @@
+
+
+
+
+
+
+
+WordPress 6.4 Beta 3 – WordPress News
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Log InRegister 
+
+
+
+
+
+
+WordPress.org
+
+
+ 
+
+
+
+
+
+
+
+NewsShowcaseHostingExtendThemesPluginsPatternsBlocksOpenverse ↗︎LearnLearn WordPressDocumentationForumsDevelopersWordPress.tv ↗︎CommunityMake WordPressPhoto DirectoryFive for the FutureWordCamp ↗︎Meetups ↗︎Job Board ↗︎AboutAbout WordPressEnterpriseGutenberg ↗︎Swag Store ↗︎Get WordPress
+
+
+
+
+
+
+
+
+
+
+
+Search in WordPress.org
+
+
+
+
+
+
+
+
+
+		Get WordPress	
+
+
+
+
+
+News
+
+
+
+
+
+Categories
+
+
+
+
+All Posts
+Awards
+
+Community
+
+Design
+
+Development
+
+Documentation
+
+Events
+
+Features
+
+General
+
+Interviews
+
+Meta
+
+Month in WordPress
+
+Podcast
+Releases
+
+Security
+
+Store
+
+Testing
+
+Updates
+
+WordCamp
+
+
+
+
+
+
+
+
+
+
+October 10, 2023
+			By Meher Bala
+			in Development, Releases
+
+WordPress 6.4 Beta 3
+
+
+
+
+WordPress 6.4 Beta 3 is now available for testing!
+This beta version of the WordPress software is under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it is recommended that you evaluate Beta 3 on a test server and site.
+You can test WordPress 6.4 Beta 3 in three ways:
+
+Plugin: Install and activate the WordPress Beta Tester plugin on a WordPress install (select the “Bleeding edge” channel and “Beta/RC Only” stream).
+Direct download: Download the Beta 3 version (zip) and install it on a WordPress website.
+Command line: Use the following WP-CLI command:wp core update --version=6.4-beta3
+
+The current target for the final release of WordPress 6.4 is November 7, 2023. Get an overview of the 6.4 release cycle, and check the Make WordPress Core blog for 6.4-related posts in the coming weeks for more information.
+The WordPress 6.4 release is brought to you by an underrepresented gender release squad to welcome the participation and partnership of those who identify as gender-underrepresented in the WordPress open source project.
+Want to know what’s new in WordPress 6.4? Read the Beta 1 announcement for details.
+
+Get involved in testing
+Your help testing WordPress 6.4 Beta 3 is key to ensuring its quality. While testing the upgrade process is essential, trying out new features is equally important. This detailed guide will walk you through testing features in WordPress 6.4.
+If you encounter an issue, please report it to the Alpha/Beta area of the support forums or directly to WordPress Trac if you are comfortable writing a reproducible bug report. You can also check your issue against a list of known bugs.
+Learn more about Gutenberg updates debuting in WordPress 6.4 by reviewing prior editions of What’s New in Gutenberg posts for 16.2, 16.3, 16.4, 16.5, 16.6, and 16.7.
+Curious about testing releases in general? Follow along with the testing initiatives in Make Core and join the #core-test channel on Making WordPress Slack.
+Vulnerability bounty doubles during Beta 3
+Between Beta 1 and the final release candidate (RC) for each new WordPress version, the monetary reward for reporting new, unreleased security vulnerabilities is doubled. Please follow responsible disclosure practices as detailed in the project’s security practices and policies outlined on the HackerOne page and in the security white paper.
+
+Update on the Font Library
+The Font Library feature, initially planned for WordPress 6.4, is now set to release in 6.5. WordPress is committed to delivering the best possible experience. This decision allows time to address enhancement opportunities, test, and get enough feedback to meet WordPress’s quality standards. Thanks for your support as contributors work towards an exceptional Font Library experience.
+
+Beta 3 highlights
+WordPress 6.4 Beta 3 contains more than 60 updates since the Beta 2 release, including 29 tickets for WordPress core.
+Each beta cycle focuses on bug fixes; more are on the way with your help through testing. You can browse the technical details for all issues addressed since Beta 2 using these links:
+
+GitHub commits for 6.4
+Closed Trac tickets since Beta 2
+GitHub commits for Twenty Twenty-Four
+
+
+A Beta 3 haiku
+Beta 3 arrivesTesting where progress derivesIterate, it thrives
+Thank you to the following contributors for collaborating on this post: @meher, @rmartinezduque, @cbringmann, @sereedmedia and @michelleames
+Share this:TwitterFacebookEmailLike this:Like Loading…
+
+
+
+
+
+
+Previous WordPress 6.4 Beta 2
+Next WordPress 6.3.2 – Maintenance and Security release
+
+
+
+
+
+About
+News
+Hosting
+Privacy
+
+
+Showcase
+Themes
+Plugins
+Patterns
+
+
+Learn
+Documentation
+Developers
+WordPress.tv ↗
+
+
+Get Involved
+Donate ↗
+Swag Store ↗
+WordCamp ↗
+
+
+WordPress.com ↗
+Matt ↗
+bbPress ↗
+BuddyPress ↗
+
+
+
+
+
+
+
+
+WordPress.org
+
+
+ 
+
+
+
+
+WordPress.org
+
+
+
+ 
+
+
+
+Visit our Facebook page
+Visit our X (formerly Twitter) account
+Visit our Instagram account
+Visit our LinkedIn account
+Visit our YouTube channel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%d bloggers like this:
+
+
