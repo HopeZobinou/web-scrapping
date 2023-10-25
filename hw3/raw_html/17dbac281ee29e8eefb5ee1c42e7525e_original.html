@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Life at Automattic, Inc. Q&amp;A with Newspack’s Daniel Brown</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://developer.wordpress.com/xmlrpc.php">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Merriweather:700' rel='stylesheet' type='text/css'>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//wordpress.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Developer Resources &raquo; Feed" href="https://developer.wordpress.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Developer Resources &raquo; Comments Feed" href="https://developer.wordpress.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Developer Resources &raquo; Life @ Automattic: hanging with Newspack’s Daniel&nbsp;Brown Comments Feed" href="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+	<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s2.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1677072837i&ver=6.4-beta3-56826"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-1' href='https://s1.wp.com/_static/??-eJxtzFsKwjAQheENmYxRqfogriWXIaSdXMgkSndvLYqgPn6cww/3ImxODVOD2EWh7kNiGLEVbaeXgXuCmF0nZKhIuqETJXP7krTMG/hfpDDhp7vq5/7++r7QYPXLUhFuapAnqcD0QA4M5TVgqq4zcJsJn6FrvKjhfFQHtd9txwdzqk8V&cssminify=yes' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify {
+	text-align:justify;
+}
+.wp-block-cover__image-background.has-parallax {
+	background-size: cover;
+}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-2-1' href='https://s0.wp.com/_static/??-eJyVjV0OwiAQBi8kEKrR+mA8C4UN2br8hAVNby8mprEvGh8n+82semSB0VJzwGpmFcChAYIAsW4gk1mgCAJv7CIDRmmZd+qb3m+fvJFsivW1ydQ8Rla+dZygeDFRsrceg5qNvYn+NrUqfEGnuC4E/yeKqRg9/9BtemuD1KPUgjFkAlHgLg/KIdd1IdbQNVz0cdTjfhjOp/kJMmh7kg==&cssminify=yes' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-4-1' href='https://s2.wp.com/_static/??-eJx9jcEKg0AMRH+oaVhorR7Eb9E16IpZg8min2889FZ6GYbhPQYPgbhlo2zIBWQtU8qKcdvJd5be0AmmMfW0Ejv2jKoP/K0daZzIXNdvB6PzvyJ+A8MgO6mCJ6fCYLN/6e113IZXU9WfUL/DcgHSTkDo&cssminify=yes' type='text/css' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--albert-sans: 'Albert Sans';--wp--preset--font-family--alegreya: Alegreya;--wp--preset--font-family--arvo: Arvo;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda';--wp--preset--font-family--cabin: Cabin;--wp--preset--font-family--chivo: Chivo;--wp--preset--font-family--commissioner: Commissioner;--wp--preset--font-family--cormorant: Cormorant;--wp--preset--font-family--courier-prime: 'Courier Prime';--wp--preset--font-family--crimson-pro: 'Crimson Pro';--wp--preset--font-family--dm-mono: 'DM Mono';--wp--preset--font-family--dm-sans: 'DM Sans';--wp--preset--font-family--domine: Domine;--wp--preset--font-family--eb-garamond: 'EB Garamond';--wp--preset--font-family--epilogue: Epilogue;--wp--preset--font-family--figtree: Figtree;--wp--preset--font-family--fira-sans: 'Fira Sans';--wp--preset--font-family--fraunces: Fraunces;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono';--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans';--wp--preset--font-family--inter: Inter;--wp--preset--font-family--josefin-sans: 'Josefin Sans';--wp--preset--font-family--jost: Jost;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville';--wp--preset--font-family--libre-franklin: 'Libre Franklin';--wp--preset--font-family--literata: Literata;--wp--preset--font-family--lora: Lora;--wp--preset--font-family--merriweather: Merriweather;--wp--preset--font-family--montserrat: Montserrat;--wp--preset--font-family--newsreader: Newsreader;--wp--preset--font-family--nunito: Nunito;--wp--preset--font-family--open-sans: 'Open Sans';--wp--preset--font-family--overpass: Overpass;--wp--preset--font-family--petrona: Petrona;--wp--preset--font-family--piazzolla: Piazzolla;--wp--preset--font-family--playfair-display: 'Playfair Display';--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans';--wp--preset--font-family--poppins: Poppins;--wp--preset--font-family--raleway: Raleway;--wp--preset--font-family--roboto-slab: 'Roboto Slab';--wp--preset--font-family--roboto: Roboto;--wp--preset--font-family--rubik: Rubik;--wp--preset--font-family--sora: Sora;--wp--preset--font-family--source-sans-pro: 'Source Sans Pro';--wp--preset--font-family--source-serif-pro: 'Source Serif Pro';--wp--preset--font-family--space-mono: 'Space Mono';--wp--preset--font-family--texturina: Texturina;--wp--preset--font-family--work-sans: 'Work Sans';--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-6-1' href='https://s2.wp.com/_static/??-eJx9jVEOwiAQRC8kro1G64fxLC2sSAWWdJdWby9GYzAa/2Ymb2ZgTkpTFIwCIavks3WRYcKxzwGMYwEXDV6XmnkBFSxnDMjQtbqkmoLBaQ0sN49P1EEkcYXmt/jaqA4HlNTpy8sD5wiBTPblYnbGojAIJZWIi6pufq9ZJOVJd+Iofhh18p0b/1VH7D3ZIi0UqrKP0jEcmu2+bXarTdMMd/8tdhA=&cssminify=yes' type='text/css' media='all' />
+<style id='jetpack-global-styles-frontend-style-inline-css'>
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+</style>
+<link crossorigin='anonymous' rel='stylesheet' id='all-css-8-1' href='https://s0.wp.com/_static/??-eJyNjcsKAjEMRX/IGgbGyizET5HYhrZjmhTTIv69D9yIG3f3wOUcuDUXVDpJhzpc45GKGKzUG4bLh8GGQNU4mAws45Uixnh/zyJpG8w28LfoVCSAaSjIjjWpfcGPrGeqz2yeIbGekV+HYz1Mftn73bxMfn0AuUhIbg==&cssminify=yes' type='text/css' media='all' />
+	<script type="text/javascript">
+	if ( window.top !== window.self ) {
+		if ( window.top.location.hostname !== window.self.location.hostname || window.top.location.protocol !== window.top.location.protocol ) {
+			window.top.location.href = window.self.location.href;
+		}
+	}
+	</script><script id='jetpack_related-posts-js-extra'>
+var related_posts_js_options = {"post_heading":"h4"};
+</script>
+<script id='media-video-jwt-bridge-js-extra'>
+var videopressAjax = {"ajaxUrl":"https:\/\/developer.wordpress.com\/wp-admin\/admin-ajax.php","bridgeUrl":"\/wp-content\/mu-plugins\/jetpack-plugin\/sun\/jetpack_vendor\/automattic\/jetpack-videopress\/build\/lib\/token-bridge.js","post_id":"97876"};
+</script>
+<script id='wpcom-actionbar-placeholder-js-extra'>
+var actionbardata = {"siteID":"33534099","postID":"97876","siteURL":"http:\/\/developer.wordpress.com","xhrURL":"https:\/\/developer.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"f9af2e29b5","isLoggedIn":"","statusMessage":"","subsEmailDefault":"instantly","proxyScriptUrl":"https:\/\/s0.wp.com\/wp-content\/js\/wpcom-proxy-request.js?ver=20211021","shortlink":"https:\/\/wp.me\/p2gHKz-psE","i18n":{"followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/read\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar"}};
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s1.wp.com/_static/??-eJyVkOFOwzAMhF+IzEOTyviBeJQpTUxxl9jBcQp9ewIqaCBA4pfl09nf6eC5uCBsyAZzhSwjJXStovqpa474QXZzvYILX26upDYRV5jRig/nbYfaGE7EAcZGKYJi8obRFalWv267TPz9b+drMldUXtY/mAvq2DLElX2m4JL4iPrh7/DUIta3Z/NTQ123cQn81eQyTdpD/pTOHjH3E38MXQ2SIy6H98qQ2/8a2qTTghxFwTeT7M0ofJoXiihFsdatyUQjmJyR3agUJ+zA+3x3PdzeDIf9cdjPr6bkqrg='></script>
+<script id="rlt-proxy-js-after" type="text/javascript">
+	window.addEventListener( 'DOMContentLoaded', function() {
+		rltInitialize( {"token":null,"iframeOrigins":["https:\/\/widgets.wp.com"]} );
+	} );
+</script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://developer.wordpress.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/" />
+<link rel='shortlink' href='https://wp.me/p2gHKz-psE' />
+	<style>
+		@font-face {
+			font-family: Recoleta;
+			font-display: swap;
+			src: url('https://s1.wp.com/i/fonts/recoleta/400.woff2')
+		}
+	</style>
+	<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Fdeveloper.wordpress.com%2F2023%2F10%2F11%2Flife-automattic-hanging-with-newspacks-daniel-brown%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Fdeveloper.wordpress.com%2F2023%2F10%2F11%2Flife-automattic-hanging-with-newspacks-daniel-brown%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Life at Automattic, Inc. Q&amp;A with Newspack’s Daniel Brown" />
+<meta property="og:url" content="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/" />
+<meta property="og:description" content="Welcome to “Life @ Automattic,” a series of conversations with the people behind the products. Today we speak with Daniel Brown, a Technical Account Manager for Newspack." />
+<meta property="article:published_time" content="2023-10-11T12:34:06+00:00" />
+<meta property="article:modified_time" content="2023-10-11T12:34:06+00:00" />
+<meta property="og:site_name" content="Developer Resources" />
+<meta property="og:image" content="https://developer.files.wordpress.com/2023/10/img_4295.jpg" />
+<meta property="og:image:width" content="4032" />
+<meta property="og:image:height" content="3024" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta property="fb:app_id" content="249643311490" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<meta name="twitter:creator" content="@AutomatticEng" />
+<meta name="twitter:site" content="@AutomatticEng" />
+<meta name="twitter:text:title" content="Life @ Automattic: hanging with Newspack’s Daniel&nbsp;Brown" />
+<meta name="twitter:image" content="https://developer.files.wordpress.com/2023/10/img_4295.jpg?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:app:name:iphone" content="Jetpack" />
+<meta name="twitter:app:id:iphone" content="1565481562" />
+<meta name="twitter:app:name:ipad" content="Jetpack" />
+<meta name="twitter:app:id:ipad" content="1565481562" />
+<meta name="twitter:app:name:googleplay" content="Jetpack" />
+<meta name="twitter:app:id:googleplay" content="com.jetpack.android" />
+<meta name="twitter:app:url:iphone" content="wordpress://viewpost?blogId=33534099&amp;postId=97876" />
+<meta name="twitter:app:url:ipad" content="wordpress://viewpost?blogId=33534099&amp;postId=97876" />
+<meta name="twitter:app:url:googleplay" content="wordpress://viewpost?blogId=33534099&amp;postId=97876" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="shortcut icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=32" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=32" sizes="16x16" />
+<link rel="apple-touch-icon" href="https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=114" />
+<link rel='openid.server' href='https://developer.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://developer.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://developer.wordpress.com/osd.xml" title="Developer Resources" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="application-name" content="Developer Resources" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="Create cool applications that integrate with WordPress.com" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://developer.wordpress.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=16" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico" /><meta name="description" content="Welcome to “Life @ Automattic,” a series of conversations with the people behind the products. Today we speak with Daniel Brown, a Technical Account Manager for Newspack." />
+			<link rel="stylesheet" id="custom-css-css" type="text/css" href="https://s1.wp.com/?custom-css=1&#038;csblog=2gHKz&#038;cscache=6&#038;csrev=47" />
+			<!-- Your Google Analytics Plugin is missing the tracking ID -->
+</head>
+
+<body class="post-template-default single single-post postid-97876 single-format-standard customizer-styles-applied">
+<div id="page" class="hfeed site">
+
+	<header id="masthead" class="site-header" role="banner">
+			<nav id="site-navigation" class="main-navigation" role="navigation">
+				<form role="search" method="get" class="search-form" action="https://developer.wordpress.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:'" />
+	</label>
+</form>				<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-5714" class="menu-item-home menu-item menu-item-type-post_type menu-item-object-page menu-item-5714"><a href="https://developer.wordpress.com/">Developers</a></li>
+<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-32"><a href="https://developer.wordpress.com/docs/">Documentation</a>
+<ul class="sub-menu">
+	<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-34"><a href="https://developer.wordpress.com/docs/api/">REST API</a>
+	<ul class="sub-menu">
+		<li id="menu-item-90807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90807"><a href="https://developer.wordpress.com/docs/api/getting-started/">Getting Started</a></li>
+		<li id="menu-item-28306" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28306"><a href="https://developer.wordpress.com/docs/api/console/">Developer Console</a></li>
+		<li id="menu-item-88679" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88679"><a href="https://developer.wordpress.com/docs/api/rest-api-example-apps/">Example Apps</a></li>
+	</ul>
+</li>
+	<li id="menu-item-28277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28277"><a href="https://developer.wordpress.com/docs/oauth2/">Authentication</a>
+	<ul class="sub-menu">
+		<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://developer.wordpress.com/docs/oauth2/">OAuth</a></li>
+		<li id="menu-item-4109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4109"><a href="https://developer.wordpress.com/docs/wpcc/">WordPress.com Connect (Login)</a></li>
+	</ul>
+</li>
+	<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="https://developer.wordpress.com/docs/oembed-provider-api/">oEmbed API</a></li>
+	<li id="menu-item-28280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28280"><a href="https://developer.wordpress.com/docs/follow-button-creation/">Embeddable Widgets</a>
+	<ul class="sub-menu">
+		<li id="menu-item-4573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4573"><a href="https://developer.wordpress.com/docs/follow-button-creation/">Follow Button</a></li>
+		<li id="menu-item-5138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5138"><a href="https://developer.wordpress.com/docs/embedded-timelines/">Timeline</a></li>
+	</ul>
+</li>
+	<li id="menu-item-28282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28282"><a href="https://developer.wordpress.com/docs/embedding-on-wordpress-com/">Other Integrations</a>
+	<ul class="sub-menu">
+		<li id="menu-item-9582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9582"><a href="https://developer.wordpress.com/docs/embedding-on-wordpress-com/">Embedding</a></li>
+		<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="https://developer.wordpress.com/docs/sharing-buttons/">Sharing Buttons</a></li>
+		<li id="menu-item-1861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1861"><a href="https://developer.wordpress.com/themes/">Theme Guide</a></li>
+		<li id="menu-item-95827" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95827"><a href="https://developer.wordpress.com/docs/firehose/">WordPress.com Firehose</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-35"><a href="https://developer.wordpress.com/blog/">Blog</a></li>
+<li id="menu-item-135" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-135"><a href="https://developer.wordpress.com/apps/">My Apps</a></li>
+</ul></div>				<a href="#" id="menu-hamburger"><span class="noticon noticon-menu"></span></a>
+				<a href="#" id="menu-search"><span class="noticon noticon-search"></span></a>
+			</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
+
+	<div id="main-container">
+					<div id="page-name" class="page-masthead">
+				<div class="name-area">
+					<h1>
+						Life @ Automattic: hanging with Newspack’s Daniel&nbsp;Brown					</h1>
+				</div>
+			</div>
+		
+		<div class="site-content">
+			
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-97876" class="post-97876 post type-post status-publish format-standard hentry category-interviews tag-lifeautomattic">
+	<header class="entry-header">
+		<div class="entry-meta">
+			<span class="posted-on">Posted on <a href="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/" rel="bookmark"><time class="entry-date published" datetime="2023-10-11T12:34:06+00:00">Wednesday October 11th 2023</time></a></span><span class="byline"> by <span class="author vcard"><img alt='' src='https://1.gravatar.com/avatar/4ceac1f0bcf83a43b8b42baa2cb2d9ef9a820532f57a354d7c630bfeae6a57e1?s=32&#038;d=identicon&#038;r=G' srcset='https://1.gravatar.com/avatar/4ceac1f0bcf83a43b8b42baa2cb2d9ef9a820532f57a354d7c630bfeae6a57e1?s=32&#038;d=identicon&#038;r=G 1x, https://1.gravatar.com/avatar/4ceac1f0bcf83a43b8b42baa2cb2d9ef9a820532f57a354d7c630bfeae6a57e1?s=48&#038;d=identicon&#038;r=G 1.5x, https://1.gravatar.com/avatar/4ceac1f0bcf83a43b8b42baa2cb2d9ef9a820532f57a354d7c630bfeae6a57e1?s=64&#038;d=identicon&#038;r=G 2x, https://1.gravatar.com/avatar/4ceac1f0bcf83a43b8b42baa2cb2d9ef9a820532f57a354d7c630bfeae6a57e1?s=96&#038;d=identicon&#038;r=G 3x, https://1.gravatar.com/avatar/4ceac1f0bcf83a43b8b42baa2cb2d9ef9a820532f57a354d7c630bfeae6a57e1?s=128&#038;d=identicon&#038;r=G 4x' class='avatar avatar-32' height='32' width='32' loading='lazy' decoding='async' /> <a class="url fn n" href="https://developer.wordpress.com/author/apartness/">L. Jeffrey Zeldman</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		
+<figure class="wp-block-image size-large"><a href="https://developer.files.wordpress.com/2023/10/img_4351.jpg"><img data-attachment-id="97878" data-permalink="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/img_4351/" data-orig-file="https://developer.files.wordpress.com/2023/10/img_4351.jpg" data-orig-size="4032,3024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 12 Pro Max&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1696954205&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;1.54&quot;,&quot;iso&quot;:&quot;125&quot;,&quot;shutter_speed&quot;:&quot;0.01010101010101&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;latitude&quot;:&quot;37.292266666667&quot;,&quot;longitude&quot;:&quot;-76.519508333333&quot;}" data-image-title="img_4351" data-image-description="" data-image-caption="" data-medium-file="https://developer.files.wordpress.com/2023/10/img_4351.jpg?w=300" data-large-file="https://developer.files.wordpress.com/2023/10/img_4351.jpg?w=780" width="1024" height="768" src="https://developer.files.wordpress.com/2023/10/img_4351.jpg?w=1024" alt="Daniel Brown at his home-based workstation. Dan is relaxed, leaning against his desk, smiling broadly and wearing a tee shirt. Three monitors, a tablet, and an Apple Studio are visible. Behind him, on the wall, hang buitars and a banjo." class="wp-image-97878" srcset="https://developer.files.wordpress.com/2023/10/img_4351.jpg?w=1024 1024w, https://developer.files.wordpress.com/2023/10/img_4351.jpg?w=2048 2048w, https://developer.files.wordpress.com/2023/10/img_4351.jpg?w=150 150w, https://developer.files.wordpress.com/2023/10/img_4351.jpg?w=300 300w, https://developer.files.wordpress.com/2023/10/img_4351.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption class="wp-element-caption">Daniel Brown at his home-based workstation. Photos by Harper Brown.</figcaption></figure>
+
+
+
+<p class="has-medium-font-size">What’s it like to work at a <a href="https://distributed.blog/">fully distributed company</a> with a <a href="https://automattic.com/about/">worldwide team and culture</a> guided by a <a href="https://automattic.com/creed/">Creed</a>? Welcome to “Life @ Automattic,” a series of Q&amp;As with the people behind the products. Today we speak with Daniel Brown, a Technical Account Manager for Newspack.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Who are you, and what do you do?</strong></h2>
+
+
+
+<p>I have two simple qualities that define me: leave things better than when I found them, and empower others to do the same. This has grown out of being a father of two great kids, and having a strong positive outlook. Automattic pushes me to demonstrate these qualities in my role as a Technical Account Manager (TAM) for <a href="https://newspack.com/">Newspack</a>, working with news organizations and publications all over the world. We help migrate these publications from their current web stack over to WordPress under Newspack. Part of this commitment includes translating the publisher’s vision into a Newspack solution in order for the team and publication to become self-sustaining and self-sufficient. But that doesn’t mean we leave them to their own devices once they are here.&nbsp; We check in regularly to make sure they are still on a path to be successful.&nbsp;&nbsp;</p>
+
+
+
+<figure class="wp-block-pullquote"><blockquote><p>We are part developer, part educator, and all empathizer.&nbsp;– Daniel Brown</p></blockquote></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>What exactly </strong><strong><em>is</em></strong><strong> a TAM? What better-known tech roles, if any, does it map to?</strong></h2>
+
+
+
+<p>A TAM is a project manager that can talk shop around technical details and help translate features into sustainable solutions. More importantly, we help fulfill the promise of WordPress by building relationships with our publishers. That promise centers around our publishers having the ability to communicate and express their values to their communities. We are part developer, part educator, and all empathizer. This is why a TAM role is crucial, as we create trust in the product, trust in the process, and trust in the result.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>What did you do before you worked here? How, if at all, did it compare? How did it lead you here?</strong></h2>
+
+
+
+<p>Before Automattic, I worked as an IT director for a real estate company, and lived in the stereotypical corporate office job. Between sleep, work, and commuting, I could only devote a few hours a day to my family, and none at all to myself.&nbsp; The work wasn’t satisfying and the benefits did not outweigh the grind. As with any job, TAM’s still have a grind, but I’d rather be grinding on diamonds than stone. It is much more meaningful and rewarding.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Describe a typical day at work.</strong></h2>
+
+
+
+<figure class="wp-block-image size-large is-style-default"><a href="https://developer.files.wordpress.com/2023/10/img_4479.jpg"><img data-attachment-id="97884" data-permalink="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/img_4479/" data-orig-file="https://developer.files.wordpress.com/2023/10/img_4479.jpg" data-orig-size="4032,3024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 12 Pro Max&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1696954500&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;1.54&quot;,&quot;iso&quot;:&quot;200&quot;,&quot;shutter_speed&quot;:&quot;0.0083333333333333&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;latitude&quot;:&quot;37.292305555556&quot;,&quot;longitude&quot;:&quot;-76.519508333333&quot;}" data-image-title="img_4479" data-image-description="" data-image-caption="" data-medium-file="https://developer.files.wordpress.com/2023/10/img_4479.jpg?w=300" data-large-file="https://developer.files.wordpress.com/2023/10/img_4479.jpg?w=780" width="1024" height="768" src="https://developer.files.wordpress.com/2023/10/img_4479.jpg?w=1024" alt="A typical day at work: Daniel goes nuts on his Gibson guitar." class="wp-image-97884" srcset="https://developer.files.wordpress.com/2023/10/img_4479.jpg?w=1024 1024w, https://developer.files.wordpress.com/2023/10/img_4479.jpg?w=2048 2048w, https://developer.files.wordpress.com/2023/10/img_4479.jpg?w=150 150w, https://developer.files.wordpress.com/2023/10/img_4479.jpg?w=300 300w, https://developer.files.wordpress.com/2023/10/img_4479.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<p>Daily work can feel a bit like being a telephone operator from the 1950’s. It involves digesting information, conveying it, and connecting one channel to another. Connecting the publisher’s expectations to the engineer’s work to increase the efficiency of the migration. Connecting lessons learned back to the sales team, so they can help set better expectations, allowing us to deliver on realistic goals. Connecting feature requests to the product team to help fill gaps when rolling out new versions of Newspack. To do all that effectively, you need to stay on top of a lot of moving parts. So my calendar is time-blocked for a little bit of everything — including mental breaks.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>As a TAM at Automattic, what’s one of the more exciting projects (or milestones) that you’ve had the opportunity to work on?</strong></h2>
+
+
+
+<p><em>Bethesda Magazine</em> came to Newspack because their current web stack was failing. Their workflows were not scalable, adding editorial content was slow, and they were looking to become more efficient by using the tools Newspack had to offer. As a TAM, I started to map out the site and discovered that they were using custom post types for their listings product – post types which didn’t quite fit into the Newspack mold. As we were approaching our launch timeline, and our launch engineers were working on migrating other publications, it put me in an awkward situation. </p>
+
+
+
+<p>This is the moment of my breakthrough. Unsure how to manage the situation, I consulted other TAMs. With their help, I was able to break down the custom posts into a simple process that has fundamentally changed the way I approach future migrations.<br><br>Previously, I reasonably assumed all data, configurations, and details were crucial and must be migrated. As it turns out, Bethesda was wanting to move away from the way they were doing things, and, as long as we could recapture the spirit of the product they were providing, they had no issues leaving behind the failed processes even if it meant a loss of data.</p>
+
+
+
+<p>Armed with this new understanding, I was able to parse the data into two groups: what was essential to the product and what was not. This allowed me to complete the migration with greater efficiency and without the need to derail our engineers from their other migrations. Bethesda have since rebranded to <a href="https://moco360.media/">Moco360</a>, and are still enjoying life on Newspack.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://developer.files.wordpress.com/2023/10/img_4214.jpg"><img data-attachment-id="97888" data-permalink="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/img_4214/" data-orig-file="https://developer.files.wordpress.com/2023/10/img_4214.jpg" data-orig-size="4032,3024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;1.6&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 12 Pro Max&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1696953542&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;5.1&quot;,&quot;iso&quot;:&quot;50&quot;,&quot;shutter_speed&quot;:&quot;0.0083333333333333&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;latitude&quot;:&quot;37.292277777778&quot;,&quot;longitude&quot;:&quot;-76.519494444444&quot;}" data-image-title="img_4214" data-image-description="" data-image-caption="" data-medium-file="https://developer.files.wordpress.com/2023/10/img_4214.jpg?w=300" data-large-file="https://developer.files.wordpress.com/2023/10/img_4214.jpg?w=780" width="1024" height="768" src="https://developer.files.wordpress.com/2023/10/img_4214.jpg?w=1024" alt="The man and his best friend." class="wp-image-97888" srcset="https://developer.files.wordpress.com/2023/10/img_4214.jpg?w=1024 1024w, https://developer.files.wordpress.com/2023/10/img_4214.jpg?w=2048 2048w, https://developer.files.wordpress.com/2023/10/img_4214.jpg?w=150 150w, https://developer.files.wordpress.com/2023/10/img_4214.jpg?w=300 300w, https://developer.files.wordpress.com/2023/10/img_4214.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>What methods have you come up with to make sure you take breaks? Any tips you can share?</strong></h2>
+
+
+
+<p>There are a few different ways I have gotten creative with breaks. The best one I found is to have bite size hobbies. Bite size hobbies are hobbies that you can engage in and exit quickly. Walking the dog and drinking lots of water are great ways to step away from the computer, but having a bite size hobby that genuinely pushes you has several benefits. It creates enrichment, and channels personal growth. For me, I force myself to pick up the guitar and practice chords for a few minutes. Do this over the course of a month, you will begin to get good at the guitar. <br><br>And there are loads of bite size hobbies that you can start. Study a new language, learn to juggle, put in a few minutes at the easel, trim a houseplant, sculpt with Play-Doh, learn to throw darts, or practice a yoga pose… okay, so my wife had some questions when she walked into my office on that last one, but the point is, you can develop a talent or hobby that fits inside of your mental breaks, and it becomes as routine as checking your Slack messages. Stay consistent with it, and become expert at it within a short amount of time. Tumblr videos optional of course. 😉</p>
+
+
+
+<figure class="wp-block-pullquote"><blockquote><p>“This is the only place I’ve ever worked where I feel I can perform for the sake of the client, not for the sake of the job.”</p></blockquote></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>What are some challenges you’ve faced, and how did you overcome them?</strong></h2>
+
+
+
+<p>When you do what you love, it is easy to want to put in more effort than you are capable of. It is important to remember to take care of yourself first, otherwise everyone else will receive you at your worst. It is important not to burn out as, to the partner, you’re not just the face of the company, you <em>are</em> the company. When navigating with publishers, their impression of WordPress and Newspack is coming directly from the experiences you are creating. That can create a lot of weight, but you are never lifting alone. Be vulnerable with your team and place your trust in them. Mine has supported me through challenging situations, and helped to shine light in areas I couldn’t see.  </p>
+
+
+
+<h2 class="wp-block-heading"><strong>What’s unique or unusual about the work you do at Automattic?&nbsp;</strong></h2>
+
+
+
+<p>Automattic itself is unique, as I truly believe they nurture the skills and talents I bring to the table. My team knows and values my strengths, and supports me with opportunities to exercise and improve them. This is the only place I’ve ever worked where I feel I can perform for the sake of the client, not for the sake of the job. I can focus my time on creating an amazing experience for the publisher, rather than surviving a dog-eat-dog environment.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://developer.files.wordpress.com/2023/10/img_4295.jpg"><img data-attachment-id="97890" data-permalink="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/img_4295/" data-orig-file="https://developer.files.wordpress.com/2023/10/img_4295.jpg" data-orig-size="4032,3024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 12 Pro Max&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1696954041&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;1.54&quot;,&quot;iso&quot;:&quot;100&quot;,&quot;shutter_speed&quot;:&quot;0.01010101010101&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;latitude&quot;:&quot;37.292255555556&quot;,&quot;longitude&quot;:&quot;-76.519508333333&quot;}" data-image-title="img_4295" data-image-description="" data-image-caption="" data-medium-file="https://developer.files.wordpress.com/2023/10/img_4295.jpg?w=300" data-large-file="https://developer.files.wordpress.com/2023/10/img_4295.jpg?w=780" loading="lazy" width="1024" height="768" src="https://developer.files.wordpress.com/2023/10/img_4295.jpg?w=1024" alt="Dan at his desk, making the universal &quot;talk to the hand&quot; gesture ... but with a big old grin on his face." class="wp-image-97890" srcset="https://developer.files.wordpress.com/2023/10/img_4295.jpg?w=1024 1024w, https://developer.files.wordpress.com/2023/10/img_4295.jpg?w=2048 2048w, https://developer.files.wordpress.com/2023/10/img_4295.jpg?w=150 150w, https://developer.files.wordpress.com/2023/10/img_4295.jpg?w=300 300w, https://developer.files.wordpress.com/2023/10/img_4295.jpg?w=768 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>What keeps you going? What gets you charged up to come to work in the morning?</strong></h2>
+
+
+
+<p>I am the person behind the counter serving ice cream to kids. It is the perfect analogy for the TAM role.I can be opinionated about which flavors go well with different toppings. I can be creative in the deliverables and express my personality through my work. I can collect information around high demand menu items or traffic patterns, and offer feedback where needed. <br><br>But the best part of the analogy is that I am making a difference in someone’s life  — like showing an excited child a new flavor of ice cream, or  helping a new romantic couple discover their  “official first flavor” on a first date.  I create the same feeling for the publisher who has been struggling to post content for years due to a failing web stack. Or the author who had to stay late day-after-day to load content in five different places — and can now go home on time because they can create complete content in one location. <br><br>Experienced publishers are excited to move to our platform because it gives them a fresh outlook on their site and removes the burdens they’ve carried for years. In other cases, I help build confidence in a person looking to start a new site, and provide them with a steady foundation as they grow. Either way, it is game changing, and I want to be a part of that.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>What advice would you give to someone who wants to get into TAM work at Automattic?</strong></h2>
+
+
+
+<p>The TAM role can be overwhelming when first starting out. So there are some competencies that are worth having, such as organizational skills, multi-tasking (more specifically context switching), and sympathy. If you focus on building your skill sets in these areas, not only will you do well by not getting caught up in the mechanics of the role, but you‘ll enjoy the impactful and meaningful results of the TAM career at Automattic.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Thanks for spending time with us, Daniel!&nbsp;</strong></h3>
+
+
+
+<h2 class="wp-block-heading" style="font-style:normal;font-weight:500;text-transform:uppercase"><br><strong><em>ABOUT AUTOMATTIC</em></strong></h2>
+
+
+
+<p><em>Founded in 2005 by Matt Mullenweg, the co-creator of WordPress software, Automattic has been recognized as one of the world’s most innovative companies. We’re the tech powerhouse behind </em><a href="https://wordpress.com/"><em>WordPress.com</em></a><em>, </em><a href="https://newspack.com/"><em>Newspack</em></a><em>,</em> <a href="https://woocommerce.com/"><em>WooCommerce</em></a><em>, </em><a href="https://jetpack.com/"><em>Jetpack</em></a><em>, </em><a href="https://wpvip.com/"><em>WordPress VIP</em></a><em>, </em><a href="https://simplenote.com/"><em>Simplenote</em></a><em>, </em><a href="https://longreads.com/"><em>Longreads</em></a><em>, </em><a href="http://wpscan.com/"><em>WPScan</em></a><em>, </em><a href="https://akismet.com/"><em>Akismet</em></a><em>, </em><a href="https://en.gravatar.com/"><em>Gravatar</em></a><em>, </em><a href="https://crowdsignal.com/"><em>Crowdsignal</em></a><em>, </em><a href="https://cloudup.com/"><em>Cloudup</em></a><em>, </em><a href="https://www.tumblr.com/"><em>Tumblr</em></a><em>, </em><a href="https://dayoneapp.com/"><em>Day One</em></a><em>, </em><a href="https://www.pocketcasts.com/"><em>Pocket Casts</em></a><em>, and more. As of today, there are over 1950 Automatticians in 95 countries speaking 120 different languages. </em><a href="https://automattic.com/work-with-us/"><em>Maybe you can be one of us</em></a><em>.</em></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity" />
+
+
+
+<p class="has-small-font-size">#LifeatAutomattic #careers #working #RemoteWork #FullyDistributed #Automattic #Automatticians #ThePeopleBehindTheProducts</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-97876" class="share-facebook sd-button share-icon no-text" href="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/?share=facebook" target="_blank" title="Click to share on Facebook" ><span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)</span></a></li><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-97876" class="share-twitter sd-button share-icon no-text" href="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/?share=twitter" target="_blank" title="Click to share on Twitter" ><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-pinterest"><a rel="nofollow noopener noreferrer" data-shared="sharing-pinterest-97876" class="share-pinterest sd-button share-icon no-text" href="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/?share=pinterest" target="_blank" title="Click to share on Pinterest" ><span></span><span class="sharing-screen-reader-text">Click to share on Pinterest (Opens in new window)</span></a></li><li class="share-linkedin"><a rel="nofollow noopener noreferrer" data-shared="sharing-linkedin-97876" class="share-linkedin sd-button share-icon no-text" href="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/?share=linkedin" target="_blank" title="Click to share on LinkedIn" ><span></span><span class="sharing-screen-reader-text">Click to share on LinkedIn (Opens in new window)</span></a></li><li class="share-pocket"><a rel="nofollow noopener noreferrer" data-shared="" class="share-pocket sd-button share-icon no-text" href="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/?share=pocket" target="_blank" title="Click to share on Pocket" ><span></span><span class="sharing-screen-reader-text">Click to share on Pocket (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-33534099-97876-653914582f0b7' data-src='//widgets.wp.com/likes/index.html?ver=20230906#blog_id=33534099&amp;post_id=97876&amp;origin=developer.wordpress.com&amp;obj_id=33534099-97876-653914582f0b7' data-name='like-post-frame-33534099-97876-653914582f0b7' data-title='Like or Reblog'><h3 class='sd-title'>Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div></div>			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was tagged <a href="https://developer.wordpress.com/tag/lifeautomattic/" rel="tag">Life@Automattic</a>. Bookmark the <a href="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/" rel="bookmark">permalink</a>.
+			</footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+
+			
+<div id="comments" class="comments-area">
+
+	
+	
+	
+		<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://developer.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+
+
+<div id="comment-form__verbum" class="transparent"></div><div class="verbum-form-meta"><input type='hidden' name='comment_post_ID' value='97876' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+
+			<input type="hidden" name="highlander_comment_nonce" id="highlander_comment_nonce" value="2af5612f3d" /></div><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="1ceea09e59" /></p><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="215"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	
+</div><!-- #comments -->
+
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+	<div id="secondary" class="widget-area" role="complementary">
+		<aside id="jetpack_display_posts_widget-3" class="widget widget_jetpack_display_posts_widget"><h4 class="widget-title">Recent Posts: Developer Resources</h4><div class="jetpack-display-remote-posts"><h4><a href="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/">Life @ Automattic: hanging with Newspack’s Daniel Brown</a></h4>
+<h4><a href="https://developer.wordpress.com/2023/08/31/presentations-you-cant-miss-from-wordcamp-us-2023/">Presentations You Can&#8217;t Miss from WordCamp US 2023</a></h4>
+<h4><a href="https://developer.wordpress.com/2023/08/24/speedier-php-execution-in-wordpress-6-3/">Speedier PHP Execution in WordPress 6.3</a></h4>
+</div><!-- .jetpack-display-remote-posts --></aside><aside id="follow_button_widget-2" class="widget widget_follow_button_widget">
+		<a class="wordpress-follow-button" href="https://developer.wordpress.com" data-blog="33534099" data-lang="en" data-show-blog-name="false" data-show-follower-count="true">Follow Developer Resources on WordPress.com</a>
+		<script type="text/javascript">(function(d){ window.wpcomPlatform = {"titles":{"timelines":"Embeddable Timelines","followButton":"Follow Button","wpEmbeds":"WordPress Embeds"}}; var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');p.type = 'text/javascript';p.async = true;p.src = '//widgets.wp.com/platform.js';f.parentNode.insertBefore(p,f);}(document));</script>
+
+		</aside><aside id="top-posts-2" class="widget widget_top-posts"><h4 class="widget-title">Top Posts &amp; Pages</h4><ul><li><a href="https://developer.wordpress.com/docs/api/" class="bump-view" data-bump-view="tp">REST API Resources</a></li><li><a href="https://developer.wordpress.com/" class="bump-view" data-bump-view="tp">Home</a></li><li><a href="https://developer.wordpress.com/guidelines/" class="bump-view" data-bump-view="tp">Guidelines for Responsible Use of Automattic’s APIs</a></li><li><a href="https://developer.wordpress.com/docs/" class="bump-view" data-bump-view="tp">Documentation</a></li><li><a href="https://developer.wordpress.com/2022/10/03/common-wordpress-rest-api-errors/" class="bump-view" data-bump-view="tp">Common WordPress REST API Errors and What to Do About Them</a></li><li><a href="https://developer.wordpress.com/docs/oauth2/" class="bump-view" data-bump-view="tp">OAuth2 Authentication</a></li><li><a href="https://developer.wordpress.com/2022/11/14/seetup-local-development-environment-for-wordpress/" class="bump-view" data-bump-view="tp">Setting Up Your Local Development Environment for WordPress</a></li><li><a href="https://developer.wordpress.com/docs/api/getting-started/" class="bump-view" data-bump-view="tp">Getting Started with the API</a></li><li><a href="https://developer.wordpress.com/2022/09/19/getting-started-with-wordpress-development-a-developers-guide/" class="bump-view" data-bump-view="tp">Getting Started with WordPress Development: A Developer’s Guide</a></li><li><a href="https://developer.wordpress.com/2022/12/09/php-8-2-is-now-available-on-wordpress-com/" class="bump-view" data-bump-view="tp">PHP 8.2 is Now Available on WordPress.com</a></li></ul></aside><aside id="text-2" class="widget widget_text"><h4 class="widget-title">Resources</h4>			<div class="textwidget"><ul>
+<li class="documentation"><span class="noticon noticon-book"></span><a href="/docs/">Documentation</a></li>
+<li class="rest-api-policies"><span class="noticon noticon-document"></span><a href="/guidelines">Guidelines</a></li>
+<li class="contact"><span class="noticon noticon-mail"></span><a href="/">Contact</a></li>
+</ul></div>
+		</aside><aside id="jetpack_display_posts_widget-2" class="widget widget_jetpack_display_posts_widget"><h4 class="widget-title">From the developer blog: Developer Resources</h4><div class="jetpack-display-remote-posts"><h4><a href="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/">Life @ Automattic: hanging with Newspack’s Daniel Brown</a></h4>
+<p>What’s it like to work at a fully distributed company with a worldwide team and culture guided by a Creed? Welcome to “Life @ Automattic,” a series of Q&amp;As with the people behind the products. Today we speak with Daniel Brown, a Technical Account Manager for Newspack. Who are you, and what do you do? [&hellip;]</p>
+<h4><a href="https://developer.wordpress.com/2023/08/31/presentations-you-cant-miss-from-wordcamp-us-2023/">Presentations You Can&#8217;t Miss from WordCamp US 2023</a></h4>
+<a title="Presentations You Can&#8217;t Miss from WordCamp US 2023" href="https://developer.wordpress.com/2023/08/31/presentations-you-cant-miss-from-wordcamp-us-2023/"><img src="https://developer.files.wordpress.com/2023/08/wcus-2023-playground-presentation.jpg" alt="Presentations You Can&#8217;t Miss from WordCamp US 2023"/></a><p>I recently had the incredible opportunity to attend WordCamp US 2023, marking my second WordCamp experience after visiting Greece this past June. What I love about WordCamps is the freedom to choose from a variety of talks and workshops that resonate with your interests. The atmosphere is incredibly open, making it easy to start conversations [&hellip;]</p>
+<h4><a href="https://developer.wordpress.com/2023/08/24/speedier-php-execution-in-wordpress-6-3/">Speedier PHP Execution in WordPress 6.3</a></h4>
+<p>In this write-up, we talk about recent performance improvements that we did on WordPress 6.3, sharing both our findings and journey. While this post will mostly be around performance improvements at the code level, we want to emphasize that when we write code, we&nbsp;first&nbsp;want it to be readable, correct, secure, and only after that, performant. [&hellip;]</p>
+</div><!-- .jetpack-display-remote-posts --></aside>	</div><!-- #secondary -->
+	</div><!-- #content -->
+	</div><!-- #main-container -->
+
+	<div class="footer-contain">
+		<section id="lpc-footer-nav" class="lpc lpc-footer-nav">
+			<h2 class="lp-hidden">WordPress.com</h2>
+			<div class="lpc-footer-nav-wrapper">
+				<div class="lpc-footer-nav-container">
+																	<div>
+							<h3>Products</h3>
+							<ul>
+																<li><a href="https://wordpress.com/hosting/" title="">WordPress Hosting</a></li>
+																	<li><a href="https://wordpress.com/domains/" title="">Domain Names</a></li>
+																	<li><a href="https://wordpress.com/website-builder/" title="">Website Builder</a></li>
+																	<li><a href="https://wordpress.com/create-blog/" title="">Create a Blog</a></li>
+																	<li><a href="https://wordpress.com/professional-email/" title="">Professional Email</a></li>
+																	<li data-is_external="1"><a href="https://wpvip.com/" title="" class="lp-link-chevron-external">Enterprise Solutions</a></li>
+																	<li><a href="https://wordpress.com/do-it-for-me/?ref=footer_developer" title="WordPress Website Building Service">Built by WordPress.com</a></li>
+															</ul>
+						</div>
+																							<div>
+							<h3>Features</h3>
+							<ul>
+																<li><a href="https://wordpress.com/features/" title="WordPress.com Features">Overview</a></li>
+																	<li><a href="https://wordpress.com/themes" title="">WordPress Themes</a></li>
+																	<li><a href="https://wordpress.com/plugins/" title="">WordPress Plugins</a></li>
+																	<li><a href="https://wordpress.com/google/" title="">Google Apps</a></li>
+															</ul>
+						</div>
+																							<div>
+							<h3>Resources</h3>
+							<ul>
+																<li><a href="https://wordpress.com/support/" title="">WordPress.com Support</a></li>
+																	<li><a href="https://wordpress.com/forums/" title="">WordPress Forums</a></li>
+																	<li><a href="https://wordpress.com/blog/" title="">WordPress News</a></li>
+																	<li><a href="https://wordpress.com/go/" title="">Website Building Tips</a></li>
+																	<li><a href="https://wordpress.com/business-name-generator/" title="">Business Name Generator</a></li>
+																	<li><a href="https://wordpress.com/logo-maker/" title="">Logo Maker</a></li>
+																	<li><a href="https://wordpress.com/webinars/" title="">Daily Webinars</a></li>
+																	<li><a href="https://wordpress.com/learn/" title="">Learn WordPress</a></li>
+																	<li data-is_external="1"><a href="https://developer.wordpress.com/" title="" class="lp-link-chevron-external">Developer Resources</a></li>
+															</ul>
+						</div>
+																							<div>
+							<h3>Company</h3>
+							<ul>
+																<li><a href="https://wordpress.com/about/" title="">About</a></li>
+																	<li><a href="https://wordpress.com/partners/" title="">Partners</a></li>
+																	<li data-is_external="1"><a href="https://automattic.com/press/" title="" class="lp-link-chevron-external">Press</a></li>
+																	<li><a href="https://wordpress.com/tos/" title="">Terms of Service</a></li>
+																	<li data-is_external="1"><a href="https://automattic.com/privacy/" title="" class="lp-link-chevron-external">Privacy Policy</a></li>
+																	<li data-is-ccpa="1"><a href="https://automattic.com/privacy/#california-consumer-privacy-act-ccpa" title="">Privacy Notice for California Users</a></li>
+															</ul>
+						</div>
+															</div>
+				<div class="lpc-footer-subnav-container">
+					<div class="lpc-footer-mobile-apps">
+						<h2 class="lp-hidden">Mobile Apps</h2>
+						<ul class="lp-footer-mobile-icons">
+							<li>
+								<a class="lp-app-button lp-app-button--type-google-play" href="https://play.google.com/store/apps/details?id=com.jetpack.android&referrer=utm_source%253Ddeveloper.wordpress.com%2526utm_medium%253Dwebsite">
+									<span class="lp-app-button__content">
+										<svg class="lp-app-button__content__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 25" aria-hidden="true">
+											<defs>
+												<linearGradient id="lp-gp-a" x1="50%" x2="40%" y1="25%" y2="50%">
+													<stop offset="0%" stop-color="#00c4ff"></stop>
+													<stop offset="100%" stop-color="#00e3ff"></stop>
+												</linearGradient>
+												<linearGradient id="lp-gp-b" x1="0%" x2="100%" y1="50%" y2="50%">
+													<stop offset="0%" stop-color="#fb0"></stop>
+													<stop offset="100%" stop-color="#fd0"></stop>
+												</linearGradient>
+												<linearGradient id="lp-gp-c" x1="100%" x2="0%" y1="20%" y2="80%">
+													<stop offset="0%" stop-color="#df2454"></stop>
+													<stop offset="100%" stop-color="#ff3a44"></stop>
+												</linearGradient>
+												<linearGradient id="lp-gp-d" x1="0%" x2="100%" y1="20%" y2="80%">
+													<stop offset="0%" stop-color="#13d375"></stop>
+													<stop offset="100%" stop-color="#00f076"></stop>
+												</linearGradient>
+											</defs>
+											<path fill="url(#lp-gp-a)" d="M.44.38C.16.68 0 1.15 0 1.75v21.48c0 .6.16 1.07.45 1.36l.08.07 12.03-12.04v-.26L.52.32.44.38z"></path>
+											<path fill="url(#lp-gp-b)" d="m16.57 16.65-4.02-4.02v-.28l4.02-4.01.08.05 4.75 2.7c1.36.77 1.36 2.03 0 2.8l-4.74 2.7-.1.06z"></path>
+											<path fill="url(#lp-gp-c)" d="m16.66 16.6-4.1-4.1L.43 24.6c.45.48 1.19.53 2.02.07l14.2-8.08"></path>
+											<path fill="url(#lp-gp-d)" d="M16.66 8.4 2.46.32C1.63-.15.88-.08.44.4l12.11 12.1 4.1-4.1z"></path>
+										</svg>
+										<span class="lp-app-button__content__label">
+											<span class="lp-app-button__line lp-app-button__line--top">Get it on</span>
+											<span class="lp-app-button__line lp-app-button__line--bottom">Google Play</span>
+										</span>
+									</span>
+								</a>
+							</li>
+							<li>
+								<a class="lp-app-button lp-app-button--type-app-store" href="https://apps.apple.com/app/apple-store/id1565481562?ct=developer.wordpress.com&mt=8&pt=299112">
+									<span class="lp-app-button__content">
+										<svg class="lp-app-button__content__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 23" aria-hidden="true">
+											<path fill="#fff" d="m12.88 5.97.28.02c1.6.05 3.08.85 4 2.16a4.95 4.95 0 0 0-2.36 4.15 4.78 4.78 0 0 0 2.92 4.4 10.96 10.96 0 0 1-1.52 3.1c-.9 1.33-1.83 2.64-3.32 2.66-1.45.04-1.94-.85-3.6-.85-1.67 0-2.19.83-3.57.89-1.42.05-2.5-1.43-3.43-2.76-1.85-2.7-3.3-7.63-1.36-10.97a5.32 5.32 0 0 1 4.47-2.73C6.81 6 8.13 7 9 7c.86 0 2.48-1.18 4.16-1zm.3-5.25a4.87 4.87 0 0 1-1.11 3.49 4.1 4.1 0 0 1-3.24 1.53 4.64 4.64 0 0 1 1.14-3.36A4.96 4.96 0 0 1 13.18.72z"></path>
+										</svg>
+										<span class="lp-app-button__content__label">
+											<span class="lp-app-button__line lp-app-button__line--top">Download on the</span>
+											<span class="lp-app-button__line lp-app-button__line--bottom">App Store</span>
+										</span>
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="lp-footer-social-media">
+						<h2 class="lp-hidden">Social Media</h2>
+						<ul class="lp-footer-social-icons">
+							<li> <a href="https://twitter.com/wordpressdotcom" title="WordPress.com on Twitter">
+									<span class="lp-hidden">WordPress.com on Twitter</span>
+									<svg class="lp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+										<path d="M22.23 5.92a8.21 8.21 0 0 1-2.36.65 4.12 4.12 0 0 0 1.8-2.27 8.22 8.22 0 0 1-2.6 1 4.1 4.1 0 0 0-6.99 3.74 11.65 11.65 0 0 1-8.46-4.29 4.09 4.09 0 0 0-.55 2.06 4.1 4.1 0 0 0 1.82 3.42 4.09 4.09 0 0 1-1.86-.51v.05a4.1 4.1 0 0 0 3.3 4.02 4.1 4.1 0 0 1-1.86.07 4.11 4.11 0 0 0 3.83 2.85 8.24 8.24 0 0 1-5.1 1.76 8.33 8.33 0 0 1-.97-.06 11.62 11.62 0 0 0 6.29 1.84c7.55 0 11.67-6.25 11.67-11.67v-.53a8.3 8.3 0 0 0 2.04-2.13z"></path>
+									</svg>
+								</a>
+							</li>
+							<li> <a href="https://www.facebook.com/WordPresscom/" title="WordPress.com on Facebook">
+									<span class="lp-hidden">WordPress.com on Facebook</span>
+									<svg class="lp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+										<path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path>
+									</svg>
+								</a>
+							</li>
+							<li> <a href="https://www.instagram.com/wordpressdotcom/" title="WordPress.com on Instagram">
+									<span class="lp-hidden">WordPress.com on Instagram</span>
+									<svg class="lp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+										<path d="M12 4.62c2.4 0 2.69.01 3.64.05.87.04 1.35.2 1.67.31.42.17.72.36 1.03.68.32.31.51.61.68 1.03.12.32.27.8.3 1.67.05.95.06 1.24.06 3.64s-.01 2.69-.05 3.64a4.99 4.99 0 0 1-.31 1.67c-.17.42-.36.72-.68 1.03-.31.32-.61.51-1.03.68-.32.12-.8.27-1.67.3-.95.05-1.24.06-3.64.06s-2.69-.01-3.64-.05a4.99 4.99 0 0 1-1.67-.31 2.79 2.79 0 0 1-1.03-.68 2.79 2.79 0 0 1-.68-1.03c-.12-.32-.27-.8-.3-1.67-.05-.95-.06-1.24-.06-3.64s.01-2.69.05-3.64c.04-.87.2-1.35.31-1.67.17-.42.36-.72.68-1.03.31-.32.61-.51 1.03-.68.32-.12.8-.27 1.67-.3.95-.05 1.24-.06 3.64-.06M12 3c-2.44 0-2.75.01-3.71.05-.96.05-1.61.2-2.18.42a4.4 4.4 0 0 0-1.6 1.04c-.5.5-.8 1-1.04 1.6a6.6 6.6 0 0 0-.42 2.18C3.01 9.25 3 9.56 3 12s.01 2.75.05 3.71c.05.96.2 1.61.42 2.19a4.5 4.5 0 0 0 2.64 2.63 6.6 6.6 0 0 0 2.18.42c.96.04 1.27.05 3.71.05s2.75-.01 3.71-.05a6.9 6.9 0 0 0 2.19-.42 4.41 4.41 0 0 0 1.59-1.04c.5-.5.8-1 1.04-1.6a6.6 6.6 0 0 0 .42-2.18c.04-.96.05-1.27.05-3.71s-.01-2.75-.05-3.71a6.63 6.63 0 0 0-.42-2.19 4.41 4.41 0 0 0-1.04-1.59c-.5-.5-1-.8-1.6-1.04a6.6 6.6 0 0 0-2.18-.42C14.75 3.01 14.44 3 12 3zm0 4.38a4.62 4.62 0 1 0 0 9.24 4.62 4.62 0 0 0 0-9.24zM12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm4.8-8.88a1.08 1.08 0 1 0 0 2.16 1.08 1.08 0 0 0 0-2.16z"></path>
+									</svg>
+								</a>
+							</li>
+							<li> <a href="https://www.youtube.com/c/automattic" title="The Automattic YouTube channel">
+									<span class="lp-hidden">The Automattic YouTube channel</span>
+									<svg class="lp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+										<path d="M21.8 8s-.2-1.38-.8-1.98c-.76-.8-1.6-.8-2-.85-2.8-.2-7-.2-7-.2s-4.2 0-7 .2c-.4.05-1.24.05-2 .85-.6.6-.8 1.98-.8 1.98S2 9.62 2 11.24v1.51c0 1.62.2 3.24.2 3.24s.2 1.38.8 1.99c.76.8 1.76.77 2.2.85 1.6.16 6.8.2 6.8.2s4.2 0 7-.2c.4-.05 1.24-.06 2-.85.6-.61.8-1.99.8-1.99s.2-1.62.2-3.23v-1.52C22 9.62 21.8 8 21.8 8zM9.93 14.6V8.96l5.4 2.82-5.4 2.8z"></path>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="lpc-footer-automattic-nav">
+			<div class="lpc-footer-automattic-nav-wrapper">
+				
+				<a class="lp-logo-label" href="https://automattic.com/">
+				An									<span class="lp-hidden">Automattic</span>
+					<svg class="lp-icon lp-icon--custom-automattic-footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 11" aria-hidden="true">
+						<path d="M121 .68c1.9 0 3.62.82 4.55 1.86l-1.05 1.1c-.81-.77-2-1.5-3.6-1.5-2.4 0-3.75 1.71-3.75 3.48v.19c0 1.76 1.36 3.4 3.87 3.4 1.5 0 2.74-.74 3.52-1.5l1.01 1.11a6.58 6.58 0 0 1-4.64 1.86c-3.4 0-5.46-2.29-5.46-4.8v-.31c0-2.52 2.25-4.89 5.54-4.89zm-104.64.34v5.46c0 1.71 1.09 2.73 3.17 2.73 2.13 0 3-1.02 3-2.73V1.02h1.69v5.43c0 2.3-1.43 4.23-4.82 4.23-3.22 0-4.72-1.82-4.72-4.23V1h1.68zM45.88.68c3.2 0 5.25 2.33 5.25 4.85v.3c0 2.48-2.06 4.85-5.26 4.85-3.18 0-5.24-2.37-5.24-4.85v-.3C40.63 3 42.69.68 45.88.68zm-8.35.34v1.45H33.6v7.85h-1.68V2.47h-3.93V1.02h9.54zm20.12 0 3.54 6.38.42.78.42-.78 3.5-6.4h2.31v9.3h-1.68V2.97l-.45.8-3.76 6.56h-.82L57.4 3.77l-.45-.81v7.36h-1.64v-9.3h2.33zm35.47 0v1.45h-3.93v7.85h-1.68V2.47h-3.93V1.02h9.54zm12.36 0v1.45h-3.92v7.85h-1.69V2.47h-3.92V1.02h9.53zm5.82 0v9.3h-1.66V1.89c.67 0 .94-.37.94-.88h.72zm-104.5 0 4.94 9.3h-1.8l-1.19-2.3H3.48l-1.15 2.3H.55l4.86-9.3h1.4zm70.66 0 4.93 9.3h-1.8l-1.19-2.3h-5.27l-1.15 2.3H71.2l4.86-9.3h1.4zM45.88 2.15c-2.3 0-3.55 1.6-3.55 3.4v.23c0 1.8 1.25 3.43 3.55 3.43 2.29 0 3.56-1.63 3.56-3.43v-.23c0-1.8-1.27-3.4-3.56-3.4zm1.1 1.77a.7.7 0 0 1 .2.94l-1.54 2.46a.64.64 0 0 1-.9.2.7.7 0 0 1-.2-.93l1.54-2.47a.64.64 0 0 1 .9-.2zM6.08 2.83 4.1 6.74h3.98l-2.02-3.9zm70.65 0-1.96 3.91h3.98l-2.02-3.9z" />
+					</svg>
+					medley								</a>
+				<div class="lp-logo-label-spacer"></div>
+				<a href="https://automattic.com/work-with-us/" class="lp-link-chevron-external">
+					Work With Us				</a>
+			</div>
+		</div>
+	</div>
+</div><!-- #page -->
+
+<!--  -->
+			<!-- A8C Analytics [start] -->
+			<script type="text/javascript">
+				( function() {
+					'use strict';
+
+					var setupAnalytics = function() {
+						window.a8cAnalyticsConfig = {"cookieBanner":{"version":"2","cssZIndex":50001,"skipBanner":false,"cookieDomain":"wordpress.com","v1CookieName":"sensitive_pixel_option","v2CookieName":"sensitive_pixel_options","v1Text":"Our websites and dashboards use cookies. By continuing, you agree to their use. <a target=\"_blank\" href=\"https:\/\/automattic.com\/cookies\/\">Learn more<\/a>, including how to control cookies.","v2Text":"As an open source company, we take your privacy seriously and want to be as transparent as possible. So: We use cookies to collect some personal data from you (like your browsing data, IP addresses, and other unique identifiers). Some of these cookies we absolutely need in order to make things work, and others you can choose in order to optimize your experience while using our site and services.","v2OptionsText":"Your privacy is critically important to us. We and our partners use, store, and process your personal data to optimize: our <strong>website<\/strong> such as by improving security or conducting analytics, <strong>marketing activities<\/strong> to help deliver relevant marketing or content, and your <strong>user experience<\/strong> such as by remembering your account name, language settings, or cart information, where applicable. You can customize your cookie settings below. Learn more in our <a href=\"https:\/\/automattic.com\/privacy\/\" target=\"_blank\">Privacy Policy<\/a> and <a href=\"https:\/\/automattic.com\/cookies\/\" target=\"_blank\">Cookie Policy<\/a>.","v2EssentialOptionHeading":"Required","v2EssentialOptionText":"These cookies are essential for our websites and services to perform basic functions and are necessary for us to operate certain features, like allowing registered users to authenticate and perform account-related functions, storing preferences set by users (like account name, language, and location), and ensuring our services operate properly.","v2AnalyticsOptionHeading":"Analytics","v2AnalyticsOptionText":"These cookies allow us to optimize performance by collecting information on how users interact with our websites.","v2AdvertisingOptionHeading":"Advertising","v2AdvertisingOptionText":"We and our advertising partners set these cookies to provide you with relevant content and to understand that content\u2019s effectiveness.","v1ButtonText":"Got It!","v2CustomizeButtonText":"Customize","v2AcceptAllButtonText":"Accept all","v2AcceptSelectionButtonText":"Accept selection","hiddenConsents":[],"isLoggedIn":false},"doNotSellDialog":{"contactEmailAddress":"privacypolicyupdates@automattic.com"},"adminAnalytics":"analytics-wpcom-admin.php","fireAnalyticsOptions":[]};
+					};
+
+					if ( window.defQueue && defQueue.isLOHP && defQueue.isLOHP === 2020 ) {
+						defQueue.items.push( setupAnalytics );
+					} else {
+						setupAnalytics();
+					}
+				} )();
+			</script>
+
+			
+<script type="text/javascript">
+	( function () {
+		'use strict';
+
+		document.addEventListener( 'a8c-analytics:loaded', function () {
+			var kit = window.a8cAnalytics.kit;
+
+			if ( kit.doNotTrack() ) {
+				return;
+			}
+
+			function fireGoogleAnalytics() {
+				kit.loadGoogleAnalytics();
+				ga( 'create', 'UA-10673494-33', 'auto' );
+
+				ga( 'set', 'transport', typeof navigator.sendBeacon === 'function' ? 'beacon' : 'xhr' );
+				ga( 'set', 'anonymizeIp', true );
+
+				ga( 'send', 'pageview' );
+			}
+
+			// ------- Fire Normal Pixels -------
+
+						fireGoogleAnalytics();
+
+			// ------- Fire Sensitive Pixels -------
+
+			/* none for now
+			document.addEventListener( 'a8c-analytics:fire-sensitive-pixels', function () {
+			} );
+			*/
+		} );
+	} )();
+</script>
+
+			<script type="text/javascript">
+				( function() {
+					'use strict';
+					var currentScript = document.currentScript;
+
+					var setupAnalytics = function() {
+						function getScript() {
+							var script = document.createElement( 'script' );
+							var prev = currentScript || document.getElementsByTagName( 'script' )[ 0 ];
+							script.setAttribute( 'src', "https:\/\/s0.wp.com\/wp-content\/mu-plugins\/a8c-analytics\/a8c-analytics.js?v=1691651283" );
+							script.setAttribute( 'async', true );
+							prev.parentNode.insertBefore( script, prev );
+						}
+
+													getScript();
+											};
+
+					if ( window.defQueue && defQueue.isLOHP && defQueue.isLOHP === 2020 ) {
+						defQueue.items.push( setupAnalytics );
+					} else {
+						setupAnalytics();
+					}
+				} )();
+			</script>
+			<!-- A8C Analytics [end] -->
+			<script type="text/javascript">
+	if ( window.top !== window.self ) {
+		if ( window.top.location.hostname !== window.self.location.hostname || window.top.location.protocol !== window.top.location.protocol ) {
+			window.top.location.href = window.self.location.href;
+		}
+	}
+	</script><script src='//0.gravatar.com/js/hovercards/hovercards.min.js?ver=202343aeb24331352c11f5446dd670d75325a3c4e3b8a6bd7f92ee1c88f8b8636d4d9c' id='grofiles-cards-js'></script>
+<script id='wpgroho-js-extra'>
+var WPGroHo = {"my_hash":""};
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240i'></script>
+
+	<script>
+		// Initialize and attach hovercards to all gravatars
+		( function() {
+			function init() {
+				if ( typeof Gravatar === 'undefined' ) {
+					return;
+				}
+
+				if ( typeof Gravatar.init !== 'function' ) {
+					return;
+				}
+
+				Gravatar.profile_cb = function ( hash, id ) {
+					WPGroHo.syncProfileData( hash, id );
+				};
+
+				Gravatar.my_hash = WPGroHo.my_hash;
+				Gravatar.init(
+					'body',
+					'#wp-admin-bar-my-account',
+					{
+						i18n: {
+							'Edit your profile': 'Edit your profile',
+							'View profile': 'View profile',
+							'Sorry, we are unable to load this Gravatar profile.': 'Sorry, we are unable to load this Gravatar profile.',
+							'Sorry, we are unable to load this Gravatar profile. Please check your internet connection.': 'Sorry, we are unable to load this Gravatar profile. Please check your internet connection.',
+						},
+					}
+				);
+			}
+
+			if ( document.readyState !== 'loading' ) {
+				init();
+			} else {
+				document.addEventListener( 'DOMContentLoaded', init );
+			}
+		} )();
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-350a70e175305fac28923d0622c87080">
+	</div>
+	</div>
+	<div id="actionbar" style="display: none;"
+			class="actnbr-a8c-wpcomdev3 actnbr-has-follow">
+		<ul>
+								<li class="actnbr-btn actnbr-hidden">
+						<a class="actnbr-action actnbr-actn-comment" href="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/#respond">
+							<svg class="gridicon gridicons-comment" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M12 16l-5 5v-5H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2h14c1.1 0 2 .9 2 2v9c0 1.1-.9 2-2 2h-7z"/></g></svg>							<span>Comment						</span>
+						</a>
+					</li>
+									<li class="actnbr-btn actnbr-hidden">
+								<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Follow</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Following</span>
+		</a>
+							<div class="actnbr-popover tip tip-top-left actnbr-notice" id="follow-bubble">
+							<div class="tip-arrow"></div>
+							<div class="tip-inner actnbr-follow-bubble">
+															<ul>
+											<li class="actnbr-sitename">
+			<a href="https://developer.wordpress.com">
+				<img alt='' src='https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=50&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png' srcset='https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=50&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 1x, https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=75&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 1.5x, https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=100&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 2x, https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=150&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 3x, https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=200&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 4x' class='avatar avatar-50' height='50' width='50' />				Developer Resources			</a>
+		</li>
+										<form method="post" action="https://subscribe.wordpress.com" accept-charset="utf-8" style="display: none;">
+																						<div class="actnbr-follow-count">Join 14,701 other followers</div>
+																					<div>
+										<input type="email" name="email" placeholder="Enter your email address" class="actnbr-email-field" aria-label="Enter your email address" />
+										</div>
+										<input type="hidden" name="action" value="subscribe" />
+										<input type="hidden" name="blog_id" value="33534099" />
+										<input type="hidden" name="source" value="https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/" />
+										<input type="hidden" name="sub-type" value="actionbar-follow" />
+										<input type="hidden" id="_wpnonce" name="_wpnonce" value="2c7ef96800" />										<div class="actnbr-button-wrap">
+											<button type="submit" value="Sign me up">
+												Sign me up											</button>
+										</div>
+									</form>
+									<li class="actnbr-login-nudge">
+										<div>
+											Already have a WordPress.com account? <a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fdeveloper.wordpress.com%2F2023%2F10%2F11%2Flife-automattic-hanging-with-newspacks-daniel-brown%2F&#038;signup_flow=account">Log in now.</a>										</div>
+									</li>
+								</ul>
+															</div>
+						</div>
+					</li>
+							<li class="actnbr-ellipsis actnbr-hidden">
+				<svg class="gridicon gridicons-ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M7 12c0 1.104-.896 2-2 2s-2-.896-2-2 .896-2 2-2 2 .896 2 2zm12-2c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-7 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2z"/></g></svg>				<div class="actnbr-popover tip tip-top-left actnbr-more">
+					<div class="tip-arrow"></div>
+					<div class="tip-inner">
+						<ul>
+									<li class="actnbr-sitename">
+			<a href="https://developer.wordpress.com">
+				<img alt='' src='https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=50&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png' srcset='https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=50&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 1x, https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=75&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 1.5x, https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=100&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 2x, https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=150&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 3x, https://secure.gravatar.com/blavatar/78d4c751f2239185718e99ac8dfdaa886f98d05f819862ec5a29bb1c01d1e659?s=200&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png 4x' class='avatar avatar-50' height='50' width='50' />				Developer Resources			</a>
+		</li>
+								<li class="actnbr-folded-customize">
+								<a href="https://developer.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fdeveloper.wordpress.com%2F2023%2F10%2F11%2Flife-automattic-hanging-with-newspacks-daniel-brown%2F">
+									<svg class="gridicon gridicons-customize" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z"/></g></svg>									<span>Customize</span>
+								</a>
+							</li>
+																<li class="actnbr-folded-follow">
+												<a class="actnbr-action actnbr-actn-follow " href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path clip-rule="evenodd" d="m4 4.5h12v6.5h1.5v-6.5-1.5h-1.5-12-1.5v1.5 10.5c0 1.1046.89543 2 2 2h7v-1.5h-7c-.27614 0-.5-.2239-.5-.5zm10.5 2h-9v1.5h9zm-5 3h-4v1.5h4zm3.5 1.5h-1v1h1zm-1-1.5h-1.5v1.5 1 1.5h1.5 1 1.5v-1.5-1-1.5h-1.5zm-2.5 2.5h-4v1.5h4zm6.5 1.25h1.5v2.25h2.25v1.5h-2.25v2.25h-1.5v-2.25h-2.25v-1.5h2.25z"  fill-rule="evenodd"></path></svg>
+			<span>Follow</span>
+		</a>
+		<a class="actnbr-action actnbr-actn-following  no-display" href="">
+			<svg class="gridicon" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 4.5H4V15C4 15.2761 4.22386 15.5 4.5 15.5H11.5V17H4.5C3.39543 17 2.5 16.1046 2.5 15V4.5V3H4H16H17.5V4.5V12.5H16V4.5ZM5.5 6.5H14.5V8H5.5V6.5ZM5.5 9.5H9.5V11H5.5V9.5ZM12 11H13V12H12V11ZM10.5 9.5H12H13H14.5V11V12V13.5H13H12H10.5V12V11V9.5ZM5.5 12H9.5V13.5H5.5V12Z" fill="#008A20"></path><path class="following-icon-tick" d="M13.5 16L15.5 18L19 14.5" stroke="#008A20" stroke-width="1.5"></path></svg>
+			<span>Following</span>
+		</a>
+										</li>
+																	<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li>
+									<li class="actnbr-login"><a href="https://wordpress.com/log-in?redirect_to=https%3A%2F%2Fdeveloper.wordpress.com%2F2023%2F10%2F11%2Flife-automattic-hanging-with-newspacks-daniel-brown%2F&#038;signup_flow=account">Log in</a></li>
+																	<li class="actnbr-shortlink"><a href="https://wp.me/p2gHKz-psE">Copy shortlink</a></li>
+																	<li class="flb-report">
+										<a href="http://en.wordpress.com/abuse/?report_url=https://developer.wordpress.com/2023/10/11/life-automattic-hanging-with-newspacks-daniel-brown/" target="_blank">
+											Report this content										</a>
+									</li>
+																	<li class="actnbr-reader">
+										<a href="https://wordpress.com/read/blogs/33534099/posts/97876">
+											View post in Reader										</a>
+									</li>
+																	<li class="actnbr-subs">
+										<a href="https://subscribe.wordpress.com/">Manage subscriptions</a>
+									</li>
+																		<li class="actnbr-fold"><a href="">Collapse this bar</a></li>
+															</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+<script>
+window.addEventListener( "load", function( event ) {
+	var link = document.createElement( "link" );
+	link.href = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?v=20231025";
+	link.type = "text/css";
+	link.rel = "stylesheet";
+	document.head.appendChild( link );
+
+	var script = document.createElement( "script" );
+	script.src = "https://s0.wp.com/wp-content/mu-plugins/actionbar/actionbar.js?v=20231025";
+	script.defer = true;
+	document.body.appendChild( script );
+} );
+</script>
+
+			<div id="jp-carousel-loading-overlay">
+			<div id="jp-carousel-loading-wrapper">
+				<span id="jp-carousel-library-loading">&nbsp;</span>
+			</div>
+		</div>
+		<div class="jp-carousel-overlay" style="display: none;">
+
+		<div class="jp-carousel-container">
+			<!-- The Carousel Swiper -->
+			<div
+				class="jp-carousel-wrap swiper-container jp-carousel-swiper-container jp-carousel-transitions"
+				itemscope
+				itemtype="https://schema.org/ImageGallery">
+				<div class="jp-carousel swiper-wrapper"></div>
+				<div class="jp-swiper-button-prev swiper-button-prev">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+							<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskPrev)">
+							<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+				<div class="jp-swiper-button-next swiper-button-next">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+							<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskNext)">
+							<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<!-- The main close buton -->
+			<div class="jp-carousel-close-hint">
+				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+						<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+					</mask>
+					<g mask="url(#maskClose)">
+						<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+					</g>
+				</svg>
+			</div>
+			<!-- Image info, comments and meta -->
+			<div class="jp-carousel-info">
+				<div class="jp-carousel-info-footer">
+					<div class="jp-carousel-pagination-container">
+						<div class="jp-swiper-pagination swiper-pagination"></div>
+						<div class="jp-carousel-pagination"></div>
+					</div>
+					<div class="jp-carousel-photo-title-container">
+						<h2 class="jp-carousel-photo-caption"></h2>
+					</div>
+					<div class="jp-carousel-photo-icons-container">
+						<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Toggle photo metadata visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskInfo)">
+										<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+							</span>
+						</a>
+												<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Toggle photo comments visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskComments)">
+										<rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+
+								<span class="jp-carousel-has-comments-indicator" aria-label="This image has comments."></span>
+							</span>
+						</a>
+											</div>
+				</div>
+				<div class="jp-carousel-info-extra">
+					<div class="jp-carousel-info-content-wrapper">
+						<div class="jp-carousel-photo-title-container">
+							<h2 class="jp-carousel-photo-title"></h2>
+						</div>
+						<div class="jp-carousel-comments-wrapper">
+															<div id="jp-carousel-comments-loading">
+									<span>Loading Comments...</span>
+								</div>
+								<div class="jp-carousel-comments"></div>
+								<div id="jp-carousel-comment-form-container">
+									<span id="jp-carousel-comment-form-spinner">&nbsp;</span>
+									<div id="jp-carousel-comment-post-results"></div>
+																														<form id="jp-carousel-comment-form">
+												<label for="jp-carousel-comment-form-comment-field" class="screen-reader-text">Write a Comment...</label>
+												<textarea
+													name="comment"
+													class="jp-carousel-comment-form-field jp-carousel-comment-form-textarea"
+													id="jp-carousel-comment-form-comment-field"
+													placeholder="Write a Comment..."
+												></textarea>
+												<div id="jp-carousel-comment-form-submit-and-info-wrapper">
+													<div id="jp-carousel-comment-form-commenting-as">
+																													<fieldset>
+																<label for="jp-carousel-comment-form-email-field">Email (Required)</label>
+																<input type="text" name="email" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-email-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-author-field">Name (Required)</label>
+																<input type="text" name="author" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-author-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-url-field">Website</label>
+																<input type="text" name="url" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-url-field" />
+															</fieldset>
+																											</div>
+													<input
+														type="submit"
+														name="submit"
+														class="jp-carousel-comment-form-button"
+														id="jp-carousel-comment-form-button-submit"
+														value="Post Comment" />
+												</div>
+											</form>
+																											</div>
+													</div>
+						<div class="jp-carousel-image-meta">
+							<div class="jp-carousel-title-and-caption">
+								<div class="jp-carousel-photo-info">
+									<h3 class="jp-carousel-caption" itemprop="caption description"></h3>
+								</div>
+
+								<div class="jp-carousel-photo-description"></div>
+							</div>
+							<ul class="jp-carousel-image-exif" style="display: none;"></ul>
+							<a class="jp-carousel-image-download" href="#" target="_blank" style="display: none;">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+								<span class="jp-carousel-download-text"></span>
+							</a>
+							<div class="jp-carousel-image-map" style="display: none;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/developer.wordpress.com\/2023\/10\/11\/life-automattic-hanging-with-newspacks-daniel-brown\/":97876};
+	</script>
+						<link crossorigin='anonymous' rel='stylesheet' id='all-css-0-2' href='https://s0.wp.com/_static/??-eJydjksKwzAMRC9UV/EioZvSs6S2CEn9ER4J09unkOYCWQ3zGB5DXVyoRbkoZXOSbFkLaGOVOXz+nWCFco2WGBTmVg2cCH0Vbu5tJSa+B+BG12Xn5gQXfX2NC+sva4vSGHBSoe7ABP0eT1/56afH6P04TMO2A/WBYmI=&cssminify=yes' type='text/css' media='all' />
+<script id='coblocks-loader-js-extra'>
+var wpcom_coblocks_js = {"coblocks_masonry_js":"https:\/\/s2.wp.com\/wp-content\/plugins\/coblocks\/2.18.1-simple-rev.4\/dist\/js\/coblocks-masonry.min.js","coblocks_lightbox_js":"https:\/\/s2.wp.com\/wp-content\/plugins\/coblocks\/2.18.1-simple-rev.4\/dist\/js\/coblocks-lightbox.min.js","jquery_core_js":"\/wp-includes\/js\/jquery\/jquery.min.js","jquery_migrate_js":"\/wp-includes\/js\/jquery\/jquery-migrate.min.js","masonry_js":"\/wp-includes\/js\/masonry.min.js","imagesloaded_js":"\/wp-includes\/js\/imagesloaded.min.js"};
+var coblocksLigthboxData = {"closeLabel":"Close Gallery","leftLabel":"Previous","rightLabel":"Next"};
+</script>
+<script id='jetpack-carousel-js-extra'>
+var jetpackSwiperLibraryPath = {"url":"https:\/\/s2.wp.com\/wp-content\/mu-plugins\/jetpack-plugin\/sun\/_inc\/build\/carousel\/swiper-bundle.min.js"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/developer.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"0fb6dcb370","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/developer.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fdeveloper.wordpress.com%2F2023%2F10%2F11%2Flife-automattic-hanging-with-newspacks-daniel-brown%2F","blog_id":"33534099","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"stats_query_args":"blog=33534099&v=wpcom&tz=0&user_id=0&subd=developer","is_public":"1"};
+</script>
+<script id='sharing-js-js-extra'>
+var sharing_js_options = {"lang":"en","counts":"1","is_stats_active":"1"};
+</script>
+<script id="verbum-settings-js-before" type="text/javascript">
+window.VerbumComments = {"Log in or provide your name and email to leave a reply.":"Log in or provide your name and email to leave a reply.","Receive web and mobile notifications for posts on this site.":"Receive web and mobile notifications for posts on this site.","Name":"Name","Email (address never made public)":"Email (address never made public)","Website (optional)":"Website (optional)","Leave a reply. (log in optional)":"Leave a reply. (log in optional)","Log in to leave a reply.":"Log in to leave a reply.","Logged in via %s":"Logged in via %s","Log out":"Log out","Email":"Email","(Address never made public)":"(Address never made public)","Instantly":"Instantly","Daily":"Daily","Reply":"Reply","WordPress":"WordPress","Weekly":"Weekly","Notify me of new posts":"Notify me of new posts","Email me new posts":"Email me new posts","Email me new comments":"Email me new comments","Cancel":"Cancel","Write a comment\u2026":"Write a Comment...","Website":"Website","Optional":"Optional","siteId":33534099,"mustLogIn":false,"requireNameEmail":true,"commentRegistration":false,"connectURL":"https:\/\/developer.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/developer.wordpress.com\/wp-login.php?action=logout&_wpnonce=c4a991c559","homeURL":"https:\/\/developer.wordpress.com\/","subscribeToBlog":true,"subscribeToComment":true,"isJetpackCommentsLoggedIn":false,"jetpackUsername":"","jetpackUserId":0,"jetpackSignature":"","jetpackAvatar":"https:\/\/0.gravatar.com\/avatar\/?s=96&amp;d=identicon&amp;r=G","enableBlocks":false}
+</script>
+<script crossorigin='anonymous' type='text/javascript' src='https://s1.wp.com/_static/??-eJydj1tOAzEMRTdEYqadovKBWApKE9N6xnk0Tqi6+0bTBiqEQOLPto6PfeGUlI2hYCjgq0pc9xQEmGYUOFaseDDBMWY9yQPcwZ20ccfRzgIrPWz1oIR8YlQZP/QIjqTA9AUpjsY1l6fQfRQsV9eOLZj3zd2WE5/voR8+nLAkY+dbD1IDvDUX7CqxA2tyrIL8ifXBH1Yzk3gsaq0fr7o+eM8L7H7Z7SfUKbUg39p/J5GDyeiMc+elpLC/RXj1L8PTdrMZx/XqeboAZBqoxQ=='></script>
+<script id="sharing-js-js-after" type="text/javascript">
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-facebook' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-facebook' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-twitter' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-twitter' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-linkedin' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-linkedin' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+						return false;
+					}
+				} );
+			} )();
+var windowOpen;
+			( function () {
+				function matches( el, sel ) {
+					return !! (
+						el.matches && el.matches( sel ) ||
+						el.msMatchesSelector && el.msMatchesSelector( sel )
+					);
+				}
+
+				document.body.addEventListener( 'click', function ( event ) {
+					if ( ! event.target ) {
+						return;
+					}
+
+					var el;
+					if ( matches( event.target, 'a.share-pocket' ) ) {
+						el = event.target;
+					} else if ( event.target.parentNode && matches( event.target.parentNode, 'a.share-pocket' ) ) {
+						el = event.target.parentNode;
+					}
+
+					if ( el ) {
+						event.preventDefault();
+
+						// If there's another sharing window open, close it.
+						if ( typeof windowOpen !== 'undefined' ) {
+							windowOpen.close();
+						}
+						windowOpen = window.open( el.getAttribute( 'href' ), 'wpcompocket', 'menubar=1,resizable=1,width=450,height=450' );
+						return false;
+					}
+				} );
+			} )();
+</script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<iframe src='https://widgets.wp.com/likes/master.html?ver=20230906#ver=20230906&amp;origin=https://developer.wordpress.com' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+	<div id='likes-other-gravatars'>
+		<div class="likes-text">
+			<span>%d</span> bloggers like this:		</div>
+		<ul class="wpl-avatars sd-like-gravatars"></ul>
+	</div>
+
+		<script src="//stats.wp.com/w.js?63" defer></script> <script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'33534099','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'33534099','v':'wpcom','tz':'0','user_id':'0','post':'97876','subd':'developer'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1lSiYrZXhzUkM5fD1uTDNLUGt6QzVbd3FKb3Q4aWxfXXI3YWo4Qz1OQTklbU5iaFcmUVFuNjY9c2xqOUdMWmdBL19wOGp1T3xISjRRdT1tTj0xUG4vS0p4Y3xOZ2JRWVpORElfWH4mcUVnWkxZdUtxUnM/VEZDJVtFRVJhcjFVSzk2LzFzU2dCdDVfbVYubktOTUNHZVcxR3FkT29YWiwud2dEJWl8T0twSzV3OUFvQi44dXNoaDZQVWtqd3Q1dzBjNEVfTjU2bHhafmt3bVg/ZmgrSVAxX0J6bUtaaDJGWnNIWyZtWi9FV3h8TGQzVzNbVz8rLmllY0tQJllrM1pELldLQXRSTExhMFF6LyxFVHdWKzFMNmRUQ2FDUU9XWW5EbTkuZ1lVUT9ZQTdBVjVfMS1zZXx4Yi5lcT11Q002cn5NOUJTbUh8SGdnSFl8Ji13eWl8RnNuZi8sWlNwLFdJUENTQy5bbkpXJXxPbVB4SQ=='}]);
+_stq.push([ 'clickTrackerInit', '33534099', '97876' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:1px;width:1px;overflow:hidden;position:absolute;bottom:1px;" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+<script>
+(function() {
+	'use strict';
+
+	const fetches = {};
+	const promises = {};
+	const urls = {
+		'verbum': 'https://s2.wp.com/wp-content/mu-plugins/verbum/dist/index.js?m=1698170411i&ver=1698170411'
+	};
+	const loaders = {
+		'verbum': () => {
+			fetchExternalScript('verbum');
+			promises['verbum'] = promises['verbum'] || loadWPScript('verbum');
+			return promises['verbum'];
+		},
+		
+	};
+	const scriptExtras = {
+		
+	};
+
+	window.WP_Enqueue_Dynamic_Script = {
+		loadScript: (handle) => {
+			if (!loaders[handle]) {
+				console.error('WP_Enqueue_Dynamic_Script: unregistered script `' + handle + '`.');
+			}
+			return loaders[handle]();
+		}
+	};
+
+	function fetchExternalScript(handle) {
+		if (!urls[handle]) {
+			return Promise.resolve();
+		}
+
+		fetches[handle] = fetches[handle] || fetch(urls[handle], { mode: 'no-cors' });
+		return fetches[handle];
+	}
+
+	function runExtraScript(handle, type, index) {
+		const id = 'wp-enqueue-dynamic-script:' + handle + ':' + type + ':' + (index + 1);
+		const template = document.getElementById(id);
+		if (!template) {
+			return Promise.reject();
+		}
+
+		const script = document.createElement( 'script' );
+		script.innerHTML = template.innerHTML;
+		document.body.appendChild( script );
+		return Promise.resolve();
+	}
+
+	function loadExternalScript(handle) {
+		if (!urls[handle]) {
+			return Promise.resolve();
+		}
+
+		return fetches[handle].then(() => {
+			return new Promise((resolve, reject) => {
+				const script = document.createElement('script');
+				script.onload = () => resolve();
+				script.onerror = (e) => reject(e);
+				script.src = urls[handle];
+				document.body.appendChild(script);
+			});
+		});
+	}
+
+	function loadExtra(handle, pos) {
+		const count = (scriptExtras[handle] && scriptExtras[handle][pos]) || 0;
+		let promise = Promise.resolve();
+
+		for (let i = 0; i < count; i++) {
+			promise = promise.then(() => runExtraScript(handle, pos, i));
+		}
+
+		return promise;
+	}
+
+	function loadWPScript(handle) {
+		return loadExtra(handle, 'before')
+			.then(() => loadExternalScript(handle))
+			.then(() => loadExtra(handle, 'after'));
+	}
+} )();
+</script>
+
+</body>
+</html>

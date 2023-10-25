@@ -1,0 +1,897 @@
+<!doctype html>
+<html data-n-head-ssr lang="ja" class="html-class" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22ja%22%7D,%22class%22:%7B%22ssr%22:%5B%22html-class%22%5D%7D%7D">
+  <head >
+    <title>WordPressでブログサイトを作ろう！</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"><meta data-n-head="ssr" http-equiv="x-dns-prefetch-control" content="on"><meta data-n-head="ssr" data-hid="description" name="description" content="「WordPressでブログサイトを作ろう！」は、WordPress無料ブログテーマCocoonを使って、ブログ用サイトを立ち上げます。このプロジェクトでは、ただWordPressでブログ立ち上げるだけでなく、試験データを使ってWordPressとテーマの使い方も学びます。WordPressでブログサイトを立ち上げたあとは、Googleアナリティクス4（GA4）の導入とGoogleサーチコンソールの連動も行います。最後に日頃のWordPressの保守についても触れていますのでWordPressの運営を考えている方にもおすすめです。"><meta data-n-head="ssr" data-hid="og:site_name" property="og:site_name" content="goal-path.com"><meta data-n-head="ssr" data-hid="og:title" property="og:title" content="WordPressでブログサイトを作ろう！"><meta data-n-head="ssr" data-hid="og:description" property="og:description" content="「WordPressでブログサイトを作ろう！」は、WordPress無料ブログテーマCocoonを使って、ブログ用サイトを立ち上げます。このプロジェクトでは、ただWordPressでブログ立ち上げるだけでなく、試験データを使ってWordPressとテーマの使い方も学びます。WordPressでブログサイトを立ち上げたあとは、Googleアナリティクス4（GA4）の導入とGoogleサーチコンソールの連動も行います。最後に日頃のWordPressの保守についても触れていますのでWordPressの運営を考えている方にもおすすめです。"><meta data-n-head="ssr" data-hid="og:url" property="og:url" content="https://goal-path.com/app/plan/6"><meta data-n-head="ssr" data-hid="og:type" propery="og:type" content="website"><meta data-n-head="ssr" data-hid="og:image" property="og:image" content="https://goal-path.com/api/media/uploadimage/coccontop2.jpg"><meta data-n-head="ssr" data-hid="twitter:card" name="twitter:card" content="summary_large_image"><meta data-n-head="ssr" data-hid="twitter:site" name="twitter:site" content="1190286073051541505"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico"><link data-n-head="ssr" rel="stylesheet" href="https://unpkg.com/vue-plyr/dist/vue-plyr.css"><link data-n-head="ssr" rel="preconnect dns-prefetch" href="//js.stripe.com"><link data-n-head="ssr" rel="preconnect dns-prefetch" href="//www.googletagmanager.com"><link data-n-head="ssr" rel="preconnect dns-prefetch" href="//platform.twitter.com"><link data-n-head="ssr" data-hid="canonical" rel="canonical" href="https://goal-path.com/app/plan/6"><style data-n-head="vuetify" type="text/css" id="vuetify-theme-stylesheet" nonce="undefined">.v-application a { color: #4080be; }
+.v-application .primary {
+  background-color: #4080be !important;
+  border-color: #4080be !important;
+}
+.v-application .primary--text {
+  color: #4080be !important;
+  caret-color: #4080be !important;
+}
+.v-application .primary.lighten-5 {
+  background-color: #d3ffff !important;
+  border-color: #d3ffff !important;
+}
+.v-application .primary--text.text--lighten-5 {
+  color: #d3ffff !important;
+  caret-color: #d3ffff !important;
+}
+.v-application .primary.lighten-4 {
+  background-color: #b6ecff !important;
+  border-color: #b6ecff !important;
+}
+.v-application .primary--text.text--lighten-4 {
+  color: #b6ecff !important;
+  caret-color: #b6ecff !important;
+}
+.v-application .primary.lighten-3 {
+  background-color: #99d0ff !important;
+  border-color: #99d0ff !important;
+}
+.v-application .primary--text.text--lighten-3 {
+  color: #99d0ff !important;
+  caret-color: #99d0ff !important;
+}
+.v-application .primary.lighten-2 {
+  background-color: #7cb5f7 !important;
+  border-color: #7cb5f7 !important;
+}
+.v-application .primary--text.text--lighten-2 {
+  color: #7cb5f7 !important;
+  caret-color: #7cb5f7 !important;
+}
+.v-application .primary.lighten-1 {
+  background-color: #5f9ada !important;
+  border-color: #5f9ada !important;
+}
+.v-application .primary--text.text--lighten-1 {
+  color: #5f9ada !important;
+  caret-color: #5f9ada !important;
+}
+.v-application .primary.darken-1 {
+  background-color: #1a67a3 !important;
+  border-color: #1a67a3 !important;
+}
+.v-application .primary--text.text--darken-1 {
+  color: #1a67a3 !important;
+  caret-color: #1a67a3 !important;
+}
+.v-application .primary.darken-2 {
+  background-color: #004f88 !important;
+  border-color: #004f88 !important;
+}
+.v-application .primary--text.text--darken-2 {
+  color: #004f88 !important;
+  caret-color: #004f88 !important;
+}
+.v-application .primary.darken-3 {
+  background-color: #00396f !important;
+  border-color: #00396f !important;
+}
+.v-application .primary--text.text--darken-3 {
+  color: #00396f !important;
+  caret-color: #00396f !important;
+}
+.v-application .primary.darken-4 {
+  background-color: #002456 !important;
+  border-color: #002456 !important;
+}
+.v-application .primary--text.text--darken-4 {
+  color: #002456 !important;
+  caret-color: #002456 !important;
+}
+.v-application .secondary {
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
+}
+.v-application .secondary--text {
+  color: #6c757d !important;
+  caret-color: #6c757d !important;
+}
+.v-application .secondary.lighten-5 {
+  background-color: #f3fdff !important;
+  border-color: #f3fdff !important;
+}
+.v-application .secondary--text.text--lighten-5 {
+  color: #f3fdff !important;
+  caret-color: #f3fdff !important;
+}
+.v-application .secondary.lighten-4 {
+  background-color: #d6e0e9 !important;
+  border-color: #d6e0e9 !important;
+}
+.v-application .secondary--text.text--lighten-4 {
+  color: #d6e0e9 !important;
+  caret-color: #d6e0e9 !important;
+}
+.v-application .secondary.lighten-3 {
+  background-color: #bbc4cd !important;
+  border-color: #bbc4cd !important;
+}
+.v-application .secondary--text.text--lighten-3 {
+  color: #bbc4cd !important;
+  caret-color: #bbc4cd !important;
+}
+.v-application .secondary.lighten-2 {
+  background-color: #a0a9b2 !important;
+  border-color: #a0a9b2 !important;
+}
+.v-application .secondary--text.text--lighten-2 {
+  color: #a0a9b2 !important;
+  caret-color: #a0a9b2 !important;
+}
+.v-application .secondary.lighten-1 {
+  background-color: #858f97 !important;
+  border-color: #858f97 !important;
+}
+.v-application .secondary--text.text--lighten-1 {
+  color: #858f97 !important;
+  caret-color: #858f97 !important;
+}
+.v-application .secondary.darken-1 {
+  background-color: #545c64 !important;
+  border-color: #545c64 !important;
+}
+.v-application .secondary--text.text--darken-1 {
+  color: #545c64 !important;
+  caret-color: #545c64 !important;
+}
+.v-application .secondary.darken-2 {
+  background-color: #3c454c !important;
+  border-color: #3c454c !important;
+}
+.v-application .secondary--text.text--darken-2 {
+  color: #3c454c !important;
+  caret-color: #3c454c !important;
+}
+.v-application .secondary.darken-3 {
+  background-color: #262f36 !important;
+  border-color: #262f36 !important;
+}
+.v-application .secondary--text.text--darken-3 {
+  color: #262f36 !important;
+  caret-color: #262f36 !important;
+}
+.v-application .secondary.darken-4 {
+  background-color: #121a20 !important;
+  border-color: #121a20 !important;
+}
+.v-application .secondary--text.text--darken-4 {
+  color: #121a20 !important;
+  caret-color: #121a20 !important;
+}
+.v-application .accent {
+  background-color: #82b1ff !important;
+  border-color: #82b1ff !important;
+}
+.v-application .accent--text {
+  color: #82b1ff !important;
+  caret-color: #82b1ff !important;
+}
+.v-application .accent.lighten-5 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .accent--text.text--lighten-5 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .accent.lighten-4 {
+  background-color: #f8ffff !important;
+  border-color: #f8ffff !important;
+}
+.v-application .accent--text.text--lighten-4 {
+  color: #f8ffff !important;
+  caret-color: #f8ffff !important;
+}
+.v-application .accent.lighten-3 {
+  background-color: #daffff !important;
+  border-color: #daffff !important;
+}
+.v-application .accent--text.text--lighten-3 {
+  color: #daffff !important;
+  caret-color: #daffff !important;
+}
+.v-application .accent.lighten-2 {
+  background-color: #bce8ff !important;
+  border-color: #bce8ff !important;
+}
+.v-application .accent--text.text--lighten-2 {
+  color: #bce8ff !important;
+  caret-color: #bce8ff !important;
+}
+.v-application .accent.lighten-1 {
+  background-color: #9fccff !important;
+  border-color: #9fccff !important;
+}
+.v-application .accent--text.text--lighten-1 {
+  color: #9fccff !important;
+  caret-color: #9fccff !important;
+}
+.v-application .accent.darken-1 {
+  background-color: #6596e2 !important;
+  border-color: #6596e2 !important;
+}
+.v-application .accent--text.text--darken-1 {
+  color: #6596e2 !important;
+  caret-color: #6596e2 !important;
+}
+.v-application .accent.darken-2 {
+  background-color: #467dc6 !important;
+  border-color: #467dc6 !important;
+}
+.v-application .accent--text.text--darken-2 {
+  color: #467dc6 !important;
+  caret-color: #467dc6 !important;
+}
+.v-application .accent.darken-3 {
+  background-color: #2364aa !important;
+  border-color: #2364aa !important;
+}
+.v-application .accent--text.text--darken-3 {
+  color: #2364aa !important;
+  caret-color: #2364aa !important;
+}
+.v-application .accent.darken-4 {
+  background-color: #004c90 !important;
+  border-color: #004c90 !important;
+}
+.v-application .accent--text.text--darken-4 {
+  color: #004c90 !important;
+  caret-color: #004c90 !important;
+}
+.v-application .error {
+  background-color: #fb8678 !important;
+  border-color: #fb8678 !important;
+}
+.v-application .error--text {
+  color: #fb8678 !important;
+  caret-color: #fb8678 !important;
+}
+.v-application .error.lighten-5 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .error--text.text--lighten-5 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .error.lighten-4 {
+  background-color: #fff6e4 !important;
+  border-color: #fff6e4 !important;
+}
+.v-application .error--text.text--lighten-4 {
+  color: #fff6e4 !important;
+  caret-color: #fff6e4 !important;
+}
+.v-application .error.lighten-3 {
+  background-color: #ffd9c8 !important;
+  border-color: #ffd9c8 !important;
+}
+.v-application .error--text.text--lighten-3 {
+  color: #ffd9c8 !important;
+  caret-color: #ffd9c8 !important;
+}
+.v-application .error.lighten-2 {
+  background-color: #ffbdac !important;
+  border-color: #ffbdac !important;
+}
+.v-application .error--text.text--lighten-2 {
+  color: #ffbdac !important;
+  caret-color: #ffbdac !important;
+}
+.v-application .error.lighten-1 {
+  background-color: #ffa192 !important;
+  border-color: #ffa192 !important;
+}
+.v-application .error--text.text--lighten-1 {
+  color: #ffa192 !important;
+  caret-color: #ffa192 !important;
+}
+.v-application .error.darken-1 {
+  background-color: #dc6b5f !important;
+  border-color: #dc6b5f !important;
+}
+.v-application .error--text.text--darken-1 {
+  color: #dc6b5f !important;
+  caret-color: #dc6b5f !important;
+}
+.v-application .error.darken-2 {
+  background-color: #be5147 !important;
+  border-color: #be5147 !important;
+}
+.v-application .error--text.text--darken-2 {
+  color: #be5147 !important;
+  caret-color: #be5147 !important;
+}
+.v-application .error.darken-3 {
+  background-color: #a03731 !important;
+  border-color: #a03731 !important;
+}
+.v-application .error--text.text--darken-3 {
+  color: #a03731 !important;
+  caret-color: #a03731 !important;
+}
+.v-application .error.darken-4 {
+  background-color: #831c1b !important;
+  border-color: #831c1b !important;
+}
+.v-application .error--text.text--darken-4 {
+  color: #831c1b !important;
+  caret-color: #831c1b !important;
+}
+.v-application .info {
+  background-color: #4fc1e9 !important;
+  border-color: #4fc1e9 !important;
+}
+.v-application .info--text {
+  color: #4fc1e9 !important;
+  caret-color: #4fc1e9 !important;
+}
+.v-application .info.lighten-5 {
+  background-color: #ebffff !important;
+  border-color: #ebffff !important;
+}
+.v-application .info--text.text--lighten-5 {
+  color: #ebffff !important;
+  caret-color: #ebffff !important;
+}
+.v-application .info.lighten-4 {
+  background-color: #ccffff !important;
+  border-color: #ccffff !important;
+}
+.v-application .info--text.text--lighten-4 {
+  color: #ccffff !important;
+  caret-color: #ccffff !important;
+}
+.v-application .info.lighten-3 {
+  background-color: #aeffff !important;
+  border-color: #aeffff !important;
+}
+.v-application .info--text.text--lighten-3 {
+  color: #aeffff !important;
+  caret-color: #aeffff !important;
+}
+.v-application .info.lighten-2 {
+  background-color: #8ffaff !important;
+  border-color: #8ffaff !important;
+}
+.v-application .info--text.text--lighten-2 {
+  color: #8ffaff !important;
+  caret-color: #8ffaff !important;
+}
+.v-application .info.lighten-1 {
+  background-color: #70ddff !important;
+  border-color: #70ddff !important;
+}
+.v-application .info--text.text--lighten-1 {
+  color: #70ddff !important;
+  caret-color: #70ddff !important;
+}
+.v-application .info.darken-1 {
+  background-color: #26a6cd !important;
+  border-color: #26a6cd !important;
+}
+.v-application .info--text.text--darken-1 {
+  color: #26a6cd !important;
+  caret-color: #26a6cd !important;
+}
+.v-application .info.darken-2 {
+  background-color: #008bb1 !important;
+  border-color: #008bb1 !important;
+}
+.v-application .info--text.text--darken-2 {
+  color: #008bb1 !important;
+  caret-color: #008bb1 !important;
+}
+.v-application .info.darken-3 {
+  background-color: #007296 !important;
+  border-color: #007296 !important;
+}
+.v-application .info--text.text--darken-3 {
+  color: #007296 !important;
+  caret-color: #007296 !important;
+}
+.v-application .info.darken-4 {
+  background-color: #00597c !important;
+  border-color: #00597c !important;
+}
+.v-application .info--text.text--darken-4 {
+  color: #00597c !important;
+  caret-color: #00597c !important;
+}
+.v-application .success {
+  background-color: #44d69e !important;
+  border-color: #44d69e !important;
+}
+.v-application .success--text {
+  color: #44d69e !important;
+  caret-color: #44d69e !important;
+}
+.v-application .success.lighten-5 {
+  background-color: #dfffff !important;
+  border-color: #dfffff !important;
+}
+.v-application .success--text.text--lighten-5 {
+  color: #dfffff !important;
+  caret-color: #dfffff !important;
+}
+.v-application .success.lighten-4 {
+  background-color: #c1ffff !important;
+  border-color: #c1ffff !important;
+}
+.v-application .success--text.text--lighten-4 {
+  color: #c1ffff !important;
+  caret-color: #c1ffff !important;
+}
+.v-application .success.lighten-3 {
+  background-color: #a3fff1 !important;
+  border-color: #a3fff1 !important;
+}
+.v-application .success--text.text--lighten-3 {
+  color: #a3fff1 !important;
+  caret-color: #a3fff1 !important;
+}
+.v-application .success.lighten-2 {
+  background-color: #84ffd5 !important;
+  border-color: #84ffd5 !important;
+}
+.v-application .success--text.text--lighten-2 {
+  color: #84ffd5 !important;
+  caret-color: #84ffd5 !important;
+}
+.v-application .success.lighten-1 {
+  background-color: #65f3b9 !important;
+  border-color: #65f3b9 !important;
+}
+.v-application .success--text.text--lighten-1 {
+  color: #65f3b9 !important;
+  caret-color: #65f3b9 !important;
+}
+.v-application .success.darken-1 {
+  background-color: #16ba84 !important;
+  border-color: #16ba84 !important;
+}
+.v-application .success--text.text--darken-1 {
+  color: #16ba84 !important;
+  caret-color: #16ba84 !important;
+}
+.v-application .success.darken-2 {
+  background-color: #009e6a !important;
+  border-color: #009e6a !important;
+}
+.v-application .success--text.text--darken-2 {
+  color: #009e6a !important;
+  caret-color: #009e6a !important;
+}
+.v-application .success.darken-3 {
+  background-color: #008352 !important;
+  border-color: #008352 !important;
+}
+.v-application .success--text.text--darken-3 {
+  color: #008352 !important;
+  caret-color: #008352 !important;
+}
+.v-application .success.darken-4 {
+  background-color: #00693b !important;
+  border-color: #00693b !important;
+}
+.v-application .success--text.text--darken-4 {
+  color: #00693b !important;
+  caret-color: #00693b !important;
+}
+.v-application .warning {
+  background-color: #feb65e !important;
+  border-color: #feb65e !important;
+}
+.v-application .warning--text {
+  color: #feb65e !important;
+  caret-color: #feb65e !important;
+}
+.v-application .warning.lighten-5 {
+  background-color: #ffffe7 !important;
+  border-color: #ffffe7 !important;
+}
+.v-application .warning--text.text--lighten-5 {
+  color: #ffffe7 !important;
+  caret-color: #ffffe7 !important;
+}
+.v-application .warning.lighten-4 {
+  background-color: #ffffca !important;
+  border-color: #ffffca !important;
+}
+.v-application .warning--text.text--lighten-4 {
+  color: #ffffca !important;
+  caret-color: #ffffca !important;
+}
+.v-application .warning.lighten-3 {
+  background-color: #ffffae !important;
+  border-color: #ffffae !important;
+}
+.v-application .warning--text.text--lighten-3 {
+  color: #ffffae !important;
+  caret-color: #ffffae !important;
+}
+.v-application .warning.lighten-2 {
+  background-color: #ffee93 !important;
+  border-color: #ffee93 !important;
+}
+.v-application .warning--text.text--lighten-2 {
+  color: #ffee93 !important;
+  caret-color: #ffee93 !important;
+}
+.v-application .warning.lighten-1 {
+  background-color: #ffd278 !important;
+  border-color: #ffd278 !important;
+}
+.v-application .warning--text.text--lighten-1 {
+  color: #ffd278 !important;
+  caret-color: #ffd278 !important;
+}
+.v-application .warning.darken-1 {
+  background-color: #df9b44 !important;
+  border-color: #df9b44 !important;
+}
+.v-application .warning--text.text--darken-1 {
+  color: #df9b44 !important;
+  caret-color: #df9b44 !important;
+}
+.v-application .warning.darken-2 {
+  background-color: #c1812a !important;
+  border-color: #c1812a !important;
+}
+.v-application .warning--text.text--darken-2 {
+  color: #c1812a !important;
+  caret-color: #c1812a !important;
+}
+.v-application .warning.darken-3 {
+  background-color: #a4680c !important;
+  border-color: #a4680c !important;
+}
+.v-application .warning--text.text--darken-3 {
+  color: #a4680c !important;
+  caret-color: #a4680c !important;
+}
+.v-application .warning.darken-4 {
+  background-color: #875000 !important;
+  border-color: #875000 !important;
+}
+.v-application .warning--text.text--darken-4 {
+  color: #875000 !important;
+  caret-color: #875000 !important;
+}
+.v-application .theme {
+  background-color: #0072bc !important;
+  border-color: #0072bc !important;
+}
+.v-application .theme--text {
+  color: #0072bc !important;
+  caret-color: #0072bc !important;
+}
+.v-application .theme.lighten-5 {
+  background-color: #baf9ff !important;
+  border-color: #baf9ff !important;
+}
+.v-application .theme--text.text--lighten-5 {
+  color: #baf9ff !important;
+  caret-color: #baf9ff !important;
+}
+.v-application .theme.lighten-4 {
+  background-color: #9bdcff !important;
+  border-color: #9bdcff !important;
+}
+.v-application .theme--text.text--lighten-4 {
+  color: #9bdcff !important;
+  caret-color: #9bdcff !important;
+}
+.v-application .theme.lighten-3 {
+  background-color: #7dc0ff !important;
+  border-color: #7dc0ff !important;
+}
+.v-application .theme--text.text--lighten-3 {
+  color: #7dc0ff !important;
+  caret-color: #7dc0ff !important;
+}
+.v-application .theme.lighten-2 {
+  background-color: #5ea5f5 !important;
+  border-color: #5ea5f5 !important;
+}
+.v-application .theme--text.text--lighten-2 {
+  color: #5ea5f5 !important;
+  caret-color: #5ea5f5 !important;
+}
+.v-application .theme.lighten-1 {
+  background-color: #3c8bd8 !important;
+  border-color: #3c8bd8 !important;
+}
+.v-application .theme--text.text--lighten-1 {
+  color: #3c8bd8 !important;
+  caret-color: #3c8bd8 !important;
+}
+.v-application .theme.darken-1 {
+  background-color: #005aa1 !important;
+  border-color: #005aa1 !important;
+}
+.v-application .theme--text.text--darken-1 {
+  color: #005aa1 !important;
+  caret-color: #005aa1 !important;
+}
+.v-application .theme.darken-2 {
+  background-color: #004386 !important;
+  border-color: #004386 !important;
+}
+.v-application .theme--text.text--darken-2 {
+  color: #004386 !important;
+  caret-color: #004386 !important;
+}
+.v-application .theme.darken-3 {
+  background-color: #002d6c !important;
+  border-color: #002d6c !important;
+}
+.v-application .theme--text.text--darken-3 {
+  color: #002d6c !important;
+  caret-color: #002d6c !important;
+}
+.v-application .theme.darken-4 {
+  background-color: #001a54 !important;
+  border-color: #001a54 !important;
+}
+.v-application .theme--text.text--darken-4 {
+  color: #001a54 !important;
+  caret-color: #001a54 !important;
+}
+.v-application .themeReverse {
+  background-color: #f96204 !important;
+  border-color: #f96204 !important;
+}
+.v-application .themeReverse--text {
+  color: #f96204 !important;
+  caret-color: #f96204 !important;
+}
+.v-application .themeReverse.lighten-5 {
+  background-color: #ffef96 !important;
+  border-color: #ffef96 !important;
+}
+.v-application .themeReverse--text.text--lighten-5 {
+  color: #ffef96 !important;
+  caret-color: #ffef96 !important;
+}
+.v-application .themeReverse.lighten-4 {
+  background-color: #ffd27a !important;
+  border-color: #ffd27a !important;
+}
+.v-application .themeReverse--text.text--lighten-4 {
+  color: #ffd27a !important;
+  caret-color: #ffd27a !important;
+}
+.v-application .themeReverse.lighten-3 {
+  background-color: #ffb560 !important;
+  border-color: #ffb560 !important;
+}
+.v-application .themeReverse--text.text--lighten-3 {
+  color: #ffb560 !important;
+  caret-color: #ffb560 !important;
+}
+.v-application .themeReverse.lighten-2 {
+  background-color: #ff9945 !important;
+  border-color: #ff9945 !important;
+}
+.v-application .themeReverse--text.text--lighten-2 {
+  color: #ff9945 !important;
+  caret-color: #ff9945 !important;
+}
+.v-application .themeReverse.lighten-1 {
+  background-color: #ff7d29 !important;
+  border-color: #ff7d29 !important;
+}
+.v-application .themeReverse--text.text--lighten-1 {
+  color: #ff7d29 !important;
+  caret-color: #ff7d29 !important;
+}
+.v-application .themeReverse.darken-1 {
+  background-color: #d84600 !important;
+  border-color: #d84600 !important;
+}
+.v-application .themeReverse--text.text--darken-1 {
+  color: #d84600 !important;
+  caret-color: #d84600 !important;
+}
+.v-application .themeReverse.darken-2 {
+  background-color: #b82900 !important;
+  border-color: #b82900 !important;
+}
+.v-application .themeReverse--text.text--darken-2 {
+  color: #b82900 !important;
+  caret-color: #b82900 !important;
+}
+.v-application .themeReverse.darken-3 {
+  background-color: #990000 !important;
+  border-color: #990000 !important;
+}
+.v-application .themeReverse--text.text--darken-3 {
+  color: #990000 !important;
+  caret-color: #990000 !important;
+}
+.v-application .themeReverse.darken-4 {
+  background-color: #7c0000 !important;
+  border-color: #7c0000 !important;
+}
+.v-application .themeReverse--text.text--darken-4 {
+  color: #7c0000 !important;
+  caret-color: #7c0000 !important;
+}
+.v-application .background {
+  background-color: #eeeeee !important;
+  border-color: #eeeeee !important;
+}
+.v-application .background--text {
+  color: #eeeeee !important;
+  caret-color: #eeeeee !important;
+}
+.v-application .background.lighten-5 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .background--text.text--lighten-5 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .background.lighten-4 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .background--text.text--lighten-4 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .background.lighten-3 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .background--text.text--lighten-3 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .background.lighten-2 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .background--text.text--lighten-2 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .background.lighten-1 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .background--text.text--lighten-1 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .background.darken-1 {
+  background-color: #d2d2d2 !important;
+  border-color: #d2d2d2 !important;
+}
+.v-application .background--text.text--darken-1 {
+  color: #d2d2d2 !important;
+  caret-color: #d2d2d2 !important;
+}
+.v-application .background.darken-2 {
+  background-color: #b6b6b6 !important;
+  border-color: #b6b6b6 !important;
+}
+.v-application .background--text.text--darken-2 {
+  color: #b6b6b6 !important;
+  caret-color: #b6b6b6 !important;
+}
+.v-application .background.darken-3 {
+  background-color: #9b9b9b !important;
+  border-color: #9b9b9b !important;
+}
+.v-application .background--text.text--darken-3 {
+  color: #9b9b9b !important;
+  caret-color: #9b9b9b !important;
+}
+.v-application .background.darken-4 {
+  background-color: #818181 !important;
+  border-color: #818181 !important;
+}
+.v-application .background--text.text--darken-4 {
+  color: #818181 !important;
+  caret-color: #818181 !important;
+}</style><script data-n-head="ssr" src="https://platform.twitter.com/widgets.js" charset="utf-8" async></script><script data-n-head="ssr" data-hid="gtm-script">if(!window._gtm_init){window._gtm_init=1;(function(w,n,d,m,e,p){w[d]=(w[d]==1||n[d]=='yes'||n[d]==1||n[m]==1||(w[e]&&w[e][p]&&w[e][p]()))?1:0})(window,navigator,'doNotTrack','msDoNotTrack','external','msTrackingProtectionEnabled');(function(w,d,s,l,x,y){w[x]={};w._gtm_inject=function(i){if(w.doNotTrack||w[x][i])return;w[x][i]=1;w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f);};w[y]('GTM-P72Q27J')})(window,document,'script','dataLayer','_gtm_ids','_gtm_inject')}</script><script data-n-head="ssr" type="application/ld+json">[
+          
+      {
+        "@context":"http://schema.org",
+        "@type":"BlogPosting",
+        "mainEntityOfPage":"https://goal-path.com/app/plan/6",
+        "headline":"WordPressでブログサイトを作ろう！",
+        "keywords":"プログラミング",
+        "datePublished":"2023-10-07T00:00:00+00:00",
+        "dateModified":"2023-10-11T00:00:00+00:00",
+        "author":{
+          "@type":"Person",
+          "name":"Toshi Seito",
+          "url": "https://goal-path.com/app/user_detail/32",
+          "image": "https://goal-path.com/api/media/uploadimage/profileimage_WpNMnUi.jpg"
+        },
+        "publisher":{
+          "@type":"Organization",
+          "name":"Goal-Path（ゴールパス）",
+          "logo":{
+            "@type":"ImageObject",
+            "url":"https://goal-path.com/_nuxt/img/222dff7.png",
+            "width":"32",
+            "height":"32"
+          }
+        },
+        "image":{
+          "@type":"ImageObject",
+          "url":"https://goal-path.com/api/media/uploadimage/coccontop2.jpg",
+          "width":1280,
+          "height":670
+        },
+        "description":"「WordPressでブログサイトを作ろう！」は、WordPress無料ブログテーマCocoonを使って、ブログ用サイトを立ち上げます。このプロジェクトでは、ただWordPressでブログ立ち上げるだけでなく、試験データを使ってWordPressとテーマの使い方も学びます。WordPressでブログサイトを立ち上げたあとは、Googleアナリティクス4（GA4）の導入とGoogleサーチコンソールの連動も行います。最後に日頃のWordPressの保守についても触れていますのでWordPressの運営を考えている方にもおすすめです。"
+      },
+      {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "WordPressでブログサイトを作ろう！",
+        "image": "https://goal-path.com/api/media/uploadimage/coccontop2.jpg",
+        "description": "「WordPressでブログサイトを作ろう！」は、WordPress無料ブログテーマCocoonを使って、ブログ用サイトを立ち上げます。このプロジェクトでは、ただWordPressでブログ立ち上げるだけでなく、試験データを使ってWordPressとテーマの使い方も学びます。WordPressでブログサイトを立ち上げたあとは、Googleアナリティクス4（GA4）の導入とGoogleサーチコンソールの連動も行います。最後に日頃のWordPressの保守についても触れていますのでWordPressの運営を考えている方にもおすすめです。",
+        "brand": {
+          "@type": "Brand",
+          "name": "Goal-Path(ゴールパス)"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "0",
+          "reviewCount": "0",
+          "bestRating": "0",
+          "worstRating": "0"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://goal-path.com/app/plan/6",
+          "priceCurrency": "JPY",
+          "price": "3000",
+          "itemCondition": "https://schema.org/UsedCondition",
+          "availability": "https://schema.org/InStock"
+        }
+      },
+          {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement":[
+              {"@type": "ListItem","position" : 1,"name": "トップページ","item": "https://goal-path.com"},
+              {"@type": "ListItem","position" : 2,"name": "WordPressでブログサイトを作ろう！","item": "https://goal-path.com/app/plan/6"}
+            ]
+          }
+        ]</script><link rel="preload" href="/_nuxt/5b0a310.js" as="script"><link rel="preload" href="/_nuxt/f25bcb6.js" as="script"><link rel="preload" href="/_nuxt/da8455b.js" as="script"><link rel="preload" href="/_nuxt/124efcd.js" as="script"><link rel="preload" href="/_nuxt/bc019d7.js" as="script"><link rel="preload" href="/_nuxt/dd9d20e.js" as="script"><link rel="preload" href="/_nuxt/3105f9e.js" as="script"><link rel="preload" href="/_nuxt/9e2f1e0.js" as="script"><link rel="preload" href="/_nuxt/0aab20f.js" as="script"><link rel="preload" href="/_nuxt/css/6ead5e0.css" as="style"><link rel="preload" href="/_nuxt/a915701.js" as="script"><link rel="preload" href="/_nuxt/css/897972b.css" as="style"><link rel="preload" href="/_nuxt/e933c20.js" as="script"><link rel="preload" href="/_nuxt/css/bb2a448.css" as="style"><link rel="preload" href="/_nuxt/f1593de.js" as="script"><link rel="preload" href="/_nuxt/css/137f9b7.css" as="style"><link rel="preload" href="/_nuxt/2b99b7c.js" as="script"><link rel="preload" href="/_nuxt/78a4a59.js" as="script"><link rel="preload" href="/_nuxt/css/a77e0c3.css" as="style"><link rel="preload" href="/_nuxt/1aa1fed.js" as="script"><link rel="preload" href="/_nuxt/d69fd6d.js" as="script"><link rel="preload" href="/_nuxt/08cbffa.js" as="script"><link rel="preload" href="/_nuxt/86f00f5.js" as="script"><link rel="preload" href="/_nuxt/398f48f.js" as="script"><link rel="preload" href="/_nuxt/e047269.js" as="script"><link rel="preload" href="/_nuxt/3eaeba8.js" as="script"><link rel="preload" href="/_nuxt/74f00e2.js" as="script"><link rel="preload" href="/_nuxt/4e448cd.js" as="script"><link rel="preload" href="/_nuxt/a7f416b.js" as="script"><link rel="preload" href="/_nuxt/b1acdd8.js" as="script"><link rel="preload" href="/_nuxt/dfa4aa2.js" as="script"><link rel="preload" href="/_nuxt/aa84cde.js" as="script"><link rel="preload" href="/_nuxt/64037ec.js" as="script"><link rel="preload" href="/_nuxt/4067793.js" as="script"><link rel="preload" href="/_nuxt/css/5cce3e4.css" as="style"><link rel="preload" href="/_nuxt/86394ab.js" as="script"><link rel="preload" href="/_nuxt/css/ca6b1de.css" as="style"><link rel="preload" href="/_nuxt/b0395aa.js" as="script"><link rel="preload" href="/_nuxt/css/50a8c96.css" as="style"><link rel="preload" href="/_nuxt/498f909.js" as="script"><link rel="preload" href="/_nuxt/css/cc8812e.css" as="style"><link rel="preload" href="/_nuxt/b36f123.js" as="script"><link rel="preload" href="/_nuxt/5981755.js" as="script"><link rel="preload" href="/_nuxt/45795ff.js" as="script"><link rel="preload" href="/_nuxt/css/b6086d1.css" as="style"><link rel="preload" href="/_nuxt/43af73a.js" as="script"><link rel="stylesheet" href="/_nuxt/css/6ead5e0.css"><link rel="stylesheet" href="/_nuxt/css/897972b.css"><link rel="stylesheet" href="/_nuxt/css/bb2a448.css"><link rel="stylesheet" href="/_nuxt/css/137f9b7.css"><link rel="stylesheet" href="/_nuxt/css/a77e0c3.css"><link rel="stylesheet" href="/_nuxt/css/5cce3e4.css"><link rel="stylesheet" href="/_nuxt/css/ca6b1de.css"><link rel="stylesheet" href="/_nuxt/css/50a8c96.css"><link rel="stylesheet" href="/_nuxt/css/cc8812e.css"><link rel="stylesheet" href="/_nuxt/css/b6086d1.css">
+  </head>
+  <body class="body-class" data-n-head="%7B%22class%22:%7B%22ssr%22:%5B%22body-class%22%5D%7D%7D">
+    <noscript data-n-head="ssr" data-hid="gtm-noscript" data-pbody="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P72Q27J&" height="0" width="0" style="display:none;visibility:hidden" title="gtm"></iframe></noscript><div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div data-app="true" id="app" class="v-application v-application--is-ltr theme--light" style="overflow:hidden;"><div class="v-application--wrap"><!----> <header class="v-sheet theme--dark v-toolbar v-app-bar v-app-bar--fixed theme" style="height:36px;margin-top:0px;transform:translateY(0px);left:0px;right:0px;"><div class="v-toolbar__content" style="height:36px;"><span role="button" class="h-8 w-8 bg-white rounded-full"><img data-src="/_nuxt/img/222dff7.png" alt="goal-path_logo"></span> <div class="v-toolbar__title ml-5"><a href="/" class="no-underline nuxt-link-active"><h1 class="text-white" style="font-size:1.4rem;">
+        Goal-Path
+      </h1></a></div> <!----> <div class="spacer"></div> <nav class="d-flex"><a href="/user/signup" class="mx-1 v-btn v-btn--has-bg v-btn--router theme--dark v-size--small red" style="font-weight:bold;"><span class="v-btn__content">新規登録(無料)</span></a> <a href="/user/login" class="mx-1 v-btn v-btn--has-bg v-btn--router theme--dark v-size--small light-blue" style="font-weight:bold;"><span class="v-btn__content">ログイン</span></a></nav></div></header> <div class="v-snack v-snack--text v-snack--top"><div class="v-snack__wrapper v-sheet theme--light" style="display:none;"><div role="status" aria-live="polite" class="v-snack__content"></div><div class="v-snack__action "><button type="button" class="v-btn v-btn--text theme--light v-size--default v-snack__btn"><span class="v-btn__content">
+        Close
+    	</span></button></div></div></div> <main class="v-main" style="padding-top:36px;padding-right:0px;padding-bottom:0px;padding-left:0px;overflow:hidden;background-color:#EEEEEE;"><div class="v-main__wrap"><!----> <div id="plan" class="plan" style="overflow:hidden;" data-v-389d8023><div class="relative" data-v-389d8023><div class="content bg-white max-w-screen-md mx-auto md:p-2" data-v-389d8023><article data-v-389d8023><h1 class="font-bold my-2" data-v-389d8023>WordPressでブログサイトを作ろう！</h1> <div class="flex time-text mr-auto my-2 text-sm" data-v-389d8023><div class="mr-2" data-v-389d8023><time data-v-389d8023>公開：2023/10/07</time></div> <div class="ml-2" data-v-389d8023><time data-v-389d8023>更新：2023/10/11</time></div></div> <div class="w-full relative" data-v-389d8023><img data-src="https://goal-path.com/api/media/uploadimage/coccontop2.jpg" alt="WordPressでブログサイトを作ろう！" data-v-389d8023></div> <div class="p-2" data-v-389d8023><div class="flex items-center my-2" data-v-389d8023><div class="d-flex mr-auto ml-2 items-center" data-v-389d8023><div class="my-auto" data-v-389d8023><!----></div> <div class="mr-2" data-v-389d8023><span data-v-389d8023><div role="dialog" class="v-dialog__container" style="z-index:5000;"><!----></div> <div class="v-avatar cursor-pointer" style="height:30px;min-width:30px;width:30px;"><img data-src="https://goal-path.com/api/media/uploadimage/profileimage_WpNMnUi.jpg" alt="Toshi Seito"></div></span></div> <div class="create_user my-auto cursor-pointer" data-v-389d8023><span class="text-sm" data-v-389d8023>
+                  Toshi Seito
+                </span></div></div> <div data-v-389d8023><span top="" class="v-badge v-badge--left theme--light" data-v-389d8023><button type="button" class="v-btn v-btn--is-elevated v-btn--has-bg theme--dark v-size--default themeReverse" style="font-weight:bold;font-size:14px;" data-v-389d8023><span class="v-btn__content">
+                    ¥3000で購入
+                  </span></button><span class="v-badge__wrapper"><span aria-atomic="true" aria-label="Badge" aria-live="polite" role="status" class="v-badge__badge pink" style="bottom:calc(100% - 4px);left:auto;right:calc(100% - 50px);top:auto;">残り9部</span></span></span></div></div> <div class="flex items-center justify-end my-2" data-v-389d8023><span class="v-tooltip v-tooltip--top" data-v-389d8023><!----><div aria-haspopup="true" aria-expanded="false" class="ml-2 d-flex items-end cursor-pointer hover:bg-gray-300" data-v-389d8023><div class="mr-2" data-v-389d8023><span aria-hidden="true" class="v-icon notranslate theme--light" style="font-size:36px;height:36px;width:36px;" data-v-389d8023><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg" style="font-size:36px;height:36px;width:36px;"><path d="M12,1L8,5H11V14H13V5H16M18,23H6C4.89,23 4,22.1 4,21V9A2,2 0 0,1 6,7H9V9H6V21H18V9H15V7H18A2,2 0 0,1 20,9V21A2,2 0 0,1 18,23Z"></path></svg></span></div> <div class="mr-2" data-v-389d8023>
+                    紹介料
+                  </div> <div data-v-389d8023>
+                    20％
+                  </div></div></span> <div class="d-flex items-center mr-2" data-v-389d8023><a href="https://twitter.com/intent/tweet?url=https://goal-path.com/app/plan/6&amp;text=%23%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%91%E3%82%B9%20%E3%81%A7%E8%B2%A9%E5%A3%B2%E4%B8%AD%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%0A%E3%80%8EWordPress%E3%81%A7%E3%83%96%E3%83%AD%E3%82%B0%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86%EF%BC%81%E3%80%8F%E3%82%92%E7%B4%B9%E4%BB%8B%E3%81%97%E3%81%BE%E3%81%99!%0A%7B%7B%E3%81%93%E3%81%A1%E3%82%89%E3%81%AB%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E7%B4%B9%E4%BB%8B%E5%86%85%E5%AE%B9%E3%82%92%E8%A8%98%E8%BC%89%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%7D%7D%0A%E2%86%93%E5%86%85%E5%AE%B9%E3%82%84%E8%A9%B3%E7%B4%B0%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%E3%81%AB%E2%86%93%0A%0A" target="_blank" rel="nofollow noopener noreferrer" aria-label="twitter_link" class="mx-2" data-v-389d8023><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="fa-2x twitter svg-inline--fa fa-twitter-square fa-w-14" data-v-389d8023 data-v-389d8023><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8 .2 5.7 .2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3 .6 10.4 .8 15.8 .8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.45 65.45 0 0 1 -29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" data-v-389d8023 data-v-389d8023></path></svg></a> <a href="https://social-plugins.line.me/lineit/share?url=https://goal-path.com/app/plan/6&amp;text=%23%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%91%E3%82%B9%20%E3%81%A7%E8%B2%A9%E5%A3%B2%E4%B8%AD%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%0A%E3%80%8EWordPress%E3%81%A7%E3%83%96%E3%83%AD%E3%82%B0%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86%EF%BC%81%E3%80%8F%E3%82%92%E7%B4%B9%E4%BB%8B%E3%81%97%E3%81%BE%E3%81%99!%0A%7B%7B%E3%81%93%E3%81%A1%E3%82%89%E3%81%AB%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E7%B4%B9%E4%BB%8B%E5%86%85%E5%AE%B9%E3%82%92%E8%A8%98%E8%BC%89%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%7D%7D%0A%E2%86%93%E5%86%85%E5%AE%B9%E3%82%84%E8%A9%B3%E7%B4%B0%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%E3%81%AB%E2%86%93%0A%0A" target="_blank" rel="nofollow noopener noreferrer" aria-label="line_link" class="mx-2" data-v-389d8023><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="line" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="fa-2x line svg-inline--fa fa-line fa-w-14" data-v-389d8023 data-v-389d8023><path fill="currentColor" d="M272.1 204.2v71.1c0 1.8-1.4 3.2-3.2 3.2h-11.4c-1.1 0-2.1-.6-2.6-1.3l-32.6-44v42.2c0 1.8-1.4 3.2-3.2 3.2h-11.4c-1.8 0-3.2-1.4-3.2-3.2v-71.1c0-1.8 1.4-3.2 3.2-3.2H219c1 0 2.1 .5 2.6 1.4l32.6 44v-42.2c0-1.8 1.4-3.2 3.2-3.2h11.4c1.8-.1 3.3 1.4 3.3 3.1zm-82-3.2h-11.4c-1.8 0-3.2 1.4-3.2 3.2v71.1c0 1.8 1.4 3.2 3.2 3.2h11.4c1.8 0 3.2-1.4 3.2-3.2v-71.1c0-1.7-1.4-3.2-3.2-3.2zm-27.5 59.6h-31.1v-56.4c0-1.8-1.4-3.2-3.2-3.2h-11.4c-1.8 0-3.2 1.4-3.2 3.2v71.1c0 .9 .3 1.6 .9 2.2 .6 .5 1.3 .9 2.2 .9h45.7c1.8 0 3.2-1.4 3.2-3.2v-11.4c0-1.7-1.4-3.2-3.1-3.2zM332.1 201h-45.7c-1.7 0-3.2 1.4-3.2 3.2v71.1c0 1.7 1.4 3.2 3.2 3.2h45.7c1.8 0 3.2-1.4 3.2-3.2v-11.4c0-1.8-1.4-3.2-3.2-3.2H301v-12h31.1c1.8 0 3.2-1.4 3.2-3.2V234c0-1.8-1.4-3.2-3.2-3.2H301v-12h31.1c1.8 0 3.2-1.4 3.2-3.2v-11.4c-.1-1.7-1.5-3.2-3.2-3.2zM448 113.7V399c-.1 44.8-36.8 81.1-81.7 81H81c-44.8-.1-81.1-36.9-81-81.7V113c.1-44.8 36.9-81.1 81.7-81H367c44.8 .1 81.1 36.8 81 81.7zm-61.6 122.6c0-73-73.2-132.4-163.1-132.4-89.9 0-163.1 59.4-163.1 132.4 0 65.4 58 120.2 136.4 130.6 19.1 4.1 16.9 11.1 12.6 36.8-.7 4.1-3.3 16.1 14.1 8.8 17.4-7.3 93.9-55.3 128.2-94.7 23.6-26 34.9-52.3 34.9-81.5z" data-v-389d8023 data-v-389d8023></path></svg></a></div> <div class="ml-2" data-v-389d8023><div class="review-computed" data-v-389d8023><div class="flex"><div class="flex align-center mx-1"><div><span aria-hidden="true" class="v-icon notranslate theme--light yellow--text"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg></span></div> <div style="font-size:1.4rem;">0.0</div></div> <div class="flex align-center mx-1 cursor-pointer"><span aria-hidden="true" class="v-icon notranslate theme--light info--text"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4C22,2.89 21.1,2 20,2Z"></path></svg></span> <div class="underline" style="font-size:1.4rem;">0</div></div></div> <!----></div></div></div> <div class="ml-2 text-xs w-full md:text-right" data-v-389d8023>
+            ※※購入前の紹介料は一律で5%です※※
+          </div> <div class="plan-detail relative" data-v-4cc9abd4 data-v-389d8023><!----> <div id="plan_card_contents" class="relative" data-v-4cc9abd4><section id="content" data-v-4cc9abd4><div class="my-3 px-5" data-v-4cc9abd4>
+        「WordPressでブログサイトを作ろう！」は、WordPress無料ブログテーマCocoonを使って、ブログ用サイトを立ち上げます。このプロジェクトでは、ただWordPressでブログ立ち上げるだけでなく、試験データを使ってWordPressとテーマの使い方も学びます。WordPressでブログサイトを立ち上げたあとは、Googleアナリティクス4（GA4）の導入とGoogleサーチコンソールの連動も行います。最後に日頃のWordPressの保守についても触れていますのでWordPressの運営を考えている方にもおすすめです。
+      </div> <!----> <div class="my-5" data-v-4cc9abd4><div class="plan-content" data-v-4cc9abd4><h2>WordPressで挫折したことはありませんか？</h2><p><br></p><p>WordPressは簡単と言われているけどネットや本を見ながら始めて見たものの、結局完成する前に挫折してしまったという人も多いのも事実です。</p><p>WordPressではいくつかのハードルがあります。</p><ol><li>レンタルサーバーの契約とドメインの取得</li><li>WordPressのインストール</li><li>WordPressの使い方</li><li>デザインテンプレート（テーマ）の使い方</li><li>完成後の運営について</li></ol><p>大きくこの5つのポイントで躓いたり、分からなくなって放置してしまうという事になります。</p><p>「WordPressでブログサイトを作ろう！」では、この5つをクリアするために、画像付きで完成をブログサイトの完成を目指します。</p><p>WordPressの使い方では、設定だけではなく試験データを用いることでWordPressの全体的に把握するような進め方になっています。</p><p>またこのコンテンツは職業訓練校でWordPressの授業の講師をやったときに実際に使ったものと同じものですので、一つ一つが細かく指示されているので挫折しにくくなっています。</p><p><br></p><h2>こんな人にオススメ</h2><p>「WordPressでブログサイトを作ろう！」はこんな方におすすめです！</p><ol><li>これからWordPressでブログを始めたい人</li><li>WordPressの基本的な操作を学びたい人</li><li>WordPressの立ち上げてから挫折してしまった人</li><li>WordPressは使ったことがあるけど、1から作ったことが無い人</li></ol><p><br></p><h2>このプロジェクトで必要なもの</h2><p>WordPressを始める場合、次のものが必要となります。</p><ol><li>レンタルサーバー（月約1,000円～）</li><li>ドメイン（年間約1,300円～）※</li></ol><p>※今回のプロジェクトで利用するXサーバー（レンタルサーバー）では最初に取得する独自ドメインは無料のためXサーバーを利用した場合は年間利用料は掛かりません。</p><p><br></p><h2>WordPressの全体のイメージ</h2><p>WordPressはレンタルサーバーとドメインが必要になりますが、イメージとしては次の画像の通りです。</p><p><img src="https://goal-path.com/api/media/uploadimage/wordpress_image_031.png"></p><p>レンタルサーバーはいわゆる土地の役割で、ドメインが住所に例えられます。</p><p>その土地がかりられて初めて家に例えられるWordPressを立ち上げる事が出来ます。</p><p>プロジェクトで利用するレンタルサーバーのXサーバーにはドメインを取得して、WordPressを簡単にインストールしてドメインと紐付ける仕組みが備わっていますので、難しく考えなくてもWordPressを立ち上げる事が出来ます。とはいえ、こういったイメージをもっていると自分が何をしているのかが分かるので、覚えておきましょう。</p><p><br></p><h2>WordPressが使えるようになったその先</h2><p>このプロジェクトを通してWordPressが使えるようになると、今後はこのようなことを目指すことが出来るようになります。</p><ol><li>ブログ発信で人・企業との繋がりが作れるようになる（SEOではいまでもWordPressは有利）</li><li>WordPressで困っている人のお手伝いが出来るようになる</li><li>ノーコードでホームページが作れるようになる</li><li>PHPを学ぶことでテンプレートのカスタマイズ、制作が出来るようになる</li></ol><p>私自身もWordPressを通してPHPの応用を学んだ一人ですので、プログラマーを目指している方はとっかかりとしてもWordPressはとても良い教材になります。</p><p><br></p><p>WordPressは自由にカスタマイズできるCMSとしては情報量がとても多いので、応用をすればブログやホームページだけでなく、会員制サイトや、ECサイトなども作ることができますので、是非この機会にWordPressを立ち上げてみてはいかがでしょうか？</p><p><br></p></div></div> <div class="my-5 flex" data-v-4cc9abd4><div class="mx-2" data-v-4cc9abd4><button type="button" class="v-btn v-btn--outlined v-btn--rounded theme--light v-size--small secondary--text" data-v-4cc9abd4><span class="v-btn__content"><span data-v-4cc9abd4>プログラミング</span></span></button></div></div></section></div> <!----> <!----></div></div></article></div> <footer class="v-footer v-sheet theme--light v-footer--fixed" style="left:0px;right:0px;bottom:0px;border-top:1px solid #d8d8d8;" data-v-389d8023><div class="flex justify-around items-center" data-v-389d8023><div class="d-flex items-center" data-v-389d8023><span class="v-tooltip v-tooltip--top" data-v-389d8023><!----><div aria-haspopup="true" aria-expanded="false" class="ml-2 d-flex items-end cursor-pointer hover:bg-gray-300" data-v-389d8023><div class="mr-2" data-v-389d8023><span aria-hidden="true" class="v-icon notranslate theme--light" data-v-389d8023><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M12,1L8,5H11V14H13V5H16M18,23H6C4.89,23 4,22.1 4,21V9A2,2 0 0,1 6,7H9V9H6V21H18V9H15V7H18A2,2 0 0,1 20,9V21A2,2 0 0,1 18,23Z"></path></svg></span></div> <!----> <div data-v-389d8023>
+                  20%
+                </div></div></span> <div class="d-flex items-center ml-1" data-v-389d8023><a href="https://twitter.com/intent/tweet?url=https://goal-path.com/app/plan/6&amp;text=%23%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%91%E3%82%B9%20%E3%81%A7%E8%B2%A9%E5%A3%B2%E4%B8%AD%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%0A%E3%80%8EWordPress%E3%81%A7%E3%83%96%E3%83%AD%E3%82%B0%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86%EF%BC%81%E3%80%8F%E3%82%92%E7%B4%B9%E4%BB%8B%E3%81%97%E3%81%BE%E3%81%99!%0A%7B%7B%E3%81%93%E3%81%A1%E3%82%89%E3%81%AB%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E7%B4%B9%E4%BB%8B%E5%86%85%E5%AE%B9%E3%82%92%E8%A8%98%E8%BC%89%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%7D%7D%0A%E2%86%93%E5%86%85%E5%AE%B9%E3%82%84%E8%A9%B3%E7%B4%B0%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%E3%81%AB%E2%86%93%0A%0A" target="_blank" rel="nofollow noopener noreferrer" aria-label="twitter_link" class="mx-1" data-v-389d8023><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="fa-2x twitter svg-inline--fa fa-twitter-square fa-w-14" data-v-389d8023><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8 .2 5.7 .2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3 .6 10.4 .8 15.8 .8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.45 65.45 0 0 1 -29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" data-v-389d8023></path></svg></a> <a href="https://social-plugins.line.me/lineit/share?url=https://goal-path.com/app/plan/6&amp;text=%23%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%91%E3%82%B9%20%E3%81%A7%E8%B2%A9%E5%A3%B2%E4%B8%AD%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%0A%E3%80%8EWordPress%E3%81%A7%E3%83%96%E3%83%AD%E3%82%B0%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E4%BD%9C%E3%82%8D%E3%81%86%EF%BC%81%E3%80%8F%E3%82%92%E7%B4%B9%E4%BB%8B%E3%81%97%E3%81%BE%E3%81%99!%0A%7B%7B%E3%81%93%E3%81%A1%E3%82%89%E3%81%AB%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E7%B4%B9%E4%BB%8B%E5%86%85%E5%AE%B9%E3%82%92%E8%A8%98%E8%BC%89%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%7D%7D%0A%E2%86%93%E5%86%85%E5%AE%B9%E3%82%84%E8%A9%B3%E7%B4%B0%E3%81%AF%E3%81%93%E3%81%A1%E3%82%89%E3%81%AB%E2%86%93%0A%0A" target="_blank" rel="nofollow noopener noreferrer" aria-label="line_link" class="mx-1" data-v-389d8023><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="line" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="fa-2x line svg-inline--fa fa-line fa-w-14" data-v-389d8023><path fill="currentColor" d="M272.1 204.2v71.1c0 1.8-1.4 3.2-3.2 3.2h-11.4c-1.1 0-2.1-.6-2.6-1.3l-32.6-44v42.2c0 1.8-1.4 3.2-3.2 3.2h-11.4c-1.8 0-3.2-1.4-3.2-3.2v-71.1c0-1.8 1.4-3.2 3.2-3.2H219c1 0 2.1 .5 2.6 1.4l32.6 44v-42.2c0-1.8 1.4-3.2 3.2-3.2h11.4c1.8-.1 3.3 1.4 3.3 3.1zm-82-3.2h-11.4c-1.8 0-3.2 1.4-3.2 3.2v71.1c0 1.8 1.4 3.2 3.2 3.2h11.4c1.8 0 3.2-1.4 3.2-3.2v-71.1c0-1.7-1.4-3.2-3.2-3.2zm-27.5 59.6h-31.1v-56.4c0-1.8-1.4-3.2-3.2-3.2h-11.4c-1.8 0-3.2 1.4-3.2 3.2v71.1c0 .9 .3 1.6 .9 2.2 .6 .5 1.3 .9 2.2 .9h45.7c1.8 0 3.2-1.4 3.2-3.2v-11.4c0-1.7-1.4-3.2-3.1-3.2zM332.1 201h-45.7c-1.7 0-3.2 1.4-3.2 3.2v71.1c0 1.7 1.4 3.2 3.2 3.2h45.7c1.8 0 3.2-1.4 3.2-3.2v-11.4c0-1.8-1.4-3.2-3.2-3.2H301v-12h31.1c1.8 0 3.2-1.4 3.2-3.2V234c0-1.8-1.4-3.2-3.2-3.2H301v-12h31.1c1.8 0 3.2-1.4 3.2-3.2v-11.4c-.1-1.7-1.5-3.2-3.2-3.2zM448 113.7V399c-.1 44.8-36.8 81.1-81.7 81H81c-44.8-.1-81.1-36.9-81-81.7V113c.1-44.8 36.9-81.1 81.7-81H367c44.8 .1 81.1 36.8 81 81.7zm-61.6 122.6c0-73-73.2-132.4-163.1-132.4-89.9 0-163.1 59.4-163.1 132.4 0 65.4 58 120.2 136.4 130.6 19.1 4.1 16.9 11.1 12.6 36.8-.7 4.1-3.3 16.1 14.1 8.8 17.4-7.3 93.9-55.3 128.2-94.7 23.6-26 34.9-52.3 34.9-81.5z" data-v-389d8023></path></svg></a></div> <div class="ml-1" data-v-389d8023><div class="review-computed" data-v-389d8023><div class="flex"><div class="flex align-center mx-1"><div><span aria-hidden="true" class="v-icon notranslate theme--light yellow--text"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"></path></svg></span></div> <div style="font-size:1.4rem;">0.0</div></div> <div class="flex align-center mx-1 cursor-pointer"><span aria-hidden="true" class="v-icon notranslate theme--light info--text"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4C22,2.89 21.1,2 20,2Z"></path></svg></span> <div class="underline" style="font-size:1.4rem;">0</div></div></div> <!----></div></div></div> <div class="d-flex ml-2 my-2" data-v-389d8023><div data-v-389d8023><span top="" class="v-badge v-badge--left theme--light" data-v-389d8023><button type="button" class="v-btn v-btn--has-bg theme--dark v-size--small themeReverse" style="font-weight:bold;font-size:14px;" data-v-389d8023><span class="v-btn__content">
+                    ¥3000
+                  </span></button><span class="v-badge__wrapper"><span aria-atomic="true" aria-label="Badge" aria-live="polite" role="status" class="v-badge__badge pink" style="bottom:calc(100% - 4px);left:auto;right:calc(100% - 50px);top:auto;">残り9部</span></span></span></div></div></div></footer> <!----></div> <div role="dialog" class="v-dialog__container" data-v-389d8023><!----></div> <div role="dialog" class="v-dialog__container" data-v-389d8023><!----></div> <div role="dialog" class="v-dialog__container" data-v-389d8023><!----></div></div></div></main> <!----></div></div></div></div><script>window.__NUXT__=(function(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v){l.id=j;l.title=m;l.create_date="2023-10-07";l.update_date="2023-10-11";l.published_date="2023-10-07T10:54:00+09:00";l.price=3000;l.fee=120;l.introduce_rate=k;l.limited_num=e;l.current_limitted_num=9;l.image={id:638,image:n,project_pk:d};l.intro=o;l.details="\u003Ch2\u003EWordPressで挫折したことはありませんか？\u003C\u002Fh2\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\u002Fp\u003E\u003Cp\u003EWordPressは簡単と言われているけどネットや本を見ながら始めて見たものの、結局完成する前に挫折してしまったという人も多いのも事実です。\u003C\u002Fp\u003E\u003Cp\u003EWordPressではいくつかのハードルがあります。\u003C\u002Fp\u003E\u003Col\u003E\u003Cli\u003Eレンタルサーバーの契約とドメインの取得\u003C\u002Fli\u003E\u003Cli\u003EWordPressのインストール\u003C\u002Fli\u003E\u003Cli\u003EWordPressの使い方\u003C\u002Fli\u003E\u003Cli\u003Eデザインテンプレート（テーマ）の使い方\u003C\u002Fli\u003E\u003Cli\u003E完成後の運営について\u003C\u002Fli\u003E\u003C\u002Fol\u003E\u003Cp\u003E大きくこの5つのポイントで躓いたり、分からなくなって放置してしまうという事になります。\u003C\u002Fp\u003E\u003Cp\u003E「WordPressでブログサイトを作ろう！」では、この5つをクリアするために、画像付きで完成をブログサイトの完成を目指します。\u003C\u002Fp\u003E\u003Cp\u003EWordPressの使い方では、設定だけではなく試験データを用いることでWordPressの全体的に把握するような進め方になっています。\u003C\u002Fp\u003E\u003Cp\u003Eまたこのコンテンツは職業訓練校でWordPressの授業の講師をやったときに実際に使ったものと同じものですので、一つ一つが細かく指示されているので挫折しにくくなっています。\u003C\u002Fp\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\u002Fp\u003E\u003Ch2\u003Eこんな人にオススメ\u003C\u002Fh2\u003E\u003Cp\u003E「WordPressでブログサイトを作ろう！」はこんな方におすすめです！\u003C\u002Fp\u003E\u003Col\u003E\u003Cli\u003EこれからWordPressでブログを始めたい人\u003C\u002Fli\u003E\u003Cli\u003EWordPressの基本的な操作を学びたい人\u003C\u002Fli\u003E\u003Cli\u003EWordPressの立ち上げてから挫折してしまった人\u003C\u002Fli\u003E\u003Cli\u003EWordPressは使ったことがあるけど、1から作ったことが無い人\u003C\u002Fli\u003E\u003C\u002Fol\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\u002Fp\u003E\u003Ch2\u003Eこのプロジェクトで必要なもの\u003C\u002Fh2\u003E\u003Cp\u003EWordPressを始める場合、次のものが必要となります。\u003C\u002Fp\u003E\u003Col\u003E\u003Cli\u003Eレンタルサーバー（月約1,000円～）\u003C\u002Fli\u003E\u003Cli\u003Eドメイン（年間約1,300円～）※\u003C\u002Fli\u003E\u003C\u002Fol\u003E\u003Cp\u003E※今回のプロジェクトで利用するXサーバー（レンタルサーバー）では最初に取得する独自ドメインは無料のためXサーバーを利用した場合は年間利用料は掛かりません。\u003C\u002Fp\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\u002Fp\u003E\u003Ch2\u003EWordPressの全体のイメージ\u003C\u002Fh2\u003E\u003Cp\u003EWordPressはレンタルサーバーとドメインが必要になりますが、イメージとしては次の画像の通りです。\u003C\u002Fp\u003E\u003Cp\u003E\u003Cimg src=\"https:\u002F\u002Fgoal-path.com\u002Fapi\u002Fmedia\u002Fuploadimage\u002Fwordpress_image_031.png\"\u003E\u003C\u002Fp\u003E\u003Cp\u003Eレンタルサーバーはいわゆる土地の役割で、ドメインが住所に例えられます。\u003C\u002Fp\u003E\u003Cp\u003Eその土地がかりられて初めて家に例えられるWordPressを立ち上げる事が出来ます。\u003C\u002Fp\u003E\u003Cp\u003Eプロジェクトで利用するレンタルサーバーのXサーバーにはドメインを取得して、WordPressを簡単にインストールしてドメインと紐付ける仕組みが備わっていますので、難しく考えなくてもWordPressを立ち上げる事が出来ます。とはいえ、こういったイメージをもっていると自分が何をしているのかが分かるので、覚えておきましょう。\u003C\u002Fp\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\u002Fp\u003E\u003Ch2\u003EWordPressが使えるようになったその先\u003C\u002Fh2\u003E\u003Cp\u003Eこのプロジェクトを通してWordPressが使えるようになると、今後はこのようなことを目指すことが出来るようになります。\u003C\u002Fp\u003E\u003Col\u003E\u003Cli\u003Eブログ発信で人・企業との繋がりが作れるようになる（SEOではいまでもWordPressは有利）\u003C\u002Fli\u003E\u003Cli\u003EWordPressで困っている人のお手伝いが出来るようになる\u003C\u002Fli\u003E\u003Cli\u003Eノーコードでホームページが作れるようになる\u003C\u002Fli\u003E\u003Cli\u003EPHPを学ぶことでテンプレートのカスタマイズ、制作が出来るようになる\u003C\u002Fli\u003E\u003C\u002Fol\u003E\u003Cp\u003E私自身もWordPressを通してPHPの応用を学んだ一人ですので、プログラマーを目指している方はとっかかりとしてもWordPressはとても良い教材になります。\u003C\u002Fp\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\u002Fp\u003E\u003Cp\u003EWordPressは自由にカスタマイズできるCMSとしては情報量がとても多いので、応用をすればブログやホームページだけでなく、会員制サイトや、ECサイトなども作ることができますので、是非この機会にWordPressを立ち上げてみてはいかがでしょうか？\u003C\u002Fp\u003E\u003Cp\u003E\u003Cbr\u003E\u003C\u002Fp\u003E";l.user_cd={id:32,username:"Toshi Seito",profile:"埼玉在住でフリーランスWEBエンジニアをしています。主にWordPressテーマ制作、WEBアプリ制をしています。ワードプレス初心者やワードプレスでお悩みがある方のお手伝いが出来たらと思い登録しました。WordPressの立ち上げから、カスタマイズなどWordPressに関する事ならなんでもご相談下さい。その他WordPress1日立ち上げ講座、集客につながるSEOアドバイス、ウェブ解析アドバイスも承っています。最近は職業訓練講師としてもWordPressを教えています。お気軽にお問合せ下さい。",image:{id:631,image:"https:\u002F\u002Fgoal-path.com\u002Fapi\u002Fmedia\u002Fuploadimage\u002Fprofileimage_WpNMnUi.jpg",project_pk:d}};l.category_list=[{id:b,name:p,slug:q}];l.review_product=[{id:g,title:"WordPressの自作ブログが出来ました！",create_date:"2023-10-09",rank:r,details:"ずっと自分のブログサイトを作成したいと思ってい、この機会に購入させていただきました。サーバーを契約するところから、WordPressで必要になる設定が詳細にToDoに落とし込まれていたことで、ちゃんと作り上げることが出来ました。本当にありがとうございました！",user_cd:s,review_product:j}];l.buyer_list=[s];l.status=g;l.company=d;l.is_delete=a;return {layout:"default",data:[{plan_data:l,planType:"reading_plan",cardInformation:{},meta:{title:m,description:o,url:"https:\u002F\u002Fgoal-path.com\u002Fapp\u002Fplan\u002F6",image:n,cardType:"summary_large_image"}}],fetch:{},error:d,state:{auth:{authenticated:c},company:{data:{unauthorizedCompanyList:{},companyMemberList:{}}},headerAction:{planPost:{previewModal:a,priceSetting:a}},infiniteLoading:{data:{submitTeamUserMessageList:{pageSize:e,startPage:b,endPage:b,totalPages:f,initialized:a},receivedTeamUserMessageList:{pageSize:e,startPage:b,endPage:b,totalPages:f,initialized:a},submitProjectUserMessageList:{pageSize:e,startPage:b,endPage:b,totalPages:f,initialized:a},receivedProjectUserMessageList:{pageSize:e,startPage:b,endPage:b,totalPages:f,initialized:a},companyMemberList:{pageSize:e,startPage:b,endPage:b,totalPages:f,initialized:a},teamList:{pageSize:e,startPage:b,endPage:b,totalPages:f,initialized:a},newsList:{pageSize:e,startPage:b,endPage:b,totalPages:f,initialized:a},buyerList:{pageSize:e,startPage:b,endPage:b,totalPages:f,initialized:a},projectList:{pageSize:e,startPage:b,endPage:b,totalPages:f,initialized:a},userList:{pageSize:e,startPage:b,endPage:b,totalPages:f,initialized:a},reviewList:{pageSize:e,startPage:b,endPage:b,totalPages:f,initialized:a},planList:{pageSize:e,startPage:b,endPage:b,totalPages:.1,initialized:a},buyerList6:{pageSize:e,startPage:b,endPage:b,totalPages:f,initialized:a},reviewList6:{pageSize:e,startPage:b,endPage:b,totalPages:f,initialized:a}}},loading:{data:a},news:{data:{newsList:[]}},objectUserList:{data:{userList:{},proMembersList:{},teamMembersList:{},receivedProjectUserMessageList:{},submitProjectUserMessageList:{},receivedTeamUserMessageList:{},submitTeamUserMessageList:{}},messageFilterList:{projectToUser:{received:h,submit:h},teamToUser:{received:h,submit:h}}},projectList:{selected_project_cd:c,fetchTeamSubtaskStatus:a,data:{projectlist:{new:{project_cd:i,name:c,purpose:c,owner:c,pro_members:[],start_date:d,due_date:d,end_date:d,ref_product_pk:d,ref_project_pk:d,default_work_time:g,default_const_holiday:"567",default_m_task_due_date_days:t,default_man_hour:g,default_task_relation:u,product_first_compute:a,image:c,company:d,is_complete:a,is_delete:a}},m_task_list:{},s_task_list:{},m_task_relation_list:{},s_task_relation_list:{}},newMainTaskID:b,newSubTaskID:b,newMainTaskRelationID:b,newSubTaskRelationID:b},rememberRoute:{name:"app-home",params:{},query:{}},taskProduct:{planPostPreviewShow:a,categoryList:[{id:b,name:p,slug:q},{id:g,name:"受験・資格",slug:"examination"},{id:3,name:"ブログ・SNS運営",slug:"blog_sns"},{id:4,name:"起業・ビジネス・マーケティング",slug:"business"},{id:r,name:"投資・資産運用",slug:"investment"},{id:j,name:"デザイン・イラスト・動画",slug:"design"},{id:t,name:"就職・転職",slug:"find_job"},{id:8,name:"その他",slug:"others"}],productType:"all",planList:{"6":l,new:{id:i,title:c,intro:c,details:c,price:v,introduce_rate:k,limited_num:e,image:c,category:c,create_date:c,update_date:c,user_cd:c,published_date:c,status:c,company:d,review_product:[],buyer_list:[],is_delete:a},edit:{id:"edit",title:c,intro:c,details:c,price:v,introduce_rate:k,limited_num:e,image:c,category:c,create_date:c,update_date:c,user_cd:c,published_date:c,status:c,company:d,review_product:[],buyer_list:[],is_delete:a}},postProductType:i,postSelectedTab:"project",reviewList:{},selectedProject:c,projectSettingList:{},m_task_list:{},s_task_list:{},m_task_to_product_list:{},s_task_to_product_list:{},buyerList:{},purchaseList:{}},team:{selected_team_id:c,data:{teamList:{new:{id:i,name:c,information:c,owner:c,team_members:[],status:b}}}},toast:{msg:c,msgList:[],color:c,timeout:4000},user:{data:{email:d},stripeData:{stripeIdList:{stripeCustomerId:d,stripeSubscriptionId:d,stripeConnectId:d,lastPayoutDate:d,subscriptionTrial:a},state:d},tutorial:{is_header_tutorial:a,is_home_tutorial:a,is_new_project_tutorial:a,is_gantt_tutorial:a,is_m_task_tutorial:a,is_s_task_tutorial:a,is_sell_top_tutorial:a,is_new_contents_project_tutorial:a,is_sell_contents_gantt_tutorial:a,is_sell_header_save_tutorial:a,is_sell_header_preview_tutorial:a},tutorialBool:{headerTutorialBoolType:d,ganttTutorialBoolType:d,is_header_tutorial:a,is_sell_contents_gantt_tutorial:a,is_sell_header_save_tutorial:a,is_sell_header_preview_tutorial:a}}},serverRendered:u,routePath:"\u002Fapp\u002Fplan\u002F6",config:{browserBaseURL:"https:\u002F\u002Fgoal-path.com",subDomainURL:"https:\u002F\u002Fgoal-path.com\u002Finfo",gtm:{id:"GTM-P72Q27J"},GA_ADSENSE_ID:"ca-pub-7485657392608824",_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:d}}}}(false,1,"",null,10,0,2,"nonParticipation","new",6,20,{},"WordPressでブログサイトを作ろう！","https:\u002F\u002Fgoal-path.com\u002Fapi\u002Fmedia\u002Fuploadimage\u002Fcoccontop2.jpg","「WordPressでブログサイトを作ろう！」は、WordPress無料ブログテーマCocoonを使って、ブログ用サイトを立ち上げます。このプロジェクトでは、ただWordPressでブログ立ち上げるだけでなく、試験データを使ってWordPressとテーマの使い方も学びます。WordPressでブログサイトを立ち上げたあとは、Googleアナリティクス4（GA4）の導入とGoogleサーチコンソールの連動も行います。最後に日頃のWordPressの保守についても触れていますのでWordPressの運営を考えている方にもおすすめです。","プログラミング","programming",5,18,7,true,50000));</script><script src="/_nuxt/5b0a310.js" defer></script><script src="/_nuxt/43af73a.js" defer></script><script src="/_nuxt/f25bcb6.js" defer></script><script src="/_nuxt/da8455b.js" defer></script><script src="/_nuxt/124efcd.js" defer></script><script src="/_nuxt/bc019d7.js" defer></script><script src="/_nuxt/dd9d20e.js" defer></script><script src="/_nuxt/3105f9e.js" defer></script><script src="/_nuxt/9e2f1e0.js" defer></script><script src="/_nuxt/0aab20f.js" defer></script><script src="/_nuxt/a915701.js" defer></script><script src="/_nuxt/e933c20.js" defer></script><script src="/_nuxt/f1593de.js" defer></script><script src="/_nuxt/2b99b7c.js" defer></script><script src="/_nuxt/78a4a59.js" defer></script><script src="/_nuxt/1aa1fed.js" defer></script><script src="/_nuxt/d69fd6d.js" defer></script><script src="/_nuxt/08cbffa.js" defer></script><script src="/_nuxt/86f00f5.js" defer></script><script src="/_nuxt/398f48f.js" defer></script><script src="/_nuxt/e047269.js" defer></script><script src="/_nuxt/3eaeba8.js" defer></script><script src="/_nuxt/74f00e2.js" defer></script><script src="/_nuxt/4e448cd.js" defer></script><script src="/_nuxt/a7f416b.js" defer></script><script src="/_nuxt/b1acdd8.js" defer></script><script src="/_nuxt/dfa4aa2.js" defer></script><script src="/_nuxt/aa84cde.js" defer></script><script src="/_nuxt/64037ec.js" defer></script><script src="/_nuxt/4067793.js" defer></script><script src="/_nuxt/86394ab.js" defer></script><script src="/_nuxt/b0395aa.js" defer></script><script src="/_nuxt/498f909.js" defer></script><script src="/_nuxt/b36f123.js" defer></script><script src="/_nuxt/5981755.js" defer></script><script src="/_nuxt/45795ff.js" defer></script>
+  </body>
+</html>

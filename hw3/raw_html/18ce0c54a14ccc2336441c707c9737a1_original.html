@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US" prefix="og: https://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US" prefix="og: https://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<!--<![endif]-->
+<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.v="1.2.3",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",t=>{this.persisted=t.persisted}),window.addEventListener("DOMContentLoaded",()=>{this._preconnect3rdParties()}),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}_addUserInteractionListener(t){if(document.hidden){t._triggerListener();return}this.triggerEvents.forEach(e=>window.addEventListener(e,t.userEventHandler,{passive:!0})),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler)}_removeUserInteractionListener(){this.triggerEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!0})),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"onclick","rocket-onclick"),this._pendingClickStarted())}_onTouchMove(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this._pendingClickFinished()}_onTouchEnd(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(t){t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this._pendingClickFinished()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach(t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))})}_waitForPendingClicks(){return new Promise(t=>{this._isClickPending?this._pendingClickFinished=t:t()})}_pendingClickStarted(){this._isClickPending=!0}_pendingClickFinished(){this._isClickPending=!1}_renameDOMAttribute(t,e,r){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(r,event.target.getAttribute(e)),event.target.removeAttribute(e))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(e=>{if(e.hasAttribute("src")){let r=new URL(e.src).origin;r!==location.origin&&t.push({src:r,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this._batchInjectResourceHints(t,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(this),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._waitForPendingClicks().then(()=>{this._replayClicks()}),this._emptyTrash()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _transformScript(t){return new Promise((await this._littleBreath(),navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor)?e=>{let r=document.createElement("script");[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),r.setAttribute(e,t.nodeValue))}),t.text&&(r.text=t.text),r.hasAttribute("src")?(r.addEventListener("load",e),r.addEventListener("error",e)):(r.text=t.text,e());try{t.parentNode.replaceChild(r,t)}catch(i){e()}}:async e=>{function r(){t.setAttribute("data-rocket-status","failed"),e()}try{let i=t.getAttribute("data-rocket-type"),n=t.getAttribute("data-rocket-src");t.text,i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",function r(){t.setAttribute("data-rocket-status","executed"),e()}),t.addEventListener("error",r),n?(t.removeAttribute("data-rocket-src"),t.src=n):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}catch(s){r()}})}async _loadScriptsFromList(t){let e=t.shift();return e&&e.isConnected?(await this._transformScript(e),this._loadScriptsFromList(t)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(t,e){var r=document.createDocumentFragment();t.forEach(t=>{let i=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(i){let n=document.createElement("link");n.href=i,n.rel=e,"preconnect"!==e&&(n.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),r.appendChild(n),this.trash.push(n)}}),document.head.appendChild(r)}_delayEventListeners(t){let e={};function r(t,r){!function t(r){!e[r]&&(e[r]={originalFunctions:{add:r.addEventListener,remove:r.removeEventListener},eventsToRewrite:[]},r.addEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.add.apply(r,arguments)},r.removeEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.remove.apply(r,arguments)});function i(t){return e[r].eventsToRewrite.indexOf(t)>=0?"rocket-"+t:t}}(t),e[t].eventsToRewrite.push(r)}function i(t,e){let r=t[e];Object.defineProperty(t,e,{get:()=>r||function(){},set(i){t["rocket"+e]=r=i}})}r(document,"DOMContentLoaded"),r(window,"DOMContentLoaded"),r(window,"load"),r(window,"pageshow"),r(document,"readystatechange"),i(document,"onreadystatechange"),i(window,"onload"),i(window,"onpageshow")}_delayJQueryReady(t){let e;function r(r){if(r&&r.fn&&!t.allJQueries.includes(r)){r.fn.ready=r.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(r):document.addEventListener("rocket-DOMContentLoaded",()=>e.bind(document)(r)),r([])};let i=r.fn.on;r.fn.on=r.fn.init.prototype.on=function(){if(this[0]===window){function t(t){return t.split(" ").map(t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=t(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(e=>{let r=arguments[0][e];delete arguments[0][e],arguments[0][t(e)]=r})}return i.apply(this,arguments),this},t.allJQueries.push(r)}e=r}r(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){r(t)}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this._littleBreath();let t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){let t=new Map;document.write=document.writeln=function(e){let r=document.currentScript;r||console.error("WPRocket unable to document.write this: "+e);let i=document.createRange(),n=r.parentElement,s=t.get(r);void 0===s&&(s=r.nextSibling,t.set(r,s));let a=document.createDocumentFragment();i.setStart(a,0),a.appendChild(i.createContextualFragment(e)),n.insertBefore(a,s)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}_emptyTrash(){this.trash.forEach(t=>t.remove())}static run(){let t=new RocketLazyLoadScripts;t._addUserInteractionListener(t)}}RocketLazyLoadScripts.run();</script>
+<meta name="viewport" content="width=device-width" />
+<title>Free hair salon WordPress theme for hair stylists and barbers</title>
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<!--[if lt IE 9]>
+	<script src="https://www.themes21.net/wp-content/themes/themes21/js/html5.js"></script>
+	<![endif]-->
+
+<meta name="description" content="Free hair salon WordPress theme for hair stylists, barbers, hair cut saloons and other such businesses like spa and beauty salon with focus on business." />
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+<link rel="canonical" href="https://www.themes21.net/latest-themes/free-hair-salon-wordpress-theme" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Free hair salon WordPress theme for hair stylists and barbers" />
+<meta property="og:description" content="Free hair salon WordPress theme for hair stylists, barbers, hair cut saloons and other such businesses like spa and beauty salon with focus on business." />
+<meta property="og:url" content="https://www.themes21.net/latest-themes/free-hair-salon-wordpress-theme" />
+<meta property="og:site_name" content="Themes21" />
+<meta property="article:publisher" content="https://www.facebook.com/themes21/" />
+<meta property="article:section" content="WordPress Themes" />
+<meta property="og:updated_time" content="2023-10-11T13:41:29+00:00" />
+<meta property="og:image" content="https://www.themes21.net/wp-content/uploads/2022/07/CutsNStyle-Lite.webp" />
+<meta property="og:image:secure_url" content="https://www.themes21.net/wp-content/uploads/2022/07/CutsNStyle-Lite.webp" />
+<meta property="og:image:width" content="472" />
+<meta property="og:image:height" content="1091" />
+<meta property="og:image:alt" content="Free Hair Salon WordPress Theme" />
+<meta property="og:image:type" content="image/webp" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Free hair salon WordPress theme for hair stylists and barbers" />
+<meta name="twitter:description" content="Free hair salon WordPress theme for hair stylists, barbers, hair cut saloons and other such businesses like spa and beauty salon with focus on business." />
+<meta name="twitter:site" content="@themes_21" />
+<meta name="twitter:creator" content="@themes_21" />
+<meta name="twitter:image" content="https://www.themes21.net/wp-content/uploads/2022/07/CutsNStyle-Lite.webp" />
+
+<link rel="stylesheet" id="wp-block-library-css" href="https://www.themes21.net/wp-includes/css/dist/block-library/style.min.css?ver=6.3.2" type="text/css" media="all" />
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link data-minify="1" rel="stylesheet" id="genericons-css" href="https://www.themes21.net/wp-content/cache/min/1/wp-content/themes/themes21/genericons/genericons.css?ver=1698068962" type="text/css" media="all" />
+<link data-minify="1" rel="stylesheet" id="twentythirteen-style-css" href="https://www.themes21.net/wp-content/cache/min/1/wp-content/themes/themes21/style.css?ver=1698068962" type="text/css" media="all" />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentythirteen-ie-css' href='https://www.themes21.net/wp-content/themes/themes21/css/ie.css?ver=2013-07-18' type='text/css' media='all' />
+<![endif]-->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.themes21.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js" defer></script>
+<link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=" rel="icon" type="image/x-icon" /><link data-minify="1" rel="stylesheet" href="https://www.themes21.net/wp-content/cache/min/1/wp-content/plugins/wp-page-numbers/classic/wp-page-numbers.css?ver=1698068962" type="text/css" media="screen" /><link rel="icon" href="https://www.themes21.net/wp-content/uploads/2020/12/cropped-Themes21-logo-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.themes21.net/wp-content/uploads/2020/12/cropped-Themes21-logo-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.themes21.net/wp-content/uploads/2020/12/cropped-Themes21-logo-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.themes21.net/wp-content/uploads/2020/12/cropped-Themes21-logo-270x270.png" />
+<style type="text/css" id="wp-custom-css">
+			@media screen and (max-width:767px) {
+.arealeft, .arearight { width:100%; box-sizing:border-box;}
+.arearight { float:left;}
+.postboxthumb img { margin:0 0 20px 0; width:100%;}
+#wp_page_numbers { margin-top:60px;}
+}
+
+.downloadbutton { background:#f98315; padding:10px 20px; border-radius:6px; color:#fff; margin:15px 8px; display:inline-block;}
+.downloadbutton:hover { background:#0196d6 !important; color:#fff;}
+.upgrade { background:#000 !important;}
+.buttons {
+    text-align: center;
+}
+.arealeft h2, .arealeft h3 
+h2{font-size: 20px; }h3 {font-size: 18px;}		</style>
+<noscript><style>.perfmatters-lazy[data-src]{display:none !important;}</style></noscript><style>.perfmatters-lazy.pmloaded,.perfmatters-lazy.pmloaded>img,.perfmatters-lazy>img.pmloaded,.perfmatters-lazy[data-ll-status=entered]{animation:500ms pmFadeIn}@keyframes pmFadeIn{0%{opacity:0}100%{opacity:1}}body .perfmatters-lazy-css-bg:not([data-ll-status=entered]),body .perfmatters-lazy-css-bg:not([data-ll-status=entered]) *,body .perfmatters-lazy-css-bg:not([data-ll-status=entered])::before,body .perfmatters-lazy-css-bg:not([data-ll-status=entered])::after{background-image:none!important;will-change:transform;transition:opacity 0.025s ease-in,transform 0.025s ease-in!important;}</style> <link data-minify="1" rel="stylesheet" href="https://www.themes21.net/wp-content/cache/min/1/wp-content/themes/themes21/css/theme-responsive.css?ver=1698068962" type="text/css" />
+</head>
+<body class="latest-themes-template-default single single-latest-themes postid-455">
+<div id="main">
+<div class="headerwrapper">
+<div class="topmenuarea">
+<div class="topmenu">
+<ul id="menu-primary" class><li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-17"><a href="https://www.themes21.net/">Home</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="https://www.themes21.net/themes">Themes</a></li>
+<li id="menu-item-387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-387"><a href="https://www.themes21.net/blog">Blog</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://www.themes21.net/contact-us">Contact Us</a></li>
+</ul> </div>
+</div>
+<div class="clear"></div>
+<div class="logo"><a href="https://www.themes21.net"><img width="202" height="58" src="https://www.themes21.net/wp-content/themes/themes21/images/logo.webp" alt="Themes21 logo" /></a></div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div> <div class="wrapper">
+<div class="inrmain">
+<div class="titleinr"><h2>CutsNStyle Lite</h2></div>
+<div class="clear"></div>
+<div class="infoleftbox">
+<div class="themephoto"><img width="472" height="1091" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;472&#039;%20height=&#039;1091&#039;%20viewBox=&#039;0%200%20472%201091&#039;%3E%3C/svg%3E" class="attachment-full size-full wp-post-image perfmatters-lazy" alt="Free Hair Salon WordPress Theme" decoding="async" fetchpriority="high" title="CutsNStyle Lite 1" data-src="https://www.themes21.net/wp-content/uploads/2022/07/CutsNStyle-Lite.webp" data-srcset="https://www.themes21.net/wp-content/uploads/2022/07/CutsNStyle-Lite.webp 472w, https://www.themes21.net/wp-content/uploads/2022/07/CutsNStyle-Lite-130x300.webp 130w, https://www.themes21.net/wp-content/uploads/2022/07/CutsNStyle-Lite-443x1024.webp 443w" data-sizes="(max-width: 472px) 100vw, 472px" /><noscript><img width="472" height="1091" src="https://www.themes21.net/wp-content/uploads/2022/07/CutsNStyle-Lite.webp" class="attachment-full size-full wp-post-image" alt="Free Hair Salon WordPress Theme" decoding="async" fetchpriority="high" srcset="https://www.themes21.net/wp-content/uploads/2022/07/CutsNStyle-Lite.webp 472w, https://www.themes21.net/wp-content/uploads/2022/07/CutsNStyle-Lite-130x300.webp 130w, https://www.themes21.net/wp-content/uploads/2022/07/CutsNStyle-Lite-443x1024.webp 443w" sizes="(max-width: 472px) 100vw, 472px" title="CutsNStyle Lite 1"></noscript></div>
+<div class="clear"></div>
+</div>
+<div class="inforightbox">
+<div class="btnsarea">
+<div class="livedemo"><a href="https://sktthemesdemo.net/cutsnstyle/" target="_blank">Live Demo</a></div>
+<div class="dwnld"><a href="https://downloads.wordpress.org/theme/skt-cutsnstyle-lite.1.8.zip">Download</a></div>
+<div class="buy"><a href="https://www.sktthemes.org/shop/cutsnstyle/" target="_blank">Buy Pro Version</a></div>
+</div>
+<div class="clear"></div>
+<div class="downloadcountinr">
+<ul>
+<li class="txtdld">Downloads</li>
+<li class="iconcounter">111893</li>
+</ul>
+</div>
+<div class="docarea">
+<a href="https://www.sktthemesdemo.net/documentation/posterity-doc" target="_blank">Click here for Documentation</a>
+</div>
+<div class="clear"></div>
+<div class="infocontentarea singlethm">
+<div class="fp-pricearea">
+<h3>Comparison</h3>
+<div class="fp-pricebox">
+<div class="fp-pricebox-content">
+<div class="fp-headingbox">Free Theme</div>
+<div class="fp-contentlist fp-freelist">
+<ul>
+<li>Less homepage sections</li>
+<li>No inner pages</li>
+<li>No Support</li>
+<li>No Typography Options</li>
+<li>No Icon Options</li>
+<li>No Header Layouts</li>
+<li>No footer Layouts</li>
+<li>Less plugins compatible</li>
+<li>Less updates</li>
+<li>Less flexibility</li>
+<li>More Time for Website Build</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="fp-pricebox">
+<a href="https://www.sktthemes.org/shop/cutsnstyle/" target="_blank" rel="noopener"><div class="fp-pricebox-content">
+<div class="fp-headingbox fp-bluebgbox">Pro/Paid Theme</div>
+<div class="fp-contentlist fp-prolist">
+<ul>
+<li>More homepage sections</li>
+<li>Full demo with inner pages</li>
+<li>Premium Support</li>
+<li>Typography Options</li>
+<li>Icon Options</li>
+<li>Four Header Layouts</li>
+<li>Four Footer Layouts</li>
+<li>More plugins compatible</li>
+<li>Better updates</li>
+<li>Better flexibility</li>
+<li>Save Time</li>
+</ul>
+</div>
+</div></a>
+<div class="clear"></div>
+<a class="fp-buynow" href="https://www.sktthemes.org/shop/cutsnstyle/" target="_blank" rel="noopener">Buy Now</a>
+</div>
+<div class="clear"></div>
+</div>
+<h1>Features of free Hair Salon WordPress Theme:</h1>
+<ol>
+<li>Amazing look and feel with a full wide screen slider on the top</li>
+<li>Great call to action with call to us button and book appointment link given which can be linked to any other page</li>
+<li>Free hair salon WordPress theme has by default 4-5 slides and more slides and more slider options are given in paid theme</li>
+<li>Welcome section and 3 main services are given in this template</li>
+<li>These 3 homepage boxes can be easily modified and more homepage sections available in paid theme</li>
+<li>By default 1 font is loaded into this template and more font options are given in paid theme</li>
+<li>One can change the pink color within this template however more element colors can be changed in paid theme</li>
+<li>Blog and other standard pages like 404, search and categories as well as archives are given</li>
+<li>Inner page templates are given in paid version of this free hair salon WordPress theme</li>
+<li>HTML5 and CSS3 based as well as based on flat and material design aesthetic styling for older browser compatibility</li>
+<li>Simple to use via Customizer and any novice can handle this</li>
+<li>Footer is widget friendly and contact info is also given for call to action</li>
+<li>Page builder compatible and compatible with other plugins like gallery, slideshow, shortcodes plugins etc</li>
+<li>In built shortcodes and several other features given in paid version of this template</li>
+<li>Animated boxes are possible in paid version of this theme</li>
+<li>Responsive and compatible with other browsers and devices as well</li>
+<li>Customizer based and hence one can view the changes live</li>
+<li>Setting up is easy and for paid version free installation is provided</li>
+<li>Codex standards maintained and theme check plugin passed</li>
+<li>User friendly documentation is given and limited support also provided with full support for paid version</li>
+</ol>
+<p>Credibility and accessibility around the clock, as well customer – friendly working policy in the digital spectrum are some of the main incentives of any business advancement and social proof. It refers to a business or undertaking of any kind and denomination, both for men and women.</p>
+<p>CutsNStyle Lite theme share premium quality, advanced functionality and are well documented. If you need to build a professional website for your hair and beauty business, then you have to check out this free hair salon WordPress theme.</p>
+<p>Similarly, if you are a pro specialist or artist in the beauty world with unique tastes and chic style, and want to broaden your business horizons and win lots of people loyalty, look no other way than CutsNStyle Lite authored by SKT Themes and supported by the modern WordPress community. </p>
+<p>This top – rated and premium – quality template is also ideal for other feminine initiatives, wedding planners and service providers, designers, artists, photographers, as well as other individuals who desire to run a dream website with sophisticated poise and glassy client experience.</p>
+<p>Take control over your website with power and don’t miss a single chance to attract new customers with our exceptional free hair salon WordPress theme called CutsNStyle Lite. </p>
+<p>It is wonderfully pliable and energetic, classy and fabulous, visually inviting and elegant template to let you function globally for no initial investment. </p>
+<p>Balanced between effectual appearance and error – free inner functionality, this user and developer – friendly template is perfect for hair and beauty salons, make – up studios, spa and massage centers, nail and tattoo salons to advertise and promote your business through various digital channels and across diverse pathways, provide exceptional client care and service, etc.</p>
+<p>This free hair salon WordPress theme is one of the affordable ways to align your digital presence with your style and professionalism so that you can fully reveal your talent in the given field. </p>
+<p>Palliate the forceful competition of present and establish your dominant place in beauty industry with your client – centric look and feel.</p>
+<p>The mission of coding and generating totally practical and multi – profile template based on do – it – yourself approach has been successfully accomplished by the professional authors of the theme. </p>
+<p>Hence the hard work has already taken care of leaving you all the fun and joyful part of customization and management to enjoy.</p>
+<p>The perils of failing or wasting your financial means without further monetization of your profile are reduced to the absolute minimum with this free hair salon WordPress theme since you are not obliged to pay anything for this template to have in your arsenal. </p>
+<p>Instead, you will be provided with an unbeatable foundation to create your website and let all the prospective clients easily find you and learn more about your business.</p>
+<p>Convey your credibility through the animated theme sections and available areas and give your website more streamlined and indiscrete exposure. </p>
+<p>Arm home and about us sections with as many valuable content as you may find reasonable, create a gallery section and display all your high – resolution images and photos visually describing your works, depicting your satisfied clients or popular artists, etc. </p>
+<p>Homepage full – width slider can also tell your success story via 5 different slides to show off whatever is relevant at the given moment.</p>
+<p>In the current Internet – based society everything is measured and qualified taking into consideration reviews and testimonials of all those people who already have some experience in the role of the client and share their opinion thereabouts. </p>
+<p>Hence this free hair salon WordPress theme can also comprise and display client reviews so that your website visitors can feel you are trustworthy and experienced in what you are doing.</p>
+<p>Take advantage of the live using mode of the prebuilt Customizer and customize the given template to make a bold and decisive first impression on the website viewers. </p>
+<p>Add standard pages like blog for constant updates and fresh news catering to the beauty industry, its trends and novelties, products and so on. Search and other standard pages are also available with the theme.</p>
+<p>A modern “behind the scenes” methodology has been offered and put at the core of this product. It grants you with intuitive and smart admin dashboard to add your specific lines to your website and lets the latter perform stunningly even after every single admin intervention or customization process done.</p>
+<p>No PHP or HTML editing knowledge is required to fully control and customize this template so that your precious time and efforts to be spent on the management and further maintenance of your website will be greatly diminished. </p>
+<p>Apart from that, this battle – ready and consistent template is projected and processed with all the major requirements of WordPress codex in the theme developer’s mind to make it a product that will last a lifetime.</p>
+<p>Powered by the modern and highly applicable HTML5 and CSS3 coding and styling touches, this free hair salon WordPress will never feel clueless about how to display your website along with its content precisely and presentable across multiple of platforms. </p>
+<p>The same refers to consistent and accurate functionality of the theme for the impeccable flexibility and readability.</p>
+<p>CutsNStyle Lite has passed all the tests of responsibility and cross mobile and browser compatibility across all the modern devices, smartphones and tablets of any size. </p>
+<p>This guarantees your information stability and precise loading across diverse browsers and when accessed by diverse portable devices.</p>
+<p>It means, that your high –quality images and other content will automatically respond to given screen dimensions and resolution for the sake of the mobile user’s ultimate convenience.</p>
+<p>When it comes to e &#8211; commerce perspectives, this designer &#8211; made and purposeful website builder knows no limits. Hence, apart from being your proud face in the digital arena, your website can also be the comprehensive commercial solution leading you through the entire process of your online store establishment and running in the easiest way. </p>
+<p>Thus WooCommerce compatible framework of the theme is highly valuable for all your beauty &#8211; related products, cosmetics, services, etc to be reviewed and purchased by anyone across the globe.</p>
+<p>Other plugins, among them NextGen Gallery and Contact Form 7 for easy bookings and reservations are also fully compatible with CutsNStyle Lite.</p>
+<p>Check the other free spa theme: <a href="https://www.themes21.net/latest-themes/free-beauty-spa-wordpress-theme" target="_blank" rel="noopener noreferrer">SKT Spa</a></p>
+</div>
+</div>
+<div class="clear"></div>
+<div class="disqus">
+<div id="comments" class="comments-area">
+</div></div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="clear"></div>
+<div id="footer">
+<div id="firstfooter">
+<div class="footerwrapper">
+<div class="footermenuarea">
+<div class="ftheading">Menu</div>
+<div class="clear"></div>
+<ul>
+<ul id="menu-footermenu" class><li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-25"><a href="https://www.themes21.net/">Home</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="https://www.themes21.net/about-us">About Us</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="https://www.themes21.net/themes">WordPress Themes</a></li>
+<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="https://www.themes21.net/faqs">FAQs</a></li>
+<li id="menu-item-386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-386"><a href="https://www.themes21.net/blog">Blog</a></li>
+<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="https://www.themes21.net/contact-us">Contact Us</a></li>
+</ul> </ul>
+</div>
+<div class="footercategoriesarea">
+<div class="ftheading">Categories</div>
+<div class="clear"></div>
+<ul id="catlist"><li><a href="https://www.themes21.net/themes-categories/industry/authors">Authors</a></li><li><a href="https://www.themes21.net/themes-categories/industry/bakery">Bakery</a></li><li><a href="https://www.themes21.net/themes-categories/industry/blog">Blog</a></li><li><a href="https://www.themes21.net/themes-categories/industry/business">Business</a></li><li><a href="https://www.themes21.net/themes-categories/industry/church">Church</a></li><li><a href="https://www.themes21.net/themes-categories/industry/construction">Construction</a></li><li><a href="https://www.themes21.net/themes-categories/industry/corporate">Corporate</a></li><li><a href="https://www.themes21.net/themes-categories/industry/dentist">Dentist</a></li><li><a href="https://www.themes21.net/themes-categories/industry/ebook">Ebook</a></li><li><a href="https://www.themes21.net/themes-categories/industry/ecommerce">Ecommerce</a></li><li><a href="https://www.themes21.net/themes-categories/industry/fitness">Fitness</a></li><li><a href="https://www.themes21.net/themes-categories/industry/hotel">Hotel</a></li><li><a href="https://www.themes21.net/themes-categories/industry/interior">Interior</a></li><li><a href="https://www.themes21.net/themes-categories/industry/lawyer">Lawyer</a></li><li><a href="https://www.themes21.net/themes-categories/industry/magazine">Magazine</a></li><li><a href="https://www.themes21.net/themes-categories/industry/medical">Medical</a></li><li><a href="https://www.themes21.net/themes-categories/industry/music-artist">Music Artist</a></li><li><a href="https://www.themes21.net/themes-categories/industry/news">News</a></li><li><a href="https://www.themes21.net/themes-categories/industry/ngo">NGO</a></li><li><a href="https://www.themes21.net/themes-categories/industry/non-profit">Non Profit</a></li><li><a href="https://www.themes21.net/themes-categories/industry/one-page">One Page</a></li><li><a href="https://www.themes21.net/themes-categories/industry/personal">Personal</a></li><li><a href="https://www.themes21.net/themes-categories/industry/photographer">Photographer</a></li><li><a href="https://www.themes21.net/themes-categories/industry/portfolio">Portfolio</a></li><li><a href="https://www.themes21.net/themes-categories/industry/responsive">Responsive</a></li><li><a href="https://www.themes21.net/themes-categories/industry/restaurant">Restaurant</a></li><li><a href="https://www.themes21.net/themes-categories/industry/travel">Travel</a></li><li><a href="https://www.themes21.net/themes-categories/industry/wedding">Wedding</a></li><li><a href="https://www.themes21.net/themes-categories/industry/nature">Nature</a></li><li><a href="https://www.themes21.net/themes-categories/industry/meditation">Meditation</a></li></ul>
+</div>
+<div class="footerpostarea">
+<div class="ftheading">Recent Post</div>
+<div class="clear"></div>
+<h4><a href="https://www.themes21.net/wordpress/wordpress-dashboard-components">
+Dashboard Components of WordPress — What Should You Know to Use Them Correctly? </a></h4>
+<p>The WordPress dashboard of WordPress&nbsp;is the main motherboard which controls and coordinates the look</p>
+<div style="display:block; margin: 18px 0px 18px 0px;"></div>
+<h4><a href="https://www.themes21.net/wordpress-themes/free-download-software-company-wordpress-themes">
+Free Download Software Company WordPress Themes for IT Firms </a></h4>
+<p>Creating a website for a software company can be a daunting task, but WordPress</p>
+<div style="display:block; margin: 18px 0px 18px 0px;"></div>
+</div>
+<div class="footerfollowusarea">
+<div class="ftheading">Follow Us</div>
+<div class="clear"></div>
+<ul>
+<li><a href="https://www.facebook.com/themes21/" target="_blank"><img width="34" height="34" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;34&#039;%20height=&#039;34&#039;%20viewBox=&#039;0%200%2034%2034&#039;%3E%3C/svg%3E" alt="Facebook" class="perfmatters-lazy" data-src="https://www.themes21.net/wp-content/themes/themes21/images/facebook.webp" /><noscript><img width="34" height="34" src="https://www.themes21.net/wp-content/themes/themes21/images/facebook.webp" alt="Facebook" /></noscript></a></li>
+<li><a href="https://twitter.com/themes_21" target="_blank"><img width="34" height="34" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;34&#039;%20height=&#039;34&#039;%20viewBox=&#039;0%200%2034%2034&#039;%3E%3C/svg%3E" alt="Twitter" class="perfmatters-lazy" data-src="https://www.themes21.net/wp-content/themes/themes21/images/twitter.webp" /><noscript><img width="34" height="34" src="https://www.themes21.net/wp-content/themes/themes21/images/twitter.webp" alt="Twitter"/></noscript></a></li>
+<li><a href="https://www.instagram.com/Themes__21/" target="_blank"><img width="34" height="34" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;34&#039;%20height=&#039;34&#039;%20viewBox=&#039;0%200%2034%2034&#039;%3E%3C/svg%3E" alt="Instagram" class="perfmatters-lazy" data-src="https://www.themes21.net/wp-content/themes/themes21/images/insta.webp" /><noscript><img width="34" height="34" src="https://www.themes21.net/wp-content/themes/themes21/images/insta.webp" alt="Instagram" /></noscript></a></li>
+<li><a href="https://www.linkedin.com/company/themes-21/" target="_blank"><img width="34" height="34" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;34&#039;%20height=&#039;34&#039;%20viewBox=&#039;0%200%2034%2034&#039;%3E%3C/svg%3E" alt="Linkedin" class="perfmatters-lazy" data-src="https://www.themes21.net/wp-content/themes/themes21/images/linkedin.webp" /><noscript><img width="34" height="34" src="https://www.themes21.net/wp-content/themes/themes21/images/linkedin.webp" alt="Linkedin"/></noscript></a></li>
+<li><a href="https://www.youtube.com/channel/UCwVoR_5ZjT1Oy9oAiD2qOxA" target="_blank"><img width="34" height="34" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;34&#039;%20height=&#039;34&#039;%20viewBox=&#039;0%200%2034%2034&#039;%3E%3C/svg%3E" alt="Youtube" class="perfmatters-lazy" data-src="https://www.themes21.net/wp-content/themes/themes21/images/youtube.webp" /><noscript><img width="34" height="34" src="https://www.themes21.net/wp-content/themes/themes21/images/youtube.webp" alt="Youtube"/></noscript></a></li>
+</ul>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="clear"></div>
+<div id="secfooter">
+<div class="footerwrapper">
+<div class="copyright">Copyright &copy; 2023 Themes21</div>
+<div class="lastmenu">
+<ul>
+<li><a href="https://www.themes21.net/terms-of-use">Terms of Use</a></li>
+<li><a href="https://www.themes21.net/privacy-policy">Privacy Policy</a></li>
+</ul>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<script type="rocketlazyloadscript" async data-rocket-src="https://www.themes21.net/wp-content/uploads/perfmatters/gtagv4.js?id=G-TX9XJ9DC6S"></script><script type="rocketlazyloadscript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "G-TX9XJ9DC6S");</script><script type="rocketlazyloadscript" id="rocket-browser-checker-js-after" data-rocket-type="text/javascript">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/www.themes21.net","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" id="rocket-preload-links-js-after" data-rocket-type="text/javascript">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.themes21.net/wp-includes/js/imagesloaded.min.js?ver=4.1.4" id="imagesloaded-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.themes21.net/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.themes21.net/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b" id="jquery-masonry-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.themes21.net/wp-content/themes/themes21/js/functions.js?ver=2014-06-08" id="twentythirteen-script-js" defer></script>
+<script id="perfmatters-lazy-load-js-before" type="text/javascript">
+window.lazyLoadOptions={elements_selector:"img[data-src],.perfmatters-lazy,.perfmatters-lazy-css-bg",thresholds:"0px 0px",class_loading:"pmloading",class_loaded:"pmloaded",callback_loaded:function(element){if(element.tagName==="IFRAME"){if(element.classList.contains("pmloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener("LazyLoad::Initialized",function(e){var lazyLoadInstance=e.detail.instance;var target=document.querySelector("body");var observer=new MutationObserver(function(mutations){lazyLoadInstance.update()});var config={childList:!0,subtree:!0};observer.observe(target,config);});
+</script>
+<script type="text/javascript" async src="https://www.themes21.net/wp-content/plugins/perfmatters/js/lazyload.min.js?ver=2.1.1" id="perfmatters-lazy-load-js"></script>
+</body>
+</html>
