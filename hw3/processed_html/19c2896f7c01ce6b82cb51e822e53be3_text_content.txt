@@ -1,0 +1,97 @@
+ Los 5 mejores temas Wordpress del 2017 - VivaBlogger       
+Saltar al contenido
+
+
+
+
+
+
+ 
+
+
+Menú InicioSobre míBlogServiciosContactoLos 5 mejores temas WordPress del 2017
+
+Diógenes Mata
+9 noviembre, 201822 noviembre, 2017
+2 comentariosLa búsqueda del tema perfecto nunca acaba 😅, siempre están saliendo buenos temas para WordPress; pero este año nos ha dejado, más que nunca, algunos que serán referencia en años venideros.GeneratePress impuso hace algún tiempo un exitoso modelo de negocios: bajo precio, ligero, soporte A1, modular y fácil de gestionar.Los dos primeros temas de WordPress en este top replican esta fórmula, para fortuna de los usuarios noveles y expertos de WordPress, que obtienen buenos productos sin dejarse la billetera.Te presento mi top cinco de temas WordPress que rompieron molde en el 2017 y seguro mejorarán aun más en el 2018.Contenido del postOceanWPAstraGeneratePressAnimaTwenty SeventeenApreciacion finalOceanWPEste tema nacido a finales del 2016, llega a la cima este año. OceanWP es un tema gratuito de WordPress que expande su funcionalidad a través de extensiones (como la gran mayoría en este top).Puedes comprarlas de manera individual o todo el paquete por 39 dólares, válido para un sitio. Si eres diseñador web, te conviene adquirir el plan de 129 dólares para instalarlo en todos los sitios que desees.Independientemente del plan, tienes un año de actualizaciones y soporte.OceanWP tiene como ventajas:Totalmente responsivo: se adapta a los distintos tipos de dispositivos, de manera nativa, y sin que tengas que hacer nada.Súper rápido: velos como un rayo, gracias a un código sencillo que no agrega nada innecesario. Puedes deshabilitar las extensiones que no uses para mejorar aun más los tiempos de carga.Google ama este tema: usa pequeños códigos, como schema.org, que mejorarán la eficacia de los buscadores en tu página web.eCommerce Ready: ummm, se me escapó la palabra en ingles 😂. Puedes usar este tema para montar tu tienda online sin problemas.Estas funcionalidades son compartidas por casi todos los temas en este articulo, por lo que a partir de aquí, las ventajas serán acumulativas.Una de las razones de ponerlo de primero en este top sobre mejores temas WordPress, es que en su versión gratuita ofrece tanta cantidad de agregados, que te preguntarás: ¿Es necesario comprar la versión premium?.Y es que a diferencia de otros, que ofrecen versiones raquíticas en sus versiones gratis, esperando que corras a pagarles por las extensiones, OceanWP te deja tan satisfecho con su versión gratis, que le comprarás aunque sea una extensión, solo para dar las gracias por ofrecer tan buen producto.Para acceder a ellas lo puedes hacer desde WordPress: Apariencia > Personalizar, previa instalación del plugin Ocean Extra.AstraAstra es otro tema que mantiene la misma línea del anterior. Es creado por el grupo Brainstorm Force, que también se dedica a la creación de plugins para WordPress.Además de ser ligero, fácil de usar y editar, se lleva estupendamente bien con el constructor de sitios web Elementor, el cual es mi favorito para llevar mi página a otro nivel. ¡Mencioné que es gratis 😍!Otras de sus ventajas son:Adios al jQuery: esta popular librería de Javascript ha sido dejada atrás por Astra. Es reemplazada por Vanilla. Si te preguntas: ¿para qué es importante esto?, pues, para hacer tu web aun más rápida.Soporte para multilenguaje: es más fácil de traducir haciendo uso de RTL.Solo usa 50K para su instalación básica: solo una cosa que decir: seguro es más ligero que tu avatar de WordPress.Tienen una versión free, aunque no ofrece la gran cantidad de script gratuitos que ofrece OceanWP. Por $49 al año en su versión paga, puedes instalarlo en todos los sitios que quieras.Como dato final: instala Astra Hooks para que puedas agregar código en cualquier parte de tu sitio web.GeneratePressGeneratePress ya tiene algunos años con nosotros, pero está en tan buena forma como el primer día. Es como los vinos, mientras más viejo, mejor.Puede parecer un tema sencillo y demasiado básico, al estilo Genesis Framework. Pero lo mejor está debajo del capó. A quienes le guste lo minimalista (como a mi 😋) les encantará este tema.Ha sido descargado más de un millón de veces, con 90.000 instalaciones activas. Esto lo dice todo.Es el tema que uso para mis diseños web, y lo seguirá siendo por mucho rato.Ofrece una cantidad impresionante de agregados por $39,95. El precio más bajo de todos los temas de WordPress que analizo en este post. Lo mejor es que puedes instalarlo ilimitadamente en tus sitios.Si quieres más ventajas, aquí van:Excelente personalización: sin escribir una línea de código, puedes personalizar 99% de tu sitio web. El otro 1% restante, le preguntas a Tom en su foro, y te responderá en menos tiempo del que te imaginasSoporte de lujo: el soporte, es de los mejor que he podido ver en WordPressSiempre actualizado: está en constante crecimiento, no solo para mejoras de seguridad, sino aumentando las funcionalidades y agregados que podrás tener por el pago de la suscripción.100% compatible con Elementor: con decirte, que hasta Elementor lo recomienda 🤓GeneratePress impuso un modelo de negocios, más cercano a sus usuarios finales; se nota, sobre todo, en el empeño que le pone Tom (su creador) a todo lo que hace.La desventaja que se le puede achacar (si se le puede llamar así) es que temas como OceanWP ofrecen lo mismo que ofrece GeneratePress, pero con una versión gratuita mucho más potente y diversificada.Esto ayuda a muchos creadores de sitios web que no quieren o no pueden gastar en versiones de pago, y en eso OceanWP le gana la partida.AnimaEste tema es bueno, bonito y gratis ❤, el paraíso  para aquellos con presupuestos apretados.Anima tiene potentes funcionalidades de base, pero a costa de una mayor carga de datos. Esto lo hace más pesado que los temas antes mencionados.Es un tema realmente hermoso, perfecto para páginas de diseño en general, influencers, fotografía, empresarial, etc.Cuando vienes de temas tan minimalistas como Astra o GeneratePress, Anima parece un tanto “llamativo”, aunque estoy seguro que les fascinará a muchos.Es totalmente responsivo, amigable con los buscadores y muy personalizable. Ha mejorado con cada nueva versión.Al ser un tema de WordPress totalmente free, lo único que exige es que mantengas en el pie de página un link a la página de su creador. Para quitarlo deberás abonar $25 para un tema o $67 para todos los temas del portafolio del diseñador.Para alguien con poco presupuesto, esto me parece un ganar-ganar en toda regla.Twenty SeventeenPor último pero no menos importante, uno de los temas predeterminados del WordPress, a la espera de la llegada del Twenty Eighteen, que sé retrasará al 2018 para llegar de la mano de la versión 5.0 de WordPress.Twenty Seventeen es otro tema minimalista y 100% gratuito, ideal para webs empresariales.Puedes incluir vídeos en la página principal de manera nativa, así como secciones, algo que facilita la creación de una Landing Page sin necesidad de plugins adicionales. También soporta iconos sociales de manera nativa.Es cierto que es un tanto austero, pero con estos trucos para personalizar Twenty Seventeen despertarás su potencial.Y por supuesto: es totalmente responsivo, como no podía ser de otra forma.Apreciacion finalSi bien cualquiera de estos temas puede servir para apuntalar tu proyecto web, al poner todos en la balanza, me quedo con OceanWP 🏆Casi gana GeneratePresss, pero el que tenga tantas extensiones en su versión gratuita, inclinaron la balanza a su favor, y por los 39 dólares por año en su versión Premium, hacen que OceanWP sea el mejor tema que nos deja este 2017.Si no compartes mi opinión o propones otro tema, déjalo en los comentarios 😀. Saludos.        Califica este articulo            Enviar calificación          Puntuación promedio 5 / 5. Votos: 4      No hay votos hasta ahora. Sé el primero en calificar esta publicación.Diógenes MataFundador de VivaBlogger y cofundador de EVirtualplus. Soy un tecnomaniaco desde que estaba en pañales. Mi familia es el fundamento de mi vida. Sígueme en mis redes sociales.www.evirtualplus.comTambién te puede interesar
+Categorías PersonalizaciónEtiquetas Astradiseño webGeneratePressOceanWptemas wordpressTwenty Seventeen2 comentarios en «Los 5 mejores temas WordPress del 2017»
+
+Alvin
+ 
+31 diciembre, 2017 a las 6:13 am									
+Hola, Diógenes: gracias por el resumen. ¿Tienes o puedes elaborar una lista con tus recomendaciones para los mejores temas para blogs? Gracias y que tengas un muy feliz año nuevo.
+Responder
+
+CubeNode
+ 
+27 noviembre, 2017 a las 6:40 am									
+¡Ay, qué chulos, muchísimas gracias por la recopilación! Un abrazo.
+ResponderDeja un comentario Cancelar la respuestaComentarioNombre
+Correo electrónico
+Web Guarda mi nombre, correo electrónico y web en este navegador para la próxima vez que comente.
+
+
+He leído y acepto la Política de privacidad
+*
+El responsable de este sitio web es Diógenes Mata. La finalidad de los datos es gestionar los comentarios en este blog. El destinatario (donde se almacenan los datos) es el hosting de este blog: Banahosting, ubicado en EEUU. La legitimidad es el consentimiento que otorgas en el formulario. Tienes derecho a acceder, rectificar, limitar y suprimir tus datos según la política de privacidad. 
+Δ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Más popularesGuía para Cambiar la Base de Datos de Utf8 a Utf8mb4Haciendo que tu Wordpress vuele con WP Fastest CacheMostrar la Fecha de Actualización en los post de Wordpress4 trucos para personalizar el tema OceanWP de WordpressLos 7 mejores plugins gratuitos para Elementor en Wordpress
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2023 VivaBlogger ● Politica de Privacidad
+
+InicioSobre míBlogServiciosContacto
+
+Buscar:
+
+
+
+
+
+
+
+
+ Cerrar
+
+
+×
+   
+
+

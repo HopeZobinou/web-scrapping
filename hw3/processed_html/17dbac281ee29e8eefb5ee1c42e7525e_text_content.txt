@@ -1,0 +1,641 @@
+
+
+
+
+
+Life at Automattic, Inc. Q&A with Newspack’s Daniel Brown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search for:
+
+
+ Developers
+Documentation
+
+REST API
+
+Getting Started
+Developer Console
+Example Apps
+
+
+Authentication
+
+OAuth
+WordPress.com Connect (Login)
+
+
+oEmbed API
+Embeddable Widgets
+
+Follow Button
+Timeline
+
+
+Other Integrations
+
+Embedding
+Sharing Buttons
+Theme Guide
+WordPress.com Firehose
+
+
+
+
+Blog
+My Apps
+ 
+
+
+
+
+
+
+
+						Life @ Automattic: hanging with Newspack’s Daniel Brown					
+
+
+
+
+
+
+
+
+Posted on Wednesday October 11th 2023 by  L. Jeffrey Zeldman 
+
+
+Daniel Brown at his home-based workstation. Photos by Harper Brown.
+What’s it like to work at a fully distributed company with a worldwide team and culture guided by a Creed? Welcome to “Life @ Automattic,” a series of Q&As with the people behind the products. Today we speak with Daniel Brown, a Technical Account Manager for Newspack.
+Who are you, and what do you do?
+I have two simple qualities that define me: leave things better than when I found them, and empower others to do the same. This has grown out of being a father of two great kids, and having a strong positive outlook. Automattic pushes me to demonstrate these qualities in my role as a Technical Account Manager (TAM) for Newspack, working with news organizations and publications all over the world. We help migrate these publications from their current web stack over to WordPress under Newspack. Part of this commitment includes translating the publisher’s vision into a Newspack solution in order for the team and publication to become self-sustaining and self-sufficient. But that doesn’t mean we leave them to their own devices once they are here.  We check in regularly to make sure they are still on a path to be successful.  
+We are part developer, part educator, and all empathizer. – Daniel Brown
+What exactly is a TAM? What better-known tech roles, if any, does it map to?
+A TAM is a project manager that can talk shop around technical details and help translate features into sustainable solutions. More importantly, we help fulfill the promise of WordPress by building relationships with our publishers. That promise centers around our publishers having the ability to communicate and express their values to their communities. We are part developer, part educator, and all empathizer. This is why a TAM role is crucial, as we create trust in the product, trust in the process, and trust in the result.
+What did you do before you worked here? How, if at all, did it compare? How did it lead you here?
+Before Automattic, I worked as an IT director for a real estate company, and lived in the stereotypical corporate office job. Between sleep, work, and commuting, I could only devote a few hours a day to my family, and none at all to myself.  The work wasn’t satisfying and the benefits did not outweigh the grind. As with any job, TAM’s still have a grind, but I’d rather be grinding on diamonds than stone. It is much more meaningful and rewarding.
+Describe a typical day at work.
+
+Daily work can feel a bit like being a telephone operator from the 1950’s. It involves digesting information, conveying it, and connecting one channel to another. Connecting the publisher’s expectations to the engineer’s work to increase the efficiency of the migration. Connecting lessons learned back to the sales team, so they can help set better expectations, allowing us to deliver on realistic goals. Connecting feature requests to the product team to help fill gaps when rolling out new versions of Newspack. To do all that effectively, you need to stay on top of a lot of moving parts. So my calendar is time-blocked for a little bit of everything — including mental breaks.
+As a TAM at Automattic, what’s one of the more exciting projects (or milestones) that you’ve had the opportunity to work on?
+Bethesda Magazine came to Newspack because their current web stack was failing. Their workflows were not scalable, adding editorial content was slow, and they were looking to become more efficient by using the tools Newspack had to offer. As a TAM, I started to map out the site and discovered that they were using custom post types for their listings product – post types which didn’t quite fit into the Newspack mold. As we were approaching our launch timeline, and our launch engineers were working on migrating other publications, it put me in an awkward situation. 
+This is the moment of my breakthrough. Unsure how to manage the situation, I consulted other TAMs. With their help, I was able to break down the custom posts into a simple process that has fundamentally changed the way I approach future migrations.Previously, I reasonably assumed all data, configurations, and details were crucial and must be migrated. As it turns out, Bethesda was wanting to move away from the way they were doing things, and, as long as we could recapture the spirit of the product they were providing, they had no issues leaving behind the failed processes even if it meant a loss of data.
+Armed with this new understanding, I was able to parse the data into two groups: what was essential to the product and what was not. This allowed me to complete the migration with greater efficiency and without the need to derail our engineers from their other migrations. Bethesda have since rebranded to Moco360, and are still enjoying life on Newspack.
+
+What methods have you come up with to make sure you take breaks? Any tips you can share?
+There are a few different ways I have gotten creative with breaks. The best one I found is to have bite size hobbies. Bite size hobbies are hobbies that you can engage in and exit quickly. Walking the dog and drinking lots of water are great ways to step away from the computer, but having a bite size hobby that genuinely pushes you has several benefits. It creates enrichment, and channels personal growth. For me, I force myself to pick up the guitar and practice chords for a few minutes. Do this over the course of a month, you will begin to get good at the guitar. And there are loads of bite size hobbies that you can start. Study a new language, learn to juggle, put in a few minutes at the easel, trim a houseplant, sculpt with Play-Doh, learn to throw darts, or practice a yoga pose… okay, so my wife had some questions when she walked into my office on that last one, but the point is, you can develop a talent or hobby that fits inside of your mental breaks, and it becomes as routine as checking your Slack messages. Stay consistent with it, and become expert at it within a short amount of time. Tumblr videos optional of course. 😉
+“This is the only place I’ve ever worked where I feel I can perform for the sake of the client, not for the sake of the job.”
+What are some challenges you’ve faced, and how did you overcome them?
+When you do what you love, it is easy to want to put in more effort than you are capable of. It is important to remember to take care of yourself first, otherwise everyone else will receive you at your worst. It is important not to burn out as, to the partner, you’re not just the face of the company, you are the company. When navigating with publishers, their impression of WordPress and Newspack is coming directly from the experiences you are creating. That can create a lot of weight, but you are never lifting alone. Be vulnerable with your team and place your trust in them. Mine has supported me through challenging situations, and helped to shine light in areas I couldn’t see.  
+What’s unique or unusual about the work you do at Automattic? 
+Automattic itself is unique, as I truly believe they nurture the skills and talents I bring to the table. My team knows and values my strengths, and supports me with opportunities to exercise and improve them. This is the only place I’ve ever worked where I feel I can perform for the sake of the client, not for the sake of the job. I can focus my time on creating an amazing experience for the publisher, rather than surviving a dog-eat-dog environment.
+
+What keeps you going? What gets you charged up to come to work in the morning?
+I am the person behind the counter serving ice cream to kids. It is the perfect analogy for the TAM role.I can be opinionated about which flavors go well with different toppings. I can be creative in the deliverables and express my personality through my work. I can collect information around high demand menu items or traffic patterns, and offer feedback where needed. But the best part of the analogy is that I am making a difference in someone’s life  — like showing an excited child a new flavor of ice cream, or  helping a new romantic couple discover their  “official first flavor” on a first date.  I create the same feeling for the publisher who has been struggling to post content for years due to a failing web stack. Or the author who had to stay late day-after-day to load content in five different places — and can now go home on time because they can create complete content in one location. Experienced publishers are excited to move to our platform because it gives them a fresh outlook on their site and removes the burdens they’ve carried for years. In other cases, I help build confidence in a person looking to start a new site, and provide them with a steady foundation as they grow. Either way, it is game changing, and I want to be a part of that.
+What advice would you give to someone who wants to get into TAM work at Automattic?
+The TAM role can be overwhelming when first starting out. So there are some competencies that are worth having, such as organizational skills, multi-tasking (more specifically context switching), and sympathy. If you focus on building your skill sets in these areas, not only will you do well by not getting caught up in the mechanics of the role, but you‘ll enjoy the impactful and meaningful results of the TAM career at Automattic.
+Thanks for spending time with us, Daniel! 
+ABOUT AUTOMATTIC
+Founded in 2005 by Matt Mullenweg, the co-creator of WordPress software, Automattic has been recognized as one of the world’s most innovative companies. We’re the tech powerhouse behind WordPress.com, Newspack, WooCommerce, Jetpack, WordPress VIP, Simplenote, Longreads, WPScan, Akismet, Gravatar, Crowdsignal, Cloudup, Tumblr, Day One, Pocket Casts, and more. As of today, there are over 1950 Automatticians in 95 countries speaking 120 different languages. Maybe you can be one of us.
+
+#LifeatAutomattic #careers #working #RemoteWork #FullyDistributed #Automattic #Automatticians #ThePeopleBehindTheProducts
+Share this:Click to share on Facebook (Opens in new window)Click to share on Twitter (Opens in new window)Click to share on Pinterest (Opens in new window)Click to share on LinkedIn (Opens in new window)Click to share on Pocket (Opens in new window)Like this:Like Loading...
+
+Related
+ 
+
+		This entry was tagged Life@Automattic. Bookmark the permalink.
+			
+
+
+
+Leave a Reply Cancel reply
+
+
+Δ 
+
+
+
+
+Recent Posts: Developer ResourcesLife @ Automattic: hanging with Newspack’s Daniel Brown
+Presentations You Can’t Miss from WordCamp US 2023
+Speedier PHP Execution in WordPress 6.3
+
+Follow Developer Resources on WordPress.com
+
+Top Posts & PagesREST API ResourcesHomeGuidelines for Responsible Use of Automattic’s APIsDocumentationCommon WordPress REST API Errors and What to Do About ThemOAuth2 AuthenticationSetting Up Your Local Development Environment for WordPressGetting Started with the APIGetting Started with WordPress Development: A Developer’s GuidePHP 8.2 is Now Available on WordPress.comResources 
+Documentation
+Guidelines
+Contact
+
+From the developer blog: Developer ResourcesLife @ Automattic: hanging with Newspack’s Daniel Brown
+What’s it like to work at a fully distributed company with a worldwide team and culture guided by a Creed? Welcome to “Life @ Automattic,” a series of Q&As with the people behind the products. Today we speak with Daniel Brown, a Technical Account Manager for Newspack. Who are you, and what do you do? […]
+Presentations You Can’t Miss from WordCamp US 2023
+I recently had the incredible opportunity to attend WordCamp US 2023, marking my second WordCamp experience after visiting Greece this past June. What I love about WordCamps is the freedom to choose from a variety of talks and workshops that resonate with your interests. The atmosphere is incredibly open, making it easy to start conversations […]
+Speedier PHP Execution in WordPress 6.3
+In this write-up, we talk about recent performance improvements that we did on WordPress 6.3, sharing both our findings and journey. While this post will mostly be around performance improvements at the code level, we want to emphasize that when we write code, we first want it to be readable, correct, secure, and only after that, performant. […]
+ 
+
+
+
+
+WordPress.com
+
+
+
+Products
+
+WordPress Hosting
+Domain Names
+Website Builder
+Create a Blog
+Professional Email
+Enterprise Solutions
+Built by WordPress.com
+
+
+
+Features
+
+Overview
+WordPress Themes
+WordPress Plugins
+Google Apps
+
+
+
+Resources
+
+WordPress.com Support
+WordPress Forums
+WordPress News
+Website Building Tips
+Business Name Generator
+Logo Maker
+Daily Webinars
+Learn WordPress
+Developer Resources
+
+
+
+Company
+
+About
+Partners
+Press
+Terms of Service
+Privacy Policy
+Privacy Notice for California Users
+
+
+
+
+
+Mobile Apps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get it on
+Google Play
+
+
+
+
+
+
+
+
+
+
+
+Download on the
+App Store
+
+
+
+
+
+
+
+Social Media
+
+ 
+WordPress.com on Twitter
+
+
+
+
+
+ 
+WordPress.com on Facebook
+
+
+
+
+
+ 
+WordPress.com on Instagram
+
+
+
+
+
+ 
+The Automattic YouTube channel
+
+
+
+
+
+
+
+
+
+
+
+
+
+				An									Automattic
+
+
+
+					medley								
+
+
+					Work With Us				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Comment						
+
+
+
+
+
+Follow
+
+
+
+Following
+
+
+
+
+
+
+
+				Developer Resources			
+
+
+Join 14,701 other followers
+
+
+
+
+
+
+
+ 
+
+												Sign me up											
+
+
+
+
+											Already have a WordPress.com account? Log in now. 
+
+
+
+
+
+
+ 
+
+
+
+
+
+				Developer Resources			
+
+
+
+ Customize
+
+
+
+
+
+Follow
+
+
+
+Following
+
+
+Sign up
+Log in
+Copy shortlink
+
+
+											Report this content										
+
+
+
+											View post in Reader										
+
+
+Manage subscriptions
+
+Collapse this bar
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Loading Comments...
+
+
+
+ 
+
+
+Write a Comment...
+
+
+
+
+Email (Required)
+
+
+
+Name (Required)
+
+
+
+Website
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+%d bloggers like this:		
+
+
+ 
+
+
+
+

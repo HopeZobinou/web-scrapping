@@ -1,0 +1,543 @@
+
+
+
+
+
+WordPress 6.3 PHP Compatibility – Make WordPress Hosting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+
+
+
+WordPress.org
+
+
+ 
+
+
+
+
+
+
+
+NewsShowcaseHostingExtendThemesPluginsPatternsBlocksOpenverse ↗︎LearnLearn WordPressDocumentationForumsDevelopersWordPress.tv ↗︎CommunityMake WordPressPhoto DirectoryFive for the FutureWordCamp ↗︎Meetups ↗︎Job Board ↗︎AboutAbout WordPressEnterpriseGutenberg ↗︎Swag Store ↗︎Get WordPress
+
+
+
+
+
+
+
+
+
+
+
+Search in WordPress.org
+
+
+
+
+
+
+
+
+
+		Get WordPress	
+
+
+Menu
+
+Make WordPress Hosting
+
+
+Handbook
+Team Projects
+Host Test Results
+ 
+
+
+
+Hide welcome box
+
+
+
+The hostingHosting A web hosting service is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. team works to improve WordPress’ end-user experience across hosting environments through industry collaboration and user education.
+Want to contribute? Come join us!
+
+The team meets in the #hosting SlackSlack Slack is a Collaborative Group Chat Platform https://slack.com/. The WordPress community has its own Slack Channel at https://make.wordpress.org/chat/. channel each week on Wednesday at 0900 UTC and 1800 UTC. Check out local times at make/meetings.
+Contribute automated test results from your hosting environment, and help build the test runner and results page!
+See more details about ongoing projects on the Team Projects page.
+
+Learn more about hosting WordPress in the handbook. Feel free to bring up recommendations for changes and additions in Slack!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Javier Casares
+
+4:05 am on October 11, 2023 
+
+
+
+Tags: core ( 14 ), php ( 11 )   
+				
+
+WordPress 6.3 PHP Compatibility
+
+
+
+Looking for updated information?Visit the Hosting Handbook Server Environment page.
+
+Some time ago, we commented on the compatibility of WordPress with PHP 8. Since the release of this version of PHPPHP PHP (PHP: Hypertext Preprocessor) is a general-purpose scripting language especially suited to web development. PHP code is usually processed on a web server by a PHP interpreter. On a web server, the result of the interpreted and executed PHP code would form the whole or part of an HTTP response., and the major versions of WordPress that have appeared since then, have led to the creation of concepts unknown to the WordPress community, such as “betaBeta Beta is the software development phase following alpha. A Beta phase generally begins when the software is feature complete but likely to contain a number of known or unknown bugs. Software in the beta phase will generally have many more bugs in it than completed software, speed or performance issues, and may still cause crashes or data loss. The focus of beta testing is reducing impacts to users, often incorporating usability testing. compatible” or “compatible with exceptions”.
+We’ve had WordPress 6.3 with us for a while now, and maybe it’s time to clarify a few things, which we’ll be keeping up with each major version of WordPress as it’s released.
+WordPress’ serverServer A server is a piece of computer hardware or software that provides functionality for other programs or devices. Typical servers are database servers, file servers, mail servers, print servers, web servers, game servers, and application servers. requirements
+Even if there are more stable software versions, that doesn’t mean they are the ones WordPress recommends.
+Note that WordPress 6.3 brings an important update: Dropping support for PHP 5.
+This makes WordPress 6.3 requirements:
+
+PHP: 7.0+
+MySQLMySQL MySQL is an open-source relational database management system (RDBMS). MySQL is free and open-source software under the terms of the GNU General Public License.: 5.0.15+
+MariaDBMariaDB MariaDB is a fork of the MySQL relational database management system (RDBMS), intended to remain free and open-source software under the GNU General Public License. MariaDB intended to maintain high compatibility with MySQL, ensuring a drop-in replacement capability with library binary parity and exact matching with MySQL APIs and commands.: 5.5+
+
+You can read more at Server requirements.
+WordPress’ compatibility “at the time”
+WordPress 6.3 was released on August 8, 2023, and at that time we had the following components available (stable or security-maintained versions only).
+
+PHP: 8.0–8.2
+MySQL: 5.7–8.1
+MariaDB: 10.4–10.6 and 10.9–11.0
+
+You can read more at WordPress Compatibility.
+WordPress and PHP
+PHP is a programming language on which WordPress code is based. This language runs on the server, and it is critical to keep it up to date, both for security and functionality.
+WordPress supports many versions of PHP, some even obsolete (PHP Compatibility and WordPress Versions).
+WordPress 6.3 (coreCore Core is the set of software required to run WordPress. The Core Team builds WordPress.) is:
+
+fully compatible with PHP 7.01, 7.11, 7.21, 7.31, and 7.41.
+compatible with exceptions with PHP 8.0, and 8.1
+beta compatible with PHP 8.2.
+
+1 SECURITY ALERT: These versions are not officially maintained by PHP, so they are considered insecure and obsolete versions and should not be used in production. Check with your hostingHosting A web hosting service is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. provider about the security maintenance they can do.
+What “compatible with exceptions” mean?
+PHP 8.0
+
+Named parameters. WordPress does not support named parameters.PHP 8.0 supports optionally calling functions and class methods by specifying the parameter name, instead of calling them on the order of parameters that they are declared.PHP, and many other programming languages, support positional parameters: The caller passes the parameters in the same order the function/method declares its parameters.
+Filesystem WP_Filesystem_FTPext and WP_Filesystem_SSH2 when connect fails.An investigation is underway as to why on some occasions the access to the files returns some type of error.
+
+PHP 8.1
+
+htmlentities() et al needs the default value of the flags parameter explicitly set.According to htmlentities(), the default for flags for PHP 8.1 was “changed from ENT_COMPAT to ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML401”. All use cases for this functionality in WordPress Core are being investigated.
+Replace most strip_tags() with wp_strip_tags().There are rare occasions when the strip_tags() function is passed a null value, which generates a warning that the string is deprecated.
+unregister_setting() for unknown setting.As of PHP 8, attempting to unregister an undefined configuration results in PHP warnings: Warning: Trying to access array offset on value of type null.
+
+What “beta” mean?
+PHP 8.2
+
+Deprecation noticesA deprecation notice is not an error, but rather an indicator of where additional work is needed for compatibility before PHP 9.0. With a deprecation notice, the PHP code will continue to work and nothing is broken.
+
+Hosting Team Recommendation
+Taking all this into account, the Hosting Team’s recommendations for WordPress 6.3 are as follows (which may differ from the global ones).
+
+PHP: 8.1.x
+MySQL: 8.0.x
+MariaDB: 10.11.x
+
+IMPORTANT: These recommendations are intended, primarily, for new installations by hosting providers.
+#core, #phpShare this:Click to share on Twitter (Opens in new window)Click to share on Facebook (Opens in new window)Login to ReplyLike this:Like Loading...
+
+
+
+
+
+
+
+
+Pingback: Meeting Agenda for October 18, 2023 – Make WordPress.org
+
+
+
+Leave a Reply Cancel replyYou must be logged in to post a comment. 
+This site uses Akismet to reduce spam. Learn how your comment data is processed.
+
+
+
+Post navigation
+← Hosting Team meeting agenda 2023-09-06 Hosting Team meeting agenda 2023-10-11 →
+
+
+
+
+
+
+
+
+Search
+
+
+
+Email Updates
+
+
+Enter your email address to subscribe to this blog and receive notifications of new posts by email.
+
+
+
+							Email Address						
+
+
+
+
+
+
+
+
+							Subscribe						
+
+
+
+					Join 144 other subscribers				
+
+Recent UpdatesRecent CommentsNo RepliesRecent UpdatesRecent CommentsNo RepliesRecent Activity
+
+
+			Team Pledges
+		
+
+953 people have pledged time to contribute to Hosting Team efforts! When looking for help on a project or program, try starting by reaching out to them!		
+
+
+
+
+
+
+
+
+About
+News
+Hosting
+Privacy
+
+
+Showcase
+Themes
+Plugins
+Patterns
+
+
+Learn
+Documentation
+Developers
+WordPress.tv ↗
+
+
+Get Involved
+Donate ↗
+Swag Store ↗
+WordCamp ↗
+
+
+WordPress.com ↗
+Matt ↗
+bbPress ↗
+BuddyPress ↗
+
+
+
+
+
+
+
+
+WordPress.org
+
+
+ 
+
+
+
+
+WordPress.org
+
+
+
+ 
+
+
+
+Visit our Facebook page
+Visit our X (formerly Twitter) account
+Visit our Instagram account
+Visit our LinkedIn account
+Visit our YouTube channel
+
+
+
+
+
+
+ 
+
+
+
+
+ssearch
+ccompose new post
+r reply
+e edit
+t go to top
+j go to the next post or comment
+k go to the previous post or comment
+o toggle comment visibility
+esc cancel edit post or comment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+		Please enable JavaScript to view this page properly.	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%d bloggers like this:
+
+
