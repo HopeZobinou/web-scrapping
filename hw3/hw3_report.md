@@ -158,7 +158,9 @@ File: fed09fdf4bef922cd193f6aadafbf6b2_text_content.txt, Word Count: 304, Word F
 |TF-IDF |TF |IDF  |URI
 |------:|--:|---:|---
 |0.7724|0.0258|29.9392|https://www.idropnews.com/how-to/your-iphone-can-replicate-your-voice-after-15-minutes-of-training/200586/
-|
+|0.3263|0.0109|29.9392|https://apps.apple.com/us/app/topmixtapes-mixtapes/id1550402469
+|0.2955|0.0100|29.9392|https://htn.toma-g.net/no-think-blog 
+|0.2724|0.0006|29.9392|https://www.whatsapp.com/channel/0029Va3l8y0It5rxHC6IoR3z
 
 
 ## Discussion
