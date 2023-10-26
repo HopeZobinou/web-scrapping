@@ -26,7 +26,7 @@ def download_html(uri):
         if response.status_code == 200:
             return response.text
     except Exception as e:
-        print(f'Failed to download from {uri}: {e}')
+        print(f'Failed to download from {uri}: {e}') 
         return None
     
 def save_to_file(content, filename):
