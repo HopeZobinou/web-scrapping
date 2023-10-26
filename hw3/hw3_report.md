@@ -169,10 +169,16 @@ File: fed09fdf4bef922cd193f6aadafbf6b2_text_content.txt, Word Count: 304, Word F
 |0.0030|0.0001|29.9392|https://bloggingtry.com/ithemes-security-review/?utm_source=twitter&utm_medium=social&utm_campaign=novashare
 
 
-## Discussion
+Below is an image of how I calculated the TF-IDF
+![q2](https://github.com/HopeZobinou/data440/assets/81893993/0febc2d3-9274-4a58-b902-1df65af0a2d4)
 
+
+## Discussion
+On my machine, I had all the processed text files saved in a folder. In order for me to get the target word count and regular word count for a query,
+I would have to iterate through each file in that folder. I looked up how to iterate through a folder in Python-(Reference 2) and used what I found to make my program
+use the directory to a folder to iterate through each file in it. Then I made a method that would search for the target word in each file. I used what my program outputted to put into the TF-IDF formula. 
 
 # References
 
 * Insert Reference 1, <https://stackoverflow.com/questions/16206380/python-beautifulsoup-how-to-remove-all-tags-from-an-element>
-* Insert Reference 2, <https://www.example.com/reallyreallyreally-extra-long-URI/>
+* Insert Reference 2, <https://www.geeksforgeeks.org/how-to-iterate-over-files-in-directory-using-python/>
