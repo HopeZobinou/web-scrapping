@@ -91,6 +91,11 @@ if __name__ == "__main__":
 The process of downloading the web pages is similar to hw2. First I had the program read in a file containing all the URIs and put it into a list. Then I iterate through the list and call a bunch of methods on that certain element in the list to get the raw html file, and processed html text file. In the loop, I also have some dictionary work going on to map the hashed file names to the original file name. I used Beautiful Soup instead of boilerpy3 because of some parsing error I couldn't fix-Reference 1.
 
 # Q2 Rank with TF-IDF
+Choose a query term (e.g., "coronavirus") that is not a stop word (e.g., "the"), or super-general (e.g., "web"), or in HTML markup (e.g., "http") that is found in at least 10 of your documents.  If the term is present in more than 10 documents, choose any 10 English-language documents from *different domains* from the result set.
+
+Compute TF-IDF values for the query term in each of the 10 documents and create a table with the TF, IDF, and TF-IDF values, as well as the corresponding URIs.
+
+Rank the URIs in decreasing order by TF-IDF values.
 
 ## Answer
 Below is the code I used to get the word count and target word frequency.
