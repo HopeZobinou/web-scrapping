@@ -1,0 +1,63 @@
+word = iPhone,  total size of corpus = 35,000,000,000,   doc with term = 34
+TF-IDF = (occurrence in doc/words in doc) * log2(total docs in corpus/docs with term)
+TF = occurrence in doc/words in doc
+IDF = log2(total docs in corpus/docs with term) 
+
+File: f05578b176426024c7d5b4776f49bd40_text_content.txt, Word Count: 366, Word Frequency: 4
+	URI: https://apps.apple.com/us/app/topmixtapes-mixtapes/id1550402469
+	TF-IDF = 0.3263
+	TF = 4/366 = 0.0109
+	IDF = log2(35,000,000,000/34) = 29.9392 
+
+File: b6627aea4aff013c3fd8668e8ed62267_text_content.txt, Word Count: 1398, Word Frequency: 36
+	URI: https://www.idropnews.com/how-to/your-iphone-can-replicate-your-voice-after-15-minutes-of-training/200586/ 
+	TF-IDF = 0.7724
+	TF = 36/1398 = 0.0258
+	IDF = log2(35,000,000,000/34) 29.9392
+
+File: dc17d95de563d971658124bcac8e0244_text_content.txt, Word Count: 1653, Word Frequency: 1
+	URI: https://www.washingtonpost.com/travel/2023/10/09/jet-lag-worse-return-flight/
+	TF-IDF = 0.0181
+	TF = 1/1653 = 0.0006
+	IDF = 29.9392
+
+File: 07e9039cc4519d525e29061287644318_text_content.txt, Word Count: 110, Word Frequency: 1 
+	URI: https://www.whatsapp.com/channel/0029Va3l8y0It5rxHC6IoR3z
+	TF-IDF = 0.2724
+	TF = 1/110 = 0.0091
+	IDF = 29.9392
+File: fcaeecc17bb81a23757e7ddf7ec11e96_text_content.txt, Word Count: 506, Word Frequency: 1
+	URI: https://www.delish.com/food-news/a45497249/starbucks-black-frappuccino/
+	TF-IDF = 0.0599
+	TF = 1/506 = 0.0020
+	IDF = 29.9392
+
+File: d7fbab9fedf63c454cecb4663a4fdfbc_text_content.txt, Word Count: 8176, Word Frequency: 1
+	URI: https://bloggingtry.com/ithemes-security-review/?utm_source=twitter&utm_medium=social&utm_campaign=novashare
+	TF-IDF = 0.0030 
+	TF = 1/8176 = 0.0001
+	IDF = 29.9392 
+
+File: fed09fdf4bef922cd193f6aadafbf6b2_text_content.txt, Word Count: 304, Word Frequency: 3
+	URI: https://htn.toma-g.net/no-think-blog
+	TF-IDF = 0.2955
+	TF = 3/304
+	IDF = 29.9392
+
+File: 0a2007ba49222103dbb3632fb64ce6cd_text_content.txt, Word Count: 6209, Word Frequency: 2 
+	URI: https://www.eyrolles.com/Informatique/Livre/optimiser-son-referencement-wordpress-9782212679878/
+	TF-IDF = 0.0090
+	TF = 2/6209 = 0.0003
+	IDF = 29.9392
+
+File: 1ded6c5fb13b02ee788f76679f3ab6c0_text_content.txt, Word Count: 199, Word Frequency: 1
+	URI: https://www.cnn.co.jp/world/35210100.html
+	TF-IDF = 0.1497
+	TF = 1/199 = 0.0050
+	IDF = 29.9392
+
+File: 361c4ead401bf9de0941e412476d9ea8_text_content.txt, Word Count: 1361, Word Frequency: 1 
+	URI: https://nypost.com/2023/10/09/donald-trump-wonders-how-anybody-whos-jewish-could-vote-for-dems/?utm_medium=social&utm_campaign=nypost&utm_source=twitter
+	TF-IDF = 0.0210
+	TF = 1/1361 = 0.0007
+	IDF = 29.9392 
