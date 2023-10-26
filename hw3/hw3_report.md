@@ -157,6 +157,7 @@ File: fed09fdf4bef922cd193f6aadafbf6b2_text_content.txt, Word Count: 304, Word F
 10 Hits for the term "iPhone", ranked by TF-IDF.
 |TF-IDF |TF |IDF  |URI
 |------:|--:|---:|---
+|0.7724|0.0258|29.9392|https://www.idropnews.com/how-to/your-iphone-can-replicate-your-voice-after-15-minutes-of-training/200586/
 |
 
 
