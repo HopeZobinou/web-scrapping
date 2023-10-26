@@ -160,7 +160,13 @@ File: fed09fdf4bef922cd193f6aadafbf6b2_text_content.txt, Word Count: 304, Word F
 |0.7724|0.0258|29.9392|https://www.idropnews.com/how-to/your-iphone-can-replicate-your-voice-after-15-minutes-of-training/200586/
 |0.3263|0.0109|29.9392|https://apps.apple.com/us/app/topmixtapes-mixtapes/id1550402469
 |0.2955|0.0100|29.9392|https://htn.toma-g.net/no-think-blog 
-|0.2724|0.0006|29.9392|https://www.whatsapp.com/channel/0029Va3l8y0It5rxHC6IoR3z
+|0.2724|0.0091|29.9392|https://www.whatsapp.com/channel/0029Va3l8y0It5rxHC6IoR3z
+|0.1497|0.0050|29.9392|https://www.cnn.co.jp/world/35210100.html
+|0.0599|0.0020|29.9392|https://www.delish.com/food-news/a45497249/starbucks-black-frappuccino/
+|0.0210|0.0007|29.9392|https://nypost.com/2023/10/09/donald-trump-wonders-how-anybody-whos-jewish-could-vote-for-dems/?utm_medium=social&utm_campaign=nypost&utm_source=twitter
+|0.0181|0.0006|29.9392|https://www.washingtonpost.com/travel/2023/10/09/jet-lag-worse-return-flight/
+|0.0090|0.0003|29.9392|https://www.eyrolles.com/Informatique/Livre/optimiser-son-referencement-wordpress-9782212679878/
+|0.0030|0.0001|29.9392|https://bloggingtry.com/ithemes-security-review/?utm_source=twitter&utm_medium=social&utm_campaign=novashare
 
 
 ## Discussion
