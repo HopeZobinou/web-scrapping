@@ -1,7 +1,7 @@
 # HW3 - Report
 ### Hope Zobinou  
 ### DATA 440, Fall 2023
-### 10/24/2023
+### 10/24/2023 
 
 # Q1  Data Collection 
 Download the HTML content of the 1000 unique URIs you gathered in HW2 and strip out HTML tags (called "boilerplate") so that you are left with the main text content of each webpage.
