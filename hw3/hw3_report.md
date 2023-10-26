@@ -136,6 +136,30 @@ if __name__ == "__main__":
         print(f"File: {file_name}, Word Count: {word_count}, Word Frequency: {word_frequency}")
 ```
 
+Below is the output of the code.
+
+```console
+File: dc17d95de563d971658124bcac8e0244_text_content.txt, Word Count: 1653, Word Frequency: 1
+File: dd24516329d71af93be8b85780c48842_text_content.txt, Word Count: 1633, Word Frequency: 1
+File: e42e013496d5d343816fdb987f8d7c1f_text_content.txt, Word Count: 540, Word Frequency: 2 
+File: e6f75a952a186699cf364c88faac523a_text_content.txt, Word Count: 289, Word Frequency: 3 
+File: eaa40af2776d3064cb013040b412f427_text_content.txt, Word Count: 394, Word Frequency: 11
+File: ec4ba285be1c8ebd742493355acd4d56_text_content.txt, Word Count: 1417, Word Frequency: 1
+File: f05578b176426024c7d5b4776f49bd40_text_content.txt, Word Count: 366, Word Frequency: 4 
+File: f263e36753329bb37caac686967a959f_text_content.txt, Word Count: 110, Word Frequency: 1 
+File: f4737ffcbc2955da993657a282cfce89_text_content.txt, Word Count: 495, Word Frequency: 2 
+File: f6005d6be59374ac17157d11874499f5_text_content.txt, Word Count: 194, Word Frequency: 1 
+File: f8b64df5acee28efc62872c3c9b8f5a6_text_content.txt, Word Count: 950, Word Frequency: 1 
+File: fcaeecc17bb81a23757e7ddf7ec11e96_text_content.txt, Word Count: 506, Word Frequency: 1 
+File: fed09fdf4bef922cd193f6aadafbf6b2_text_content.txt, Word Count: 304, Word Frequency: 3
+```
+
+10 Hits for the term "iPhone", ranked by TF-IDF.
+|TF-IDF |TF |IDF  |URI
+|------:|--:|---:|---
+|
+
+
 ## Discussion
 
 
