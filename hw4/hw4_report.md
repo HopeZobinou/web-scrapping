@@ -15,11 +15,19 @@ on the x-axis: 1, 2, 3,..., n should be sufficient. Include the user in the grap
 
 
 ## Answer
+The mean is 542.673469, the standard deviation is 539.433739, and the median is 396.
 
-
+Below is the code I used to get the mean, standard deviation, and the median.
 
 ```python
+import pandas as pd
+import numpy as np      
+import matplotlib.pyplot as plt 
+import seaborn as sns
 
+fb_friends = pd.read_csv('c:/Users/hopez/Documents/Data440/Homework4/friend_count.csv')
+
+fb_friends.describe()
 ```
 
 |Week|Date|Topic|
