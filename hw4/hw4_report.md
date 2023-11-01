@@ -30,6 +30,8 @@ fb_friends = pd.read_csv('c:/Users/hopez/Documents/Data440/Homework4/friend_coun
 fb_friends.describe()
 ```
 
+![mean_stdd_median](https://github.com/HopeZobinou/data440/assets/81893993/c67539a5-e606-46ee-937a-8f2b8caf7c4e)
+
 |Week|Date|Topic|
 |:---|:---|:---|
 |1|Sep 1, 3|Introduction, What's Vis and Why Do It?|
