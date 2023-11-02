@@ -17,7 +17,7 @@ on the x-axis: 1, 2, 3,..., n should be sufficient. Include the user in the grap
 ## Answer
 The mean is 542.673469, the standard deviation is 539.433739, and the median is 396.
 
-Below is the code I used to get the mean, standard deviation, and the median.
+Below is the code I used to get the mean, standard deviation, and the median. Also an image of the output.
 
 ```python
 import pandas as pd
@@ -32,11 +32,27 @@ fb_friends.describe()
 
 ![mean_stdd_median](https://github.com/HopeZobinou/data440/assets/81893993/c67539a5-e606-46ee-937a-8f2b8caf7c4e)
 
-|Week|Date|Topic|
-|:---|:---|:---|
-|1|Sep 1, 3|Introduction, What's Vis and Why Do It?|
-|2|Sep 8, 10|Data and Data Cleaning|
-|3|Sep 15, 17|Marks and Channels|
+The friendship paradox holds for this user.
+Below is the code I used to make the graph and the graph itself.
+
+```python
+fb_friends['USER'] = range(1,99)
+fb_friends.sort_values(by = ' FRIENDCOUNT', ascending = False)
+plt.figure(figsize = [8,6])
+x = fb_friends['USER']
+y = fb_friends[' FRIENDCOUNT']
+xlabel = 'Users'
+ylabel = 'Number of Friends'
+
+sns.scatterplot(x = x, y = y)
+
+plt.xlabel(xlabel, fontsize = 16, labelpad = 15)
+plt.ylabel(ylabel, fontsize = 16, labelpad = 20)
+
+plt.savefig('hw4q1p2.png')
+plt.show()
+```
+
 
 
 
