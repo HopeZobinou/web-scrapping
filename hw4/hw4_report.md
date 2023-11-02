@@ -1,6 +1,6 @@
 # HW4 - Report
 ### Hope Zobinou
-### DATA 440, Fall 2023
+### DATA 440, Fall 2023 
 ### 11/2/2023
 
 # Q1 Friendship Paradox on Facebook
