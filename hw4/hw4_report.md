@@ -53,7 +53,7 @@ plt.savefig('hw4q1p2.png')
 plt.show()
 ```
 
-
+![hw4q1p2](https://github.com/HopeZobinou/data440/assets/81893993/b45205b0-f9d1-46c1-ac6a-826710a87d7d)
 
 
 ## Discussion
