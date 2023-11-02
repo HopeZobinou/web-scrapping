@@ -57,10 +57,9 @@ plt.show()
 
 
 ## Discussion
-The friendship paradox states that you have fewer friends than your friends. Prof. Nwala has 98 friends which is lower than the average number of friends his friends have (543). The paradox holds for the others because the graph shows that the majority of the friends on Prof. Nwala's friend list are below that blue average line including Prof. Nwala (His point is marked black)-Reference 1 . 
+The friendship paradox states that you have fewer friends than your friends. Prof. Nwala has 98 friends which is lower than the average number of friends his friends have (543). The paradox holds for the others because the graph shows that the majority of the friends on Prof. Nwala's friend list are below that blue average line including Prof. Nwala (His point is marked black)-Reference 1. 
 
 
 # References
 
 * Insert Reference 1, <https://stackoverflow.com/questions/12043672/how-to-take-draw-an-average-line-for-a-scatter-plot>
-* Insert Reference 2, <>
