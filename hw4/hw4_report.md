@@ -32,7 +32,7 @@ fb_friends.describe()
 
 ![mean_stdd_median](https://github.com/HopeZobinou/data440/assets/81893993/c67539a5-e606-46ee-937a-8f2b8caf7c4e)
 
-The friendship paradox holds for this user.
+The friendship paradox doesn't hold for this user (nwala) but it holds for the others.
 Below is the code I used to make the graph and the graph itself.
 
 ```python
@@ -57,6 +57,8 @@ plt.show()
 
 
 ## Discussion
+The friendship paradox states that you have fewer friends than your friends. Prof. Nwala has 916 friends which is higher than the average number of friends his friends have (543). The paradox holds for the others because the graph shows that the majority of the friends on Prof. Nwala's friends list are below that blue average line. 
+
 
 # References
 
