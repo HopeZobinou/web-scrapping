@@ -3,7 +3,7 @@
 ### DATA 440, Fall 2023 
 ### 11/14/23
 
-# Q1. Color nodes based on final split 
+# Q1. Color nodes based on the final split 
 
 Draw the original Karate club graph (before the split) and color the nodes according to the factions they belong to (John A or Mr. Hi). This should look similar to the graph on slide 92 - all edges should be present, just indicate the nodes in the eventual split by color.
 
@@ -47,8 +47,7 @@ Note: Implement the Girvan-Newman algorithm (See Module-07, slide 91) rather tha
 *Q: How many iterations did it take to split the graph?* 
 
 ## Answer
-The mathematical model from the algorithm doesn't 100% represent reality. The final result from the algorithm has a few nodes that are colored 
-purple (belong to Mr.Hi's network) but are connected to John while being disconnected from Mr. Hi. It took 11 iterations to split the graph.
+The mathematical model from the algorithm doesn't 100% represent reality. An algorithm with a formula involved (Compute betweenness centrality for edges) will always have an error associated with it especially since there is a summation in the formula. That is why the final result from the algorithm has a few nodes that are colored purple (belong to Mr.Hi's network) but are connected to John while being disconnected from Mr. Hi. It took 11 iterations to split the graph.
 
 Below is my implementation of the Girvan-Newman algorithm.
 
@@ -89,15 +88,23 @@ Below are images of the graph after each iteration.
 When making the algorithm, I just copied the pseudo-code the professor gave us in the class slide-Reference 2. And I also had to look up the correct methods to use with networkx to get the values I needed. Like to get all the edges betweenness and to remove edges-Reference 3.
 
 
-# Q3
+# Q3 Compare the actual to the mathematical split
+Compare the connected components of the Girvan-Newman split graph (Q2) with the connected components of the actual split Karate club graph (Q1).
+
+*Q: Did all of the same colored nodes end up in the same group?  If not, what is different?*
 
 ## Answer
+All the same nodes didn't end up in the same group. Nodes 32, 9, and 3 are colored purple for Mr. Hi but are now in John's group at the end of the Girvan-Newman split.
+
+Below are images of the 2 graphs.
+
+![before_split](https://github.com/HopeZobinou/data440/assets/81893993/74bc78f9-77fc-4e0f-a567-fbd77bd784da)
+![graph_11i](https://github.com/HopeZobinou/data440/assets/81893993/728d14a7-4946-4ed2-a1ef-006835d6fccf)
 
 ## Discussion
+The Girvan-Newman graph will most likely be different every time compared to just finding the group connections based on the edges being connected. The formula used to find the summation of all the betweenness is going to have an error associated with it. The error will affect the true results. The results are which edge to remove. 
 
 # References
-
-*Every report must list the references that you consulted while completing the assignment. If you consulted a webpage, you must include the URL.*
 
 * Reference 1, <https://docs.google.com/presentation/d/1Bey47wfUnBEy4O6j-T2X7y_bT0YNM6CN/edit#slide=id.p92>
 * Reference 2, <https://docs.google.com/presentation/d/1Bey47wfUnBEy4O6j-T2X7y_bT0YNM6CN/edit#slide=id.p91>
