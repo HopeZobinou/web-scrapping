@@ -86,7 +86,7 @@ Below are images of the graph after each iteration.
 
 
 ## Discussion
-
+When making the algorithm, I just copied the pseudo-code the professor gave us in the class slide-Reference 2. And I also had to look up the correct methods to use with networkx to get the values I needed. Like to get all the edges betweenness and to remove edges-Reference 3.
 
 
 # Q3
@@ -100,4 +100,5 @@ Below are images of the graph after each iteration.
 *Every report must list the references that you consulted while completing the assignment. If you consulted a webpage, you must include the URL.*
 
 * Reference 1, <https://docs.google.com/presentation/d/1Bey47wfUnBEy4O6j-T2X7y_bT0YNM6CN/edit#slide=id.p92>
-* Insert Reference 2, <https://www.example.com/reallyreallyreally-extra-long-URI/>
+* Reference 2, <https://docs.google.com/presentation/d/1Bey47wfUnBEy4O6j-T2X7y_bT0YNM6CN/edit#slide=id.p91>
+* Reference 3, <https://networkx.org/documentation/stable/tutorial.html> 
