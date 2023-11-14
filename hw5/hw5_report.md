@@ -28,6 +28,8 @@ plt.show()
 ```
 
 Below is an image of the graph before the split.
+
+
 ![before_split](https://github.com/HopeZobinou/data440/assets/81893993/74bc78f9-77fc-4e0f-a567-fbd77bd784da)
 
 ## Discussion
