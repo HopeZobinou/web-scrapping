@@ -38,6 +38,15 @@ each node based on them being in the 2 lists. Some of the nodes didn't get color
 labeled 17, 25, and 26 based on Slide 92-Reference 1. I labeled node 1 blue for Mr.Hi and node 34 red for John.
 
 # Q2 Use the Girvan-Newman algorithm to illustrate the split
+We know the final result of the Karate Club split, which you've colored in Q1. Use the Girvan-Newman algorithm to check if the split could have been predicted by the social interactions expressed by edges. How well does the mathematical model represent reality?  Generously document your answer with all supporting equations, code, graphs, arguments, etc.
+
+Keeping the node colors the same as they were in Q1, run multiple iterations of the Girvan-Newman graph partioning algorithm (see Module-07 Social Networks, slides 90-99) on the Karate Club graph until the graph splits into two connected components. Include an image of the graph after each iteration in your report.  
+
+Note: Implement the Girvan-Newman algorithm (See Module-07, slide 91) rather than relying on a built-in function which hide the intermediate steps. Narrate in your report, the workings of the Girvan-Newman algorithm.
+
+*Q: How many iterations did it take to split the graph?* 
+
+## Answer
 Below is my implementation of the Girvan-Newman algorithm.
 
 ```python
@@ -58,9 +67,6 @@ def girvan_newman_algorithm(G):
 
 G_components_split = girvan_newman_algorithm(G)
 ```
-
-## Answer
-
 ## Discussion
 
 # Q3
