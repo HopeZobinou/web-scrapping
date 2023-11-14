@@ -47,7 +47,7 @@ Note: Implement the Girvan-Newman algorithm (See Module-07, slide 91) rather tha
 *Q: How many iterations did it take to split the graph?* 
 
 ## Answer
-The mathematical model from the algorithm doesn't 100% represent reality. An algorithm with a formula involved (Compute betweenness centrality for edges) will always have an error associated with it especially since there is a summation in the formula. That is why the final result from the algorithm has a few nodes that are colored purple (belong to Mr.Hi's network) but are connected to John while being disconnected from Mr. Hi. It took 11 iterations to split the graph.
+The mathematical model from the algorithm doesn't 100% represent reality. An algorithm with a formula involved (Compute betweenness centrality for edges) will always have an error associated with it especially since there is a summation in the formula. That is why the final result from the algorithm has a few nodes that are colored purple (belong to Mr.Hi's network) but are connected to John while being disconnected from Mr. Hi. Another reason I can think of is that the formula takes into account how close nodes are to the target. 32, 9, and 3 are closer to John than Mr. Hi. It took 11 iterations to split the graph.
 
 Below is my implementation of the Girvan-Newman algorithm.
 
@@ -102,7 +102,7 @@ Below are images of the 2 graphs.
 ![graph_11i](https://github.com/HopeZobinou/data440/assets/81893993/728d14a7-4946-4ed2-a1ef-006835d6fccf)
 
 ## Discussion
-The Girvan-Newman graph will most likely be different every time compared to just finding the group connections based on the edges being connected. The formula used to find the summation of all the betweenness is going to have an error associated with it. The error will affect the true results. The results are which edge to remove. 
+The Girvan-Newman graph will most likely be different every time compared to just finding the group connections based on the edges being connected. The formula used to find the summation of all the betweenness is going to have an error associated with it. The error will affect the true results. The results are which edge to remove. The formula takes the node's distance from the target into consideration for betweenness. 
 
 # References
 
