@@ -11,9 +11,20 @@ Draw the original Karate club graph (before the split) and color the nodes accor
 
 
 ## Answer
-
+16 nodes go to John and 16 nodes go to Mr.Hi.
+Below is the code snippet used to split the nodes up by their connections.
 
 ```python
+nodes_connected_to_1 = list(G.neighbors(1))
+nodes_connected_to_34 = list(G.neighbors(34))
+list_of_nodes = list(G.nodes())
+node_colors = ['purple' if node in nodes_connected_to_1 else 'orange' if node in nodes_connected_to_34 else 'purple' 
+               if node == list_of_nodes[16] else 'orange' if node == list_of_nodes[25] else 'orange' if node == list_of_nodes[24] else 'grey' for node in G.nodes()]
+node_colors[0] = 'blue' #Mr. Hi (1) 16
+node_colors[33] = 'red' #John A (34) 16
+
+nx.draw_spring(G, with_labels = True, node_color = node_colors)
+plt.show()
 ```
 
 ## Discussion
