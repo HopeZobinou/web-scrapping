@@ -67,7 +67,13 @@ def girvan_newman_algorithm(G):
 
 G_components_split = girvan_newman_algorithm(G)
 ```
+Below are images of the graph after each iteration.
+
+
+
 ## Discussion
+
+
 
 # Q3
 
