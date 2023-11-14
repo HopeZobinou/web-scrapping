@@ -1,6 +1,6 @@
 # HW5 - Report
 ### Hope Zobinou  
-### DATA 440, Fall 2023
+### DATA 440, Fall 2023 
 ### 11/14/23
 
 # Q1. Color nodes based on final split 
