@@ -33,7 +33,9 @@ Below is an image of the graph before the split.
 ![before_split](https://github.com/HopeZobinou/data440/assets/81893993/74bc78f9-77fc-4e0f-a567-fbd77bd784da)
 
 ## Discussion
-
+After creating the graph with 'G = nx.karate_club_graph()' I remapped the nodes so instead of it being 0-33, it's 1-34. Next, I used the neighbors method to get the list of neighbors for Mr. Hi and John respectively. Once I got both of those lists I used list comprehension to label
+each node based on them being in the 2 lists. Some of the nodes didn't get colored so I manually
+labeled 17, 25, and 26 based on Slide 92-Reference 1. I labeled node 1 blue for Mr.Hi and node 34 red for John.
 
 # Q2
 
@@ -51,5 +53,5 @@ Below is an image of the graph before the split.
 
 *Every report must list the references that you consulted while completing the assignment. If you consulted a webpage, you must include the URL.*
 
-* Insert Reference 1, <https://www.example.com>
+* Reference 1, <https://docs.google.com/presentation/d/1Bey47wfUnBEy4O6j-T2X7y_bT0YNM6CN/edit#slide=id.p92>
 * Insert Reference 2, <https://www.example.com/reallyreallyreally-extra-long-URI/>
