@@ -37,7 +37,27 @@ After creating the graph with 'G = nx.karate_club_graph()' I remapped the nodes 
 each node based on them being in the 2 lists. Some of the nodes didn't get colored so I manually
 labeled 17, 25, and 26 based on Slide 92-Reference 1. I labeled node 1 blue for Mr.Hi and node 34 red for John.
 
-# Q2
+# Q2 Use the Girvan-Newman algorithm to illustrate the split
+Below is my implementation of the Girvan-Newman algorithm.
+
+```python
+def girvan_newman_algorithm(G):
+    G_copy = G.copy()
+    connected_components = [list(nx.connected_components(G_copy))] #A list of all the components of the graph
+
+    while G_copy.number_of_edges() > 0 and len(connected_components[-1]) != 2: #While the graph isn't already split in 2
+        all_edge_betweenness_values = nx.edge_betweenness_centrality(G_copy) #List of all the edges betweenness values
+        max_betweenness = max(all_edge_betweenness_values, key = all_edge_betweenness_values.get) #Gets the max betweenness value
+
+        G_copy.remove_edge(*max_betweenness)
+        connected_components.append(list(nx.connected_components(G_copy)))
+        nx.draw_spring(G_copy, with_labels = True, node_color = node_colors)
+        plt.show()
+
+    return connected_components
+
+G_components_split = girvan_newman_algorithm(G)
+```
 
 ## Answer
 
