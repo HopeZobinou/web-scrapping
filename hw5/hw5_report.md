@@ -69,6 +69,17 @@ G_components_split = girvan_newman_algorithm(G)
 ```
 Below are images of the graph after each iteration.
 
+![graph_1i](https://github.com/HopeZobinou/data440/assets/81893993/f56e8037-a724-4e11-85d2-ae003f23fd22)
+![graph_2i](https://github.com/HopeZobinou/data440/assets/81893993/dcc75eca-5511-410a-a6dc-e24f2bfc3f8b)
+![graph_3i](https://github.com/HopeZobinou/data440/assets/81893993/a0b22aa1-3482-41a4-a3eb-20e43954ab61)
+![graph_4i](https://github.com/HopeZobinou/data440/assets/81893993/e40deb58-47fc-4ac7-9bdd-a908155248b6)
+![graph_5i](https://github.com/HopeZobinou/data440/assets/81893993/b1b2c194-3e9e-41fc-a27d-2a1147860489)
+![graph_6i](https://github.com/HopeZobinou/data440/assets/81893993/35483e38-0286-4f9a-9664-a7490135e823)
+![graph_7i](https://github.com/HopeZobinou/data440/assets/81893993/f4861001-5924-4abd-be5a-aad047d39abc)
+![graph_8i](https://github.com/HopeZobinou/data440/assets/81893993/62b335cd-5a20-47d5-9600-8172bbedb435)
+![graph_9i](https://github.com/HopeZobinou/data440/assets/81893993/c0756b12-8421-4088-9f3b-059e8867bebf)
+![graph_10i](https://github.com/HopeZobinou/data440/assets/81893993/9395ed03-4965-4358-8ef7-741cee51f5bd)
+![graph_11i](https://github.com/HopeZobinou/data440/assets/81893993/728d14a7-4946-4ed2-a1ef-006835d6fccf)
 
 
 ## Discussion
