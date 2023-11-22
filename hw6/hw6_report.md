@@ -65,19 +65,17 @@ with sync_playwright() as playwright:
 
 This bot solves the problem of underground artists not having their music promoted for free and solves the problem of people wanting to find new music to listen to that isn't mainstream. The problem isn't a major one but it does make it convenient for consumers and artists especially when you follow the bot account and turn post notifications on. Consumers are introduced to new music by new up-and-coming artists and artists are getting their music promoted for free. The tweet per minute is for test purposes. Theoretically, it should be a tweet per hour or 2.    
 
-# Q2
+# Criteria 2. Originality/Innovation
+Express yourself, be creative. Alternatively, consider improving a [pre-existing solution](https://botwiki.org/bots/) or tool. Provide an argument in your report for the reason your Twitter bot is original or innovative.
 
 ## Answer
+My bot innovates what streaming services do when they recommend users new music within their app by being more consistent and providing a space for users to interact and talk about the music that is being recommended.
 
-## Discussion
+## Discussiong
+For Apple Music and SoundCloud, I don't rarely get recommended new music especially not through a push notification. Having a bot tweet you new music solves this because Twitter push notifications are more consistent when you have them on. Also when a song gets tweeted users are able to reply to the tweet with their opinions on the song. People can interact with each other under the tweet about the song being tweeted. Theoretically, if the Twitter account has a good amount of followers, artists having their music promoted for free beats artists paying shady rap new pages for promo. 
 
-# Q3
-
-## Answer
-
-## Discussion
 
 # References
 
 * Reference 1, <https://github.com/anwala/teaching-web-science/tree/main/fall-2023/week-3/twitter-scraper#example-3-post-a-tweet>
-* Insert Reference 2, <https://www.example.com/reallyreallyreally-extra-long-URI/>
+
