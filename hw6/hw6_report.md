@@ -18,11 +18,48 @@ Consider creating a bot to solve or partly solve a problem you care about --- ma
 
 ## Answer
 
+My bot tweets out a song (including the artists' name, genre, duration, and date) from an underground artist (that is in the hip-hip/rap genre or subgenre) every minute. This bot reads in a data frame with all the song info and it goes down the rows and tweets out each row. Below is the code I used to create the bot and pictures of the results. 
+
 ```python
+import os
+import time
+import pandas as pd
+import requests
+from datetime import datetime, timedelta
+from playwright.sync_api import sync_playwright
+from scrape_twitter import get_auth_twitter_pg
+from scrape_twitter import post_tweet
+from NwalaTextUtils.textutils import readTextFromFile
+
+#songs_path = 'c:/Users/hopez/Documents/Data440/Homework6/song_infos.csv'
+df = pd.read_csv('c:/Users/hopez/Documents/Data440/Homework6/song_infos.csv')
+
+def post_song_tweet(browser_dets, song_data):
+    song_info = f"🎵 {song_data['song name']} by {song_data['artist name']} ({song_data['genre']}) 🕒 Duration: {song_data['duration']} 📅 Released: {song_data['date']}"
+    
+    post_tweet(browser_dets, song_info)
+    print(f"Tweet posted: {song_info}")
+
+unsafe_cred_path = 'c:/Users/hopez/Documents/Data440/Homework6/twitter_creds.txt'
+twitter_account = 'xmcgeen'
+
+with sync_playwright() as playwright:
+    browser_dets = get_auth_twitter_pg(playwright, unsafe_cred_path=unsafe_cred_path)
+
+    if not browser_dets: #Testing of the account is real
+        print("Authentication Failed!") 
+        exit()
+
+    while True:
+        #Loops through the data frame and posts the tweets 
+        for _, row in df.iterrows():
+            post_song_tweet(browser_dets, row)
+            time.sleep(60) #Sleep for 1 min before next tweet
 ```
 
 ## Discussion
 
+This bot solves the problem of underground artists not having their music promoted for free and solves the problem of people wanting to find new music to listen to that isn't mainstream. The problem isn't a major one but it does make it convenient for consumers and artists especially when you follow the bot account and turn post notifications on. Consumers are introduced to new music by new up-and-coming artists and artists are getting their music promoted for free. The tweet per minute is for test purposes. Theoretically, it should be a tweet per hour or 2.    
 
 # Q2
 
