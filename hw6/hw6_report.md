@@ -71,7 +71,7 @@ Express yourself, be creative. Alternatively, consider improving a [pre-existing
 ## Answer
 My bot innovates what streaming services do when they recommend users new music within their app by being more consistent and providing a space for users to interact and talk about the music that is being recommended.
 
-## Discussiong
+## Discussion
 For Apple Music and SoundCloud, I don't rarely get recommended new music especially not through a push notification. Having a bot tweet you new music solves this because Twitter push notifications are more consistent when you have them on. Also when a song gets tweeted users are able to reply to the tweet with their opinions on the song. People can interact with each other under the tweet about the song being tweeted. Theoretically, if the Twitter account has a good amount of followers, artists having their music promoted for free beats artists paying shady rap new pages for promo. 
 
 
