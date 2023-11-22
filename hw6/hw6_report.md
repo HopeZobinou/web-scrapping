@@ -18,7 +18,7 @@ Consider creating a bot to solve or partly solve a problem you care about --- ma
 
 ## Answer
 
-My bot tweets out a song (including the artists' name, genre, duration, and date) from an underground artist (that is in the hip-hip/rap genre or subgenre) every minute. This bot reads in a data frame with all the song info and it goes down the rows and tweets out each row. Below is the code I used to create the bot and pictures of the results. 
+My bot tweets out a song (including the artists' name, genre, duration, and date) from an underground artist (that is in the hip-hip/rap genre or subgenre) every minute. This bot reads in a data frame with all the song info and it goes down the rows and tweets out each row. Below is the code I used to create the bot and pictures of the results. The code is based on the functions the professor provided-Reference 1. 
 
 ```python
 import os
@@ -75,5 +75,5 @@ This bot solves the problem of underground artists not having their music promot
 
 # References
 
-* Insert Reference 1, <https://www.example.com>
+* Reference 1, <https://github.com/anwala/teaching-web-science/tree/main/fall-2023/week-3/twitter-scraper#example-3-post-a-tweet>
 * Insert Reference 2, <https://www.example.com/reallyreallyreally-extra-long-URI/>
