@@ -1,7 +1,7 @@
 # HW6 - Title
 ### Hope Zobinou
 ### DATA 440, Fall 2023
-### Due Date
+### Due Dat
 
 # Q1
 
