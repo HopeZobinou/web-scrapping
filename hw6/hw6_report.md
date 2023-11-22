@@ -57,6 +57,10 @@ with sync_playwright() as playwright:
             time.sleep(60) #Sleep for 1 min before next tweet
 ```
 
+![hw6_terminal_pic](https://github.com/HopeZobinou/data440/assets/81893993/c1a7309a-f0ec-4c4b-836b-51b199d506d0)
+![tweets_pic2](https://github.com/HopeZobinou/data440/assets/81893993/1f57831f-7ea0-4527-9a53-e2f96cc24fb8)
+![tweets_pic](https://github.com/HopeZobinou/data440/assets/81893993/02ee8cb6-6114-45c1-a99f-6c92f3a67dd8)
+
 ## Discussion
 
 This bot solves the problem of underground artists not having their music promoted for free and solves the problem of people wanting to find new music to listen to that isn't mainstream. The problem isn't a major one but it does make it convenient for consumers and artists especially when you follow the bot account and turn post notifications on. Consumers are introduced to new music by new up-and-coming artists and artists are getting their music promoted for free. The tweet per minute is for test purposes. Theoretically, it should be a tweet per hour or 2.    
