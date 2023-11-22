@@ -2,7 +2,7 @@
 ### Hope Zobinou
 ### DATA 440, Fall 2023
 ### 11/21/2023
-
+ 
 # Q1
 
 ## Answer
