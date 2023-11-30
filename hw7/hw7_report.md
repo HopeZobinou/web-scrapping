@@ -68,6 +68,7 @@ Below are pictures of the process I took to get the user and the movie info.
 ![q1_finding_the_movies](https://github.com/HopeZobinou/data440/assets/81893993/a0089612-c589-4a1e-a603-33eec5a532b9)
 
 ## Discussion
+I opened the user, data, and item files in Notepad++. In those files, I used "control f" to search for the users and their top/bottom-ranked movies.  
 
 # Q2
 
