@@ -72,6 +72,12 @@ I opened the user, data, and item files in Notepad++. In those files, I used "co
 
 # Q2
 
+Based on the ratings that users have given to the movies, answer the following questions:
+
+* *A: Which 5 users are most correlated to the* substitute you *(i.e., which 5 users rate movies most similarly to the* substitute you?)
+* *B: Which 5 users are least correlated (i.e., negative correlation)?*
+
+
 ## Answer
 ```python
 ```
