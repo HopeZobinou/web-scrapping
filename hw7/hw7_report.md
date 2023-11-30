@@ -45,6 +45,20 @@ I am 21, male, and a student. The 3 users that are close to me based on age, gen
 | Murder at 1600 (1997)|
 | Money Talks (1997)|
 
+|| 259's top 3|||
+|---|---|---|---|
+|**Movie**|
+| Usual Suspects, The (1995)|
+| Apocalypse Now (1979)|
+| Titanic (1997)|
+
+|| 259's bottom 3|||
+|---|---|---|---|
+|**Movie**|
+| Mars Attacks! (1996)|
+| Beautiful Girls (1996)|
+| Full Monty, The (1997)|
+
 ```python
 ```
 ## Discussion
