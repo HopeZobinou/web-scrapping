@@ -64,8 +64,8 @@ I don't enjoy watching movies so I haven't a lot of movies. The only movies I re
 Below are pictures of the process I took to get the user and the movie info.
 
 ![q1_closest_users](https://github.com/HopeZobinou/data440/assets/81893993/d7ecbf85-83b3-4cd1-b8c5-12f037434a3c)
-![q1_finding_the_movies](https://github.com/HopeZobinou/data440/assets/81893993/a0089612-c589-4a1e-a603-33eec5a532b9)
 ![q1_looking_for_top_bottom_movies](https://github.com/HopeZobinou/data440/assets/81893993/5fbc06d7-cb59-4045-a5ee-e8fb720cb3e8)
+![q1_finding_the_movies](https://github.com/HopeZobinou/data440/assets/81893993/a0089612-c589-4a1e-a603-33eec5a532b9)
 
 ## Discussion
 
