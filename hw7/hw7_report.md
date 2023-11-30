@@ -59,14 +59,18 @@ I am 21, male, and a student. The 3 users that are close to me based on age, gen
 | Beautiful Girls (1996)|
 | Full Monty, The (1997)|
 
-```python
-```
+I don't enjoy watching movies so I haven't a lot of movies. The only movies I recognize are Godfather and Braveheart. Those 2 movies are in 323's top 3 rated movies. I like those movies as well. I don't know the movies in his bottom 3. 323 is most like me.
+
+Below are pictures of the process I took to get the user and the movie info.
+
+
 ## Discussion
 
 # Q2
 
 ## Answer
-
+```python
+```
 ## Discussion
 
 # Q3
