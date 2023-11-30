@@ -15,6 +15,12 @@ Based on the movie values in those 6 tables (3 users X (favorite + least favorit
 This user is the *substitute you*.  
 ## Answer
 
+I am 21, male, and a student. The 3 users that are close to me based on age, gender, and occupation are "81|21|M|student|21218", "323|21|M|student|19149", "259|21|M|student|48823." 
+
+81's top 3: Time to Kill, A (1996)|13-Jul-1996||http://us.imdb.com/M/title-exact?Time%20to%20Kill,%20A%20(1996)|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|0|0 
+          : Schindler's List (1993)|01-Jan-1993||http://us.imdb.com/M/title-exact?Schindler's%20List%20(1993)|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|0|1|0
+          : Silence of the Lambs, The (1991)|01-Jan-1991||http://us.imdb.com/M/title-exact?Silence%20of%20the%20Lambs,%20The%20(1991)|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|0|1|0|0
+
 ```python
 ```
 ## Discussion
