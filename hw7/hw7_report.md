@@ -17,14 +17,14 @@ This user is the *substitute you*.
 
 I am 21, male, and a student. The 3 users that are close to me based on age, gender, and occupation are "81|21|M|student|21218", "323|21|M|student|19149", "259|21|M|student|48823." 
 
-|81's top 3|
+||81's top 3||
 |---|---|---|---|
 |**Movie**|
 | Time to Kill, A (1996)|
 | Schindler's List (1993)|
 | Silence of the Lambs, The (1991)|
 
-| 81's bottom 3|
+|| 81's bottom 3||
 |---|---|---|---|
 |**Movie**|
 | |
