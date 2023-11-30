@@ -31,6 +31,20 @@ I am 21, male, and a student. The 3 users that are close to me based on age, gen
 | Father of the Bride Part II (1995)|
 | Beverly Hills Ninja (1997)|
 
+|| 323's top 3|||
+|---|---|---|---|
+|**Movie**|
+| Godfather, The (1972)|
+| Michael Collins (1996)|
+| Braveheart (1995)|
+
+|| 323's bottom 3|||
+|---|---|---|---|
+|**Movie**|
+| Jungle2Jungle (1997)|
+| Murder at 1600 (1997)|
+| Money Talks (1997)|
+
 ```python
 ```
 ## Discussion
