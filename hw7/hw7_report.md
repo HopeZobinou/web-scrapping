@@ -118,7 +118,12 @@ if __name__ == "__main__":
 
     print(find_correlated_users(user_ratings, '323'))
 ```
+Here is an image of the output
+
+![q2_output](https://github.com/HopeZobinou/data440/assets/81893993/d7d465bd-76fe-464c-87a4-0e62705f3a6d)
+
 ## Discussion
+I used the functions provided by the professor to build the backbone of the 2 functions I made-Reference 1. With the first function, I wanted to read in the data from the data file and load it into a dictionary so I could work with it like how it is in the example code. The next function just does list comprehension of calling sim_pearson and sorting them. Once the list is sorted you can get the top and bottom 5 by using "[:n]" and "[-n:]" respectively.   
 
 # Q3
 
@@ -128,5 +133,5 @@ if __name__ == "__main__":
 
 # References
 
-* Insert Reference 1, <https://www.example.com>
+* Reference 1, <https://github.com/anwala/teaching-web-science/blob/main/fall-2022/week-11/data_440_03_f22_mod_11_pci_ch_02.ipynb>
 * Insert Reference 2, <https://www.example.com/reallyreallyreally-extra-long-URI/>
