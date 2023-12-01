@@ -79,7 +79,44 @@ Based on the ratings that users have given to the movies, answer the following q
 
 
 ## Answer
+A: User 98, 88, 172, 571, 369
+B: User 375, 93, 358, 855, 845
+
+Below is the code I used to get the answer.
+
 ```python
+def load_data(file_path):
+    #Load data from a file .data file and return a dictionary of users and their ratings.
+    
+    ratings = {} #Holds the data in u.data line by line
+    with open(file_path, 'r') as file:
+        for line in file:
+            user, movie, rating, _ = line.split('\t') #Kkips the date part in the data
+            ratings.setdefault(user, {})
+            ratings[user][movie] = float(rating)
+    return ratings
+
+def find_correlated_users(prefs, target_user, n=5):
+    #Find the top n most and least correlated users to the target user.
+
+    scores = [(sim_pearson(prefs, target_user, other), other) for other in prefs if other != target_user]
+
+    # Sort based on similarity
+    scores.sort()
+    scores.reverse()
+
+    most_correlated = scores[:n]
+    least_correlated = scores[-n:]
+
+    return most_correlated, least_correlated
+
+if __name__ == "__main__":
+
+    user_ratings = load_data('c:/Users/hopez/Documents/Data440/Homework7/u.data')
+    #print(user_ratings)
+    #print(user_ratings.keys())
+
+    print(find_correlated_users(user_ratings, '323'))
 ```
 ## Discussion
 
