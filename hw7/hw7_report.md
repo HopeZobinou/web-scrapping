@@ -126,8 +126,60 @@ Here is an image of the output
 I used the functions provided by the professor to build the backbone of the 2 functions I made-Reference 1. With the first function, I wanted to read in the data from the data file and load it into a dictionary so I could work with it like how it is in the example code. The next function just does list comprehension of calling sim_pearson and sorting them. Once the list is sorted you can get the top and bottom 5 by using "[:n]" and "[-n:]" respectively.   
 
 # Q3
+Compute ratings for all the films that the *substitute you* has not seen.  
+
+Provide a list of the top 5 recommendations for films that the *substitute you* should see.  
+
+Provide a list of the bottom 5 recommendations (i.e., films the *substitute you* is almost certain to hate).
 
 ## Answer
+Top 5 films that user 323 should see: Swept from the Sea (1997), Scarlet Letter, The (1926), Germinal (1993), Line King: Al Hirschfeld, The (1996), Pompatus of Love, The (1996).
+
+Bottom 5 films user 323 would hate: Broken English (1996), Boys, Les (1997), Jerky Boys, The (1994), Awfully Big Adventure, An (1995), Last Summer in the Hamptons (1995).
+
+```python
+def get_unseen_movies(user_ratings, user): #Return a set of movies that the user has not yet rated.
+    seen_movies = user_ratings[user]
+    all_movies = set(movie for movies in user_ratings.values() for movie in movies)
+    return all_movies - set(seen_movies)
+
+def predict_ratings(user_ratings, target_user, similarity=sim_pearson): #Predicts ratings for all movies the target user hasn't seen, based on ratings from similar users
+    totals = {} #Keeps a running total of weighted ratings for each movie.
+    sim_sums = {} #Dictionary keeps track of the sum of the similarity scores for each movie that users similar to the target user have rated.
+
+    for other in user_ratings:
+        if other == target_user: #Skips the user itself
+            continue
+
+        sim = similarity(user_ratings, target_user, other)
+
+        for movie in user_ratings[other]:
+            if movie not in user_ratings[target_user]: #Only score movies target user hasn't seen
+                #Similarity * Score
+                totals.setdefault(movie, 0)
+                totals[movie] += user_ratings[other][movie] * sim
+
+                #Sum of similarities
+                sim_sums.setdefault(movie, 0)
+                sim_sums[movie] += sim
+
+    #Create the normalized list
+    #Weighted Avg = Weighted Total / Similarity Total 
+    rankings = [(total / sim_sums[movie], movie) for movie, total in totals.items()] 
+
+    return rankings
+
+if __name__ == "__main__":
+    unseen_movies = get_unseen_movies(user_ratings, '323')
+    rankings = predict_ratings(user_ratings, '323')
+
+    top_5_rec = sorted(rankings)[-5:]
+    bottom_5_rec = sorted(rankings)[:5]
+
+    print(top_5_rec)
+    print()
+    print(bottom_5_rec)
+```
 
 ## Discussion
 
