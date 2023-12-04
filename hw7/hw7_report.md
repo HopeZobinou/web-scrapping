@@ -182,8 +182,9 @@ if __name__ == "__main__":
 ```
 
 ## Discussion
+I made 2 functions to solve this. The first function just collects all the movies the user hasn't seen by subtracting a list of all the movies and the movies seen by the user. The second function calculates the ratings and sorts them. 2 dictionaries, (total) one that Keeps a running total of weighted ratings for each movie, and (sim_sums) keeps track of the sum of the similarity scores for each movie that users similar to the target user have rated. together bother can be used in the Weighted Avg = Weighted Total / Similarity Total formula-Reference 2.   
 
 # References
 
 * Reference 1, <https://github.com/anwala/teaching-web-science/blob/main/fall-2022/week-11/data_440_03_f22_mod_11_pci_ch_02.ipynb>
-* Insert Reference 2, <https://www.example.com/reallyreallyreally-extra-long-URI/>
+* Reference 2, <https://docs.google.com/presentation/d/1v-NjOb3ZFroOWbCMG-gQWQrqj6xKXWmh/edit#slide=id.p52>
