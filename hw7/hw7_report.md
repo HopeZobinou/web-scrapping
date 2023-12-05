@@ -238,6 +238,8 @@ Below is the code and output for this question.
     print(bottomMatches(movies, '455')) 
 ```
 
+![q4_output](https://github.com/HopeZobinou/data440/assets/81893993/e35ff5ce-84a7-47c8-add7-fd25db98340f)
+
 ## Discussion
 I agree with the recommendations given. The movie titles with an 'x' next to it, I disagree with its placement, and for the titles with a '\', I agree with the placement.
 
