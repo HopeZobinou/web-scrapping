@@ -184,6 +184,63 @@ if __name__ == "__main__":
 ## Discussion
 I made 2 functions to solve this. The first function just collects all the movies the user hasn't seen by subtracting a list of all the movies and the movies seen by the user. The second function calculates the ratings and sorts them. 2 dictionaries, (total) one that Keeps a running total of weighted ratings for each movie, and (sim_sums) keeps track of the sum of the similarity scores for each movie that users similar to the target user have rated. together bother can be used in the Weighted Avg = Weighted Total / Similarity Total formula-Reference 2.   
 
+# Q4
+Choose your (the real you, not the *substitute you*) favorite and least favorite film from the list of 1,682 movies in `u.item`.  
+For each film, generate a list of the top 5 most correlated and bottom 5 least correlated films. 
+
+*Q: Based on your knowledge of the resulting films, do you agree with the results?*  In other words, do you personally like/dislike the resulting films?  
+* If you have not heard of the recommended movies, search for the movie's trailer on YouTube and watch it before you answer.  If you do this, include the link to the trailer in your report.  For example, the [trailer for "Top Gun (1986)"](https://www.youtube.com/watch?v=xa_z57UatDY) was found by searching for "top gun 1986 trailer" on Google. 
+
+## Answer
+My favorite movie from this list is Harriet the Spy (1996). My least favorite movie from this list is Jackie Chan's First Strike (1996).
+
+Top 5 correlated to Harriet the Spy: Killing Zoe (1994), xDeath and the Maiden (1994), xOnce \Upon a Time in the West (1968), \Fearless (1993), \Selena (1997).
+
+Bottom 5 least correlated to Harriet the Spy: \Race the Sun (1996), \Widows' Peak (1994), \Dracula: Dead and Loving It (1995), Simple Twist of Fate, A (1994), \Shallow Grave (1994).
+
+Top 5 correlated to Jackie Chan's First Strike: \Underworld (1997), \Funny Face (1957), \To Live (Huozhe) (1994), \Two Bits (1995), \Loch Ness (1995).
+
+Bottom 5 least correlated to Jackie Chan's First Strike: \Horseman on the Roof, The (Hussard sur le toit, Le) (1995), \Misérables, Les (1995), xStrawberry and Chocolate (Fresa y chocolate) (1993), xTop Hat (1935), \Kissed (1996).
+
+["Trailer for Killing Zoe"] (https://www.youtube.com/watch?v=_tjzuutVnzs&t=5s)
+["Trailer for Death and the Maiden"] (https://www.youtube.com/watch?v=MxR1pHaMpcY&t=3s)
+["Trailer for Once Upon a Time in the West"] (https://www.youtube.com/watch?v=c8CJ6L0I6W8&t=84s)
+["Trailer for Fearless"] (https://www.youtube.com/watch?v=Tm5jBa4LzxQ&t=2s)
+["Trailer for Selena"] (https://www.youtube.com/watch?v=EVMSuZXEz4s&t=2s)
+
+["Trailer for Race the Sun"] (https://www.youtube.com/watch?v=tZ1CGEFd6kw)
+["Trailer for Widows' Peak"] (https://www.youtube.com/watch?v=_Z0NmfGwnUc)
+["Trailer for Dracula: Dead and Loving It"] (https://www.youtube.com/watch?v=ctsxTvTQUZI)
+["Trailer for Simple Twist of Fate"] (https://www.youtube.com/watch?v=Mt2__27L358)
+["Trailer for Shallow Grave"] (https://www.youtube.com/watch?v=m_kbECzNnnk)
+
+["Trailer for Underworld"] (https://www.youtube.com/watch?v=uuEu82y8u1o)
+["Trailer for Funny Face"] (https://www.youtube.com/watch?v=Hs6ASCq9YtY)
+["Trailer for To Live"] (https://www.youtube.com/watch?v=IhRgMU0wyB8)
+["Trailer for Two Bits"] (https://www.youtube.com/watch?v=I7iDEt9s2DA)
+["Trailer for Loch Ness"] (https://www.youtube.com/watch?v=L90001PVzec)
+
+["Trailer for Horseman on the Roof"] (https://www.youtube.com/watch?v=xFAD_lsdGAw)
+["Trailer for Misérables, Les"] (https://www.youtube.com/watch?v=DvP_b_0pcI0)
+["Trailer for Strawberry and Chocolate"] (https://www.youtube.com/watch?v=qWv7dKxWhz4)
+["Top Hat"] (https://www.youtube.com/watch?v=vbMpecOKoDY)
+["Trailer for Kissed"] (https://www.youtube.com/watch?v=AakbRH_71gE)
+
+Below is the code and output for this question.
+
+```python
+    movies = transformPrefs(user_ratings)
+
+    print(topMatches(movies, '929')) #Movie = Harriet the Spy (1996)
+    print(bottomMatches(movies, '929'))
+    print()
+    print(topMatches(movies, '455')) #Movie = Jackie Chan's First Strike (1996)
+    print(bottomMatches(movies, '455')) 
+```
+
+## Discussion
+I agree with the recommendations given. The movie titles with an 'x' next to it, I disagree with its placement, and for the titles with a '\', I agree with the placement.
+
 # References
 
 * Reference 1, <https://github.com/anwala/teaching-web-science/blob/main/fall-2022/week-11/data_440_03_f22_mod_11_pci_ch_02.ipynb>
