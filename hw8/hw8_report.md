@@ -17,8 +17,10 @@ Save the list of accounts (screen_names), one per line, in a text file named `ac
 *B: What topics/categories do the accounts belong to?  You don't need to specify a grouping for each account, but what general topics/categories will you expect to be revealed by the clustering? Provide a this list before generating your clusters*
 
 ## Answer
+The accounts I gathered belong to a few different categories. Those are pop culture/hip-hop news accounts, basketball, memes, and video games.   
 
 ## Discussion
+I obtained these accounts by scrolling down my for you page on Twitter and added the accounts that meet the Professor's requirements. 
 
 # Q2
 
