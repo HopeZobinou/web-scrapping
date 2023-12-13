@@ -38,7 +38,17 @@ Once `tweet_term_matrix.txt` has been generated, you can use it in place of `blo
 *C: Do the 500 most frequent terms make sense based on the accounts that you chose?*
 
 ## Answer
+A: 
+B: 
+C: Yes
+
 ```python
+#Loops over key, value pair in the dict 
+    filtered_counts = {word: count for word, count in sumcounts.items() if word in wordlist} #Filter out stopwords and keep only words in wordlist
+
+    sorted_words = sorted(filtered_counts.items(), key=lambda x: x[1], reverse=True) #Sort the words by frequency in descending order
+
+    popularlist = [word for word, count in sorted_words[:500]] #Select the top 500 words
 ```
 ## Discussion
 
