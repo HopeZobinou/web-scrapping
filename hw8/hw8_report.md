@@ -53,7 +53,7 @@ C: Yes
     popularlist = [word for word, count in sorted_words[:500]] #Select the top 500 words
 ```
 ## Discussion
-Since sumcounts holds all the words and frequencies, I used that as the backbone for this code snippet. I used dictionary comprehension to create a dictionary that will hold words and frequencies of sumcount but the stop words are filtered out. "If word in wordlist" is the condition that made it possible. Next I sorted the words from filtered_counts. filtered_counts.items() returns a list of tuples, where each tuple is a key-value pair (word and its count). The lambda part makes sure that it is being sorted by the second element in the tuple (count). Lastly, I stored the results from sorted_words in popularlist. 
+Since sumcounts holds all the words and frequencies, I used that as the backbone for this code snippet. I used dictionary comprehension to create a dictionary that will hold words and frequencies of sumcount but the stop words are filtered out-reference 1. "If word in wordlist" is the condition that made it possible. Next I sorted the words from filtered_counts. filtered_counts.items() returns a list of tuples, where each tuple is a key-value pair (word and its count). The lambda part makes sure that it is being sorted by the second element in the tuple (count). Lastly, I stored the results from sorted_words in popularlist. 
 
 # Q3
 
@@ -61,7 +61,14 @@ Since sumcounts holds all the words and frequencies, I used that as the backbone
 
 ## Discussion
 
+
+# Q4
+
+## Answer
+
+## Discussion
+
 # References
 
-* Reference 1, <>
+* Reference 1, <https://www.freecodecamp.org/news/dictionary-comprehension-in-python-dict-comprehensions-explained/>
 * Reference 2, <>
