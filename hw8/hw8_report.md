@@ -38,8 +38,10 @@ Once `tweet_term_matrix.txt` has been generated, you can use it in place of `blo
 *C: Do the 500 most frequent terms make sense based on the accounts that you chose?*
 
 ## Answer
-A: 
-B: 
+A: Generate_tweet_vector.py uses tweet_parser which uses scrape_twitter which uses playwright to navigate through each twitter account and collect tweets. Genereate_tweet_vector.py reads a list of accounts and it parses their account to collect a certain amount of tweets for every account on the list. Then It takes the tweets and removes links, tokenizes the tweet, and removes stop words. The words are put in dictionaries that describe their frequency and account usage. The dictionaries and lists are used to create the account-term matrix.   
+
+B: Filtered_counts is a dictionary that collects words that are in sumcounts and wordlist. Wordlist is a list of words that are not stopwords. Then sorted_words sorts the words that were previously filtered out. Popularlist is a list that stores the top 500 of the sorted_words. 
+
 C: Yes
 
 ```python
@@ -51,6 +53,7 @@ C: Yes
     popularlist = [word for word, count in sorted_words[:500]] #Select the top 500 words
 ```
 ## Discussion
+Since sumcounts holds all the words and frequencies, I used that as the backbone for this code snippet. I used dictionary comprehension to create a dictionary that will hold words and frequencies of sumcount but the stop words are filtered out. "If word in wordlist" is the condition that made it possible. Next I sorted the words from filtered_counts. filtered_counts.items() returns a list of tuples, where each tuple is a key-value pair (word and its count). The lambda part makes sure that it is being sorted by the second element in the tuple (count). Lastly, I stored the results from sorted_words in popularlist. 
 
 # Q3
 
