@@ -69,7 +69,14 @@ Below is the JPEG dendrogram.
 ## Discussion
 I used the code the professor provided to create the dendrogram-reference 2. I read in the twitter matrix file and used the clustering functions. 
 
-# Q4
+# Q4 - Cluster using k-Means
+Cluster the accounts using k-Means, using `k`=5,10,20 (see Module 12, slide 34).  For each value of `k`, create a file that lists the accounts in each cluster and upload to your GitHub repo.  
+
+*A: Give a brief explanation of how the k-Means algorithm operates on this data.  What features is the algorithm considering?*
+
+*B: How many iterations were required for each value of `k`?*
+
+*C: Which `k` value created the most reasonable clusters?  For that grouping, characterize the accounts that were clustered into each group.*
 
 ## Answer
 
