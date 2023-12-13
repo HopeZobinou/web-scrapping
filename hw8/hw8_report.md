@@ -3,7 +3,7 @@
 ### DATA 440, Fall 2023
 ### 12/7/2023
 
-# Q1
+# Q1 - Find Popular Twitter Accounts 
 Generate a list of at least 50 popular accounts on Twitter. The accounts must be verified, have 10,000+ followers, and have 5000+ tweets.  For example:
 * [`@acnwala`](https://twitter.com/acnwala) - is not verified, ~440 followers, ~3200 tweets - *don't include*
 * [`@williamandmary`](https://twitter.com/williamandmary) - verified (blue checkmark), 35,000+ followers, 9,000+ tweets - *could include*  
@@ -22,7 +22,20 @@ The accounts I gathered belong to a few different categories. Those are pop cult
 ## Discussion
 I obtained these accounts by scrolling down my for you page on Twitter and added the accounts that meet the Professor's requirements. 
 
-# Q2
+# Q2 - Create Account-Term Matrix
+Before we can run the clustering code from the PCI book, we have to build an account-term matrix (like the [blog-term matrix](https://github.com/arthur-e/Programming-Collective-Intelligence/blob/master/chapter3/blogdata.txt) in the Module 12 slides). Consider the Twitter accounts equivalent to blogs, and all account tweets, the words of the blog.
+
+Once complete, `generate_tweet_vector.py` will produce two files that you need to upload to your GitHub repo:
+* `popular_terms.txt` - the list (one per line) of the 500 most frequent terms in the tweets
+* `tweet_term_matrix.txt` - the generated account-term matrix
+
+Once `tweet_term_matrix.txt` has been generated, you can use it in place of `blogdata.txt` in the example code to complete the remaining parts of this assignment.
+
+*A: Explain the general operation of generate_tweet_vector.py and how the tweets are converted to the account-term matrix.*
+
+*B: Explain in detail the code that you added to filter for the 500 most frequent non-stopword terms.*
+
+*C: Do the 500 most frequent terms make sense based on the accounts that you chose?*
 
 ## Answer
 ```python
