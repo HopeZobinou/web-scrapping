@@ -55,7 +55,10 @@ C: Yes
 ## Discussion
 Since sumcounts holds all the words and frequencies, I used that as the backbone for this code snippet. I used dictionary comprehension to create a dictionary that will hold words and frequencies of sumcount but the stop words are filtered out-reference 1. "If word in wordlist" is the condition that made it possible. Next I sorted the words from filtered_counts. filtered_counts.items() returns a list of tuples, where each tuple is a key-value pair (word and its count). The lambda part makes sure that it is being sorted by the second element in the tuple (count). Lastly, I stored the results from sorted_words in popularlist. 
 
-# Q3
+# Q3 - Create Dendrogram
+Create an ASCII dendrogram *and* a JPEG dendrogram that uses hierarchical clustering to cluster the most similar accounts (see Module 12, slides 21, 23).  Include the JPEG in your report and upload the ASCII file to GitHub (it will be too unwieldy for inclusion in the report).
+
+*A: How well did the hierarchical clustering do in grouping similar accounts together?  Were there any particularly odd groupings?*
 
 ## Answer
 
