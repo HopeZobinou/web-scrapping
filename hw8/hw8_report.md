@@ -61,9 +61,13 @@ Create an ASCII dendrogram *and* a JPEG dendrogram that uses hierarchical cluste
 *A: How well did the hierarchical clustering do in grouping similar accounts together?  Were there any particularly odd groupings?*
 
 ## Answer
+The hierarchical clustering did a good job of grouping similar accounts together. The only odd grouping I see is charlieintel being grouped with meme twitter accounts. It should be grouped with video game new accounts like valorant, inteledl, fncompreport, and valorintel.
+
+Below is the JPEG dendrogram.
+![accountclust](https://github.com/HopeZobinou/data440/assets/81893993/4389b3db-39d3-4fea-b846-1374c10279a0)
 
 ## Discussion
-
+I used the code the professor provided to create the dendrogram-reference 2. I read in the twitter matrix file and used the clustering functions. 
 
 # Q4
 
@@ -74,4 +78,4 @@ Create an ASCII dendrogram *and* a JPEG dendrogram that uses hierarchical cluste
 # References
 
 * Reference 1, <https://www.freecodecamp.org/news/dictionary-comprehension-in-python-dict-comprehensions-explained/>
-* Reference 2, <>
+* Reference 2, <https://github.com/anwala/teaching-web-science/blob/main/fall-2022/week-12/data_440_03_f22_mod_12_pci_ch_03.ipynb>
