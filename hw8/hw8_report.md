@@ -79,8 +79,23 @@ Cluster the accounts using k-Means, using `k`=5,10,20 (see Module 12, slide 34).
 *C: Which `k` value created the most reasonable clusters?  For that grouping, characterize the accounts that were clustered into each group.*
 
 ## Answer
+A: 
+
+B: For k = 5, there were 7 iterations. For k = 10, there were 4 iterations. For k = 20, there were 3 iterations.
+
+C: K = 10 created the most reasonable clusters. Cluster 0 has pop/hiphop culture news accounts, cluster 1 has meme twitter accounts, cluster 2 has nba/basketball accounts, cluster 3 has more popular meme accounts, cluster 4 has nba accounts, cluster 5 has hip hop culture news accounts, cluster 6 has gaming news accounts, cluster 7 has basketball accounts, cluster 8 has a call of duty league news account, and cluster 9 has more popular basketball accounts.
+
+Below is the code I used to get my results.
+
+```python
+kclust = kcluster(data, k = 5)
+
+for i in range(5):
+    print("Cluster", i , ": " , [accounts[r] for r in kclust[i]])
+```
 
 ## Discussion
+I used the kcluster function to get my results. To print my results I made a for loop that would print out each account name in each cluster. copied the output and pasted it into a txt file. 
 
 # References
 
